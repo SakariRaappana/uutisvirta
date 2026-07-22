@@ -366,7 +366,8 @@
       if (el) el.textContent = days[d.getDay()] + ' ' + d.getDate() + '. ' + months[d.getMonth()] + ' ' + d.getFullYear();
 
       document.querySelectorAll('a[href]').forEach(function(a) {
-        if (a.href.startsWith('http')) {
+        var href = a.getAttribute('href');
+        if (href && href.startsWith('http')) {
           a.setAttribute('target', '_blank');
           a.setAttribute('rel', 'noopener');
         }
