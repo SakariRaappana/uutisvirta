@@ -1,0 +1,97 @@
+name: "Erä"
+slug: era
+
+# Lukijaprofiili — tämä teksti välitetään suoraan LLM:lle. Muokkaa vapaasti
+# luonnollisella kielellä kuvaamaan omaa taustaasi ja kiinnostuksesi kohdetta.
+profile: |
+  Olen kokenut suomalainen eränkävijä, vaeltaja, metsästäjä ja eräaiheinen
+  sisällöntuottaja. Pyörittelen Erätaidot.fi-palvelua, jossa julkaisen
+  verkkokursseja ja sisältöä eräaiheista. Teen YouTube-videoita pitkistä
+  erämaaretkistä ja metsästysretkistä dokumentaarityyliin.
+
+  Metsästys: kanalintumetsästys on ydinasia — metso, teeri, pyy. Seuraan
+  riistakeskuksen kanta-arvioita, riistakolmiolaskentoja, pienriistalupien
+  myyntiaikoja ja metsästysaikojen muutoksia. Kotialueitani ovat Pirkanmaa
+  ja Pohjois-Häme, mutta teen retkiä Lappiin, Kainuuseen, Pohjois-Karjalaan
+  ja Pohjois-Ruotsiin (Norrbotten). Hirvieläimet, valkohäntäpeura ja
+  metsäkauris kiinnostavat silloin, kun asia vaikuttaa käytännön metsästykseen
+  tai lupiin. Metsänhoidon vaikutukset kanalintujen elinympäristöihin ja
+  riistanhoito (riistapellot, kosteikot, pienpetopyynti) ovat käytännöllisesti
+  tärkeitä. Seuraan lyijyhauli- ja ammustarvikesääntelyä.
+
+  Vaellus ja arktiset retket: teen pitkiä erämaavaelluksia Lapin erämaa-alueilla
+  (Vätsäri, Hammastunturi, Käsivarsi, Kaldoaivi), Pohjois-Ruotsissa, Norjassa
+  ja Huippuvuorilla. Kiinnostavia kohteita ovat Jan Mayen, Grönlanti, Pohjois-
+  Kanada ja Alaska. Talvivaellus, hiihtovaellus, jäätikköolosuhteet ja packraft-
+  retket kuuluvat repertuaariini. Seuraan autiotupien, siltojen ja reittien
+  tilamuutoksia sekä uusia pitkiä reittejä.
+
+  Retkikuntaideat: tunnistan uutiset, joista voi syntyä uusi retkikunta tai
+  YouTube-sarja. Kiinnostavaa: vaikeasti saavutettavat alueet, bush plane /
+  vesitaso / laivapääsy, avautuvat luvat syrjäisille alueille, arktiset hankkeet
+  ja historialliset eränkäyntireitit.
+
+  Varusteet: suodatan voimakkaasti. Relevanttia on oikeasti uusi teknologia,
+  merkittävästi keventävä tai turvallisuutta parantava ratkaisu, satelliitti-
+  viestintä, lämpökamerat ja metsästysoptiikka sekä kamerakalusto (kamerat,
+  gimbaalit, dronet, akkuratkaisut) joka kestää viikon mittaisen erämaaretken.
+  Suosin riippumattomia kenttätestejä — en halua affiliate-listauksia.
+
+  Erätaidot.fi: seuraan eräalan trendejä, koulutustarvetta ja turvallisuusaukkoja.
+  Uutinen saa korkean prioriteetin, jos siitä voidaan johtaa verkkokurssi-,
+  videosarja- tai yhteistyökumppanuusidea.
+
+  En halua: aloittelijoille suunnattuja viikonloppuretkivinkkejä, geneerisiä
+  kansallispuistolistoja, julkkisuutisia tai luontouutisia joilla ei ole
+  yhteyttä käytännön toimintaani.
+
+rss_sources:
+  # Kotimaiset viranomais- ja järjestölähteet
+  - name: "Suomen riistakeskus"
+    url: "https://riista.fi/feed/"
+  - name: "Metsähallitus"
+    url: "https://www.metsa.fi/feed/"
+  - name: "Metsästäjäliitto"
+    url: "https://www.metsastajaliitto.fi/rss.xml"
+  - name: "Luonnonvarakeskus (Luke)"
+    url: "https://www.luke.fi/fi/feed"
+  - name: "Ilmatieteen laitos"
+    url: "https://www.ilmatieteenlaitos.fi/feed"
+  - name: "Suomen Latu"
+    url: "https://www.suomenlatu.fi/feed/"
+  # Erämedia
+  - name: "Erä-lehti"
+    url: "https://www.era.fi/feed/"
+  # Ruotsalaiset lähteet
+  - name: "Jakt & Jägare"
+    url: "https://www.jaktojagare.se/feed/"
+  # Kansainväliset metsästys
+  - name: "Outdoor Life"
+    url: "https://www.outdoorlife.com/feed/"
+  - name: "Rokslide"
+    url: "https://www.rokslide.com/feed/"
+  - name: "Backcountry Hunters & Anglers"
+    url: "https://www.backcountryhunters.org/news/feed/"
+  # Kotimaiset retkeily- ja eräblogit
+  - name: "Avotunturit"
+    url: "https://avotunturit.fi/feed/"
+  # wildadventuresnorth.fi ja arktinenklubi.fi — ei RSS-syötettä, seurattava manuaalisesti
+  # Retkikunnat ja arktinen
+  - name: "ExploresWeb"
+    url: "https://explorersweb.com/feed/"
+  - name: "Polar Journal"
+    url: "https://www.polarjournal.ch/feed/"
+
+newsapi_keywords:
+  - "grouse hunting Finland Norway Sweden"
+  - "wilderness expedition Arctic"
+  - "Jan Mayen Svalbard expedition"
+  - "backcountry hunting wilderness"
+  - "hunting wildlife population Scandinavia"
+  - "packraft canoe expedition wilderness"
+
+digest_config:
+  max_rss_items_per_source: 20
+  max_final_items: 35
+  language: fi
+  lookback_hours: 26

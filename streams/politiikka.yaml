@@ -1,0 +1,80 @@
+name: "Politiikka"
+slug: politiikka
+
+# Lukijaprofiili — tämä teksti välitetään suoraan LLM:lle.
+profile: |
+  Olen Suomessa asuva, taloudesta ja politiikasta kiinnostunut lukija. En halua
+  klikkiotsikoita, polarisointiretoriikkaa enkä tiedotusvälineiden omaa poliittista
+  agendaa — haluan tietää mitä oikeasti tapahtuu ja miksi se merkitsee.
+
+  Lähdeaineisto tulee kansainvälisiltä uutissivustoilta. Kirjoita suomenkielinen
+  analyyttinen yhteenveto näiden lähteiden pohjalta — älä koskaan kirjoita siitä
+  mitä suomalaiset mediat aiheesta sanovat, vaan kerro itse asia sellaisena kuin
+  kansainvälinen lehdistö sen raportoi.
+
+  Prioriteettijärjestys:
+
+  1. EU-tason päätöksenteko ja politiikka — Euroopan komissio, Euroopan parlamentti,
+     neuvoston päätökset, direktiivit, budjettineuvottelut, rakenteelliset muutokset
+     unionin toiminnassa. Tämä on tärkein seurattava alue, koska EU-päätökset
+     vaikuttavat Suomeen enemmän kuin Suomen sisäpolitiikka.
+
+  2. Suurten EU-maiden sisäpolitiikka — erityisesti Saksa ja Ranska, jotka
+     määrittävät EU:n suunnan. Lisäksi Ruotsi kiinnostaa erillisesti. Muista
+     keskeisistä maista (Italia, Espanja, Puola, Hollanti) vain isoimmat käänteen-
+     tekevät uutiset.
+
+  3. Britannia ja USA — vain merkittävimmät uutiset, jotka vaikuttavat Eurooppaan
+     tai maailmanpolitiikkaan laajemmin. Ei jokapäiväistä sisäpoliittista kohinaa.
+
+  Ohje analyysin tasosta: Kohdellaan lukijaa älykkäänä aikuisena joka ymmärtää
+  poliittiset peruskäsitteet. Ei "Mikä on EU?" -tason selityksiä. Sen sijaan:
+  mitkä intressit törmäävät, kuka hyötyy, mikä muuttuu käytännössä, mitä tämä
+  tarkoittaa pidemmällä aikavälillä.
+
+  Jos useampi artikkeli käsittelee samaa tapahtumaa tai kehityskulkua, yhdistä
+  ne yhdeksi syntetisoivaksi [TÄRKEÄ]-osioksi useiden erillisten lyhyiden mainintojen
+  sijaan. Yksi hyvä tilannekatsaus on parempi kuin viisi erillisartikkelia samasta
+  aiheesta.
+
+rss_sources:
+  - name: "Politico Europe"
+    url: "https://www.politico.eu/feed/"
+  - name: "EURACTIV"
+    url: "https://www.euractiv.com/feed/"
+  - name: "EUobserver"
+    url: "https://euobserver.com/rss.xml"
+  - name: "Der Spiegel International"
+    url: "https://www.spiegel.de/international/index.rss"
+  - name: "Deutsche Welle"
+    url: "https://rss.dw.com/rdf/rss-en-all"
+  - name: "France 24 — Europe"
+    url: "https://www.france24.com/en/europe/rss"
+  - name: "RFI English"
+    url: "https://www.rfi.fr/en/rss"
+  - name: "The Local Sweden"
+    url: "https://www.thelocal.se/feed/"
+  - name: "The Guardian — World"
+    url: "https://www.theguardian.com/world/rss"
+  - name: "BBC News — World"
+    url: "https://feeds.bbci.co.uk/news/world/rss.xml"
+  - name: "Reuters — World"
+    url: "https://feeds.reuters.com/reuters/worldNews"
+
+newsapi_keywords:
+  - "European Commission"
+  - "European Parliament"
+  - "EU summit"
+  - "Friedrich Merz"
+  - "Emmanuel Macron"
+  - "France politique"
+  - "Germany politics"
+  - "Sweden Riksdag"
+  - "NATO Europe"
+  - "EU budget"
+
+digest_config:
+  max_rss_items_per_source: 15
+  max_final_items: 40
+  language: fi
+  lookback_hours: 26

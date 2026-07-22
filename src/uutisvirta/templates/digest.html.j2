@@ -1,0 +1,57 @@
+{% extends "base.html.j2" %}
+{% block title %}{{ date }} — {{ stream.name }} — Uutisvirta{% endblock %}
+{% block content %}
+<div class="day-nav">
+  <span>{% if prev_date %}<a href="{{ prev_date }}.html">← {{ prev_date }}</a>{% endif %}</span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>{% if next_date %}<a href="{{ next_date }}.html">{{ next_date }} →</a>{% else %}&nbsp;{% endif %}</span>
+</div>
+
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">{{ stream.name }}</div>
+<h1>{{ date }}</h1>
+<p class="meta">
+  <span>{{ item_count }} uutista</span>
+  <span>{{ model }}</span>
+  <span>{{ input_tokens + output_tokens }} tokenia</span>
+</p>
+
+<div class="digest-body">
+{{ body_html | safe }}
+</div>
+
+<details>
+  <summary>Lähteet ({{ sources | length }})</summary>
+  <ul class="source-list">
+    {% for s in sources %}
+    <li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }}</a> <span style="color:var(--muted)">— {{ s.source_name }}</span></li>
+    {% endfor %}
+  </ul>
+</details>
+
+<script>
+(function () {
+  var body = document.querySelector('.digest-body');
+  if (!body) return;
+
+  // Wrap each h3 + its following content in a .deep-dive div
+  body.querySelectorAll('h3').forEach(function (h3) {
+    var div = document.createElement('div');
+    div.className = 'deep-dive';
+    h3.parentNode.insertBefore(div, h3);
+    div.appendChild(h3);
+    var next = div.nextSibling;
+    while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+      var n = next.nextSibling;
+      div.appendChild(next);
+      next = n;
+    }
+  });
+
+  // Apply brief-list class to all ul elements
+  body.querySelectorAll('ul').forEach(function (ul) {
+    ul.classList.add('brief-list');
+  });
+
+})();
+</script>
+{% endblock %}

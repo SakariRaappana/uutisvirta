@@ -1,0 +1,19 @@
+{% extends "base.html.j2" %}
+{% block title %}Uutisvirta{% endblock %}
+{% block content %}
+<h1>Uutisvirta</h1>
+<p class="meta"><span>Henkilökohtainen uutisdigestipalvelu</span></p>
+
+<div class="stream-grid">
+  {% for stream in all_streams %}
+  <div class="stream-card">
+    <h2><a href="{{ stream.slug }}/index.html">{{ stream.name }}</a></h2>
+    {% if stream.latest_date %}
+    <div class="last-updated">Viimeisin: <a href="{{ stream.slug }}/{{ stream.latest_date }}.html">{{ stream.latest_date }}</a></div>
+    {% else %}
+    <div class="last-updated">Ei vielä digestejä</div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

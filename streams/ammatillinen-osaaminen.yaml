@@ -1,0 +1,62 @@
+name: "Ammatillinen osaaminen"
+slug: ammatillinen-osaaminen
+
+# Lukijaprofiili — tämä teksti välitetään suoraan LLM:lle. Muokkaa vapaasti
+# luonnollisella kielellä kuvaamaan omaa taustaasi ja kiinnostuksesi kohdetta.
+profile: |
+  Olen Data Science -konsultti finanssialalla Suomessa. Rakennan tekoälyagentteja
+  pankkiasiakkaalle. Meillä on käytössä Azure-ekosysteemi: agentit tehdään
+  Microsoft Agent Frameworkilla (MAF) ja julkaistaan Docker-kontitettuna Azure
+  Container Appsiin. Kielimallit on deployattu Azure AI Foundryyn. MAF ja Foundry
+  ovat molemmat nopeasti kehittyviä ympäristöjä — seuraan erityisesti mitä
+  ominaisuuksia siirtyy Preview-tilasta GA-tilaan, ja mitä arkkitehtuurillisia
+  muutoksia Microsoftilta tulee. Asiakas harkitsee myös Microsoft Purview'n
+  laajempaa käyttöönottoa AI-datagovernancea varten.
+
+  Microsoftin ekosysteemin lisäksi olen kiinnostunut yleisesti tekoälyagenttien
+  arkkitehtuurista: miten eri agenttiframeworkit toimivat, miten agentit
+  kommunikoivat keskenään (MCP, A2A), mitä uusia malleja tai tutkimustuloksia
+  ilmestyy.
+
+  Vaatimustenmukaisuusnäkökulma on tärkeä: EU AI Act, GDPR ja finanssialan
+  erityissääntelyä koskevat päivitykset. Haluan pysyä kartalla siitä, mitä
+  compliance-vaatimuksia tulee voimaan ja milloin.
+
+  Pohdin myös omaa urakehitystäni: miten AI-konsultin rooli kehittyy lähivuosina,
+  mitä teknologioita ja taitoja kannattaa opiskella, miten lisätä omaa arvoa
+  neuvottelupöydässä.
+
+  Olen Python-ohjelmoija joka ymmärtää neuroverkkojen matematiikan syvällisesti.
+  En halua yksinkertaisia how-to-ohjeita — haluan ymmärtää arkkitehtuurilliset
+  perusteet ja strategisen kokonaiskuvan.
+
+rss_sources:
+  - name: "Azure Blog"
+    url: "https://azure.microsoft.com/en-us/blog/feed/"
+  - name: "Microsoft News"
+    url: "https://news.microsoft.com/feed/"
+  - name: "The Register — AI"
+    url: "https://www.theregister.com/software/ai_ml/headlines.atom"
+  - name: "Hacker News"
+    url: "https://news.ycombinator.com/rss"
+  - name: "MIT Technology Review — AI"
+    url: "https://www.technologyreview.com/feed/"
+  - name: "Microsoft Agent Framework Blog"
+    url: "https://devblogs.microsoft.com/agent-framework/feed/"
+  - name: "Microsoft Foundry Blog"
+    url: "https://devblogs.microsoft.com/foundry/feed/"
+
+newsapi_keywords:
+  - "Azure AI Foundry"
+  - "Microsoft Agent Framework"
+  - "EU AI Act"
+  - "AI agents architecture"
+  - "Microsoft Purview AI governance"
+  - "Azure Container Apps"
+  - "agentic AI"
+
+digest_config:
+  max_rss_items_per_source: 20
+  max_final_items: 30
+  language: fi
+  lookback_hours: 26
