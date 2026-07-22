@@ -234,6 +234,9 @@ def generate_digest(
 
     if not items:
         log.warning("No items for stream %s on %s — skipping LLM call", slug, date_str)
+        if force:
+            all_streams = _load_stream_nav(output_dir, stream_config)
+            _rebuild_stream_index(stream_config, stream_dir, output_dir, all_streams)
         return None
 
     client = get_client()
@@ -244,6 +247,9 @@ def generate_digest(
 
     if not tärkeat and not lyhyet:
         log.info("All items classified as 'ohita' for stream %s — skipping", slug)
+        if force:
+            all_streams = _load_stream_nav(output_dir, stream_config)
+            _rebuild_stream_index(stream_config, stream_dir, output_dir, all_streams)
         return None
 
     system_prompt = build_system_prompt(stream_config)
