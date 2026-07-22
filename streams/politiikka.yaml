@@ -10,7 +10,7 @@ profile: |
   Lähdeaineisto tulee kansainvälisiltä uutissivustoilta. Kirjoita suomenkielinen
   analyyttinen yhteenveto näiden lähteiden pohjalta — älä koskaan kirjoita siitä
   mitä suomalaiset mediat aiheesta sanovat, vaan kerro itse asia sellaisena kuin
-  kansainvälinen lehdistö sen raportoi.
+  kansainvälinen lehdistö tai viranomaislähteet sen raportoi.
 
   Prioriteettijärjestys:
 
@@ -20,7 +20,7 @@ profile: |
      vaikuttavat Suomeen enemmän kuin Suomen sisäpolitiikka.
 
   2. Suurten EU-maiden sisäpolitiikka — erityisesti Saksa ja Ranska, jotka
-     määrittävät EU:n suunnan. Lisäksi Ruotsi kiinnostaa erillisesti. Muista
+     määrittävät EU:n suunnan. Lisäksi Ruotsi ja Tanska kiinnostaa erillisesti. Muista
      keskeisistä maista (Italia, Espanja, Puola, Hollanti) vain isoimmat käänteen-
      tekevät uutiset.
 
@@ -28,8 +28,8 @@ profile: |
      tai maailmanpolitiikkaan laajemmin. Ei jokapäiväistä sisäpoliittista kohinaa.
 
   Ohje analyysin tasosta: Kohdellaan lukijaa älykkäänä aikuisena joka ymmärtää
-  poliittiset peruskäsitteet. Ei "Mikä on EU?" -tason selityksiä. Sen sijaan:
-  mitkä intressit törmäävät, kuka hyötyy, mikä muuttuu käytännössä, mitä tämä
+  poliittiset peruskäsitteet ja talouden mekanismit. Ei "Mikä on EU?" -tason selityksiä.
+  Sen sijaan: Mitkä intressit törmäävät, kuka hyötyy, mikä muuttuu käytännössä, mitä tämä
   tarkoittaa pidemmällä aikavälillä.
 
   Jos useampi artikkeli käsittelee samaa tapahtumaa tai kehityskulkua, yhdistä
@@ -61,12 +61,10 @@ rss_sources:
   - name: "Reuters — World"
     url: "https://feeds.reuters.com/reuters/worldNews"
 
-newsapi_keywords:
+keyword_searches:
   - "European Commission"
   - "European Parliament"
   - "EU summit"
-  - "Friedrich Merz"
-  - "Emmanuel Macron"
   - "France politique"
   - "Germany politics"
   - "Sweden Riksdag"

@@ -57,34 +57,40 @@ def _get_output_dir() -> Path:
 @click.option("--force", is_flag=True, help="Ylikirjoita olemassa oleva päivän digesti")
 @click.option("--stream", default=None, help="Aja vain tämä stream (slug)")
 @click.option("--open-browser", is_flag=True, help="Avaa tulos selaimessa ajon jälkeen")
-def main(dry_run: bool, force: bool, stream: str | None, open_browser: bool) -> None:
+@click.option("--fetch-only", is_flag=True, help="Hae artikkelit ja tulosta yhteenveto, älä kutsu LLM:ää")
+def main(dry_run: bool, force: bool, stream: str | None, open_browser: bool, fetch_only: bool) -> None:
     load_dotenv(PROJECT_ROOT / ".env")
 
     output_dir = _get_output_dir()
     output_dir.mkdir(parents=True, exist_ok=True)
 
     _setup_logging(output_dir)
-    log.info("Uutisvirta käynnistyy (dry_run=%s, force=%s)", dry_run, force)
+    log.info("Uutisvirta käynnistyy (dry_run=%s, force=%s, fetch_only=%s)", dry_run, force, fetch_only)
 
-    newsapi_key = os.environ.get("NEWSAPI_KEY") or None
     run_date = date.today()
 
-    configs = _load_stream_configs()
-    if not configs:
+    all_configs = _load_stream_configs()
+    if not all_configs:
         log.error("Ei stream-konfiguraatioita hakemistossa streams/")
         sys.exit(1)
 
     if stream:
-        configs = [c for c in configs if c.get("slug") == stream]
+        configs = [c for c in all_configs if c.get("slug") == stream]
         if not configs:
             log.error("Streami '%s' ei löydy", stream)
             sys.exit(1)
+    else:
+        configs = all_configs
+
+    if fetch_only:
+        _print_fetch_summary(configs)
+        return
 
     for cfg in configs:
         slug = cfg.get("slug", "unknown")
         log.info("--- Stream: %s ---", slug)
         try:
-            items = fetcher.fetch(cfg, newsapi_key=newsapi_key)
+            items = fetcher.fetch(cfg)
             log.info("Haettiin %d uutista streamille %s", len(items), slug)
             generator.generate_digest(
                 cfg, items, run_date, output_dir,
@@ -95,7 +101,7 @@ def main(dry_run: bool, force: bool, stream: str | None, open_browser: bool) -> 
 
     if not dry_run:
         try:
-            generator.build_master_index(configs, output_dir)
+            generator.build_master_index(all_configs, output_dir)
         except Exception as exc:
             log.error("Master-indeksin rakennus epäonnistui: %s", exc)
 
@@ -105,3 +111,41 @@ def main(dry_run: bool, force: bool, stream: str | None, open_browser: bool) -> 
         subprocess.run(["open", str(index_path)], check=False)
 
     log.info("Uutisvirta valmis.")
+
+
+def _print_fetch_summary(configs: list[dict]) -> None:
+    for cfg in configs:
+        slug = cfg.get("slug", "unknown")
+        name = cfg.get("name", slug)
+        print(f"\n=== {name} ({slug}) ===")
+
+        raw_items: list[fetcher.NewsItem] = []
+        cfg_digest = cfg.get("digest_config", {})
+        max_per_source = cfg_digest.get("max_rss_items_per_source", 20)
+        from datetime import datetime, timezone, timedelta
+        cutoff = datetime.now(tz=timezone.utc) - timedelta(hours=cfg_digest.get("lookback_hours", 26))
+
+        for source in cfg.get("rss_sources", []):
+            try:
+                items = fetcher._fetch_rss(source, cutoff, max_per_source)
+                print(f"  RSS: {source['name']} ({len(items)} kpl)")
+                for item in items[:3]:
+                    print(f"    • {item.title[:80]}")
+                raw_items.extend(items)
+            except Exception as exc:
+                print(f"  RSS: {source['name']} — VIRHE: {exc}")
+
+        for keyword in cfg.get("keyword_searches", []):
+            try:
+                source = {"name": f"Google News: {keyword}", "url": fetcher._google_news_url(keyword), "source_type": "google_news"}
+                items = fetcher._fetch_rss(source, cutoff, max_per_source)
+                print(f"  Google News: {keyword} ({len(items)} kpl)")
+                for item in items[:3]:
+                    print(f"    • {item.title[:80]}")
+                raw_items.extend(items)
+            except Exception as exc:
+                print(f"  Google News: {keyword} — VIRHE: {exc}")
+
+        deduped = fetcher._deduplicate(raw_items)
+        max_final = cfg_digest.get("max_final_items", 30)
+        print(f"\n  Yhteensä ennen deduplikointia: {len(raw_items)} | deduplikoinnin jälkeen: {len(deduped)} | rajattu: {min(len(deduped), max_final)}")

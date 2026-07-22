@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 import logging
+import urllib.parse
 from dataclasses import dataclass, field
 from datetime import datetime, timezone, timedelta
 from typing import Any
 
 import feedparser
-import httpx
 
 log = logging.getLogger(__name__)
 
@@ -18,10 +18,10 @@ class NewsItem:
     summary: str
     published_dt: datetime
     source_name: str
-    source_type: str  # "rss" | "newsapi"
+    source_type: str  # "rss" | "google_news"
 
 
-def fetch(stream_config: dict, newsapi_key: str | None = None) -> list[NewsItem]:
+def fetch(stream_config: dict) -> list[NewsItem]:
     cfg = stream_config.get("digest_config", {})
     lookback_hours = cfg.get("lookback_hours", 26)
     max_per_source = cfg.get("max_rss_items_per_source", 20)
@@ -39,25 +39,28 @@ def fetch(stream_config: dict, newsapi_key: str | None = None) -> list[NewsItem]
         except Exception as exc:
             log.warning("RSS fetch failed for %s: %s", source.get("name"), exc)
 
-    if newsapi_key:
-        for keyword in stream_config.get("newsapi_keywords", []):
-            try:
-                fetched = _fetch_newsapi(keyword, newsapi_key, cutoff)
-                items.extend(fetched)
-                log.info("NewsAPI '%s': %d items", keyword, len(fetched))
-            except Exception as exc:
-                log.warning("NewsAPI fetch failed for '%s': %s", keyword, exc)
-    else:
-        if stream_config.get("newsapi_keywords"):
-            log.info("NEWSAPI_KEY not set — skipping keyword searches")
+    for keyword in stream_config.get("keyword_searches", []):
+        try:
+            source = {"name": f"Google News: {keyword}", "url": _google_news_url(keyword), "source_type": "google_news"}
+            fetched = _fetch_rss(source, cutoff, max_per_source)
+            log.info("Google News '%s': %d items", keyword, len(fetched))
+            items.extend(fetched)
+        except Exception as exc:
+            log.warning("Google News fetch failed for '%s': %s", keyword, exc)
 
     items = _deduplicate(items)
+    before_paywall = len(items)
+    items = [i for i in items if not _is_likely_paywalled(i)]
+    dropped = before_paywall - len(items)
+    if dropped:
+        log.info("Filtered %d likely-paywalled items", dropped)
     items.sort(key=lambda x: x.published_dt, reverse=True)
     return items[:max_final]
 
 
 def _fetch_rss(source: dict, cutoff: datetime, max_items: int) -> list[NewsItem]:
     parsed = feedparser.parse(source["url"])
+    source_type = source.get("source_type", "rss")
     items = []
     for entry in parsed.entries[:max_items]:
         published = _parse_feed_date(entry)
@@ -75,39 +78,7 @@ def _fetch_rss(source: dict, cutoff: datetime, max_items: int) -> list[NewsItem]
             summary=summary,
             published_dt=published or datetime.now(tz=timezone.utc),
             source_name=source["name"],
-            source_type="rss",
-        ))
-    return items
-
-
-def _fetch_newsapi(keyword: str, api_key: str, cutoff: datetime) -> list[NewsItem]:
-    from_date = cutoff.strftime("%Y-%m-%dT%H:%M:%SZ")
-    resp = httpx.get(
-        "https://newsapi.org/v2/everything",
-        params={
-            "q": keyword,
-            "from": from_date,
-            "sortBy": "publishedAt",
-            "pageSize": 20,
-            "language": "en",
-        },
-        headers={"X-Api-Key": api_key},
-        timeout=15,
-    )
-    resp.raise_for_status()
-    data = resp.json()
-    items = []
-    for article in data.get("articles", []):
-        if article.get("title") in ("[Removed]", None, ""):
-            continue
-        published = _parse_iso(article.get("publishedAt", ""))
-        items.append(NewsItem(
-            title=article["title"].strip(),
-            url=article.get("url", ""),
-            summary=(article.get("description") or "")[:500],
-            published_dt=published or datetime.now(tz=timezone.utc),
-            source_name=article.get("source", {}).get("name", "NewsAPI"),
-            source_type="newsapi",
+            source_type=source_type,
         ))
     return items
 
@@ -165,3 +136,19 @@ def _parse_iso(s: str) -> datetime | None:
 def _strip_html(text: str) -> str:
     import re
     return re.sub(r"<[^>]+>", "", text).strip()
+
+
+_MIN_SUMMARY_CHARS = 150
+
+
+def _is_likely_paywalled(item: NewsItem) -> bool:
+    # Short summary is the primary signal: paywalled RSS entries contain only a teaser.
+    # Domain-based blocking is intentionally avoided — many sites mix free and paid content.
+    if len(item.summary.strip()) < _MIN_SUMMARY_CHARS:
+        return True
+    return False
+
+
+def _google_news_url(keyword: str) -> str:
+    q = urllib.parse.quote_plus(keyword)
+    return f"https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"

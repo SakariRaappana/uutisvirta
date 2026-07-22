@@ -12,8 +12,8 @@ profile: |
   Metsästys: kanalintumetsästys on ydinasia — metso, teeri, pyy. Seuraan
   riistakeskuksen kanta-arvioita, riistakolmiolaskentoja, pienriistalupien
   myyntiaikoja ja metsästysaikojen muutoksia. Kotialueitani ovat Pirkanmaa
-  ja Pohjois-Häme, mutta teen retkiä Lappiin, Kainuuseen, Pohjois-Karjalaan
-  ja Pohjois-Ruotsiin (Norrbotten). Hirvieläimet, valkohäntäpeura ja
+  ja Pohjois-Karjala, mutta teen retkiä Lappiin, Kainuuseen
+  ja Pohjois-Ruotsiin ja Norjaan. Hirvieläimet, valkohäntäpeura ja
   metsäkauris kiinnostavat silloin, kun asia vaikuttaa käytännön metsästykseen
   tai lupiin. Metsänhoidon vaikutukset kanalintujen elinympäristöihin ja
   riistanhoito (riistapellot, kosteikot, pienpetopyynti) ovat käytännöllisesti
@@ -24,7 +24,8 @@ profile: |
   ja Huippuvuorilla. Kiinnostavia kohteita ovat Jan Mayen, Grönlanti, Pohjois-
   Kanada ja Alaska. Talvivaellus, hiihtovaellus, jäätikköolosuhteet ja packraft-
   retket kuuluvat repertuaariini. Seuraan autiotupien, siltojen ja reittien
-  tilamuutoksia sekä uusia pitkiä reittejä.
+  tilamuutoksia sekä uusia pitkiä reittejä. Metsästyksen ja retkeilyn yhdistäminen
+  on erityisen kiinnostavaa.
 
   Retkikuntaideat: tunnistan uutiset, joista voi syntyä uusi retkikunta tai
   YouTube-sarja. Kiinnostavaa: vaikeasti saavutettavat alueet, bush plane /
@@ -34,7 +35,7 @@ profile: |
   Varusteet: suodatan voimakkaasti. Relevanttia on oikeasti uusi teknologia,
   merkittävästi keventävä tai turvallisuutta parantava ratkaisu, satelliitti-
   viestintä, lämpökamerat ja metsästysoptiikka sekä kamerakalusto (kamerat,
-  gimbaalit, dronet, akkuratkaisut) joka kestää viikon mittaisen erämaaretken.
+  dronet, akkuratkaisut) joka kestää viikon mittaisen erämaaretken.
   Suosin riippumattomia kenttätestejä — en halua affiliate-listauksia.
 
   Erätaidot.fi: seuraan eräalan trendejä, koulutustarvetta ja turvallisuusaukkoja.
@@ -82,7 +83,7 @@ rss_sources:
   - name: "Polar Journal"
     url: "https://www.polarjournal.ch/feed/"
 
-newsapi_keywords:
+keyword_searches:
   - "grouse hunting Finland Norway Sweden"
   - "wilderness expedition Arctic"
   - "Jan Mayen Svalbard expedition"

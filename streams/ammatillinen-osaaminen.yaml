@@ -5,13 +5,12 @@ slug: ammatillinen-osaaminen
 # luonnollisella kielellä kuvaamaan omaa taustaasi ja kiinnostuksesi kohdetta.
 profile: |
   Olen Data Science -konsultti finanssialalla Suomessa. Rakennan tekoälyagentteja
-  pankkiasiakkaalle. Meillä on käytössä Azure-ekosysteemi: agentit tehdään
-  Microsoft Agent Frameworkilla (MAF) ja julkaistaan Docker-kontitettuna Azure
-  Container Appsiin. Kielimallit on deployattu Azure AI Foundryyn. MAF ja Foundry
-  ovat molemmat nopeasti kehittyviä ympäristöjä — seuraan erityisesti mitä
+  finanssisektorille. Seuraan aktiivisesti Azure-ekosysteemiä: erityisesti
+  Microsoft Agent Frameworkia (MAF) ja Azure AI Foundrya. MAF ja Foundry ovat
+  molemmat nopeasti kehittyviä ympäristöjä — seuraan erityisesti mitä
   ominaisuuksia siirtyy Preview-tilasta GA-tilaan, ja mitä arkkitehtuurillisia
-  muutoksia Microsoftilta tulee. Asiakas harkitsee myös Microsoft Purview'n
-  laajempaa käyttöönottoa AI-datagovernancea varten.
+  muutoksia Microsoftilta tulee. Olen myös kiinnostunut Microsoft Purview'sta
+  AI-datagovernancea varten.
 
   Microsoftin ekosysteemin lisäksi olen kiinnostunut yleisesti tekoälyagenttien
   arkkitehtuurista: miten eri agenttiframeworkit toimivat, miten agentit
@@ -27,7 +26,7 @@ profile: |
   neuvottelupöydässä.
 
   Olen Python-ohjelmoija joka ymmärtää neuroverkkojen matematiikan syvällisesti.
-  En halua yksinkertaisia how-to-ohjeita — haluan ymmärtää arkkitehtuurilliset
+  En halua yksinkertaista tekoälyjargonia ja ympäripyöreitä lupauksia — haluan ymmärtää arkkitehtuurilliset
   perusteet ja strategisen kokonaiskuvan.
 
 rss_sources:
@@ -46,7 +45,7 @@ rss_sources:
   - name: "Microsoft Foundry Blog"
     url: "https://devblogs.microsoft.com/foundry/feed/"
 
-newsapi_keywords:
+keyword_searches:
   - "Azure AI Foundry"
   - "Microsoft Agent Framework"
   - "EU AI Act"

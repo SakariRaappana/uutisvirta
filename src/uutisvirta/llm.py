@@ -15,7 +15,14 @@ class LLMResponse:
 
 class LLMClient(ABC):
     @abstractmethod
-    def complete(self, system_prompt: str, user_prompt: str, max_tokens: int = 4096) -> LLMResponse:
+    def complete(
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        max_tokens: int = 4096,
+        model_override: str | None = None,
+        json_mode: bool = False,
+    ) -> LLMResponse:
         ...
 
 
@@ -25,9 +32,17 @@ class ClaudeClient(LLMClient):
         self._client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
         self._model = os.environ.get("ANTHROPIC_MODEL", "claude-opus-4-5")
 
-    def complete(self, system_prompt: str, user_prompt: str, max_tokens: int = 4096) -> LLMResponse:
+    def complete(
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        max_tokens: int = 4096,
+        model_override: str | None = None,
+        json_mode: bool = False,
+    ) -> LLMResponse:
+        model = model_override or self._model
         msg = self._client.messages.create(
-            model=self._model,
+            model=model,
             max_tokens=max_tokens,
             system=system_prompt,
             messages=[{"role": "user", "content": user_prompt}],
@@ -46,15 +61,26 @@ class OpenAIClient(LLMClient):
         self._client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
         self._model = os.environ.get("OPENAI_MODEL", "gpt-4o")
 
-    def complete(self, system_prompt: str, user_prompt: str, max_tokens: int = 4096) -> LLMResponse:
-        resp = self._client.chat.completions.create(
-            model=self._model,
+    def complete(
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        max_tokens: int = 4096,
+        model_override: str | None = None,
+        json_mode: bool = False,
+    ) -> LLMResponse:
+        model = model_override or self._model
+        kwargs: dict = dict(
+            model=model,
             max_tokens=max_tokens,
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
             ],
         )
+        if json_mode:
+            kwargs["response_format"] = {"type": "json_object"}
+        resp = self._client.chat.completions.create(**kwargs)
         choice = resp.choices[0]
         return LLMResponse(
             content=choice.message.content or "",
@@ -65,7 +91,7 @@ class OpenAIClient(LLMClient):
 
 
 def get_client() -> LLMClient:
-    provider = os.environ.get("LLM_PROVIDER", "claude").lower()
+    provider = os.environ.get("LLM_PROVIDER", "openai").lower()
     if provider == "claude":
         return ClaudeClient()
     elif provider == "openai":
