@@ -1,0 +1,109 @@
+# Workflow-tiedosto kertoo GitHub Actionsille MITÄ tehdä, MILLOIN ja MISSÄ.
+# Tiedoston sijainti .github/workflows/-kansiossa on pakollinen — Github löytää
+# kaikki workflowtiedostot automaattisesti tästä kansiosta.
+
+name: Daily Digest  # Tämä nimi näkyy Github Actions -välilehdellä
+
+# "on" määrittelee triggerit eli milloin workflow käynnistyy.
+on:
+  schedule:
+    # Cron-syntaksi: "minuutti tunti päivä kuukausi viikonpäivä"
+    # Tähdet (*) tarkoittavat "joka". Alla: klo 05:00 UTC joka päivä.
+    # UTC+2 (EET talvi) = 07:00, UTC+3 (EEST kesä) = 08:00 Helsingissä.
+    # Huom: Github Actions -ajastin on epätarkka, ±15 min viive on normaalia.
+    - cron: '0 5 * * *'
+  # workflow_dispatch sallii manuaalisen käynnistyksen Github-käyttöliittymästä.
+  # Löytyy: Actions-välilehti → "Daily Digest" → "Run workflow" -nappi.
+  # Hyödyllinen testaukseen ja tilanteisiin joissa automaattinen ajo epäonnistui.
+  workflow_dispatch:
+
+# Oletuksena Github Actions -ajolla on vain lukuoikeus repoon.
+# "contents: write" antaa ajolle oikeuden pushata gh-pages-haaraan.
+permissions:
+  contents: write
+
+# Jobs on varsinainen työ. Voi olla useita rinnakkaisia jobeja,
+# tässä riittää yksi nimeltä "generate".
+jobs:
+  generate:
+    # runs-on kertoo millä virtuaalikoneella ajo pyörii.
+    # "ubuntu-latest" on Githubilla pyörivä Linux-VM, joka käynnistyy
+    # puhtaana joka kerta — ei muistia edellisistä ajoista.
+    runs-on: ubuntu-latest
+
+    # Steps ovat peräkkäisiä komentoja. Jos yksi epäonnistuu, ajo pysähtyy.
+    steps:
+      # "uses" viittaa valmiiseen action-pakettiin Github Marketplacesta.
+      # actions/checkout@v4 on Githubin oma virallinen action, joka kloonaa
+      # repon virtuaalikoneelle. Ilman tätä koodi ei ole saatavilla.
+      # Oletuksena checkoutaa sen haaran, jolta workflow käynnistyi (main).
+      - name: Checkout koodi (main)
+        uses: actions/checkout@v4
+
+      # Toinen checkout samaan työtilaan, mutta eri haarasta.
+      # "ref: gh-pages" kertoo mikä haara checkataan.
+      # "path: output" tarkoittaa että tiedostot menevät ./output/-kansioon
+      # eikä juureen — muuten ne ylikirjoittaisivat kooditiedostot.
+      # Tämä on kriittinen temppu: Uutisvirta kirjoittaa output/-kansioon,
+      # joka on nyt suoraan gh-pages-haaran sisältö.
+      - name: Checkout gh-pages output/-kansioon
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: output
+
+      # actions/setup-python asentaa Pythonin virtuaalikoneelle.
+      # Ilman tätä steppiä VM:llä voi olla väärä Python-versio tai se puuttuu.
+      - name: Asenna Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # uv on nopea Python-paketinhallintaohjelma (korvaa pip:n tässä projektissa).
+      # "--system" asentaa pakettien suoraan VM:n globaaliin Python-ympäristöön
+      # eikä virtuaaliympäristöön, koska VM on jo itsessään eristetty.
+      # "-e ." asentaa tämän repon paketin "editable"-tilassa pyproject.toml:n mukaan,
+      # mikä tekee "uutisvirta"-komennosta käytettävissä olevan CLI-komennon.
+      - name: Asenna uv ja riippuvuudet
+        run: |
+          pip install uv
+          uv pip install --system -e .
+
+      # "env" asettaa ympäristömuuttujia vain tähän steppiin.
+      # ${{ secrets.NIMI }} viittaa Github Secretsiin — salattuun avainvarastoon.
+      # Secretien arvot eivät koskaan näy logeissa (Github peittää ne ***-merkinnöillä).
+      # Aseta secretit: repo → Settings → Secrets and variables → Actions.
+      - name: Aja Uutisvirta
+        env:
+          LLM_PROVIDER: openai
+          OPENAI_MODEL: gpt-4o
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: uutisvirta
+
+      # Tässä vaiheessa output/-kansio sisältää sekä vanhat gh-pages-tiedostot
+      # että Uutisvirran juuri generoimat uudet HTML:t.
+      # "working-directory: output" ajaa kaikki git-komennot output/-kansiossa,
+      # joka on gh-pages-haaran git-repo (erillinen main-haarasta).
+      - name: Commitoi ja pushi gh-pages
+        working-directory: output
+        run: |
+          # Aseta git-käyttäjätiedot tälle commitille.
+          # "github-actions[bot]" on konventio joka kertoo commitin olevan automaattinen.
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Lisää kaikki muuttuneet ja uudet tiedostot commitiin.
+          git add -A
+
+          # "git diff --staged --quiet" tarkistaa onko staged muutoksia.
+          # || tarkoittaa "jos edellinen epäonnistui, aja tämä".
+          # Eli: commitoi vain jos on jotain uutta — jos Uutisvirta ei generoinut
+          # mitään uutta (--force puuttuu ja päivän digesti on jo olemassa),
+          # ei tehdä tyhjää commitia.
+          # $(date -u +%Y-%m-%d) tulostaa päivämäärän muodossa 2026-07-22.
+          git diff --staged --quiet || git commit -m "Digest $(date -u +%Y-%m-%d)"
+
+          # Pushaa muutokset gh-pages-haaraan Githubiin.
+          # Tämä käynnistää automaattisesti Githubin oman "pages build and deployment"
+          # -workflown, joka julkaisee sivuston CDN:ään.
+          git push
