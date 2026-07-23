@@ -152,3 +152,21 @@ def _is_likely_paywalled(item: NewsItem) -> bool:
 def _google_news_url(keyword: str) -> str:
     q = urllib.parse.quote_plus(keyword)
     return f"https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
+
+
+def fetch_article_text(url: str, timeout: int = 8) -> str | None:
+    """Fetch and extract plain text from an article URL. Returns up to 3000 chars or None on failure."""
+    import urllib.request
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; Uutisvirta/1.0)"},
+        )
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            if "html" not in resp.headers.get("Content-Type", "").lower():
+                return None
+            raw = resp.read(60_000).decode("utf-8", errors="replace")
+        text = _strip_html(raw).strip()
+        return text[:3000] if len(text) >= 200 else None
+    except Exception:
+        return None

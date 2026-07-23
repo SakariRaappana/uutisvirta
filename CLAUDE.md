@@ -23,7 +23,7 @@ src/uutisvirta/   # Paketin lähdekoodi
   main.py         # CLI-sisääntulopiste (Click)
   fetcher.py      # Uutisten haku (RSS + Google News RSS) ja deduplikointi
   generator.py    # Promptien rakennus, LLM-kutsu, HTML-generointi
-  llm.py          # LLM-abstraktio (Claude / OpenAI)
+  llm.py          # LLM-client (OpenAI)
   templates/      # Jinja2-HTML-mallit
 output/           # Generoitu staattinen sivusto (git-ignorattu)
   index.html      # Master-indeksi kaikista streameista
@@ -38,7 +38,7 @@ logs/             # uutisvirta.log
 1. `main.py` lataa kaikki `streams/*.yaml`-konfiguraatiot
 2. Per stream: `fetcher.fetch()` hakee RSS + Google News RSS -hakusanat, deduplikoi URL:n ja otsikkosamankaltaisuuden perusteella (Jaccard ≥ 0.8), järjestää uuimmat ensin, katkaisee `max_final_items`-rajaan
 3. `generator.generate_digest()` tekee kaksi LLM-kutsua:
-   - **Vaihe 1 (luokittelu):** halvempi malli (gpt-4o-mini / haiku) luokittelee uutiset → tärkea/lyhyt/ohita
+   - **Vaihe 1 (luokittelu):** halvempi malli (`gpt-4o-mini`) luokittelee uutiset OpenAI Structured Outputs -skeemalla → tärkea/lyhyt/ohita + relevanssipisteytys
    - **Vaihe 2 (kirjoitus):** kalliimpi malli (gpt-4o) kirjoittaa analyysin vain tärkeistä uutisista (max 8192 output-tokenia)
 4. Renderöi Markdown → HTML Jinja2-templatella
 4. Kirjoittaa `output/<slug>/YYYY-MM-DD.html` ja päivittää stream-indeksin
@@ -59,23 +59,19 @@ Jokainen `streams/*.yaml` määrittelee yhden aihevirran:
 
 ### LLM-integraatio
 
-`llm.py` tarjoaa abstraktin `LLMClient`-rajapinnan kahdelle toteutukselle:
+`llm.py` tarjoaa `LLMClient`-luokan OpenAI SDK:n päälle. Provider on aina OpenAI; malli konfiguroidaan `OPENAI_MODEL`-ympäristömuuttujalla (oletus `gpt-4o`).
 
-- `ClaudeClient` — Anthropic SDK, oletuksena `claude-opus-4-5`
-- `OpenAIClient` — OpenAI SDK, oletuksena `gpt-4o`
+Luokitteluun käytetään halvempaa `gpt-4o-mini`-mallia OpenAI Structured Outputs -ominaisuudella, joka pakottaa JSON-skeeman API-tasolla — ei prompt-ohjauksella. Luokittelu tuottaa kolme kategoriaa sekä relevanssipisteytyksen:
 
-Provider valitaan `LLM_PROVIDER`-ympäristömuuttujalla (`claude` tai `openai`).
-
-LLM-prompti ohjaa mallin luokittelemaan jokaisen uutisen kolmeen kategoriaan:
-- `[SYVÄLLINEN]` — 350–500 sanan analyysi arkkitehtuurillisesta tai strategisesta merkityksestä
-- `[LYHYT]` — max 2 virkettä + URL
-- `[OHITA]` — jätetään kokonaan pois
+- `tärkea` — syvä analyysi, kokonaisteksti haetaan artikkelisivulta
+- `lyhyt` — lyhyt maininta + linkki
+- `ohita` — jätetään kokonaan pois
 
 ### Riippuvuudet
 
 Pakettinhallinta: **uv** (`pyproject.toml` + `uv.lock`). Python ≥ 3.11.
 
-Keskeiset kirjastot: `feedparser`, `pyyaml`, `jinja2`, `anthropic`, `openai`, `markdown-it-py`, `click`, `python-dotenv`.
+Keskeiset kirjastot: `feedparser`, `pyyaml`, `jinja2`, `openai`, `markdown-it-py`, `click`, `python-dotenv`.
 
 ## Kehitys ja ajaminen
 

@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import json
 import logging
-import os
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
@@ -17,10 +16,34 @@ log = logging.getLogger(__name__)
 
 _md = MarkdownIt()
 
-CLASSIFY_MODEL_OPENAI = "gpt-4o-mini"
-CLASSIFY_MODEL_CLAUDE = "claude-haiku-4-5-20251001"
+CLASSIFY_MODEL = "gpt-4o-mini"
+
+CLASSIFY_SCHEMA: dict = {
+    "type": "object",
+    "properties": {
+        "classifications": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "index":     {"type": "integer"},
+                    "category":  {"type": "string", "enum": ["tärkea", "lyhyt", "ohita"]},
+                    "relevance": {"type": "integer"},
+                    "geo_match": {"type": "boolean"},
+                },
+                "required": ["index", "category", "relevance", "geo_match"],
+                "additionalProperties": False,
+            },
+        }
+    },
+    "required": ["classifications"],
+    "additionalProperties": False,
+}
 
 TEMPLATES_DIR = Path(__file__).parent / "templates"
+
+
+_MAX_TÄRKEAT = 3
 
 
 def _strip_code_fence(text: str) -> str:
@@ -31,6 +54,53 @@ def _strip_code_fence(text: str) -> str:
         if stripped.endswith("```"):
             stripped = stripped[: stripped.rfind("```")].rstrip()
     return stripped
+
+
+def _parse_classify_json(raw: str, n_items: int) -> list[dict] | None:
+    """Parse and validate classification JSON. Returns list of entry dicts or None on any error."""
+    try:
+        outer = json.loads(_strip_code_fence(raw))
+    except json.JSONDecodeError:
+        return None
+    # Structured Outputs wraps the array in {"classifications": [...]}
+    data = outer.get("classifications") if isinstance(outer, dict) else None
+    if not isinstance(data, list):
+        return None
+    indices = {e["index"] for e in data if isinstance(e.get("index"), int)}
+    if indices != set(range(n_items)):
+        return None
+    return data
+
+
+def _apply_scoring(data: list[dict], items: list[NewsItem]) -> dict[str, str]:
+    """Apply relevance/geo_match filtering and hard caps; return {url: category}."""
+    entries = []
+    for e in data:
+        idx = e["index"]
+        cat = e.get("category", "lyhyt")
+        relevance = int(e.get("relevance", 3))
+        geo_match = bool(e.get("geo_match", True))
+        entries.append((idx, cat, relevance, geo_match))
+
+    # Demote low-relevance lyhyt items to ohita
+    entries = [
+        (i, "ohita" if cat == "lyhyt" and rel < 2 else cat, rel, geo)
+        for i, cat, rel, geo in entries
+    ]
+
+    # Keep only the top _MAX_TÄRKEAT by relevance (ties broken by lower index = more recent)
+    tärkeat_entries = sorted(
+        [(i, rel) for i, cat, rel, geo in entries if cat == "tärkea"],
+        key=lambda x: (-x[1], x[0]),
+    )
+    kept_tärkea_indices = {i for i, _ in tärkeat_entries[:_MAX_TÄRKEAT]}
+
+    result = {}
+    for idx, cat, rel, geo in entries:
+        if cat == "tärkea" and idx not in kept_tärkea_indices:
+            cat = "lyhyt"
+        result[items[idx].url] = cat
+    return result
 
 
 def _env(output_dir: Path) -> Environment:
@@ -65,9 +135,15 @@ Luokitukset:
 Luokittele VAIN annettujen tietojen (otsikko + tiivistelmä) perusteella. \
 Jos tiivistelmä on niin lyhyt, ettei sisällöstä voi sanoa mitään, luokittele "lyhyt" — älä arvaa sisältöä omasta tiedostasi.
 
-Palauta JSON-taulukko, yksi objekti per uutinen — käytä uutisen järjestysnumeroa (index):
-[{{"index": 0, "category": "tärkea|lyhyt|ohita"}}, ...]
-Ei muuta tekstiä — pelkkä JSON."""
+Arvioi myös jokainen uutinen kahdella lisäkentällä:
+- "relevance": kokonaisluku 1–5
+    5 = täsmää profiiliin maantieteellisesti ja aihepiiriltään suoraan
+    3 = yleisesti profiilin mukainen
+    1 = hyvin marginaalisesti liittyvä
+- "geo_match": true jos uutinen koskee profiilissa mainittua maantieteellistä aluetta, muuten false
+
+Palauta JSON-objekti muodossa {{"classifications": [{{"index": 0, "category": "...", "relevance": 3, "geo_match": true}}, ...]}}. \
+Yksi objekti per uutinen. Ei muuta tekstiä."""
 
 
 def build_classify_user_prompt(items: list[NewsItem]) -> str:
@@ -124,7 +200,12 @@ Artikkelin rakenne:
 Palauta pelkkä Markdown. Ei johdantoa, ei loppusanoja."""
 
 
-def build_user_prompt(tärkeat: list[NewsItem], lyhyet: list[NewsItem], run_date: date) -> str:
+def build_user_prompt(
+    tärkeat: list[NewsItem],
+    lyhyet: list[NewsItem],
+    run_date: date,
+    full_texts: dict[str, str] | None = None,
+) -> str:
     lines = [
         f"Tänään on {run_date.isoformat()}. "
         f"Alla on {len(tärkeat)} tärkeää uutista (syvä analyysi) ja "
@@ -137,8 +218,9 @@ def build_user_prompt(tärkeat: list[NewsItem], lyhyet: list[NewsItem], run_date
         for item in tärkeat:
             lines.append(f"### {item.title}")
             lines.append(f"Lähde: {item.source_name} | URL: {item.url}")
-            if item.summary:
-                lines.append(item.summary)
+            text = (full_texts or {}).get(item.url) or item.summary
+            if text:
+                lines.append(text)
             lines.append("---")
 
     if lyhyet:
@@ -157,43 +239,38 @@ def _classify_items(
     items: list[NewsItem],
     stream_config: dict,
     client: LLMClient,
-) -> dict[str, str]:
-    """Returns {url: category} where category is 'tärkea'|'lyhyt'|'ohita'."""
-    import os
-    provider = os.environ.get("LLM_PROVIDER", "openai").lower()
-    classify_model = CLASSIFY_MODEL_OPENAI if provider == "openai" else CLASSIFY_MODEL_CLAUDE
-
+) -> dict[str, str] | None:
+    """Returns {url: category} where category is 'tärkea'|'lyhyt'|'ohita', or None on failure."""
     system = build_classify_system_prompt(stream_config)
-    user = build_classify_user_prompt(items)
+    base_user = build_classify_user_prompt(items)
 
-    log.info("Classifying %d items with %s...", len(items), classify_model)
-    resp = client.complete(
-        system, user,
-        max_tokens=1024,
-        model_override=classify_model,
-    )
-    log.info("Classification done: %d in / %d out tokens", resp.input_tokens, resp.output_tokens)
+    log.info("Classifying %d items with %s...", len(items), CLASSIFY_MODEL)
 
-    try:
-        raw = _strip_code_fence(resp.content)
-        data = json.loads(raw)
-        # Map index → url for easy lookup in generate_digest
-        result = {}
-        for entry in data:
-            if "index" in entry and "category" in entry:
-                idx = entry["index"]
-                if 0 <= idx < len(items):
-                    result[items[idx].url] = entry["category"]
-        log.info(
-            "Classification: %d tärkea, %d lyhyt, %d ohita",
-            sum(1 for v in result.values() if v == "tärkea"),
-            sum(1 for v in result.values() if v == "lyhyt"),
-            sum(1 for v in result.values() if v == "ohita"),
+    for attempt in range(2):
+        user = base_user if attempt == 0 else (
+            base_user + "\n\nHUOM: Edellinen vastauksesi puuttui joitain indeksejä. "
+            f"Palauta kaikki {len(items)} uutista."
         )
-        return result
-    except Exception as exc:
-        log.warning("Classification JSON parse failed (%s) — treating all as 'lyhyt'", exc)
-        return {}
+        resp = client.complete(system, user, max_tokens=1536,
+                               model_override=CLASSIFY_MODEL,
+                               response_schema=CLASSIFY_SCHEMA)
+        log.info("Classification attempt %d: %d in / %d out tokens",
+                 attempt + 1, resp.input_tokens, resp.output_tokens)
+
+        data = _parse_classify_json(resp.content, len(items))
+        if data is not None:
+            result = _apply_scoring(data, items)
+            log.info(
+                "Classification ok: %d tärkea, %d lyhyt, %d ohita",
+                sum(1 for v in result.values() if v == "tärkea"),
+                sum(1 for v in result.values() if v == "lyhyt"),
+                sum(1 for v in result.values() if v == "ohita"),
+            )
+            return result
+        log.warning("Classification missing indices on attempt %d", attempt + 1)
+
+    log.error("Classification failed after 2 attempts — aborting digest")
+    return None
 
 
 def generate_digest(
@@ -242,8 +319,12 @@ def generate_digest(
     client = get_client()
 
     categories = _classify_items(items, stream_config, client)
+    if categories is None:
+        log.error("Aborting digest for stream %s: classification failed", slug)
+        return None
+
     tärkeat = [i for i in items if categories.get(i.url) == "tärkea"]
-    lyhyet = [i for i in items if categories.get(i.url, "lyhyt") == "lyhyt"]
+    lyhyet = [i for i in items if categories.get(i.url) == "lyhyt"]
 
     if not tärkeat and not lyhyet:
         log.info("All items classified as 'ohita' for stream %s — skipping", slug)
@@ -252,8 +333,17 @@ def generate_digest(
             _rebuild_stream_index(stream_config, stream_dir, output_dir, all_streams)
         return None
 
+    full_texts: dict[str, str] = {}
+    for item in tärkeat[:5]:
+        text = fetcher.fetch_article_text(item.url)
+        if text:
+            full_texts[item.url] = text
+            log.info("Full text fetched for '%s' (%d chars)", item.title[:60], len(text))
+        else:
+            log.debug("Full text unavailable for '%s'", item.title[:60])
+
     system_prompt = build_system_prompt(stream_config)
-    user_prompt = build_user_prompt(tärkeat, lyhyet, run_date)
+    user_prompt = build_user_prompt(tärkeat, lyhyet, run_date, full_texts=full_texts)
 
     log.info(
         "Writing digest for %s: %d tärkea, %d lyhyt items...",
