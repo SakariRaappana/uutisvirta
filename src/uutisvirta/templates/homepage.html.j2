@@ -128,9 +128,9 @@
     <a href="{{ section.stream_slug }}/index.html" class="stream-section-link">Kaikki uutiset →</a>
   </div>
 
-  {% if section.items %}
+  {% if section.news_items %}
   <ul class="news-cards">
-    {% for item in section.items %}
+    {% for item in section.news_items %}
     <li class="news-card">
       <div class="news-card-title">
         <a href="{{ item.source_url }}" target="_blank" rel="noopener">{{ item.title }}</a>

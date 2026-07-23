@@ -272,8 +272,8 @@ def build_homepage(
         {
             "stream_slug": slug,
             "stream_name": slug_to_name.get(slug, slug),
-            # Items excluding the featured one so it isn't double-shown
-            "items": [
+            # Use "news_items" not "items" — Jinja2 resolves dict.items (builtin method) before dict["items"]
+            "news_items": [
                 item for item in stream_items.get(slug, [])
                 if not (featured and item["title"] == featured["title"])
             ],
