@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
@@ -18,7 +19,7 @@ log = logging.getLogger(__name__)
 
 _md = MarkdownIt()
 
-CLASSIFY_MODEL = "gpt-4o-mini"
+CLASSIFY_MODEL = os.environ.get("CLASSIFY_MODEL", "gpt-5.4-mini")
 CLASSIFY_BATCH_SIZE = 10
 
 CLASSIFY_SCHEMA: dict = {
