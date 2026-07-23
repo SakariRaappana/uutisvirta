@@ -2,12 +2,22 @@
   "date": "2026-07-23",
   "stream_slug": "datascience-konsultointi",
   "stream_name": "Datascience konsultointi",
-  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Microsoft Foundry esitteli uuden ominaisuuden tekoälyagenttien rakentamiseen, joka hyödyntää “toolboxes”-työkaluja. Tämä parantaa agenttien toimintakykyä automatisoiduissa tehtävissä ja tarjoaa parempia työkaluja kehitykseen, mikä voi merkittävästi helpottaa tekoälyagenttien luontia ja implementointia eri projektien yhteyteen.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Building Agents that Act on Your Behalf with Toolboxes in Foundry</h3>\n<p>Microsoft Foundry on julkistanut artikkelissaan uuden toimintatavan, jossa tekoälyagentit voidaan rakentaa tehokkaammin hyödyntämällä niin sanottuja &quot;toolboxes&quot;-työkaluja. Tämä uusi ominaisuus on suunniteltu helpottamaan agenttien toimintojen automatisointia, mikä mahdollistaa agenttien toimimisen entistä itsenäisemmin käyttäjän puolesta. Toolboxes tarjoaa valmiiksi rakennettuja komponentteja ja sovelluksia, joita kehittäjät voivat hyödyntää vähentäen näin tarvetta rakentaa kaikkea alusta asti. Lisäksi uusi toiminnallisuus tukee keskeisiä MCP-protokollia (Multi-Agent Communication Protocol), joka parantaa agenttien välistä kommunikaatiota. Tämä on osa Foundryn jatkuvaa pyrkimystä tehostaa ja yksinkertaistaa agenttikehitystä, ja se voi tuoda merkittäviä parannuksia tekoälyhankkeiden toteutukseen finanssialalla ja muuallakin. <strong><a href=\"https://devblogs.microsoft.com/foundry/building-agents-that-act-on-your-behalf-with-toolboxes-in-foundry/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<p>Tänään ei ole lyhyitä mainintoja.</p>\n",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään ei julkaistu merkittäviä uutisia tekoälyarkkitehtuuriin tai Microsoftin ekosysteemiin liittyen, mutta lyhyessä uutisessa käsitellään Foundry-työkalupakettien uusimpia ominaisuuksia ja niiden vaikutusta agenttien toimintaan käyttäjien puolesta.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>Ei tärkeitä uutisia tälle päivälle.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Microsoft Foundry Blogissa käsitellään, miten työkalupaketit Foundryssa yksinkertaistavat käyttäjien puolesta toimimista agenteilla. Artikkeli käsittelee, kuinka agentit voivat siirtyä pelkästään kysymyksiin vastaamisesta aktiiviseen toimintaan ja mitä se tarkoittaa agentin toiminnan identiteetille. <a href=\"https://devblogs.microsoft.com/foundry/building-agents-that-act-on-your-behalf-with-toolboxes-in-foundry/\">Lue lisää</a></li>\n</ul>\n",
   "item_count": 1,
   "model": "gpt-4o-2024-08-06",
-  "input_tokens": 1788,
-  "output_tokens": 404,
+  "input_tokens": 1038,
+  "output_tokens": 217,
   "sources": [
+    {
+      "title": "The Download: energy transmission and US threats against Chinese AI",
+      "url": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "How AI helps scientists design the next generation of medicines",
+      "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
+      "source_name": "MIT Technology Review — AI"
+    },
     {
       "title": "The power line that could reshape New York’s grid is hitting snags",
       "url": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/",

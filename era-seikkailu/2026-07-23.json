@@ -2,12 +2,17 @@
   "date": "2026-07-23",
   "stream_slug": "era-seikkailu",
   "stream_name": "Erä & seikkailu",
-  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Päivän uutisissa keskiössä on Pennsylvaniassa tehty oikeuden päätös, joka asettui metsästyskerhojen puolelle. Päätös kieltää riistavalvojien valvontatoimet yksityisillä alueilla ilman erillistä oikeuden lupaa. Tällä on merkittäviä vaikutuksia metsästysteollisuuteen ja yksityisomaisuuden suojeluun.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Pennsylvanian oikeus voittaa metsästyskerhot valvontasäännöissä</h3>\n<p>Pennsylvaniassa oikeusistuin on tehnyt merkittävän päätöksen, joka kieltää riistavalvojien valvonnan yksityisillä alueilla ilman oikeuden antamaa lupaa. Tämä ratkaisu tulee pitkäaikaisen oikeusjutun jälkeen, jossa vastakkain olivat yksityisomaisuuden oikeudet ja riistavalvonta. Päätöksellä on tarkoitus suojella maanomistajien yksityisyyttä, sillä aiemmin riistavalvojat ovat voineet toimia epätavanomaisesti ilman erillisiä lupia.</p>\n<p>Metsästyskerhot ja maanomistajat ovat tyytyväisiä päätökseen ja katsovat sen olevan voitto yksityisomaisuuden suojelemiseksi. He argumentoivat, että ilman tällaista suojaa heidän maillaan olisi jatkuvasti vailla lupaa operoivia viranomaisia, mikä voisi johtaa väärinkäsityksiin ja maansa perusteettomaan tutkimiseen.</p>\n<p>Toisaalta päätös aiheuttaa huolta riistavalvonta ja lainsäädäntötoimia kannattavien keskuudessa, jotka näkevät valvonnan yksityismailla tärkeäksi osaksi luonnonsuojelua ja metsästyslakien valvomista. Tämä uutinen korostaa metsäsalouden ja yksityisen maanomistuksen välillä vallitsevia jännitteitä, jotka todennäköisesti säilyvät meneillään olevana keskusteluna.</p>\n<p><strong><a href=\"https://www.outdoorlife.com/conservation/pennsylvania-rules-against-game-wardens/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<p>Tänään ei ole muita lyhytmainintoja.</p>\n",
-  "item_count": 1,
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään metsästykseen liittyvät uutiset tarjoavat tietoa erävarusteiden testituloksista ja oikeudellisista päätöksistä Yhdysvalloissa. Testeissä esiteltiin erilaisia jahtireppuja, kun taas oikeus päätti Pennsylvaniassa yksityisten metsästyskerhojen eduksi pelivalvojia vastaan.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>We Tested the Best Backpacks for Elk Hunting</strong>: Outdoor Life testasi erilaisia hirvijahtireppuja, vaihdellen kevyistä päiväretkirepuista aina suuriin 7,000 kuutiotuumaisiin retkikunta-laukkuihin. Testit mittasivat kantokapasiteettia sekä kevyillä että raskailla kuormilla. <a href=\"https://www.outdoorlife.com/gear/best-elk-hunting-backpacks-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Pennsylvania Court Rules in Favor of Hunting Clubs, Against Game Warden Surveillance on Private Property</strong>: Pennsylvanian tuomioistuin on päättänyt merkittävässä yksityisomaisuutta koskevassa tapauksessa metsästyskerhojen hyväksi pelivalvojien perustelemattomia kotietsintöjä vastaan. Päätös koskee kahden yksityisen metsästyskerhon aluetta. <a href=\"https://www.outdoorlife.com/conservation/pennsylvania-rules-against-game-wardens/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
   "model": "gpt-4o-2024-08-06",
-  "input_tokens": 2201,
-  "output_tokens": 511,
+  "input_tokens": 1505,
+  "output_tokens": 342,
   "sources": [
+    {
+      "title": "We Tested the Best Backpacks for Elk Hunting",
+      "url": "https://www.outdoorlife.com/gear/best-elk-hunting-backpacks-2026/",
+      "source_name": "Outdoor Life"
+    },
     {
       "title": "AI Animal Videos & Photos Are Affecting How We View Wildlife: Study",
       "url": "https://explorersweb.com/ai-animal-videos-photos-are-affecting-how-we-view-wildlife-study/",
@@ -34,23 +39,5 @@
       "source_name": "Outdoor Life"
     }
   ],
-  "homepage_candidates": [
-    {
-      "title": "Pennsylvania Court Rules in Favor of Hunting Clubs, Against Game Warden Surveillance on Private Property",
-      "source_name": "Outdoor Life",
-      "source_url": "https://www.outdoorlife.com/conservation/pennsylvania-rules-against-game-wardens/",
-      "published_at": "2026-07-22T20:48:56+00:00",
-      "summary": "Two private hunting clubs have won a landmark private property rights case against warrantless searches by game wardens on posted property\nThe post Pennsylvania Court Rules in Favor of Hunting Clubs, Against Game Warden Surveillance on Private Property appeared first on Outdoor Life.",
-      "why_relevant": "Tämä päätös voi vaikuttaa metsästysoikeuksiin ja -käytäntöihin myös muualla, mikä on tärkeää eränkävijöille.",
-      "homepage_eligible": true,
-      "homepage_score": 85,
-      "keep_days": 4,
-      "personal_relevance": 5,
-      "strategic_importance": 4,
-      "actionability": 4,
-      "novelty": 3,
-      "event_key": "pennsylvania-hunting-clubs-case",
-      "category": "tärkea"
-    }
-  ]
+  "homepage_candidates": []
 }
