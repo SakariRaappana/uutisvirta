@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ammatillinen osaaminen — Uutisvirta</title>
+  <title>Datascience konsultointi — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -297,6 +297,62 @@
     }
     .source-list a { color: var(--accent); text-decoration: none; }
     .source-list a:hover { text-decoration: underline; }
+
+    /* ── DAY SECTION (collapsible per-day digest) ── */
+    .day-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .day-section > summary {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+      text-transform: none;
+      padding: 1.25rem 0 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+    .day-section > summary::-webkit-details-marker { display: none; }
+    .day-section > summary::after {
+      content: "▾";
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .day-section:not([open]) > summary::after { content: "▸"; }
+    .day-section-body { padding-bottom: 2.5rem; }
+
+    /* ── ARCHIVE SECTION ────────────────────── */
+    .archive-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .archive-section > summary {
+      padding: 0.9rem 0;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .archive-section > summary::-webkit-details-marker { display: none; }
+    .archive-list--plain { border-top: none; margin-top: 0.25rem; }
+
+    /* ── DAY SPACER ─────────────────────────── */
+    .day-spacer {
+      height: 0;
+      border: none;
+    }
   </style>
 </head>
 <body>
@@ -308,14 +364,14 @@
     <div class="nav-strip">
       <nav>
         
-        <a href="../ammatillinen-osaaminen/index.html"
+        <a href="../datascience-konsultointi/index.html"
            class="active">
-          Ammatillinen osaaminen
+          Datascience konsultointi
         </a>
         
-        <a href="../era/index.html"
+        <a href="../era-seikkailu/index.html"
            >
-          Erä
+          Erä & seikkailu
         </a>
         
         <a href="../politiikka/index.html"
@@ -328,23 +384,77 @@
   </header>
   <main class="page">
     
-<h1>Ammatillinen osaaminen</h1>
-<p class="meta"><span>2 julkaisua</span></p>
+<h1>Datascience konsultointi</h1>
 
 
-<ul class="archive-list">
-  
-  <li>
-    <span class="date">2026-07-23</span>
-    <a href="2026-07-23.html">2026-07-23</a>
-  </li>
-  
-  <li>
-    <span class="date">2026-07-22</span>
-    <a href="2026-07-22.html">2026-07-22</a>
-  </li>
-  
-</ul>
+
+
+
+<details class="day-section" open>
+  <summary>2026-07-23</summary>
+  <div class="day-section-body">
+    
+    <p class="meta">
+      <span>1 uutista</span>
+      <span>gpt-4o-2024-08-06</span>
+    </p>
+    
+    <div class="digest-body"><h2>Päivän yhteenveto</h2>
+<p>Tänään Microsoft Foundry esitteli uuden ominaisuuden tekoälyagenttien rakentamiseen, joka hyödyntää “toolboxes”-työkaluja. Tämä parantaa agenttien toimintakykyä automatisoiduissa tehtävissä ja tarjoaa parempia työkaluja kehitykseen, mikä voi merkittävästi helpottaa tekoälyagenttien luontia ja implementointia eri projektien yhteyteen.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>Building Agents that Act on Your Behalf with Toolboxes in Foundry</h3>
+<p>Microsoft Foundry on julkistanut artikkelissaan uuden toimintatavan, jossa tekoälyagentit voidaan rakentaa tehokkaammin hyödyntämällä niin sanottuja &quot;toolboxes&quot;-työkaluja. Tämä uusi ominaisuus on suunniteltu helpottamaan agenttien toimintojen automatisointia, mikä mahdollistaa agenttien toimimisen entistä itsenäisemmin käyttäjän puolesta. Toolboxes tarjoaa valmiiksi rakennettuja komponentteja ja sovelluksia, joita kehittäjät voivat hyödyntää vähentäen näin tarvetta rakentaa kaikkea alusta asti. Lisäksi uusi toiminnallisuus tukee keskeisiä MCP-protokollia (Multi-Agent Communication Protocol), joka parantaa agenttien välistä kommunikaatiota. Tämä on osa Foundryn jatkuvaa pyrkimystä tehostaa ja yksinkertaistaa agenttikehitystä, ja se voi tuoda merkittäviä parannuksia tekoälyhankkeiden toteutukseen finanssialalla ja muuallakin. <strong><a href="https://devblogs.microsoft.com/foundry/building-agents-that-act-on-your-behalf-with-toolboxes-in-foundry/">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<p>Tänään ei ole lyhyitä mainintoja.</p>
+</div>
+    
+    <details>
+      <summary>Lähteet (3)</summary>
+      <ul class="source-list">
+        
+        <li><a href="https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/" target="_blank" rel="noopener">The power line that could reshape New York’s grid is hitting snags</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
+        
+        <li><a href="https://devblogs.microsoft.com/foundry/building-agents-that-act-on-your-behalf-with-toolboxes-in-foundry/" target="_blank" rel="noopener">Building Agents that Act on Your Behalf with Toolboxes in Foundry</a> <span style="color:var(--muted)">— Microsoft Foundry Blog</span></li>
+        
+        <li><a href="https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/" target="_blank" rel="noopener">The Download: NASA’s new space telescope and OpenAI’s autonomous hacker</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
+        
+      </ul>
+    </details>
+    
+  </div>
+</details>
+
+<div class="day-spacer"></div>
+<details class="day-section" >
+  <summary>2026-07-22</summary>
+  <div class="day-section-body">
+    
+    <div class="digest-body"><h2>Päivän yhteenveto</h2>
+<p>Tänään Microsoft julkisti Microsoft Agent Framework Harnessin, joka tarjoaa vakaan alustan tekoälyagenttien kehittämiselle. Lisäksi Microsoft ja Mistral laajensivat kumppanuuttaan tarjotakseen edistyneitä, hallittavissa olevia tekoälyratkaisuja yrityksille ja säännellyille toimialoille.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>The Microsoft Agent Framework Harness is now released</h3>
+<p>Microsoft on julkaissut Microsoft Agent Framework Harnessin. Tämä uusi kehys mahdollistaa tekoälyagenttien rakentamisen tehokasta kontekstinhallintaa, suunnittelua, muistinhallintaa ja seurantaa varten. Kehys tukee sekä Python- että .NET-ohjelmointikieliä, ja se toimii agentin arkkitehtuurin tukirankana, mahdollistaen kielimallien muuttamisen toimiviksi agenteiksi. Uuden julkaisun myötä kehittäjät saavat käyttöönsä valmiit työkalut tekniikoiden, kuten silmukoiden ja hyväksyntöjen, toteuttamiseen. Microsoftin lähestymistapa tekee agenttien rakentamisesta vähemmän monimutkaisen prosessin, mikä mahdollistaa laajemman käyttöönoton eri toimialoilla. <strong><a href="https://devblogs.microsoft.com/agent-framework/the-microsoft-agent-framework-harness-is-now-released/">Lue alkuperäinen →</a></strong></p>
+<h3>Microsoft and Mistral expand strategic partnership</h3>
+<p>Microsoft ja Mistral ovat laajentaneet strategista kumppanuuttaan, keskittyen säänneltyjen toimialojen ja yritysten tarpeisiin tarjota hallittavissa olevia tekoälyratkaisuja. Tämän laajennuksen kautta he aikovat mahdollistaa tekoälyn uusimmat mahdollisuudet, joiden avulla organisaatiot voivat säilyttää kontrollin ja dataturvan. Mistral tuo kokemuksensa tekoälyn kehittämiseen, kun taas Microsoft tarjoaa infrastruktuurinsa ja asiantuntemuksensa laajassa mittakaavassa. Tämä suuntaus on erityisen tärkeä säännellyissä ympäristöissä, kuten finanssialalla, joissa compliance-vaatimukset ovat tiukkoja. <strong><a href="https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p>Deloitte pyrkii muuttamaan teollisuutta agenttipohjaisella innovaatiolla laajentamalla teollisuusratkaisujen studioita ja tuomalla paikalle edistyneitä insinöörejä. <a href="https://news.google.com/rss/articles/CBMingJBVV95cUxQM0FpU2VZNkdQczVmQnpYbENGWmRBV1J6VW5sV25weE5IeDlNWkRvSVB1ankxYUZ3b0wzZHpkc0thNzEyUk8weE5HQnZuVE03bTMxVlhZMVNJclBULXBvMm0wYUI1SnBNR2Yta0d4M3dnLWlXS1JKamFNRlhHOWliZElKblhSOWEzdjZSbnR6Y29pNlRxR2ZHcVVWS3ZYRlVkVFRPZHRRbVZzYVh4QXQ0ZGZZcWU2eTlCWW9CWmhQNFNsak01ZmxFb09yZFRrWTA4NDVqdGVxaGlfY0NVNGRaOUV4akhESWlHT0c4SUh1c0xuanR4Q3VfOExQaFp2LXhPaHkwazVHZWZ4NjIxUTIwX3Z0U1M2R19NZlJxeUVn?oc=5">Lue lisää</a></p>
+</li>
+<li>
+<p>YK:n yliopisto UNU on julkaissut teknologia- ja politiikkakehyksen agenttien suorituskerroksen hallintaan suunnaten erityisesti agentti-ajan tekoälyjärjestelmien hallintaan. <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxOZXdSNUNZeWgzN1phXzViaUlKYUdsdEZRY2ZvM0dLekN0WVRZdWoxNjRYaXNRTEszZUpIZDN1M21aRmJ5bnlIYkFNM01JeXNzTlhnMzZGQU9BajZycGZhWmNfY0Z0R1F6MUt4YUwwX3hiby1wNXRKTklaWlEwajdHOXc1TTYyejZVRXVYa3NYZWVzcUk3Qldldi10TXdETng0OWlKZnhzYzVEelpvXzB2MFIzRQ?oc=5">Lue lisää</a></p>
+</li>
+<li>
+<p>NVIDIA esitteli Rubin GPU:n, joka tarjoaa jopa 10 kertaa paremman suorituskyvyn agentti-ajan tekoälyssä verrattuna aiempaan Blackwell-arkkitehtuuriin. Uudessa Rubin-arkkitehtuurissa on 336 miljardia transistoria. <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jNVV1dXRkR3ZoTTNjeWxvSWNIcjcyMGMwUUZndTJicVh2Q3pzNnE5OWRxWFNycTVrdTJPcm5nTi0zck1TTkJOeTR2UURxem81UmFIOHRsRnJYdFhRTWdjUdIBZkFVX3lxTFA0VDJ3empFdV9UcmZ0MG01SVpQSGFuaWFKMlNLeHJlS2E1TDU0c21oaXg3NXVWTGRfVG5EcmVsb1FhVWc3Mi1pSHFMakNPcV9JelJSUzVET0YtaEpNLWx1VHh3NWR3dw?oc=5">Lue lisää</a></p>
+</li>
+</ul></div>
+    
+  </div>
+</details>
+
+
+
+
 
 
   </main>
@@ -362,6 +472,24 @@
           a.setAttribute('target', '_blank');
           a.setAttribute('rel', 'noopener');
         }
+      });
+
+      document.querySelectorAll('.digest-body').forEach(function(body) {
+        body.querySelectorAll('h3').forEach(function(h3) {
+          var div = document.createElement('div');
+          div.className = 'deep-dive';
+          h3.parentNode.insertBefore(div, h3);
+          div.appendChild(h3);
+          var next = div.nextSibling;
+          while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+            var n = next.nextSibling;
+            div.appendChild(next);
+            next = n;
+          }
+        });
+        body.querySelectorAll('ul').forEach(function(ul) {
+          ul.classList.add('brief-list');
+        });
       });
     })();
   </script>

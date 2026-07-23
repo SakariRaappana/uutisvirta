@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta</title>
+  <title>Uutisvirta — Päällimmäisenä</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -297,6 +297,62 @@
     }
     .source-list a { color: var(--accent); text-decoration: none; }
     .source-list a:hover { text-decoration: underline; }
+
+    /* ── DAY SECTION (collapsible per-day digest) ── */
+    .day-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .day-section > summary {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+      text-transform: none;
+      padding: 1.25rem 0 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+    .day-section > summary::-webkit-details-marker { display: none; }
+    .day-section > summary::after {
+      content: "▾";
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .day-section:not([open]) > summary::after { content: "▸"; }
+    .day-section-body { padding-bottom: 2.5rem; }
+
+    /* ── ARCHIVE SECTION ────────────────────── */
+    .archive-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .archive-section > summary {
+      padding: 0.9rem 0;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .archive-section > summary::-webkit-details-marker { display: none; }
+    .archive-list--plain { border-top: none; margin-top: 0.25rem; }
+
+    /* ── DAY SPACER ─────────────────────────── */
+    .day-spacer {
+      height: 0;
+      border: none;
+    }
   </style>
 </head>
 <body>
@@ -308,14 +364,14 @@
     <div class="nav-strip">
       <nav>
         
-        <a href="ammatillinen-osaaminen/index.html"
+        <a href="datascience-konsultointi/index.html"
            >
-          Ammatillinen osaaminen
+          Datascience konsultointi
         </a>
         
-        <a href="era/index.html"
+        <a href="era-seikkailu/index.html"
            >
-          Erä
+          Erä & seikkailu
         </a>
         
         <a href="politiikka/index.html"
@@ -328,33 +384,207 @@
   </header>
   <main class="page">
     
-<h1>Uutisvirta</h1>
-<p class="meta"><span>Henkilökohtainen uutisdigestipalvelu</span></p>
+<style>
+  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
+  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
+  .hp-header .subtitle {
+    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
+    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
+  }
 
-<div class="stream-grid">
-  
-  <div class="stream-card">
-    <h2><a href="ammatillinen-osaaminen/index.html">Ammatillinen osaaminen</a></h2>
-    
-    <div class="last-updated">Viimeisin: <a href="ammatillinen-osaaminen/2026-07-23.html">2026-07-23</a></div>
-    
-  </div>
-  
-  <div class="stream-card">
-    <h2><a href="era/index.html">Erä</a></h2>
-    
-    <div class="last-updated">Viimeisin: <a href="era/2026-07-23.html">2026-07-23</a></div>
-    
-  </div>
-  
-  <div class="stream-card">
-    <h2><a href="politiikka/index.html">Politiikka</a></h2>
-    
-    <div class="last-updated">Viimeisin: <a href="politiikka/2026-07-23.html">2026-07-23</a></div>
-    
-  </div>
-  
+  /* ── FEATURED ─────────────────────────────── */
+  .featured {
+    border-top: 3px solid var(--accent);
+    padding: 1.4rem 0 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .featured-stream-label {
+    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
+  }
+  .featured-title {
+    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
+    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
+  }
+  .featured-title a { color: var(--text); text-decoration: none; }
+  .featured-title a:hover { color: var(--accent); }
+  .featured-why {
+    font-size: 1rem; color: var(--text); line-height: 1.6;
+    margin-bottom: 0.85rem; max-width: 62ch;
+    font-style: italic;
+  }
+  .featured-meta {
+    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
+  }
+  .featured-meta .badge-new {
+    display: inline-block; background: var(--accent); color: var(--bg);
+    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
+  }
+  .featured-meta a { color: var(--accent); text-decoration: none; }
+  .featured-meta a:hover { text-decoration: underline; }
+
+  /* ── STREAM SECTIONS ─────────────────────── */
+  .stream-section {
+    border-top: 2px solid var(--rule);
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .stream-section-header {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: 1rem; padding: 1rem 0 0.75rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 0;
+  }
+  .stream-section-name {
+    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
+    margin: 0;
+  }
+  .stream-section-link {
+    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
+    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
+  }
+  .stream-section-link:hover { text-decoration: underline; }
+
+  .stream-empty {
+    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
+    letter-spacing: 0.04em; padding: 1rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* ── NEWS CARDS ──────────────────────────── */
+  .news-cards { list-style: none; padding: 0; }
+  .news-card {
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .news-card:last-child { border-bottom: none; }
+  .news-card-title {
+    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
+    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
+  }
+  .news-card-title a { color: var(--text); text-decoration: none; }
+  .news-card-title a:hover { color: var(--accent); }
+  .news-card-why {
+    font-size: 0.92rem; color: var(--text); line-height: 1.55;
+    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
+  }
+  .news-card-meta {
+    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
+  }
+  .news-card-meta a { color: var(--accent); text-decoration: none; }
+  .news-card-meta a:hover { text-decoration: underline; }
+  .badge-new {
+    display: inline-block; background: var(--accent); color: var(--bg);
+    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
+    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
+  }
+</style>
+
+<div class="hp-header">
+  <h1>Päällimmäisenä</h1>
+  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-07-23</p>
 </div>
+
+
+<div class="featured">
+  <div class="featured-stream-label">Erä & seikkailu</div>
+  <h2 class="featured-title">
+    <a href="https://www.outdoorlife.com/conservation/pennsylvania-rules-against-game-wardens/" target="_blank" rel="noopener">Pennsylvania Court Rules in Favor of Hunting Clubs, Against Game Warden Surveillance on Private Property</a>
+  </h2>
+  
+  <div class="featured-why">Tämä päätös voi vaikuttaa metsästysoikeuksiin ja -käytäntöihin myös muualla, mikä on tärkeää eränkävijöille.</div>
+  
+  <div class="featured-meta">
+    <span class="badge-new">Uusi</span>
+    Outdoor Life · tänään ·
+    <a href="era-seikkailu/2026-07-23.html">Lue analyysi →</a>
+  </div>
+</div>
+
+
+
+<section class="stream-section">
+  <div class="stream-section-header">
+    <div class="stream-section-name">Erä & seikkailu</div>
+    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
+  </div>
+
+  
+  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
+  
+</section>
+
+<section class="stream-section">
+  <div class="stream-section-header">
+    <div class="stream-section-name">Politiikka</div>
+    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
+  </div>
+
+  
+  <ul class="news-cards">
+    
+    <li class="news-card">
+      <div class="news-card-title">
+        <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNeW1remdCcmQyOW9jSW5aRkhoOTJ4YmhPSmc3UmFDSWc5akw1Wi1va1BMQ3dYUldYZkNTVi10eFIzbC1PeHFiQ2tJSzU0akJURWp6cmpSYXVGMjhFVkVJTXFNT25HdzdxZGtxNUlRcEZCZEZSVWNIeFNxRlhvdmtNOTVuODktMGNnUkE?oc=5" target="_blank" rel="noopener">Google Hit With $1 Billion Fine for Abusing Its Power in Europe - The New York Times</a>
+      </div>
+      
+      <div class="news-card-why">Googlelle määrätty suuri EU-sakko antaa viitteitä kilpailu- ja sääntelypolitiikan tiukentumisesta Euroopassa, mikä voi vaikuttaa muiden yritysten toimintaan.</div>
+      
+      <div class="news-card-meta">
+        <span class="badge-new">Uusi</span>
+        Google News: European Commission · tänään ·
+        <a href="politiikka/2026-07-23.html">Lue analyysi</a>
+      </div>
+    </li>
+    
+    <li class="news-card">
+      <div class="news-card-title">
+        <a href="https://www.politico.eu/podcast/brussels-playbook-podcast/brussels-is-coming-for-google-and-the-bill-could-be-huge/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Brussels is coming for Google — and the bill could be huge</a>
+      </div>
+      
+      <div class="news-card-why">EU:n Digital Markets Act voi merkittävästi vaikuttaa teknologiateollisuuteen ja kilpailukenttään Euroopassa.</div>
+      
+      <div class="news-card-meta">
+        <span class="badge-new">Uusi</span>
+        Politico Europe · tänään ·
+        <a href="politiikka/2026-07-23.html">Lue analyysi</a>
+      </div>
+    </li>
+    
+    <li class="news-card">
+      <div class="news-card-title">
+        <a href="https://www.france24.com/en/europe/20260723-eu-ambassadors-agree-21st-sanctions-package-against-russia" target="_blank" rel="noopener">War in Ukraine: EU agrees 21st round of sanctions on Russia</a>
+      </div>
+      
+      <div class="news-card-why">EU:n uusi pakote Venäjää vastaan vaikuttaa suoraan taloudellisiin suhteisiin ja turvallisuuspoliittisiin keskusteluihin Euroopassa, mukaan lukien Suomessa.</div>
+      
+      <div class="news-card-meta">
+        <span class="badge-new">Uusi</span>
+        France 24 — Europe · tänään ·
+        <a href="politiikka/2026-07-23.html">Lue analyysi</a>
+      </div>
+    </li>
+    
+  </ul>
+  
+</section>
+
+<section class="stream-section">
+  <div class="stream-section-header">
+    <div class="stream-section-name">Datascience konsultointi</div>
+    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
+  </div>
+
+  
+  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
+  
+</section>
+
+
+
+
 
   </main>
   <script>
@@ -371,6 +601,24 @@
           a.setAttribute('target', '_blank');
           a.setAttribute('rel', 'noopener');
         }
+      });
+
+      document.querySelectorAll('.digest-body').forEach(function(body) {
+        body.querySelectorAll('h3').forEach(function(h3) {
+          var div = document.createElement('div');
+          div.className = 'deep-dive';
+          h3.parentNode.insertBefore(div, h3);
+          div.appendChild(h3);
+          var next = div.nextSibling;
+          while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+            var n = next.nextSibling;
+            div.appendChild(next);
+            next = n;
+          }
+        });
+        body.querySelectorAll('ul').forEach(function(ul) {
+          ul.classList.add('brief-list');
+        });
       });
     })();
   </script>

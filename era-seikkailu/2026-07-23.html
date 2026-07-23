@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>2026-07-23 — Erä — Uutisvirta</title>
+  <title>2026-07-23 — Erä & seikkailu — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -297,6 +297,62 @@
     }
     .source-list a { color: var(--accent); text-decoration: none; }
     .source-list a:hover { text-decoration: underline; }
+
+    /* ── DAY SECTION (collapsible per-day digest) ── */
+    .day-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .day-section > summary {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+      text-transform: none;
+      padding: 1.25rem 0 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+    .day-section > summary::-webkit-details-marker { display: none; }
+    .day-section > summary::after {
+      content: "▾";
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .day-section:not([open]) > summary::after { content: "▸"; }
+    .day-section-body { padding-bottom: 2.5rem; }
+
+    /* ── ARCHIVE SECTION ────────────────────── */
+    .archive-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .archive-section > summary {
+      padding: 0.9rem 0;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .archive-section > summary::-webkit-details-marker { display: none; }
+    .archive-list--plain { border-top: none; margin-top: 0.25rem; }
+
+    /* ── DAY SPACER ─────────────────────────── */
+    .day-spacer {
+      height: 0;
+      border: none;
+    }
   </style>
 </head>
 <body>
@@ -308,14 +364,14 @@
     <div class="nav-strip">
       <nav>
         
-        <a href="../ammatillinen-osaaminen/index.html"
+        <a href="../datascience-konsultointi/index.html"
            >
-          Ammatillinen osaaminen
+          Datascience konsultointi
         </a>
         
-        <a href="../era/index.html"
+        <a href="../era-seikkailu/index.html"
            class="active">
-          Erä
+          Erä & seikkailu
         </a>
         
         <a href="../politiikka/index.html"
@@ -334,22 +390,25 @@
   <span>&nbsp;</span>
 </div>
 
-<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Erä</div>
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Erä & seikkailu</div>
 <h1>2026-07-23</h1>
 <p class="meta">
   <span>1 uutista</span>
   <span>gpt-4o-2024-08-06</span>
-  <span>2635 tokenia</span>
+  <span>2712 tokenia</span>
 </p>
 
 <div class="digest-body">
 <h2>Päivän yhteenveto</h2>
-<p>Tänään merkittävä oikeuden päätös Pennsylvaniassa vahvisti metsästysklubien oikeuksia yksityisomaisuuteen, rajaten riistanvartijoiden mahdollisuuksia valvoa yksityisiä maa-alueita ilman lupaa. Päätös korostaa yksityisomistuksen perustuslaillisia suojia ja voi vaikuttaa tulevien valvontakäytäntöjen muovautumiseen.</p>
+<p>Päivän uutisissa keskiössä on Pennsylvaniassa tehty oikeuden päätös, joka asettui metsästyskerhojen puolelle. Päätös kieltää riistavalvojien valvontatoimet yksityisillä alueilla ilman erillistä oikeuden lupaa. Tällä on merkittäviä vaikutuksia metsästysteollisuuteen ja yksityisomaisuuden suojeluun.</p>
 <h2>Tärkeimmät uutiset</h2>
-<h3>Pennsylvania oikeus päätti metsästysklubien hyväksi, rajoitti riistanvartijoiden valvontaa yksityisalueilla</h3>
-<p>Pennsylvanian osavaltion korkein oikeus on antanut tuomion, joka kieltää riistanvartijoita valvomasta yksityisomistuksessa olevaa maata ilman maanomistajan lupaa. Tämä päätös syntyi oikeustapauksesta, jossa metsästysklubit vastustivat valtion riistanvalvonnan käytäntöjä, pitäen niitä perustuslain vastaisina. Oikeus totesi, että ilman lupaa tapahtuva valvonta rikkoo yksityisyyden suojaa ja omistusoikeuksia. Tämä päätös voi asettaa ennakkotapauksen muille osavaltioille Yhdysvalloissa, kun hallitukset miettivät valvontaoikeuksia ja yksityisomistuksen suojelun tasapainottamista. Paikalliset metsästysklubit ovat toivottaneet päätöksen tervetulleeksi, korostaen sen merkitystä yksityisomistajuuden kunnioittamiselle ja mahdollisten väärinkäytösten vähentämiselle. <strong><a href="https://www.outdoorlife.com/conservation/pennsylvania-rules-against-game-wardens/">Lue alkuperäinen →</a></strong></p>
+<h3>Pennsylvanian oikeus voittaa metsästyskerhot valvontasäännöissä</h3>
+<p>Pennsylvaniassa oikeusistuin on tehnyt merkittävän päätöksen, joka kieltää riistavalvojien valvonnan yksityisillä alueilla ilman oikeuden antamaa lupaa. Tämä ratkaisu tulee pitkäaikaisen oikeusjutun jälkeen, jossa vastakkain olivat yksityisomaisuuden oikeudet ja riistavalvonta. Päätöksellä on tarkoitus suojella maanomistajien yksityisyyttä, sillä aiemmin riistavalvojat ovat voineet toimia epätavanomaisesti ilman erillisiä lupia.</p>
+<p>Metsästyskerhot ja maanomistajat ovat tyytyväisiä päätökseen ja katsovat sen olevan voitto yksityisomaisuuden suojelemiseksi. He argumentoivat, että ilman tällaista suojaa heidän maillaan olisi jatkuvasti vailla lupaa operoivia viranomaisia, mikä voisi johtaa väärinkäsityksiin ja maansa perusteettomaan tutkimiseen.</p>
+<p>Toisaalta päätös aiheuttaa huolta riistavalvonta ja lainsäädäntötoimia kannattavien keskuudessa, jotka näkevät valvonnan yksityismailla tärkeäksi osaksi luonnonsuojelua ja metsästyslakien valvomista. Tämä uutinen korostaa metsäsalouden ja yksityisen maanomistuksen välillä vallitsevia jännitteitä, jotka todennäköisesti säilyvät meneillään olevana keskusteluna.</p>
+<p><strong><a href="https://www.outdoorlife.com/conservation/pennsylvania-rules-against-game-wardens/">Lue alkuperäinen →</a></strong></p>
 <h2>Lyhytmaininnat</h2>
-<p>Tänään ei ole lyhytmainintoja.</p>
+<p>Tänään ei ole muita lyhytmainintoja.</p>
 
 </div>
 
@@ -370,32 +429,6 @@
   </ul>
 </details>
 
-<script>
-(function () {
-  var body = document.querySelector('.digest-body');
-  if (!body) return;
-
-  // Wrap each h3 + its following content in a .deep-dive div
-  body.querySelectorAll('h3').forEach(function (h3) {
-    var div = document.createElement('div');
-    div.className = 'deep-dive';
-    h3.parentNode.insertBefore(div, h3);
-    div.appendChild(h3);
-    var next = div.nextSibling;
-    while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
-      var n = next.nextSibling;
-      div.appendChild(next);
-      next = n;
-    }
-  });
-
-  // Apply brief-list class to all ul elements
-  body.querySelectorAll('ul').forEach(function (ul) {
-    ul.classList.add('brief-list');
-  });
-
-})();
-</script>
 
   </main>
   <script>
@@ -412,6 +445,24 @@
           a.setAttribute('target', '_blank');
           a.setAttribute('rel', 'noopener');
         }
+      });
+
+      document.querySelectorAll('.digest-body').forEach(function(body) {
+        body.querySelectorAll('h3').forEach(function(h3) {
+          var div = document.createElement('div');
+          div.className = 'deep-dive';
+          h3.parentNode.insertBefore(div, h3);
+          div.appendChild(h3);
+          var next = div.nextSibling;
+          while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+            var n = next.nextSibling;
+            div.appendChild(next);
+            next = n;
+          }
+        });
+        body.querySelectorAll('ul').forEach(function(ul) {
+          ul.classList.add('brief-list');
+        });
       });
     })();
   </script>

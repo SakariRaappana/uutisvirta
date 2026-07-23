@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>2026-07-23 — Ammatillinen osaaminen — Uutisvirta</title>
+  <title>2026-07-23 — Datascience konsultointi — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -297,6 +297,62 @@
     }
     .source-list a { color: var(--accent); text-decoration: none; }
     .source-list a:hover { text-decoration: underline; }
+
+    /* ── DAY SECTION (collapsible per-day digest) ── */
+    .day-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .day-section > summary {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+      text-transform: none;
+      padding: 1.25rem 0 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+    .day-section > summary::-webkit-details-marker { display: none; }
+    .day-section > summary::after {
+      content: "▾";
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .day-section:not([open]) > summary::after { content: "▸"; }
+    .day-section-body { padding-bottom: 2.5rem; }
+
+    /* ── ARCHIVE SECTION ────────────────────── */
+    .archive-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .archive-section > summary {
+      padding: 0.9rem 0;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .archive-section > summary::-webkit-details-marker { display: none; }
+    .archive-list--plain { border-top: none; margin-top: 0.25rem; }
+
+    /* ── DAY SPACER ─────────────────────────── */
+    .day-spacer {
+      height: 0;
+      border: none;
+    }
   </style>
 </head>
 <body>
@@ -308,14 +364,14 @@
     <div class="nav-strip">
       <nav>
         
-        <a href="../ammatillinen-osaaminen/index.html"
+        <a href="../datascience-konsultointi/index.html"
            class="active">
-          Ammatillinen osaaminen
+          Datascience konsultointi
         </a>
         
-        <a href="../era/index.html"
+        <a href="../era-seikkailu/index.html"
            >
-          Erä
+          Erä & seikkailu
         </a>
         
         <a href="../politiikka/index.html"
@@ -334,68 +390,38 @@
   <span>&nbsp;</span>
 </div>
 
-<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Ammatillinen osaaminen</div>
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Datascience konsultointi</div>
 <h1>2026-07-23</h1>
 <p class="meta">
-  <span>2 uutista</span>
+  <span>1 uutista</span>
   <span>gpt-4o-2024-08-06</span>
-  <span>3056 tokenia</span>
+  <span>2192 tokenia</span>
 </p>
 
 <div class="digest-body">
 <h2>Päivän yhteenveto</h2>
-<p>Microsoft Foundry esitteli uuden työkalupakin agenttien rakentamiseen, mikä yksinkertaistaa agenttien toteutusta ja toimintaa. Samana päivänä Microsoft julkaisi Agent Framework Harness -työkalun, joka mahdollistaa agenttien kehittämisen vakaalla ja kattavalla alustalla.</p>
+<p>Tänään Microsoft Foundry esitteli uuden ominaisuuden tekoälyagenttien rakentamiseen, joka hyödyntää “toolboxes”-työkaluja. Tämä parantaa agenttien toimintakykyä automatisoiduissa tehtävissä ja tarjoaa parempia työkaluja kehitykseen, mikä voi merkittävästi helpottaa tekoälyagenttien luontia ja implementointia eri projektien yhteyteen.</p>
 <h2>Tärkeimmät uutiset</h2>
 <h3>Building Agents that Act on Your Behalf with Toolboxes in Foundry</h3>
-<p>Microsoft Foundry on julkaissut uudet työkalupakit, joiden avulla kehittäjät voivat rakentaa agentteja, jotka toimivat käyttäjien puolesta. Työkalupakit ovat osa Foundry Agent Serviceä ja ne hyödyntävät Microsoftin Communicative Protocolia (MCP) helpottaakseen komponenttien välistä viestintää. Tämä työkalu tarjoaa kehittäjille valmiit komponentit, mikä vähentää koodaustarvetta ja nopeuttaa kehitysprosesseja. Työkalupakit ovat osa suurta pyrkimystä helpottaa tekoälyagenttien rakentamista ja käyttöönottoa monimutkaisissa ympäristöissä. <strong><a href="https://devblogs.microsoft.com/foundry/building-agents-that-act-on-your-behalf-with-toolboxes-in-foundry/">Lue alkuperäinen →</a></strong></p>
-<h3>The Microsoft Agent Framework Harness is now released</h3>
-<p>Microsoft on julkaissut Agent Framework Harness -työkalun, joka tarjoaa vankan ja virtaviivaisen alustan tekoälyagenttien kehittämiseen. Tämä julkaisu sisältää kaikki tarvittavat työkalut agenttien tehokkaaseen rakentamiseen ja helpottaa .NET- ja Python-ympäristöjen integrointia kehitystyöhön. Uudessa versiossa keskitytään vakauttamaan aiempia kehitystöitä, mikä mahdollistaa laajemman sovellusalueen hyödyntämisen. Harness tekee agenttien kehittämisestä helpompaa ja parantaa niiden suorituskykyä ja luotettavuutta. <strong><a href="https://devblogs.microsoft.com/agent-framework/the-microsoft-agent-framework-harness-is-now-released/">Lue alkuperäinen →</a></strong></p>
+<p>Microsoft Foundry on julkistanut artikkelissaan uuden toimintatavan, jossa tekoälyagentit voidaan rakentaa tehokkaammin hyödyntämällä niin sanottuja &quot;toolboxes&quot;-työkaluja. Tämä uusi ominaisuus on suunniteltu helpottamaan agenttien toimintojen automatisointia, mikä mahdollistaa agenttien toimimisen entistä itsenäisemmin käyttäjän puolesta. Toolboxes tarjoaa valmiiksi rakennettuja komponentteja ja sovelluksia, joita kehittäjät voivat hyödyntää vähentäen näin tarvetta rakentaa kaikkea alusta asti. Lisäksi uusi toiminnallisuus tukee keskeisiä MCP-protokollia (Multi-Agent Communication Protocol), joka parantaa agenttien välistä kommunikaatiota. Tämä on osa Foundryn jatkuvaa pyrkimystä tehostaa ja yksinkertaistaa agenttikehitystä, ja se voi tuoda merkittäviä parannuksia tekoälyhankkeiden toteutukseen finanssialalla ja muuallakin. <strong><a href="https://devblogs.microsoft.com/foundry/building-agents-that-act-on-your-behalf-with-toolboxes-in-foundry/">Lue alkuperäinen →</a></strong></p>
 <h2>Lyhytmaininnat</h2>
-<p>Tänään ei ole lyhytmainintoja.</p>
+<p>Tänään ei ole lyhyitä mainintoja.</p>
 
 </div>
 
 <details>
-  <summary>Lähteet (4)</summary>
+  <summary>Lähteet (3)</summary>
   <ul class="source-list">
+    
+    <li><a href="https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/" target="_blank" rel="noopener">The power line that could reshape New York’s grid is hitting snags</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
     
     <li><a href="https://devblogs.microsoft.com/foundry/building-agents-that-act-on-your-behalf-with-toolboxes-in-foundry/" target="_blank" rel="noopener">Building Agents that Act on Your Behalf with Toolboxes in Foundry</a> <span style="color:var(--muted)">— Microsoft Foundry Blog</span></li>
     
     <li><a href="https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/" target="_blank" rel="noopener">The Download: NASA’s new space telescope and OpenAI’s autonomous hacker</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
     
-    <li><a href="https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope/" target="_blank" rel="noopener">Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
-    
-    <li><a href="https://devblogs.microsoft.com/agent-framework/the-microsoft-agent-framework-harness-is-now-released/" target="_blank" rel="noopener">The Microsoft Agent Framework Harness is now released</a> <span style="color:var(--muted)">— Microsoft Agent Framework Blog</span></li>
-    
   </ul>
 </details>
 
-<script>
-(function () {
-  var body = document.querySelector('.digest-body');
-  if (!body) return;
-
-  // Wrap each h3 + its following content in a .deep-dive div
-  body.querySelectorAll('h3').forEach(function (h3) {
-    var div = document.createElement('div');
-    div.className = 'deep-dive';
-    h3.parentNode.insertBefore(div, h3);
-    div.appendChild(h3);
-    var next = div.nextSibling;
-    while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
-      var n = next.nextSibling;
-      div.appendChild(next);
-      next = n;
-    }
-  });
-
-  // Apply brief-list class to all ul elements
-  body.querySelectorAll('ul').forEach(function (ul) {
-    ul.classList.add('brief-list');
-  });
-
-})();
-</script>
 
   </main>
   <script>
@@ -412,6 +438,24 @@
           a.setAttribute('target', '_blank');
           a.setAttribute('rel', 'noopener');
         }
+      });
+
+      document.querySelectorAll('.digest-body').forEach(function(body) {
+        body.querySelectorAll('h3').forEach(function(h3) {
+          var div = document.createElement('div');
+          div.className = 'deep-dive';
+          h3.parentNode.insertBefore(div, h3);
+          div.appendChild(h3);
+          var next = div.nextSibling;
+          while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+            var n = next.nextSibling;
+            div.appendChild(next);
+            next = n;
+          }
+        });
+        body.querySelectorAll('ul').forEach(function(ul) {
+          ul.classList.add('brief-list');
+        });
       });
     })();
   </script>

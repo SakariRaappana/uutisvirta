@@ -297,6 +297,62 @@
     }
     .source-list a { color: var(--accent); text-decoration: none; }
     .source-list a:hover { text-decoration: underline; }
+
+    /* ── DAY SECTION (collapsible per-day digest) ── */
+    .day-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .day-section > summary {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+      text-transform: none;
+      padding: 1.25rem 0 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+    .day-section > summary::-webkit-details-marker { display: none; }
+    .day-section > summary::after {
+      content: "▾";
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .day-section:not([open]) > summary::after { content: "▸"; }
+    .day-section-body { padding-bottom: 2.5rem; }
+
+    /* ── ARCHIVE SECTION ────────────────────── */
+    .archive-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .archive-section > summary {
+      padding: 0.9rem 0;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .archive-section > summary::-webkit-details-marker { display: none; }
+    .archive-list--plain { border-top: none; margin-top: 0.25rem; }
+
+    /* ── DAY SPACER ─────────────────────────── */
+    .day-spacer {
+      height: 0;
+      border: none;
+    }
   </style>
 </head>
 <body>
@@ -308,14 +364,14 @@
     <div class="nav-strip">
       <nav>
         
-        <a href="../ammatillinen-osaaminen/index.html"
+        <a href="../datascience-konsultointi/index.html"
            >
-          Ammatillinen osaaminen
+          Datascience konsultointi
         </a>
         
-        <a href="../era/index.html"
+        <a href="../era-seikkailu/index.html"
            >
-          Erä
+          Erä & seikkailu
         </a>
         
         <a href="../politiikka/index.html"
@@ -329,22 +385,182 @@
   <main class="page">
     
 <h1>Politiikka</h1>
-<p class="meta"><span>2 julkaisua</span></p>
 
 
-<ul class="archive-list">
-  
-  <li>
-    <span class="date">2026-07-23</span>
-    <a href="2026-07-23.html">2026-07-23</a>
-  </li>
-  
-  <li>
-    <span class="date">2026-07-22</span>
-    <a href="2026-07-22.html">2026-07-22</a>
-  </li>
-  
+
+
+
+<details class="day-section" open>
+  <summary>2026-07-23</summary>
+  <div class="day-section-body">
+    
+    <p class="meta">
+      <span>22 uutista</span>
+      <span>gpt-4o-2024-08-06</span>
+    </p>
+    
+    <div class="digest-body"><h2>Päivän yhteenveto</h2>
+<p>Euroopan unioni on hyväksynyt uuden paketin Venäjän vastaisia pakotteita Ukrainan sodan johdosta, mikä sisältää muun muassa öljyn hintakaton jäädyttämisen. Google on saanut miljardin dollarin sakot Euroopan komissiolta vallan väärinkäytöstä, ja Bryssel valmistautuu lisämään Googleen kohdistuvaa lainsäädäntöä. Lisäksi eteläisessä Euroopassa riehuvat maastopalot ovat pakottaneet tuhansia evakuoitumaan kodeistaan.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>Google saa miljardin dollarin sakot Euroopassa</h3>
+<p>Euroopan komissio on määrännyt Googlelle miljardin dollarin sakot vallan väärinkäytöstä Euroopan markkinoilla. Tätä päätöstä pidetään merkittävänä ennakkotapauksena, joka saattaa johtaa tiukempaan sääntelyyn myös muille suurille teknologiayhtiöille Euroopassa. Google on ilmoittanut aikovansa valittaa päätöksestä, mikä viittaa siihen, että kyseinen oikeustoimi saattaa kestää vuosia. Sakot ovat vain osa laajempaa Euroopan unionin pyrkimystä rajoittaa suurten teknologiayritysten markkinavaltaa. <strong><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNeW1remdCcmQyOW9jSW5aRkhoOTJ4YmhPSmc3UmFDSWc5akw1Wi1va1BMQ3dYUldYZkNTVi10eFIzbC1PeHFiQ2tJSzU0akJURWp6cmpSYXVGMjhFVkVJTXFNT25HdzdxZGtxNUlRcEZCZEZSVWNIeFNxRlhvdmtNOTVuODktMGNnUkE?oc=5">Lue alkuperäinen →</a></strong></p>
+<h3>EU hyväksyy uuden pakotepaketin Venäjää vastaan</h3>
+<p>Euroopan unionin suurlähettiläät ovat hyväksyneet 21. Venäjän vastaisten pakotteiden paketin Ukrainan sodan vuoksi. Uusi paketti sisältää merkittävän päätöksen, jolla jäädytetään venäläisen öljyn hintakatto 12 kuukaudeksi. Tämä päätös lisää Venäjän painetta sodan lopettamiseksi ja tukee samalla Ukrainan hallituksen taloudellista asemaa. Toimet ovat osa jatkuvaa EU:n strategiaa vastata Venäjän ennustamattomaan toimintaan sodan edetessä. <strong><a href="https://www.france24.com/en/europe/20260723-eu-ambassadors-agree-21st-sanctions-package-against-russia">Lue alkuperäinen →</a></strong></p>
+<h3>Brysselin lisääntynyt paine voi merkitä mittavia kustannuksia Googlelle</h3>
+<p>Bryssel valmistelee lisää toimenpiteitä Googlea vastaan, mikä saattaa tarkoittaa suuria taloudellisia kustannuksia teknologiayhtiölle. Näiden toimien tavoitteena on luoda kilpailukykyisemmät markkinat Euroopassa ja torjua monikansallisten yhtiöiden ylivaltaa. Euroopan unionin lainsäädäntöpyrkimykset Googlen suhteen voivat toimia esimerkkinä myös muualla maailmassa, miten digitaalisia markkinoita voidaan säädellä tehokkaammin. <strong><a href="https://www.politico.eu/podcast/brussels-playbook-podcast/brussels-is-coming-for-google-and-the-bill-could-be-huge/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>Iranin ja Yhdysvaltojen suhteet kiristyvät Hormuzin salmessa, mikä herättää huolta mahdollisesta pitkäkestoisesta konfliktista. <a href="https://www.dw.com/en/could-iran-become-america-s-next-forever-war/a-78081276?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Kiina ja Yhdysvallat kilpailevat kiivaasti tekoälymarkkinoiden herruudesta, mikä on kiristänyt maiden välejä keskinäisten syytösten vuoksi. <a href="https://www.dw.com/en/us-china-ai-rivalry-heats-up-as-chinese-models-gain-ground/a-77899558?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Kongon demokraattisen tasavallan ebolaepidemia on vaatinut yli 1 000 uhria sitten toukokuun, ja lapset ovat sairastuneet pahiten. <a href="https://www.rfi.fr/en/africa/20260723-drc-s-ebola-outbreak-kills-more-than-1-000-with-children-hit-hardest">Lue lisää</a></li>
+<li>EU-jäsenyyden korruptiohuolet kiristävät Ukrainan parlamentin jännitteitä. <a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX20wZGtYNEZmVU1ZaS14clF5UUE1UlUxaFdIaDJWM1F0LWNRWG9rUE5NQ25SWWZHLURxSExjMXE5alNweDFHTm1PYUEwYjUtblA3YWRIbmhGd3BoVGF4Q0sxektkd0FYRENPZmk1RGJ4c0NOejhqOXRjWVcwY1UxYnp1dEEwc0d1UnA4Tm1hempDOWhXRENLMWdpQWZydFZQMGlMRGhCdXZsY3MxdlYzOVVVM2o3b0VnQkNSeXIwLUdHQjMtbjNoMWthZWpCa2RfT21TNg?oc=5">Lue lisää</a></li>
+<li>Yhdysvallat ei ole valmis painostamaan Venäjää, mutta toivoo edistystä Ukrainan sodassa. <a href="https://www.france24.com/en/us-not-willing-to-put-pressure-on-russia-despite-wanting-progress-in-ukraine">Lue lisää</a></li>
+<li>Maastopalot riehuvat Ranskassa, Espanjassa ja Italiassa, kun kuumuus ja kuivuus pahentavat tilannetta. <a href="https://www.dw.com/en/europe-wildfires-prompt-evacuations-in-france-spain-italy/a-78080171?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Mykhailo Drapatyi on nimitetty Ukrainan asevoimien komentajaksi seurauksena hallituksen muutoksista. <a href="https://www.dw.com/en/who-is-ukraine-s-new-military-chief/a-78077075?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Etelä-Ranskassa riehuvan metsäpalon vuoksi on evakuoitu jo 12 000 ihmistä. <a href="https://www.rfi.fr/en/france/20260723-wildfire-in-france-at-least-12-000-evacuated-in-the-south-west">Lue lisää</a></li>
+<li>Saksa on hyväksynyt kiistellyn ranskalais-venäläisen ydinvoimaprojektin toteuttamisen. <a href="https://www.rfi.fr/en/international/20260723-germany-approves-factory-use-for-controversial-french-russian-nuclear-project">Lue lisää</a></li>
+<li>Kolme palomiestä on kuollut tulipaloissa, jotka riehuvat Etelä-Euroopassa. <a href="https://www.france24.com/en/europe/20260723-wildfires-ravage-spain-france-and-italy-killing-three-firefighters">Lue lisää</a></li>
+<li>Ukrainalaiset toivottavat uuden armeijapäällikön tervetulleeksi, mutta toivovat entisen puolustusministerin paluuta. <a href="https://www.france24.com/en/europe/20260722-ukrainians-welcome-new-army-chief-but-seek-return-of-fired-defence-minister">Lue lisää</a></li>
+<li>Ranskan kesäkuun helleaallon seurauksena kuolleisuus nousi merkittävästi. <a href="https://www.france24.com/en/france-recorded-5-700-more-deaths-than-usual-during-its-historic-june-heat-wave">Lue lisää</a></li>
+<li>Mykhailo Fedorovia epäillään erotetun Ukrainassa menestyksestään korruption torjunnassa. <a href="https://www.france24.com/en/video/20260722-mykhailo-fedorov-was-fired-for-his-successes-in-fighting-corruption-in-the-defense-sector-1">Lue lisää</a></li>
+<li>Kanadan ja Yhdysvaltojen yhteinen sillanavajaisjuhla peruuntuu kauppasuhteiden kiristyessä. <a href="https://www.theguardian.com/us-news/2026/jul/21/gordie-howe-bridge-opening-celebration-canceled">Lue lisää</a></li>
+<li>Mikhailo Drapatyn nimitys Ukrainan uudeksi asevoimien komentajaksi on saanut aikaan suurta kiinnostusta. <a href="https://www.france24.com/en/who-is-mikhailo-drapaty-ukraine-s-new-commander-in-chief">Lue lisää</a></li>
+<li>Nicaraguan kongressi valmistelee mahdollisuutta perua vaalit, mikä huolestuttaa kansainvälistä yhteisöä. <a href="https://www.theguardian.com/world/2026/jul/22/nicaragua-daniel-ortega-congress-work-plan-suspend-elections">Lue lisää</a></li>
+<li>Ranskan ympäristöministeri jatkaa tehtävässään, vaikka hän tarjoutui alun perin eroamaan käänteestä torjunta-ainepolitiikassa. <a href="https://www.rfi.fr/en/france/20260722-france-environment-minister-barbut-quits-then-stays-to-act-on-climate">Lue lisää</a></li>
+<li>Saksan ympäristöministeriö hyväksyy ranskalais-venäläisen yhteistoiminnan ydinpolttoainetuotannossa. <a href="https://www.france24.com/en/europe/20260722-germany-greenlights-controversial-joint-french-russian-nuclear-project">Lue lisää</a></li>
+<li>Yhdysvallat solmii historiallisesti merkittävän siviiliydinsopimuksen Saudi-Arabian kanssa. <a href="https://www.rfi.fr/en/international/20260722-saudi-nuclear-deal-set-to-bypass-iaea-s-toughest-inspections-regime">Lue lisää</a></li>
 </ul>
+</div>
+    
+    <details>
+      <summary>Lähteet (40)</summary>
+      <ul class="source-list">
+        
+        <li><a href="https://www.dw.com/en/lenacapavir-will-slow-hiv-infections-if-there-s-enough-of-it-and-it-reaches-at-risk-groups/a-78075943?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Lenacapavir will slow HIV infections if there's enough of it and it reaches at-risk groups</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+        
+        <li><a href="https://www.dw.com/en/us-citizens-are-ramping-up-pressure-on-data-centers/a-78064418?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">US citizens are ramping up pressure on data centers</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+        
+        <li><a href="https://www.france24.com/en/spain-battles-spreading-wildfires-fuelled-by-climate-change-driven-heat" target="_blank" rel="noopener">Spain battles spreading wildfires fuelled by climate-change driven heat</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+        
+        <li><a href="https://www.dw.com/en/thailand-5-soldiers-killed-in-attack-on-security-checkpoint/a-78082955?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Thailand: 5 soldiers killed in attack on security checkpoint</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+        
+        <li><a href="https://www.dw.com/en/could-iran-become-america-s-next-forever-war/a-78081276?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Could Iran become America's next 'forever war'?</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+        
+        <li><a href="https://www.dw.com/en/us-china-ai-rivalry-heats-up-as-chinese-models-gain-ground/a-77899558?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">US-China AI rivalry heats up as Chinese models gain ground</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+        
+        <li><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNeW1remdCcmQyOW9jSW5aRkhoOTJ4YmhPSmc3UmFDSWc5akw1Wi1va1BMQ3dYUldYZkNTVi10eFIzbC1PeHFiQ2tJSzU0akJURWp6cmpSYXVGMjhFVkVJTXFNT25HdzdxZGtxNUlRcEZCZEZSVWNIeFNxRlhvdmtNOTVuODktMGNnUkE?oc=5" target="_blank" rel="noopener">Google Hit With $1 Billion Fine for Abusing Its Power in Europe - The New York Times</a> <span style="color:var(--muted)">— Google News: European Commission</span></li>
+        
+        <li><a href="https://www.rfi.fr/en/africa/20260723-drc-s-ebola-outbreak-kills-more-than-1-000-with-children-hit-hardest" target="_blank" rel="noopener">DRC's Ebola outbreak kills more than 1,000, with children hit hardest</a> <span style="color:var(--muted)">— RFI English</span></li>
+        
+        <li><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX20wZGtYNEZmVU1ZaS14clF5UUE1UlUxaFdIaDJWM1F0LWNRWG9rUE5NQ25SWWZHLURxSExjMXE5alNweDFHTm1PYUEwYjUtblA3YWRIbmhGd3BoVGF4Q0sxektkd0FYRENPZmk1RGJ4c0NOejhqOXRjWVcwY1UxYnp1dEEwc0d1UnA4Tm1hempDOWhXRENLMWdpQWZydFZQMGlMRGhCdXZsY3MxdlYzOVVVM2o3b0VnQkNSeXIwLUdHQjMtbjNoMWthZWpCa2RfT21TNg?oc=5" target="_blank" rel="noopener">[Interview] Ukrainian MP Ivanna Klympush: ‘I would like to see the countries that joined the EU and had no problems with corruption’ - EUobserver</a> <span style="color:var(--muted)">— Google News: European Parliament</span></li>
+        
+        <li><a href="https://www.france24.com/en/us-not-willing-to-put-pressure-on-russia-despite-wanting-progress-in-ukraine" target="_blank" rel="noopener">US 'not willing to put pressure on Russia' despite wanting progress in Ukraine</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+        
+        <li><a href="https://www.politico.eu/article/le-parquet-de-paris-ouvre-une-enquete-sur-le-site-libertin-wyylde/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Le parquet de Paris ouvre une enquête sur le site “libertin” Wyylde</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+        
+        <li><a href="https://www.dw.com/en/europe-wildfires-prompt-evacuations-in-france-spain-italy/a-78080171?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Europe wildfires prompt evacuations in France, Spain, Italy</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+        
+        <li><a href="https://www.dw.com/en/germany-news-fm-wadephul-wraps-up-africa-tour-in-south-africa/live-78079267?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Germany news: FM Wadephul wraps up Africa tour in South Africa</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+        
+        <li><a href="https://www.politico.eu/podcast/politics-at-sam-and-annes/does-burnham-need-to-watch-what-he-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Does Burnham need to watch what he says?</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+        
+        <li><a href="https://www.france24.com/en/europe/20260723-eu-ambassadors-agree-21st-sanctions-package-against-russia" target="_blank" rel="noopener">War in Ukraine: EU agrees 21st round of sanctions on Russia</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+        
+        <li><a href="https://www.dw.com/en/who-is-ukraine-s-new-military-chief/a-78077075?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Who is Ukraine's new military chief?</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+        
+        <li><a href="https://www.rfi.fr/en/france/20260723-wildfire-in-france-at-least-12-000-evacuated-in-the-south-west" target="_blank" rel="noopener">Wildfire sees 12,000 residents and tourists evacuated in south-west France</a> <span style="color:var(--muted)">— RFI English</span></li>
+        
+        <li><a href="https://www.dw.com/en/peru-10-killed-in-housefire-in-capital-lima/a-78078367?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Peru: 10 killed in housefire in capital Lima</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+        
+        <li><a href="https://www.rfi.fr/en/international/20260723-germany-approves-factory-use-for-controversial-french-russian-nuclear-project" target="_blank" rel="noopener">Germany approves factory use for controversial French-Russian nuclear project</a> <span style="color:var(--muted)">— RFI English</span></li>
+        
+        <li><a href="https://www.dw.com/en/india-cockroach-party-calls-for-nationwide-protests-on-friday/live-78078283?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">India: Cockroach party calls for nationwide protests on Friday</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+        
+        <li><a href="https://www.theguardian.com/world/2026/jul/23/total-solar-eclipse-new-zealand-2028-dunedin" target="_blank" rel="noopener">Total solar eclipse books out hotels two years in advance in New Zealand city</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+        
+        <li><a href="https://www.politico.eu/podcast/brussels-playbook-podcast/brussels-is-coming-for-google-and-the-bill-could-be-huge/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Brussels is coming for Google — and the bill could be huge</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+        
+        <li><a href="https://www.politico.eu/podcast/berlin-playbook-podcast/stuhlerucken-in-der-union-wer-folgt-auf-thorsten-frei/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Stühlerücken in der Union: Wer folgt auf Thorsten Frei?</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+        
+        <li><a href="https://www.france24.com/en/europe/20260723-wildfires-ravage-spain-france-and-italy-killing-three-firefighters" target="_blank" rel="noopener">Wildfires ravage Spain, France and Italy, killing three firefighters</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+        
+        <li><a href="https://www.dw.com/en/us-hits-iran-as-houthis-claim-strikes-on-saudi-tankers/live-78077811?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">US hits Iran as Houthis claim strikes on Saudi tankers</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+        
+        <li><a href="https://www.bbc.co.uk/news/articles/ce8kvm84lxmo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener">Canada's 'powerful' dairy sector is in Trump's trade crosshairs</a> <span style="color:var(--muted)">— BBC News — World</span></li>
+        
+        <li><a href="https://www.dw.com/en/iran-war-trump-threatens-bridges-over-hormuz-strait-attacks/live-78060128?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Iran war: Trump threatens bridges over Hormuz Strait attacks</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+        
+        <li><a href="https://www.france24.com/en/europe/20260722-ukrainians-welcome-new-army-chief-but-seek-return-of-fired-defence-minister" target="_blank" rel="noopener">Ukrainians welcome new army chief but seek return of fired defence minister</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+        
+        <li><a href="https://www.france24.com/en/france-recorded-5-700-more-deaths-than-usual-during-its-historic-june-heat-wave" target="_blank" rel="noopener">France recorded 5,700 more deaths than usual during its historic June heat wave</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+        
+        <li><a href="https://www.france24.com/en/video/20260722-mykhailo-fedorov-was-fired-for-his-successes-in-fighting-corruption-in-the-defense-sector-1" target="_blank" rel="noopener">'Mykhailo Fedorov was fired for his successes in fighting corruption in the defense sector'</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+        
+        <li><a href="https://www.france24.com/en/video/20260722-sex-trafficking-in-fashion-outrageous-that-french-legal-system-hasn-t-done-anything-by-now-1" target="_blank" rel="noopener">Sex trafficking in fashion: 'Outrageous that French legal system hasn't done anything by now'</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+        
+        <li><a href="https://www.theguardian.com/us-news/2026/jul/21/gordie-howe-bridge-opening-celebration-canceled" target="_blank" rel="noopener">Canada cancels joint bridge-opening celebration with US amid trade tensions</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+        
+        <li><a href="https://www.france24.com/en/who-is-mikhailo-drapaty-ukraine-s-new-commander-in-chief" target="_blank" rel="noopener">Who is Mikhailo Drapaty, Ukraine's new commander-in-chief?</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+        
+        <li><a href="https://www.rfi.fr/en/france/20260722-french-model-recruiter-with-links-to-epstein-found-dead-near-paris" target="_blank" rel="noopener">French model recruiter with links to Epstein found dead near Paris</a> <span style="color:var(--muted)">— RFI English</span></li>
+        
+        <li><a href="https://www.theguardian.com/world/2026/jul/22/nicaragua-daniel-ortega-congress-work-plan-suspend-elections" target="_blank" rel="noopener">Nicaragua’s congress announces ‘work plan’ to suspend elections</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+        
+        <li><a href="https://www.rfi.fr/en/france/20260722-france-environment-minister-barbut-quits-then-stays-to-act-on-climate" target="_blank" rel="noopener">Macron talks environment minister out of quitting over pesticide U-turn</a> <span style="color:var(--muted)">— RFI English</span></li>
+        
+        <li><a href="https://www.theguardian.com/environment/2026/jul/22/sperm-whales-dominica-clicks-vowels-language-changes-shipping-noise-project-ceti" target="_blank" rel="noopener">Sperm whales change ‘vowel’ sounds when boats are nearby, scientists discover</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+        
+        <li><a href="https://www.france24.com/en/europe/20260722-germany-greenlights-controversial-joint-french-russian-nuclear-project" target="_blank" rel="noopener">Germany greenlights controversial joint French-Russian nuclear project</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+        
+        <li><a href="https://www.rfi.fr/en/international/20260722-saudi-nuclear-deal-set-to-bypass-iaea-s-toughest-inspections-regime" target="_blank" rel="noopener">United States announces landmark civilian nuclear deal with Saudi Arabia</a> <span style="color:var(--muted)">— RFI English</span></li>
+        
+        <li><a href="https://www.theguardian.com/world/2026/jul/22/british-woman-jailed-hong-kong-false-allegations" target="_blank" rel="noopener">British woman jailed in Hong Kong for blackmail after accusing banker of rape</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+        
+      </ul>
+    </details>
+    
+  </div>
+</details>
+
+<div class="day-spacer"></div>
+<details class="day-section" >
+  <summary>2026-07-22</summary>
+  <div class="day-section-body">
+    
+    <div class="digest-body"><h2>Päivän yhteenveto</h2>
+<p>Saksa on hyväksynyt kiistellyn ranskalais-venäläisen ydinprojektin, kun taas Ukrainan presidentti Zelensky on erottanut armeijan komentajan vastaamaan protestien vaatimuksiin. Lisäksi EU yrittää sopia Venäjän vastaisista pakotteista ja Ranska on hyväksynyt sosiaalisen median kiellon alle 15-vuotiaille.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>Saksa hyväksyy kiistellyn ranskalais-venäläisen ydinprojektin</h3>
+<p>Saksan ympäristöministeriö myönsi luvan Ranskan ja Venäjän yhteisprojektille, joka tuottaa polttoainesauvoja Venäjällä suunniteltuihin reaktoreihin Lingenin kaupungissa. Framatomen tytäryhtiön ja Rosatomin välinen kumppanuus herätti huolta Venäjän vakoilusta, mutta Saksan viranomaiset totesivat, että heillä ei ollut lainmukaista mahdollisuutta hylätä hanketta. Projektin hyväksymistä pidetään merkittävänä askeleena Venäjän ja Euroopan yhteistyössä ydinenergian alalla. <strong><a href="https://www.france24.com/en/europe/20260722-germany-greenlights-controversial-joint-french-russian-nuclear-project">Lue alkuperäinen →</a></strong></p>
+<h3>Saksa kamppailee yrityssaneerausaallon kanssa</h3>
+<p>Saksassa yrityssaneerausten määrä on nousussa, mikä herättää kysymyksiä maan talouden tilasta. Vaikka osa asiantuntijoista katsoo tämän olevan markkinoiden korjausliike, joka voi pitkällä aikavälillä hyödyttää kasvua, toiset varoittavat, että kyseessä voi olla merkki syvemmistä talousongelmista. Saksa seuraa tarkasti näiden saneerausten vaikutuksia työllisyyteen ja talouskasvuun. <strong><a href="https://www.dw.com/en/will-surge-in-german-business-bankruptcies-hit-growth/a-78037755?maca=en-rss-en-all-1573-rdf">Lue alkuperäinen →</a></strong></p>
+<h3>Zelensky erottaa armeijan komentajan Ukrainan protestien keskellä</h3>
+<p>Ukrainan presidentti Volodymyr Zelensky on erottaa armeijan komentajan Oleksandr Syrskyn laajojen protestien jälkeen. Mielenosoittajat syyttivät Syrskyä puolustusministerin erottamiseen liittyvistä virheistä. Presidentti nimesi Mykhailo Drapatyn uudeksi komentajaksi, jota pidetään syrjäytetyn puolustusministerin luottomiehenä. Tämä on suurin muutos Ukrainan sotilasjohdossa Venäjän aloitettua täysimittaisen hyökkäyksensä. <strong><a href="https://www.france24.com/en/zelensky-dimisses-military-chief-accused-of-wasting-lives-by-demonstrators">Lue alkuperäinen →</a></strong></p>
+<h3>Ranska kieltää sosiaalisen median alle 15-vuotiailta</h3>
+<p>Ranskan parlamentti on hyväksynyt lain, joka kieltää sosiaalisen median käytön alle 15-vuotiailta ensimmäisenä Euroopan unionissa. Lain tarkoituksena on suojella nuoria sosiaalisen median aiheuttamilta psykologisilta ja fyysisiltä riskeiltä. Tämä päätös heijastelee kasvavaa huolta digitaalisen median vaikutuksista alaikäisiin maailmanlaajuisesti. <strong><a href="https://www.rfi.fr/en/france/20260722-france-approves-social-media-ban-for-children-under-15-in-eu-first">Lue alkuperäinen →</a></strong></p>
+<h3>Saksan ja Azerbaidžanin kumppanuus syvenee</h3>
+<p>Saksan liittokansleri Friedrich Merz ja Azerbaidžanin presidentti Ilham Aliyev ovat allekirjoittaneet useita taloussopimuksia, joilla pyritään vahvistamaan Saksan pääsyä Azerbaidžanin energiavarantoihin ja kuljetusreitistöihin. Tämän yhteistyön tarkoituksena on monipuolistaa Saksan energiatoimituksia sekä tasapainottaa Azerbaidžanin suhteita eurooppa-myönteisen Armenian ja Moskovan kanssa. <strong><a href="https://www.rfi.fr/en/international/20260722-germany-looks-to-azerbaijan-as-armenia-ties-shift-the-regional-map">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>Gazan vakauttamismission toteutuminen on epävarmaa poliittisen yhteisymmärryksen puuttuessa Israelin, Hamasin ja arabivaltioiden kesken. <a href="https://www.dw.com/en/what-s-holding-up-the-gaza-stabilization-mission/a-78066920?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Ranskan ympäristöministeri Monique Barbut pysyy virassaan, vaikka aluksi erosi protestiksi u-käännöstä torjunta-aineita koskevassa lainsäädännössä vastaan. <a href="https://www.rfi.fr/en/france/20260722-france-environment-minister-barbut-quits-then-stays-to-act-on-climate">Lue lisää</a></li>
+<li>Australian ulkoministeri Penny Wong varoittaa Kiinaa provokatiivisista toimista samalla kun maa laajentaa sotilaallista ja ydinarsenaaliaan. <a href="https://www.theguardian.com/australia-news/2026/jul/22/australia-to-warn-china-it-wont-be-bulled-by-provocative-actions-as-it-builds-military-and-nuclear-arsenal">Lue lisää</a></li>
+<li>Deutsche Bankin pääkonttorit Saksassa joutuivat etsinnän kohteeksi jäljitystuista johtuvassa tutkinnassa. <a href="https://www.dw.com/en/germany-news-prosecutors-search-deutsche-bank-headquarters/live-78063298?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Ukraina uusii iskujaan Venäjän suurimmalle verkkokauppias Wildberriesille, jonka epäillään tarjoavan logistiikkatukea Venäjän armeijalle. <a href="https://www.dw.com/en/ukraine-renews-strikes-on-russia-s-largest-online-retailer/a-78063598?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Ranska on hyväksynyt hätätilalain maataloudelle, mikä voi johtaa kahden aiemmin kielletetyn torjunta-aineen tilapäiseen palautukseen. <a href="https://www.rfi.fr/en/france/20260721-france-s-emergency-agriculture-bill-passed-amid-divisions-over-pesticides">Lue lisää</a></li>
+<li>Tuli Etelä-Ranskassa on saatu hallintaan, mutta useita kuumia kohtia on edelleen. <a href="https://www.france24.com/en/europe/20260722-fast-moving-wildfire-forces-hundreds-of-evacuations-in-southern-france">Lue lisää</a></li>
+<li>Trump on ilmoittanut uusista tullimaksuista geneerisille lääkkeille, jotka astuvat voimaan vuonna 2028. <a href="https://www.theguardian.com/us-news/live/2026/jul/21/donald-trump-tariffs-canada-mark-carney-lebanon-republicans-gop-spending-bill-latest-news-updates">Lue lisää</a></li>
+<li>Kanada on peruuttanut yhteiset juhlallisuudet Yhdysvaltojen kanssa kauppajännitteiden keskellä. <a href="https://www.theguardian.com/us-news/2026/jul/21/gordie-howe-bridge-opening-celebration-canceled">Lue lisää</a></li>
+<li>Ebola-uhka: Brittiläinen terveydenhuollon työntekijä on tarkkailtavana Lontoossa palattuaan Kongon demokraattisesta tasavallasta. <a href="https://www.theguardian.com/world/2026/jul/21/health-worker-being-monitored-for-ebola-in-london-hospital-after-working-in-drc">Lue lisää</a></li>
+<li>Trump on sallinut suorat lentoyhteydet Yhdysvaltojen ja Libanonin välillä, mikä tapahtuu yli 40 vuoden jälkeen reitin keskeytymisestä. <a href="https://www.dw.com/en/trump-allows-direct-us-flights-to-lebanon-in-historic-move/a-78059787?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+</ul></div>
+    
+  </div>
+</details>
+
+
+
+
 
 
   </main>
@@ -362,6 +578,24 @@
           a.setAttribute('target', '_blank');
           a.setAttribute('rel', 'noopener');
         }
+      });
+
+      document.querySelectorAll('.digest-body').forEach(function(body) {
+        body.querySelectorAll('h3').forEach(function(h3) {
+          var div = document.createElement('div');
+          div.className = 'deep-dive';
+          h3.parentNode.insertBefore(div, h3);
+          div.appendChild(h3);
+          var next = div.nextSibling;
+          while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+            var n = next.nextSibling;
+            div.appendChild(next);
+            next = n;
+          }
+        });
+        body.querySelectorAll('ul').forEach(function(ul) {
+          ul.classList.add('brief-list');
+        });
       });
     })();
   </script>
