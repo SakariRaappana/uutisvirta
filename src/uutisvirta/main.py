@@ -102,9 +102,9 @@ def main(dry_run: bool, force: bool, stream: str | None, open_browser: bool, fet
 
     if not dry_run:
         try:
-            generator.build_master_index(all_configs, output_dir)
+            generator.build_homepage(all_configs, output_dir, run_date)
         except Exception as exc:
-            log.error("Master-indeksin rakennus epäonnistui: %s", exc)
+            log.error("Etusivun rakennus epäonnistui: %s", exc)
 
     index_path = output_dir / "index.html"
     if open_browser and index_path.exists() and not dry_run:

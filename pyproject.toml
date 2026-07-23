@@ -26,3 +26,8 @@ packages = ["src/uutisvirta"]
 
 [tool.hatch.build.targets.editable]
 mode = "compat"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

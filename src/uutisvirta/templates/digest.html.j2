@@ -28,30 +28,4 @@
   </ul>
 </details>
 
-<script>
-(function () {
-  var body = document.querySelector('.digest-body');
-  if (!body) return;
-
-  // Wrap each h3 + its following content in a .deep-dive div
-  body.querySelectorAll('h3').forEach(function (h3) {
-    var div = document.createElement('div');
-    div.className = 'deep-dive';
-    h3.parentNode.insertBefore(div, h3);
-    div.appendChild(h3);
-    var next = div.nextSibling;
-    while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
-      var n = next.nextSibling;
-      div.appendChild(next);
-      next = n;
-    }
-  });
-
-  // Apply brief-list class to all ul elements
-  body.querySelectorAll('ul').forEach(function (ul) {
-    ul.classList.add('brief-list');
-  });
-
-})();
-</script>
 {% endblock %}

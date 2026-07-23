@@ -1,0 +1,161 @@
+{% extends "base.html.j2" %}
+{% block title %}Uutisvirta — Päällimmäisenä{% endblock %}
+{% block content %}
+<style>
+  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
+  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
+  .hp-header .subtitle {
+    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
+    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
+  }
+
+  /* ── FEATURED ─────────────────────────────── */
+  .featured {
+    border-top: 3px solid var(--accent);
+    padding: 1.4rem 0 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .featured-stream-label {
+    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
+  }
+  .featured-title {
+    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
+    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
+  }
+  .featured-title a { color: var(--text); text-decoration: none; }
+  .featured-title a:hover { color: var(--accent); }
+  .featured-why {
+    font-size: 1rem; color: var(--text); line-height: 1.6;
+    margin-bottom: 0.85rem; max-width: 62ch;
+    font-style: italic;
+  }
+  .featured-meta {
+    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
+  }
+  .featured-meta .badge-new {
+    display: inline-block; background: var(--accent); color: var(--bg);
+    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
+  }
+  .featured-meta a { color: var(--accent); text-decoration: none; }
+  .featured-meta a:hover { text-decoration: underline; }
+
+  /* ── STREAM SECTIONS ─────────────────────── */
+  .stream-section {
+    border-top: 2px solid var(--rule);
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .stream-section-header {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: 1rem; padding: 1rem 0 0.75rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 0;
+  }
+  .stream-section-name {
+    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
+    margin: 0;
+  }
+  .stream-section-link {
+    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
+    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
+  }
+  .stream-section-link:hover { text-decoration: underline; }
+
+  .stream-empty {
+    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
+    letter-spacing: 0.04em; padding: 1rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* ── NEWS CARDS ──────────────────────────── */
+  .news-cards { list-style: none; padding: 0; }
+  .news-card {
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .news-card:last-child { border-bottom: none; }
+  .news-card-title {
+    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
+    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
+  }
+  .news-card-title a { color: var(--text); text-decoration: none; }
+  .news-card-title a:hover { color: var(--accent); }
+  .news-card-why {
+    font-size: 0.92rem; color: var(--text); line-height: 1.55;
+    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
+  }
+  .news-card-meta {
+    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
+  }
+  .news-card-meta a { color: var(--accent); text-decoration: none; }
+  .news-card-meta a:hover { text-decoration: underline; }
+  .badge-new {
+    display: inline-block; background: var(--accent); color: var(--bg);
+    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
+    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
+  }
+</style>
+
+<div class="hp-header">
+  <h1>Päällimmäisenä</h1>
+  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — {{ today }}</p>
+</div>
+
+{% if featured %}
+<div class="featured">
+  <div class="featured-stream-label">{{ featured.stream_name }}</div>
+  <h2 class="featured-title">
+    <a href="{{ featured.source_url }}" target="_blank" rel="noopener">{{ featured.title }}</a>
+  </h2>
+  {% if featured.why_relevant %}
+  <div class="featured-why">{{ featured.why_relevant }}</div>
+  {% endif %}
+  <div class="featured-meta">
+    {% if featured.is_new %}<span class="badge-new">Uusi</span>{% endif %}
+    {{ featured.source_name }} · {{ featured.age_label }} ·
+    <a href="{{ featured.digest_url }}">Lue analyysi →</a>
+  </div>
+</div>
+{% endif %}
+
+{% for section in sections %}
+<section class="stream-section">
+  <div class="stream-section-header">
+    <div class="stream-section-name">{{ section.stream_name }}</div>
+    <a href="{{ section.stream_slug }}/index.html" class="stream-section-link">Kaikki uutiset →</a>
+  </div>
+
+  {% if section.items %}
+  <ul class="news-cards">
+    {% for item in section.items %}
+    <li class="news-card">
+      <div class="news-card-title">
+        <a href="{{ item.source_url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+      </div>
+      {% if item.why_relevant %}
+      <div class="news-card-why">{{ item.why_relevant }}</div>
+      {% endif %}
+      <div class="news-card-meta">
+        {% if item.is_new %}<span class="badge-new">Uusi</span>{% endif %}
+        {{ item.source_name }} · {{ item.age_label }} ·
+        <a href="{{ item.digest_url }}">Lue analyysi</a>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
+  {% endif %}
+</section>
+{% endfor %}
+
+{% if not featured %}
+<p style="color:var(--muted); font-family:var(--font-mono); font-size:0.78rem; margin-top:2rem;">
+  Ei etusivukelpoisia uutisia viimeisen 7 vuorokauden ajalta. Aja streamit tuottaaksesi sisältöä.
+</p>
+{% endif %}
+
+{% endblock %}

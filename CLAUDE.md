@@ -23,10 +23,12 @@ src/uutisvirta/   # Paketin lähdekoodi
   main.py         # CLI-sisääntulopiste (Click)
   fetcher.py      # Uutisten haku (RSS + Google News RSS), deduplikointi, artikkelitekstien haku
   generator.py    # Promptien rakennus, LLM-kutsu, HTML-generointi
+  homepage.py     # Etusivun logiikka: lataus, deduplikointi, valinta, renderöinti
   llm.py          # LLM-client (OpenAI)
   templates/      # Jinja2-HTML-mallit
+tests/            # Yksikkötestit (pytest)
 output/           # Generoitu staattinen sivusto (git-ignorattu)
-  index.html      # Master-indeksi kaikista streameista
+  index.html      # Rullaava etusivu (7 vrk aikaikkunalla)
   <slug>/
     index.html    # Streamin arkisto-indeksi
     YYYY-MM-DD.html  # Päivittäinen digesti
@@ -38,12 +40,28 @@ logs/             # uutisvirta.log
 1. `main.py` lataa kaikki `streams/*.yaml`-konfiguraatiot
 2. Per stream: `fetcher.fetch()` hakee RSS + Google News RSS -hakusanat, deduplikoi URL:n ja otsikkosamankaltaisuuden perusteella (Jaccard ≥ 0.8), järjestää uusimmat ensin, katkaisee `max_final_items`-rajaan
 3. `generator.generate_digest()` tekee kaksi LLM-kutsua:
-   - **Vaihe 1 (luokittelu):** `gpt-4o-mini` luokittelee uutiset OpenAI Structured Outputs -skeemalla → `tärkea`/`lyhyt`/`ohita` + relevanssipisteytys (1–5) ja maantieteellinen osuvuus
+   - **Vaihe 1 (luokittelu):** `gpt-4o-mini` luokittelee uutiset OpenAI Structured Outputs -skeemalla 10 uutisen rinnakkaisissa erissä → `tärkea`/`lyhyt`/`ohita` + relevanssipisteytys ja **etusivumetatiedot** (homepage_score, keep_days, why_relevant, event_key jne.)
    - **Vaihe 2 (kirjoitus):** `gpt-4o` kirjoittaa analyysin tärkeistä uutisista (max 8192 output-tokenia)
 4. Tärkeille uutisille haetaan artikkelien kokonaisteksti (`fetcher.fetch_article_text()`) ennen kirjoitusvaihetta
 5. Renderöi Markdown → HTML Jinja2-templatella
 6. Kirjoittaa `output/<slug>/YYYY-MM-DD.html` ja päivittää stream-indeksin
-7. Rakentaa lopuksi master-indeksin `output/index.html`
+7. Kirjoittaa JSON-manifestin `output/<slug>/YYYY-MM-DD.json` etusivua varten (`homepage_candidates`-kenttä sisältää etusivukelpoiset uutiset)
+8. Kaikkien streamien jälkeen rakentaa rullaavan etusivun `output/index.html` (`homepage.build_homepage()`)
+
+### Etusivu (homepage.py)
+
+Etusivu on rullaava 7 vuorokauden aikaikkunan kooste kaikista streameista.
+
+**Tietomalli `HomepageCandidate`:** dataclass, joka sisältää mm. `homepage_score` (0–100), `keep_days` (1–7), `why_relevant` (yksi konkreettinen virke), `event_key` (slug-muotoinen tapahtumantunniste).
+
+**Valintaperiaatteet:**
+- Vain `tärkea`-luokan uutiset voivat olla `homepage_eligible=True`
+- Etusivun näyttöraja: `effective_score = homepage_score - age_days × 3 ≥ 75`
+- Uutinen poistetaan kun `age_days ≥ keep_days` TAI `age_days ≥ 7`
+- Enintään 4 uutista per stream, enintään 15 yhteensä
+- Deduplikointi: event_key → URL → otsikkosamankaltaisuus (Jaccard ≥ 0.75)
+
+**Konfiguraatiovakiot** (`homepage.py`): `HOMEPAGE_WINDOW_DAYS=7`, `HOMEPAGE_MIN_SCORE=75`, `HOMEPAGE_MAX_TOTAL=15`, `HOMEPAGE_MAX_PER_STREAM=4`, `HOMEPAGE_AGE_PENALTY=3`.
 
 ### Stream-konfiguraatio (YAML)
 

@@ -2,7 +2,8 @@ from __future__ import annotations
 
 import json
 import logging
-from dataclasses import dataclass
+import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from pathlib import Path
 
@@ -18,6 +19,7 @@ log = logging.getLogger(__name__)
 _md = MarkdownIt()
 
 CLASSIFY_MODEL = "gpt-4o-mini"
+CLASSIFY_BATCH_SIZE = 10
 
 CLASSIFY_SCHEMA: dict = {
     "type": "object",
@@ -27,12 +29,26 @@ CLASSIFY_SCHEMA: dict = {
             "items": {
                 "type": "object",
                 "properties": {
-                    "index":     {"type": "integer"},
-                    "category":  {"type": "string", "enum": ["tärkea", "lyhyt", "ohita"]},
-                    "relevance": {"type": "integer"},
-                    "geo_match": {"type": "boolean"},
+                    "index":                {"type": "integer"},
+                    "category":             {"type": "string", "enum": ["tärkea", "lyhyt", "ohita"]},
+                    "relevance":            {"type": "integer"},
+                    "geo_match":            {"type": "boolean"},
+                    "homepage_eligible":    {"type": "boolean"},
+                    "homepage_score":       {"type": "integer"},
+                    "keep_days":            {"type": "integer"},
+                    "personal_relevance":   {"type": "integer"},
+                    "strategic_importance": {"type": "integer"},
+                    "actionability":        {"type": "integer"},
+                    "novelty":              {"type": "integer"},
+                    "why_relevant":         {"type": "string"},
+                    "event_key":            {"type": "string"},
                 },
-                "required": ["index", "category", "relevance", "geo_match"],
+                "required": [
+                    "index", "category", "relevance", "geo_match",
+                    "homepage_eligible", "homepage_score", "keep_days",
+                    "personal_relevance", "strategic_importance", "actionability", "novelty",
+                    "why_relevant", "event_key",
+                ],
                 "additionalProperties": False,
             },
         }
@@ -111,12 +127,6 @@ def _env(output_dir: Path) -> Environment:
     )
 
 
-@dataclass
-class DigestEntry:
-    date: str
-    title: str
-
-
 def build_classify_system_prompt(stream_config: dict) -> str:
     profile = stream_config.get("profile", "").strip()
     return f"""Olet uutisluokittelija. Luokittele jokainen uutinen lukijaprofiilin perusteella.
@@ -129,21 +139,49 @@ Luokitukset:
   1. Koskee suoraan jotain profiilissa mainittua teknologiaa, regulaatiota tai aihetta (ei yleistä AI-uutisointia)
   2. Sisältää konkreettisen uuden tiedon: julkaisu, GA-siirtymä, arkkitehtuurimuutos, laki voimaan, merkittävä tutkimustulos
   3. Lukijan kannalta toiminnallinen tai strategisesti merkittävä — ei vain kiinnostava taustatieto
-  Käytä "tärkea"-luokkaa säästeliäästi: enintään 2–3 uutista koko syötteestä ansaitsee syvällisen analyysin.
+  Käytä "tärkea"-luokkaa säästeliäästi: enintään 2–3 uutista tästä erästä ansaitsee syvällisen analyysin.
 - "lyhyt": aihe liittyy profiiliin ja on hyvä tietää, mutta ei täytä kaikkia "tärkea"-ehtoja
 - "ohita": ei liity lukijaan lainkaan, tai on niin yleinen AI-hype-uutinen ettei se tuo lisäarvoa
 
 Luokittele VAIN annettujen tietojen (otsikko + tiivistelmä) perusteella. \
 Jos tiivistelmä on niin lyhyt, ettei sisällöstä voi sanoa mitään, luokittele "lyhyt" — älä arvaa sisältöä omasta tiedostasi.
 
-Arvioi myös jokainen uutinen kahdella lisäkentällä:
-- "relevance": kokonaisluku 1–5
-    5 = täsmää profiiliin maantieteellisesti ja aihepiiriltään suoraan
-    3 = yleisesti profiilin mukainen
-    1 = hyvin marginaalisesti liittyvä
-- "geo_match": true jos uutinen koskee profiilissa mainittua maantieteellistä aluetta, muuten false
+Arvioi jokainen uutinen seuraavilla kentillä:
 
-Palauta JSON-objekti muodossa {{"classifications": [{{"index": 0, "category": "...", "relevance": 3, "geo_match": true}}, ...]}}. \
+Peruskentät (kaikille uutisille):
+- "relevance": 1–5 (5 = täsmää profiiliin maantieteellisesti ja aihepiiriltään suoraan, 1 = hyvin marginaalisesti liittyvä)
+- "geo_match": true jos uutinen koskee profiilissa mainittua maantieteellistä aluetta
+
+Henkilökohtaisen etusivun kentät (kaikille uutisille):
+- "homepage_eligible": true VAIN jos KAIKKI toteutuvat:
+    * category on "tärkea"
+    * Uutinen voi konkreettisesti muuttaa sitä, mitä lukija oppii, tekee, ostaa tai ehdottaa asiakkaalle
+    * Vaikutus on ajankohtainen, ei hypoteettinen
+    * Tämä on poikkeuksellinen uutinen — suurimmalla osalla tärkea-uutisista tämä on false
+  Muille: false
+- "homepage_score": 0–100. Etusivun minimi on 75. Käytä ankkuripisteinä:
+    90–100: Poikkeuksellinen, vaikuttaa suoraan lukijan ammatilliseen toimintaan jo tällä viikolla
+    75–89: Selvästi merkittävä, muuttaa jonkin päätöksen tai toiminnan lähiviikkoina
+    50–74: Kiinnostava mutta ei etusivukelpoinen (homepage_eligible pitäisi olla false)
+    0–49: Marginaalinen tai epäolennainen
+  0 kaikille joille homepage_eligible on false.
+- "keep_days": 1–7, kuinka monta päivää uutinen ansaitsee pysyä etusivulla:
+    1–2 = ajankohtainen mutta nopeasti vanheneva, 3–4 = selvästi relevantti,
+    5–6 = strategisesti merkittävä, 7 = poikkeuksellinen pitkävaikutteinen
+  0 kaikille joille homepage_eligible on false.
+- "personal_relevance": 1–5 (miten suoraan koskee juuri tätä lukijaa)
+- "strategic_importance": 1–5 (pitkäaikainen vaikutus työnkuvaan tai toimialaan)
+- "actionability": 1–5 (vaatiiko tai mahdollistaa konkreettisen teon tällä viikolla)
+- "novelty": 1–5 (onko sisältö aidosti uutta vai jo yleisesti tiedettyä)
+  Lyhyt/ohita-uutisille kaikki 1.
+- "why_relevant": Yksi konkreettinen suomenkielinen virke siitä, miksi uutinen on juuri tälle lukijalle tärkeä.
+  Huono: "Tämä on tärkeä kehitys tekoälyalalla."
+  Hyvä: "Vaikuttaa suoraan siihen, millä abstraktiotasolla sinun kannattaa rakentaa yritysasiakkaiden AI-agentteja."
+  Lyhyt/ohita-uutisille: ""
+- "event_key": Lyhyt slug-muotoinen tunniste samalle uutistapahtumalle (esim. "microsoft-agent-framework-ga"). \
+  Käytä samaa tunnistetta saman tapahtuman eri uutisversioille. Lyhyt/ohita-uutisille: ""
+
+Palauta JSON-objekti muodossa {{"classifications": [{{"index": 0, "category": "...", ...}}, ...]}}. \
 Yksi objekti per uutinen. Ei muuta tekstiä."""
 
 
@@ -236,42 +274,107 @@ def build_user_prompt(
     return "\n".join(lines)
 
 
+def _classify_batch(
+    batch: list[NewsItem],
+    offset: int,
+    system: str,
+    client: LLMClient,
+) -> list[dict] | None:
+    """Classify one batch. Returns entries with global indices (offset applied), or None on failure."""
+    base_user = build_classify_user_prompt(batch)
+    for attempt in range(2):
+        user = base_user if attempt == 0 else (
+            base_user + f"\n\nHUOM: Edellinen vastauksesi puuttui joitain indeksejä. "
+            f"Palauta kaikki {len(batch)} uutista."
+        )
+        resp = client.complete(system, user, max_tokens=1200,
+                               model_override=CLASSIFY_MODEL,
+                               response_schema=CLASSIFY_SCHEMA)
+        log.info("Batch offset=%d attempt %d: %d in / %d out tokens",
+                 offset, attempt + 1, resp.input_tokens, resp.output_tokens)
+        data = _parse_classify_json(resp.content, len(batch))
+        if data is not None:
+            for entry in data:
+                entry["index"] += offset
+            return data
+        log.warning("Batch offset=%d: missing indices on attempt %d", offset, attempt + 1)
+    return None
+
+
 def _classify_items(
     items: list[NewsItem],
     stream_config: dict,
     client: LLMClient,
-) -> dict[str, str] | None:
-    """Returns {url: category} where category is 'tärkea'|'lyhyt'|'ohita', or None on failure."""
+) -> tuple[dict[str, str], list[dict]] | None:
+    """Returns (categories, raw_data) or None on failure.
+
+    categories: {url: category} where category is 'tärkea'|'lyhyt'|'ohita'
+    raw_data: full LLM classification entries with global indices, used for homepage metadata
+    """
     system = build_classify_system_prompt(stream_config)
-    base_user = build_classify_user_prompt(items)
+    batches = [items[i:i + CLASSIFY_BATCH_SIZE] for i in range(0, len(items), CLASSIFY_BATCH_SIZE)]
+    log.info("Classifying %d items in %d batches with %s...", len(items), len(batches), CLASSIFY_MODEL)
 
-    log.info("Classifying %d items with %s...", len(items), CLASSIFY_MODEL)
+    all_data: list[dict] = []
+    with ThreadPoolExecutor(max_workers=len(batches)) as executor:
+        futures = {
+            executor.submit(_classify_batch, batch, i * CLASSIFY_BATCH_SIZE, system, client): i
+            for i, batch in enumerate(batches)
+        }
+        for future in as_completed(futures):
+            result = future.result()
+            if result is None:
+                log.error("Classification failed for batch %d — aborting digest", futures[future])
+                return None
+            all_data.extend(result)
 
-    for attempt in range(2):
-        user = base_user if attempt == 0 else (
-            base_user + "\n\nHUOM: Edellinen vastauksesi puuttui joitain indeksejä. "
-            f"Palauta kaikki {len(items)} uutista."
-        )
-        resp = client.complete(system, user, max_tokens=1536,
-                               model_override=CLASSIFY_MODEL,
-                               response_schema=CLASSIFY_SCHEMA)
-        log.info("Classification attempt %d: %d in / %d out tokens",
-                 attempt + 1, resp.input_tokens, resp.output_tokens)
+    categories = _apply_scoring(all_data, items)
+    log.info(
+        "Classification ok: %d tärkea, %d lyhyt, %d ohita",
+        sum(1 for v in categories.values() if v == "tärkea"),
+        sum(1 for v in categories.values() if v == "lyhyt"),
+        sum(1 for v in categories.values() if v == "ohita"),
+    )
+    return categories, all_data
 
-        data = _parse_classify_json(resp.content, len(items))
-        if data is not None:
-            result = _apply_scoring(data, items)
-            log.info(
-                "Classification ok: %d tärkea, %d lyhyt, %d ohita",
-                sum(1 for v in result.values() if v == "tärkea"),
-                sum(1 for v in result.values() if v == "lyhyt"),
-                sum(1 for v in result.values() if v == "ohita"),
-            )
-            return result
-        log.warning("Classification missing indices on attempt %d", attempt + 1)
 
-    log.error("Classification failed after 2 attempts — aborting digest")
-    return None
+def _extract_homepage_candidates(
+    raw_data: list[dict],
+    items: list[NewsItem],
+    final_categories: dict[str, str],
+) -> list[dict]:
+    """Return homepage candidate dicts for items that are tärkea after scoring AND homepage_eligible."""
+    candidates = []
+    for entry in raw_data:
+        idx = entry.get("index")
+        if not isinstance(idx, int) or idx >= len(items):
+            continue
+        item = items[idx]
+        if final_categories.get(item.url) != "tärkea":
+            continue
+        if not entry.get("homepage_eligible", False):
+            continue
+        score = int(entry.get("homepage_score", 0))
+        if score < 1:
+            continue
+        candidates.append({
+            "title": item.title,
+            "source_name": item.source_name,
+            "source_url": item.url,
+            "published_at": item.published_dt.isoformat() if item.published_dt else None,
+            "summary": item.summary[:300],
+            "why_relevant": entry.get("why_relevant", ""),
+            "homepage_eligible": True,
+            "homepage_score": score,
+            "keep_days": max(1, min(7, int(entry.get("keep_days", 3)))),
+            "personal_relevance": int(entry.get("personal_relevance", 3)),
+            "strategic_importance": int(entry.get("strategic_importance", 3)),
+            "actionability": int(entry.get("actionability", 3)),
+            "novelty": int(entry.get("novelty", 3)),
+            "event_key": entry.get("event_key", ""),
+            "category": "tärkea",
+        })
+    return candidates
 
 
 def generate_digest(
@@ -319,9 +422,10 @@ def generate_digest(
 
     client = get_client()
 
-    categories = _classify_items(items, stream_config, client)
-    if categories is None:
+    classify_result = _classify_items(items, stream_config, client)
+    if classify_result is None:
         raise RuntimeError(f"Classification failed for stream {slug} after retries")
+    categories, raw_classifications = classify_result
 
     tärkeat = [i for i in items if categories.get(i.url) == "tärkea"]
     lyhyet = [i for i in items if categories.get(i.url) == "lyhyt"]
@@ -376,6 +480,29 @@ def generate_digest(
     out_file.write_text(html, encoding="utf-8")
     log.info("Wrote %s", out_file)
 
+    homepage_candidates = _extract_homepage_candidates(raw_classifications, items, categories)
+    if homepage_candidates:
+        log.info(
+            "Homepage candidates for %s/%s: %d items (scores: %s)",
+            slug, date_str,
+            len(homepage_candidates),
+            ", ".join(str(c["homepage_score"]) for c in homepage_candidates),
+        )
+
+    json_path = stream_dir / f"{date_str}.json"
+    json_path.write_text(json.dumps({
+        "date": date_str,
+        "stream_slug": slug,
+        "stream_name": stream_config["name"],
+        "body_html": body_html,
+        "item_count": len(tärkeat) + len(lyhyet),
+        "model": response.model,
+        "input_tokens": response.input_tokens,
+        "output_tokens": response.output_tokens,
+        "sources": [{"title": i.title, "url": i.url, "source_name": i.source_name} for i in items],
+        "homepage_candidates": homepage_candidates,
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+
     _rebuild_stream_index(stream_config, stream_dir, output_dir, all_streams)
     return out_file
 
@@ -408,17 +535,48 @@ def _rebuild_stream_index(
     output_dir: Path,
     all_streams: list[dict],
 ) -> None:
+    stream_dir.mkdir(parents=True, exist_ok=True)
+    RECENT_COUNT = 3
     dates = _list_digest_dates(stream_dir)
-    digests = [DigestEntry(date=d, title=d) for d in dates]
+
+    recent_digests: list[dict] = []
+    archive_entries: list[dict] = []
+
+    for i, date_str in enumerate(dates):
+        if i < RECENT_COUNT:
+            json_path = stream_dir / f"{date_str}.json"
+            if json_path.exists():
+                recent_digests.append(json.loads(json_path.read_text(encoding="utf-8")))
+            else:
+                html_path = stream_dir / f"{date_str}.html"
+                body_html = ""
+                if html_path.exists():
+                    body_html = _extract_body_html(html_path.read_text(encoding="utf-8")) or ""
+                recent_digests.append({
+                    "date": date_str,
+                    "body_html": body_html,
+                    "item_count": None,
+                    "model": None,
+                    "sources": [],
+                })
+        else:
+            archive_entries.append({"date": date_str})
+
     env = _env(output_dir)
     html = env.get_template("stream_index.html.j2").render(
         stream=stream_config,
-        digests=digests,
+        recent_digests=recent_digests,
+        archive_entries=archive_entries,
         all_streams=all_streams,
         current_slug=stream_config["slug"],
         root_path="../",
     )
     (stream_dir / "index.html").write_text(html, encoding="utf-8")
+
+
+def _extract_body_html(html_content: str) -> str | None:
+    m = re.search(r'<div class="digest-body">(.*?)</div>', html_content, re.DOTALL)
+    return m.group(1).strip() if m else None
 
 
 def _list_digest_dates(stream_dir: Path) -> list[str]:
@@ -439,6 +597,11 @@ def _adjacent_dates(stream_dir: Path, current: str) -> tuple[str | None, str | N
     prev_date = dates[idx + 1] if idx + 1 < len(dates) else None
     next_date = dates[idx - 1] if idx > 0 else None
     return prev_date, next_date
+
+
+def build_homepage(stream_configs: list[dict], output_dir: Path, today: date) -> None:
+    from . import homepage as _hp
+    _hp.build_homepage(stream_configs, output_dir, today)
 
 
 def _load_stream_nav(output_dir: Path, current_stream: dict) -> list[dict]:

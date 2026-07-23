@@ -2,18 +2,51 @@
 {% block title %}{{ stream.name }} — Uutisvirta{% endblock %}
 {% block content %}
 <h1>{{ stream.name }}</h1>
-<p class="meta"><span>{{ digests | length }} julkaisua</span></p>
 
-{% if digests %}
-<ul class="archive-list">
-  {% for d in digests %}
-  <li>
-    <span class="date">{{ d.date }}</span>
-    <a href="{{ d.date }}.html">{{ d.title or d.date }}</a>
-  </li>
-  {% endfor %}
-</ul>
-{% else %}
+{% if not recent_digests and not archive_entries %}
 <p>Ei vielä digestejä. Aja <code>uutisvirta</code> ensimmäisen kerran luodaksesi sisältöä.</p>
+{% else %}
+
+{% for digest in recent_digests %}
+{% if not loop.first %}<div class="day-spacer"></div>{% endif %}
+<details class="day-section" {% if loop.first %}open{% endif %}>
+  <summary>{{ digest.date }}</summary>
+  <div class="day-section-body">
+    {% if digest.item_count is not none %}
+    <p class="meta">
+      <span>{{ digest.item_count }} uutista</span>
+      {% if digest.model %}<span>{{ digest.model }}</span>{% endif %}
+    </p>
+    {% endif %}
+    <div class="digest-body">{{ digest.body_html | safe }}</div>
+    {% if digest.sources %}
+    <details>
+      <summary>Lähteet ({{ digest.sources | length }})</summary>
+      <ul class="source-list">
+        {% for s in digest.sources %}
+        <li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }}</a> <span style="color:var(--muted)">— {{ s.source_name }}</span></li>
+        {% endfor %}
+      </ul>
+    </details>
+    {% endif %}
+  </div>
+</details>
+{% endfor %}
+
+{% if archive_entries %}
+<div class="day-spacer"></div>
+<details class="archive-section">
+  <summary>Arkisto ({{ archive_entries | length }} julkaisua)</summary>
+  <ul class="archive-list archive-list--plain">
+    {% for entry in archive_entries %}
+    <li>
+      <span class="date">{{ entry.date }}</span>
+      <a href="{{ entry.date }}.html" target="_blank" rel="noopener">{{ entry.date }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</details>
+{% endif %}
+
 {% endif %}
 {% endblock %}
