@@ -22,9 +22,8 @@ def _setup_logging(output_dir: Path) -> None:
     log_dir.mkdir(exist_ok=True)
     handlers: list[logging.Handler] = [
         logging.FileHandler(log_dir / "uutisvirta.log", encoding="utf-8"),
+        logging.StreamHandler(sys.stderr),
     ]
-    if sys.stdout.isatty():
-        handlers.append(logging.StreamHandler())
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s %(levelname)s %(name)s: %(message)s",
@@ -86,6 +85,7 @@ def main(dry_run: bool, force: bool, stream: str | None, open_browser: bool, fet
         _print_fetch_summary(configs)
         return
 
+    errored_streams: list[str] = []
     for cfg in configs:
         slug = cfg.get("slug", "unknown")
         log.info("--- Stream: %s ---", slug)
@@ -98,6 +98,7 @@ def main(dry_run: bool, force: bool, stream: str | None, open_browser: bool, fet
             )
         except Exception as exc:
             log.error("Stream %s epäonnistui: %s", slug, exc, exc_info=True)
+            errored_streams.append(slug)
 
     if not dry_run:
         try:
@@ -109,6 +110,10 @@ def main(dry_run: bool, force: bool, stream: str | None, open_browser: bool, fet
     if open_browser and index_path.exists() and not dry_run:
         import subprocess
         subprocess.run(["open", str(index_path)], check=False)
+
+    if errored_streams and not dry_run:
+        log.error("Seuraavat streamit kaatautuivat poikkeukseen: %s", ", ".join(errored_streams))
+        sys.exit(1)
 
     log.info("Uutisvirta valmis.")
 

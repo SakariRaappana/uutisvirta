@@ -320,8 +320,7 @@ def generate_digest(
 
     categories = _classify_items(items, stream_config, client)
     if categories is None:
-        log.error("Aborting digest for stream %s: classification failed", slug)
-        return None
+        raise RuntimeError(f"Classification failed for stream {slug} after retries")
 
     tärkeat = [i for i in items if categories.get(i.url) == "tärkea"]
     lyhyet = [i for i in items if categories.get(i.url) == "lyhyt"]

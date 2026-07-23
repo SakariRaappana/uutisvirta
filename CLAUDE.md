@@ -21,7 +21,7 @@ Ohjelmaa ajetaan päivittäin (esim. cron). Jokainen ajo on idempotent: jos päi
 streams/          # Stream-konfiguraatiot (yksi .yaml per aihevirta)
 src/uutisvirta/   # Paketin lähdekoodi
   main.py         # CLI-sisääntulopiste (Click)
-  fetcher.py      # Uutisten haku (RSS + Google News RSS) ja deduplikointi
+  fetcher.py      # Uutisten haku (RSS + Google News RSS), deduplikointi, artikkelitekstien haku
   generator.py    # Promptien rakennus, LLM-kutsu, HTML-generointi
   llm.py          # LLM-client (OpenAI)
   templates/      # Jinja2-HTML-mallit
@@ -36,13 +36,14 @@ logs/             # uutisvirta.log
 ### Suorituspolku
 
 1. `main.py` lataa kaikki `streams/*.yaml`-konfiguraatiot
-2. Per stream: `fetcher.fetch()` hakee RSS + Google News RSS -hakusanat, deduplikoi URL:n ja otsikkosamankaltaisuuden perusteella (Jaccard ≥ 0.8), järjestää uuimmat ensin, katkaisee `max_final_items`-rajaan
+2. Per stream: `fetcher.fetch()` hakee RSS + Google News RSS -hakusanat, deduplikoi URL:n ja otsikkosamankaltaisuuden perusteella (Jaccard ≥ 0.8), järjestää uusimmat ensin, katkaisee `max_final_items`-rajaan
 3. `generator.generate_digest()` tekee kaksi LLM-kutsua:
-   - **Vaihe 1 (luokittelu):** halvempi malli (`gpt-4o-mini`) luokittelee uutiset OpenAI Structured Outputs -skeemalla → tärkea/lyhyt/ohita + relevanssipisteytys
-   - **Vaihe 2 (kirjoitus):** kalliimpi malli (gpt-4o) kirjoittaa analyysin vain tärkeistä uutisista (max 8192 output-tokenia)
-4. Renderöi Markdown → HTML Jinja2-templatella
-4. Kirjoittaa `output/<slug>/YYYY-MM-DD.html` ja päivittää stream-indeksin
-5. Rakentaa lopuksi master-indeksin `output/index.html`
+   - **Vaihe 1 (luokittelu):** `gpt-4o-mini` luokittelee uutiset OpenAI Structured Outputs -skeemalla → `tärkea`/`lyhyt`/`ohita` + relevanssipisteytys (1–5) ja maantieteellinen osuvuus
+   - **Vaihe 2 (kirjoitus):** `gpt-4o` kirjoittaa analyysin tärkeistä uutisista (max 8192 output-tokenia)
+4. Tärkeille uutisille haetaan artikkelien kokonaisteksti (`fetcher.fetch_article_text()`) ennen kirjoitusvaihetta
+5. Renderöi Markdown → HTML Jinja2-templatella
+6. Kirjoittaa `output/<slug>/YYYY-MM-DD.html` ja päivittää stream-indeksin
+7. Rakentaa lopuksi master-indeksin `output/index.html`
 
 ### Stream-konfiguraatio (YAML)
 
@@ -61,11 +62,13 @@ Jokainen `streams/*.yaml` määrittelee yhden aihevirran:
 
 `llm.py` tarjoaa `LLMClient`-luokan OpenAI SDK:n päälle. Provider on aina OpenAI; malli konfiguroidaan `OPENAI_MODEL`-ympäristömuuttujalla (oletus `gpt-4o`).
 
-Luokitteluun käytetään halvempaa `gpt-4o-mini`-mallia OpenAI Structured Outputs -ominaisuudella, joka pakottaa JSON-skeeman API-tasolla — ei prompt-ohjauksella. Luokittelu tuottaa kolme kategoriaa sekä relevanssipisteytyksen:
+Luokitteluun käytetään `gpt-4o-mini`-mallia OpenAI Structured Outputs -ominaisuudella (`response_format: json_schema`), joka pakottaa JSON-rakenteen API-tasolla. Luokittelu tuottaa jokaiselle uutiselle:
 
-- `tärkea` — syvä analyysi, kokonaisteksti haetaan artikkelisivulta
-- `lyhyt` — lyhyt maininta + linkki
-- `ohita` — jätetään kokonaan pois
+- `category`: `tärkea` / `lyhyt` / `ohita`
+- `relevance`: 1–5 (maantieteellinen ja aihepiirillinen osuvuus profiiliin)
+- `geo_match`: tosi/epätosi
+
+Tärkeistä uutisista haetaan lisäksi artikkelien kokonaisteksti (max 3000 merkkiä) kirjoitusmallin pohjaksi. Jos tekstiä ei saada (paywall, timeout), käytetään RSS-tiivistelmää varavalintana.
 
 ### Riippuvuudet
 
