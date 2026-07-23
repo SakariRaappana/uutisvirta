@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Erä — Uutisvirta</title>
+  <title>2026-07-23 — Erä — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -328,24 +328,75 @@
   </header>
   <main class="page">
     
-<h1>Erä</h1>
-<p class="meta"><span>2 julkaisua</span></p>
+<div class="day-nav">
+  <span><a href="2026-07-22.html">← 2026-07-22</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
+</div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Erä</div>
+<h1>2026-07-23</h1>
+<p class="meta">
+  <span>1 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>1614 tokenia</span>
+</p>
 
-<ul class="archive-list">
-  
-  <li>
-    <span class="date">2026-07-23</span>
-    <a href="2026-07-23.html">2026-07-23</a>
-  </li>
-  
-  <li>
-    <span class="date">2026-07-22</span>
-    <a href="2026-07-22.html">2026-07-22</a>
-  </li>
-  
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään merkittävä päätös tehtiin Pennsylvaniassa, kun oikeus päätti yksityisten metsästysseurojen hyväksi, estäen pelivartijoiden kotietsinnät ilman määräystä seurojen mailla.</p>
+<h2>Tärkeimmät uutiset</h2>
+<p>Ei tärkeitä uutisia tänään.</p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>Pennsylvanian oikeusistuin on päättänyt yksityisten metsästysseurojen hyväksi asiassa, joka koski pelivartijoiden oikeutta tehdä etsintöjä yksityisille maille ilman määräystä. Tätä pidetään merkittävänä päätöksenä yksityisomaisuutta koskevista oikeuksista. <a href="https://www.outdoorlife.com/conservation/pennsylvania-rules-against-game-wardens/">Lue lisää</a></li>
 </ul>
 
+</div>
+
+<details>
+  <summary>Lähteet (5)</summary>
+  <ul class="source-list">
+    
+    <li><a href="https://explorersweb.com/ai-animal-videos-photos-are-affecting-how-we-view-wildlife-study/" target="_blank" rel="noopener">AI Animal Videos & Photos Are Affecting How We View Wildlife: Study</a> <span style="color:var(--muted)">— ExploresWeb</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/conservation/pennsylvania-rules-against-game-wardens/" target="_blank" rel="noopener">Pennsylvania Court Rules in Favor of Hunting Clubs, Against Game Warden Surveillance on Private Property</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/fishing/urchin-bait-craze-fishing-trends/" target="_blank" rel="noopener">The Bait Taking Bass Fishing by Storm, and Other Fishing Trends to Know About</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/fishing/gulf-fishing-to-eat/" target="_blank" rel="noopener">We Fished the Gulf to Eat Only What We Caught — and We Feasted Like Kings</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/conservation/florida-python-challenge-photos/" target="_blank" rel="noopener">21 Shocking Snake Photos from the Florida Python Challenge</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+  </ul>
+</details>
+
+<script>
+(function () {
+  var body = document.querySelector('.digest-body');
+  if (!body) return;
+
+  // Wrap each h3 + its following content in a .deep-dive div
+  body.querySelectorAll('h3').forEach(function (h3) {
+    var div = document.createElement('div');
+    div.className = 'deep-dive';
+    h3.parentNode.insertBefore(div, h3);
+    div.appendChild(h3);
+    var next = div.nextSibling;
+    while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+      var n = next.nextSibling;
+      div.appendChild(next);
+      next = n;
+    }
+  });
+
+  // Apply brief-list class to all ul elements
+  body.querySelectorAll('ul').forEach(function (ul) {
+    ul.classList.add('brief-list');
+  });
+
+})();
+</script>
 
   </main>
   <script>
