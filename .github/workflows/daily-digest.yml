@@ -2,9 +2,9 @@ name: Daily Digest
 
 on:
   schedule:
-    # UTC+2 (EET talvi) = 07:00, UTC+3 (EEST kesä) = 08:00 Helsingissä.
-    # Github Actions -ajastin on epätarkka, ±15 min viive on normaalia.
-    - cron: '0 5 * * *'
+    # UTC 05:23 = 07:23 EET (talvi) / 08:23 EEST (kesä).
+    # Epätasainen kellonaika vähentää GitHub Actions -ruuhkaa tasa-aikoihin verrattuna.
+    - cron: '23 5 * * *'
   workflow_dispatch:
 
 permissions:
