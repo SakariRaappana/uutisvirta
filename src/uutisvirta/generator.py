@@ -9,6 +9,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markdown_it import MarkdownIt
 
+from . import fetcher
 from .fetcher import NewsItem
 from .llm import LLMClient, LLMResponse, get_client
 
