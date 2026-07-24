@@ -1,0 +1,78 @@
+{
+  "date": "2026-07-24",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään AT&amp;T ja Microsoft esittelivät merkittävää edistystä Microsoft Foundryn ja AMD:n avulla skaalautuvissa AI-ratkaisuissa. Lisäksi Microsoft Agent Framework julkaisi uuden työkalun, joka mahdollistaa agenttien orkestroinnin ilman koodia. Molemmilla uutisilla on potentiaalia muuttaa teknologian käyttöä finanssi- ja telecom-sektorilla.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>AT&amp;T ja Microsoft skaalaavat triljoonia tehtäviä Microsoft Foundryn ja AMD:n avulla</h3>\n<p>AT&amp;T on käsitellyt noin triljoonaa tokenia kehittäessään OTel2.0-projektia Microsoft Foundry Managed Computen, avoimien AI-mallien sekä AMD:n ja NVIDIA:n GPU-infrastruktuurin avulla. Tämä saavutettiin mahdollistamalla joustava mallivalinta ja skaalautuva infrastruktuuri, joka tukee suuren mittakaavan tekoälysovelluksia telekommunikaatiossa. Tämä yhteistyö osoittaa, kuinka joustavat ja tuotantotason tehokkaat AI-ratkaisut voivat parantaa merkittävästi suurten datamäärien käsittelyä. <strong><a href=\"https://azure.microsoft.com/en-us/blog/att-and-microsoft-scale-trillion-token-workloads-with-microsoft-foundry-and-amd/\">Lue alkuperäinen →</a></strong></p>\n<h3>Siirrä agenttiorkestroinnit koodin ulkopuolelle Agent Framework Declarative Workflows 1.0:lla</h3>\n<p>Microsoft Agent Framework on julkaissut uuden version, Declarative Workflows 1.0:n, joka mahdollistaa agenttien orkestroinnin siirron suoraan koodista julistettaviin työnkulkuihin. Tämä vähentää monimutkaisuutta ja nopeuttaa työnkulkuprosessien mukauttamista ja hallintaa. Julkaisu tuo esiin .NET-integraation ja laajat mahdollisuudet monialueellisten agenttiohjelmistojen hallintaan, mikä tekee siitä arvokkaan työkalun erityisesti monimutkaisissa ympäristöissä, kuten finanssisektorilla. <strong><a href=\"https://devblogs.microsoft.com/agent-framework/move-agent-orchestration-workflows-out-of-code-with-agent-framework-declarative-workflows-1-0/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>&quot;The Download&quot; käsittelee energiansiirtoa ja Yhdysvaltojen uhkia kiinalaista tekoälyä vastaan, tarjoten näkemyksiä teknologiamaailman ajankohtaisista aiheista. <a href=\"https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Tekoäly auttaa tutkijoita suunnittelemaan uuden sukupolven lääkkeitä, mikä voi nopeuttaa ja tehostaa lääkekehitysprosessia. <a href=\"https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/\">Lue lisää</a></p>\n</li>\n<li>\n<p>New Yorkin sähköverkon parantamista suunnitteleva voimajohto kohtaa esteitä, mikä voi vaikuttaa osavaltion tulevaisuuden energiankulutukseen. <a href=\"https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2203,
+  "output_tokens": 745,
+  "sources": [
+    {
+      "title": "AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD",
+      "url": "https://azure.microsoft.com/en-us/blog/att-and-microsoft-scale-trillion-token-workloads-with-microsoft-foundry-and-amd/",
+      "source_name": "Azure Blog"
+    },
+    {
+      "title": "Move Agent Orchestration/Workflows out of Code with Agent Framework Declarative Workflows 1.0",
+      "url": "https://devblogs.microsoft.com/agent-framework/move-agent-orchestration-workflows-out-of-code-with-agent-framework-declarative-workflows-1-0/",
+      "source_name": "Microsoft Agent Framework Blog"
+    },
+    {
+      "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
+      "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: energy transmission and US threats against Chinese AI",
+      "url": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "How AI helps scientists design the next generation of medicines",
+      "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The power line that could reshape New York’s grid is hitting snags",
+      "url": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD",
+      "source_name": "Azure Blog",
+      "source_url": "https://azure.microsoft.com/en-us/blog/att-and-microsoft-scale-trillion-token-workloads-with-microsoft-foundry-and-amd/",
+      "published_at": "2026-07-23T18:30:00+00:00",
+      "summary": "AT&#38;T processed approximately one trillion tokens while developing OTel2.0 using Microsoft Foundry Managed Compute, open AI models, and AMD and NVIDIA GPU infrastructure. Discover how flexible model choice and scalable infrastructure are enabling production-scale telecom AI.\nThe post AT&amp;T and",
+      "why_relevant": "Uutinen kertoo suoraan Microsoft Foundryn skaalasta ja Managed Compute -mallista suurissa token-työkuormissa, mikä vaikuttaa siihen, miten voit suunnitella ja perustella asiakasratkaisut finanssialan agentti- ja LLM-arkkitehtuureissa.",
+      "homepage_eligible": true,
+      "homepage_score": 88,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 4,
+      "actionability": 4,
+      "novelty": 5,
+      "event_key": "microsoft-foundry-trillion-token-workloads-att-amd",
+      "category": "tärkea"
+    },
+    {
+      "title": "Move Agent Orchestration/Workflows out of Code with Agent Framework Declarative Workflows 1.0",
+      "source_name": "Microsoft Agent Framework Blog",
+      "source_url": "https://devblogs.microsoft.com/agent-framework/move-agent-orchestration-workflows-out-of-code-with-agent-framework-declarative-workflows-1-0/",
+      "published_at": "2026-07-23T18:13:24+00:00",
+      "summary": "Most multi-agent apps wire every flow in application code: the sequence of steps, branching, and handoffs between agents all live inside the program, making the orchestration harder to review, version, and change. Declarative workflows make that orchestration explicit. In YAML, you define how agents",
+      "why_relevant": "Declarative Workflows 1.0 siirtää agenttien orkestroinnin koodista deklaratiiviseen muotoon, mikä on suoraan relevantti muutos MAF-tyyppisten monen agentin ratkaisujen suunnitteluun ja ylläpitoon.",
+      "homepage_eligible": true,
+      "homepage_score": 93,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "microsoft-agent-framework-declarative-workflows-1-0",
+      "category": "tärkea"
+    }
+  ]
+}
