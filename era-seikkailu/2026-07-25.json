@@ -1,0 +1,48 @@
+{
+  "date": "2026-07-25",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään esiteltiin vuoden 2026 parhaimmat taljajouset kattavan testin jälkeen, ja esille nousi vaatimuksia karhusumutteen pakollisuudesta metsästäjille ja ansastajille Montanassa. Lisäksi keskusteltiin haulikoiden piippujen pituuden merkityksestä lintumetsästyksessä ja seurattiin meloja Antonio de la Rosan edistymistä Luoteisväylän ylittämisessä SUP-laudalla.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>The Best Compound Bows of 2026: Our Toughest Shoot-Off Yet</strong><br />\nOutdoor Life testasi seitsemän taljajousen huipputuotetta ja valitsi voittajaksi toimittajan suosikin satojen nuolten ampumisen jälkeen. <a href=\"https://www.outdoorlife.com/gear/we-tested-best-compound-bows-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Animal Advocates Ask Montana to Force Hunters and Trappers to Carry Bear Spray</strong><br />\nEläinsuojelujärjestöt ovat jättäneet vetoomuksen Montanan kalastus- ja eläinkomisioon vaatimuksena, että metsästäjät ja ansastajat kantaisivat mukanaan karhusumutetta. Tämä tapahtui vain päivä karhuin iskusta kertoneen raportin jälkeen. <a href=\"https://www.outdoorlife.com/survival/bear-spray-petition/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Jack O’Connor Explains Why Bird Hunters Got Shotgun Selection and Barrel Length All Wrong</strong><br />\nJack O'Connor kyseenalaistaa pitkään vallalla olleen uskomuksen, että pitkä haulikon piippu parantaa aseen tehoa, ja kuvaa yleisön valitsevan edelleen vääränlaisia haulikoita. <a href=\"https://www.outdoorlife.com/guns/upland-shotguns-oconnor/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>A Windy Start For Northwest Passage Paddleboarder</strong><br />\nAntonio de la Rosa yrittää ylittää Luoteisväylän yksinään räätälöidyllä SUP-laudallaan. Hän on edennyt hyvin tuulisesta alusta huolimatta. <a href=\"https://explorersweb.com/northwest-passage-sup/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1678,
+  "output_tokens": 506,
+  "sources": [
+    {
+      "title": "The Best Compound Bows of 2026: Our Toughest Shoot-Off Yet",
+      "url": "https://www.outdoorlife.com/gear/we-tested-best-compound-bows-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Fly Fishing Guide Catches the Same Giant Smallmouth Bass 3 Times — It Turned Out to Be a World Record",
+      "url": "https://www.outdoorlife.com/fishing/world-record-bass-fly-rod/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Animal Advocates Ask Montana to Force Hunters and Trappers to Carry Bear Spray",
+      "url": "https://www.outdoorlife.com/survival/bear-spray-petition/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Tie the Snell Knot: The Most Important Knot for Live Bait Anglers",
+      "url": "https://www.outdoorlife.com/gear/snell-knot/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Back In the Day, Women’s Surf Fishing Clubs Ruled the Beach",
+      "url": "https://www.outdoorlife.com/fishing/womens-surf-fishing-clubs/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Jack O’Connor Explains Why Bird Hunters Got Shotgun Selection and Barrel Length All Wrong",
+      "url": "https://www.outdoorlife.com/guns/upland-shotguns-oconnor/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "A Windy Start For Northwest Passage Paddleboarder",
+      "url": "https://explorersweb.com/northwest-passage-sup/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}

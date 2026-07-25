@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-07-25 — Politiikka — Uutisvirta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #F0F1EB;
+      --surface: #E7E9E2;
+      --border: #C6CAC0;
+      --rule: #1B1D19;
+      --text: #191C18;
+      --muted: #6A6F65;
+      --accent: #3A6558;
+      --accent-pale: #C6D8D3;
+      --accent-border: #7AB0A4;
+      --stamp: #8A4C34;
+      --font-mono: "Courier Prime", "Courier New", Courier, monospace;
+      --font-serif: "Lora", Georgia, serif;
+      --font-display: "Playfair Display", Georgia, serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121519;
+        --surface: #1A1E22;
+        --border: #282D31;
+        --rule: #D8DDD8;
+        --text: #DCE1DC;
+        --muted: #787E78;
+        --accent: #78B8AB;
+        --accent-pale: #182824;
+        --accent-border: #3D7068;
+        --stamp: #C07A5A;
+      }
+    }
+
+    html { font-size: 18px; }
+    body {
+      font-family: var(--font-serif);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── MASTHEAD ───────────────────────────── */
+    .site-header {
+      border-top: 3px solid var(--rule);
+    }
+    .masthead-row {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0.6rem 1.5rem 0.55rem;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .logo {
+      font-family: var(--font-mono);
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .masthead-date {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+    .nav-strip {
+      border-top: 1px solid var(--border);
+      border-bottom: 2px solid var(--rule);
+      padding: 0.45rem 1.5rem;
+    }
+    .nav-strip nav {
+      max-width: 760px;
+      margin: 0 auto;
+      display: flex;
+      gap: 1.75rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .nav-strip a {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .nav-strip a:hover { color: var(--accent); }
+    .nav-strip a.active {
+      color: var(--text);
+      border-bottom: 1.5px solid var(--text);
+    }
+
+    /* ── PAGE ───────────────────────────────── */
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1.75rem 1.5rem 5rem;
+    }
+
+    /* ── TYPOGRAPHY ─────────────────────────── */
+    h1 {
+      font-family: var(--font-display);
+      font-size: 2.1rem;
+      font-weight: 400;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      margin-bottom: 0.2rem;
+      text-wrap: balance;
+    }
+    h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 2rem 0 0.65rem;
+      text-wrap: balance;
+    }
+    h3 {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 400;
+      margin: 1.5rem 0 0.4rem;
+    }
+    p { margin-bottom: 0.9rem; max-width: 68ch; }
+    p:last-child { margin-bottom: 0; }
+    ul, ol { padding-left: 1.4rem; margin-bottom: 0.85rem; }
+    li { margin-bottom: 0.25rem; }
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+    code {
+      font-family: var(--font-mono);
+      font-size: 0.83em;
+      background: var(--surface);
+      padding: 0.1em 0.35em;
+      border: 1px solid var(--border);
+    }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.75rem 0; }
+
+    /* ── META BAR ───────────────────────────── */
+    .meta {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .meta span + span::before { content: " · "; }
+
+    /* ── DIGEST BODY (Markdown-rendered content) ── */
+    .digest-body h2 {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: normal;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-top: 2px solid var(--text);
+      padding-top: 0.55rem;
+      margin: 2.2rem 0 1.2rem;
+    }
+    .digest-body h3 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 0 0 0.7rem;
+      text-wrap: balance;
+    }
+
+    /* ── DEEP DIVE (JS-injected wrapper around h3 blocks) ── */
+    .deep-dive {
+      background: var(--accent-pale);
+      border-left: 3px solid var(--accent-border);
+      padding: 1.1rem 1.4rem 1.1rem 1.2rem;
+      margin-bottom: 1.25rem;
+    }
+    .deep-dive p { font-size: 0.97rem; }
+    .deep-dive p:last-child { margin-bottom: 0; }
+
+    /* ── BRIEF LIST (JS-injected class on ul) ── */
+    .brief-list { list-style: none; padding: 0; }
+    .brief-list li {
+      padding: 0.72rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+      line-height: 1.56;
+      max-width: 68ch;
+    }
+    .brief-list li:last-child { border-bottom: none; }
+
+    /* ── DAY NAV ────────────────────────────── */
+    .day-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+    .day-nav a { color: var(--accent); text-decoration: none; }
+    .day-nav a:hover { text-decoration: underline; }
+
+    /* ── ARCHIVE LIST ───────────────────────── */
+    .archive-list { list-style: none; padding: 0; border-top: 2px solid var(--text); }
+    .archive-list li {
+      display: flex;
+      gap: 1.5rem;
+      align-items: baseline;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .archive-list li:last-child { border-bottom: none; }
+    .archive-list .date {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      min-width: 6rem;
+      flex-shrink: 0;
+      letter-spacing: 0.04em;
+    }
+    .archive-list a { color: var(--text); font-size: 0.93rem; text-decoration: none; }
+    .archive-list a:hover { color: var(--accent); }
+
+    /* ── STREAM CARDS ───────────────────────── */
+    .stream-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 0;
+      border-top: 2px solid var(--text);
+    }
+    .stream-card {
+      padding: 1.1rem 2rem 1.1rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .stream-card h2 {
+      font-size: 1rem;
+      margin-top: 0;
+      margin-bottom: 0.2rem;
+      font-weight: 400;
+    }
+    .stream-card h2 a { color: var(--text); text-decoration: none; }
+    .stream-card h2 a:hover { color: var(--accent); }
+    .stream-card .last-updated {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+    }
+    .stream-card .last-updated a { color: var(--accent); text-decoration: none; }
+
+    /* ── SOURCES ────────────────────────────── */
+    details {
+      margin-top: 2.5rem;
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
+    }
+    details summary {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      cursor: pointer;
+      list-style: none;
+    }
+    details[open] summary { margin-bottom: 0.6rem; }
+    .source-list { list-style: none; padding: 0; margin-top: 0.4rem; }
+    .source-list li {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+    .source-list a { color: var(--accent); text-decoration: none; }
+    .source-list a:hover { text-decoration: underline; }
+
+    /* ── DAY SECTION (collapsible per-day digest) ── */
+    .day-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .day-section > summary {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+      text-transform: none;
+      padding: 1.25rem 0 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+    .day-section > summary::-webkit-details-marker { display: none; }
+    .day-section > summary::after {
+      content: "▾";
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .day-section:not([open]) > summary::after { content: "▸"; }
+    .day-section-body { padding-bottom: 2.5rem; }
+
+    /* ── ARCHIVE SECTION ────────────────────── */
+    .archive-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .archive-section > summary {
+      padding: 0.9rem 0;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .archive-section > summary::-webkit-details-marker { display: none; }
+    .archive-list--plain { border-top: none; margin-top: 0.25rem; }
+
+    /* ── DAY SPACER ─────────────────────────── */
+    .day-spacer {
+      height: 0;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="masthead-row">
+      <a href="../index.html" class="logo">Uutisvirta</a>
+      <span class="masthead-date" id="site-date"></span>
+    </div>
+    <div class="nav-strip">
+      <nav>
+        
+        <a href="../datascience-konsultointi/index.html"
+           >
+          Datascience konsultointi
+        </a>
+        
+        <a href="../era-seikkailu/index.html"
+           >
+          Erä & seikkailu
+        </a>
+        
+        <a href="../politiikka/index.html"
+           class="active">
+          Politiikka
+        </a>
+        
+      </nav>
+    </div>
+  </header>
+  <main class="page">
+    
+<div class="day-nav">
+  <span><a href="2026-07-24.html">← 2026-07-24</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
+</div>
+
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Politiikka</div>
+<h1>2026-07-25</h1>
+<p class="meta">
+  <span>20 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>8590 tokenia</span>
+</p>
+
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään Euroopan unionin ja suurvaltojen väliset suhteet kärjistyivät, kun USA uhkasi tulleilla EU:ta Googlen sakkojen vuoksi ja Kiina reagoi EU:n pakotteisiin kohdistuvilla vastatoimilla. Lisäksi Euroopan komissio teki merkittävän päätöksen, joka pakottaa Googlen jakamaan hakutietojaan kilpailun edistämiseksi.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>Trump uhkaa EU:ta tullitutkinnalla Googlen sakkojen vuoksi</h3>
+<p>Donald Trump on uhannut Euroopan unionia tullitutkinnalla vastineeksi Googlelle määrätyistä sakkoista. EU on asettanut entistä tiukempia sääntöjä, jotka koskevat suuria teknologiayhtiöitä, ml. Google, ja määrännyt merkittäviä sakkoja kilpailulainsäädännön rikkomisista. Trumpin kommentit antavat ymmärtää, että USA voisi vastata näihin toimenpiteisiin tutkimalla EU:n tuotteita, mikä voisi johtaa uusiin sopimuksiin ja mahdollisiin tulleihin. Tämä siirto voi kiristää edelleen EU:n ja USA:n välejä erityisesti teknologian alalla. <strong><a href="https://www.dw.com/en/trump-threatens-eu-with-tariff-probe-over-google-tech-fines/a-78105954?maca=en-rss-en-all-1573-rdf">Lue alkuperäinen →</a></strong></p>
+<h3>Kiina reagoi EU:n pakotteisiin puolustus- ja teknologiayrityksiä vastaan</h3>
+<p>Kiina on päättänyt vastata Euroopan unionin pakotteisiin, jotka kohdistuvat kiinalaiseen puolustus- ja teknologiasektoriin. EU:n pakotteet on kohdistettu yrityksiin, joiden epäillään hyödyntävän puolustussektoria sotilaallisiin tarkoituksiin tai osaksi kiinalaista valvontajärjestelmää. Kiina aikoo ryhtyä vastatoimiin, jotka voivat vaikuttaa eurooppalaisten yritysten toimintaan Kiinassa, aiheuttaen jännitteitä EU:n ja Kiinan kaupallisissa suhteissa. <strong><a href="https://www.politico.eu/article/china-strikes-back-at-eu-sanctions-targeting-defense-tech-firms-rheinmetall/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue alkuperäinen →</a></strong></p>
+<h3>Euroopan komissio pakottaa Googlen jakamaan hakutietoja</h3>
+<p>Euroopan komissio on tehnyt merkittävän päätöksen, jonka myötä Google joutuu jakamaan hakukoneensa dataa kilpailijoilleen edistääkseen reilumpaa kilpailua digitaalisten palvelujen markkinoilla. Tämä päätös on osa EU:n laajempaa strategiaa vahvistaa kilpailulainsäädäntöä, ja sen tarkoituksena on torjua monopolistisia käytäntöjä teknologia-alalla. Googlen on avattava hakutietonsa, mikä saattaa vaikuttaa merkittävästi yhtiön digitaalisen mainonnan sekä kilpailijoiden markkinatilanteeseen. <strong><a href="https://news.google.com/rss/articles/CBMilwJBVV95cUxQWVZuZWVJcFpRMzQzUG41SnBTM0NGY1RyazR1UjdLSzZZMTRDMmtybThtRWFKc3dIVWNjb0QtVm1CSzJ2S0lQZ0liUWlyU1hWWjdZYUsyZW9yY0Y2dUpmdVk4cHNRQkd5RjRLRV9OQ21fUjhHcko1SWhVWjRMM055ZzBlZVgtVmJWbm5kMGMzc3N5cHQzWHFfdXJtSGVrMkRIcmZrOGt5VjFkU0dUYXpwUGdLd1R6ZnNqcGpiVzB6MTJqVk02cEZPNU1ZMXlnb2FGQVRHLUxzLVBFa3U2MTJfU01OaUNNQXZFY3A3R0xGeVZ6UV9aVHljSUlXeFRVTmdfZlVyRXM0Rzk4aGV0Tk1Jd0ZEdmM5X0E?oc=5">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>Viisi järjestöä on vienyt Ranskan hallituksen oikeuteen Israelin siirtokuntiin liittyvien taloudellisten yhteyksien vuoksi. <a href="https://www.rfi.fr/en/international/20260725-ngos-take-france-to-court-over-companies-links-to-israeli-settlements">Lue lisää</a></li>
+<li>Politico varoittaa, että dronien liiallinen korostaminen voi johtaa vääristyneeseen käsitykseen puolustustarpeista, mikä hyödyttää erityisesti Venäjää. <a href="https://www.politico.eu/article/kyivs-drone-triumphs-are-feeding-a-false-narrative-about-defense-needs/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää</a></li>
+<li>Emmanuel Macron on pyytänyt lisäapua EU:lta Ranskan laajenevien metsäpalojen hillitsemiseksi. <a href="https://www.rfi.fr/en/france/20260724-macron-calls-for-eu-reinforcements-as-france-battles-spreading-wildfires">Lue lisää</a></li>
+<li>Puolan suurimman oppositiopuolueen hajaantuminen saattaa heikentää puolueen suosiota tulevissa vaaleissa. <a href="https://www.dw.com/en/poland-s-main-opposition-collapses-over-far-right-slide/a-78106475?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>CDU:n yllättävä henkilöstömuutos Saksassa on herättänyt laajaa huomiota poliittisissa piireissä. <a href="https://www.politico.eu/podcast/eu-confidential/merz-neue-machtzentrale-mit-miriam-hollstein/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää</a></li>
+<li>Trumpin hallinto hylkäsi YK:n maatalousjulistuksen sukupuoliviittausten vuoksi. <a href="https://www.politico.eu/article/trump-administration-rejects-un-farm-declaration-over-gender-references/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää</a></li>
+<li>USA harkitsee tekoälyn sammutusmekanismin (AI 'kill switch') luomista estääkseen hallitsemattomat AI-mallit. <a href="https://www.dw.com/en/us-floats-ai-kill-switch-to-stop-rogue-ai-models/a-78100594?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Kymmenet tuhannet ihmiset pakenivat Ranskan metsiä, kun useat tulipalot yhdistyivät suurpaloksi. <a href="https://www.dw.com/en/europe-wildfires-thousands-flee-by-boat-as-fires-spread-merge/a-78104513?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Ukraina on iskenyt Venäjän verkkokaupan varastoihin syyttäen niitä armeijan tukemisesta. <a href="https://www.france24.com/en/video/20260724-ukraine-targets-russian-ecommerce-giant-s-warehouses-in-fourth-attack">Lue lisää</a></li>
+<li>Unesco on lisännyt uusia kohteita Libanonissa ja Länsirannalla uhanalaisiksi maailmanperintökohteiksi. <a href="https://www.dw.com/en/unesco-adds-lebanese-west-bank-sites-to-endangered-list/a-78102475?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Kanadan hallitusta kehotetaan estämään datan jakamissopimus, jossa on osallisena Thomson Reuters ja Yhdysvaltain ICE. <a href="https://www.theguardian.com/world/2026/jul/24/canada-government-mark-carney-block-data-sharing-deal-thomson-reuters-us-ice-avi-lewis">Lue lisää</a></li>
+<li>Kesäkuun helleaalto aiheutti Ranskassa ennennäkemättömän määrän ylimääräisiä kuolemia. <a href="https://www.rfi.fr/en/france/20260724-record-june-heatwave-sees-france-record-unprecedented-5-764-excess-deaths">Lue lisää</a></li>
+<li>USA asetti uusia tulleja useille maille vedoten pakkotyövoimaan. <a href="https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&amp;at_campaign=rss">Lue lisää</a></li>
+<li>Giorgia Melonin hallinnon autoritaariset otteet luovat huolta Italian demokraattisista instituutioista. <a href="https://www.france24.com/en/tv-shows/europe-rendezvous/20260724-giorgia-meloni-s-italy-an-authoritarian-drift-part-2">Lue lisää</a></li>
+<li>Giorgia Melonin hallituksen tiukat maahanmuuttopolitiikat jakavat mielipiteitä Italiassa ja Euroopassa. <a href="https://www.france24.com/en/tv-shows/fact-or-fake/20260724-meloni-s-italy-fortress-europe">Lue lisää</a></li>
+<li>Giorgia Meloni on noussut eurooppalaisen äärioikeiston kasvoksi, lähettäen selviä viestejä Yhdysvaltain suuntaan. <a href="https://www.france24.com/en/tv-shows/fact-or-fake/20260724-meloni-the-face-of-europe-s-far-right">Lue lisää</a></li>
+<li>Madridin lähellä tapahtuneet tulipalot ovat pakottaneet tuhannet evakuoitumaan, kun helleaalto jatkuu. <a href="https://www.france24.com/en/spain-thousands-evacuate-as-heatwave-fuels-blazes-near-madrid">Lue lisää</a></li>
+</ul>
+
+</div>
+
+<details>
+  <summary>Lähteet (40)</summary>
+  <ul class="source-list">
+    
+    <li><a href="https://www.dw.com/en/eco-wins-cities-creatures-and-tech-are-saving-the-day/a-78097358?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Eco wins: Cities, creatures, and tech are saving the day</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/it-smells-of-burning-thousands-evacuated-as-wildfires-rage-around-madrid" target="_blank" rel="noopener">'It smells of burning': Thousands evacuated as wildfires rage around Madrid</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/india-cjp-government-to-return-to-talks-as-protests-grow/live-78108089?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">India: CJP-Government to return to talks as protests grow</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260725-haitians-in-port-au-prince-and-new-york-fear-fallout-from-end-of-us-protectionn" target="_blank" rel="noopener">Haitians at home and abroad fear fallout from end of US protection</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260725-ngos-take-france-to-court-over-companies-links-to-israeli-settlements" target="_blank" rel="noopener">NGOs take France to court over companies’ links to Israeli settlements</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260725-live-france-orders-evacuations-near-bordeaux-as-wildfires-sweep-through-southwest" target="_blank" rel="noopener">Live: France orders evacuations near Bordeaux as wildfires sweep through southwest</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/iran-war-houthis-vow-response-to-dangerous-escalation-by-saudi-arabia/live-78107211?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Iran war: Houthis vow response to 'dangerous escalation' by Saudi Arabia</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/trump-addresses-rescheduled-white-house-correspondents-dinner/a-78107209?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Trump addresses rescheduled White House Correspondents' Dinner</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.politico.eu/article/kyivs-drone-triumphs-are-feeding-a-false-narrative-about-defense-needs/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">We’ve fallen in love with drones, but they’re not the sole answer</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/iran-war-saudi-led-coalition-attacks-yemen-s-hodeida-port-city/live-78093040?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Iran war: Saudi-led coalition attacks Yemen's Hodeida port city</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/paramount-agrees-to-delay-warner-bros-merger-amid-lawsuit/a-78107061?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Paramount agrees to delay Warner Bros. merger amid lawsuit</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20260724-macron-calls-for-eu-reinforcements-as-france-battles-spreading-wildfires" target="_blank" rel="noopener">Macron calls for EU reinforcements as France battles spreading wildfires</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.dw.com/en/icc-votes-to-dismiss-chief-prosecutor-karim-khan/a-78092577?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">ICC votes to dismiss Chief Prosecutor Karim Khan</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/africa/20260724-heatwave-hits-north-africa-with-power-cuts-in-tunisia-and-wildfires-in-algeria" target="_blank" rel="noopener">Heatwave hits North Africa, with power cuts in Tunisia and wildfires in Algeria</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.bbc.co.uk/news/articles/cqjxddx12qqo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener">ICC top prosecutor removed over sexual misconduct allegations</a> <span style="color:var(--muted)">— BBC News — World</span></li>
+    
+    <li><a href="https://www.dw.com/en/poland-s-main-opposition-collapses-over-far-right-slide/a-78106475?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Poland's main opposition collapses over far-right slide</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/trump-threatens-eu-with-tariff-probe-over-google-tech-fines/a-78105954?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Trump threatens EU with tariff probe over Google, tech fines</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260724-icc-chief-prosecutor-karim-khan-dismissed-over-sexual-misconduct-allegations-sources-say" target="_blank" rel="noopener">ICC dismisses chief prosecutor Karim Khan over sexual misconduct allegations</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/jul/24/thousands-of-lightning-strikes-trigger-fresh-wildfires-in-western-canada" target="_blank" rel="noopener">Thousands of lightning strikes trigger fresh wildfires in western Canada</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.dw.com/en/russia-hits-drone-demonstration-near-kyiv-killing-10/a-78105704?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Russia hits drone demonstration near Kyiv, killing 10</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/eu-confidential/merz-neue-machtzentrale-mit-miriam-hollstein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Merz’ neue Machtzentrale — mit Miriam Hollstein</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.politico.eu/article/trump-administration-rejects-un-farm-declaration-over-gender-references/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Trump administration rejects UN farm declaration over gender references</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/jul/24/guyana-coastal-ferry-sinking-deaths-rescue" target="_blank" rel="noopener">Guyanese authorities confirm death of 72 people in sinking of coastal ferry</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.dw.com/en/us-floats-ai-kill-switch-to-stop-rogue-ai-models/a-78100594?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">US floats AI 'kill switch' to stop rogue AI models</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/europe-wildfires-thousands-flee-by-boat-as-fires-spread-merge/a-78104513?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Europe wildfires: Thousands flee by boat as fires spread, merge</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/niger-still-seeks-stability-after-3-years-of-military-rule/a-78100030?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Niger still seeks stability, after 3 years of military rule</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/video/20260724-ukraine-targets-russian-ecommerce-giant-s-warehouses-in-fourth-attack" target="_blank" rel="noopener">#Ukraine targets Russian #ecommerce giant's warehouses in fourth #attack</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/unesco-adds-lebanese-west-bank-sites-to-endangered-list/a-78102475?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">UNESCO adds Lebanese, West Bank sites to endangered list</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/jul/24/canada-government-mark-carney-block-data-sharing-deal-thomson-reuters-us-ice-avi-lewis" target="_blank" rel="noopener">Canadian government urged to block Thomson Reuters data deal with US ICE</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20260724-record-june-heatwave-sees-france-record-unprecedented-5-764-excess-deaths" target="_blank" rel="noopener">Record June heatwave sees France record 'unprecedented' 5,764 excess deaths</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener">US hits dozens of countries with new wave of tariffs</a> <span style="color:var(--muted)">— BBC News — World</span></li>
+    
+    <li><a href="https://www.politico.eu/article/china-strikes-back-at-eu-sanctions-targeting-defense-tech-firms-rheinmetall/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">China strikes back at EU sanctions targeting defense, tech firms</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.theguardian.com/environment/2026/jul/24/gangs-taking-villages-on-brazil-peru-border-hostage-say-indigenous-leaders" target="_blank" rel="noopener">Masked men invading and taking Amazon communities ‘hostage’ in organised crime surge, say local leaders</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.france24.com/en/tv-shows/europe-rendezvous/20260724-giorgia-meloni-s-italy-an-authoritarian-drift-part-2" target="_blank" rel="noopener">Giorgia Meloni's Italy: An authoritarian drift? (Part 2)</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/tv-shows/fact-or-fake/20260724-meloni-s-italy-fortress-europe" target="_blank" rel="noopener">Meloni's Italy: Fortress Europe?</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/tv-shows/fact-or-fake/20260724-meloni-the-face-of-europe-s-far-right" target="_blank" rel="noopener">Giorgia Meloni: The face of Europe's far right?</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20260724-notre-dame-s-disputed-new-windows-on-schedule-for-december-reveal" target="_blank" rel="noopener">Notre-Dame's disputed new windows 'on schedule' for December reveal</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/africa/20260724-ghanaians-ask-icc-to-investigate-xenophobic-violence-in-south-africa" target="_blank" rel="noopener">Ghanaians ask ICC to investigate xenophobic violence in South Africa</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/spain-thousands-evacuate-as-heatwave-fuels-blazes-near-madrid" target="_blank" rel="noopener">Spain: Thousands evacuate as heatwave fuels blazes near Madrid</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://news.google.com/rss/articles/CBMilwJBVV95cUxQWVZuZWVJcFpRMzQzUG41SnBTM0NGY1RyazR1UjdLSzZZMTRDMmtybThtRWFKc3dIVWNjb0QtVm1CSzJ2S0lQZ0liUWlyU1hWWjdZYUsyZW9yY0Y2dUpmdVk4cHNRQkd5RjRLRV9OQ21fUjhHcko1SWhVWjRMM055ZzBlZVgtVmJWbm5kMGMzc3N5cHQzWHFfdXJtSGVrMkRIcmZrOGt5VjFkU0dUYXpwUGdLd1R6ZnNqcGpiVzB6MTJqVk02cEZPNU1ZMXlnb2FGQVRHLUxzLVBFa3U2MTJfU01OaUNNQXZFY3A3R0xGeVZ6UV9aVHljSUlXeFRVTmdfZlVyRXM0Rzk4aGV0Tk1Jd0ZEdmM5X0E?oc=5" target="_blank" rel="noopener">The European Commission Hits the Nail on the Head in its DMA Specification Decision Forcing Google to Allow Access to its Search Data - Wolters Kluwer</a> <span style="color:var(--muted)">— Google News: European Commission</span></li>
+    
+  </ul>
+</details>
+
+
+  </main>
+  <script>
+    (function() {
+      var d = new Date();
+      var days = ['Su','Ma','Ti','Ke','To','Pe','La'];
+      var months = ['tammik.','helmik.','maalisk.','huhtik.','toukok.','kesäk.','heinäk.','elok.','syysk.','lokak.','marrask.','jouluk.'];
+      var el = document.getElementById('site-date');
+      if (el) el.textContent = days[d.getDay()] + ' ' + d.getDate() + '. ' + months[d.getMonth()] + ' ' + d.getFullYear();
+
+      document.querySelectorAll('a[href]').forEach(function(a) {
+        var href = a.getAttribute('href');
+        if (href && href.startsWith('http')) {
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener');
+        }
+      });
+
+      document.querySelectorAll('.digest-body').forEach(function(body) {
+        body.querySelectorAll('h3').forEach(function(h3) {
+          var div = document.createElement('div');
+          div.className = 'deep-dive';
+          h3.parentNode.insertBefore(div, h3);
+          div.appendChild(h3);
+          var next = div.nextSibling;
+          while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+            var n = next.nextSibling;
+            div.appendChild(next);
+            next = n;
+          }
+        });
+        body.querySelectorAll('ul').forEach(function(ul) {
+          ul.classList.add('brief-list');
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

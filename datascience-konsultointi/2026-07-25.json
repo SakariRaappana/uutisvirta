@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-25",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Center for Democracy and Technology julkaisi palautteensa EU:n AI Actin luonnoksessa määritettävien korkean riskin tekoälyjärjestelmien luokittelua koskeviin suuntaviivoihin.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Center for Democracy and Technology (CDT) on antanut palautetta EU:n AI Actin luonnoksen suuntaviivoista, jotka koskevat korkean riskin tekoälyjärjestelmien luokittelua. <a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPcXNBdjhtTzdfODEzYnF1QldLRHltQXhIRTBLQ25RX3BtbTZpeV9hOTZZUVZDZFltQUJFZWZBNDhIRVVoQ3F3anlRTXJSLXNFMlZIVDh1Qy1HZG92T2wxX2NPSmVLS3lQeklmSk92MVViS2hiOEs4ZlRrdDNrY2lmMTlneUo1VXVnc0NlVUJqdkp4YWRJMDVTTE5ra0phYk1pWFluZnFNUktreFJuQk9KV0h1czVGN1p2RHVja2VyWmRQZkpudG5aM0szQXBEVW8?oc=5\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1216,
+  "output_tokens": 332,
+  "sources": [
+    {
+      "title": "The quest to keep organs alive outside the body",
+      "url": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "CDT Europe's Feedback on the Draft Guidelines for the Classification of High-Risk AI Systems under the AI Act - - Center for Democracy and Technology",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcXNBdjhtTzdfODEzYnF1QldLRHltQXhIRTBLQ25RX3BtbTZpeV9hOTZZUVZDZFltQUJFZWZBNDhIRVVoQ3F3anlRTXJSLXNFMlZIVDh1Qy1HZG92T2wxX2NPSmVLS3lQeklmSk92MVViS2hiOEs4ZlRrdDNrY2lmMTlneUo1VXVnc0NlVUJqdkp4YWRJMDVTTE5ra0phYk1pWFluZnFNUktreFJuQk9KV0h1czVGN1p2RHVja2VyWmRQZkpudG5aM0szQXBEVW8?oc=5",
+      "source_name": "Google News: EU AI Act"
+    },
+    {
+      "title": "The Download: an organ transplant breakthrough, and homegrown Chinese chips",
+      "url": "https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
