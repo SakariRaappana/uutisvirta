@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-26",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään erämaailmassa kerrotaan erityisestä kalastusretkestä, jossa kalastajat hyppäsivät kanadalaisen rautatien kyytiin tavoitellakseen suuria haukia Kanadan erämaissa. Tämä ainutlaatuinen matka tarjoaa uudenlaisen tavan nauttia huipputason kalastuksesta.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Kalastajat hyppäsivät junan kyytiin Kanadan erämaissa tavoitellakseen suuria haukia. Tämä ainutlaatuinen tapa yhdistää rautatien kyyti ja kalastus on esillä Outdoor Life -julkaisussa. <a href=\"https://www.outdoorlife.com/adventure/these-anglers-train-hopped-the-canadian-railway-and-caught-some-giant-pike/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1440,
+  "output_tokens": 199,
+  "sources": [
+    {
+      "title": "These Anglers Train Hopped the Canadian Railway — and Caught Some Giant Pike",
+      "url": "https://www.outdoorlife.com/adventure/these-anglers-train-hopped-the-canadian-railway-and-caught-some-giant-pike/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Museum Curators from Los Angeles Shot the Biggest Bear in the World",
+      "url": "https://www.outdoorlife.com/hunting/worlds-biggest-bear-museum/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "I Tangled With My First Mountain Lion at Age 12 — and It Nearly Killed Me",
+      "url": "https://www.outdoorlife.com/hunting/first-mountain-lion-hunt-for-a-boy/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
