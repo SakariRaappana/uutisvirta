@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-27",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Oregonin osavaltiossa hanke, joka olisi kieltänyt metsästyksen ja kalastuksen, epäonnistui. Osavaltio ei saanut tarpeeksi päteviä allekirjoituksia, joten aloite ei etene marraskuun äänestykseen. Tämä on tärkeä uutinen metsästyksen ja luonnonvarojen hallinnan kannalta.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Oregoniin ehdotettu aloite, joka olisi kriminalisoinut metsästyksen ja kalastuksen, ei saanut tarpeeksi päteviä allekirjoituksia päästäkseen etenemään marraskuun äänestykseen osavaltion vaaliosaston mukaan. <a href=\"https://www.outdoorlife.com/conservation/oregon-hunting-ban-fails/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1414,
+  "output_tokens": 190,
+  "sources": [
+    {
+      "title": "Wade Fishing the Great Lakes? Try This Traditional Tactic for the Best Smallmouth Bass Bite of Summer",
+      "url": "https://www.outdoorlife.com/fishing/wade-the-great-lakes-for-bass/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Do Bass Actually Eat Frogs, or Do They Just Strike Them? These Anglers Attempted to Find Out",
+      "url": "https://www.outdoorlife.com/fishing/do-bass-eat-frogs/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Adventure Links of the Week",
+      "url": "https://explorersweb.com/adventure-links-of-the-week-156/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Oregon Initiative That Would Criminalize Hunting and Fishing Has Failed",
+      "url": "https://www.outdoorlife.com/conservation/oregon-hunting-ban-fails/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}

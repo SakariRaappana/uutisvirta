@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-07-27 — Politiikka — Uutisvirta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #F0F1EB;
+      --surface: #E7E9E2;
+      --border: #C6CAC0;
+      --rule: #1B1D19;
+      --text: #191C18;
+      --muted: #6A6F65;
+      --accent: #3A6558;
+      --accent-pale: #C6D8D3;
+      --accent-border: #7AB0A4;
+      --stamp: #8A4C34;
+      --font-mono: "Courier Prime", "Courier New", Courier, monospace;
+      --font-serif: "Lora", Georgia, serif;
+      --font-display: "Playfair Display", Georgia, serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121519;
+        --surface: #1A1E22;
+        --border: #282D31;
+        --rule: #D8DDD8;
+        --text: #DCE1DC;
+        --muted: #787E78;
+        --accent: #78B8AB;
+        --accent-pale: #182824;
+        --accent-border: #3D7068;
+        --stamp: #C07A5A;
+      }
+    }
+
+    html { font-size: 18px; }
+    body {
+      font-family: var(--font-serif);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── MASTHEAD ───────────────────────────── */
+    .site-header {
+      border-top: 3px solid var(--rule);
+    }
+    .masthead-row {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0.6rem 1.5rem 0.55rem;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .logo {
+      font-family: var(--font-mono);
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .masthead-date {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+    .nav-strip {
+      border-top: 1px solid var(--border);
+      border-bottom: 2px solid var(--rule);
+      padding: 0.45rem 1.5rem;
+    }
+    .nav-strip nav {
+      max-width: 760px;
+      margin: 0 auto;
+      display: flex;
+      gap: 1.75rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .nav-strip a {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .nav-strip a:hover { color: var(--accent); }
+    .nav-strip a.active {
+      color: var(--text);
+      border-bottom: 1.5px solid var(--text);
+    }
+
+    /* ── PAGE ───────────────────────────────── */
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1.75rem 1.5rem 5rem;
+    }
+
+    /* ── TYPOGRAPHY ─────────────────────────── */
+    h1 {
+      font-family: var(--font-display);
+      font-size: 2.1rem;
+      font-weight: 400;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      margin-bottom: 0.2rem;
+      text-wrap: balance;
+    }
+    h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 2rem 0 0.65rem;
+      text-wrap: balance;
+    }
+    h3 {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 400;
+      margin: 1.5rem 0 0.4rem;
+    }
+    p { margin-bottom: 0.9rem; max-width: 68ch; }
+    p:last-child { margin-bottom: 0; }
+    ul, ol { padding-left: 1.4rem; margin-bottom: 0.85rem; }
+    li { margin-bottom: 0.25rem; }
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+    code {
+      font-family: var(--font-mono);
+      font-size: 0.83em;
+      background: var(--surface);
+      padding: 0.1em 0.35em;
+      border: 1px solid var(--border);
+    }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.75rem 0; }
+
+    /* ── META BAR ───────────────────────────── */
+    .meta {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .meta span + span::before { content: " · "; }
+
+    /* ── DIGEST BODY (Markdown-rendered content) ── */
+    .digest-body h2 {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: normal;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-top: 2px solid var(--text);
+      padding-top: 0.55rem;
+      margin: 2.2rem 0 1.2rem;
+    }
+    .digest-body h3 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 0 0 0.7rem;
+      text-wrap: balance;
+    }
+
+    /* ── DEEP DIVE (JS-injected wrapper around h3 blocks) ── */
+    .deep-dive {
+      background: var(--accent-pale);
+      border-left: 3px solid var(--accent-border);
+      padding: 1.1rem 1.4rem 1.1rem 1.2rem;
+      margin-bottom: 1.25rem;
+    }
+    .deep-dive p { font-size: 0.97rem; }
+    .deep-dive p:last-child { margin-bottom: 0; }
+
+    /* ── BRIEF LIST (JS-injected class on ul) ── */
+    .brief-list { list-style: none; padding: 0; }
+    .brief-list li {
+      padding: 0.72rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+      line-height: 1.56;
+      max-width: 68ch;
+    }
+    .brief-list li:last-child { border-bottom: none; }
+
+    /* ── DAY NAV ────────────────────────────── */
+    .day-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+    .day-nav a { color: var(--accent); text-decoration: none; }
+    .day-nav a:hover { text-decoration: underline; }
+
+    /* ── ARCHIVE LIST ───────────────────────── */
+    .archive-list { list-style: none; padding: 0; border-top: 2px solid var(--text); }
+    .archive-list li {
+      display: flex;
+      gap: 1.5rem;
+      align-items: baseline;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .archive-list li:last-child { border-bottom: none; }
+    .archive-list .date {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      min-width: 6rem;
+      flex-shrink: 0;
+      letter-spacing: 0.04em;
+    }
+    .archive-list a { color: var(--text); font-size: 0.93rem; text-decoration: none; }
+    .archive-list a:hover { color: var(--accent); }
+
+    /* ── STREAM CARDS ───────────────────────── */
+    .stream-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 0;
+      border-top: 2px solid var(--text);
+    }
+    .stream-card {
+      padding: 1.1rem 2rem 1.1rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .stream-card h2 {
+      font-size: 1rem;
+      margin-top: 0;
+      margin-bottom: 0.2rem;
+      font-weight: 400;
+    }
+    .stream-card h2 a { color: var(--text); text-decoration: none; }
+    .stream-card h2 a:hover { color: var(--accent); }
+    .stream-card .last-updated {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+    }
+    .stream-card .last-updated a { color: var(--accent); text-decoration: none; }
+
+    /* ── SOURCES ────────────────────────────── */
+    details {
+      margin-top: 2.5rem;
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
+    }
+    details summary {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      cursor: pointer;
+      list-style: none;
+    }
+    details[open] summary { margin-bottom: 0.6rem; }
+    .source-list { list-style: none; padding: 0; margin-top: 0.4rem; }
+    .source-list li {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+    .source-list a { color: var(--accent); text-decoration: none; }
+    .source-list a:hover { text-decoration: underline; }
+
+    /* ── DAY SECTION (collapsible per-day digest) ── */
+    .day-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .day-section > summary {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+      text-transform: none;
+      padding: 1.25rem 0 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+    .day-section > summary::-webkit-details-marker { display: none; }
+    .day-section > summary::after {
+      content: "▾";
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .day-section:not([open]) > summary::after { content: "▸"; }
+    .day-section-body { padding-bottom: 2.5rem; }
+
+    /* ── ARCHIVE SECTION ────────────────────── */
+    .archive-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .archive-section > summary {
+      padding: 0.9rem 0;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .archive-section > summary::-webkit-details-marker { display: none; }
+    .archive-list--plain { border-top: none; margin-top: 0.25rem; }
+
+    /* ── DAY SPACER ─────────────────────────── */
+    .day-spacer {
+      height: 0;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="masthead-row">
+      <a href="../index.html" class="logo">Uutisvirta</a>
+      <span class="masthead-date" id="site-date"></span>
+    </div>
+    <div class="nav-strip">
+      <nav>
+        
+        <a href="../datascience-konsultointi/index.html"
+           >
+          Datascience konsultointi
+        </a>
+        
+        <a href="../era-seikkailu/index.html"
+           >
+          Erä & seikkailu
+        </a>
+        
+        <a href="../politiikka/index.html"
+           class="active">
+          Politiikka
+        </a>
+        
+      </nav>
+    </div>
+  </header>
+  <main class="page">
+    
+<div class="day-nav">
+  <span><a href="2026-07-26.html">← 2026-07-26</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
+</div>
+
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Politiikka</div>
+<h1>2026-07-27</h1>
+<p class="meta">
+  <span>23 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>7560 tokenia</span>
+</p>
+
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Britannian uusi pääministeri Andy Burnham tapaa ensimmäisenä ulkomaalaisena johtajana Ukrainan presidentin Volodymyr Zelenskyin. EU:n suurista sakoista teknologiayrityksille käydään keskustelua, ja Ranskassa presidentti Macron on torjunut hiilikaupan laajentamisen. Lisäksi Berliinissä koettiin islamistiseksi luokiteltu terrori-isku.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>Britannian uusi pääministeri Burnham tapaa Zelenskyin</h3>
+<p>Britannian uusi pääministeri Andy Burnham isännöi Ukrainan presidentti Volodymyr Zelenskyitä Lontoossa. Tapaaminen korostaa Britannian vankkumatonta tukea Ukrainalle, ja se on Burnhamin ensimmäinen virallinen kokous ulkomaisen johtajan kanssa hänen astuttua virkaansa. Tämä tapaaminen tapahtuu juuri ennen Zelenskyin suunniteltua matkaa Washingtoniin. Isännöimällä Zelenskyitä, Burnham pyrkii vahvistamaan Britannian sitoumuksen tukea Ukrainaa Venäjän sotilaallisten toimien keskellä. <strong><a href="https://www.france24.com/en/europe/20260727-burnham-to-welcome-zelensky-on-first-foreign-leader-visit-to-london-since-taking-office">Lue alkuperäinen →</a></strong></p>
+<h3>EU:n suuret sakot teknologiayrityksille</h3>
+<p>Euroopan unionin antamat huomattavat sakot suurille teknologiayrityksille ovat jälleen keskustelun kohteena. Politiikko ja viranomaiset pohtivat sakkojen perusteluja, joista osan koetaan olevan &quot;kylmää laskelmallisuutta&quot;, kun taas toiset ovat saaneet kritiikkiä epämääräisestä perusteiden puutteesta. Sakkojen määrittämisessä huomioidaan yritysten liikevaihto ja taloudellinen vaikutus, mutta prosessi ei ole täysin läpinäkyvä, mikä herättää kysymyksiä EU:n lähestymistavan oikeudenmukaisuudesta ja tarkoituksenmukaisuudesta. <strong><a href="https://www.politico.eu/article/how-the-eu-calculates-its-mega-tech-fines/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue alkuperäinen →</a></strong></p>
+<h3>Macron hylkäsi hiilikaupan laajentamisen</h3>
+<p>Ranskan presidentti Emmanuel Macron ja poliitikko François Bayrou ovat torjuneet neljän ministerin suunnitelmat, jotka ehdottivat maan hiilikaupan laajentamista. Tämä päätös heijastaa Macronin hallinnon haluttomuutta lisätä ympäristörasituksia nykyisessä taloudellisessa tilanteessa. Hiilikaupan laajentamista on pidetty merkittävänä askeleena ilmastopolitiikassa, mutta sen rooli taloudellisessa kestokyvyssä ja sosiaalisessa hyväksyttävyydessä jakaa mielipiteitä. <strong><a href="https://www.politico.eu/article/extension-du-marche-carbone-le-jour-ou-macron-et-bayrou-ont-dit-non-a-quatre-ministres/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p>Israelin asukkaat sytyttivät tuleen moskeijoita, autoja ja viljelymaata Länsirannalla, mikä tuli kahden päivän kuluttua Talin kylän lähistöllä tapahtuneista välikohtauksista, joissa neljä palestiinalaista ja kaksi israelilaista kuoli. <a href="https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&amp;at_campaign=rss">Lue lisää</a></p>
+</li>
+<li>
+<p>Bordeaux on vaarassa Ranskassa ja Espanjassa riehuvien ennennäkemättömien metsäpalojen vuoksi. Tulipalot ovat pakottaneet noin 300 000 ihmistä lähtemään kodeistaan. <a href="https://www.france24.com/en/europe/20260726-bordeaux-under-threat-as-france-and-spain-battle-unprecedented-wildfires">Lue lisää</a></p>
+</li>
+<li>
+<p>Berliinin Pride-kulkueen ryntäyksessä poliisi ampui epäillyn kuoliaaksi, ja tapaus luokiteltiin &quot;islamistisena terrori-iskuna&quot;. Tapahtumassa kuoli yksi ja loukkaantui useita muita. <a href="https://www.dw.com/en/berlin-pride-ramming-police-shoot-suspect-dead/live-78117180?maca=en-rss-en-all-1573-rdf">Lue lisää</a></p>
+</li>
+<li>
+<p>Berliinin Pride-iskun katsotaan olleen hyökkäys LGBTQ+ yhteisöä kohtaan, kun ajoneuvo ajoi väkijoukkoon Christopher Street Dayn juhlan aikana. Pääepäilty kohtasi poliisin ja kuoli myöhemmin. <a href="https://www.dw.com/en/berlin-pride-attack-what-we-know-so-far/a-78122611?maca=en-rss-en-all-1573-rdf">Lue lisää</a></p>
+</li>
+<li>
+<p>Saksan liikenneministeri Schnieder aikoo pyytää kansleri Merziä erottamaan hänet, koska pitää &quot;epäarvokkaana&quot; tilannetta, jossa hänet odotettiin poistetun kabinetista. <a href="https://www.dw.com/en/germany-s-transport-minister-schnieder-to-asks-merz-to-remove-him/a-78121920?maca=en-rss-en-all-1573-rdf">Lue lisää</a></p>
+</li>
+<li>
+<p>Berliinin Pride-tapahtuman hyökkäys lisää autoaseiden joukkoon, joita on käytetty hyökkäyksissä ympäri maailman, muun muassa Yhdysvalloissa, Kanadassa ja Kiinassa. <a href="https://www.dw.com/en/berlin-pride-latest-in-string-of-deadly-vehicle-attacks/a-71197624?maca=en-rss-en-all-1573-rdf">Lue lisää</a></p>
+</li>
+<li>
+<p>Élysée-palatsi, Ranskan presidentin virka-asunto, rakennettiin kolme vuosisataa sitten orjakaupasta kertyneellä vauraudella. Ranska käsittelee edelleen orjakaupan perintöään. <a href="https://www.rfi.fr/en/france/20260726-how-slavery-money-built-the-%C3%A9lys%C3%A9e-france-s-presidential-residence">Lue lisää</a></p>
+</li>
+<li>
+<p>Berliinin Pride-iskun epäillään olleen islamististen ääriliikkeiden terrori-isku, ja epäilty jätti yhden kuolleen ja useita haavoittuneena. <a href="https://www.france24.com/en/germany-berlin-pride-attack-believed-to-be-an-act-of-islamic-extremist-terror">Lue lisää</a></p>
+</li>
+<li>
+<p>Viikon kuvakatsauksessa käsitellään ennennäkemättömiä metsäpaloja Euroopassa, nuorisoprotesteja Intiassa ja Andy Burnhamin nimitystä Britannian uudeksi pääministeriksi. <a href="https://www.france24.com/en/europe/20260726-the-week-in-pictures-wildfires-rage-in-europe-youth-protests-rock-india-and-uk-names-new-pm">Lue lisää</a></p>
+</li>
+<li>
+<p>Ranskan ja Espanjan metsäpalot jatkuvat pakottaen lisää ihmisiä evakuoimaan korkeiden tuulien pitäessä paloja arvaamattomina. <a href="https://www.dw.com/en/wildfires-spread-in-france-and-spain-forcing-more-to-flee/a-78119908?maca=en-rss-en-all-1573-rdf">Lue lisää</a></p>
+</li>
+<li>
+<p>Portugali pyrkii huolehtimaan maahanmuuttajien mielenterveydestä, vaikka monet kokevat maahanmuuton aiheuttamaa traumaa ja kulttuurishokkia. <a href="https://www.rfi.fr/en/international/20260726-trauma-and-taboos-how-portugal-takes-care-of-migrants-mental-health">Lue lisää</a></p>
+</li>
+<li>
+<p>Berliinin Pride-iskun pääepäilty, joka surmasi yhden ja haavoitti 29:a, sai surmansa poliisin toimesta sunnuntaina Berliinin lähiössä. <a href="https://www.france24.com/en/europe/20260726-deadly-berlin-pride-ramming-was-islamist-terror-attack-says-german-interior-minister">Lue lisää</a></p>
+</li>
+<li>
+<p>Armenian drag-artistit kohtaavat yhä riskejä astuessaan lavalle, vaikka asenteet LGBTQ-yhteisöä kohtaan ovat muuttuneet. <a href="https://www.france24.com/en/europe/20260726-bullied-beaten-killed-armenia-drag-queens-risk-all-for-the-stage">Lue lisää</a></p>
+</li>
+<li>
+<p>UNESCOn maailmanperintöluetteloon lisättiin Ranskan D-Dayn maihinnousurannat ja Kreikan Olympoksen vuori. <a href="https://www.rfi.fr/en/france/20260726-unesco-adds-france-s-d-day-landing-beaches-greece-s-mount-olympus-to-world-heritage-list">Lue lisää</a></p>
+</li>
+<li>
+<p>Romanian hävittäjä ampui alas taasen kolmannen päivänä peräkkäin maan ilmatilaan lentäneen dronen. <a href="https://www.france24.com/en/europe/20260726-romanian-jet-shoots-down-drone-entering-country-airspace-for-third-day-in-a-row">Lue lisää</a></p>
+</li>
+<li>
+<p>Saksan poliisi etsii epäiltyä Berliinin Pride-iskun tekijänä, jossa kuoli yksi ja loukkaantui 16 ihmistä. <a href="https://www.france24.com/en/german-police-hunt-suspect-in-berlin-pride-attack-1-dead-and-16-injured">Lue lisää</a></p>
+</li>
+<li>
+<p>Palomiehet kamppailevat &quot;hirveiden&quot; metsäpalojen tukahduttamiseksi Ranskassa ja Espanjassa, lämpöaallon iskiessä kuivasta säästä kärsiviin alueisiin. <a href="https://www.france24.com/en/europe/20260726-firefights-in-france-and-spain-struggle-to-contain-monster-wildfires">Lue lisää</a></p>
+</li>
+<li>
+<p>Länsi-Afrikan johtajat ovat hyväksyneet 25 miljardin dollarin kaasuputken, joka yhdistää Nigerian ja Marokon. Projekti on yksi Afrikan kunnianhimoisimmista infrastruktuurihankkeista. <a href="https://www.rfi.fr/en/africa/20260726-ecowas-greenlights-25bn-mega-gas-pipeline-nigeria-morocco">Lue lisää</a></p>
+</li>
+<li>
+<p>Espanjassa kymmeniä tuhansia ihmisiä on evakuoitu Madridin lähellä riehuvien maastopalojen vuoksi. <a href="https://www.france24.com/en/video/20260726-spain-struggles-to-contain-wildfires-60-000-evacuated-around-madrid">Lue lisää</a></p>
+</li>
+<li>
+<p>Normandian D-Dayn maihinnousurannat lisättiin UNESCOn maailmanperintölistalle sunnuntaina. <a href="https://www.france24.com/en/europe/20260726-unesco-adds-normandy-d-day-landing-beaches-to-world-heritage-list">Lue lisää</a></p>
+</li>
+</ul>
+
+</div>
+
+<details>
+  <summary>Lähteet (40)</summary>
+  <ul class="source-list">
+    
+    <li><a href="https://www.bbc.co.uk/sport/football/articles/cz0515973gpo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener">Infantino tells Fifa critics to 'meditate, pray or watch football'</a> <span style="color:var(--muted)">— BBC News — World</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/eu-confidential/what-will-burnham-really-change/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">What will Burnham really change?</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger" target="_blank" rel="noopener">Uganda begins emergency food handouts after 19 die from hunger</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20260727-threatened-by-fire-bordeaux-is-ready-for-anything-mayor" target="_blank" rel="noopener">Threatened by fire, Bordeaux is 'ready for anything': mayor</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260727-france-and-spain-battle-vast-wildfires-as-fresh-heatwave-approaches" target="_blank" rel="noopener">France and Spain battle vast wildfires as fresh heatwave approaches</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.dw.com/en/congo-ebola-death-toll-tops-1-400-as-vaccine-trials-start/a-78124937?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Congo Ebola death toll tops 1,400 as vaccine trials start</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260727-live-macron-crisis-cabinet-meeting-france-devastating-wildfires-macron" target="_blank" rel="noopener">Live: Macron holds crisis meeting as French wildfires force more than 250,000 to evacuate</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/brussels-playbook-podcast/trump-reopens-the-tariff-fight/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Trump reopens the tariff fight</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/brazil-recalls-ambassador-to-argentina-over-milei-s-remarks/a-78123444?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Brazil recalls ambassador to Argentina over Milei's remarks</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/berlin-playbook-podcast/machthaber-donald-trump/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Machthaber: Donald Trump</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260727-burnham-to-welcome-zelensky-on-first-foreign-leader-visit-to-london-since-taking-office" target="_blank" rel="noopener">Britain's new PM Burnham to host Zelensky for first visit by a foreign leader</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.politico.eu/article/how-the-eu-calculates-its-mega-tech-fines/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Cold calculation or plucked from thin air? How the EU determines those big fines against Big Tech</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.bbc.co.uk/news/articles/c5yegvd9ddeo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener">Netanyahu accuses NYC Mayor Mamdani of 'fomenting hate' after arrest threat</a> <span style="color:var(--muted)">— BBC News — World</span></li>
+    
+    <li><a href="https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener">Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say</a> <span style="color:var(--muted)">— BBC News — World</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260726-bordeaux-under-threat-as-france-and-spain-battle-unprecedented-wildfires" target="_blank" rel="noopener">Bordeaux under threat as France and Spain battle 'unprecedented' wildfires</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/berlin-pride-ramming-police-shoot-suspect-dead/live-78117180?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Berlin Pride ramming: Police shoot suspect dead</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/berlin-pride-attack-what-we-know-so-far/a-78122611?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Berlin Pride attack: What we know so far</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260726-no-snakes-in-church-and-don-t-eat-the-frogs-the-weird-world-of-us-animal-laws" target="_blank" rel="noopener">No snakes in church and don't eat the frogs: the weird world of US animal laws</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/sports/20260726-pogacar-wins-record-equalling-fifth-tour-de-france-2" target="_blank" rel="noopener">Tadej Pogacar wins a record-equaling fifth Tour de France title</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.dw.com/en/germany-s-transport-minister-schnieder-to-asks-merz-to-remove-him/a-78121920?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Germany's Transport Minister Schnieder to asks Merz to remove him</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/berlin-pride-latest-in-string-of-deadly-vehicle-attacks/a-71197624?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Berlin Pride: Latest in string of deadly vehicle attacks</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20260726-how-slavery-money-built-the-%C3%A9lys%C3%A9e-france-s-presidential-residence" target="_blank" rel="noopener">How slavery money built the Élysée, France’s presidential residence</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.dw.com/en/israeli-settlers-torch-mosques-in-occupied-west-bank/a-78120749?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Israeli settlers torch mosques in occupied West Bank</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.politico.eu/article/extension-du-marche-carbone-le-jour-ou-macron-et-bayrou-ont-dit-non-a-quatre-ministres/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Extension du marché carbone : le jour où Macron et Bayrou ont dit non à quatre ministres</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/germany-berlin-pride-attack-believed-to-be-an-act-of-islamic-extremist-terror" target="_blank" rel="noopener">Germany: Berlin Pride attack believed to be an act of Islamic extremist terror</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260726-the-week-in-pictures-wildfires-rage-in-europe-youth-protests-rock-india-and-uk-names-new-pm" target="_blank" rel="noopener">The week in pictures: Wildfires rage in Europe, youth protests rock India and UK names new PM</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/wildfires-spread-in-france-and-spain-forcing-more-to-flee/a-78119908?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Wildfires spread in France and Spain forcing more to flee</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260726-trauma-and-taboos-how-portugal-takes-care-of-migrants-mental-health" target="_blank" rel="noopener">Trauma and taboos: how Portugal takes care of migrants' mental health</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260726-deadly-berlin-pride-ramming-was-islamist-terror-attack-says-german-interior-minister" target="_blank" rel="noopener">Main suspect in Berlin Pride attack shot dead by German police forces</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260726-bullied-beaten-killed-armenia-drag-queens-risk-all-for-the-stage" target="_blank" rel="noopener">‘Bullied, beaten up, killed’: Armenia's drag queens risk it all for the stage</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/zelensky-says-russia-seeks-30-000-extra-n-korea-troops-for-ukraine-war" target="_blank" rel="noopener">Deadly attack on holiday camp in Russian-held part of Ukraine, officials say</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20260726-unesco-adds-france-s-d-day-landing-beaches-greece-s-mount-olympus-to-world-heritage-list" target="_blank" rel="noopener">UNESCO adds France's D-Day landing beaches, Greece's Mount Olympus to World Heritage List</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260726-romanian-jet-shoots-down-drone-entering-country-airspace-for-third-day-in-a-row" target="_blank" rel="noopener">Romanian jet shoots down drone entering country's airspace for third day in a row</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/can-pakistan-administered-kashmir-elections-calm-tensions/a-78101422?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Can Pakistan-administered Kashmir elections calm tensions?</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/sudan-civil-war-civilians-used-as-human-shields/a-78089487?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Sudan civil war: Civilians used as 'human shields'</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/german-police-hunt-suspect-in-berlin-pride-attack-1-dead-and-16-injured" target="_blank" rel="noopener">German police hunt suspect in Berlin Pride attack: 1 dead and 16 injured</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260726-firefights-in-france-and-spain-struggle-to-contain-monster-wildfires" target="_blank" rel="noopener">Firefighters in France and Spain struggle to contain 'monster' wildfires</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/africa/20260726-ecowas-greenlights-25bn-mega-gas-pipeline-nigeria-morocco" target="_blank" rel="noopener">Ecowas greenlights $25bn Nigeria-Morocco mega gas pipeline</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/video/20260726-spain-struggles-to-contain-wildfires-60-000-evacuated-around-madrid" target="_blank" rel="noopener">Spain struggles to contain wildfires: 60,000 evacuated around Madrid</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260726-unesco-adds-normandy-d-day-landing-beaches-to-world-heritage-list" target="_blank" rel="noopener">UNESCO adds Normandy's D-Day landing beaches to World Heritage List</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+  </ul>
+</details>
+
+
+  </main>
+  <script>
+    (function() {
+      var d = new Date();
+      var days = ['Su','Ma','Ti','Ke','To','Pe','La'];
+      var months = ['tammik.','helmik.','maalisk.','huhtik.','toukok.','kesäk.','heinäk.','elok.','syysk.','lokak.','marrask.','jouluk.'];
+      var el = document.getElementById('site-date');
+      if (el) el.textContent = days[d.getDay()] + ' ' + d.getDate() + '. ' + months[d.getMonth()] + ' ' + d.getFullYear();
+
+      document.querySelectorAll('a[href]').forEach(function(a) {
+        var href = a.getAttribute('href');
+        if (href && href.startsWith('http')) {
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener');
+        }
+      });
+
+      document.querySelectorAll('.digest-body').forEach(function(body) {
+        body.querySelectorAll('h3').forEach(function(h3) {
+          var div = document.createElement('div');
+          div.className = 'deep-dive';
+          h3.parentNode.insertBefore(div, h3);
+          div.appendChild(h3);
+          var next = div.nextSibling;
+          while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+            var n = next.nextSibling;
+            div.appendChild(next);
+            next = n;
+          }
+        });
+        body.querySelectorAll('ul').forEach(function(ul) {
+          ul.classList.add('brief-list');
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
