@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-28",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään huomio kääntyy erityisesti asekatsauksiin ja vuorikiipeilyonnettomuuteen. Outdoor Life on julkaissut laajan arvostelun vuoden 2026 parhaista haulikkomalleista. Lisäksi Berettan uusi A400 Solo -malli on saanut kehuja vesihelmetsästyksessä. Surullisia uutisia kuuluu Elbrus-vuorelta, jossa myrskyvaikeudet ovat vaatineet viisi kiipeilijän henkeä.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Outdoor Life on julkaissut vuoden 2026 parhaiden haulikoiden arvostelun. Mukana ovat muun muassa Berettan AX800 Suprema ja Browningin Maxus II Golden Clays. <a href=\"https://www.outdoorlife.com/guns/best-shotguns-of-2026-range-tested-reviewed/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Beretta A400 Solo -malli on saanut kehuja erityisesti vesilintumetsästyksen osalta. Aseen ominaisuudet vastaavat huippuluokan malleja, mutta hinta on saavutettavampi. <a href=\"https://www.outdoorlife.com/guns/beretta-a400-solo-review/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Elbrus-vuorella Venäjällä on myrskyn yllättämä seitsemän kiipeilijän ryhmä, joista viisi on menehtynyt. Kiipeilijät tulivat Bosnia-Hertsegovinasta ja olivat laskeutumassa Euroopan korkeimmalta huipulta, 5 642 metrin Mt. Elbrusilta. <a href=\"https://explorersweb.com/five-climbers-dead-on-elbrus-two-rescued/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1629,
+  "output_tokens": 394,
+  "sources": [
+    {
+      "title": "The 10 Toughest Mountain Men (and Women) in American History",
+      "url": "https://www.outdoorlife.com/survival/the-10-toughest-mountain-men-and-women-in-american-history/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Best Shotguns of 2026, Range Tested & Reviewed",
+      "url": "https://www.outdoorlife.com/guns/best-shotguns-of-2026-range-tested-reviewed/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Hikers Face $25,000 Fine After This Bear Encounter in Banff National Park",
+      "url": "https://www.outdoorlife.com/survival/hiker-fine-bear-encounter-banff/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Cook Trout Over a Campfire",
+      "url": "https://www.outdoorlife.com/fishing/how-to-cook-trout-campfire/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Beretta A400 Solo Review: This New Duck Gun Brings Topline Features and Incredible Value",
+      "url": "https://www.outdoorlife.com/guns/beretta-a400-solo-review/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Five Climbers Dead on Elbrus, Two Rescued",
+      "url": "https://explorersweb.com/five-climbers-dead-on-elbrus-two-rescued/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}
