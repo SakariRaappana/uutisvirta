@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-07-29 — Datascience konsultointi — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,23 +358,23 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
-           >
+        <a href="../datascience-konsultointi/index.html"
+           class="active">
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
+        <a href="../era-seikkailu/index.html"
            >
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
+        <a href="../politiikka/index.html"
            >
           Politiikka
         </a>
@@ -384,206 +384,47 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-07-29</p>
+<div class="day-nav">
+  <span><a href="2026-07-28.html">← 2026-07-28</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Datascience konsultointi</div>
+<h1>2026-07-29</h1>
+<p class="meta">
+  <span>2 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>4209 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Datascience konsultointi</div>
-  <h2 class="featured-title">
-    <a href="https://devblogs.microsoft.com/agent-framework/discover-agent-skills-from-mcp-servers-in-net/" target="_blank" rel="noopener">Discover Agent Skills from MCP servers in .NET</a>
-  </h2>
-  
-  <div class="featured-why">Tämä muuttaa suoraan MAF-agenttien modulaarista rakennetta, koska MCP-palvelimista löytyvien Agent Skills -kykyjen dynaaminen löytäminen vaikuttaa siihen, miten agenttien ominaisuudet kannattaa paketoida ja julkaista asiakkaillesi.</div>
-  
-  <div class="featured-meta">
-    <span class="badge-new">Uusi</span>
-    Microsoft Agent Framework Blog · tänään ·
-    <a href="datascience-konsultointi/2026-07-29.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Diagrid Catalyst 2.0 on julkaistu, tuoden todennetun ja kestävän suorituksen LangGraphiin, Microsoft Agent Frameworkiin ja muihin johtaviin AI-kehyksiin. Lisäksi Microsoft Agent Framework mahdollistaa nyt agenttiominaisuuksien löytämisen MCP-palvelimilta .NET-ympäristössä, mikä tehostaa AI-agenttien integrointia ja kommunikaatiota.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>Diagrid Catalyst 2.0 tuo todennettua ja kestävää suorituskykyä AI-kehyksiin</h3>
+<p>Diagrid on julkaissut Catalyst 2.0:n, mikä tuo tullessaan todennetun ja kestävän suorituksen useille AI-kehyksille, kuten LangGraph, Microsoft Agent Framework, ja Google ADK. Tämän päivityksen ansiosta kehittäjät voivat luoda ja hallita tekoälyagentteja luotettavammin eri ympäristöissä. Catalyst 2.0 pyrkii tarjoamaan parannettua varmuutta ja tehokkuutta agenttikehityksessä, mikä voi potentiaalisesti parantaa agenttien suorituskykyä ja niiden kykyä toimia yhtenäisesti eri alustojen välillä. <strong><a href="https://news.google.com/rss/articles/CBMijgJBVV95cUxQdFJieVhvcm5mZko0NTYzb3YtNGNVZ3VPS2FNMzNodU9oTjJCUDJtY2poMS1EcG9BdlBMME5yQTVZbXFjOGtqZVJLYWJTWVZ2U2U2eFlaUFpPOXJfbHgxY21QMWhMemVjMktYSGRrS0tpa0dUaGhkTWZ1VFZRZWdSN1lZeTJIRmcxMk5NMGdONHpfdlFNX2F6cGVOZVA2ZnhwOWNsS3dYb2ZwRUZPZDdGV0U2ZThlWDA2ekNCTHBpWjJkcDBpNDg0b3o4NE5YUWxMZWhDQzdWTkwyZFpRNUVMUXRseUdET210RmRQcUh4NmJiVzI1dF9BbXJEUDV3X2lqSmhTTGlkX3VrQmJaMWc?oc=5">Lue alkuperäinen →</a></strong></p>
+<h3>Agenttien taitojen löytäminen MCP-palvelimilta .NET-ympäristössä</h3>
+<p>Microsoft Agent Frameworkin viimeisimmässä blogikirjoituksessa esitellään, kuinka agenttien taitojen löytäminen MCP-palvelimilta .NET-ympäristössä on nyt mahdollista. Tämä uusi ominaisuus parantaa tiedon jakamista ja agenttien välistä yhteistyötä, mikä mahdollistaa sujuvamman agenttiverkoston toiminnan. Artikkelin kirjoittajan Sergey Menshykhin mukaan tämä päivitys edistää kommunikaation syventämistä agenttien välillä, parantaen samalla verkoston reagointikykyä ja tehokkuutta. Tämä on merkittävä askel AI-agenttien toimintakyvyn kehittämisessä. <strong><a href="https://devblogs.microsoft.com/agent-framework/discover-agent-skills-from-mcp-servers-in-net/">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<p>Ei lyhyitä mainintoja tänään.</p>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (4)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdjhnTmNvS3p2NWJGYVJaUkkwTFFFeUVkdmx6cXZ2cUlnaGVkQUVDRlphRkpuZkNCaXptT2NXTnhtaUhjQ19RdEkxTUsycUFvcVVFcjZhWDJlNWpxZXhrTGptUlJwa1o2RC1IVm1IV0N5czJGZW5yYUpEWlFSZkU3V2JnSnA0b0VqbjIxQ0hkN1ZNQmpVUGdrdWFUUDU3TURZbjBzeC1xb1NobEp1RGVNZkJEUmdKaFRVVGtBcWJkQ0M?oc=5" target="_blank" rel="noopener">Chat Control: Who is reading your messages? The EU Parliament passed legislation allowing tech companies to scan users’ messages for child sexual abuse material. - LinkedIn</a>
-      </div>
-      
-      <div class="news-card-why">EU-parlamentin päätös viestien skannaamisesta lapsiseksuaalisen materiaalin varalta vaikuttaa suoraan yksityisyyteen, viestintäpalveluihin ja EU:n digitaalisen sääntelyn suuntaan.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        Google News: European Parliament · tänään ·
-        <a href="politiikka/2026-07-29.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://news.google.com/rss/articles/CBMijgJBVV95cUxQdFJieVhvcm5mZko0NTYzb3YtNGNVZ3VPS2FNMzNodU9oTjJCUDJtY2poMS1EcG9BdlBMME5yQTVZbXFjOGtqZVJLYWJTWVZ2U2U2eFlaUFpPOXJfbHgxY21QMWhMemVjMktYSGRrS0tpa0dUaGhkTWZ1VFZRZWdSN1lZeTJIRmcxMk5NMGdONHpfdlFNX2F6cGVOZVA2ZnhwOWNsS3dYb2ZwRUZPZDdGV0U2ZThlWDA2ekNCTHBpWjJkcDBpNDg0b3o4NE5YUWxMZWhDQzdWTkwyZFpRNUVMUXRseUdET210RmRQcUh4NmJiVzI1dF9BbXJEUDV3X2lqSmhTTGlkX3VrQmJaMWc?oc=5" target="_blank" rel="noopener">Diagrid Catalyst 2.0 Brings Verifiable, Durable Execution to LangGraph, Microsoft Agent Framework, Google ADK and Other Leading AI Frameworks - AiThority</a> <span style="color:var(--muted)">— Google News: Microsoft Agent Framework</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.rfi.fr/en/international/20260727-iran-halts-retaliatory-strikes-as-us-gives-diplomacy-more-room" target="_blank" rel="noopener">Iran halts retaliatory strikes as US gives diplomacy 'more room'</a>
-      </div>
-      
-      <div class="news-card-why">Hormuzin alueen iskujen tauko vaikuttaa suoraan öljyn hintariskiin, merirahdin vakuutuksiin ja Euroopan energia- sekä inflaationäkymiin jo lähiviikkoina.</div>
-      
-      <div class="news-card-meta">
-        
-        RFI English · eilen ·
-        <a href="politiikka/2026-07-28.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/" target="_blank" rel="noopener">The Download: OpenAI’s predictable hack, and an AI stock sell-off</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.politico.eu/article/extension-du-marche-carbone-le-jour-ou-macron-et-bayrou-ont-dit-non-a-quatre-ministres/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Extension du marché carbone : le jour où Macron et Bayrou ont dit non à quatre ministres</a>
-      </div>
-      
-      <div class="news-card-why">EU:n hiilikaupan laajennuksen lykkääminen kertoo, että Ranska vastustaa uusia kustannuksia ennen kuin kompensaatiomallit ja budjettivaikutukset on sovittu, mikä vaikuttaa suoraan päästöhinnoittelun etenemiseen Suomessa ja koko EU:ssa.</div>
-      
-      <div class="news-card-meta">
-        
-        Politico Europe · 2 pv sitten ·
-        <a href="politiikka/2026-07-27.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/" target="_blank" rel="noopener">Samsung’s chip workers are jumping ship to rival SK Hynix</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
+    
+    <li><a href="https://devblogs.microsoft.com/agent-framework/discover-agent-skills-from-mcp-servers-in-net/" target="_blank" rel="noopener">Discover Agent Skills from MCP servers in .NET</a> <span style="color:var(--muted)">— Microsoft Agent Framework Blog</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-
-
+</details>
 
 
   </main>

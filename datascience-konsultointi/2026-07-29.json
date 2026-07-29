@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-29",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Diagrid Catalyst 2.0 on julkaistu, tuoden todennetun ja kestävän suorituksen LangGraphiin, Microsoft Agent Frameworkiin ja muihin johtaviin AI-kehyksiin. Lisäksi Microsoft Agent Framework mahdollistaa nyt agenttiominaisuuksien löytämisen MCP-palvelimilta .NET-ympäristössä, mikä tehostaa AI-agenttien integrointia ja kommunikaatiota.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Diagrid Catalyst 2.0 tuo todennettua ja kestävää suorituskykyä AI-kehyksiin</h3>\n<p>Diagrid on julkaissut Catalyst 2.0:n, mikä tuo tullessaan todennetun ja kestävän suorituksen useille AI-kehyksille, kuten LangGraph, Microsoft Agent Framework, ja Google ADK. Tämän päivityksen ansiosta kehittäjät voivat luoda ja hallita tekoälyagentteja luotettavammin eri ympäristöissä. Catalyst 2.0 pyrkii tarjoamaan parannettua varmuutta ja tehokkuutta agenttikehityksessä, mikä voi potentiaalisesti parantaa agenttien suorituskykyä ja niiden kykyä toimia yhtenäisesti eri alustojen välillä. <strong><a href=\"https://news.google.com/rss/articles/CBMijgJBVV95cUxQdFJieVhvcm5mZko0NTYzb3YtNGNVZ3VPS2FNMzNodU9oTjJCUDJtY2poMS1EcG9BdlBMME5yQTVZbXFjOGtqZVJLYWJTWVZ2U2U2eFlaUFpPOXJfbHgxY21QMWhMemVjMktYSGRrS0tpa0dUaGhkTWZ1VFZRZWdSN1lZeTJIRmcxMk5NMGdONHpfdlFNX2F6cGVOZVA2ZnhwOWNsS3dYb2ZwRUZPZDdGV0U2ZThlWDA2ekNCTHBpWjJkcDBpNDg0b3o4NE5YUWxMZWhDQzdWTkwyZFpRNUVMUXRseUdET210RmRQcUh4NmJiVzI1dF9BbXJEUDV3X2lqSmhTTGlkX3VrQmJaMWc?oc=5\">Lue alkuperäinen →</a></strong></p>\n<h3>Agenttien taitojen löytäminen MCP-palvelimilta .NET-ympäristössä</h3>\n<p>Microsoft Agent Frameworkin viimeisimmässä blogikirjoituksessa esitellään, kuinka agenttien taitojen löytäminen MCP-palvelimilta .NET-ympäristössä on nyt mahdollista. Tämä uusi ominaisuus parantaa tiedon jakamista ja agenttien välistä yhteistyötä, mikä mahdollistaa sujuvamman agenttiverkoston toiminnan. Artikkelin kirjoittajan Sergey Menshykhin mukaan tämä päivitys edistää kommunikaation syventämistä agenttien välillä, parantaen samalla verkoston reagointikykyä ja tehokkuutta. Tämä on merkittävä askel AI-agenttien toimintakyvyn kehittämisessä. <strong><a href=\"https://devblogs.microsoft.com/agent-framework/discover-agent-skills-from-mcp-servers-in-net/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<p>Ei lyhyitä mainintoja tänään.</p>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 3440,
+  "output_tokens": 769,
+  "sources": [
+    {
+      "title": "Diagrid Catalyst 2.0 Brings Verifiable, Durable Execution to LangGraph, Microsoft Agent Framework, Google ADK and Other Leading AI Frameworks - AiThority",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQdFJieVhvcm5mZko0NTYzb3YtNGNVZ3VPS2FNMzNodU9oTjJCUDJtY2poMS1EcG9BdlBMME5yQTVZbXFjOGtqZVJLYWJTWVZ2U2U2eFlaUFpPOXJfbHgxY21QMWhMemVjMktYSGRrS0tpa0dUaGhkTWZ1VFZRZWdSN1lZeTJIRmcxMk5NMGdONHpfdlFNX2F6cGVOZVA2ZnhwOWNsS3dYb2ZwRUZPZDdGV0U2ZThlWDA2ekNCTHBpWjJkcDBpNDg0b3o4NE5YUWxMZWhDQzdWTkwyZFpRNUVMUXRseUdET210RmRQcUh4NmJiVzI1dF9BbXJEUDV3X2lqSmhTTGlkX3VrQmJaMWc?oc=5",
+      "source_name": "Google News: Microsoft Agent Framework"
+    },
+    {
+      "title": "The Download: OpenAI’s predictable hack, and an AI stock sell-off",
+      "url": "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Samsung’s chip workers are jumping ship to rival SK Hynix",
+      "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Discover Agent Skills from MCP servers in .NET",
+      "url": "https://devblogs.microsoft.com/agent-framework/discover-agent-skills-from-mcp-servers-in-net/",
+      "source_name": "Microsoft Agent Framework Blog"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Discover Agent Skills from MCP servers in .NET",
+      "source_name": "Microsoft Agent Framework Blog",
+      "source_url": "https://devblogs.microsoft.com/agent-framework/discover-agent-skills-from-mcp-servers-in-net/",
+      "published_at": "2026-07-28T09:01:13+00:00",
+      "summary": "Your agents can now discover and load Agent Skills directly from a Model Context Protocol (MCP) server. Instead of shipping every skill inside your application or copying skill folders into each deployment, you point an agent at an MCP server and it pulls the skills it needs on demand. A central tea",
+      "why_relevant": "Tämä muuttaa suoraan MAF-agenttien modulaarista rakennetta, koska MCP-palvelimista löytyvien Agent Skills -kykyjen dynaaminen löytäminen vaikuttaa siihen, miten agenttien ominaisuudet kannattaa paketoida ja julkaista asiakkaillesi.",
+      "homepage_eligible": true,
+      "homepage_score": 92,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "maf-discover-agent-skills-from-mcp-servers-dotnet",
+      "category": "tärkea"
+    }
+  ]
+}

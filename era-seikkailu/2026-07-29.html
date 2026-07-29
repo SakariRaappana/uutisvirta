@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-07-29 — Erä & seikkailu — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,23 +358,23 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
+        <a href="../datascience-konsultointi/index.html"
            >
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
-           >
+        <a href="../era-seikkailu/index.html"
+           class="active">
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
+        <a href="../politiikka/index.html"
            >
           Politiikka
         </a>
@@ -384,206 +384,77 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-07-29</p>
+<div class="day-nav">
+  <span><a href="2026-07-28.html">← 2026-07-28</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Erä & seikkailu</div>
+<h1>2026-07-29</h1>
+<p class="meta">
+  <span>8 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>2746 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Datascience konsultointi</div>
-  <h2 class="featured-title">
-    <a href="https://devblogs.microsoft.com/agent-framework/discover-agent-skills-from-mcp-servers-in-net/" target="_blank" rel="noopener">Discover Agent Skills from MCP servers in .NET</a>
-  </h2>
-  
-  <div class="featured-why">Tämä muuttaa suoraan MAF-agenttien modulaarista rakennetta, koska MCP-palvelimista löytyvien Agent Skills -kykyjen dynaaminen löytäminen vaikuttaa siihen, miten agenttien ominaisuudet kannattaa paketoida ja julkaista asiakkaillesi.</div>
-  
-  <div class="featured-meta">
-    <span class="badge-new">Uusi</span>
-    Microsoft Agent Framework Blog · tänään ·
-    <a href="datascience-konsultointi/2026-07-29.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään eränkävijöille on tarjolla monenlaista mielenkiintoista sisältöä, kuten kertomuksia eeppisistä metsästysseikkailuista ja arktisista retkistä, uusia käsityksiä metsästysvälineistöstä sekä survival-työkaluista. Lisäksi keskustelu ympäristönsuojelutoimista ja niiden vaikutuksista metsästykseen on nostettu esiin.</p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p>Juuri julkaistu tarina kertoo eeppisestä metsästysretkestä Ice Mountainin jäätiköillä, jossa huhut suurista Stone Sheep -sisioista osoittautuivat tosiksi. <a href="https://www.outdoorlife.com/hunting/i-hunted-the-giant-double-curl-ram-of-ice-mountain/">Lue lisää</a></p>
+</li>
+<li>
+<p>Arktisten alueiden konkari John Dunn suoritti 300 kilometrin retken Victoria Islandilla, yhdistäen hiihtoa ja vaellusta harvoin tutkitulla saarella. <a href="https://explorersweb.com/veteran-arctic-traveler-completes-300km-victoria-island-trek/">Lue lisää</a></p>
+</li>
+<li>
+<p>USFWS:n aloite kosteikkosuojeluun liittyvien kuivatuskäytäntöjen kartoittamisesta on herättänyt keskustelua ja tarkastelun aiheeksi ovat nousseet niihin liittyvät vaikutukset alueen lintukantoihin. <a href="https://www.outdoorlife.com/conservation/usfws-wetland-easement-request/">Lue lisää</a></p>
+</li>
+<li>
+<p>Kiipeilyreittiuudistus Broad Peak -vuorella on herättänyt keskustelua kiipeilijöiden keskuudessa, ja selvitystyötä on tehty reitin yhtäläisyyksistä Carlos Carsolion vuonna 1994 kiipeämään reittiin. <a href="https://explorersweb.com/broad-peak-variation-new-route-or-not-the-climbers-speak-out/">Lue lisää</a></p>
+</li>
+<li>
+<p>Kompakti Air Venturi Microstrike -ilmakivääri vangitsee pienten riistaeläinten metsästäjien huomion, sillä sen tarkkuus on erinomainen jopa 50 jaardin etäisyydeltä. <a href="https://www.outdoorlife.com/gear/air-venturi-micro-strike-2026/">Lue lisää</a></p>
+</li>
+<li>
+<p>Paracordia voi käyttää monipuolisesti selviytymisessä, ja sen käyttömahdollisuuksiin on koottu kattava opas. <a href="https://www.outdoorlife.com/survival/how-to-use-paracord/">Lue lisää</a></p>
+</li>
+<li>
+<p>Viisi huolella testattua survival-kittiä on koottu yhteen, ja ne on arvioitu selviytymiskouluttajan toimesta tuomaan lisäturvallisuutta eränkäyntiin. <a href="https://www.outdoorlife.com/gear/the-best-survival-kits-tested-by-a-survival-instructor/">Lue lisää</a></p>
+</li>
+<li>
+<p>Metsästys- ja tarinasarja &quot;Finding Nowhere&quot; on saanut suosiota ja noussut Prime Videon katselulistoille Kanadassa, mikä osoittaa sarjan kulttuurisen merkittävyyden. <a href="https://www.rokslide.com/finding-nowhere-how-a-hunting-show-went-mainstream-on-prime-video/">Lue lisää</a></p>
+</li>
+</ul>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (9)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdjhnTmNvS3p2NWJGYVJaUkkwTFFFeUVkdmx6cXZ2cUlnaGVkQUVDRlphRkpuZkNCaXptT2NXTnhtaUhjQ19RdEkxTUsycUFvcVVFcjZhWDJlNWpxZXhrTGptUlJwa1o2RC1IVm1IV0N5czJGZW5yYUpEWlFSZkU3V2JnSnA0b0VqbjIxQ0hkN1ZNQmpVUGdrdWFUUDU3TURZbjBzeC1xb1NobEp1RGVNZkJEUmdKaFRVVGtBcWJkQ0M?oc=5" target="_blank" rel="noopener">Chat Control: Who is reading your messages? The EU Parliament passed legislation allowing tech companies to scan users’ messages for child sexual abuse material. - LinkedIn</a>
-      </div>
-      
-      <div class="news-card-why">EU-parlamentin päätös viestien skannaamisesta lapsiseksuaalisen materiaalin varalta vaikuttaa suoraan yksityisyyteen, viestintäpalveluihin ja EU:n digitaalisen sääntelyn suuntaan.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        Google News: European Parliament · tänään ·
-        <a href="politiikka/2026-07-29.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/hunting/i-hunted-the-giant-double-curl-ram-of-ice-mountain/" target="_blank" rel="noopener">I Hunted the Giant Double-Curl Ram of Ice Mountain</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.rfi.fr/en/international/20260727-iran-halts-retaliatory-strikes-as-us-gives-diplomacy-more-room" target="_blank" rel="noopener">Iran halts retaliatory strikes as US gives diplomacy 'more room'</a>
-      </div>
-      
-      <div class="news-card-why">Hormuzin alueen iskujen tauko vaikuttaa suoraan öljyn hintariskiin, merirahdin vakuutuksiin ja Euroopan energia- sekä inflaationäkymiin jo lähiviikkoina.</div>
-      
-      <div class="news-card-meta">
-        
-        RFI English · eilen ·
-        <a href="politiikka/2026-07-28.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://explorersweb.com/veteran-arctic-traveler-completes-300km-victoria-island-trek/" target="_blank" rel="noopener">Veteran Arctic Traveler Completes 300km Victoria Island Trek</a> <span style="color:var(--muted)">— ExploresWeb</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.politico.eu/article/extension-du-marche-carbone-le-jour-ou-macron-et-bayrou-ont-dit-non-a-quatre-ministres/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Extension du marché carbone : le jour où Macron et Bayrou ont dit non à quatre ministres</a>
-      </div>
-      
-      <div class="news-card-why">EU:n hiilikaupan laajennuksen lykkääminen kertoo, että Ranska vastustaa uusia kustannuksia ennen kuin kompensaatiomallit ja budjettivaikutukset on sovittu, mikä vaikuttaa suoraan päästöhinnoittelun etenemiseen Suomessa ja koko EU:ssa.</div>
-      
-      <div class="news-card-meta">
-        
-        Politico Europe · 2 pv sitten ·
-        <a href="politiikka/2026-07-27.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/conservation/usfws-wetland-easement-request/" target="_blank" rel="noopener">This USFWS Announcement Has Duck Hunters on High Alert</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/fishing/spoon-one-of-best-fishing-lures/" target="_blank" rel="noopener">Why the Spoon Is Still One of the Greatest Lures of All Time</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://explorersweb.com/broad-peak-variation-new-route-or-not-the-climbers-speak-out/" target="_blank" rel="noopener">Broad Peak Variation, New Route or Not? The Climbers Speak Out</a> <span style="color:var(--muted)">— ExploresWeb</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/gear/air-venturi-micro-strike-2026/" target="_blank" rel="noopener">The Ultimate Small Game Rifle Is Air Powered</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/survival/how-to-use-paracord/" target="_blank" rel="noopener">How to Actually Use Paracord in a Survival Situation</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/gear/the-best-survival-kits-tested-by-a-survival-instructor/" target="_blank" rel="noopener">The Best Survival Kits, Tested by a Survival Instructor</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.rokslide.com/finding-nowhere-how-a-hunting-show-went-mainstream-on-prime-video/" target="_blank" rel="noopener">Finding Nowhere: How a Hunting Show Went Mainstream on Prime Video</a> <span style="color:var(--muted)">— Rokslide</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-
-
+</details>
 
 
   </main>

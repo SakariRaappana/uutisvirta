@@ -1,0 +1,58 @@
+{
+  "date": "2026-07-29",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään eränkävijöille on tarjolla monenlaista mielenkiintoista sisältöä, kuten kertomuksia eeppisistä metsästysseikkailuista ja arktisista retkistä, uusia käsityksiä metsästysvälineistöstä sekä survival-työkaluista. Lisäksi keskustelu ympäristönsuojelutoimista ja niiden vaikutuksista metsästykseen on nostettu esiin.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Juuri julkaistu tarina kertoo eeppisestä metsästysretkestä Ice Mountainin jäätiköillä, jossa huhut suurista Stone Sheep -sisioista osoittautuivat tosiksi. <a href=\"https://www.outdoorlife.com/hunting/i-hunted-the-giant-double-curl-ram-of-ice-mountain/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Arktisten alueiden konkari John Dunn suoritti 300 kilometrin retken Victoria Islandilla, yhdistäen hiihtoa ja vaellusta harvoin tutkitulla saarella. <a href=\"https://explorersweb.com/veteran-arctic-traveler-completes-300km-victoria-island-trek/\">Lue lisää</a></p>\n</li>\n<li>\n<p>USFWS:n aloite kosteikkosuojeluun liittyvien kuivatuskäytäntöjen kartoittamisesta on herättänyt keskustelua ja tarkastelun aiheeksi ovat nousseet niihin liittyvät vaikutukset alueen lintukantoihin. <a href=\"https://www.outdoorlife.com/conservation/usfws-wetland-easement-request/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kiipeilyreittiuudistus Broad Peak -vuorella on herättänyt keskustelua kiipeilijöiden keskuudessa, ja selvitystyötä on tehty reitin yhtäläisyyksistä Carlos Carsolion vuonna 1994 kiipeämään reittiin. <a href=\"https://explorersweb.com/broad-peak-variation-new-route-or-not-the-climbers-speak-out/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kompakti Air Venturi Microstrike -ilmakivääri vangitsee pienten riistaeläinten metsästäjien huomion, sillä sen tarkkuus on erinomainen jopa 50 jaardin etäisyydeltä. <a href=\"https://www.outdoorlife.com/gear/air-venturi-micro-strike-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Paracordia voi käyttää monipuolisesti selviytymisessä, ja sen käyttömahdollisuuksiin on koottu kattava opas. <a href=\"https://www.outdoorlife.com/survival/how-to-use-paracord/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Viisi huolella testattua survival-kittiä on koottu yhteen, ja ne on arvioitu selviytymiskouluttajan toimesta tuomaan lisäturvallisuutta eränkäyntiin. <a href=\"https://www.outdoorlife.com/gear/the-best-survival-kits-tested-by-a-survival-instructor/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Metsästys- ja tarinasarja &quot;Finding Nowhere&quot; on saanut suosiota ja noussut Prime Videon katselulistoille Kanadassa, mikä osoittaa sarjan kulttuurisen merkittävyyden. <a href=\"https://www.rokslide.com/finding-nowhere-how-a-hunting-show-went-mainstream-on-prime-video/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 8,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2005,
+  "output_tokens": 741,
+  "sources": [
+    {
+      "title": "I Hunted the Giant Double-Curl Ram of Ice Mountain",
+      "url": "https://www.outdoorlife.com/hunting/i-hunted-the-giant-double-curl-ram-of-ice-mountain/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Veteran Arctic Traveler Completes 300km Victoria Island Trek",
+      "url": "https://explorersweb.com/veteran-arctic-traveler-completes-300km-victoria-island-trek/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "This USFWS Announcement Has Duck Hunters on High Alert",
+      "url": "https://www.outdoorlife.com/conservation/usfws-wetland-easement-request/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Why the Spoon Is Still One of the Greatest Lures of All Time",
+      "url": "https://www.outdoorlife.com/fishing/spoon-one-of-best-fishing-lures/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Broad Peak Variation, New Route or Not? The Climbers Speak Out",
+      "url": "https://explorersweb.com/broad-peak-variation-new-route-or-not-the-climbers-speak-out/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The Ultimate Small Game Rifle Is Air Powered",
+      "url": "https://www.outdoorlife.com/gear/air-venturi-micro-strike-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Actually Use Paracord in a Survival Situation",
+      "url": "https://www.outdoorlife.com/survival/how-to-use-paracord/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Survival Kits, Tested by a Survival Instructor",
+      "url": "https://www.outdoorlife.com/gear/the-best-survival-kits-tested-by-a-survival-instructor/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Finding Nowhere: How a Hunting Show Went Mainstream on Prime Video",
+      "url": "https://www.rokslide.com/finding-nowhere-how-a-hunting-show-went-mainstream-on-prime-video/",
+      "source_name": "Rokslide"
+    }
+  ],
+  "homepage_candidates": []
+}
