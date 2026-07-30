@@ -1,0 +1,63 @@
+{
+  "date": "2026-07-30",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään keskitymme kevennettyyn ampuma-aseeseen ja teräväkalustoon liittyviin innovaatioihin sekä retkeilyyn vaikuttaviin sääolosuhteisiin. Lisäksi esillä on metsiensuojelu ja resurssien vähentämisen aiheuttamat ongelmat Yhdysvalloissa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>Ei tärkeitä uutisia tänään.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>Pierce SKELE-TI Titanium Action Review</strong>: Rokslide esittelee kevytmetallin käyttöä metsästysaseessa, vähentäen aseen painoa ja parantaen käytettävyyttä. <a href=\"https://www.rokslide.com/pierce-skele-ti-titanium-action-review/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Today’s Best Knife Deals: USA Made, Survival, and Budget EDC Blades</strong>: Outdoor Life esittelee päivän parhaat tarjouksia veitsistä, mukaan lukien USA:ssa valmistettuja selviytymisveitsiä ja edullisia päivittäiseen käyttöön sopivia malleja, säästöjen ollessa jopa 62%. <a href=\"https://www.outdoorlife.com/gear/todays-best-knife-deals-7-29/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>The 8 Best Survival Knives According to a Survival Instructor</strong>: Selviytymisasiantuntija valitsee oman suosikkinsa kahdeksasta parhaasta veitsestä, jotka sopivat erinomaisesti suojan, tulenteon ja työkalujen valmistukseen. <a href=\"https://www.outdoorlife.com/gear/best-survival-knives-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>First Came the DOGE Cuts, Then Came the Wildfires</strong>: Entinen metsäpalontorjuja ja eläkkeellä oleva USA:n metsäpalvelun piirin johtaja selittää, miten resurssien vähennykset ovat vaikeuttaneet hallittuja kulotuksia ja siten pahentaneet metsäpalo-ongelmia Boundary Waters -alueella. <a href=\"https://www.outdoorlife.com/conservation/doge-cuts-forest-service-wildfires/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Bad Weather Delays K2 Progress, Ends Masherbrum Attempt</strong>: K2:n kiipeilyryhmät odottavat huiputusta lauantaille 1. elokuuta, mutta huonot sääolosuhteet ja lumivyöry ovat keskeyttäneet Masherbrumin kiipeilyyrityksen. <a href=\"https://explorersweb.com/bad-weather-delays-k2-progress-ends-masherbrum-attempt/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1758,
+  "output_tokens": 586,
+  "sources": [
+    {
+      "title": "Pierce SKELE-TI Titanium Action Review",
+      "url": "https://www.rokslide.com/pierce-skele-ti-titanium-action-review/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "‘We’ll Never Replicate It.’ Charter Boat Anglers Land Three Record Fish During One Epic Trip",
+      "url": "https://www.outdoorlife.com/fishing/charter-boat-breaks-three-fishing-records/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Fish a Deep Diving Crankbait for Giant Summer Bass",
+      "url": "https://www.outdoorlife.com/fishing/how-to-fish-deep-diving-crankbait/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "My Old-School Secret for Catching More Bass? Fish at Midnight",
+      "url": "https://www.outdoorlife.com/fishing/bass-fish-at-midnight/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Today’s Best Knife Deals: USA Made, Survival, and Budget EDC Blades",
+      "url": "https://www.outdoorlife.com/gear/todays-best-knife-deals-7-29/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 8 Best Survival Knives According to a Survival Instructor",
+      "url": "https://www.outdoorlife.com/gear/best-survival-knives-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "First Came the DOGE Cuts, Then Came the Wildfires",
+      "url": "https://www.outdoorlife.com/conservation/doge-cuts-forest-service-wildfires/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Bad Weather Delays K2 Progress, Ends Masherbrum Attempt",
+      "url": "https://explorersweb.com/bad-weather-delays-k2-progress-ends-masherbrum-attempt/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Montana Man Impales Himself on a Trekking Pole, Then Hikes Out 10 Miles with ‘Gnarly Wound’",
+      "url": "https://www.outdoorlife.com/adventure/hiker-impaled-by-trekking-pole/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Fried Fish Tails: This Is the Best Fish Dish That You’ve Been Missing",
+      "url": "https://www.outdoorlife.com/fishing/fried-fish-tails-this-is-the-best-fish-dish-that-youve-been-missing/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}

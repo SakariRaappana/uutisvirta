@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-30",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään merkittävä uudistus Diagrid Catalyst 2.0 -alustalla on tuonut todennettavan ja kestävän suorituskyvyn keskeisiin AI-kehyksiin, kuten LangGraph, Microsoft Agent Framework ja Google ADK.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>Ei tärkeitä uutisia tänään.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Diagrid Catalyst 2.0 esiteltiin, tuoden todennettavan ja kestävän suorituskyvyn useisiin johtaviin tekoälyarkkitehtuureihin, mukaan lukien LangGraph, Microsoft Agent Framework ja Google ADK. <a href=\"https://news.google.com/rss/articles/CBMijgJBVV95cUxQdFJieVhvcm5mZko0NTYzb3YtNGNVZ3VPS2FNMzNodU9oTjJCUDJtY2poMS1EcG9BdlBMME5yQTVZbXFjOGtqZVJLYWJTWVZ2U2U2eFlaUFpPOXJfbHgxY21QMWhMemVjMktYSGRrS0tpa0dUaGhkTWZ1VFZRZWdSN1lZeTJIRmcxMk5NMGdONHpfdlFNX2F6cGVOZVA2ZnhwOWNsS3dYb2ZwRUZPZDdGV0U2ZThlWDA2ekNCTHBpWjJkcDBpNDg0b3o4NE5YUWxMZWhDQzdWTkwyZFpRNUVMUXRseUdET210RmRQcUh4NmJiVzI1dF9BbXJEUDV3X2lqSmhTTGlkX3VrQmJaMWc?oc=5\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1300,
+  "output_tokens": 420,
+  "sources": [
+    {
+      "title": "How an overlooked geothermal plant got a second chance",
+      "url": "https://www.technologyreview.com/2026/07/29/1140896/geothermal-second-chance/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: a chip talent battle, and deflating AI hype",
+      "url": "https://www.technologyreview.com/2026/07/29/1140884/the-download-chip-talent-battle-deflating-ai-hype/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The AI Hype Index: Unsexy AI",
+      "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Diagrid Catalyst 2.0 Brings Verifiable, Durable Execution to LangGraph, Microsoft Agent Framework, Google ADK and Other Leading AI Frameworks - AiThority",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQdFJieVhvcm5mZko0NTYzb3YtNGNVZ3VPS2FNMzNodU9oTjJCUDJtY2poMS1EcG9BdlBMME5yQTVZbXFjOGtqZVJLYWJTWVZ2U2U2eFlaUFpPOXJfbHgxY21QMWhMemVjMktYSGRrS0tpa0dUaGhkTWZ1VFZRZWdSN1lZeTJIRmcxMk5NMGdONHpfdlFNX2F6cGVOZVA2ZnhwOWNsS3dYb2ZwRUZPZDdGV0U2ZThlWDA2ekNCTHBpWjJkcDBpNDg0b3o4NE5YUWxMZWhDQzdWTkwyZFpRNUVMUXRseUdET210RmRQcUh4NmJiVzI1dF9BbXJEUDV3X2lqSmhTTGlkX3VrQmJaMWc?oc=5",
+      "source_name": "Google News: Microsoft Agent Framework"
+    }
+  ],
+  "homepage_candidates": []
+}
