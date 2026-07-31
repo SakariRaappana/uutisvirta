@@ -1,0 +1,58 @@
+{
+  "date": "2026-07-31",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään ei ole merkittäviä uutisia syvää analyysiä varten, mutta neljä erä- ja selviytymisaiheista uutista ansaitsee lyhyen maininnan. Grizzly-karhun hyökkäyksestä selviytyminen, vedenpuhdistustablettien testaus, AR-15-aseiden käyttö karhupuolustuksessa sekä SUP-seikkailijan kohtaamiset Luoteisväylällä ovat päivän aiheet.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Montanassa metsästäjä joutui yllättäen grizzly-karhun hyökkäyksen kohteeksi, mutta selvisi hengissä — vaikka karhu teki paluun. <a href=\"https://www.outdoorlife.com/survival/montana-grizzly-attack-story/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Viisi parasta vedenpuhdistustablettia testattiin niiden maun, tehokkuuden ja käytön helppouden perusteella. <a href=\"https://www.outdoorlife.com/gear/best-water-purification-tablets-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>AR-15-kiväärin soveltuvuutta karhun torjuntaan tarkastellaan: onko se käytännöllinen valinta vai potentiaalinen katastrofi? <a href=\"https://www.outdoorlife.com/guns/ar-15-for-bear-defense/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Antonio de la Rosa, SUP-lautailija Luoteisväylällä, kohtasi Arktiksen vaarat läheltä piti -tilanteessa päivää leudon ja rauhallisen purjehduksen jälkeen. <a href=\"https://explorersweb.com/northwest-passage-super-has-close-call-considers-quitting/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1689,
+  "output_tokens": 379,
+  "sources": [
+    {
+      "title": "Broad Peak Avalanche: Four Bodies Found, Helicopters Search for Other Six",
+      "url": "https://explorersweb.com/broad-peak-avalanche-four-bodies-found-helicopters-search-for-other-six/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "‘I Heard the Crunch of Something Breaking.’ How I Survived a Double Grizzly Bear Attack",
+      "url": "https://www.outdoorlife.com/survival/montana-grizzly-attack-story/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Here’s Why I Taught My 2-Year-Old Daughter Archery",
+      "url": "https://www.outdoorlife.com/hunting/teaching-my-daughter-archery/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Updated: Ten Missing, Including Nirmal Purja, After Avalanche on Broad Peak",
+      "url": "https://explorersweb.com/breaking-avalanche-on-broad-peak-buries-10-including-nirmal-purja/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "I Tested the 5 Best Water Purification Tablets for Backpacking and Survival",
+      "url": "https://www.outdoorlife.com/gear/best-water-purification-tablets-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "ARs for Bear Defense: Practical Choice or Potential Disaster?",
+      "url": "https://www.outdoorlife.com/guns/ar-15-for-bear-defense/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Blue Murder: Chasing a Bluefish Blitz Is the Ultimate Saltwater Adrenaline Rush",
+      "url": "https://www.outdoorlife.com/fishing/bluefish-fishing-traditional-way/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Tie the Improved Clinch Knot: A “Fisherman’s Knot” That Everyone Should Know",
+      "url": "https://www.outdoorlife.com/fishing/how-to-tie-improved-clinch-knot/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Northwest Passage SUP'er Has Close Call, Considers Quitting",
+      "url": "https://explorersweb.com/northwest-passage-super-has-close-call-considers-quitting/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}

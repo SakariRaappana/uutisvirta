@@ -1,0 +1,73 @@
+{
+  "date": "2026-07-31",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään korostuvat EU:n AI-lainsäädännön läpinäkyvyysvaatimuksissa tapahtuneet edistysaskeleet, kun komissio hyväksyi Transparency Code of Practicen. Lisäksi Microsoft Agent Framework esittelee uusia keinoja agenttitiimien rakentamiseen hyödyntämällä GitHub Copilot CLI:tä ja Squad-työkalua.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>EU AI Act — Komissio vahvistaa läpinäkyvyyskoodin ja julkaisee lopulliset ohjeet</h3>\n<p>EU:n komissio on virallisesti hyväksynyt Transparency Code of Practicen osana AI-lainsäädännön läpinäkyvyysvaatimuksia. Komissio julkaisi myös lopulliset ohjeet, joiden tarkoitus on selventää tekoälyn käytön läpinäkyvyyteen liittyviä velvoitteita eri sektoreilla. Tämä ohjaus auttaa yrityksiä noudattamaan AI-lainsäädäntöä, vahvistaa identiteettihallinnan käytäntöjä ja varmistaa vastuullisuuden tekoälyratkaisujen kehitystyössä. Komissio toivoo, että nämä askeleet parantavat sekä kuluttajien että yritysten luottamusta tekoälyyn ja sen sovellutuksiin. <strong><a href=\"https://news.google.com/rss/articles/CBMisAJBVV95cUxOSUoxVFBoSVNaQmNGakZJMEx5OTU2YnFtWFFvbFNQQU9iOTNEQ2Q4VzNPU1psTFRHUWptX1ROODVFUU1HVnFWMTFLRHNNMTItMDNfUmozNHFJUTB0R2t2bFFOR1dNUDB4eFpDY3RpbUhlczhwd2E2RzFjOXlPV3dtUlJSN29qU21BSUdDUV9VTnBQcXR2SjFJYVhBbVRBRTRRZldYSDJYWFU0UV9JcUZpY2FTUnVUNkxzdVdmYi1Hd25iUGJYVDN3cDdjYWw5MVc0NWl2WEllMm11TndHSFpqTW1YSnAxS1FoY0R6RkhPV0tTdXJlcGE1dkM1Ynlwb0hhUkp2TDY0MjBybTdqV0t1M2RxUEp2MmZYRHV2NVA4aVlQNU1TSWd5Q1lQeW5LYTBh?oc=5\">Lue alkuperäinen →</a></strong></p>\n<h3>Agenttitiimien rakentaminen Agent Frameworkilla ja GitHub Copilotilla</h3>\n<p>Microsoft Agent Frameworkin uusimmassa blogissa esitellään, miten Agent Frameworkin, GitHub Copilot CLI:n ja Squadin avulla voidaan rakentaa tehokkaita agenttitiimejä. Blogipostaus tarkastelee, miten nämä työkalut integroivat saumattomasti keskenään ja tehostavat yhteistyötä eri agenttien välillä. Varsinkin GitHub Copilotin komentorivityökalu osoittautuu hyödylliseksi työssä, joka edellyttää jatkuvaa yhteiskehittelyä ja automatisointia. Microsoft esittelee käytännön esimerkkejä ja ohjeita, kuinka nämä resurssit voidaan parhaiten valjastaa agenttipohjaisten projektien hyväksi. <strong><a href=\"https://devblogs.microsoft.com/agent-framework/building-agent-teams-with-agent-framework-github-copilot-cli-and-squad/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Tutkijaryhmä esittelee kansainvälisessä konferenssissa, miten perustavanlaatuinen heikkous tekee suurista kielimalleista alttiita hyökkäyksille, mikä varmistaa, että niitä ei voida täysin turvata hakkereilta. <a href=\"https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 3525,
+  "output_tokens": 916,
+  "sources": [
+    {
+      "title": "EU AI Act — Commission Confirms Transparency Code of Practice as Adequate and Publishes Final Version of Its Guidelines on Transparency Obligations - Faegre Drinker Biddle & Reath LLP",
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOSUoxVFBoSVNaQmNGakZJMEx5OTU2YnFtWFFvbFNQQU9iOTNEQ2Q4VzNPU1psTFRHUWptX1ROODVFUU1HVnFWMTFLRHNNMTItMDNfUmozNHFJUTB0R2t2bFFOR1dNUDB4eFpDY3RpbUhlczhwd2E2RzFjOXlPV3dtUlJSN29qU21BSUdDUV9VTnBQcXR2SjFJYVhBbVRBRTRRZldYSDJYWFU0UV9JcUZpY2FTUnVUNkxzdVdmYi1Hd25iUGJYVDN3cDdjYWw5MVc0NWl2WEllMm11TndHSFpqTW1YSnAxS1FoY0R6RkhPV0tTdXJlcGE1dkM1Ynlwb0hhUkp2TDY0MjBybTdqV0t1M2RxUEp2MmZYRHV2NVA4aVlQNU1TSWd5Q1lQeW5LYTBh?oc=5",
+      "source_name": "Google News: EU AI Act"
+    },
+    {
+      "title": "Building agent teams with Agent Framework, GitHub Copilot CLI and Squad",
+      "url": "https://devblogs.microsoft.com/agent-framework/building-agent-teams-with-agent-framework-github-copilot-cli-and-squad/",
+      "source_name": "Microsoft Agent Framework Blog"
+    },
+    {
+      "title": "Montana’s plan to become an experimental medical hub just pushed forward",
+      "url": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: tricking LLMs, and reviving geothermal plants",
+      "url": "https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+      "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "EU AI Act — Commission Confirms Transparency Code of Practice as Adequate and Publishes Final Version of Its Guidelines on Transparency Obligations - Faegre Drinker Biddle & Reath LLP",
+      "source_name": "Google News: EU AI Act",
+      "source_url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOSUoxVFBoSVNaQmNGakZJMEx5OTU2YnFtWFFvbFNQQU9iOTNEQ2Q4VzNPU1psTFRHUWptX1ROODVFUU1HVnFWMTFLRHNNMTItMDNfUmozNHFJUTB0R2t2bFFOR1dNUDB4eFpDY3RpbUhlczhwd2E2RzFjOXlPV3dtUlJSN29qU21BSUdDUV9VTnBQcXR2SjFJYVhBbVRBRTRRZldYSDJYWFU0UV9JcUZpY2FTUnVUNkxzdVdmYi1Hd25iUGJYVDN3cDdjYWw5MVc0NWl2WEllMm11TndHSFpqTW1YSnAxS1FoY0R6RkhPV0tTdXJlcGE1dkM1Ynlwb0hhUkp2TDY0MjBybTdqV0t1M2RxUEp2MmZYRHV2NVA4aVlQNU1TSWd5Q1lQeW5LYTBh?oc=5",
+      "published_at": "2026-07-30T20:57:30+00:00",
+      "summary": "EU AI Act — Commission Confirms Transparency Code of Practice as Adequate and Publishes Final Version of Its Guidelines on Transparency Obligations&nbsp;&nbsp;Faegre Drinker Biddle & Reath LLP",
+      "why_relevant": "EU AI Actin transparenssiohjeiden lopullinen versio vaikuttaa suoraan siihen, miten voit neuvoa finanssiasiakkaita AI-järjestelmien dokumentoinnissa ja ilmoitusvelvoitteissa.",
+      "homepage_eligible": true,
+      "homepage_score": 88,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 4,
+      "event_key": "eu-ai-act-transparency-guidelines-final",
+      "category": "tärkea"
+    },
+    {
+      "title": "Building agent teams with Agent Framework, GitHub Copilot CLI and Squad",
+      "source_name": "Microsoft Agent Framework Blog",
+      "source_url": "https://devblogs.microsoft.com/agent-framework/building-agent-teams-with-agent-framework-github-copilot-cli-and-squad/",
+      "published_at": "2026-07-30T17:18:53+00:00",
+      "summary": "Microsoft Agent Framework supports creating agents that use the GitHub Copilot SDK as their backend. GitHub Copilot agents provide access to powerful coding-oriented AI capabilities, including shell command execution, file operations, URL fetching, Model Context Protocol (MCP) server integration, an",
+      "why_relevant": "Tämä kertoo suoraan, miten Agent Frameworkilla voi rakentaa agenttitiimejä Copilot-pohjaisella backendillä, mikä on välittömästi hyödyllistä omassa agenttiarkkitehtuurityössäsi.",
+      "homepage_eligible": true,
+      "homepage_score": 86,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "agent-framework-copilot-cli-squad",
+      "category": "tärkea"
+    }
+  ]
+}
