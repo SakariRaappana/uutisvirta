@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-01",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään on käsitelty merkittäviä aiheita koskien metsänhoidon käytäntöjä, varustetestauksia ja hiihtovaelluksen dramatiikkaa. Otsikoissa nostetaan esiin Kalifornian metsähallinnon toimia, legendaarista selviytymisveistä ja hirvijahtikokemuksia Alaskassa sekä vuoristoetsintöjä Broad Peakilla.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Yhdysvaltain metsähallinto harkitsee rajoittamattoman moottoroidun liikenteen sallimista Blue Mountainsin alueella Oregonissa ja Washingtonissa, mikä on herättänyt huolta metsästäjien keskuudessa teiden ja hakkuiden vaikutuksista riistaeläinkantoihin. <a href=\"https://www.outdoorlife.com/conservation/forest-service-plan-blue-mountains-elk/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Fallkniven S1- veitsen kestävyyttä ja käytettävyyttä on arvioitu uudessa testissä. Tuloksista selviää, onko se yhä selviytymisveitsien aatelia vai kaipaako se päivitystä. <a href=\"https://www.outdoorlife.com/gear/fallkniven-s1-review/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Alaska-operaatiossa kokeiltiin hirvien houkuttelua ensimmäistä kertaa, ja tulokset yllättivät kokeneemmankin metsästäjän, kun useita hirviä ilmestyi kutsusta. <a href=\"https://www.outdoorlife.com/hunting/calling-in-blacktail-deer/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Broad Peakilla sattunut lumivyöry on vaatinut useiden kiipeilijöiden etsintää vuoristossa, mikä on johtanut K2:n joukkueiden vetäytymiseen. Etsintätyöt jatkuvat kiivaasti uusien tietojen myötä. <a href=\"https://explorersweb.com/broad-peak-search-continues-shocked-k2-teams-abort-summit-push/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1706,
+  "output_tokens": 454,
+  "sources": [
+    {
+      "title": "BFS for Bass Is the Most Fun Way to Catch Bass This Summer",
+      "url": "https://www.outdoorlife.com/fishing/bfs-for-bass/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Forest Service Is Moving Toward Unrestricted Motorized Access to an Iconic Western Elk Herd. Hunters ‘Have No Idea What’s Coming’",
+      "url": "https://www.outdoorlife.com/conservation/forest-service-plan-blue-mountains-elk/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Fallkniven S1 Review: Is This Legendary Blade Still the Ultimate Survival Knife?",
+      "url": "https://www.outdoorlife.com/gear/fallkniven-s1-review/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Legendary Shark Fishing Record That’s Never Been Broken",
+      "url": "https://www.outdoorlife.com/fishing/world-record-tiger-shark/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "I Thought Calling Deer Was a Joke. But Then Bucks Came Charging In",
+      "url": "https://www.outdoorlife.com/hunting/calling-in-blacktail-deer/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Broad Peak Search Continues, Shocked K2 Teams Abort Summit Push",
+      "url": "https://explorersweb.com/broad-peak-search-continues-shocked-k2-teams-abort-summit-push/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}
