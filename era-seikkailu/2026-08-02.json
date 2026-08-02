@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-02",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Texasissa asuva eläinoikeusvaikuttaja lupaa 10 000 dollarin palkkion henkilöille, jotka tunnistavat metsästäjiä, jotka laillisesti tappavat harmaasusia Yellowstonen kansallispuistosta poistuessaan. Lisäksi opas tärkeän köytösolmun, bowline-solmun, sidontaan on julkaistu, ja tunnetun kiipeilijän Nirmal Purjan kuolema on vahvistettu.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Eläinoikeusvaikuttaja lupaa 10 000 dollarin palkkion metsästäjien tunnistamiseksi</h3>\n<p>Texasissa asuva eläinoikeusvaikuttaja on ilmoittanut 10 000 dollarin palkkion luvanvaraisesti Wyomingissa harmaasusia metsästävien henkilöiden tunnistamisesta. Harmaat sudet, jotka kulkevat Yellowstone National Park -alueelta, ovat metsästyksen kohteena, kun ne poistuvat suojelualueelta, ja metsästys tapahtuu paikallisten sääntöjen mukaisesti. Tämän tempauksen taustalla vaikuttaa olevan halu suojella susia niiden astuessa mailta, joissa ne saavat metsästää. Tapahtuma on herättänyt paljon keskustelua luonnonsuojelun ja metsästyksen aiheista. <a href=\"https://www.outdoorlife.com/conservation/bounty-wolf-hunter-identities/\">Lue alkuperäinen →</a></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Outdoor Life on julkaissut oppaan bowline-solmun sitomiseen, jota pidetään yhtenä tärkeimmistä solmuista eränkävijöille. <a href=\"https://www.outdoorlife.com/survival/bowline-knot/\">Lue lisää</a></li>\n<li>EliteExped on vahvistanut arvostetun kiipeilijän Nirmal Purjan ja hänen oppaansa Nima Sherpan kuoleman, kun he joutuivat lumivyöryyn Broad Peakilla 30. heinäkuuta. <a href=\"https://explorersweb.com/eliteexped-confirms-nirmal-purja-dead-on-broad-peak/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2403,
+  "output_tokens": 485,
+  "sources": [
+    {
+      "title": "How to Tie a Bowline Knot: The Most Useful Knot to Outdoorsmen",
+      "url": "https://www.outdoorlife.com/survival/bowline-knot/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Pound for Pound, Carp Are the Best Fighters in the Fishing World",
+      "url": "https://www.outdoorlife.com/fishing/carp-are-the-best-fighters/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "EliteExped Confirms Nirmal Purja Dead on Broad Peak",
+      "url": "https://explorersweb.com/eliteexped-confirms-nirmal-purja-dead-on-broad-peak/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Influencer Offers $10,000 Bounty to Identify Hunters Who Tag Wolves That Leave Yellowstone National Park",
+      "url": "https://www.outdoorlife.com/conservation/bounty-wolf-hunter-identities/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
