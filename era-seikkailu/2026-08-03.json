@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-03",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään ei ilmennyt erityisiä uutisia suomalaiselle eränkävijälle, mutta maininnanarvoinen on artikkeli, joka käsittelee vaarallisten eläinten metsästystä Botswanassa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>Ei tänään raportoitavia tärkeitä uutisia.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Kirjoittaja ja hänen toverinsa osallistuivat kuukauden mittaiseen safarille Afrikan villissä luonnossa Botswanassa, kohdaten useita vaarallisia tilanteita vaarallisia eläimiä metsästäessään. <a href=\"https://www.outdoorlife.com/hunting/hunting-safari-old-botswanna/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1423,
+  "output_tokens": 164,
+  "sources": [
+    {
+      "title": "The 12 Best Flies for Catching Bass",
+      "url": "https://www.outdoorlife.com/fishing/best-bass-flies-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Adventure Links of the Week",
+      "url": "https://explorersweb.com/adventure-links-of-the-week-157/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "“No Place for Cowardice.” Hunting Dangerous Game In Old Botswana",
+      "url": "https://www.outdoorlife.com/hunting/hunting-safari-old-botswanna/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
