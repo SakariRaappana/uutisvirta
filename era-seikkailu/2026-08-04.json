@@ -1,0 +1,115 @@
+{
+  "date": "2026-08-04",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisoitiin merkittäviä muutoksia metsästykseen liittyvissä säädöksissä ja ongelmakohteissa. Ruotsin hallitus on korottanut referenssiarvoja mahdollistaakseen talven susijahdin. Suomessa on havaittu afrikkalainen sikarutto, mikä johtaa tiukkojen viranomaisohjeiden noudattamiseen. Lisäksi metsästäjiä kehotetaan noudattamaan näitä ohjeita tarkasti Kaakkois-Suomessa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Ruotsin hallitus korotti referenssiarvoja talvisen susijahdin mahdollistamiseksi</h3>\n<p>Ruotsin hallitus on päättänyt korottaa susikannan referenssiarvoja, mikä mahdollistaa susien metsästyksen tulevana talvena. Päätöksellä pyritään hallitsemaan susikantaa tehokkaammin ja vähentämään susien aiheuttamia ongelmia paikallisille yhteisöille. Tämä toimenpide on herättänyt sekä kannatusta että kritiikkiä eri tahoilla, erityisesti luontojärjestöjen keskuudessa, jotka ovat huolissaan susikannan kestävyydestä pitkällä aikavälillä. Hallituksen mukaan päätös antaa paikallisille viranomaisille mahdollisuuden reagoida tarkoituksenmukaisemmin susipopulaation hallintaan liittyviin haasteisiin. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/regeringen-hojer-referensvardet-for-att-mojliggora-vargjakt-i-vinter/\">Lue alkuperäinen →</a></p>\n<h3>Afrikkalainen sikarutto havaittu Suomessa</h3>\n<p>Suomessa Kaakkois-Suomessa on havaittu afrikkalaisen sikaruton tartunta kolmella kuolleena löydetyllä villisikakultingarilla. Sikarutto on tappava tauti sioille, mutta se ei vaikuta ihmisiin. Viranomaiset ovat tartunnan vuoksi määränneet tarkastuksia ja eristämistoimenpiteitä alueella taudin leviämisen estämiseksi. Tämä tapahtuma korostaa biohygienian merkitystä ja tarvetta ehkäistä taudin leviäminen edelleen Suomessa ja sen naapurimaissa. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/afrikansk-svinpest-upptackt-i-finland/\">Lue alkuperäinen →</a></p>\n<h3>Metsästäjiä kehotetaan noudattamaan viranomaisohjeita Kaakkois-Suomessa</h3>\n<p>Metsästäjäliitto varoittaa metsästäjiä noudattamaan tiukasti Ruokaviraston ohjeita afrikkalaisen sikaruton ehkäisemiseksi Kaakkois-Suomen alueella. Metsästäjien tulee kiinnittää erityistä huomiota hygieniatoimiin, kuten saappaat ja varusteet tulee puhdistaa huolellisesti ja kaikki epäilyttävät löydöt raportoida viranomaisille. Tämänhetkinen tilanne edellyttää metsästyskulttuurin mukautumista taudin leviämisen estämiseksi ja kansanterveyttä heikentävien vaikutusten minimoimiseksi. <a href=\"https://metsastajaliitto.fi/uutiset/metsastajien-noudatettava-tarkoin-viranomaisohjeita-sikaruttoalueella-kaakkois-suomessa\">Lue alkuperäinen →</a></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Neljä ankkajärjestöä ovat lähestyneet Amerikan sisäministeriötä ja lainsäätäjiä kirjeellä, jossa he vaativat kosteikkojen läheisten kuivatuskäytäntöjen ylläpitämistä. <a href=\"https://www.outdoorlife.com/conservation/waterfowl-groups-send-urgent-letter/\">Lue lisää</a></li>\n<li>Ohioon kytkeytyvässä tapauksessa YouTube-kanavan ylläpitäjä on jäänyt kiinni luvattomasta metsästyksestä, mikä tutkijoiden mukaan on ilmentynyt &quot;villieläinten kaupallistamisena modernilla tvistillä&quot;. <a href=\"https://www.outdoorlife.com/conservation/creek-kings-youtube-poaching-bust-ohio/\">Lue lisää</a></li>\n<li>Artikkelissa kerrotaan mustan karhun jahtausoperaatiosta Arizonassa, jossa karhu oli alkanut tappaa ajokoiria loukkaantuneen käpälänsä vuoksi. <a href=\"https://www.outdoorlife.com/hunting/black-bear-renegade-hunt/\">Lue lisää</a></li>\n<li>Kaksi metsästäjää jäi loukkuun lampaiden metsästysretkellä sään ja ruoanpuutteen vuoksi. <a href=\"https://www.outdoorlife.com/hunting/sheep-hunt-rationed-food/\">Lue lisää</a></li>\n<li>Utahin villieläinten muuttoreittejä kartoitetaan GPS-kaulapantojen avulla, ja uudet tiedot auttavat biologeja ymmärtämään eläinten liikkeitä paremmin. <a href=\"https://www.rokslide.com/mapping-utahs-big-game-migrations-with-makeda-hanson/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 8,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 4782,
+  "output_tokens": 1134,
+  "sources": [
+    {
+      "title": "‘We Have Invested Hundreds of Millions of Dollars in These Easements.’ Waterfowl Groups Send Urgent Letter to Secretary Burgum",
+      "url": "https://www.outdoorlife.com/conservation/waterfowl-groups-send-urgent-letter/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "My Son Could Hunt Bears with Any Rifle, He Picked the M1 Garand",
+      "url": "https://www.outdoorlife.com/hunting/my-son-killed-a-bear-with-an-m1-garand/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "YouTuber Poaching Bust Was a Case of ‘Wildlife Commercialization with a Modern Twist,’ Says Investigating Warden",
+      "url": "https://www.outdoorlife.com/conservation/creek-kings-youtube-poaching-bust-ohio/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Regeringen höjer referensvärdet – för att möjliggöra vargjakt i vinter",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/regeringen-hojer-referensvardet-for-att-mojliggora-vargjakt-i-vinter/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "The Show Must Go On: Summits Continue on Gasherbrum I",
+      "url": "https://explorersweb.com/summits-continue-on-gasherbrum-i/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "We Hunted a Renegade Black Bear in Arizona’s Rimrock Country",
+      "url": "https://www.outdoorlife.com/hunting/black-bear-renegade-hunt/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Afrikansk svinpest upptäckt i Finland",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/afrikansk-svinpest-upptackt-i-finland/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "We Got Stranded on a Sheep Hunt With Bugs, Bears, and No Food",
+      "url": "https://www.outdoorlife.com/hunting/sheep-hunt-rationed-food/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Mapping Utah’s Big Game Migrations with Makeda Hanson",
+      "url": "https://www.rokslide.com/mapping-utahs-big-game-migrations-with-makeda-hanson/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Metsästäjien noudatettava tarkoin viranomaisohjeita sikaruttoalueella Kaakkois-Suomessa",
+      "url": "https://metsastajaliitto.fi/uutiset/metsastajien-noudatettava-tarkoin-viranomaisohjeita-sikaruttoalueella-kaakkois-suomessa",
+      "source_name": "Metsästäjäliitto"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Regeringen höjer referensvärdet – för att möjliggöra vargjakt i vinter",
+      "source_name": "Jakt & Jägare",
+      "source_url": "https://www.jaktojagare.se/kategorier/nyheter/regeringen-hojer-referensvardet-for-att-mojliggora-vargjakt-i-vinter/",
+      "published_at": "2026-08-03T17:41:30+00:00",
+      "summary": "Förra sommaren gav regeringen Naturvårdsverket i uppdrag att till EU rapportera 170 som nytt nationellt referensvärde för vargpopulationen i Sverige. Nu höjer regeringen den siffran till 220 individer.",
+      "why_relevant": "Ruotsin susikannan referenssiarvon nosto voi avata talven susijahdin, mikä on suoraan relevanttia Pohjois-Ruotsin metsästysretkiesi suunnitteluun.",
+      "homepage_eligible": true,
+      "homepage_score": 82,
+      "keep_days": 4,
+      "personal_relevance": 4,
+      "strategic_importance": 4,
+      "actionability": 4,
+      "novelty": 4,
+      "event_key": "sweden-wolf-reference-value-220",
+      "category": "tärkea"
+    },
+    {
+      "title": "Afrikansk svinpest upptäckt i Finland",
+      "source_name": "Jakt & Jägare",
+      "source_url": "https://www.jaktojagare.se/kategorier/nyheter/afrikansk-svinpest-upptackt-i-finland/",
+      "published_at": "2026-08-03T16:13:39+00:00",
+      "summary": "Tre vildsvinskultingar som hittades döda inom en radie av 500 meter i sydöstra Finland har konstaterats smittade med afrikansk svinpest, rapporterar SVA.",
+      "why_relevant": "Afrikkalaisen sikaruton löytyminen Kaakkois-Suomessa voi vaikuttaa välittömästi hirvieläin- ja villisikajahteihin, pyyntiin, liikkumiseen ja hygieniamääräyksiin omalla kotialueellasi.",
+      "homepage_eligible": true,
+      "homepage_score": 95,
+      "keep_days": 7,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "finland-african-swine-fever-detected",
+      "category": "tärkea"
+    },
+    {
+      "title": "Metsästäjien noudatettava tarkoin viranomaisohjeita sikaruttoalueella Kaakkois-Suomessa",
+      "source_name": "Metsästäjäliitto",
+      "source_url": "https://metsastajaliitto.fi/uutiset/metsastajien-noudatettava-tarkoin-viranomaisohjeita-sikaruttoalueella-kaakkois-suomessa",
+      "published_at": "2026-08-03T11:55:54+00:00",
+      "summary": "Metsästäjien noudatettava tarkoin viranomaisohjeita sikaruttoalueella Kaakkois-Suomessa\n\n            Kyllä\n      tero.ylioja@me…\nMa, 03.08.2026 - 14:55\n\n\n              \n\n\n\n      \n            Ruokavirasto ilmoitti afrikkalaisen sikaruton löytymisestä Suomessa torstaina 30. heinäkuuta. Metsästäjien tu",
+      "why_relevant": "Sikaruttoalueen viranomaisohjeet Kaakkois-Suomessa vaikuttavat suoraan siihen, miten sinun kannattaa toimia hirvieläin- ja villisikajahdeissa, riistan käsittelyssä ja liikkumisessa alueella.",
+      "homepage_eligible": true,
+      "homepage_score": 90,
+      "keep_days": 6,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 4,
+      "event_key": "kaakkois-suomi-african-swine-fever-guidance",
+      "category": "tärkea"
+    }
+  ]
+}

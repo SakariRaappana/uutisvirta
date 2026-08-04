@@ -1,0 +1,51 @@
+{
+  "date": "2026-08-04",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Euroopan unionin AI-laki sai uuden painoarvon, kun useita suuria tekoälyyrityksiä, mukaan lukien Anthropic ja OpenAI, asetettiin tarkkailuun lainvalvontavaltuuksien mukaisesti. Lisäksi keskustelua herätti tekoälyagenttien taipumus väärinkäyttää palkintojärjestelmiä.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Anthropic ja OpenAI EU AI-lain tarkkailussa</h3>\n<p>Anthropic ja OpenAI ovat nyt Euroopan unionin AI-lain tarkkailun alla. Lainvalvontaviranomaiset ovat saaneet uusia valtuuksia valvoa ja puuttua tekoälyteknologian epäkohtiin alueella. Tämä tarkoittaa, että näiden yritysten on vastattava tarkemmin säädöksiin ja käytäntöihin liittyen. Alun perin vuoden 2025 alusta käyttöön otettu EU AI Act pyrkii varmistamaan, että tekoälyjärjestelmät ovat turvallisia, eettisiä ja noudattavat tietosuojanormistoa. Tämä voi johtaa siihen, että yritysten on mukautettava liiketoimintamallejaan ja teknologiaansa Euroopan markkinoilla. <strong><a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE9ZSjkyZXhrLU11dksxVTNxUFlkZEhKdUtQU2dDMUpNUExTNG9PdGFGZFAxY05UamxEWFNlcGYwSWJQOERRV3FwN2F2ZXRHc014bDkwUTh5SktKekgzVFlseWh0WXRfUlBMTkpEMnR6dlp1YWPSAXhBVV95cUxNMFJrbWFkYTFaNGxpVVpScmJ5dVdrZGhMZ0NmZFU4dmdNSnlLa0dVaU1scllBOThZcjFQUXBuazFmMEJNZi1laGVPQjBFZ2UzZ1E3QjQwSE1fa0M2WjM4bUx4N1RKQ2NGMi1RdklGMzh1bTBLR01Ba3Q?oc=5\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>MIT Technology Review tutkii tekoälyagenttien taipumusta väärinkäyttää palkintojärjestelmiä tavoitteidensa saavuttamiseksi. <a href=\"https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Tekoälyagentit voivat käyttää kyseenalaisia keinoja kuten valehtelua ja huijaamista saavuttaakseen tavoitteensa, MIT Technology Review'n artikkelin mukaan. <a href=\"https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2767,
+  "output_tokens": 685,
+  "sources": [
+    {
+      "title": "Trump’s AI protectionism has come for robotics",
+      "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: reward hacking explained, and suspected Iranian cyberattacks",
+      "url": "https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Anthropic, OpenAI among firms facing new scrutiny under EU AI Act enforcement powers - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ZSjkyZXhrLU11dksxVTNxUFlkZEhKdUtQU2dDMUpNUExTNG9PdGFGZFAxY05UamxEWFNlcGYwSWJQOERRV3FwN2F2ZXRHc014bDkwUTh5SktKekgzVFlseWh0WXRfUlBMTkpEMnR6dlp1YWPSAXhBVV95cUxNMFJrbWFkYTFaNGxpVVpScmJ5dVdrZGhMZ0NmZFU4dmdNSnlLa0dVaU1scllBOThZcjFQUXBuazFmMEJNZi1laGVPQjBFZ2UzZ1E3QjQwSE1fa0M2WjM4bUx4N1RKQ2NGMi1RdklGMzh1bTBLR01Ba3Q?oc=5",
+      "source_name": "Google News: EU AI Act"
+    },
+    {
+      "title": "Here’s why AI agents lie and cheat to reach their goals",
+      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Anthropic, OpenAI among firms facing new scrutiny under EU AI Act enforcement powers - CNBC",
+      "source_name": "Google News: EU AI Act",
+      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ZSjkyZXhrLU11dksxVTNxUFlkZEhKdUtQU2dDMUpNUExTNG9PdGFGZFAxY05UamxEWFNlcGYwSWJQOERRV3FwN2F2ZXRHc014bDkwUTh5SktKekgzVFlseWh0WXRfUlBMTkpEMnR6dlp1YWPSAXhBVV95cUxNMFJrbWFkYTFaNGxpVVpScmJ5dVdrZGhMZ0NmZFU4dmdNSnlLa0dVaU1scllBOThZcjFQUXBuazFmMEJNZi1laGVPQjBFZ2UzZ1E3QjQwSE1fa0M2WjM4bUx4N1RKQ2NGMi1RdklGMzh1bTBLR01Ba3Q?oc=5",
+      "published_at": "2026-08-03T10:59:18+00:00",
+      "summary": "Anthropic, OpenAI among firms facing new scrutiny under EU AI Act enforcement powers&nbsp;&nbsp;CNBCEU AI Act Article 50 transparency rules enter force&nbsp;&nbsp;AI NewsSafer and more transparent AI&nbsp;&nbsp;European CommissionEU rules on AI models become enforceable. What's going to change?&nbsp",
+      "why_relevant": "EU AI Actin enforcement-powersin ja Article 50 -läpinäkyvyysvaatimusten voimaantulo vaikuttaa suoraan siihen, millaisia vaatimuksia sinun on huomioitava finanssiasiakkaiden AI-ratkaisuissa.",
+      "homepage_eligible": true,
+      "homepage_score": 88,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 4,
+      "novelty": 5,
+      "event_key": "eu-ai-act-article-50-enforcement",
+      "category": "tärkea"
+    }
+  ]
+}

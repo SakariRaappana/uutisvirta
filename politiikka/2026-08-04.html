@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-08-04 — Politiikka — Uutisvirta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #F0F1EB;
+      --surface: #E7E9E2;
+      --border: #C6CAC0;
+      --rule: #1B1D19;
+      --text: #191C18;
+      --muted: #6A6F65;
+      --accent: #3A6558;
+      --accent-pale: #C6D8D3;
+      --accent-border: #7AB0A4;
+      --stamp: #8A4C34;
+      --font-mono: "Courier Prime", "Courier New", Courier, monospace;
+      --font-serif: "Lora", Georgia, serif;
+      --font-display: "Playfair Display", Georgia, serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121519;
+        --surface: #1A1E22;
+        --border: #282D31;
+        --rule: #D8DDD8;
+        --text: #DCE1DC;
+        --muted: #787E78;
+        --accent: #78B8AB;
+        --accent-pale: #182824;
+        --accent-border: #3D7068;
+        --stamp: #C07A5A;
+      }
+    }
+
+    html { font-size: 18px; }
+    body {
+      font-family: var(--font-serif);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── MASTHEAD ───────────────────────────── */
+    .site-header {
+      border-top: 3px solid var(--rule);
+    }
+    .masthead-row {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0.6rem 1.5rem 0.55rem;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .logo {
+      font-family: var(--font-mono);
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .masthead-date {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+    .nav-strip {
+      border-top: 1px solid var(--border);
+      border-bottom: 2px solid var(--rule);
+      padding: 0.45rem 1.5rem;
+    }
+    .nav-strip nav {
+      max-width: 760px;
+      margin: 0 auto;
+      display: flex;
+      gap: 1.75rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .nav-strip a {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .nav-strip a:hover { color: var(--accent); }
+    .nav-strip a.active {
+      color: var(--text);
+      border-bottom: 1.5px solid var(--text);
+    }
+
+    /* ── PAGE ───────────────────────────────── */
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1.75rem 1.5rem 5rem;
+    }
+
+    /* ── TYPOGRAPHY ─────────────────────────── */
+    h1 {
+      font-family: var(--font-display);
+      font-size: 2.1rem;
+      font-weight: 400;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      margin-bottom: 0.2rem;
+      text-wrap: balance;
+    }
+    h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 2rem 0 0.65rem;
+      text-wrap: balance;
+    }
+    h3 {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 400;
+      margin: 1.5rem 0 0.4rem;
+    }
+    p { margin-bottom: 0.9rem; max-width: 68ch; }
+    p:last-child { margin-bottom: 0; }
+    ul, ol { padding-left: 1.4rem; margin-bottom: 0.85rem; }
+    li { margin-bottom: 0.25rem; }
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+    code {
+      font-family: var(--font-mono);
+      font-size: 0.83em;
+      background: var(--surface);
+      padding: 0.1em 0.35em;
+      border: 1px solid var(--border);
+    }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.75rem 0; }
+
+    /* ── META BAR ───────────────────────────── */
+    .meta {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .meta span + span::before { content: " · "; }
+
+    /* ── DIGEST BODY (Markdown-rendered content) ── */
+    .digest-body h2 {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: normal;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-top: 2px solid var(--text);
+      padding-top: 0.55rem;
+      margin: 2.2rem 0 1.2rem;
+    }
+    .digest-body h3 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 0 0 0.7rem;
+      text-wrap: balance;
+    }
+
+    /* ── DEEP DIVE (JS-injected wrapper around h3 blocks) ── */
+    .deep-dive {
+      background: var(--accent-pale);
+      border-left: 3px solid var(--accent-border);
+      padding: 1.1rem 1.4rem 1.1rem 1.2rem;
+      margin-bottom: 1.25rem;
+    }
+    .deep-dive p { font-size: 0.97rem; }
+    .deep-dive p:last-child { margin-bottom: 0; }
+
+    /* ── BRIEF LIST (JS-injected class on ul) ── */
+    .brief-list { list-style: none; padding: 0; }
+    .brief-list li {
+      padding: 0.72rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+      line-height: 1.56;
+      max-width: 68ch;
+    }
+    .brief-list li:last-child { border-bottom: none; }
+
+    /* ── DAY NAV ────────────────────────────── */
+    .day-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+    .day-nav a { color: var(--accent); text-decoration: none; }
+    .day-nav a:hover { text-decoration: underline; }
+
+    /* ── ARCHIVE LIST ───────────────────────── */
+    .archive-list { list-style: none; padding: 0; border-top: 2px solid var(--text); }
+    .archive-list li {
+      display: flex;
+      gap: 1.5rem;
+      align-items: baseline;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .archive-list li:last-child { border-bottom: none; }
+    .archive-list .date {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      min-width: 6rem;
+      flex-shrink: 0;
+      letter-spacing: 0.04em;
+    }
+    .archive-list a { color: var(--text); font-size: 0.93rem; text-decoration: none; }
+    .archive-list a:hover { color: var(--accent); }
+
+    /* ── STREAM CARDS ───────────────────────── */
+    .stream-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 0;
+      border-top: 2px solid var(--text);
+    }
+    .stream-card {
+      padding: 1.1rem 2rem 1.1rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .stream-card h2 {
+      font-size: 1rem;
+      margin-top: 0;
+      margin-bottom: 0.2rem;
+      font-weight: 400;
+    }
+    .stream-card h2 a { color: var(--text); text-decoration: none; }
+    .stream-card h2 a:hover { color: var(--accent); }
+    .stream-card .last-updated {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+    }
+    .stream-card .last-updated a { color: var(--accent); text-decoration: none; }
+
+    /* ── SOURCES ────────────────────────────── */
+    details {
+      margin-top: 2.5rem;
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
+    }
+    details summary {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      cursor: pointer;
+      list-style: none;
+    }
+    details[open] summary { margin-bottom: 0.6rem; }
+    .source-list { list-style: none; padding: 0; margin-top: 0.4rem; }
+    .source-list li {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+    .source-list a { color: var(--accent); text-decoration: none; }
+    .source-list a:hover { text-decoration: underline; }
+
+    /* ── DAY SECTION (collapsible per-day digest) ── */
+    .day-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .day-section > summary {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+      text-transform: none;
+      padding: 1.25rem 0 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+    .day-section > summary::-webkit-details-marker { display: none; }
+    .day-section > summary::after {
+      content: "▾";
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .day-section:not([open]) > summary::after { content: "▸"; }
+    .day-section-body { padding-bottom: 2.5rem; }
+
+    /* ── ARCHIVE SECTION ────────────────────── */
+    .archive-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .archive-section > summary {
+      padding: 0.9rem 0;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .archive-section > summary::-webkit-details-marker { display: none; }
+    .archive-list--plain { border-top: none; margin-top: 0.25rem; }
+
+    /* ── DAY SPACER ─────────────────────────── */
+    .day-spacer {
+      height: 0;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="masthead-row">
+      <a href="../index.html" class="logo">Uutisvirta</a>
+      <span class="masthead-date" id="site-date"></span>
+    </div>
+    <div class="nav-strip">
+      <nav>
+        
+        <a href="../datascience-konsultointi/index.html"
+           >
+          Datascience konsultointi
+        </a>
+        
+        <a href="../era-seikkailu/index.html"
+           >
+          Erä & seikkailu
+        </a>
+        
+        <a href="../politiikka/index.html"
+           class="active">
+          Politiikka
+        </a>
+        
+      </nav>
+    </div>
+  </header>
+  <main class="page">
+    
+<div class="day-nav">
+  <span><a href="2026-08-03.html">← 2026-08-03</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
+</div>
+
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Politiikka</div>
+<h1>2026-08-04</h1>
+<p class="meta">
+  <span>23 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>5429 tokenia</span>
+</p>
+
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Euroopan unioni on ottanut merkittäviä askeleita tekoälyn sääntelyssä, kun sen uusi tekoälyasetus astui voimaan, mikä antaa sääntelyviranomaisille paremmat valvontaoikeudet ja mahdollisuuden sanktioida sääntöjä rikkovia yrityksiä. Lisäksi Euroopassa käydään keskustelua muun muassa muuttoliikekriisistä Ceutassa ja sen vaikutuksista EU:n politiikkaan.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>EU tehostaa tekoälysääntelyä uusien läpinäkyvyysmääräysten astuessa voimaan</h3>
+<p>Euroopan unionin merkittävä tekoälysääntely, tunnettu myös nimellä tekoälyasetus, astui tällä viikolla voimaan. Tämä asetus antaa EU:n viranomaisille laajemmat valtuudet tarkastella kehittyneitä tekoälymalleja ja asettaa seuraamuksia niille yrityksille, jotka rikkovat sääntöjä. Sääntelyn keskeinen tavoite on parantaa läpinäkyvyyttä ja vastuullisuutta tekoälyteknologioissa, joiden vaikutus yhteiskuntaan kasvaa jatkuvasti. Uuden sääntelyn odotetaan edistävän eurooppalaisten normien noudattamista ja lisäävän luottamusta digitaalisiin palveluihin. Näillä muutoksilla voi olla kauaskantoisia vaikutuksia paitsi teknologia-alalle myös laajemmin yhteiskuntaan, kun EU pyrkii olemaan johtava toimija globaalissa tekoälysääntelyssä. <strong><a href="https://www.rfi.fr/en/international/20260803-eu-steps-up-ai-regulation-as-new-transparency-rules-come-into-effect">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>Saksan poliisi löysi yllättävän syyllisen hälytyksen laukeamiseen supermarketissa — siili. <a href="https://www.dw.com/en/germany-news-hedgehog-triggers-police-alert/live-78225796?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Bangladesh varoittaa Indiaa pakenevan johtajan poliittisesta toiminnasta maiden parantuviin suhteisiin. <a href="https://www.dw.com/en/india-dhaka-presses-delhi-on-stance-ahead-of-hasina-speech/live-78225515?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Ukrainan droneiskut Venäjällä tappoivat kuusi ja aiheuttivat tulipalon Wildberriesin varastoissa. <a href="https://www.france24.com/en/europe/20260804-ukrainian-drone-strikes-on-russia-kill-at-least-six-spark-fire-at-wildberries-warehouses">Lue lisää</a></li>
+<li>Euroopan sisäministerit keskustelevat Ceutan kriisin aiheuttamista seurauksista. <a href="https://www.politico.eu/podcast/brussels-playbook-podcast/can-europe-contain-the-ceuta-fallout/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää</a></li>
+<li>Kuubassa myrskyisä sää on vaikeuttanut kansallisen sähköverkon palauttamispyrkimyksiä. <a href="https://www.dw.com/en/cuba-further-blackouts-disrupt-energy-restoration-attempts/a-78224862?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>25 Yhdysvaltojen osavaltiota haastaa Trumpin hallinnon uudet tullit oikeuteen. <a href="https://www.dw.com/en/us-25-states-sue-over-trump-s-new-tariffs/a-78224794?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Euroopan ennätyksellinen kuumuus aiheuttaa maastopaloja ja kuivuutta Ranskassa, Kreikassa ja Isossa-Britanniassa. <a href="https://www.france24.com/en/europe/20260803-europe-s-record-breaking-heat-sparks-wildfires-drought-in-france-greece-and-the-uk">Lue lisää</a></li>
+<li>EU:n ministerit tukevat Espanjaa, kun Ceutan kriisi nostaa maahanmuuton agendalle. <a href="https://www.politico.eu/article/eu-ministers-spain-morocco-ceuta-crisis-pushes-migration-up-the-agenda/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää</a></li>
+<li>Kuiva Tonava-joki uhkaa ydinvoimaloita Romaniassa ja Unkarissa. <a href="https://www.dw.com/en/dry-danube-river-threatens-nuclear-power-in-romania-hungary/a-78223402?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Euroopan komission johtaja von der Leyen vaatii vahvempia EU-rajoja Ceutan kriisin jälkeen. <a href="https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen">Lue lisää</a></li>
+<li>Eurooppa haluaa vähentää riippuvuuttaan Palantirista, mutta vaihtoehtojen löytäminen on haastavaa. <a href="https://www.politico.eu/article/europe-wants-to-kick-its-palantir-habit/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää</a></li>
+<li>Ceutan kriisi paljastaa jakolinjoja Euroopassa liittyen maahanmuuttopolitiikkaan. <a href="https://www.theguardian.com/news/audio/2026/aug/03/how-ceuta-migrant-crisis-exposes-divisions-within-europe-the-latest">Lue lisää</a></li>
+<li>EU kutsuu Marokkoa ja muita valtioita &quot;yhteiseen eurooppalaiseen vastuuseen&quot; rajojen turvaamiseksi. <a href="https://www.dw.com/en/ceuta-eu-calls-borders-a-shared-european-responsibility/a-78220701?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Ceutan siirtolaisvirta uudelleen sytyttää maahanmuuttokiistan Euroopassa. <a href="https://www.france24.com/en/europe/20260803-ceuta-migrant-influx-reignites-immigration-divisions-in-europe">Lue lisää</a></li>
+<li>Koko EU:ssa maahanmuuttoa käytetään &quot;poliittisena työkaluna&quot; eri poliittisissa suuntauksissa. <a href="https://www.france24.com/en/video/20260803-across-the-eu-immigration-being-used-as-a-political-tool-across-the-political-spectrum-1">Lue lisää</a></li>
+<li>EU kehottaa &quot;yhteisiin toimiin&quot; rajaturvallisuuden parantamiseksi Ceutan massiivisen rajanylityksen jälkeen. <a href="https://www.france24.com/en/eu-calls-for-united-action-on-border-protection-after-ceuta-mass-crossing">Lue lisää</a></li>
+<li>Kremlin kriitikko Boris Nadezhdin on paennut Venäjältä Ranskaan. <a href="https://www.france24.com/en/europe/20260803-anti-war-politician-and-kremlin-critic-boris-nadezhdin-flees-russia-for-france">Lue lisää</a></li>
+<li>Ceutan johtaja syyttää Marokkoa massiivisista rajanylityksistä &quot;julmuutena&quot;. <a href="https://www.theguardian.com/world/2026/aug/03/ceuta-leader-border-crossing-morocco-spain">Lue lisää</a></li>
+<li>Beninin uusi senaatti herättää kysymyksiä vallasta ja legitiimiydestä. <a href="https://www.rfi.fr/en/africa/20260803-benin-s-new-senate-raises-questions-over-power-and-legitimacy">Lue lisää</a></li>
+<li>Ranska arvostelee suorasanaisesti Hard right Reform UK -puolueen ehdotusta käyttää laivastoa estämään siirtolaisia. <a href="https://www.france24.com/en/europe/20260803-hard-right-reform-uk-proposes-navy-led-operation-to-stop-small-migrant-boats">Lue lisää</a></li>
+<li>Unkari sulkee ydinvoimalansa kuivuuden ja lämpötilojen vuoksi. <a href="https://www.france24.com/en/amid-a-drought-and-soaring-temperatures-hungary-shuts-down-its-nuclear-plant">Lue lisää</a></li>
+<li>Pariisilainen tuomioistuin hylkäsi pro-Kremlin kommentaattorin karkotuksen kumoamispyynnön. <a href="https://www.rfi.fr/en/france/20260803-french-court-rejects-pro-kremlin-commentator-s-deportation-appeal">Lue lisää</a></li>
+</ul>
+
+</div>
+
+<details>
+  <summary>Lähteet (40)</summary>
+  <ul class="source-list">
+    
+    <li><a href="https://www.dw.com/en/germany-news-hedgehog-triggers-police-alert/live-78225796?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Germany news: Hedgehog triggers police alert</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/india-dhaka-presses-delhi-on-stance-ahead-of-hasina-speech/live-78225515?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">India: Dhaka presses Delhi on stance ahead of Hasina speech</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260804-ukrainian-drone-strikes-on-russia-kill-at-least-six-spark-fire-at-wildberries-warehouses" target="_blank" rel="noopener">Ukrainian drone strikes on Russia kill at least six, spark fire at Wildberries warehouses</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260804-push-for-indictment-as-lebanon-marks-six-years-since-beirut-port-blast" target="_blank" rel="noopener">Push for indictment as Lebanon marks six years since Beirut port blast</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/aug/04/three-lions-dead-suspected-heatstroke-japan-zoo-heatwave" target="_blank" rel="noopener">Three lions die of suspected heatstroke at Tokyo zoo as Japan swelters</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/aug/04/nine-lives-feral-cat-new-zealand-caught-trapped" target="_blank" rel="noopener">Nine Lives, the feral cat that terrorised New Zealand’s rare ducks, is caught after three years</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/brussels-playbook-podcast/can-europe-contain-the-ceuta-fallout/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Can Europe contain the Ceuta fallout?</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/berlin-playbook-podcast/machthaber-friedrich-merz/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Machthaber: Friedrich Merz</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/cuba-further-blackouts-disrupt-energy-restoration-attempts/a-78224862?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Cuba: Further blackouts disrupt energy restoration attempts</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/aug/04/japan-earthquake-prime-minister-visit-recovery-heat-sanae-takaichi" target="_blank" rel="noopener">Japan’s prime minister tours earthquake-hit sites as recovery efforts hampered by soaring temperatures</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.dw.com/en/us-25-states-sue-over-trump-s-new-tariffs/a-78224794?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">US: 25 states sue over Trump's new tariffs</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260803-europe-s-record-breaking-heat-sparks-wildfires-drought-in-france-greece-and-the-uk" target="_blank" rel="noopener">Europe's record-breaking heat sparks wildfires, drought in France, Greece and the UK</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.politico.eu/article/eu-ministers-spain-morocco-ceuta-crisis-pushes-migration-up-the-agenda/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">EU ministers to back Spain as Ceuta crisis pushes migration up the agenda</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/study-shows-why-younger-generations-may-be-more-cancer-prone/a-78163655?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Study shows why younger generations may be more cancer-prone</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/dry-danube-river-threatens-nuclear-power-in-romania-hungary/a-78223402?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Dry Danube River threatens nuclear power in Romania, Hungary</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen" target="_blank" rel="noopener">Stronger EU borders needed after Ceuta crisis, von der Leyen says</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.politico.eu/article/europe-wants-to-kick-its-palantir-habit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Europe wants to kick its Palantir habit</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260803-eu-steps-up-ai-regulation-as-new-transparency-rules-come-into-effect" target="_blank" rel="noopener">EU steps up AI regulation as new transparency rules come into effect</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.theguardian.com/news/audio/2026/aug/03/how-ceuta-migrant-crisis-exposes-divisions-within-europe-the-latest" target="_blank" rel="noopener">How Ceuta migrant crisis exposes divisions within Europe - The Latest</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.dw.com/en/ceuta-eu-calls-borders-a-shared-european-responsibility/a-78220701?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Ceuta: EU calls borders a 'shared European responsibility'</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260803-ceuta-migrant-influx-reignites-immigration-divisions-in-europe" target="_blank" rel="noopener">Ceuta migrant influx reignites immigration divisions in Europe</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/growing-impact-of-extreme-heat-on-informal-workers-in-asia-s-cities/a-78220714?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Growing impact of extreme heat on informal workers in Asia's cities</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/video/20260803-the-situation-is-out-of-control-greek-firefighters-battle-wildfire-for-fourth-day" target="_blank" rel="noopener">"The situation is out of control": Greek firefighters battle wildfire for fourth day</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/video/20260803-across-the-eu-immigration-being-used-as-a-political-tool-across-the-political-spectrum-1" target="_blank" rel="noopener">Across the EU, immigration being used as a 'political tool' across the political spectrum</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/eu-calls-for-united-action-on-border-protection-after-ceuta-mass-crossing" target="_blank" rel="noopener">EU calls for 'united action' on border protection after Ceuta mass crossing</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/russia-says-civilians-killed-in-strike-on-black-sea-resort/a-78219979?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Russia says civilians killed in strike on Black Sea resort</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20260803-french-wildfires-expose-buried-wwii-shells-gironde-bordeaux" target="_blank" rel="noopener">French wildfires expose buried WWII shells</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260803-anti-war-politician-and-kremlin-critic-boris-nadezhdin-flees-russia-for-france" target="_blank" rel="noopener">Anti-war politician and Kremlin critic Boris Nadezhdin flees Russia for France</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/binging-on-cringe-it-s-as-addictive-as-eating-junk-food/a-78145287?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Binging on cringe: It's as addictive as 'eating junk food'</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/aug/03/ceuta-leader-border-crossing-morocco-spain" target="_blank" rel="noopener">Ceuta leader accuses Morocco over ‘atrocity’ of mass border crossing</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/africa/20260803-cameroon-government-says-president-biya-s-prolonged-absence-no-cause-for-concern" target="_blank" rel="noopener">Cameroon government says President Biya's prolonged absence no cause for concern</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/africa/20260803-benin-s-new-senate-raises-questions-over-power-and-legitimacy" target="_blank" rel="noopener">Benin’s new Senate raises questions over power and legitimacy</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260803-hard-right-reform-uk-proposes-navy-led-operation-to-stop-small-migrant-boats" target="_blank" rel="noopener">France slams hard-right Reform UK party's plan to use navy to stop Channel migrants</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260803-deadly-helicopter-crash-in-greece-exposes-growing-danger-of-europe-s-wildfires" target="_blank" rel="noopener">Deadly helicopter crash in Greece exposes growing danger of Europe’s wildfires</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/amid-a-drought-and-soaring-temperatures-hungary-shuts-down-its-nuclear-plant" target="_blank" rel="noopener">Amid a drought and soaring temperatures, Hungary shuts down its nuclear plant</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/ceuta-migrant-crisis-far-right-govts-ridiculously-using-these-images-to-stoke-fear-for-votes" target="_blank" rel="noopener">Ceuta migrant crisis:  Far-right govts 'ridiculously using these images' to stoke fear for votes</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/africa/20260803-hundreds-flee-ethiopia-to-war-torn-sudan-following-new-fighting-in-tigray" target="_blank" rel="noopener">Hundreds flee Ethiopia to war-torn Sudan following new fighting in Tigray</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/video/20260803-ceuta-parents-gather-at-moroccan-border-desperate-for-news-of-their-children" target="_blank" rel="noopener">Ceuta: Parents gather at Moroccan border, desperate for news of their children</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/indian-court-acquits-ex-wrestling-chief-of-harassment/a-78215415?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Indian court acquits ex-wrestling chief of harassment</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20260803-french-court-rejects-pro-kremlin-commentator-s-deportation-appeal" target="_blank" rel="noopener">French court rejects pro-Kremlin commentator's deportation appeal</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+  </ul>
+</details>
+
+
+  </main>
+  <script>
+    (function() {
+      var d = new Date();
+      var days = ['Su','Ma','Ti','Ke','To','Pe','La'];
+      var months = ['tammik.','helmik.','maalisk.','huhtik.','toukok.','kesäk.','heinäk.','elok.','syysk.','lokak.','marrask.','jouluk.'];
+      var el = document.getElementById('site-date');
+      if (el) el.textContent = days[d.getDay()] + ' ' + d.getDate() + '. ' + months[d.getMonth()] + ' ' + d.getFullYear();
+
+      document.querySelectorAll('a[href]').forEach(function(a) {
+        var href = a.getAttribute('href');
+        if (href && href.startsWith('http')) {
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener');
+        }
+      });
+
+      document.querySelectorAll('.digest-body').forEach(function(body) {
+        body.querySelectorAll('h3').forEach(function(h3) {
+          var div = document.createElement('div');
+          div.className = 'deep-dive';
+          h3.parentNode.insertBefore(div, h3);
+          div.appendChild(h3);
+          var next = div.nextSibling;
+          while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+            var n = next.nextSibling;
+            div.appendChild(next);
+            next = n;
+          }
+        });
+        body.querySelectorAll('ul').forEach(function(ul) {
+          ul.classList.add('brief-list');
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
