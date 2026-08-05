@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-05",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään esiteltiin uusi Tactacam Wind Sensor -tuote, joka voi mullistaa peuranmetsästyksen strategiat. Lisäksi käsitellään aloittelevien metsästäjien kokemuksia vuorikauriin metsästyksestä, tarkastellaan pitkän matkan vaeltajien saavutuksia ja esitellään Ruotsissa aloitettu metsästyksen pilottiprojekti uusille metsästäjille.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Ensivilkaisulla Tactacam-tuuliviestijä: Tämä riistakameralisävaruste voi muuttaa peuranmetsästyksesi</h3>\n<p>Tactacam on esitellyt uuden tuulisensorin riistakameroille, mikä saattaa muuttaa merkittävästi peuranmetsästystekniikoita. Ennen riistakameroita metsästäjät saattoivat vain arvailla liikkuvatko peurat tiettyä polkua pitkin ja mihin aikaan, mutta nyt he saavat nämä tiedot suoraan puhelimiinsa. Uusi Tactacam Wind Sensor mahdollistaa entistä tarkemman tietämyksen tuuliolosuhteista metsästysalueella, mikä voi auttaa metsästäjiä tekemään parempia päätöksiä ja valitsemaan oikeat paikat ja hetket saaliin kaatoon. Tämä tuote saattaa olla merkittävä kehitysaskel strategisessa metsästyksessä, jossa tuuliolosuhteiden ymmärtäminen on keskeistä. <strong><a href=\"https://www.outdoorlife.com/gear/tactacam-wind-sensor-review/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<h3>Vuorikauriin metsästyksen ensikokemukset</h3>\n<p>Eräkirjoittaja kertoo ensimmäisestä vuorikauriin metsästysretkestään Washingtonissa, missä hän ja hänen vaimonsa tekivät useita virheitä, joista päällimmäisenä oli aliarvioida sääolosuhteet. <a href=\"https://www.outdoorlife.com/hunting/mountain-goat-hunt-washington/\">Lue lisää</a></p>\n<h3>Pitkän matkan vaelluskatsaus</h3>\n<p>Useat seikkailijat tekevät parhaillaan megavaelluksia ympäri maailmaa, joista kaksi on jatkunut jo yli vuosikymmenen ja muut ovat vasta alkaneet. Artikkelissa kerrotaan vaeltajien sijainneista ja saavutuksista. <a href=\"https://explorersweb.com/long-distance-hiking-roundup-3/\">Lue lisää</a></p>\n<h3>Metsästys uusille metsästäjille pilottiprojektissa</h3>\n<p>Ruotsin JRF Östergötland tarjoaa vuoden mittaisen kokemuksen aloittelijoille suunnatussa metsästysseurassa, antaen 15 uudelle metsästäjälle mahdollisuuden oppia kokeneiden metsästäjien johdolla. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/jakt-for-nya-jagare-i-pilotprojekt/\">Lue lisää</a></p>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2527,
+  "output_tokens": 674,
+  "sources": [
+    {
+      "title": "My Wife and I Made Every Mistake Possible on Our First Mountain Goat Hunt",
+      "url": "https://www.outdoorlife.com/hunting/mountain-goat-hunt-washington/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Long-Distance Hiking Roundup",
+      "url": "https://explorersweb.com/long-distance-hiking-roundup-3/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "First Look at the Tactacam Wind Sensor: This Trail Camera Accessory Could Change How You Deer Hunt",
+      "url": "https://www.outdoorlife.com/gear/tactacam-wind-sensor-review/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Here’s How to Catch Giant Smallmouth Bass on Topwater Bugs During the Chillest Bite of Summer",
+      "url": "https://www.outdoorlife.com/fishing/topwater-bugs-for-smallmouth-bass/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Jakt för nya jägare i pilotprojekt",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/jakt-for-nya-jagare-i-pilotprojekt/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": []
+}

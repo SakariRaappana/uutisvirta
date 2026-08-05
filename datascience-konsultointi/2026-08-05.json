@@ -1,0 +1,41 @@
+{
+  "date": "2026-08-05",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Microsoft on julkaissut uuden oppaan tekoälyagenttien kehittämiseksi tuotantovalmiiksi GitHub Copilot Harness -työkalun ja Agent Frameworkin avulla. Tämä julkaisu tukee erityisesti .NET- ja Python-kehittäjiä parantamaan agenttiensa tuotantovalmiutta.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Rakenna tuotantovalmiita agentteja GitHub Copilot Harnessilla ja Agent Frameworkilla</h3>\n<p>Microsoft on julkaissut uuden oppaan, jonka avulla kehittäjät voivat rakentaa tuotantovalmiita tekoälyagentteja GitHub Copilot Harnessin ja Microsoft Agent Frameworkin avulla. Tämä opas kohdistuu erityisesti .NET- ja Python-kehitysympäristöihin, korostaen kuinka Copilot Harness voi integroida kehittyneitä tekoälytoimintoja agenttikehitykseen. Uusi julkaisu on suunniteltu auttamaan kehittäjiä lisäämään agenttiensa tuotantovalmiutta sekä optimoimaan niiden toimintaa, mikä parantaa agenttien tehokkuutta ja luotettavuutta tuotantoympäristössä. Tämä uutinen on erityisen tärkeä, koska se tarjoaa konkreettisia työkaluja ja strategioita tekoälyagenttien kehittämiseen ja hallinnointiin, mikä voi merkittävästi tehostaa kehitysaikaa ja -prosessia.</p>\n<p><strong><a href=\"https://devblogs.microsoft.com/agent-framework/build-production-ready-agents-with-the-github-copilot-harness-and-agent-framework/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<p>Tänään ei ole muita uutisia.</p>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1705,
+  "output_tokens": 368,
+  "sources": [
+    {
+      "title": "Build Production-Ready Agents with the GitHub Copilot Harness and Agent Framework",
+      "url": "https://devblogs.microsoft.com/agent-framework/build-production-ready-agents-with-the-github-copilot-harness-and-agent-framework/",
+      "source_name": "Microsoft Agent Framework Blog"
+    },
+    {
+      "title": "The Download: US robot restrictions, and ICE’s DNA grab",
+      "url": "https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Build Production-Ready Agents with the GitHub Copilot Harness and Agent Framework",
+      "source_name": "Microsoft Agent Framework Blog",
+      "source_url": "https://devblogs.microsoft.com/agent-framework/build-production-ready-agents-with-the-github-copilot-harness-and-agent-framework/",
+      "published_at": "2026-08-04T18:25:35+00:00",
+      "summary": "Developers increasingly want to build agents that can reason about code, modify files, execute commands, interact with developer tools, and work across entire repositories. While GitHub Copilot already provides a powerful coding harness for these scenarios, developers often need additional capabilit",
+      "why_relevant": "Tämä vaikuttaa suoraan siihen, miten rakennat tuotantokelpoisia agentteja Microsoftin ekosysteemissä ja mitä Copilot/Agent Framework -mallia kannattaa tarjota finanssiasiakkaille.",
+      "homepage_eligible": true,
+      "homepage_score": 88,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 4,
+      "event_key": "github-copilot-harness-agent-framework",
+      "category": "tärkea"
+    }
+  ]
+}
