@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-06",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisotsikoissa korostuu uuden yhteistyön syntyminen lääketieteellisessä tutkimuksessa, kun Schrödinger ja Bristol Myers Squibb solmivat merkittävän sopimuksen tekoälyn käytöstä lääkekehityksessä.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Schrödinger on ilmoittanut strategisesta yhteistyöstä ja ohjelmisto-sopimuksesta Bristol Myers Squibbin kanssa. Yhteistyön keskiössä on AI Co-Scientist Bunsen, jota käytetään agenttivetoiseen lääkekehitykseen. <a href=\"https://news.google.com/rss/articles/CBMitAJBVV95cUxOeTl6aHBGRkZRU05KM0VKRGVkLW1peXBOZFg2WjF1TnJtR2dqcnpHRk5FeHNtU2d3aUJWeF9MZkdsSll3SkhUeTZ5XzJHUDlDOWtBRURjQWRHNEFTMk5Ha0p2Q1BfQkczNmFZQzBiVHh0c2lkRmN4Uy1tOTJmdW1JLThGc3VURWNqUnY1TjFSOW83cmh1RC1OSnZ5VV9mOFU4dTl5UVVuZ1NwYkI2Z0tnUXZweTZSSmlUb2xIY3VHbWdTdHFWSlE5a3ZCNGxUNlF3UGhJZ2Z2YTRsNGFXSnRQTnBKbUFtSmhiU1RCQWZiWm9wLVV1elRidlNCSnZtMW14MW5fQ1NTYXUyZ3pYeXdTekFTQTNBdFM3d3VlYkdWNG5INnFJaDhvdVFTWWF3akJSSjY3Mw?oc=5\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1330,
+  "output_tokens": 453,
+  "sources": [
+    {
+      "title": "Puzzle Corner",
+      "url": "https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Schrödinger Announces Strategic Collaboration and Software Agreement with Bristol Myers Squibb to Deploy AI Co-Scientist Bunsen for Agentic Drug Discovery - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOeTl6aHBGRkZRU05KM0VKRGVkLW1peXBOZFg2WjF1TnJtR2dqcnpHRk5FeHNtU2d3aUJWeF9MZkdsSll3SkhUeTZ5XzJHUDlDOWtBRURjQWRHNEFTMk5Ha0p2Q1BfQkczNmFZQzBiVHh0c2lkRmN4Uy1tOTJmdW1JLThGc3VURWNqUnY1TjFSOW83cmh1RC1OSnZ5VV9mOFU4dTl5UVVuZ1NwYkI2Z0tnUXZweTZSSmlUb2xIY3VHbWdTdHFWSlE5a3ZCNGxUNlF3UGhJZ2Z2YTRsNGFXSnRQTnBKbUFtSmhiU1RCQWZiWm9wLVV1elRidlNCSnZtMW14MW5fQ1NTYXUyZ3pYeXdTekFTQTNBdFM3d3VlYkdWNG5INnFJaDhvdVFTWWF3akJSSjY3Mw?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "The Download: NASA’s new telescope and Chinese tech import curbs",
+      "url": "https://www.technologyreview.com/2026/08/05/1141212/the-download-nasa-telescope-chinese-tech-import-curbs/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "NASA’s new dark-energy space telescope can also detect killer asteroids",
+      "url": "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}

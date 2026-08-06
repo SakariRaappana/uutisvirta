@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-06",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään metsästyksen ja eräilyn alalta saatiin mielenkiintoisia lyhyitä uutisia. Esillä ovat Jakt &amp; Jägares -tapahtuma, elämä Alaskan erämaissa, uusi arvosteltu ase, jahtaamista käsittelevän julkaisun muutos sekä vinkki hirvieläinten metsästykseen liittyen.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p><em>(Ei tärkeimpiä uutisia tänään.)</em></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Jakt &amp; Jägare -ammattiliitto avaa lauantaina useita ampumaratoja yleisölle, tarjoten monenlaisia aktiviteetteja jäsenille, potentiaalisille uusille jäsenille ja muille kiinnostuneille. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/har-kan-du-delta-arets-jrf-dag/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Pariskunta muutti Alaskaan asuakseen luonnon antimilla, mutta ennakkoon kuviteltu elämä osoittautui vaativammaksi kuin odotettiin, erityisesti riistan metsästämisessä. <a href=\"https://www.outdoorlife.com/hunting/deer-hunt-living-alaska/\">Lue lisää</a></p>\n</li>\n<li>\n<p>LWRC IC-9 -pistoolikaliberinen karbiini sai Outdoor Lifen testissä korkeimman tunnustuksen selviydyttyään viikon kestäneestä rasitustestistä erinomaisin tuloksin. <a href=\"https://www.outdoorlife.com/guns/lwrc-ic-9-pcc-review/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Monet pitävät villipeuran lihan myynnin laillistamista huonosti harkittuna ratkaisuna hirvieläinkantojen liikakasvuun, ja asiantuntijat esittävät harkittuja vastatoimia ongelmaan. <a href=\"https://www.outdoorlife.com/opinion/venison-sales-market-hunting/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Uusi hyödyllinen vinkki hirvieläinten metsästykseen: monet käyttävät puutarhavälineitä luodakseen reittejä, jotka johtavat peurat suoraan kyttäyspaikan ohi. <a href=\"https://www.outdoorlife.com/hunting/weed-whacking-deer-trails/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Metsästäjäliiton Jahti-lehti muuttuu tilauspohjaiseksi ylimääräisen liittokokouksen päätöksellä, mikä viestii muutoksista lehden julkaisustrategiassa. <a href=\"https://metsastajaliitto.fi/uutiset/jahti-lehti-muuttuu-tilauspohjaiseksi\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 6,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1963,
+  "output_tokens": 595,
+  "sources": [
+    {
+      "title": "Här kan du delta årets JRF-dag",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/har-kan-du-delta-arets-jrf-dag/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "We Moved to Alaska to Live Off the Land — and It Was a Lot Tougher Than I Expected",
+      "url": "https://www.outdoorlife.com/hunting/deer-hunt-living-alaska/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "LWRC IC-9 Review: One of the Best 9mm PCCs We’ve Ever Shot",
+      "url": "https://www.outdoorlife.com/guns/lwrc-ic-9-pcc-review/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "A Return to Market Hunting Would Be a Reckless Solution for Overpopulated Deer Herds",
+      "url": "https://www.outdoorlife.com/opinion/venison-sales-market-hunting/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Tie a Slip Knot: The Incredibly Simple Knot That Every Outdoorsman Should Know",
+      "url": "https://www.outdoorlife.com/survival/slip-knot/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "This Deer Hunting Tool Is Better Than a Corn Pile and It’s Probably in Your Garage",
+      "url": "https://www.outdoorlife.com/hunting/weed-whacking-deer-trails/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "We Got Caught in a Tornado While Fishing Lake Superior. We Were Lucky to Make it Out Alive",
+      "url": "https://www.outdoorlife.com/adventure/capsized-in-lake-superior/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Jahti-lehti muuttuu tilauspohjaiseksi",
+      "url": "https://metsastajaliitto.fi/uutiset/jahti-lehti-muuttuu-tilauspohjaiseksi",
+      "source_name": "Metsästäjäliitto"
+    }
+  ],
+  "homepage_candidates": []
+}
