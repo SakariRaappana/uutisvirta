@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-07",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Microsoft saavutti merkittävän aseman AI-teknologian kentällä, sillä se nimettiin johtajaksi vuoden 2026 Gartner Magic Quadrantissa AI-pohjaisissa koodin modernisointityökaluissa, kuten GitHub Copilot ja Azure.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>Ei raportoitavia tärkeimpiä uutisia tänään.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Microsoft on nimetty johtajaksi vuoden 2026 Gartner Magic Quadrantissa AI-pohjaisten koodin modernisointityökalujen kategoriassa. GitHub Copilot ja Azure auttavat organisaatioita modernisoimaan vanhoja sovelluksia, vähentämään teknistä velkaa ja valmistautumaan AI-innovaatioihin. <a href=\"https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1050,
+  "output_tokens": 214,
+  "sources": [
+    {
+      "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/",
+      "source_name": "Azure Blog"
+    },
+    {
+      "title": "The Download: Google’s AI shake-up and Meta’s rogue model",
+      "url": "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}

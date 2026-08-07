@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-07",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään metsästyksen keskiössä on sepelkyyhky, joka on noussut yleisimmäksi riistasaaliiksi. Metsästyskausi starttaa 10. elokuuta ja kanta kestää hyvin metsästyspaineen. Lisäksi tarjolla on vinkkejä valkohäntäpeuran metsästykseen ja tietoa Bass Pro Shopsin metsästyksen alennusmyynneistä. Myös Nevada-muulipeuran selviytymistä käsiteltiin äskettäisessä asiantuntijakokouksessa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Sepelkyyhky on yleisin riistasaalis – metsästyskausi käyntiin 10. elokuuta</h3>\n<p>Sepelkyyhky on noussut ylivoimaisesti yleisimmäksi riistalajiksi Suomessa saalismäärillä mitattuna. Metsästyskausi alkaa 10. elokuuta, ja sepelkyyhkykanta on kestävä verotuksen suhteen, mikä tekee siitä eettisesti kestävän valinnan metsästäjille. Sepelkyyhkyn lihaa pidetään myös mureana ja maukkaana, mikä tekee siitä suositun raaka-aineen esimerkiksi juhla-aterioille. Metsästäjäliitto painottaa, että sepelkyyhkyn metsästys on olennainen osa suomalaista metsästyskulttuuria, tarjoten metsästäjille arvokkaita kokemuksia luonnossa. <strong><a href=\"https://metsastajaliitto.fi/uutiset/sepelkyyhky-yleisin-riistasaalis\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Outdoor Life tarjoaa 15 vinkkiä valkohäntäpeuran metsästykseen ennen kauden alkua. Artikkeli käsittelee, miten valkohäntäpeuran liikkeet voi ennakoida ja miten valmistautua metsästyskauteen tehokkaasti. <a href=\"https://www.outdoorlife.com/hunting/15-secrets-for-patterning-a-big-buck-before-the-season/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Bass Pro Shopsin Fall Hunting Classic -alennusmyynneissä on tarjolla edulliseen hintaan ryhmä optiikkaa, kiväärikiikareita, metsästysvarusteita ja riistakameroita. Syksyn metsästykseen valmistautuvat voivat hyödyntää nämä tarjoukset. <a href=\"https://www.outdoorlife.com/gear/best-deals-bass-pro-shops-fall-hunting-classic-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Nevada-muulipeuran selviytymistä käsiteltiin äskettäin Nevadan Elyssä järjestetyssä muulipeuraseminaarissa. Seminaarissa käsiteltiin uusimpia tutkimuksia ja analyysejä muulipeurakannan tilasta ja selviytymishaasteista. <a href=\"https://www.rokslide.com/understanding-nevada-mule-deer-survival-with-cody-schroeder/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2471,
+  "output_tokens": 666,
+  "sources": [
+    {
+      "title": "Sepelkyyhky on yleisin riistasaalis – metsästyskausi käyntiin 10. elokuuta",
+      "url": "https://metsastajaliitto.fi/uutiset/sepelkyyhky-yleisin-riistasaalis",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "How to Identify These 6 Edible Wild Mushrooms",
+      "url": "https://www.outdoorlife.com/hunting/wild-edible-mushrooms/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Secret to Catching More Big Fish? Target Little Ponds",
+      "url": "https://www.outdoorlife.com/fishing/catch-big-fish-little-lakes/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "“Biggest Pumpkinseed I’d Ever Seen.” Shore Angler Catches (and Releases) Record Breaking Panfish",
+      "url": "https://www.outdoorlife.com/fishing/west-virginia-record-pumpkinseed/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "15 Secrets for Patterning a Big Buck Before the Season",
+      "url": "https://www.outdoorlife.com/hunting/15-secrets-for-patterning-a-big-buck-before-the-season/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 25 Best Deals of the Bass Pro Shops Fall Hunting Classic",
+      "url": "https://www.outdoorlife.com/gear/best-deals-bass-pro-shops-fall-hunting-classic-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Understanding Nevada Mule Deer Survival with Cody Schroeder",
+      "url": "https://www.rokslide.com/understanding-nevada-mule-deer-survival-with-cody-schroeder/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Luke mukana Lepaan puutarhanäyttelyssä 13.–15.8.2026",
+      "url": "https://www.luke.fi/fi/uutiset/luke-mukana-lepaan-puutarhanayttelyssa-131582026",
+      "source_name": "Luonnonvarakeskus (Luke)"
+    },
+    {
+      "title": "Här kan du delta årets JRF-dag",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/har-kan-du-delta-arets-jrf-dag/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": []
+}
