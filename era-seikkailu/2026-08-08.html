@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-08-08 — Erä & seikkailu — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,23 +358,23 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
+        <a href="../datascience-konsultointi/index.html"
            >
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
-           >
+        <a href="../era-seikkailu/index.html"
+           class="active">
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
+        <a href="../politiikka/index.html"
            >
           Politiikka
         </a>
@@ -384,208 +384,72 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-08-08</p>
+<div class="day-nav">
+  <span><a href="2026-08-07.html">← 2026-08-07</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Erä & seikkailu</div>
+<h1>2026-08-08</h1>
+<p class="meta">
+  <span>6 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>4274 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Erä & seikkailu</div>
-  <h2 class="featured-title">
-    <a href="https://metsastajaliitto.fi/uutiset/villisikakannan-vahentaminen-metsastamalla" target="_blank" rel="noopener">Webinaari 13.8.2026 klo 17 Villisikakannan vähentäminen metsästämällä - ilmoittaudu mukaan</a>
-  </h2>
-  
-  <div class="featured-why">Villisikakannan vähentämisestä metsästämällä järjestettävä ajankohtainen webinaari voi vaikuttaa suoraan siihen, miten suunnittelet ja toteutat vahinkolintujen/riistanhoidon kanssa limittyvää metsästystä sekä mahdollisia koulutus- tai sisältöaiheita.</div>
-  
-  <div class="featured-meta">
-    <span class="badge-new">Uusi</span>
-    Metsästäjäliitto · tänään ·
-    <a href="era-seikkailu/2026-08-08.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään tarjoamme tietoa kahdesta merkittävästä metsästykseen liittyvästä tapahtumasta. Metsästäjäliitto ja Suomen Sikayrittäjät ry järjestävät webinaarin villisikakannan hallinnasta, kun taas sepelkyyhkykorostuu uuden metsästyskauden suosituimpana saalislajina. Lyhyissä maininnoissa käsitellään muun muassa karhuiskua Kanadassa ja uusia kiipeilyreittejä Karakoramilla.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>Webinaari 13.8.2026 klo 17 Villisikakannan vähentäminen metsästämällä - ilmoittaudu mukaan</h3>
+<p>Metsästäjäliitto yhteistyössä Suomen Sikayrittäjät ry:n kanssa järjestää avoimen webinaarin koskien afrikkalaisen sikaruton (ASF) torjuntaa ja villisikakannan hallintaa. Tapahtuma pidetään torstaina 13. elokuuta klo 17–19, ja siihen voivat osallistua kaikki aiheesta kiinnostuneet metsästäjät. Webinaarissa käsitellään eri keinoja, joilla villisikojen määrää voidaan vähentää metsästämällä, ja tarjotaan tietoa ASF:n leviämisen ehkäisemisestä. Villisikojen hallinta on tärkeä askel sekä luonnon että maatalouden suojelemiseksi. Osallistuminen edellyttää ennakkoilmoittautumista, joten halukkaiden kannattaa toimia nopeasti. <strong><a href="https://metsastajaliitto.fi/uutiset/villisikakannan-vahentaminen-metsastamalla">Lue alkuperäinen →</a></strong></p>
+<h3>Sepelkyyhky on yleisin riistasaalis – metsästyskausi käyntiin 10. elokuuta</h3>
+<p>Metsästyskausi alkaa 10. elokuuta, ja sepelkyyhky korostuu erityisesti saalismääriltään. Sepelkyyhkyä pidetään nykyään Suomen yleisimpänä riistalajina, ja sen runsas kanta kestää metsästystä hyvin. Sepelkyyhkyt tarjoavat eettisesti kestävän vaihtoehdon sekä maukkaan raaka-aineen ruokapöytään. Tämä tekee sepelkyyhkystä ensisijaisen valinnan monille metsästäjille kauden avauksessa. Metson, teeren ja pyyn ystäville tämä voi tarjota hyvän lisän metsästyskalenteriin. <strong><a href="https://metsastajaliitto.fi/uutiset/sepelkyyhky-yleisin-riistasaalis">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p>72-vuotias retkeilijä on joutunut sairaalaan karhuiskun jälkeen Kanadassa. Hyökkäysten määrä on kasvanut metsästyskiellon jälkeen, eikä karhua aiota vangita. <a href="https://www.outdoorlife.com/survival/british-columbia-grizzly-attack-hiker/">Lue lisää</a></p>
+</li>
+<li>
+<p>50 vuoden hirvijahdin kokemuksia: Miten hirvijahti on muuttunut ja mikä on pysynyt samana vuosikymmenten saatossa. <a href="https://www.outdoorlife.com/hunting/elk-hunting-has-changed/">Lue lisää</a></p>
+</li>
+<li>
+<p>Broad Peak ei ole vaarallisin 8,000'istä, mutta helposti saavutettavana se on tuottanut tasaisesti uhreja 70 vuoden ajan. <a href="https://explorersweb.com/broad-peak-seven-decades-of-fatalities/">Lue lisää</a></p>
+</li>
+<li>
+<p>Slovakialais-puolalainen ryhmä tavoittelee uutta reittiä Karakoramilla 6,949 metrin Sangemarmar Sar -huipulle, jota vain yksi seurue on aiemmin kiivennyt. <a href="https://explorersweb.com/alpinists-aim-for-new-route-on-karakoram-6000er/">Lue lisää</a></p>
+</li>
+</ul>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (10)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.jaktojagare.se/kategorier/nyheter/afrikansk-svinpest-upptackt-i-finland/" target="_blank" rel="noopener">Afrikansk svinpest upptäckt i Finland</a>
-      </div>
-      
-      <div class="news-card-why">Afrikkalaisen sikaruton löytyminen Kaakkois-Suomessa voi vaikuttaa välittömästi hirvieläin- ja villisikajahteihin, pyyntiin, liikkumiseen ja hygieniamääräyksiin omalla kotialueellasi.</div>
-      
-      <div class="news-card-meta">
-        
-        Jakt & Jägare · 4 pv sitten ·
-        <a href="era-seikkailu/2026-08-04.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/hunting/hunting-guide-stories/" target="_blank" rel="noopener">Misguided Adventures: My 5 Craziest Hunting Guide Stories</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://metsastajaliitto.fi/uutiset/metsastajien-noudatettava-tarkoin-viranomaisohjeita-sikaruttoalueella-kaakkois-suomessa" target="_blank" rel="noopener">Metsästäjien noudatettava tarkoin viranomaisohjeita sikaruttoalueella Kaakkois-Suomessa</a>
-      </div>
-      
-      <div class="news-card-why">Sikaruttoalueen viranomaisohjeet Kaakkois-Suomessa vaikuttavat suoraan siihen, miten sinun kannattaa toimia hirvieläin- ja villisikajahdeissa, riistan käsittelyssä ja liikkumisessa alueella.</div>
-      
-      <div class="news-card-meta">
-        
-        Metsästäjäliitto · 4 pv sitten ·
-        <a href="era-seikkailu/2026-08-04.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/fishing/biggest-mistakes-bass-anglers-make/" target="_blank" rel="noopener">The 5 Biggest Mistakes Bass Anglers Make</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/survival/british-columbia-grizzly-attack-hiker/" target="_blank" rel="noopener">72-Year-Old Hiker Is Hospitalized After Grizzly Attack. Authorities Are Not Attempting to Capture the Bear</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/hunting/elk-hunting-has-changed/" target="_blank" rel="noopener">I’ve Hunted Elk for 50 Years. Here’s How It’s Changed (and How It Has Stayed the Same)</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://explorersweb.com/broad-peak-seven-decades-of-fatalities/" target="_blank" rel="noopener">Broad Peak: Seven Decades of Fatalities</a> <span style="color:var(--muted)">— ExploresWeb</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/fishing/catch-crappies-on-summer-nights-using-this-old-school-tactic/" target="_blank" rel="noopener">Catch Crappies on Summer Nights Using This Old-School Tactic</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://explorersweb.com/alpinists-aim-for-new-route-on-karakoram-6000er/" target="_blank" rel="noopener">Alpinists Aim For New Route on Karakoram 6,000'er</a> <span style="color:var(--muted)">— ExploresWeb</span></li>
+    
+    <li><a href="https://metsastajaliitto.fi/uutiset/villisikakannan-vahentaminen-metsastamalla" target="_blank" rel="noopener">Webinaari 13.8.2026 klo 17 Villisikakannan vähentäminen metsästämällä - ilmoittaudu mukaan</a> <span style="color:var(--muted)">— Metsästäjäliitto</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/hunting/best-elk-hunting-boots-2026/" target="_blank" rel="noopener">The Best Elk Hunting Boots of 2026, Field Tested and Reviewed</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://metsastajaliitto.fi/uutiset/sepelkyyhky-yleisin-riistasaalis" target="_blank" rel="noopener">Sepelkyyhky on yleisin riistasaalis – metsästyskausi käyntiin 10. elokuuta</a> <span style="color:var(--muted)">— Metsästäjäliitto</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://devblogs.microsoft.com/agent-framework/build-production-ready-agents-with-the-github-copilot-harness-and-agent-framework/" target="_blank" rel="noopener">Build Production-Ready Agents with the GitHub Copilot Harness and Agent Framework</a>
-      </div>
-      
-      <div class="news-card-why">Tämä vaikuttaa suoraan siihen, miten rakennat tuotantokelpoisia agentteja Microsoftin ekosysteemissä ja mitä Copilot/Agent Framework -mallia kannattaa tarjota finanssiasiakkaille.</div>
-      
-      <div class="news-card-meta">
-        
-        Microsoft Agent Framework Blog · 3 pv sitten ·
-        <a href="datascience-konsultointi/2026-08-05.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-  </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-
-
+</details>
 
 
   </main>
