@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-09",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutiskatsauksessa käsitellään yksi lyhytmaininta metsästykseen liittyvästä perinteisestä houkutuskohtien rakentamisesta. Vaikka syväanalysoitavia aiheita ei ole, tarjotaan vinkkejä tehokkaisiin tekniikoihin suurriistan houkuttelemiseksi.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Metsästäjät ovat käyttäneet jäljiteltyjä houkutuskohtia vuosikymmenten ajan. Outdoor Life tarjoaa ohjeet vanhan koulukunnan menetelmään näiden kohtien rakentamiseen, joka edelleen houkuttelee suuria hirvieläimiä tehokkaasti. <a href=\"https://www.outdoorlife.com/hunting/traditional-mock-scrape-setup/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1429,
+  "output_tokens": 186,
+  "sources": [
+    {
+      "title": "“It’s Like a Chainsaw.” Great White Shark Tales from Cape Cod’s Fishing Boat Captains",
+      "url": "https://www.outdoorlife.com/fishing/great-white-sharks-cape-cod/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "This Traditional Mock Scrape Setup Still Brings in Big Bucks. Here’s How to Build It",
+      "url": "https://www.outdoorlife.com/hunting/traditional-mock-scrape-setup/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Weekend Warm-Up: The Perfect Midwest Bikepacking Route",
+      "url": "https://explorersweb.com/weekend-warm-up-the-perfect-midwest-bikepacking-route/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Do Not Eat These 13 Toxic Plants (That Look Like Food)",
+      "url": "https://www.outdoorlife.com/survival/identify-toxic-plants-that-look-like-food/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}

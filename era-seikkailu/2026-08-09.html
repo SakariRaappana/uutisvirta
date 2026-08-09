@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-08-09 — Erä & seikkailu — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,23 +358,23 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
+        <a href="../datascience-konsultointi/index.html"
            >
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
-           >
+        <a href="../era-seikkailu/index.html"
+           class="active">
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
+        <a href="../politiikka/index.html"
            >
           Politiikka
         </a>
@@ -384,224 +384,45 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-08-09</p>
+<div class="day-nav">
+  <span><a href="2026-08-08.html">← 2026-08-08</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Erä & seikkailu</div>
+<h1>2026-08-09</h1>
+<p class="meta">
+  <span>1 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>1615 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Erä & seikkailu</div>
-  <h2 class="featured-title">
-    <a href="https://metsastajaliitto.fi/uutiset/villisikakannan-vahentaminen-metsastamalla" target="_blank" rel="noopener">Webinaari 13.8.2026 klo 17 Villisikakannan vähentäminen metsästämällä - ilmoittaudu mukaan</a>
-  </h2>
-  
-  <div class="featured-why">Villisikakannan vähentämisestä metsästämällä järjestettävä ajankohtainen webinaari voi vaikuttaa suoraan siihen, miten suunnittelet ja toteutat vahinkolintujen/riistanhoidon kanssa limittyvää metsästystä sekä mahdollisia koulutus- tai sisältöaiheita.</div>
-  
-  <div class="featured-meta">
-    
-    Metsästäjäliitto · eilen ·
-    <a href="era-seikkailu/2026-08-08.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään uutiskatsauksessa käsitellään yksi lyhytmaininta metsästykseen liittyvästä perinteisestä houkutuskohtien rakentamisesta. Vaikka syväanalysoitavia aiheita ei ole, tarjotaan vinkkejä tehokkaisiin tekniikoihin suurriistan houkuttelemiseksi.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>Metsästäjät ovat käyttäneet jäljiteltyjä houkutuskohtia vuosikymmenten ajan. Outdoor Life tarjoaa ohjeet vanhan koulukunnan menetelmään näiden kohtien rakentamiseen, joka edelleen houkuttelee suuria hirvieläimiä tehokkaasti. <a href="https://www.outdoorlife.com/hunting/traditional-mock-scrape-setup/">Lue lisää</a></li>
+</ul>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (4)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.jaktojagare.se/kategorier/nyheter/afrikansk-svinpest-upptackt-i-finland/" target="_blank" rel="noopener">Afrikansk svinpest upptäckt i Finland</a>
-      </div>
-      
-      <div class="news-card-why">Afrikkalaisen sikaruton löytyminen Kaakkois-Suomessa voi vaikuttaa välittömästi hirvieläin- ja villisikajahteihin, pyyntiin, liikkumiseen ja hygieniamääräyksiin omalla kotialueellasi.</div>
-      
-      <div class="news-card-meta">
-        
-        Jakt & Jägare · 5 pv sitten ·
-        <a href="era-seikkailu/2026-08-04.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/fishing/great-white-sharks-cape-cod/" target="_blank" rel="noopener">“It’s Like a Chainsaw.” Great White Shark Tales from Cape Cod’s Fishing Boat Captains</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://metsastajaliitto.fi/uutiset/metsastajien-noudatettava-tarkoin-viranomaisohjeita-sikaruttoalueella-kaakkois-suomessa" target="_blank" rel="noopener">Metsästäjien noudatettava tarkoin viranomaisohjeita sikaruttoalueella Kaakkois-Suomessa</a>
-      </div>
-      
-      <div class="news-card-why">Sikaruttoalueen viranomaisohjeet Kaakkois-Suomessa vaikuttavat suoraan siihen, miten sinun kannattaa toimia hirvieläin- ja villisikajahdeissa, riistan käsittelyssä ja liikkumisessa alueella.</div>
-      
-      <div class="news-card-meta">
-        
-        Metsästäjäliitto · 5 pv sitten ·
-        <a href="era-seikkailu/2026-08-04.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/hunting/traditional-mock-scrape-setup/" target="_blank" rel="noopener">This Traditional Mock Scrape Setup Still Brings in Big Bucks. Here’s How to Build It</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://explorersweb.com/weekend-warm-up-the-perfect-midwest-bikepacking-route/" target="_blank" rel="noopener">Weekend Warm-Up: The Perfect Midwest Bikepacking Route</a> <span style="color:var(--muted)">— ExploresWeb</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/survival/identify-toxic-plants-that-look-like-food/" target="_blank" rel="noopener">Do Not Eat These 13 Toxic Plants (That Look Like Food)</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.france24.com/en/europe/20260808-spain-imposes-border-checks-on-italian-travellers-amid-migrant-dispute" target="_blank" rel="noopener">Spain imposes border checks on Italian travellers amid migrant dispute</a>
-      </div>
-      
-      <div class="news-card-why">Tämä on suoraan EU:n sisämarkkina- ja muuttoliikepolitiikkaa koskeva eskalaatio, koska jäsenmaat alkavat vastata toistensa rajatoimilla, mikä lisää kitkaa Schengenin toimintaan ja ennakoi tiukempaa linjaa jatkoneuvotteluissa.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        France 24 — Europe · tänään ·
-        <a href="politiikka/2026-08-09.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-  </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://devblogs.microsoft.com/agent-framework/build-production-ready-agents-with-the-github-copilot-harness-and-agent-framework/" target="_blank" rel="noopener">Build Production-Ready Agents with the GitHub Copilot Harness and Agent Framework</a>
-      </div>
-      
-      <div class="news-card-why">Tämä vaikuttaa suoraan siihen, miten rakennat tuotantokelpoisia agentteja Microsoftin ekosysteemissä ja mitä Copilot/Agent Framework -mallia kannattaa tarjota finanssiasiakkaille.</div>
-      
-      <div class="news-card-meta">
-        
-        Microsoft Agent Framework Blog · 4 pv sitten ·
-        <a href="datascience-konsultointi/2026-08-05.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-  </ul>
-  
-</section>
-
-
-
+</details>
 
 
   </main>
