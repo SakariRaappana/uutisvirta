@@ -1,0 +1,226 @@
+{
+  "date": "2026-08-10",
+  "stream_slug": "politiikka",
+  "stream_name": "Politiikka",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Reinin matalat vedenkorkeudet uhkaavat katkaista tärkeän rahtireitin Saksassa, mikä voisi vaikuttaa merkittävästi kansainväliseen toimitusketjuun. Samalla useissa Euroopan ja maailman maissa on keskusteltu erilaisista poliittisista ja taloudellisista kysymyksistä.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Saksan uutiset: Matalat vedet Reinillä saattavat katkaista rahtireitin</h3>\n<p>Rein-joen matalat vedenkorkeudet uhkaavat merkittävästi Saksan tärkeää rahtireittiä. Deutsche Wellen mukaan kuiva kausi on laskenut vedenpintaa alle kriittisen korkeuden, mikä vaikuttaa erityisesti kuljetus- ja logistiikkayrityksiin, jotka käyttävät jokea suurten tavaramäärien siirtämiseen. Tämä ongelma nostaa esiin kysymyksiä energian ja raaka-aineiden toimitusvarmuudesta, sillä Reinin kautta kuljetetaan muun muassa hiiltä ja öljytuotteita. Keskeytyksillä voi olla laajoja vaikutuksia teollisuuteen, erityisesti Saksan talouden ytimessä olevan autoteollisuuden kannalta. Tilanteen pitkittyessä saattaa syntyä paineita kehittää vaihtoehtoisia kuljetusreittejä ja strategioita. <strong><a href=\"https://www.dw.com/en/germany-news-low-water-on-rhine-could-sever-freight-route/live-78299336?maca=en-rss-en-all-1573-rdf\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Tutkimus Britanniassa osoittaa, että tyypin 2 diabetes nuorten naisten keskuudessa yleistyy nopeasti, ja useat tapaukset diagnosoidaan liian myöhään. <a href=\"https://www.dw.com/en/type-2-diabetes-in-young-women-increasingly-common/a-78251712?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></p>\n</li>\n<li>\n<p>Venäjä ja Syyria ovat sopineet Venäjän sotilastukikohtien kohtalosta Syyriassa, mikä vaikuttaa alueelliseen turvallisuuspoliittiseen tilanteeseen. <a href=\"https://www.rfi.fr/en/international/20260810-moscow-and-damascus-reach-deal-over-russian-military-bases-in-syria\">Lue lisää</a></p>\n</li>\n<li>\n<p>Iranin sota on syventänyt talouskriisiä ja lisännyt keskiluokan köyhtymisen riskiä maassa. <a href=\"https://www.dw.com/en/iran-war-is-iran-s-middle-class-being-pushed-into-poverty/a-78266361?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></p>\n</li>\n<li>\n<p>Länsi-Euroopassa koetut ennätyskuumuudet altistavat ongelmia myös vankiloiden olosuhteissa, joissa vanha infrastruktuuri ja huono ilmanvaihto korostavat haasteita. <a href=\"https://www.rfi.fr/en/france/20260810-extreme-heat-exposes-crisis-inside-europe-s-overcrowded-prisons\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kiinalaisten sähköautojen myynti Euroopassa kasvaa voimakkaasti, mikä nostaa esiin kysymyksiä mahdollisista tullimuutoksista. <a href=\"https://www.theguardian.com/business/2026/aug/09/chinese-electric-car-sales-surge-to-a-record-high-in-europe\">Lue lisää</a></p>\n</li>\n<li>\n<p>Tutkimukset osoittavat, että lihavuus on suurempi syöpäriski kuin aiemmin on arvioitu, erityisesti vatsan alueen rasva. <a href=\"https://www.dw.com/en/study-obesity-bigger-cancer-risk-than-previously-thought/a-78291063?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></p>\n</li>\n<li>\n<p>Costa Rican diplomaatti Rebeca Grynspan nähdään vahvana kandidaattina YK:n pääsihteerin rooliin, mikä voi johtaa historialliseen nimitykseen. <a href=\"https://www.theguardian.com/world/2026/aug/09/costa-rican-diplomat-rebeca-grynspan-contender-first-female-head-of-un\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 22,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 4132,
+  "output_tokens": 938,
+  "sources": [
+    {
+      "title": "Hundreds of Ukrainian drones target Russia in overnight strikes",
+      "url": "https://www.france24.com/en/europe/20260810-hundreds-of-ukrainian-drones-target-russia-in-overnight-strikes",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Germany news: Low water on Rhine could sever freight route",
+      "url": "https://www.dw.com/en/germany-news-low-water-on-rhine-could-sever-freight-route/live-78299336?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Type 2 diabetes in young women increasingly common",
+      "url": "https://www.dw.com/en/type-2-diabetes-in-young-women-increasingly-common/a-78251712?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "From Solar corona to human emotions: What can we learn from eclipses? (2/4)",
+      "url": "https://www.france24.com/en/europe/20260810-from-solar-corona-to-human-emotions-what-can-we-learn-from-eclipses-2-4",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Moscow and Damascus reach deal over Russian military bases in Syria",
+      "url": "https://www.rfi.fr/en/international/20260810-moscow-and-damascus-reach-deal-over-russian-military-bases-in-syria",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Typhoon Dolphin: more than a million people evacuated in China as record rainfall dumped on Shanghai",
+      "url": "https://www.theguardian.com/world/2026/aug/10/typhoon-dolphin-china-shanghai-flooding-evacuations",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Iran War:  Is Iran’s middle class being pushed into poverty?",
+      "url": "https://www.dw.com/en/iran-war-is-iran-s-middle-class-being-pushed-into-poverty/a-78266361?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Extreme heat exposes crisis inside Europe's overcrowded prisons",
+      "url": "https://www.rfi.fr/en/france/20260810-extreme-heat-exposes-crisis-inside-europe-s-overcrowded-prisons",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Western Europe records hottest June and July on record",
+      "url": "https://www.dw.com/en/western-europe-records-hottest-june-and-july-on-record/a-78298751?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Machthaber: Charles III.",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/machthaber-charles-iii/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Western Europe lived through hottest June and July ever recorded",
+      "url": "https://www.france24.com/en/europe/20260810-western-europe-saw-hottest-june-july-on-record-as-climate-change-fuels-historic-summer",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Hong Kong records hottest day ever as Typhoon Dolphin fuels heatwave",
+      "url": "https://www.theguardian.com/world/2026/aug/10/hong-kong-heat-record-hottest-day-ever-typhoon-dolphin",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Netanyahu rejects Trump-backed Gaza peace plan",
+      "url": "https://www.dw.com/en/netanyahu-rejects-trump-backed-gaza-peace-plan/a-78298282?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Alleged Irish crime boss Kinahan charged with directing criminal organisation",
+      "url": "https://www.dw.com/en/alleged-irish-crime-boss-kinahan-charged-with-directing-criminal-organisation/a-78297919?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Canadian government steps in as ‘out of control’ wildfires force thousands to flee",
+      "url": "https://www.theguardian.com/world/2026/aug/09/canada-british-columbia-government-wildfires",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Typhoon Dolphin makes landfall in China as its strongest storm this year",
+      "url": "https://www.theguardian.com/world/2026/aug/09/typhoon-dolphin-makes-landfall-in-china-as-its-strongest-storm-this-year",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Demi Vollering wins Women's Tour de France for the second time",
+      "url": "https://www.rfi.fr/en/sports/20260809-demi-vollering-wins-women-s-tour-de-france-for-the-second-time-cycling",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Syria says deal agreed with Russia on future of military bases",
+      "url": "https://www.dw.com/en/syria-says-deal-agreed-with-russia-on-future-of-military-bases/a-78297584?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Germany news: Berlin to step up drone security research",
+      "url": "https://www.dw.com/en/germany-news-berlin-to-step-up-drone-security-research/live-78287439?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "North Korea may deploy up to 50,000 troops to Russia, Zelensky claims",
+      "url": "https://www.france24.com/en/europe/20260809-zelensky-claims-north-korea-may-deploy-50-000-troops-russia",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Chinese EV sales surge to new high in Europe putting tariffs under scrutiny",
+      "url": "https://www.theguardian.com/business/2026/aug/09/chinese-electric-car-sales-surge-to-a-record-high-in-europe",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Canada: British Columbia wildfires burning out of control",
+      "url": "https://www.dw.com/en/canada-british-columbia-wildfires-burning-out-of-control/a-78296928?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Divers in Italy find ancient Roman shipwreck, amphorae off coast of Sicily believed to be 2,100 years old",
+      "url": "https://www.dw.com/en/divers-in-italy-find-ancient-roman-shipwreck-amphorae-off-coast-of-sicily-believed-to-be-2-100-years-old/a-78296552?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "As the planet heats up, butterflies are seeking out cooler climes",
+      "url": "https://www.rfi.fr/en/environment/20260809-as-the-planet-heats-up-butterflies-are-seeking-out-cooler-climes",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Russia and Ukraine exchange deadly overnight strikes",
+      "url": "https://www.france24.com/en/russia-and-ukraine-exchange-deadly-overnight-strikes",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Netanyahu rejects Gaza plan in new break from Trump",
+      "url": "https://www.rfi.fr/en/international/20260809-netanyahu-rejects-gaza-plan-in-new-break-from-trump",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "The week in pictures: Summer wildfires, a Thai school shooting and the Tour de France Femmes",
+      "url": "https://www.france24.com/en/europe/20260809-the-week-in-pictures-summer-wildfires-thai-school-shooting-tour-de-france-femmes",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Ukraine and Russia exchange attacks as Kyiv buys new ATACMS",
+      "url": "https://www.dw.com/en/ukraine-and-russia-exchange-attacks-as-kyiv-buys-new-atacms/a-78294589?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Investigation raises alarm over uranium in DRC cobalt shipments to China",
+      "url": "https://www.rfi.fr/en/africa/20260809-investigation-raises-alarm-over-uranium-in-drc-cobalt-shipments-to-china",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Rise in injuries sees Paris police impose new rules on e-scooter users",
+      "url": "https://www.rfi.fr/en/france/20260809-rise-in-injuries-sees-paris-council-impose-new-rules-on-e-scooter-users",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "FIFA defends its President Infantino amid backlash",
+      "url": "https://www.france24.com/en/fifa-defends-its-president-infantino-amid-backlash",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Spain - Italy: Dispute grows over migration between EU countries",
+      "url": "https://www.france24.com/en/spain-italy-dispute-grows-over-migration-between-eu-countries",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Ukraine denies targeting Bulgaria, after drone exploded near a gas pipeline",
+      "url": "https://www.france24.com/en/ukraine-denies-targeting-bulgaria-after-drone-exploded-near-a-gas-pipeline",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Spain starts border checks on Italy over Ceuta dispute",
+      "url": "https://www.france24.com/en/spain-starts-border-checks-on-italy-over-ceuta-dispute",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Study: Obesity 'bigger cancer risk' than previously thought",
+      "url": "https://www.dw.com/en/study-obesity-bigger-cancer-risk-than-previously-thought/a-78291063?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Morocco, Algeria reach WAFCON semi-finals and World Cup",
+      "url": "https://www.rfi.fr/en/sports/20260809-morocco-algeria-reach-wafcon-semi-finals-and-world-cup-football",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Sall's chances at UN secretary-general role weakened after first vote",
+      "url": "https://www.rfi.fr/en/international/20260809-sall-s-chances-at-un-secretary-general-role-weakened-after-first-vote",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Eclipse chasers: When chasing totality becomes a way of life (1/4)",
+      "url": "https://www.france24.com/en/europe/20260809-eclipse-chasers-when-chasing-totality-becomes-a-way-of-life-1-4",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Costa Rican diplomat emerges as strong contender to be first female head of UN",
+      "url": "https://www.theguardian.com/world/2026/aug/09/costa-rican-diplomat-rebeca-grynspan-contender-first-female-head-of-un",
+      "source_name": "The Guardian — World"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Germany news: Low water on Rhine could sever freight route",
+      "source_name": "Deutsche Welle",
+      "source_url": "https://www.dw.com/en/germany-news-low-water-on-rhine-could-sever-freight-route/live-78299336?maca=en-rss-en-all-1573-rdf",
+      "published_at": "2026-08-10T06:22:00+00:00",
+      "summary": "Germany's inland shipping association has warned that the Rhine could soon become effectively split in two as water levels continue to fall. In Berlin, a man was shot dead near a busy central transport hub. DW has more.",
+      "why_relevant": "Rhinen matalan veden uhka voi katkaista Saksan sisävesikuljetuksia ja heijastua suoraan Euroopan teollisuuden logistiikkaan, energiaan ja toimitusketjuihin.",
+      "homepage_eligible": true,
+      "homepage_score": 82,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 4,
+      "actionability": 4,
+      "novelty": 4,
+      "event_key": "rhine-low-water-freight-disruption",
+      "category": "tärkea"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-10",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään käytiin läpi erikoisia peuranmetsästystaktiikoita, jotka poikkeavat totutusta mutta voivat parantaa metsästysonnea. Näihin kuuluvat muun muassa metsästyspaikan valinta tuulisen sään aikaan ja jäljiteltyjen noutojen tekeminen.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Tutustu kymmeneen erikoiseen peuranmetsästystaktiikkaan, kuten tuulisina päivinä metsässä istuskeluun ja tekaistuihin kaapimajälkiin, ja opi, milloin nämä erikoiset strategiat voivat parantaa mahdollisuuksiasi. <a href=\"https://www.outdoorlife.com/hunting/weird-deer-hunting-tactics/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1417,
+  "output_tokens": 180,
+  "sources": [
+    {
+      "title": "Here’s How to Forage and Eat Acorns, the ‘Bread of the Woods’",
+      "url": "https://www.outdoorlife.com/survival/how-to-forage-acorns/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Well Before the Creedmoor, Our Legendary Shooting Editor Created the 6.5 Panther",
+      "url": "https://www.outdoorlife.com/guns/jim-carmichels-65-panther/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "10 Weird Deer Hunting Tactics That Actually Work",
+      "url": "https://www.outdoorlife.com/hunting/weird-deer-hunting-tactics/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
