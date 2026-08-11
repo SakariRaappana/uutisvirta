@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-11",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään erämaailmassa keskitytään solmujen nopeaan ystävään, peurojen perinteiseen metsästykseen suurissa metsissä ilman teknologiaa, ja häkellyttävien saaliiden pyydystämiseen Floridassa. Saatavilla on myös testatut suositukset parhaista otsalampuista ulkoiluun ja moderneja taktisia vinkkejä hirvieläinten houkutteluun.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>(Ei tärkeitä uutisia tänään.)</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Opettele sitomaan kantasolmu tehokkaasti. Tämä yksinkertainen ja vahva solmu tunnetaan myös &quot;Hercules-solmuna&quot;. <a href=\"https://www.outdoorlife.com/survival/square-knot/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Unohda riistakamerat ja syöttölaitteet. Perinteinen metsästys suurissa metsissä on edelleen tavoittelun arvoinen haaste. <a href=\"https://www.outdoorlife.com/hunting/wilderness-whitetail-hunting/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Rahm Levinson sai kiinni Floridan Python-haasteen pisimmän käärmeen, joka oli 16 jalkaa ja 5 tuumaa pitkä, ja Tom Rahill kirjasi eniten pyydettyjä pyytoneita. <a href=\"https://www.outdoorlife.com/conservation/python-challenge-biggest-snake/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Testasimme kymmeniä otsalamppuja löytääksemme parhaat ja kirkkaimmat markkinoilla. <a href=\"https://www.outdoorlife.com/gear/best-headlamps-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Elkien metsästys lännessä on haastavampaa lisääntyneen metsästyspaineen vuoksi. Nämä taktiikat auttavat houkuttelemaan hirvieläimen lähemmäksi. <a href=\"https://www.outdoorlife.com/hunting/how-to-call-elk-tips/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1798,
+  "output_tokens": 443,
+  "sources": [
+    {
+      "title": "Learn How to Tie a Square Knot, the Fastest Way to Join Two Lengths of Rope",
+      "url": "https://www.outdoorlife.com/survival/square-knot/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Forget Trail Cameras and Feeders. Try Hunting Wilderness Whitetails the Old Way",
+      "url": "https://www.outdoorlife.com/hunting/wilderness-whitetail-hunting/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "A 3-Year-Old Girl Was Attacked by a Bear While in Her Yard. Authorities Shot and Wounded the Bear But Have Yet to Recover It",
+      "url": "https://www.outdoorlife.com/survival/black-bear-attacks-child-british-columbia/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Video: ‘This Thing Is a Monster.’ Hunters Wrestle 16-Foot Snake and Win the Florida Python Challenge",
+      "url": "https://www.outdoorlife.com/conservation/python-challenge-biggest-snake/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Headlamps for Outdoor Adventures, Tested & Reviewed",
+      "url": "https://www.outdoorlife.com/gear/best-headlamps-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Call Elk: Tactics for the Modern Era of Elk Hunting",
+      "url": "https://www.outdoorlife.com/hunting/how-to-call-elk-tips/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}

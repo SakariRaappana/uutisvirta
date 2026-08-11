@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-11",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa käsitellään tekoälyn vaikutusta tieteelliseen tutkimukseen, AI-agenttien tarpeesta syvällisempään päättelyyn datan lisäksi, sekä startupeista, jotka kehittävät seuraavan sukupolven suuria kielimalleja.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>Ei tärkeitä uutisia tänään.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>AI-professorit kohtaavat uusia haasteita akateemisessa tutkimuksessa, kun tekoäly muuttaa alan dynamiikkaa. <a href=\"https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/\">Lue lisää</a></p>\n</li>\n<li>\n<p>&quot;The Download&quot; -uutiskirje korostaa, että tieteellinen tekoäly tarvitsee pelkän datan lisäksi myös päättelykykyä. <a href=\"https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Tieteen aloilla tekoälyä ei voida käyttää pelkästään datan käsittelyyn, vaan se tarvitsee myös kykyä suunnitella ja tehdä johtopäätöksiä. <a href=\"https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Useat startupit pyrkivät kehittämään seuraavaa suurta innovaatiota suurten kielimallien alalla. <a href=\"https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1360,
+  "output_tokens": 395,
+  "sources": [
+    {
+      "title": "AI professors are negotiating the new realities of academic research",
+      "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: AI agents for science, and the “censorship-industrial complex”",
+      "url": "https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "AI for science needs reasoning, not just data",
+      "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "These startups are chasing the next big thing in LLMs",
+      "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
