@@ -1,0 +1,73 @@
+{
+  "date": "2026-08-12",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään saimme tietää, että huonot sääolosuhteet lopettivat kauden aikaisin Pobeda-vuorella Kirgisiassa ja että Nepalissa on saatu talteen viisi viime vuoden lumivyöryssä kadonnutta kiipeilijän ruumista. Myös metsästykseen liittyviä uutisia tuli esille; esimerkiksi vinkkejä tarkkuusammuntaan pienoiskiväärillä.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>&quot;Gilla jakt&quot; -sarjan toisessa osassa Sosialidemokraattien Tomas Kronståhl keskustelee metsästyksestä Ruotsissa. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/gilla-jakt-valspecial-med-socialdemokraterna/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Huonot sääolosuhteet päättivät Pobeda-vuoren kiipeilykauden Kirgisiassa ennätysaikaisin; kukaan ei ehtinyt huipulle ja edellisen vuoden kiipelijän ruumiin noutoyritykset epäonnistuivat. <a href=\"https://explorersweb.com/bad-weather-ends-pobeda-season-early/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Nepalissa on saatu viimein talteen viisi kiipeilijän ruumista, jotka hautautuivat Yalung Rin lumivyöryyn marraskuussa 2025. <a href=\"https://explorersweb.com/nepal-recovers-five-bodies-of-climbers-from-last-fall/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Tarkkuusammunta pienoiskiväärillä voi parantaa ampumataitoja merkittävästi. Outdoor Life tarjoaa vinkkejä, miten voit rakentaa oman budjettiversiosi. <a href=\"https://www.outdoorlife.com/guns/my-budget-22-precision-rifle-build/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Cabela’s tarjoaa 15 huipputarjousta optiikasta juuri ennen metsästyskauden alkamista. <a href=\"https://www.outdoorlife.com/gear/cabelas-optics-deals-fall-classic-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Hunter McGuire esittelee strategiansa hirvieläinten jäljittämiseksi kameravahdeilla. Hän jakaa vinkkejä suosikkipaikoista kameroille ja miten seurata eläinten liikkeitä muuttuvien resurssien mukaan. <a href=\"https://www.rokslide.com/hunter-mcquires-trail-camera-strategy-that-finds-elk-everyone-else-misses/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 6,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1876,
+  "output_tokens": 558,
+  "sources": [
+    {
+      "title": "Gilla jakt 64 – Valspecial med Socialdemokraterna",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/gilla-jakt-valspecial-med-socialdemokraterna/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "The 10 Best Tasting Wild Game Animals I’ve Ever Eaten",
+      "url": "https://www.outdoorlife.com/hunting/best-tasting-wild-game/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Video: Massive Grouper Smashes the State Record and Might Have Topped the World Record If Not for One Delay",
+      "url": "https://www.outdoorlife.com/fishing/record-yellowedge-grouper/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "“It Was Like a Missile.” Florida Woman Brutally Attacked By Alligator, Rescued by Boaters",
+      "url": "https://www.outdoorlife.com/survival/florida-alligator-attack-review/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Bad Weather Ends Pobeda Season Early",
+      "url": "https://explorersweb.com/bad-weather-ends-pobeda-season-early/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Nepal Recovers Five Bodies of Climbers From Last Fall",
+      "url": "https://explorersweb.com/nepal-recovers-five-bodies-of-climbers-from-last-fall/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "A Precision .22 LR Can Help You Shoot Better. Here’s How You Can Build One on a Budget",
+      "url": "https://www.outdoorlife.com/guns/my-budget-22-precision-rifle-build/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "15 Shockingly Good Deals on Optics from Cabela’s Right Now",
+      "url": "https://www.outdoorlife.com/gear/cabelas-optics-deals-fall-classic-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Fluorocarbon Line Was a Total Accident. Two Fishermen Figured Out the Rest",
+      "url": "https://www.outdoorlife.com/fishing/fluorocarbon-tips/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Hunter McQuire’s Trail Camera Strategy That Finds Elk Everyone Else Misses",
+      "url": "https://www.rokslide.com/hunter-mcquires-trail-camera-strategy-that-finds-elk-everyone-else-misses/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Climber Who Set El Capitan Speed Record Dies in Accident",
+      "url": "https://explorersweb.com/climber-who-set-el-capitan-speed-record-dies-in-accident/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Personoituja jäsenesitteitä yhdistyksille",
+      "url": "https://www.suomenlatu.fi/personoituja-jasenesitteita-yhdistyksille-3/",
+      "source_name": "Suomen Latu"
+    }
+  ],
+  "homepage_candidates": []
+}
