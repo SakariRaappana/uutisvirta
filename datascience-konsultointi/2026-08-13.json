@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-13",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään julkistettiin merkittäviä päivityksiä Azure Content Understanding -alustaan, mukaan lukien tuki GPT-5-mallisarjalle ja uusia agenttipohjaisia työnkulkuja. Lisäksi käsiteltiin tekoälyagenttien skaalaamista ja kuinka taloudellista arvoa voidaan luoda AI-optimoinnilla.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Azure Content Understanding -pohjaisten päivitysten esittely: Sync API:t, GPT-5-tuki ja agenttimaiset työnkulut</h3>\n<p>Microsoft Foundry on julkistanut laajoja päivityksiä Azure Content Understanding -alustalleen. Uudet Sync API:t parantavat kykyä synkronoida tietoja tehokkaasti eri sovellusten välillä. Merkittävä uutuus on tuki GPT-5-mallisarjalle, joka laajentaa alustan kykyä käsitellä monimutkaisempia ja hienostuneempia käyttötilanteita. Lisäksi agenttipohjaiset työnkulut on integroitu järjestelmään, mikä tehostaa tekoälyagenttien kykyä toimia autonomisemmin ja sujuvammin erilaisissa operatiivisissa ympäristöissä. Nämä päivitykset tekevät Azure Content Understanding -alustasta vielä houkuttelevamman valinnan organisaatioille, jotka etsivät kattavaa ratkaisua sisällön ymmärtämiseen ja hallintaan. <strong><a href=\"https://devblogs.microsoft.com/foundry/azure-content-understanding-updates-august-2026/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Azure Content Understandingin GPT-5-mallisarjan opas käsittelee mallien valintaa, grounding-parannuksia ja luottamuksen vahvistamista, mikä auttaa organisaatioita optimoimaan entistä monimutkaisempia sisältöjä tekoälyn avulla. <a href=\"https://devblogs.microsoft.com/foundry/azure-content-understanding-gpt-5-series-guide-model-selection-grounding-improvements-and-confidence-enhancements/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Tekoälyagenttien skaalaaminen luotettavalla datalla korostaa agenttimaisen AI:n mahdollisuuksia ja potentiaalia muuttaa työskentelytapoja organisaatioissa. <a href=\"https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Azure-blogissa käsiteltiin AI:n kustannusten hallintaa ja kuinka se auttaa organisaatioita siirtymään AI-piloteista mitattaviin ROI-tuloksiin paremman näkyvyyden, hallinnan ja optimoinnin kautta. <a href=\"https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2122,
+  "output_tokens": 630,
+  "sources": [
+    {
+      "title": "Scientists just created female clones of male mice",
+      "url": "https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "From Sync APIs to support for the GPT-5 model series and agentic workflows: What’s new in Azure Content Understanding – August 2026",
+      "url": "https://devblogs.microsoft.com/foundry/azure-content-understanding-updates-august-2026/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "Azure Content Understanding GPT-5 Series Guide: Model Selection, Grounding Improvements, and Confidence Enhancements",
+      "url": "https://devblogs.microsoft.com/foundry/azure-content-understanding-gpt-5-series-guide-model-selection-grounding-improvements-and-confidence-enhancements/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "Scaling AI agents with trustworthy data",
+      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Economics of Agent Optimization: From pilots to measurable returns",
+      "url": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/",
+      "source_name": "Azure Blog"
+    },
+    {
+      "title": "The Download: our 35 young innovators and the “censorship-industrial complex”",
+      "url": "https://www.technologyreview.com/2026/08/12/1141714/the-download-innovators-under-35-censorship-industrial-complex/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "How we picked 35 of the world’s top young scientists and engineers",
+      "url": "https://www.technologyreview.com/2026/08/12/1141605/2026-innovators-under-35-top-young-scientists-engineers/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "From Sync APIs to support for the GPT-5 model series and agentic workflows: What’s new in Azure Content Understanding – August 2026",
+      "source_name": "Microsoft Foundry Blog",
+      "source_url": "https://devblogs.microsoft.com/foundry/azure-content-understanding-updates-august-2026/",
+      "published_at": "2026-08-12T18:43:01+00:00",
+      "summary": "Enterprise content is no longer just something people read. AI apps and agents are only as useful as the information they can understand, yet much of the world’s enterprise knowledge is locked in documents, forms, tables, images, audio, and video. The latest Azure Content Understanding updates help ",
+      "why_relevant": "Azure Content Understandingin tuki GPT-5-mallisarjalle ja agentic workflow’ille vaikuttaa suoraan siihen, miten rakennat tuotantokelpoisia enterprise-agentteja Microsoftin ekosysteemiin.",
+      "homepage_eligible": true,
+      "homepage_score": 92,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "azure-content-understanding-gpt5-agentic-workflows",
+      "category": "tärkea"
+    }
+  ]
+}
