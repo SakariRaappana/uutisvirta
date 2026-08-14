@@ -1,0 +1,86 @@
+{
+  "date": "2026-08-14",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään kerrotaan merkittävästä aselakimuutoksesta, kun äänenvaimentimien sääntelyä on löysätty Yhdysvalloissa, mikä mahdollistaa niiden myynnin suoraan tiskiltä tietyin poikkeuksin. Lisäksi lyhyet maininnat käsittelevät muun muassa perinteistä metsämiesviisautta metsäkanalintujen löytämisessä ja karhunmetsästyksen palautumista pitkän tauon jälkeen.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Äänenvaimentimien sääntelyä on löysätty Yhdysvalloissa</h3>\n<p>Yhdysvalloissa on tehty merkittävä säädösmuutos, missä äänenvaimentimet on nyt mahdollista ostaa suoraan tiskiltä, tietyin poikkeuksin. Päätöksen odotetaan sujuvoittavan ja nopeuttavan äänenvaimentimien hankintaprosessia huomattavasti. Aiemmin hankintaan liittyi monimutkainen lupaprosessi, mutta nyt sääntelyn keventämisen myötä tilanne helpottuu. Muutokset eivät kuitenkaan koske kaikkia osavaltioita ja erillisiä poikkeuksia on edelleen olemassa, jotka saattavat vaikuttaa saatavuuteen alueellisesti. Tämä päätös herättää keskustelua aseharrastajien piirissä ja saattaa vaikuttaa myös metsästyskäytäntöihin. <strong><a href=\"https://www.outdoorlife.com/guns/suppressor-deregulation-ruling/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Perinteistä metsämiesosaamista kannattaa hyödyntää metsäkanalintujen metsästyksessä, keskittyen etenkin niiden suosimiin ravintokohteisiin. <a href=\"https://www.outdoorlife.com/hunting/use-traditional-woodsmanship-to-find-better-grouse-hunting/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Holt Collier nousi legendojen joukkoon entisenä orjana ja karhujen metsästäjänä. Hän otti jopa 125 karhua kauden aikana ja onnistui kerran lassosamaan karhun Teddy Rooseveltille. <a href=\"https://www.outdoorlife.com/hunting/holt-collier-bear-hunter/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Edullinen Bear Alaskan Pro -taljajousi on yllättänyt vertailuissa kalliimpien jousien rinnalla. <a href=\"https://www.outdoorlife.com/gear/bear-alaskan-pro-budget-compound-bow/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Västernorrlandin alue Ruotsissa raportoi positiivisia kehityksiä, sillä alueen hirvien aiheuttamat tuhot ovat laskeneet kolmeen prosenttiin, mikä on merkittävä vähennys aiempiin vuosiin verrattuna. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/vasternorrland-nar-malet-for-betesskador-jrf-ser-mojlig-vag-framat/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Karhujahti alkaa Suomessa jälleen monen vuoden tauon jälkeen erikoislupien valitusajan päätyttyä. <a href=\"https://metsastajaliitto.fi/uutiset/karhujahti-alkaa-vuosien-tauon-jalkeen\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ruotsin hallitus pyrkii lisäämään ampumaratojen saatavuutta ja helpottamaan niiden säätelyä, jotta enemmän siviilejä pääsisi niitä hyödyntämään. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/regeringen-vill-oka-tillgangen-till-skjutbanor/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 7,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2900,
+  "output_tokens": 815,
+  "sources": [
+    {
+      "title": "Thirty-two Alpinists Ignore Mont Blanc Warnings, Are Denied Free Helicopter Rescue",
+      "url": "https://explorersweb.com/thirty-two-alpinists-ignore-mont-blanc-warnings-are-denied-free-helicopter-rescue/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Use Traditional Woodsmanship to Find Better Grouse Hunting",
+      "url": "https://www.outdoorlife.com/hunting/use-traditional-woodsmanship-to-find-better-grouse-hunting/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Why Don’t We Manage for Trophy Carp Fisheries in the U.S.?",
+      "url": "https://www.outdoorlife.com/fishing/trophy-carp-waters/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Suppressors Have Been Deregulated and Can Now Be Bought Over the Counter (With Some Key Exceptions)",
+      "url": "https://www.outdoorlife.com/guns/suppressor-deregulation-ruling/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Holt Collier Was Born a Slave but Became a Legendary Bear Hunter. He Once Roped a Bear for Teddy Roosevelt",
+      "url": "https://www.outdoorlife.com/hunting/holt-collier-bear-hunter/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "This Budget Compound Bow Is Shockingly Good",
+      "url": "https://www.outdoorlife.com/gear/bear-alaskan-pro-budget-compound-bow/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Västernorrland når målet för betesskador – JRF ser möjlig väg framåt",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/vasternorrland-nar-malet-for-betesskador-jrf-ser-mojlig-vag-framat/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "VAPENKLASSIKER: Bakladdad för framgång",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/vapenklassiker-bakladdad-for-framgang/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Liikunnallinen elämäntapa osaksi koulujen arkea",
+      "url": "https://www.suomenlatu.fi/laki-velvoittaa-liikunnallinen-elamantapa-osaksi-koulujen-arkea-suomen-latu-tarjoaa-ratkaisun-ilman-lisaresursseja/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Karhujahti alkaa vuosien tauon jälkeen",
+      "url": "https://metsastajaliitto.fi/uutiset/karhujahti-alkaa-vuosien-tauon-jalkeen",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "Regeringen vill öka tillgången till skjutbanor",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/regeringen-vill-oka-tillgangen-till-skjutbanor/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Suppressors Have Been Deregulated and Can Now Be Bought Over the Counter (With Some Key Exceptions)",
+      "source_name": "Outdoor Life",
+      "source_url": "https://www.outdoorlife.com/guns/suppressor-deregulation-ruling/",
+      "published_at": "2026-08-13T18:15:43+00:00",
+      "summary": "In a massive win for gun owners, the Trump Administration has yet to appeal a district court ruling that deregulates suppressor purchases. But there are still plenty of questions around buying a suppressor \nThe post Suppressors Have Been Deregulated and Can Now Be Bought Over the Counter (With Some ",
+      "why_relevant": "Äänenvaimentimien deregulointi voi muuttaa suoraan asehankintaa, metsästyskäytäntöjä ja kalustopäätöksiäsi heti, jos toimit Yhdysvaltain markkinaan tai seuraat sääntelyn leviämistä.",
+      "homepage_eligible": true,
+      "homepage_score": 88,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "suppressors-deregulated-over-the-counter",
+      "category": "tärkea"
+    }
+  ]
+}

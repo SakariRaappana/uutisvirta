@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-08-14 — Politiikka — Uutisvirta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #F0F1EB;
+      --surface: #E7E9E2;
+      --border: #C6CAC0;
+      --rule: #1B1D19;
+      --text: #191C18;
+      --muted: #6A6F65;
+      --accent: #3A6558;
+      --accent-pale: #C6D8D3;
+      --accent-border: #7AB0A4;
+      --stamp: #8A4C34;
+      --font-mono: "Courier Prime", "Courier New", Courier, monospace;
+      --font-serif: "Lora", Georgia, serif;
+      --font-display: "Playfair Display", Georgia, serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121519;
+        --surface: #1A1E22;
+        --border: #282D31;
+        --rule: #D8DDD8;
+        --text: #DCE1DC;
+        --muted: #787E78;
+        --accent: #78B8AB;
+        --accent-pale: #182824;
+        --accent-border: #3D7068;
+        --stamp: #C07A5A;
+      }
+    }
+
+    html { font-size: 18px; }
+    body {
+      font-family: var(--font-serif);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── MASTHEAD ───────────────────────────── */
+    .site-header {
+      border-top: 3px solid var(--rule);
+    }
+    .masthead-row {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0.6rem 1.5rem 0.55rem;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .logo {
+      font-family: var(--font-mono);
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .masthead-date {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+    .nav-strip {
+      border-top: 1px solid var(--border);
+      border-bottom: 2px solid var(--rule);
+      padding: 0.45rem 1.5rem;
+    }
+    .nav-strip nav {
+      max-width: 760px;
+      margin: 0 auto;
+      display: flex;
+      gap: 1.75rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .nav-strip a {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .nav-strip a:hover { color: var(--accent); }
+    .nav-strip a.active {
+      color: var(--text);
+      border-bottom: 1.5px solid var(--text);
+    }
+
+    /* ── PAGE ───────────────────────────────── */
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1.75rem 1.5rem 5rem;
+    }
+
+    /* ── TYPOGRAPHY ─────────────────────────── */
+    h1 {
+      font-family: var(--font-display);
+      font-size: 2.1rem;
+      font-weight: 400;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      margin-bottom: 0.2rem;
+      text-wrap: balance;
+    }
+    h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 2rem 0 0.65rem;
+      text-wrap: balance;
+    }
+    h3 {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 400;
+      margin: 1.5rem 0 0.4rem;
+    }
+    p { margin-bottom: 0.9rem; max-width: 68ch; }
+    p:last-child { margin-bottom: 0; }
+    ul, ol { padding-left: 1.4rem; margin-bottom: 0.85rem; }
+    li { margin-bottom: 0.25rem; }
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+    code {
+      font-family: var(--font-mono);
+      font-size: 0.83em;
+      background: var(--surface);
+      padding: 0.1em 0.35em;
+      border: 1px solid var(--border);
+    }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.75rem 0; }
+
+    /* ── META BAR ───────────────────────────── */
+    .meta {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .meta span + span::before { content: " · "; }
+
+    /* ── DIGEST BODY (Markdown-rendered content) ── */
+    .digest-body h2 {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: normal;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-top: 2px solid var(--text);
+      padding-top: 0.55rem;
+      margin: 2.2rem 0 1.2rem;
+    }
+    .digest-body h3 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 0 0 0.7rem;
+      text-wrap: balance;
+    }
+
+    /* ── DEEP DIVE (JS-injected wrapper around h3 blocks) ── */
+    .deep-dive {
+      background: var(--accent-pale);
+      border-left: 3px solid var(--accent-border);
+      padding: 1.1rem 1.4rem 1.1rem 1.2rem;
+      margin-bottom: 1.25rem;
+    }
+    .deep-dive p { font-size: 0.97rem; }
+    .deep-dive p:last-child { margin-bottom: 0; }
+
+    /* ── BRIEF LIST (JS-injected class on ul) ── */
+    .brief-list { list-style: none; padding: 0; }
+    .brief-list li {
+      padding: 0.72rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+      line-height: 1.56;
+      max-width: 68ch;
+    }
+    .brief-list li:last-child { border-bottom: none; }
+
+    /* ── DAY NAV ────────────────────────────── */
+    .day-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+    .day-nav a { color: var(--accent); text-decoration: none; }
+    .day-nav a:hover { text-decoration: underline; }
+
+    /* ── ARCHIVE LIST ───────────────────────── */
+    .archive-list { list-style: none; padding: 0; border-top: 2px solid var(--text); }
+    .archive-list li {
+      display: flex;
+      gap: 1.5rem;
+      align-items: baseline;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .archive-list li:last-child { border-bottom: none; }
+    .archive-list .date {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      min-width: 6rem;
+      flex-shrink: 0;
+      letter-spacing: 0.04em;
+    }
+    .archive-list a { color: var(--text); font-size: 0.93rem; text-decoration: none; }
+    .archive-list a:hover { color: var(--accent); }
+
+    /* ── STREAM CARDS ───────────────────────── */
+    .stream-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 0;
+      border-top: 2px solid var(--text);
+    }
+    .stream-card {
+      padding: 1.1rem 2rem 1.1rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .stream-card h2 {
+      font-size: 1rem;
+      margin-top: 0;
+      margin-bottom: 0.2rem;
+      font-weight: 400;
+    }
+    .stream-card h2 a { color: var(--text); text-decoration: none; }
+    .stream-card h2 a:hover { color: var(--accent); }
+    .stream-card .last-updated {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+    }
+    .stream-card .last-updated a { color: var(--accent); text-decoration: none; }
+
+    /* ── SOURCES ────────────────────────────── */
+    details {
+      margin-top: 2.5rem;
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
+    }
+    details summary {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      cursor: pointer;
+      list-style: none;
+    }
+    details[open] summary { margin-bottom: 0.6rem; }
+    .source-list { list-style: none; padding: 0; margin-top: 0.4rem; }
+    .source-list li {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+    .source-list a { color: var(--accent); text-decoration: none; }
+    .source-list a:hover { text-decoration: underline; }
+
+    /* ── DAY SECTION (collapsible per-day digest) ── */
+    .day-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .day-section > summary {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+      text-transform: none;
+      padding: 1.25rem 0 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+    .day-section > summary::-webkit-details-marker { display: none; }
+    .day-section > summary::after {
+      content: "▾";
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .day-section:not([open]) > summary::after { content: "▸"; }
+    .day-section-body { padding-bottom: 2.5rem; }
+
+    /* ── ARCHIVE SECTION ────────────────────── */
+    .archive-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .archive-section > summary {
+      padding: 0.9rem 0;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .archive-section > summary::-webkit-details-marker { display: none; }
+    .archive-list--plain { border-top: none; margin-top: 0.25rem; }
+
+    /* ── DAY SPACER ─────────────────────────── */
+    .day-spacer {
+      height: 0;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="masthead-row">
+      <a href="../index.html" class="logo">Uutisvirta</a>
+      <span class="masthead-date" id="site-date"></span>
+    </div>
+    <div class="nav-strip">
+      <nav>
+        
+        <a href="../datascience-konsultointi/index.html"
+           >
+          Datascience konsultointi
+        </a>
+        
+        <a href="../era-seikkailu/index.html"
+           >
+          Erä & seikkailu
+        </a>
+        
+        <a href="../politiikka/index.html"
+           class="active">
+          Politiikka
+        </a>
+        
+      </nav>
+    </div>
+  </header>
+  <main class="page">
+    
+<div class="day-nav">
+  <span><a href="2026-08-13.html">← 2026-08-13</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
+</div>
+
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Politiikka</div>
+<h1>2026-08-14</h1>
+<p class="meta">
+  <span>21 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>5095 tokenia</span>
+</p>
+
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään huomio keskittyy Puolaan, missä on pidätetty venäläinen kansalainen epäiltynä ukrainalais-amerikkalaisen murhasuunnitelmasta. Lisäksi Romanian ydinvoimala on suljettu alhaisen vesitason vuoksi, ja Sambiassa äänestetään presidentti Hakainde Hichileman talouspolitiikasta.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>Venäläinen pidätetty epäiltynä ukrainalais-amerikkalaisen &quot;teloituksen&quot; suunnittelusta Varsovassa</h3>
+<p>Puolan pääministeri Donald Tusk on ilmoittanut, että venäläinen kansalainen on pidätetty epäiltynä ukrainalais-amerikkalaisen dualin kansalaisen murhasuunnitelmasta Varsovassa. Tämä on ensimmäinen kerta, kun Venäjän toimeksiannosta on suunniteltu iskua amerikkalaista kansalaista vastaan Naton alueella. Tapauksen tutkinta jatkuu, ja se on herättänyt laajaa kansainvälistä huomiota, korostaen järjestäytyneen rikollisuuden ja kansainvälisten konfliktien vaaroja. <strong><a href="https://www.france24.com/en/europe/20260813-poland-detains-russian-for-execution-plot-in-warsaw-tusk-says">Lue alkuperäinen →</a></strong></p>
+<h3>Romania sulkee ydinvoimalan alhaisen, kuivuuden vaivaaman Tonavan vesitason vuoksi</h3>
+<p>Romanian ainoa ydinvoimala on suljettu kokonaan, koska Tonavan vedenpinta on laskenut ennätyksellisen alhaiseksi. Voimalan jäähdytys vedellä on liian vähäistä, mikä on johtanut turvallisuussyistä tehtyyn pysäytykseen. Tämä tilanne heijastaa alueen vakavaa kuivuustilannetta ja sen laajoja vaikutuksia energian tuotantoon ja turvallisuuteen. <strong><a href="https://www.rfi.fr/en/environment/20260813-romania-shuts-down-nuclear-plant-due-to-low-level-of-drought-hit-danube">Lue alkuperäinen →</a></strong></p>
+<h3>Sambian äänestäjät arvioivat presidentin taloussuorituskykyä vaaleissa</h3>
+<p>Sambiassa on alkanut yleinen vaali, jossa arvioidaan presidentti Hakainde Hichileman talouspolitiikan menestystä. Hichilema on johtanut maan ulos velkakriisistä, mutta hänen onnistumisensa arvioidaan nyt vaalien kautta. Vaalitulokset määrittävät, saako hän toisen kauden, mikä on tärkeää maan kehityksen kannalta. <strong><a href="https://www.rfi.fr/en/africa/20260813-voters-in-zambia-to-deliver-verdict-on-president-s-economic-record">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>Nigel Farage voitti koomikko Count Binface'n ja palasi Britannian parlamenttiin odotetusti. <a href="https://www.france24.com/en/europe/20260814-nigel-farage-beats-count-binface-regain-uk-parliamentary-seat-by-election">Lue lisää</a></li>
+<li>YK kehottaa nopeuttamaan toimia luonnon suojelemiseksi, sillä maailma on jäämässä tavoitteistaan jälkeen. <a href="https://www.rfi.fr/en/un-urges-faster-action-as-world-falls-behind-on-nature-protection">Lue lisää</a></li>
+<li>Romanian ydinvoimalan sulkeminen liittyy Tonavan kuivuuteen, samaan aikaan Unkari pyrkii patoamaan jokivettä omaa voimalaansa varten. <a href="https://www.dw.com/en/romania-shuts-nuclear-plant-hungary-dams-dry-danube-river/a-78359581?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Euroopan kuivuus koettelee viljelijöitä, vaikka he yrittävät mukautua. <a href="https://www.france24.com/en/europe/20260813-european-drought-shrivels-crops-despite-farmers-best-efforts-to-adapt">Lue lisää</a></li>
+<li>Eurovision laulajamaakilpailun voittajamaa ei voi järjestää kilpailua, jos se on osallisena aseellisessa konfliktissa. <a href="https://www.france24.com/en/eurovision-winners-involved-in-armed-conflict-now-ineligible-to-host-contest">Lue lisää</a></li>
+<li>Ranskalaiset palomiehet painostavat hallitusta lisäämään resursseja metsäpalojen torjunnassa. <a href="https://www.politico.eu/article/exasperated-french-firefighters-to-protest-to-pressure-government-for-more-resources/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää</a></li>
+<li>Israelin sotilastoimet pyrkivät estämään siirtokuntalaisten hyökkäyksen Länsirannalla. <a href="https://www.dw.com/en/israeli-military-moves-as-settlers-besiege-3-west-bank-homes/a-78355266?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Kongon demokraattisen tasavallan ebolaepidemia on laajentunut kuudenteen maakuntaan. <a href="https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province">Lue lisää</a></li>
+<li>Yli 30 maata, mukaan lukien Ranska ja Britannia, ovat tuominneet Iranin protestoijien teloitukset. <a href="https://www.rfi.fr/en/international/20260813-france-and-30-other-countries-condemn-iran-s-executions-of-protestors">Lue lisää</a></li>
+<li>Japani tuomitsi Vladimir Putinin vierailun kiistanalaisille Kurileille. <a href="https://www.theguardian.com/world/2026/aug/13/japan-condemns-vladimir-putin-visit-kuril-islands">Lue lisää</a></li>
+<li>Ukrainan siviilitappiot ovat korkeimmat sitten vuoden 2022. <a href="https://www.dw.com/en/ukraine-s-monthly-civilian-casualties-highest-since-2022/live-78351269?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Saksassa on puutteita dronepuolustuksessa, kuten viimeisin tapaus Leipzigissa osoittaa. <a href="https://www.dw.com/en/how-germany-s-drone-defense-fails/a-78353414?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Marokko kiristää rajaturvallisuutta peläten massaihmisten ylitystä Ceutaan. <a href="https://www.rfi.fr/en/international/20260813-morocco-steps-up-border-security-over-fears-of-new-mass-crossing-into-ceuta">Lue lisää</a></li>
+<li>Eritrea nousee vaikutusvaltaiseen asemaan Punaisenmeren alueella. <a href="https://www.dw.com/en/eritrea-a-rising-power-along-a-global-shipping-artery/a-78335316?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Pohjois-Korean mahdollinen joukkojen lähettäminen Ukrainaan herättää huolta. <a href="https://www.dw.com/en/what-would-a-north-korean-troop-surge-mean-for-ukraine-war/a-78350896?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Saksassa oikeistopoliitikko tukee vasemmistopopulistia osavaltion pääministeriksi. <a href="https://www.dw.com/en/germany-news-far-right-leader-backs-left-wing-populist/live-78347793?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Presidentti Zelensky pyytää Yhdysvalloilta Patriot-ohjuksia talveksi. <a href="https://www.france24.com/en/europe/20260813-live-russian-attack-sets-ablaze-ukraine-s-izmail-port-infrastructure">Lue lisää</a></li>
+</ul>
+
+</div>
+
+<details>
+  <summary>Lähteet (40)</summary>
+  <ul class="source-list">
+    
+    <li><a href="https://www.dw.com/en/india-news-7-dead-3-trapped-in-uttarakhand-tunnel-collapse/live-78361577?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">India news: 7 dead, 3 trapped in Uttarakhand tunnel collapse</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260814-nigel-farage-beats-count-binface-regain-uk-parliamentary-seat-by-election" target="_blank" rel="noopener">Nigel Farage beats Count Binface to regain UK parliamentary seat in widely mocked by-election</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/can-childhood-trauma-be-prevented-with-a-drug/a-78301961?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Can childhood trauma be prevented with a drug?</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/un-urges-faster-action-as-world-falls-behind-on-nature-protection" target="_blank" rel="noopener">UN urges faster action as world falls behind on nature protection</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/aug/14/japan-deadly-rain-evacuation-thousands-stranded-tokyo-airport-weather" target="_blank" rel="noopener">‘Unprecedented’ rain kills four in Japan as thousands stranded at airport</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/aug/14/indonesia-wildfires-threaten-orangutans-rescued-from-animal-traffickers" target="_blank" rel="noopener">Indonesia wildfires threaten orangutans rescued from animal traffickers</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/berlin-playbook-podcast/machthaber-wolodymyr-selenskyj/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Machthaber: Wolodymyr Selenskyj</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/four-dead-thousands-stranded-as-record-rain-lashes-japan/a-78361113?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Four dead, thousands stranded as record rain lashes Japan</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/brussels-playbook-podcast/week-ender-archives-can-europe-quit-american-big-tech/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Week Ender archives: Can Europe quit American Big Tech?</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/romania-shuts-nuclear-plant-hungary-dams-dry-danube-river/a-78359581?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Romania shuts nuclear plant, Hungary dams dry Danube River</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/kennedy-center-board-approves-trump-name-on-facade-renovation-plan/a-78359935?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Kennedy Center board approves Trump name on facade, renovation plan</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260813-a-war-on-words-why-russian-strikes-are-targeting-ukrainian-publishers" target="_blank" rel="noopener">A war on words: why Russian strikes are targeting Ukrainian publishers</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.dw.com/en/us-disputes-reports-of-trying-conditions-on-carrier-in-gulf/a-78359084?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">US disputes reports of trying conditions on carrier in Gulf</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/when-the-earth-moves-6-major-earthquakes-of-2026/a-78358208?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">When the earth moves: 6 major earthquakes of 2026</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260813-european-drought-shrivels-crops-despite-farmers-best-efforts-to-adapt" target="_blank" rel="noopener">European drought shrivels crops despite farmers’ best efforts to adapt</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdlZ5eVZ3TGY5WUh0SnI2TmdUTlRXQmNIWDFRZ0JJSjdGT203RWhiVVIyM1V4YWZ6MkVoNXphX1cyNDN1WFJEeEptc0ZRdWZaZ0Z1UlE0TlhuTGd6Z2ZJeF82ZW1lVTNNT1dUTnpMbnBfaTFrUTZFeUlTSXNvZkc1bG9DcW4zZU90eTBYbVFrU19FOW1ldW9MamY2Tkg5YWhBNmZVeTd5b0xDenF3dGtTcmh6cDRwRHZvWFU1QXBzUy1zdWNiZFJMekNDNnZmODVmbmE3N0JVemlrUnlvWDBHRUpBUnd3ell3M0VKZC1rcEhnd25lNUF3emxVZENxaUU?oc=5" target="_blank" rel="noopener">Interview With H.E. Aidit Erkin, Ambassador Of The Kyrgyz Republic To Belgium, The Netherlands, Luxembourg, The European Union And NATO - Eurasia Review</a> <span style="color:var(--muted)">— Google News: NATO Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/eurovision-winners-involved-in-armed-conflict-now-ineligible-to-host-contest" target="_blank" rel="noopener">Eurovision: Winners involved in 'armed conflict' now ineligible to host contest</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.politico.eu/article/exasperated-french-firefighters-to-protest-to-pressure-government-for-more-resources/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Exasperated French firefighters pressure government for more resources</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/israeli-military-moves-as-settlers-besiege-3-west-bank-homes/a-78355266?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Israeli military moves as settlers besiege 3 West Bank homes</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province" target="_blank" rel="noopener">DRC’s fast-growing Ebola outbreak spreads to sixth province</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/sports/20260813-sister-act-ushers-underdogs-malawi-into-wafcon-final-against-cameroon" target="_blank" rel="noopener">Sister act ushers underdogs Malawi into WAFCON final against Cameroon</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260813-france-and-30-other-countries-condemn-iran-s-executions-of-protestors" target="_blank" rel="noopener">France and 30 other countries condemn Iran's executions of protestors</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260813-poland-detains-russian-for-execution-plot-in-warsaw-tusk-says" target="_blank" rel="noopener">Russian detained over plot to 'execute' Ukrainian-American in Warsaw, Tusk says</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher" target="_blank" rel="noopener">French ambassador to CAR investigated over claims he hosted dozens of women</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260813-if-you-can-move-say-rome-s-viral-dancing-seniors" target="_blank" rel="noopener">Viral dancing seniors inspire Italy's ageing population to get moving</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/environment/20260813-romania-shuts-down-nuclear-plant-due-to-low-level-of-drought-hit-danube" target="_blank" rel="noopener">Romania shuts down nuclear plant due to low level of drought-hit Danube</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/aug/13/japan-condemns-vladimir-putin-visit-kuril-islands" target="_blank" rel="noopener">‘Absolutely unacceptable’: Japan condemns visit by Vladimir Putin to disputed Kuril Islands</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.dw.com/en/ukraine-s-monthly-civilian-casualties-highest-since-2022/live-78351269?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Ukraine's monthly civilian casualties highest since 2022</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/how-germany-s-drone-defense-fails/a-78353414?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">How Germany's drone defense fails</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260813-morocco-steps-up-border-security-over-fears-of-new-mass-crossing-into-ceuta" target="_blank" rel="noopener">Morocco steps up border security over fears of new mass crossing into Ceuta</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.dw.com/en/eritrea-a-rising-power-along-a-global-shipping-artery/a-78335316?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Eritrea, a rising power along a global shipping artery</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/what-would-a-north-korean-troop-surge-mean-for-ukraine-war/a-78350896?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">What would a North Korean troop surge mean for Ukraine war?</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/germany-buildings-evacuated-over-suspected-explosive/a-78351636?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Germany: Buildings evacuated over suspected explosive</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/video/20260813-eclipse-europe-falls-into-darkness-as-millions-watch" target="_blank" rel="noopener">Eclipse: Europe falls into darkness as millions watch</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/aug/13/south-korea-incheon-airport-iran-war-middle-east" target="_blank" rel="noopener">South Korean airport becomes busiest in world for global traffic amid Iran war</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.dw.com/en/germany-news-far-right-leader-backs-left-wing-populist/live-78347793?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Germany news: Far-right leader backs left-wing populist</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/africa/20260813-voters-in-zambia-to-deliver-verdict-on-president-s-economic-record" target="_blank" rel="noopener">Voters in Zambia to deliver verdict on president's economic record</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260813-total-eclipse-plunges-spain-segovia-into-darkness-suspending-time-59-seconds" target="_blank" rel="noopener">Total eclipse plunges Spain’s Segovia into darkness for 59 seconds of wonder (4/4)</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/environment/20260813-as-millions-gazed-in-awe-a-swathe-of-spain-plunged-into-darkness" target="_blank" rel="noopener">Millions gather to watch as solar eclipse plunges swathe of Spain into darkness</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260813-live-russian-attack-sets-ablaze-ukraine-s-izmail-port-infrastructure" target="_blank" rel="noopener">Zelensky says Ukraine needs at least 5% of US Patriot stocks to get through winter</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+  </ul>
+</details>
+
+
+  </main>
+  <script>
+    (function() {
+      var d = new Date();
+      var days = ['Su','Ma','Ti','Ke','To','Pe','La'];
+      var months = ['tammik.','helmik.','maalisk.','huhtik.','toukok.','kesäk.','heinäk.','elok.','syysk.','lokak.','marrask.','jouluk.'];
+      var el = document.getElementById('site-date');
+      if (el) el.textContent = days[d.getDay()] + ' ' + d.getDate() + '. ' + months[d.getMonth()] + ' ' + d.getFullYear();
+
+      document.querySelectorAll('a[href]').forEach(function(a) {
+        var href = a.getAttribute('href');
+        if (href && href.startsWith('http')) {
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener');
+        }
+      });
+
+      document.querySelectorAll('.digest-body').forEach(function(body) {
+        body.querySelectorAll('h3').forEach(function(h3) {
+          var div = document.createElement('div');
+          div.className = 'deep-dive';
+          h3.parentNode.insertBefore(div, h3);
+          div.appendChild(h3);
+          var next = div.nextSibling;
+          while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+            var n = next.nextSibling;
+            div.appendChild(next);
+            next = n;
+          }
+        });
+        body.querySelectorAll('ul').forEach(function(ul) {
+          ul.classList.add('brief-list');
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

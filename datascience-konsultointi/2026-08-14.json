@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-14",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään keskiössä ovat kehittyvän kvanttilaskennan vaikutukset nykyaikaiseen kryptografiaan sekä poliisiteknologiayritys Flockin toimet parantaakseen käyttäjiensä yksityisyydensuojaa kiristyneiden valvontakäytäntöjen myötä.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p><em>Tänään ei ole syväanalyysiä vaativia uutisia.</em></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Kvanttilaskennan kehittyessä nykyinen kryptografia saattaa muuttua haavoittuvaiseksi, luoden tarpeen kvanttivarmalle kryptografialle. <a href=\"https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Poliisitietoisuusyritys Flock muuttaa poliisiviranomaisten pääsyä valtakunnalliseen rekisterikilven lukujärjestelmäänsä lievittääkseen lisääntyvää kritiikkiä ja voittaakseen takaisin yleistä luottamusta. <a href=\"https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1136,
+  "output_tokens": 290,
+  "sources": [
+    {
+      "title": "Roundtables: Inside the “Censorship-Industrial Complex” Idea Shaping US Policy",
+      "url": "https://www.technologyreview.com/2026/08/13/1141399/roundtables-inside-the-censorship-industrial-complex-idea-shaping-us-policy/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Building a practical path to post-quantum cryptography",
+      "url": "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Flock is tightening its rules in response to a growing surveillance backlash",
+      "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: kids’ thoughts on AI, and female clones of male mice",
+      "url": "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "What’s behind this summer’s heat, and why 2027 could be worse",
+      "url": "https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "How kids feel about AI, in their own words",
+      "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
