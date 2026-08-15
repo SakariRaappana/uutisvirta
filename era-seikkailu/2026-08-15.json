@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-15",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tämän päivän uutisissa käsitellään erityisesti kalastuksen ja metsästyksen aiheita eri puolilla maailmaa. Esillä on muun muassa kalastusvinkkejä hauen ja crappie-kalan pyyntiin, laajennuksia metsästys- ja kalastusalueisiin Yhdysvalloissa, sekä turvallisuustapauksia Tanskassa ja Ruotsissa.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Heinäkuisen sään kuumeneminen voi parantaa hauen vetouistelutekniikoiden tehoa kesäisin. Kokeneen kalastusoppaan vinkit auttavat nostamaan suuren hauen vedestä. <a href=\"https://www.outdoorlife.com/fishing/trolling-summer-pike-tips/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Trumpin hallinto on vahvistanut suurimman metsästys- ja kalastusmahdollisuuksien laajennuksen luonnonsuojelualueilla Yhdysvaltojen historiassa. Uusi sääntö luo 1,488 uutta metsästys- ja urheilukalastusmahdollisuutta 32 osavaltiossa. <a href=\"https://www.outdoorlife.com/conservation/interior-finalizes-hunting-expansions-refuges/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Asiantuntijat jakavat vinkkejään, miten crappie-kaloja voi kalastaa tehokkaasti syksyllä. Syksy voi tarjota unohtumattomia kalastushetkiä kevään ohella. <a href=\"https://www.outdoorlife.com/fishing/fall-crappie-fishing-expert-tips/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Tactacam Reveal -riistakamerat ovat merkittävästi alennuksessa Cabelan syksyn metsästystapahtuman aikana. <a href=\"https://www.outdoorlife.com/gear/our-favorite-trail-camera-is-finally-on-sale/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Tanskassa on ammuttu susi, joka liikkui lähellä lapsia Keski-Jyllannissa. Tapahtumasta ilmoitti Tanskan luonnon ja eläinten hyvinvointiministeri Christian Rabjerg Madsen. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/nargangen-varg-skjuten-i-danmark/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Jousimetsästystapaturma on johtanut syytteeseen Ruotsissa, kun villisikajahtiin osallistunut henkilö ampui vahingossa toveriaan reisiluuhun. Syytetty on 40-vuotias mies. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/jagade-vildsvin-fran-husvagn-skot-jaktkamrat-i-laret/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 6,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1936,
+  "output_tokens": 609,
+  "sources": [
+    {
+      "title": "A Legendary Fishing Guide Shares His Secrets for Trolling Up Summertime Pike",
+      "url": "https://www.outdoorlife.com/fishing/trolling-summer-pike-tips/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Plan to Reintroduce Grizzly Bears to California Dies Quietly",
+      "url": "https://www.outdoorlife.com/conservation/california-grizzly-bear-reintroduction/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Trump Administration Finalizes Biggest Expansion of Hunting and Fishing on Wildlife Refuges in History",
+      "url": "https://www.outdoorlife.com/conservation/interior-finalizes-hunting-expansions-refuges/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Expert Tips for Catching Fall Crappies — The Hottest Bite That You’ve Been Missing Out On",
+      "url": "https://www.outdoorlife.com/fishing/fall-crappie-fishing-expert-tips/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Our Favorite Trail Camera Is Finally On Sale",
+      "url": "https://www.outdoorlife.com/gear/our-favorite-trail-camera-is-finally-on-sale/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Närgången varg skjuten i Danmark",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/nargangen-varg-skjuten-i-danmark/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Jagade vildsvin från husvagn – sköt jaktkamrat i låret",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/jagade-vildsvin-fran-husvagn-skot-jaktkamrat-i-laret/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Maksamattomien jäsenten erottaminen",
+      "url": "https://www.suomenlatu.fi/maksamattomien-jasenten-erottaminen-2/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Tule rakentamaan Suomen Ladun tulevaisuutta!",
+      "url": "https://www.suomenlatu.fi/tule-rakentamaan-suomen-ladun-tulevaisuutta/",
+      "source_name": "Suomen Latu"
+    }
+  ],
+  "homepage_candidates": []
+}
