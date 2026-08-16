@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-16",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Arctic-kajakoijat joutuivat keskeyttämään yrittämänsä Kanadan King William -saaren kiertomatkan kovien tuulien vuoksi, ja metsästysvinkkejä tarjoava artikkeli jakaa oppaita siitä, miten hirviä kannattaa jäljittää tehokkaasti.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Neljä seikkailijaa, jotka pyrkivät kiertämään kajakeilla yli 700 kilometriä Kanadan arktisella King William -saarella, ovat joutuneet keskeyttämään matkansa jo 170 kilometrin jälkeen liian kovan tuulen takia. <a href=\"https://explorersweb.com/king-william-island-kayakers-abandon-circumnavigation/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Eläinjälkiä seuraamalla voi löytää isoja hirvisonneja. Jäljittämällä lauman päivittäistä kulkureittiä metsästämättömillä alueilla voi osua suurikokoisille yksilöille. <a href=\"https://www.outdoorlife.com/hunting/how-to-pattern-elk/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1506,
+  "output_tokens": 256,
+  "sources": [
+    {
+      "title": "The Best Swimbaits for Catching Bass",
+      "url": "https://www.outdoorlife.com/gear/best-swimbaits-bass-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Arctic Kayakers Abandon Circumnavigation",
+      "url": "https://explorersweb.com/king-william-island-kayakers-abandon-circumnavigation/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Austrian Alps: 36 Hikers With Babies in Strollers Face Massive Bill After Rescue",
+      "url": "https://explorersweb.com/austrian-alps-36-hikers-with-babies-in-strollers-face-massive-bill-after-rescue/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Tips from an Elk Guide: Learn to Pattern the Herd and You’ll Find Big Bulls",
+      "url": "https://www.outdoorlife.com/hunting/how-to-pattern-elk/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
