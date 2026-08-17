@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-17",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään keskusteltiin Ruotsissa metsästyspolitiikasta Sverigedemokraattien kanssa Gilla jakts Valspecial-sarjassa. Lisäksi Rokslide julkaisi arvion Garmin Xero L60i -etäisyysmittarista, joka voi kiinnostaa metsästyksestä ja uusista teknologioista kiinnostuneita lukijoita.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>Gilla jakt 65 – Valspecial med Sverigedemokraterna</strong>: Gilla jaktan Valspecial-sarjassa julkaistiin kolmas osa, jossa keskustellaan Ruotsidemokraattien Peter Erikssonin kanssa metsästyksestä ja politiikasta. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/gilla-jakt-valspecial-med-sverigedemokraterna/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Garmin Xero L60i Rangefinder Review</strong>: Rokslide on julkaissut arvion Garmin Xero L60i -etäisyysmittarista, joka edustaa uutta teknologiaa metsästykseen. Artikkelissa käsitellään laitteen ominaisuuksia ja vaikutusta metsästäjän kokemukseen. <a href=\"https://www.rokslide.com/garmin-xero-l60i-rangefinder-review/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1526,
+  "output_tokens": 295,
+  "sources": [
+    {
+      "title": "Koulutusta ja uusia ideoita yhdistystoimintaan syksyllä 2026",
+      "url": "https://www.suomenlatu.fi/yhdistystoiminnan-koulutukset-syksylla-2026/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Gilla jakt 65 – Valspecial med Sverigedemokraterna",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/gilla-jakt-valspecial-med-sverigedemokraterna/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Garmin Xero L60i Rangefinder Review",
+      "url": "https://www.rokslide.com/garmin-xero-l60i-rangefinder-review/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "This Angler Caught 2,000 Bass Each Season by Fishing ‘the Old Way’",
+      "url": "https://www.outdoorlife.com/fishing/bass-fishing-the-old-way/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
