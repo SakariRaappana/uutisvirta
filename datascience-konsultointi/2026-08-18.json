@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-18",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Microsoft Foundry on julkaissut viisi uutta Claude-agentin ominaisuutta, mikä laajentaa sen kyvykkyyttä tekoälyratkaisujen luomisessa. Lisäksi agenttimallien siirtyminen pilottivaiheesta tuotantoon korostaa hallintokysymysten merkitystä.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Viisi uutta Claude-ominaisuutta nyt saatavilla Microsoft Foundryssa</h3>\n<p>Microsoft Foundryssa on julkaistu viisi uutta ominaisuutta, jotka parantavat Claude-agenttien toimintakykyä. Nämä ominaisuudet mahdollistavat muiden muassa agenttien tehokkaamman yhteistoiminnan ja autonomisuuden. Uudistukset liittyvät myös agenttien kykyyn käsitellä monimutkaisia tehtäviä itsenäisesti, mikä parantaa järjestelmien joustavuutta. Tekoälyagenttien käyttöönottoon liittyy haasteita, kuten datan laadun varmistaminen ja oikea-aikaiset päivitykset, mutta uudet ominaisuudet helpottavat näiden haasteiden voittamista. Microsoft Foundryn päivitykset tukevat innovaatioita alustoilla, kuten Azure AI Foundry, mahdollistaen tehokkaammat ja skaalautuvammat tekoälyratkaisut. <strong><a href=\"https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Agenttien siirtyessä pilottivaiheesta tuotantoon, tekoälyhallinta nousee esiin keskeisenä kysymyksenä, paljastaa THE Journalin tuore kysely. Hallintokäytännöt korostuvat erityisesti agenttien roolin kasvaessa tuotantoympäristöissä. <a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWWplY0NMSjJuanFJVUdKcFE5SDBuaUwwZFpjYUJ5ODl5UmQzdzQxZ3RJV0JKdDljVm44T2lzTlJNQnE5WXk5OEZLUzNzVlRrSzlfQThwSmc1elo3a3MwdkN2dGkzNGhwS0Y3bHJpcVdLeS16ZVl5eFF0bUFuM2VNakRSR3BBbDhLelpqVnlES1F5VGl6U29GLUpUUzN3MmhZOVlwRDJKaXl1UzdWWTVsM2w0TlVKcC1QUXdsZ0FsRUJack13S3otSUxraFZJQ0MxT1Q3MHRB?oc=5\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2058,
+  "output_tokens": 627,
+  "sources": [
+    {
+      "title": "From single call to agents: five new Claude capabilities now available in Microsoft Foundry",
+      "url": "https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "What Flock’s defenders are missing",
+      "url": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Survey: Agentic AI Moves from Pilot Phase to Production, Bringing Governance to the Forefront - THE Journal: Technological Horizons in Education",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWWplY0NMSjJuanFJVUdKcFE5SDBuaUwwZFpjYUJ5ODl5UmQzdzQxZ3RJV0JKdDljVm44T2lzTlJNQnE5WXk5OEZLUzNzVlRrSzlfQThwSmc1elo3a3MwdkN2dGkzNGhwS0Y3bHJpcVdLeS16ZVl5eFF0bUFuM2VNakRSR3BBbDhLelpqVnlES1F5VGl6U29GLUpUUzN3MmhZOVlwRDJKaXl1UzdWWTVsM2w0TlVKcC1QUXdsZ0FsRUJack13S3otSUxraFZJQ0MxT1Q3MHRB?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "The Download: dead robot friends and the “censorship-industrial complex”",
+      "url": "https://www.technologyreview.com/2026/08/17/1142175/the-download-dead-robot-friends-censorship-industrial-complex/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "How much hydrogen awaits us underground?",
+      "url": "https://www.technologyreview.com/2026/08/17/1141560/how-much-hydrogen-awaits-underground/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "What happens when a kid’s robot best friend dies?",
+      "url": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "From single call to agents: five new Claude capabilities now available in Microsoft Foundry",
+      "source_name": "Microsoft Foundry Blog",
+      "source_url": "https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry/",
+      "published_at": "2026-08-17T19:20:07+00:00",
+      "summary": "Structured outputs, web search, web fetch, MCP connector, and tool search are now available for Claude models hosted on Azure in Microsoft Foundry, turning a model endpoint into a production agent platform.\nThe post From single call to agents: five new Claude capabilities now available in Microsoft ",
+      "why_relevant": "Microsoft Foundrystä tuli käytännössä vahvempi agenttialusta, kun Claude-malleille avattiin structured outputs, web search/fetch, MCP-connector ja tool search — tämä vaikuttaa suoraan siihen, miten voit rakentaa tuotantokelpoisia agentteja Azure-ekosysteemissä.",
+      "homepage_eligible": true,
+      "homepage_score": 88,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 4,
+      "novelty": 5,
+      "event_key": "microsoft-foundry-claude-agent-capabilities",
+      "category": "tärkea"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-18",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään ei julkaistu syväanalyysiä vaativia uutisia, mutta lyhyissä maininnoissa käsitellään uusia varustearvosteluja sekä ajankohtaisia metsästysvinkkejä. Aiheet vaihtelevat taktisen haulikkomallin esittelystä peuranmetsästysneuvoihin.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Benelli M2-G1 Tactical Shotgun on esitelty Outdoor Lifessa. Kyseessä on lainvalvontaan suunnattu kaasutoiminen puoliautomaattihaulikko, joka tarjoaa edullisemman vaihtoehdon Benellin ikoniseen M4-malliin verrattuna. <a href=\"https://www.outdoorlife.com/guns/benelli-m2-g1-tactical-shotgun-review/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ankanmetsästyksen ruuhkaisuus on ollut ongelma jo 30 vuotta sitten, ja siihen on perinteisiä ratkaisuja. Outdoor Life jakaa vinkkejä, joita noudattamalla voi suunnata vähemmän käytetyille metsästysalueille, kuten puroille ja pienille joille, välttääkseen väkijoukot. <a href=\"https://www.outdoorlife.com/hunting/tips-for-avoiding-duck-hunting-pressure/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ennen peuranmetsästyskauden alkua kannattaa tutustua kokeneiden metsästäjien vinkkeihin. Outdoor Life on koonnut 35 käytännön neuvoa, jotka on saatu asiantuntevilta metsästäjiltä ympäri maata. <a href=\"https://www.outdoorlife.com/hunting/deer-hunting-tips-wisdom/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Rokslide's Rockcast podcastin uusimmassa jaksossa käsitellään muun muassa muulipeuran etsimistä, eettisiä dilemmoja ja vakautettuja optiikoita. Mukana ovat tunnetut metsästäjät kuten Robbie Denning ja Travis Hobbs. <a href=\"https://www.rokslide.com/a-mule-deer-scout-update-ethical-dilemma-stabilized-optics/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1699,
+  "output_tokens": 472,
+  "sources": [
+    {
+      "title": "The 12 Biggest Bass Ever Caught by Anglers",
+      "url": "https://www.outdoorlife.com/fishing/biggest-bass-of-all-time/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Benelli M2-G1 Tactical Shotgun Review",
+      "url": "https://www.outdoorlife.com/guns/benelli-m2-g1-tactical-shotgun-review/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Duck Hunting Pressure Was a Problem Even 30 Years Ago. Here Are the Time-Tested Secrets to Beating the Crowds",
+      "url": "https://www.outdoorlife.com/hunting/tips-for-avoiding-duck-hunting-pressure/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "35 Nuggets of Deer Hunting Wisdom to Read Before the Season",
+      "url": "https://www.outdoorlife.com/hunting/deer-hunting-tips-wisdom/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "A Mule Deer Scouting Update, Ethical Dilemma, & Stabilized Optics",
+      "url": "https://www.rokslide.com/a-mule-deer-scout-update-ethical-dilemma-stabilized-optics/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Koulutusta ja uusia ideoita yhdistystoimintaan syksyllä 2026",
+      "url": "https://www.suomenlatu.fi/yhdistystoiminnan-koulutukset-syksylla-2026/",
+      "source_name": "Suomen Latu"
+    }
+  ],
+  "homepage_candidates": []
+}
