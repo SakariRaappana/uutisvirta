@@ -1,0 +1,73 @@
+{
+  "date": "2026-08-19",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään esillä ovat olleet eri alojen kysymykset aina poliittisista linjauksista ympäristökysymyksiin. Ruotsissa esitellään Centerpartietin näkemyksiä metsästyksestä, kun taas Yhdysvalloissa keskustellaan ympäristönsuojelun ja kaivostoiminnan suhteista sekä vesilintukannan suojelusta.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Ruotsissa Gilla jakt -sarjan viimeisimmässä osassa keskustellaan Centerpartietin Helena Lindahlin kanssa metsästyksen ja politiikan suhteista. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/gilla-jakt-valspecial-med-centerpartiet/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Yhdysvalloissa vesilinnuston suojelijat onnistuivat vaikuttamaan hallituksen päätöksiin koskien kosteikkosuojelun sääntöjä, vaikka julkinen kommentointimahdollisuus oli lyhyt. <a href=\"https://www.outdoorlife.com/conservation/public-comment-prairie-pothole-ducks/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Trumpin hallinto ehdottaa metsäpaloriskin vuoksi niin sanotun &quot;Roadless Rule&quot; -säännön kumoamista, mutta kriitikot huomauttavat, että teiden määrä voi lisätä metsäpalojen riskiä. <a href=\"https://www.outdoorlife.com/conservation/trump-administration-proposes-to-end-roadless-rule/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Minnesotan kuvernööri Tim Walz asetti toimeenpanomääräyksen, joka estää kiistanalaisen kaivoksen rakentamisen lähellä Boundary Waters -aluetta, ilahduttaen ulkoilma- ja luonnonsuojelijoita. <a href=\"https://www.outdoorlife.com/conservation/walz-executive-order-blocks-boundary-waters-mine/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Pohjois-Tukholman läänissä on havaittu kuusi uutta susipentua, mikä voi johtaa uuden susireviirin muodostumiseen alueella. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/sex-vargvalpar-fodda-i-norra-stockholms-lan/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Erävedet-seminaarissa käsiteltiin vesilintukantojen elvyttämistä yhteistyön keinoin, ja tapahtumaa pidettiin menestyksenä. <a href=\"https://metsastajaliitto.fi/uutiset/eravedet-seminaarista-menestys\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 6,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1978,
+  "output_tokens": 568,
+  "sources": [
+    {
+      "title": "Gilla jakt 66 – Valspecial med Centerpartiet",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/gilla-jakt-valspecial-med-centerpartiet/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Public Comment Periods Don’t Usually Matter Much to the Feds. Duck Hunters Made a Difference Anyway — for Now",
+      "url": "https://www.outdoorlife.com/conservation/public-comment-prairie-pothole-ducks/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "This Rare Marlin Will Likely Shatter Washington State Record",
+      "url": "https://www.outdoorlife.com/fishing/washington-record-striped-marlin/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Citing Wildfire Risk, Trump Administration Proposes to Scrap Entire Roadless Rule. Critics Argue That More Roads Will Lead to More Fires",
+      "url": "https://www.outdoorlife.com/conservation/trump-administration-proposes-to-end-roadless-rule/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "“He’s on Your Bag Cuz!” Watch This Wade Fisherman Fight Off a Shark Attack",
+      "url": "https://www.outdoorlife.com/fishing/wade-fisherman-vs-shark/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Vintage Wildlife Photos: This Grizzly Bear Release Went Horribly Wrong",
+      "url": "https://www.outdoorlife.com/conservation/vintage-wildlife-photos-this-grizzly-bear-release-went-horribly-wrong/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Get Your Little Kid Into Kayak Fishing — the Easy Way",
+      "url": "https://www.outdoorlife.com/fishing/kid-kayak-fishing/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Minnesota Governor Issues Executive Order Blocking Controversial Mine Near the Boundary Waters",
+      "url": "https://www.outdoorlife.com/conservation/walz-executive-order-blocks-boundary-waters-mine/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Sex vargvalpar födda i norra Stockholms län",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/sex-vargvalpar-fodda-i-norra-stockholms-lan/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "The Inside Story of the Trango Towers Link-Up",
+      "url": "https://explorersweb.com/the-inside-story-of-the-trango-towers-link-up/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Vesilintukanta uuteen nousuun yhteistyöllä – Erävedet-seminaarista menestys",
+      "url": "https://metsastajaliitto.fi/uutiset/eravedet-seminaarista-menestys",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "Syksyn aluekokoukset lähestyvät",
+      "url": "https://www.suomenlatu.fi/syksyn-aluekokoukset-lahestyvat/",
+      "source_name": "Suomen Latu"
+    }
+  ],
+  "homepage_candidates": []
+}
