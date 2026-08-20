@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-08-20 — Erä & seikkailu — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,23 +358,23 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
+        <a href="../datascience-konsultointi/index.html"
            >
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
-           >
+        <a href="../era-seikkailu/index.html"
+           class="active">
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
+        <a href="../politiikka/index.html"
            >
           Politiikka
         </a>
@@ -384,194 +384,67 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-08-20</p>
+<div class="day-nav">
+  <span><a href="2026-08-19.html">← 2026-08-19</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Erä & seikkailu</div>
+<h1>2026-08-20</h1>
+<p class="meta">
+  <span>4 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>2351 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Politiikka</div>
-  <h2 class="featured-title">
-    <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxOLTlXWTh6TDhybE1lQ2lUVC0wMXNNZm5obGJha1BJeXQ4TFFPcUdBSy1HWHF5ZkdKajVWbmVYYWs3cDd2eDdWWlMwbkpLYjY3emRQeXBSOHUxM1VfcV9Za3RDQVgwTlh5Mk12aUpsbkp4Ml9LMEdmU3dhUTZWMUhjZFF3Y0Q3dTRDekFXVjJQeUtPZE00VWFHWE9B?oc=5" target="_blank" rel="noopener">Apple announces changes for apps in the European Union - Apple</a>
-  </h2>
-  
-  <div class="featured-why">Apple muuttaa sovellusehtoja EU:ssa, mikä vaikuttaa suoraan digitaalisten palvelujen hinnoitteluun, alustamaksuihin ja siihen, miten EU-sääntely muokkaa sovellustalouden liiketoimintamalleja.</div>
-  
-  <div class="featured-meta">
-    
-    Google News: European Commission · eilen ·
-    <a href="politiikka/2026-08-19.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään uutiskatsauksessa on esillä metsästykseen liittyviä aiheita Pohjois-Amerikasta ja Suomesta. Outdoor Life tarjoaa lukijoille listan Pohjois-Amerikan parhaista metsästyskokemuksista ja antaa vinkkejä valkohäntäpeuran ikääntämiseen. Lisäksi esitellään uutta sadetakkia metsästyskäyttöön ja korostetaan vesilintumetsästyksen vastuullisuutta Suomessa.</p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p><strong>The Ultimate Hunting Bucket List: 10 North American Hunts to Do Before You Die</strong><br />
+Outdoor Life esittelee kymmenen Pohjois-Amerikan metsästyskokemusta, jotka jokaisen metsästystä rakastavan tulisi kokea. Listalla on niin ikonisia kuin harvinaisempia kohteita kokeneille metsästäjille.<br />
+<a href="https://www.outdoorlife.com/hunting/best-north-american-hunts/">Lue lisää</a></p>
+</li>
+<li>
+<p><strong>Experienced Whitetail Hunters Don’t Care About Score. Here’s How to Estimate a Buck’s Age — and Why It Matters</strong><br />
+Valkohäntäpeuran ikääntyminen ei ole tarkkaa tiedettä, mutta Outdoor Life esittää, että se on helpompaa kuin saattaisi luulla. Artikkelissa annetaan neuvoja iän arvioinnissa ja selitetään, miksi se on tärkeää metsästyksen kannalta.<br />
+<a href="https://www.outdoorlife.com/hunting/how-to-age-deer/">Lue lisää</a></p>
+</li>
+<li>
+<p><strong>First Lite Borah Stormshelter Rain Gear Review</strong><br />
+Rokslide arvioi First Lite Borah Stormshelter -sadetakin, joka on suunniteltu metsästyskäyttöön. Hunterien palaute on edistänyt markkinoiden innovaatioita sadevarusteiden osalta.<br />
+<a href="https://www.rokslide.com/first-lite-borah-stormshelter-rain-gear-review/">Lue lisää</a></p>
+</li>
+<li>
+<p><strong>Metsästäjäliitto ja BirdLife Suomi: Kohtuullisuus ja vastuullisuus muistettava vesilintujen metsästyksessä</strong><br />
+Metsästäjäliitto yhteistyössä BirdLife Suomen kanssa korostaa kohtuullisuuden ja vastuullisuuden merkitystä vesilintujen metsästyksessä. Painotus on luonnon monimuotoisuuden ja lintukantojen kestävän kehityksen säilyttämisessä.<br />
+<a href="https://metsastajaliitto.fi/uutiset/kohtuullisuus-ja-vastuullisuus-muistettava-vesilintujen-metsastyksessa">Lue lisää</a></p>
+</li>
+</ul>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (6)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.dw.com/en/icc-slams-us-sanctions-on-court-as-flagrant-attack/a-78437476?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">ICC slams US sanctions on court as 'flagrant attack'</a>
-      </div>
-      
-      <div class="news-card-why">EU:n ja jäsenmaiden tuki ICC:lle suhteessa Yhdysvaltoihin vaikuttaa suoraan oikeusvaltioperiaatteen, ulkopoliittisen yhtenäisyyden ja transatlanttisen jännitteensietokyvyn arviointiin.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        Deutsche Welle · tänään ·
-        <a href="politiikka/2026-08-20.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/gear/best-urchin-baits/" target="_blank" rel="noopener">The Best Urchin Baits, Tested and Reviewed</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/hunting/best-north-american-hunts/" target="_blank" rel="noopener">The Ultimate Hunting Bucket List: 10 North American Hunts to Do Before You Die</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/fishing/frogs-for-smallmouth-bass/" target="_blank" rel="noopener">Live Frogs Were Our Secret Bait for Catching Giant Smallmouth</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/hunting/how-to-age-deer/" target="_blank" rel="noopener">Experienced Whitetail Hunters Don’t Care About Score. Here’s How to Estimate a Buck’s Age — and Why It Matters</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.rokslide.com/first-lite-borah-stormshelter-rain-gear-review/" target="_blank" rel="noopener">First Lite Borah Stormshelter Rain Gear Review</a> <span style="color:var(--muted)">— Rokslide</span></li>
+    
+    <li><a href="https://metsastajaliitto.fi/uutiset/kohtuullisuus-ja-vastuullisuus-muistettava-vesilintujen-metsastyksessa" target="_blank" rel="noopener">Metsästäjäliitto ja BirdLife Suomi: Kohtuullisuus ja  vastuullisuus muistettava vesilintujen metsästyksessä</a> <span style="color:var(--muted)">— Metsästäjäliitto</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry/" target="_blank" rel="noopener">From single call to agents: five new Claude capabilities now available in Microsoft Foundry</a>
-      </div>
-      
-      <div class="news-card-why">Microsoft Foundrystä tuli käytännössä vahvempi agenttialusta, kun Claude-malleille avattiin structured outputs, web search/fetch, MCP-connector ja tool search — tämä vaikuttaa suoraan siihen, miten voit rakentaa tuotantokelpoisia agentteja Azure-ekosysteemissä.</div>
-      
-      <div class="news-card-meta">
-        
-        Microsoft Foundry Blog · 2 pv sitten ·
-        <a href="datascience-konsultointi/2026-08-18.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-  </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-
-
+</details>
 
 
   </main>

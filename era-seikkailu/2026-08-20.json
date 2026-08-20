@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-20",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutiskatsauksessa on esillä metsästykseen liittyviä aiheita Pohjois-Amerikasta ja Suomesta. Outdoor Life tarjoaa lukijoille listan Pohjois-Amerikan parhaista metsästyskokemuksista ja antaa vinkkejä valkohäntäpeuran ikääntämiseen. Lisäksi esitellään uutta sadetakkia metsästyskäyttöön ja korostetaan vesilintumetsästyksen vastuullisuutta Suomessa.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>The Ultimate Hunting Bucket List: 10 North American Hunts to Do Before You Die</strong><br />\nOutdoor Life esittelee kymmenen Pohjois-Amerikan metsästyskokemusta, jotka jokaisen metsästystä rakastavan tulisi kokea. Listalla on niin ikonisia kuin harvinaisempia kohteita kokeneille metsästäjille.<br />\n<a href=\"https://www.outdoorlife.com/hunting/best-north-american-hunts/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Experienced Whitetail Hunters Don’t Care About Score. Here’s How to Estimate a Buck’s Age — and Why It Matters</strong><br />\nValkohäntäpeuran ikääntyminen ei ole tarkkaa tiedettä, mutta Outdoor Life esittää, että se on helpompaa kuin saattaisi luulla. Artikkelissa annetaan neuvoja iän arvioinnissa ja selitetään, miksi se on tärkeää metsästyksen kannalta.<br />\n<a href=\"https://www.outdoorlife.com/hunting/how-to-age-deer/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>First Lite Borah Stormshelter Rain Gear Review</strong><br />\nRokslide arvioi First Lite Borah Stormshelter -sadetakin, joka on suunniteltu metsästyskäyttöön. Hunterien palaute on edistänyt markkinoiden innovaatioita sadevarusteiden osalta.<br />\n<a href=\"https://www.rokslide.com/first-lite-borah-stormshelter-rain-gear-review/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Metsästäjäliitto ja BirdLife Suomi: Kohtuullisuus ja vastuullisuus muistettava vesilintujen metsästyksessä</strong><br />\nMetsästäjäliitto yhteistyössä BirdLife Suomen kanssa korostaa kohtuullisuuden ja vastuullisuuden merkitystä vesilintujen metsästyksessä. Painotus on luonnon monimuotoisuuden ja lintukantojen kestävän kehityksen säilyttämisessä.<br />\n<a href=\"https://metsastajaliitto.fi/uutiset/kohtuullisuus-ja-vastuullisuus-muistettava-vesilintujen-metsastyksessa\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1763,
+  "output_tokens": 588,
+  "sources": [
+    {
+      "title": "The Best Urchin Baits, Tested and Reviewed",
+      "url": "https://www.outdoorlife.com/gear/best-urchin-baits/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Ultimate Hunting Bucket List: 10 North American Hunts to Do Before You Die",
+      "url": "https://www.outdoorlife.com/hunting/best-north-american-hunts/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Live Frogs Were Our Secret Bait for Catching Giant Smallmouth",
+      "url": "https://www.outdoorlife.com/fishing/frogs-for-smallmouth-bass/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Experienced Whitetail Hunters Don’t Care About Score. Here’s How to Estimate a Buck’s Age — and Why It Matters",
+      "url": "https://www.outdoorlife.com/hunting/how-to-age-deer/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "First Lite Borah Stormshelter Rain Gear Review",
+      "url": "https://www.rokslide.com/first-lite-borah-stormshelter-rain-gear-review/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Metsästäjäliitto ja BirdLife Suomi: Kohtuullisuus ja  vastuullisuus muistettava vesilintujen metsästyksessä",
+      "url": "https://metsastajaliitto.fi/uutiset/kohtuullisuus-ja-vastuullisuus-muistettava-vesilintujen-metsastyksessa",
+      "source_name": "Metsästäjäliitto"
+    }
+  ],
+  "homepage_candidates": []
+}

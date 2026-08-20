@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-20",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään tärkeimmissä uutisissa ei ollut syväanalyysejä, mutta lyhyissä maininnoissa korostettiin agenttipohjaisen tekoälyn muovaavan yritysohjelmistojen rakennetta ja luovan mahdollisuuksia kehittyville teknologioille.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p><em>Ei tärkeitä uutisia tänään.</em></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>FII Intitute raportoi, että agenttipohjainen tekoäly muokkaa yritysohjelmistojen rakennetta ja luo uusia mahdollisuuksia kehittyville teknologioille. <a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxOQk05TEN2enY3TTlFVzIyVFcxVGdVR0syRjhWZENVeTQ2dmo4MXM2Q2lDZWdTajZpb1VSMlhYSlF5dGNLY2NCRXFtNG9EdDFtbmYtWmZjWlBpbWVpTGd4MDhmSmc4aUUxck9lRTBTcnZmMWZuYVYtRHEzNjhubG9xdUhsNk9Ddm5CVlEwaUlHX1N2N04zWkZpcjl2WnZKNUFSX1hXbkVhX3NvMVk1Yk13OHZ5dl91M2U3WUtqZHdpbFljWlZJQ1hEdG1RRlpId2ZHSktFTlpKdzN6U2F2R29CdHNNZVZrSUlxZF9SLTNOVzhkNkRIenpRU0djTGlQbzNHUkQ4?oc=5\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1271,
+  "output_tokens": 403,
+  "sources": [
+    {
+      "title": "Breaking The Bundle: Agentic AI is Transforming The Enterprise-Software Stack and it Creates an Opportunity for Emerging Tech Economies - FII Institute",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOQk05TEN2enY3TTlFVzIyVFcxVGdVR0syRjhWZENVeTQ2dmo4MXM2Q2lDZWdTajZpb1VSMlhYSlF5dGNLY2NCRXFtNG9EdDFtbmYtWmZjWlBpbWVpTGd4MDhmSmc4aUUxck9lRTBTcnZmMWZuYVYtRHEzNjhubG9xdUhsNk9Ddm5CVlEwaUlHX1N2N04zWkZpcjl2WnZKNUFSX1hXbkVhX3NvMVk1Yk13OHZ5dl91M2U3WUtqZHdpbFljWlZJQ1hEdG1RRlpId2ZHSktFTlpKdzN6U2F2R29CdHNNZVZrSUlxZF9SLTNOVzhkNkRIenpRU0djTGlQbzNHUkQ4?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "The Download: AI’s self-improvement problem, and what’s driving the heat",
+      "url": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Child-monitoring apps might need a reboot",
+      "url": "https://www.technologyreview.com/2026/08/19/1141623/child-monitoring-apps-need-reboot/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
