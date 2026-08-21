@@ -1,0 +1,108 @@
+{
+  "date": "2026-08-21",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Ruotsissa päätettiin uusista metsästysajoista, mutta hallitus hylkäsi JRF:n esityksen koskien metsäkauriin metsästystä. Lisäksi uusia sääntöjä otettiin käyttöön koskien karhunmetsästykseen liittyvää syöttiä, mikä vaikuttaa metsästyksen valmisteluun. Molemmat päätökset herättävät keskustelua metsästäjien keskuudessa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Uudet metsästysajat päätetty – hallituksen torjuessa JRF:n esityksen</h3>\n<p>Ruotsin hallitus on päättänyt uusista metsästysajoista, mutta se ei hyväksynyt Jägarnas Riksförbundin (JRF) ehdotusta, joka koski metsäkauriin metsäityksen laajentamista. Hallitus perusteli päätöstään sillä, että nykyiset säännökset takaavat riittävän tasapainon metsäkauriin kannan hallinnassa. Päätös on saanut JRF:n jäsenten keskuudessa osakseen pettymyksen, sillä he olivat toivoneet joustavoittamista metsäkauriin metsästykseen. Uudet metsästysajat tulevat vaikuttamaan erityisesti niihin metsästäjiin, jotka ovat erikoistuneet metsäkauriin metsästykseen. Nykyiset käytännöt säilyvät, ja metsästyksen valvonnan resursseja pyritään kohdentamaan tehokkaammin. <strong><a href=\"https://www.jaktojagare.se/kategorier/nyheter/nya-jakttider-beslutade-regeringen-sager-nej-till-jrfs-kronhjortsforslag/\">Lue alkuperäinen →</a></strong></p>\n<h3>Uudet säännöt karhunmetsästyksen syötistä</h3>\n<p>Karhunmetsästykseen liittyvät säädökset ovat muuttuneet, ja uudet säännöt karhuansan käytöstä ovat astumassa voimaan. Metsästäjien on tärkeä ottaa huomioon nämä muutokset ennen karhunmetsästyksen kauden alkamista. Uudet säännöt koskevat erityisesti syöttien määrää ja sijoittelua sekä niihin liittyviä raportointivelvoitteita. Sääntömuutokset on tehty parantamaan metsästyksen turvallisuutta ja karhukannan kestävää hallintaa. Tämä vaikuttaa metsästyskauden valmisteluihin ja vaatii metsästäjiltä huolellista sääntötuntemusta. <strong><a href=\"https://www.jaktojagare.se/kategorier/nyheter/nya-regler-infor-bjornpremiaren-det-har-maste-du-veta-om-bjornateln/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Keskustelu karhujen metsästämisestä pienillä patruunoilla ja niiden vaikuttavuudesta on herättänyt kiinnostusta Alaskassa. <a href=\"https://www.outdoorlife.com/hunting/shooting-big-bears-with-small-cartridges/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Nyt on oikea aika tehdä hirville keinotekoisia kaapimia, ja tässä ohjeet niiden valmistamiseen ja käyttöön. <a href=\"https://www.outdoorlife.com/hunting/mock-scrapes-for-deer/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kiinalainen kiipeilijä Taozhu Zhou tutkii vähän tunnettuja vuoristoketjuja Luoteis-Kiinassa vuosia kestävässä projektissaan. <a href=\"https://explorersweb.com/exploratory-mountaineering-in-chinas-northwest/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Neljä metsästäjää seurasi jättimäistä muulihirven sarvipääurosa Brittiläisen Kolumbian syrjäisellä saarella. <a href=\"https://www.outdoorlife.com/hunting/we-hunted-a-giant-mule-deer-buck-on-a-remote-island/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Frank Wolf ja Alex Kozma melovat 1 200 km pituisen matkan Kanadan erämaassa, Pohjois-Länsiterritorioilla ja Yukonissa. <a href=\"https://explorersweb.com/on-the-trail-of-the-mad-trapper-paddling-1200km-through-canada/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ljungbyn keskusta muuttuu vilkkaaksi tapahtumapaikaksi metsästyksen ja luonnon ystäville 29. elokuuta. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/jakt-och-skog-tar-over-ljungby-centrum/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Viltvårdsfondin avustushakemukset on avattu vuodelle 2027, ja jaossa on enintään 14,5 miljoonan Ruotsin kruunun avustukset. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/145-miljoner-ur-viltvardsfonden-nu-oppnar-ansokan-for-2027/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 9,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 4254,
+  "output_tokens": 1122,
+  "sources": [
+    {
+      "title": "Ohio Man Is Ordered to Post TikTok Apology After Poaching Conviction. He Had Been “Bragging About His Hunting Skills” on Social Media",
+      "url": "https://www.outdoorlife.com/conservation/poaching-tiktok-case/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Truth About Shooting Big Bears with Small Cartridges",
+      "url": "https://www.outdoorlife.com/hunting/shooting-big-bears-with-small-cartridges/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Eat in the Backcountry — Without Blowing Up Your Stomach",
+      "url": "https://www.outdoorlife.com/adventure/how-to-eat-backcountry/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Deer Hunters Should Be Making Mock Scrapes Right Now. Here’s How to Do It",
+      "url": "https://www.outdoorlife.com/hunting/mock-scrapes-for-deer/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Exploratory Mountaineering in China's Northwest",
+      "url": "https://explorersweb.com/exploratory-mountaineering-in-chinas-northwest/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "We Hunted a Giant Mule Deer Buck on a Remote Island",
+      "url": "https://www.outdoorlife.com/hunting/we-hunted-a-giant-mule-deer-buck-on-a-remote-island/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Nya jakttider beslutade – regeringen säger nej till JRF:s kronhjortsförslag",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/nya-jakttider-beslutade-regeringen-sager-nej-till-jrfs-kronhjortsforslag/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "These 2 Record Whitetail Bucks Changed Bowhunting Forever",
+      "url": "https://www.outdoorlife.com/hunting/vanlith-buck-kontras-buck/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Nya regler inför björnpremiären – det här måste du veta om björnåteln",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/nya-regler-infor-bjornpremiaren-det-har-maste-du-veta-om-bjornateln/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "On The Trail of the Mad Trapper: Paddling 1,200km Through Canada",
+      "url": "https://explorersweb.com/on-the-trail-of-the-mad-trapper-paddling-1200km-through-canada/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Jakt och skog tar över Ljungby centrum",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/jakt-och-skog-tar-over-ljungby-centrum/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "14,5 miljoner ur Viltvårdsfonden – nu öppnar ansökan för 2027",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/145-miljoner-ur-viltvardsfonden-nu-oppnar-ansokan-for-2027/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Nya jakttider beslutade – regeringen säger nej till JRF:s kronhjortsförslag",
+      "source_name": "Jakt & Jägare",
+      "source_url": "https://www.jaktojagare.se/kategorier/nyheter/nya-jakttider-beslutade-regeringen-sager-nej-till-jrfs-kronhjortsforslag/",
+      "published_at": "2026-08-20T14:46:10+00:00",
+      "summary": "Regeringen har beslutat om nya jakttider som innebär mer jakt på flera arter och utökad skyddsjakt på bland annat skarv och säl. Samtidigt går regeringen emot Naturvårdsverket på flera punkter. En av dem gäller kronhjorten: förslaget om att tillåta jakt med hund på kronhind och kronkalv under septem",
+      "why_relevant": "Uudet jakttajat vaikuttavat suoraan omiin metsästyskäytäntöihisi, etenkin jos seuraat riistalajeja, lupia ja sääntelyn muutoksia Suomessa.",
+      "homepage_eligible": true,
+      "homepage_score": 88,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 4,
+      "event_key": "sweden-new-hunting-seasons-2026",
+      "category": "tärkea"
+    },
+    {
+      "title": "Nya regler inför björnpremiären – det här måste du veta om björnåteln",
+      "source_name": "Jakt & Jägare",
+      "source_url": "https://www.jaktojagare.se/kategorier/nyheter/nya-regler-infor-bjornpremiaren-det-har-maste-du-veta-om-bjornateln/",
+      "published_at": "2026-08-20T13:15:00+00:00",
+      "summary": "På fredag startar årets licensjakt på björn. Totalt får 394 björnar fällas i sju län. Inför årets jakt finns dessutom nya nationella regler för åtling och åteljakt. Bland annat måste björnåteln anmälas i förväg och särskilda avstånd gäller till bostäder, vägar och vandringsleder.",
+      "why_relevant": "Björnin licenssijakoon liittyvät uudet åtel- ja ilmoitusvaatimukset ovat suoraan hyödyllisiä, jos seuraat pohjoisen suurpetopyynnin käytäntöjä tai tuotat siitä sisältöä.",
+      "homepage_eligible": true,
+      "homepage_score": 82,
+      "keep_days": 3,
+      "personal_relevance": 4,
+      "strategic_importance": 4,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "sweden-bear-hunting-baiting-rules",
+      "category": "tärkea"
+    }
+  ]
+}

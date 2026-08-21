@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-21",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään ei ollut merkittäviä uutisia tekoälyagenttien, Microsoftin Azure-ekosysteemin tai EU ja finanssialan sääntelypäivityksistä. Nyt tarkastelemme, miten markkinamallit voivat paljastaa piilotettuja tulovirtoja liiketoiminnassa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Markkinamallit voivat auttaa yrityksiä löytämään piilotettuja tulovirtoja, erityisesti monimutkaisissa liiketoiminnoissa, kuten lentoyhtiöissä, jotka kuljettavat päivittäin kymmeniä tuhansia matkustajia sadoilla lennoilla. <a href=\"https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1026,
+  "output_tokens": 189,
+  "sources": [
+    {
+      "title": "Debates over AI consciousness are a trap",
+      "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: polycrisis support networks and a hydrogen gold rush",
+      "url": "https://www.technologyreview.com/2026/08/20/1142579/the-download-polycrisis-support-networks-underground-hydrogen-gold-rush/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The next big thing in hydrogen could be underground",
+      "url": "https://www.technologyreview.com/2026/08/20/1142512/geologic-hydrogen-hunt/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Unlocking hidden revenue streams with market models",
+      "url": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Support networks aim to help kids through the polycrisis",
+      "url": "https://www.technologyreview.com/2026/08/20/1141686/support-networks-help-kids-polycrisis/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
