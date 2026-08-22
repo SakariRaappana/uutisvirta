@@ -1,0 +1,63 @@
+{
+  "date": "2026-08-22",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Utahissa on havaittu merkittävä visenttien kuoleminen keuhkokuumeen vuoksi, mikä on johtanut hätämuutoksiin osavaltion metsästyslainkäytössä. Drought-olosuhteiden takia myönnetään enemmän naaraseläintunnisteita hirville helpottamaan kantaongelmia. Lisäksi ilmoituksia hirvijahdista ja palkitusta retkeilykohteesta nostavat esiin meneillään olevia muutoksia ja saavutuksia luonnon- ja metsästyksen hallinnassa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Visenttien joukkokuolema aiheuttaa hätämuutoksia Utahin metsästykseen</h3>\n<p>Utahissa metsästysvuoden 2026 uusille visenttimetsästysluville myönnettyä suunnitelmaa on peruttu vuodelle 2027. Syy tälle on visenttilauman tuhoisa keuhkokuume-epidemia, joka tapahtui heinäkuun lopulla. Utahin eläinresursseista vastaava yksikkö raportoi merkittävästä kuolemasta, ja tutkijoiden mukaan tällainen tapahtuma on ennennäkemätön. Tautitilanne on muuttanut metsästyksen hallintoa, ja samanaikaisesti kuivuusolosuhteet ovat johtaneet nautaeläinten naaraskuarttien lisäykseen, jotta riistanhoidollisia ongelmia voidaan lievittää. Tämä ratkaisu tähtää metsästys- ja luonnonvarojen parempaan tasapainottamiseen Utahissa. <strong><a href=\"https://www.outdoorlife.com/hunting/bison-die-off-utah/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Äänenvaimentimien myynti on lisääntynyt sääntelyn purkamisen jälkeen, mutta kauppiaat odottavat yhä liittovaltion ohjeistusta. <a href=\"https://www.outdoorlife.com/guns/suppressor-deregulation-chaos/\">Lue lisää</a></li>\n<li>Yleisradio tässä: Viittaus vanhan ajan pesukarhunmetsästykseen koirien kanssa. <a href=\"https://www.outdoorlife.com/hunting/old-days-raccoon-hunting/\">Lue lisää</a></li>\n<li>Trumpin hallinto aikoo höllentää matkustussääntöjä kansallisissa metsissä lisäten pääsyä moottoriajoneuvoille ja e-pyörille. <a href=\"https://www.outdoorlife.com/conservation/forest-service-travel-management-revisions/\">Lue lisää</a></li>\n<li>Ala-Satakunnan Retkeilijät palkittiin Koskeljärven retkeilykohteen säilyttämisestä. <a href=\"https://www.suomenlatu.fi/ala-satakunnan-retkeilijat-palkittiin-koskeljarven-retkeilykohteen-pelastamisesta/\">Lue lisää</a></li>\n<li>Nuorten hirvijahti tulee taas – ilmoittautuminen tapahtumaan on nyt auki. <a href=\"https://metsastajaliitto.fi/uutiset/nuorten-hirvijahti-tulee-taas-ilmoittautuminen-nyt-auki\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 6,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2811,
+  "output_tokens": 700,
+  "sources": [
+    {
+      "title": "‘Unlike Anything Our Biologists Have Witnessed.’ Bison Die-Off Causes Emergency Changes for Utah Hunt. Meanwhile, Drought Conditions Mean More Cow Elk Tags",
+      "url": "https://www.outdoorlife.com/hunting/bison-die-off-utah/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "‘Confusing for Everyone.’ Suppressor Sales Boom Even as Many Gun Shops Wait for Federal Guidance After Deregulation Ruling",
+      "url": "https://www.outdoorlife.com/guns/suppressor-deregulation-chaos/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Ocean Rowing Roundup for August",
+      "url": "https://explorersweb.com/ocean-rowing-roundup-for-august-4/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "A Look Back on the Good Old Days of Raccoon Hunting With Hounds",
+      "url": "https://www.outdoorlife.com/hunting/old-days-raccoon-hunting/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Trump Administration Plans to Relax Travel Rules on National Forests. Increased Access for Motorized Vehicles and E-Bikes Is Likely to Follow",
+      "url": "https://www.outdoorlife.com/conservation/forest-service-travel-management-revisions/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Rookie Anglers Hate Old-School Bass Lures — But These 3 Cheap Baits Still Catch Fish Like Crazy",
+      "url": "https://www.outdoorlife.com/fishing/old-bass-lures/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Ala-Satakunnan Retkeilijät palkittiin Koskeljärven retkeilykohteen pelastamisesta",
+      "url": "https://www.suomenlatu.fi/ala-satakunnan-retkeilijat-palkittiin-koskeljarven-retkeilykohteen-pelastamisesta/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Suomen Latu mukana vaalikeskustelussa – Yhdessä vai yksin: Miten rakennamme hyvinvoivaa Suomea?",
+      "url": "https://www.suomenlatu.fi/suomen-latu-mukana-vaalikeskustelussa-yhdessa-vai-yksin-miten-rakennamme-hyvinvoivaa-suomea/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Nuorten hirvijahti tulee taas – ilmoittautuminen on nyt auki",
+      "url": "https://metsastajaliitto.fi/uutiset/nuorten-hirvijahti-tulee-taas-ilmoittautuminen-nyt-auki",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "Satoarvio 2026: Ruissato jäämässä pieneksi, herne uuteen ennätykseen",
+      "url": "https://www.luke.fi/fi/uutiset/satoarvio-2026-ruissato-jaamassa-pieneksi-herne-uuteen-ennatykseen",
+      "source_name": "Luonnonvarakeskus (Luke)"
+    }
+  ],
+  "homepage_candidates": []
+}
