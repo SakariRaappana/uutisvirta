@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-08-23 — Politiikka — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,24 +358,24 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
+        <a href="../datascience-konsultointi/index.html"
            >
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
+        <a href="../era-seikkailu/index.html"
            >
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
-           >
+        <a href="../politiikka/index.html"
+           class="active">
           Politiikka
         </a>
         
@@ -384,178 +384,124 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-08-23</p>
+<div class="day-nav">
+  <span><a href="2026-08-22.html">← 2026-08-22</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Politiikka</div>
+<h1>2026-08-23</h1>
+<p class="meta">
+  <span>12 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>3325 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Erä & seikkailu</div>
-  <h2 class="featured-title">
-    <a href="https://www.jaktojagare.se/kategorier/nyheter/nya-jakttider-beslutade-regeringen-sager-nej-till-jrfs-kronhjortsforslag/" target="_blank" rel="noopener">Nya jakttider beslutade – regeringen säger nej till JRF:s kronhjortsförslag</a>
-  </h2>
-  
-  <div class="featured-why">Uudet jakttajat vaikuttavat suoraan omiin metsästyskäytäntöihisi, etenkin jos seuraat riistalajeja, lupia ja sääntelyn muutoksia Suomessa.</div>
-  
-  <div class="featured-meta">
-    
-    Jakt & Jägare · 2 pv sitten ·
-    <a href="era-seikkailu/2026-08-21.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Kazakhstanin tulevaisuus suurvaltojen välissä, Kanadan ja Yhdysvaltojen kauppakiista sekä Ranskan tuki Ukrainalle ovat keskiössä tämän päivän uutisissa. Lisäksi Ranskan Karibialla paljastuvat orjien haudat ja Venäjän iskut Ukrainassa korostavat alueellisia jännitteitä.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p>Kazakstanin presidentin asema korostuu maan tasapainoillessa EU:n, Venäjän ja Kiinan välillä vaalien jälkeen. <a href="https://www.dw.com/en/kazakhstan-s-future-after-the-elections-russia-eu-or-china/a-78449637?maca=en-rss-en-all-1573-rdf">Lue lisää</a></p>
+</li>
+<li>
+<p>Kanadan ja Yhdysvaltojen väliset kauppaneuvottelut ovat epäonnistuneet, ja Kanada aikoo ottaa käyttöön vastatulleja. <a href="https://www.dw.com/en/canada-to-hit-back-with-retaliatory-tariffs-after-us-trade-talks-fail/a-78471618?maca=en-rss-en-all-1573-rdf">Lue lisää</a></p>
+</li>
+<li>
+<p>Ranskan Karibialla merenpinnan nousu paljastaa ja tuhoaa orjahaudat. <a href="https://www.rfi.fr/en/france/20260822-eroding-coastlines-unearth-and-destroy-slave-graves-in-french-caribbean">Lue lisää</a></p>
+</li>
+<li>
+<p>Kanada lupaa vastata Yhdysvaltojen 50% tullimaksuihin, mikä saattaa aiheuttaa poliittista jännitystä perinteisten liittolaisten välillä. <a href="https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail">Lue lisää</a></p>
+</li>
+<li>
+<p>Ranskan presidentti Macron ilmoitti, että Ranska toimittaa uusia ohjuksia Ukrainalle Venäjän iskujen jälkeen. <a href="https://www.rfi.fr/en/international/20260822-france-to-send-interceptor-missiles-to-ukraine-after-russian-strikes">Lue lisää</a></p>
+</li>
+<li>
+<p>Ranska toimittaa Ukrainalle ohjuksia Venäjän uusien iskujen vuoksi, Macron kertoo. <a href="https://www.france24.com/en/france-to-deliver-interceptor-missiles-to-ukraine-after-fresh-wave-of-russian-strikes">Lue lisää</a></p>
+</li>
+<li>
+<p>Entiset diplomaattit kehottaa Ranskaa ja Iso-Britanniaa toimimaan kansainvälisen lain puolustamiseksi Palestiinan alueilla. <a href="https://www.rfi.fr/en/international/20260822-former-envoys-urge-joint-french-uk-action-on-palestinian-territories">Lue lisää</a></p>
+</li>
+<li>
+<p>Venäjän iskut Ukrainan presidentin kotikaupunkiin ovat aiheuttaneet kuolonuhreja ja loukkaantuneita. <a href="https://www.france24.com/en/children-among-wounded-in-zelensky-s-hometown-struck-by-russian-drones">Lue lisää</a></p>
+</li>
+<li>
+<p>Venäjän iskut Ukrainassa johtivat 15 kuolemaan ja 130 loukkaantumiseen Zelenskyin kotikaupungissa. <a href="https://www.france24.com/en/russian-strikes-zelensky-s-hometown-in-ukraine-killing-15-people-wounding-130">Lue lisää</a></p>
+</li>
+<li>
+<p>Saksa sopii kuolemantapauksista Ukrainassa, johon Venäjän uudet iskut kohdistuivat. <a href="https://www.dw.com/en/ukraine-russia-steps-up-attacks-as-german-foreign-minister-johan-wadephul-visits-kyiv/a-78467414?maca=en-rss-en-all-1573-rdf">Lue lisää</a></p>
+</li>
+<li>
+<p>Trumpin Kanadan kanssa neuvottelema kauppasopimus kaatui, ja 50 % tullit Kanadan tuotteille astuvat voimaan. <a href="https://www.politico.com/news/2026/08/22/canada-us-trade-deal-tariffs-01046723?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää</a></p>
+</li>
+<li>
+<p>Ranskan Macron ilmoitti ohjustoimituksista Ukrainalle Venäjän uusien iskujen jälkeen. <a href="https://www.france24.com/en/europe/20260822-russian-strikes-in-ukraine-kill-at-least-two-people-injure-several-others">Lue lisää</a></p>
+</li>
+</ul>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (26)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.jaktojagare.se/kategorier/nyheter/nya-regler-infor-bjornpremiaren-det-har-maste-du-veta-om-bjornateln/" target="_blank" rel="noopener">Nya regler inför björnpremiären – det här måste du veta om björnåteln</a>
-      </div>
-      
-      <div class="news-card-why">Björnin licenssijakoon liittyvät uudet åtel- ja ilmoitusvaatimukset ovat suoraan hyödyllisiä, jos seuraat pohjoisen suurpetopyynnin käytäntöjä tai tuotat siitä sisältöä.</div>
-      
-      <div class="news-card-meta">
-        
-        Jakt & Jägare · 2 pv sitten ·
-        <a href="era-seikkailu/2026-08-21.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.dw.com/en/ukraine-could-ex-defense-minister-challenge-zelenskyy/a-78469496?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Ukraine: Could ex-defense minister challenge Zelenskyy?</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/mexican-governor-facing-us-drug-charges-says-leaving-office/a-78473557?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Mexican governor facing US drug charges says leaving office</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/kazakhstan-s-future-after-the-elections-russia-eu-or-china/a-78449637?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Kazakhstan's future after the elections: Russia, EU or China</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/canada-to-hit-back-with-retaliatory-tariffs-after-us-trade-talks-fail/a-78471618?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Canada to hit back with retaliatory tariffs after US trade talks fail</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/iran-warns-countries-against-joining-us-economic-war/a-78473222?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Iran warns countries against joining US 'economic war'</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/cargo-vessel-sinks-off-indian-coast/a-78472142?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Cargo vessel sinks off Indian coast</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/germany-news-friedrich-merz-visits-area-struck-by-fires/live-78467416?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Germany news: Friedrich Merz visits area struck by fires</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20260822-eroding-coastlines-unearth-and-destroy-slave-graves-in-french-caribbean" target="_blank" rel="noopener">Eroding coastlines unearth and destroy slave graves in French Caribbean</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.dw.com/en/spain-battles-forest-fire-a-short-drive-from-flash-flood/a-78469115?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Spain battles forest fire a short drive from flash flood</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail" target="_blank" rel="noopener">Canada vows ‘dollar for dollar’ response as US puts 50% tariffs on some goods</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260822-france-to-send-interceptor-missiles-to-ukraine-after-russian-strikes" target="_blank" rel="noopener">France to send interceptor missiles to Ukraine after Russian strikes</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/france-to-deliver-interceptor-missiles-to-ukraine-after-fresh-wave-of-russian-strikes" target="_blank" rel="noopener">France to deliver interceptor missiles to Ukraine after fresh wave of Russian strikes</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/chinese-robot-beats-usain-bolt-s-100m-world-record/a-78468749?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Chinese robot beats Usain Bolt's 100m world record</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/aug/22/man-leaves-young-son-mount-fuji-japan" target="_blank" rel="noopener">Man leaves young son on Mount Fuji before ascending Japan’s highest peak</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/culture/20260822-why-palme-d-or-winner-fjord-questions-our-certainties-cristian-mungiu-interview" target="_blank" rel="noopener">Still waters run deep: why Palme d'or winner 'Fjord' questions our certainties</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/video/20260822-antwerp-s-human-zoo-belgium-confronts-shame-of-colonial-past-1" target="_blank" rel="noopener">Antwerp's 'human zoo': Belgium confronts shame of colonial past</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260822-former-envoys-urge-joint-french-uk-action-on-palestinian-territories" target="_blank" rel="noopener">Diplomats urge France and UK to uphold rule of law in Palestinian territories</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20260822-france-s-fontainebleau-forest-reopens-to-public-after-wildfires" target="_blank" rel="noopener">Ravaged by wildfires, France's Fontainebleau forest reopens to public</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/children-among-wounded-in-zelensky-s-hometown-struck-by-russian-drones" target="_blank" rel="noopener">Children among wounded in Zelensky's hometown, struck by Russian drones</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/russian-strikes-zelensky-s-hometown-in-ukraine-killing-15-people-wounding-130" target="_blank" rel="noopener">Russian strikes Zelensky's hometown in Ukraine, killing 15 people, wounding 130</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/india-news-gandhi-s-handwritten-notes-sold-for-1-7-million-at-mumbai-auction/live-78466889?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">India news: Gandhi's handwritten notes sold for $1.7 million at Mumbai auction</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/ukraine-russia-steps-up-attacks-as-german-foreign-minister-johan-wadephul-visits-kyiv/a-78467414?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Ukraine: Russia steps up attacks as German Foreign Minister Johan Wadephul visits Kyiv</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/podcasts/international-report/20260822-turkey-saudi-arabia-and-pakistan-strengthen-ties-as-israel-tensions-rise" target="_blank" rel="noopener">Turkey, Saudi Arabia and Pakistan strengthen ties as Israel tensions rise</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.politico.com/news/2026/08/22/canada-us-trade-deal-tariffs-01046723?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Trump’s trade deal with Canada collapses</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20260822-french-farmers-dip-into-winter-fodder-as-drought-leaves-pastures-bare" target="_blank" rel="noopener">French farmers dip into winter fodder as drought leaves pastures bare</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260822-russian-strikes-in-ukraine-kill-at-least-two-people-injure-several-others" target="_blank" rel="noopener">Macron says France will deliver interceptor missiles to Ukraine after new Russian strikes</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-
-
+</details>
 
 
   </main>

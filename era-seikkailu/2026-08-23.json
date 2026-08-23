@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-23",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään erämaailmassa tutkittiin metsästysasujen merkitystä, erityisesti kuinka tärkeitä maastokuvioidut asut ovat kolmen tärkeimmän riistaeläimen – metson, teeren ja pyyn – kannalta. Lisäksi tarkasteltiin hirvieläinten kykyä havaita värejä.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>Tänään ei tärkeimpiä uutisia.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Hirvieläinten, kuten peurojen, on aiemmin uskottu olevan värisokeita, mutta todellisuudessa ne voivat nähdä joitakin värejä paremmin kuin ihmiset. Tämä voi vaikuttaa metsästäjien valintoihin camo-vaatteiden käytössä. <a href=\"https://www.outdoorlife.com/hunting/what-colors-deer-see/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1426,
+  "output_tokens": 197,
+  "sources": [
+    {
+      "title": "I Floated a Remote Canyon with the ‘Old Guide,’ Hoping to Catch a Muskie. Nobody Thought We’d Survive It",
+      "url": "https://www.outdoorlife.com/adventure/tennessee-float-trip/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "‘We Released It.’ Minnesota Angler Sets Largemouth Bass Record",
+      "url": "https://www.outdoorlife.com/fishing/minnesota-record-largemouth-bass/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Do Hunters Really Need to Wear Camouflage? Here Are the Colors Deer Can See",
+      "url": "https://www.outdoorlife.com/hunting/what-colors-deer-see/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Final Body Found on Broad Peak and Another Death in the Karakoram",
+      "url": "https://explorersweb.com/final-body-found-on-broad-peak-and-another-death-in-the-karakoram/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}
