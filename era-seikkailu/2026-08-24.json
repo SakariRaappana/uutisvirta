@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-24",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa käsitellään 50 erittäin hyvien valkohäntäpeurojen elinalueita, Zeissin uusimpien kiikaritähtäinten arviointia, kokemusta ison peuran missaamisesta sekä Suomen Ladun muistutusta jäsenmaksutietojen päivittämisestä.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>The 50 Places Where Big Bucks Actually Live</strong>: Artikkelissa listataan 50 paikkaa, joista voi löytää suuria valkohäntäpeuroja. Jos olet metsästysreissua suunnittelemassa, nämä kohteet voivat olla oiva lähtökohta. <a href=\"https://www.outdoorlife.com/hunting/big-buck-hotspots/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Zeiss V3 Riflescopes Reviewed</strong>: Rokslide arvioi Zeiss V3 -kiikaritähtäimet Cross Bell Ranch -tilaisuuden pohjalta Oklahomassa. Artikkelissa käsitellään kokemuksia ja tähtäinten ominaisuuksia. <a href=\"https://www.rokslide.com/zeiss-v3-riflescopes-reviewed/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>What It Feels Like to Miss the Biggest Buck of Your Life at 45 Yards — With a Rifle</strong>: Outdoor Life -artikkelissa jaetaan henkilökohtainen kokemus siitä, millaista on menettää iso saalis, kun laukaus menee ohi vain 45 jaardin päästä. Buck fever voi johtaa täydelliseen sulamiseen. <a href=\"https://www.outdoorlife.com/hunting/i-missed-the-biggest-buck/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Vuoden 2027 jäsenmaksutiedot kuntoon 15.11. mennessä</strong>: Suomen Latu muistuttaa yhdistyksiä tarkistamaan ja päivittämään vuoden 2027 jäsenmaksutiedot Yhdistyspolkuun aikavälillä 1.10.–15.11.2026. Jos muutoksia ei ole, vuoden 2026 tiedot siirtyvät automaattisesti. <a href=\"https://www.suomenlatu.fi/vuoden-2027-jasenmaksutiedot-kuntoon-15-11-mennessa/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1726,
+  "output_tokens": 486,
+  "sources": [
+    {
+      "title": "Gilla jakt 67 – Valspecial med Vänsterpartiet",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/gilla-jakt-valspecial-med-vansterpartiet/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "The 50 Places Where Big Bucks Actually Live",
+      "url": "https://www.outdoorlife.com/hunting/big-buck-hotspots/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Zeiss V3 Riflescopes Reviewed",
+      "url": "https://www.rokslide.com/zeiss-v3-riflescopes-reviewed/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "What It Feels Like to Miss the Biggest Buck of Your Life at 45 Yards — With a Rifle",
+      "url": "https://www.outdoorlife.com/hunting/i-missed-the-biggest-buck/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Vuoden 2027 jäsenmaksutiedot kuntoon 15.11. mennessä",
+      "url": "https://www.suomenlatu.fi/vuoden-2027-jasenmaksutiedot-kuntoon-15-11-mennessa/",
+      "source_name": "Suomen Latu"
+    }
+  ],
+  "homepage_candidates": []
+}
