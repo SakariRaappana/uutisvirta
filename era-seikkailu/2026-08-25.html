@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-08-25 — Erä & seikkailu — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,23 +358,23 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
+        <a href="../datascience-konsultointi/index.html"
            >
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
-           >
+        <a href="../era-seikkailu/index.html"
+           class="active">
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
+        <a href="../politiikka/index.html"
            >
           Politiikka
         </a>
@@ -384,194 +384,78 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-08-25</p>
+<div class="day-nav">
+  <span><a href="2026-08-24.html">← 2026-08-24</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Erä & seikkailu</div>
+<h1>2026-08-25</h1>
+<p class="meta">
+  <span>7 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>3868 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Politiikka</div>
-  <h2 class="featured-title">
-    <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNSGg0WElWNVlYakNlRFZwb1lXYmNIckxSeHBNa1haMV8zU2FZZmNMdUJmOUJZMk1kcEY4dDlqQndYY192ZDQ0M05KUE15Qi1yTEI1UHlZdTZSSEp3UEpHR2gtZDl4VGl0UmtVZ0dVdFR4TnVfcVJtWHptQ3NKX2FTWjZqS3MwalB4NjkyR3hGbVhyTUxvSzByRjZqR0xtVVlCOFVsV0s3LV90VUMtRWM4TTk4SWY?oc=5" target="_blank" rel="noopener">Germany and other countries are demanding a more austere EU budget, with cuts of hundreds of billions of euros compared to the European Commission's proposal. - Informat.ro</a>
-  </h2>
-  
-  <div class="featured-why">EU-budjettineuvottelujen kiristyminen voi muuttaa Suomea koskevaa rahoituskehystä, nettomaksutaakkaa ja sitä, mihin yhteisiä varoja seuraavina vuosina ohjataan.</div>
-  
-  <div class="featured-meta">
-    <span class="badge-new">Uusi</span>
-    Google News: EU budget · tänään ·
-    <a href="politiikka/2026-08-25.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään esiteltiin dronien mahdollisuuksia hirvien laskennassa, mutta sääolosuhteet asettavat rajoitteita. Lisäksi julkaistiin arvio vuoden 2026 parhaita metsästystähtäimiä sekä paljastettiin metsästyksen taktiikoita eri artikkeleissa. Jännitystä herättää myös valkoposkihanhen suojametsästyksen alkaminen ja siihen liittyvä webinaari.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>Dronet voivat olla uusi apuväline hirvien laskennassa – mutta sää on ratkaiseva tekijä</h3>
+<p>Ruotsissa on tutkittu dronien käyttöä hirvikannan arvioinnissa, ja alustavat tulokset vaikuttavat lupaavilta. Dronet voivat mahdollistaa aiempaa tarkemman ja kustannustehokkaamman laskennan. Haasteena on kuitenkin sääolosuhteet, jotka voivat rajoittaa dronien käyttöä, sillä esimerkiksi voimakkaat tuulet ja sateet vaikeuttavat tarkkaa kuvaamista ja havainnointia. Tässä vaiheessa kokeiluja jatketaan ja niiden tuloksia seurataan kiinnostuneesti. <strong><a href="https://www.jaktojagare.se/kategorier/nyheter/dronare-kan-bli-nytt-verktyg-for-att-rakna-alg-men-vadret-avgor/">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p>Outdoor Life testasi laajasti 25 metsästystähtäintä, jotka hinnaltaan vaihtelivat 100 dollarista yli 2000 dollariin. <a href="https://www.outdoorlife.com/gear/best-rifle-scopes-for-hunting/">Lue lisää</a></p>
+</li>
+<li>
+<p>Outdoor Life julkaisi artikkelin, jossa paljastettiin 10 taktiikkaa, joilla voit hyödyntää hirvien tekemää kuoren raapimista metsästyksessä. <a href="https://www.outdoorlife.com/hunting/how-to-hunt-buck-rub-lines/">Lue lisää</a></p>
+</li>
+<li>
+<p>Ruotsin Jakt &amp; Jägare käsittelee artikkelissaan vaalivuoden merkitystä metsästäjille ja kannustaa heitä vaikuttamaan metsästysoikeuksiin poliittisesti. <a href="https://www.jaktojagare.se/kategorier/nyheter/kvalet-infor-valet/">Lue lisää</a></p>
+</li>
+<li>
+<p>Jakt &amp; Jägaren haastattelussa poliitikko Erik Ottoson korostaa metsästyksen merkitystä ja sen olevan lähtökohta monille keskusteluille, kuten rovdjur- ja EU-kysymyksille sekä hirvikannan hallinnalle. <a href="https://www.jaktojagare.se/kategorier/nyheter/friheten-att-jaga-ar-utgangspunkten/">Lue lisää</a></p>
+</li>
+<li>
+<p>Outdoor Life jakaa tietoa siitä, miksi yhä useampi valkohäntäpeuran metsästäjä käyttää köysiä hyödykseen luonnollisilla tai tekaistuilla kaapimamerkeillä. <a href="https://www.outdoorlife.com/hunting/rope-scrapes-deer/">Lue lisää</a></p>
+</li>
+<li>
+<p>Valkoposkihanhen suojametsästys käynnistyy pian, ja asiaa käsitellään tarkemmin webinaarissa, johon Metsästäjäliitto kutsuu osallistumaan. <a href="https://metsastajaliitto.fi/uutiset/valkoposkihanhen-suojametsastys-alkaa">Lue lisää</a></p>
+</li>
+</ul>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (11)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.france24.com/en/ukraine-zelensky-asks-for-more-patriot-interceptors-as-civilian-deaths-hit-highest-level-since-2022" target="_blank" rel="noopener">Ukraine: Zelensky asks for more Patriot interceptors as civilian deaths hit highest level since 2022</a>
-      </div>
-      
-      <div class="news-card-why">Venäjän iskut ja Patriot-interceptorien puute vaikuttavat suoraan siihen, miten länsi pystyy ylläpitämään Ukrainan ilmapuolustusta ja millaisia lisätoimia EU:lta ja Naton jäsenmailta voidaan odottaa.</div>
-      
-      <div class="news-card-meta">
-        
-        France 24 — Europe · eilen ·
-        <a href="politiikka/2026-08-24.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/gear/best-rifle-scopes-for-hunting/" target="_blank" rel="noopener">The Best Rifle Scopes for Hunting of 2026, Tested and Reviewed</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
     
-  </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+    <li><a href="https://www.outdoorlife.com/fishing/near-world-record-atlantic-blue-marlin/" target="_blank" rel="noopener">‘I Was Off by Over 300 Pounds.’ This Giant Blue Marlin Is Nearly a World Record</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.jaktojagare.se/kategorier/nyheter/dronare-kan-bli-nytt-verktyg-for-att-rakna-alg-men-vadret-avgor/" target="_blank" rel="noopener">Drönare kan bli nytt verktyg för att räkna älg – men vädret avgör</a>
-      </div>
-      
-      <div class="news-card-why">Tämä voi suoraan muuttaa sitä, miten hirvilaskentoja ja riistaseurantaa kannattaa tehdä Suomessa, koska lämpökameradroneilla saadaan uusi menetelmä eläintiheyksien arviointiin mutta toimivuus riippuu olosuhteista.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        Jakt & Jägare · tänään ·
-        <a href="era-seikkailu/2026-08-25.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/hunting/how-to-hunt-buck-rub-lines/" target="_blank" rel="noopener">10 Secrets for Hunting Buck Rub Lines, from the Deer Hunter Who First Revealed Them</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/opinion/not-all-kids-will-like-hunting/" target="_blank" rel="noopener">Some Kids Just Aren’t Meant to Be Hunters. All Kids Should Still Get the Chance</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.jaktojagare.se/kategorier/nyheter/kvalet-infor-valet/" target="_blank" rel="noopener">Kvalet inför valet</a> <span style="color:var(--muted)">— Jakt & Jägare</span></li>
+    
+    <li><a href="https://www.jaktojagare.se/kategorier/nyheter/friheten-att-jaga-ar-utgangspunkten/" target="_blank" rel="noopener">Friheten att jaga är utgångspunkten</a> <span style="color:var(--muted)">— Jakt & Jägare</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/hunting/rope-scrapes-deer/" target="_blank" rel="noopener">The Truth About Rope Scrapes, One of the Most Useful Tactics in Whitetail Hunting</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/hunting/col-tom-kelly-dove-shoot/" target="_blank" rel="noopener">How the Legend Col. Tom Kelly Taught His Daughter to Shoot Doves</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.jaktojagare.se/kategorier/nyheter/dronare-kan-bli-nytt-verktyg-for-att-rakna-alg-men-vadret-avgor/" target="_blank" rel="noopener">Drönare kan bli nytt verktyg för att räkna älg – men vädret avgör</a> <span style="color:var(--muted)">— Jakt & Jägare</span></li>
+    
+    <li><a href="https://explorersweb.com/the-war-in-ukraine-has-cost-100000-people-their-limbs-now-theyre-learning-to-climb/" target="_blank" rel="noopener">The War in Ukraine Has Cost 100,000 People Their Limbs. Now They’re Learning to Climb</a> <span style="color:var(--muted)">— ExploresWeb</span></li>
+    
+    <li><a href="https://metsastajaliitto.fi/uutiset/valkoposkihanhen-suojametsastys-alkaa" target="_blank" rel="noopener">Valkoposkihanhen suojametsästys alkaa – osallistu webinaariin</a> <span style="color:var(--muted)">— Metsästäjäliitto</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-
-
+</details>
 
 
   </main>

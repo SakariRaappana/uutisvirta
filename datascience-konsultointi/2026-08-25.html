@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-08-25 — Datascience konsultointi — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,23 +358,23 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
-           >
+        <a href="../datascience-konsultointi/index.html"
+           class="active">
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
+        <a href="../era-seikkailu/index.html"
            >
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
+        <a href="../politiikka/index.html"
            >
           Politiikka
         </a>
@@ -384,194 +384,52 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-08-25</p>
+<div class="day-nav">
+  <span><a href="2026-08-22.html">← 2026-08-22</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Datascience konsultointi</div>
+<h1>2026-08-25</h1>
+<p class="meta">
+  <span>2 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>2797 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Politiikka</div>
-  <h2 class="featured-title">
-    <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNSGg0WElWNVlYakNlRFZwb1lXYmNIckxSeHBNa1haMV8zU2FZZmNMdUJmOUJZMk1kcEY4dDlqQndYY192ZDQ0M05KUE15Qi1yTEI1UHlZdTZSSEp3UEpHR2gtZDl4VGl0UmtVZ0dVdFR4TnVfcVJtWHptQ3NKX2FTWjZqS3MwalB4NjkyR3hGbVhyTUxvSzByRjZqR0xtVVlCOFVsV0s3LV90VUMtRWM4TTk4SWY?oc=5" target="_blank" rel="noopener">Germany and other countries are demanding a more austere EU budget, with cuts of hundreds of billions of euros compared to the European Commission's proposal. - Informat.ro</a>
-  </h2>
-  
-  <div class="featured-why">EU-budjettineuvottelujen kiristyminen voi muuttaa Suomea koskevaa rahoituskehystä, nettomaksutaakkaa ja sitä, mihin yhteisiä varoja seuraavina vuosina ohjataan.</div>
-  
-  <div class="featured-meta">
-    <span class="badge-new">Uusi</span>
-    Google News: EU budget · tänään ·
-    <a href="politiikka/2026-08-25.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään keskeisiä uutisia ovat NVIDIA:n ja Intelin kehitys agenttitason tekoälysovelluksissa. NVIDIA on esitellyt merkittävää tehostusta energiatehokkuudessa tekoälytehtävissä, kun taas Intel tuo uusia Crescent Island -GPU:ita, jotka on optimoitu agenttitason tekoälylle.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p>NVIDIA:n Vera Rubin tarjoaa merkittävän 30-kertaisen parannuksen suorituskyvyssä wattia kohden verrattuna Blackwelliin ja 35-kertaisen token-kustannusten alenemisen agenttitason tekoälytehtävissä. <a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLXBXa3lFVkZoc2Z0UFowNU1Ec01BLVUxT2o1UkhhNGJXM1luejNTNHA1bUdwQ3hIY1BDdTNvTkFfNkIwc01WQ0NGYndCa1d0eEg3Q25iN21vdUpRZTdfcjFtRlRfQmgyX2Q5Tnc5Z0ZNTXBLR09UNnRtcVV5WFVUaGVrd2p0dzFHOE9YYlZRdlhfNDBvMU5aY0NWQjl2bmZOTUZGLUwtMzE4eTE1blRseUlrUFYwSzNMZm1mUjFweGNiUdIBxwFBVV95cUxPZEh5S3R6bktzcXlEOFpzZDJNb09BclM2NHpnOFFuYnZlVnhJaDhfUWdfcjdhd1FfQV82a1ZKUGxvQjhVS3VPb0pIbjR0YkFzdW5pMTZTS0NxclE1NXJERTBUN0xnUW1Qa0RKZ0hZenQ0Snl2M3FVa3NReGhZT000d1ZwaURPZk9tSXhiWXZCVFREa09JcHgwTGg0S05EeVkyUTE5dm9iVDV4Tmp1RExMY1J3Wkw3THpMZ1REQ0Q1RTRiUC1YbUNn?oc=5">Lue lisää</a></p>
+</li>
+<li>
+<p>Intel esittelee Crescent Island GPU:t, joissa on jopa 32 Xe3P-ydintä. Nämä ovat optimoitu agenttitason tekoälylle ja hyödyntävät edullista LPDDR5X-muistia, jonka kapasiteetti on jopa 480 gigatavua. <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTVpza2JqTmk2VWxTZU01OXdwQ0lzWTRwYzc1N1ZtOWttU1lkUktmZXR2ZFRmWndleUJCTjB6cVJpWmlOaUJwbFdvMU9IMUtma0tIc2p3bWxiYnpNdkhGTDFOTU1ldmpwak4wVVZQSlJ3WkhndnlIUEZiRGxlaUNCQ09YUzVtZl9LcE5jdVpqZ3ZueG56S29DSGg4WjhhbEJraVFuZzBoWExuUFnSAbABQVVfeXFMTVY1WHRCMTQybGlYUkpCdFZUUXltSDBWUkpQdkdtVEdqUWZxblhjYzFGYlM3MEtzVGlUSUtrQnJ6MV9iZ1pvZlloNHdWXzhLU3RwaU5Sc0FrbmZuU2hLbDJYdWx6UndPQWwwYmplbm1nX1JKVmhlVlJSUzFIX2lUTTJCUEx0LVJmVktYN3BMdVNyR2FDbzVFY2tlT2laNVFSenVvUzdMaHdJbFdkQ3MzNjg?oc=5">Lue lisää</a></p>
+</li>
+</ul>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (5)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.france24.com/en/ukraine-zelensky-asks-for-more-patriot-interceptors-as-civilian-deaths-hit-highest-level-since-2022" target="_blank" rel="noopener">Ukraine: Zelensky asks for more Patriot interceptors as civilian deaths hit highest level since 2022</a>
-      </div>
-      
-      <div class="news-card-why">Venäjän iskut ja Patriot-interceptorien puute vaikuttavat suoraan siihen, miten länsi pystyy ylläpitämään Ukrainan ilmapuolustusta ja millaisia lisätoimia EU:lta ja Naton jäsenmailta voidaan odottaa.</div>
-      
-      <div class="news-card-meta">
-        
-        France 24 — Europe · eilen ·
-        <a href="politiikka/2026-08-24.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLXBXa3lFVkZoc2Z0UFowNU1Ec01BLVUxT2o1UkhhNGJXM1luejNTNHA1bUdwQ3hIY1BDdTNvTkFfNkIwc01WQ0NGYndCa1d0eEg3Q25iN21vdUpRZTdfcjFtRlRfQmgyX2Q5Tnc5Z0ZNTXBLR09UNnRtcVV5WFVUaGVrd2p0dzFHOE9YYlZRdlhfNDBvMU5aY0NWQjl2bmZOTUZGLUwtMzE4eTE1blRseUlrUFYwSzNMZm1mUjFweGNiUdIBxwFBVV95cUxPZEh5S3R6bktzcXlEOFpzZDJNb09BclM2NHpnOFFuYnZlVnhJaDhfUWdfcjdhd1FfQV82a1ZKUGxvQjhVS3VPb0pIbjR0YkFzdW5pMTZTS0NxclE1NXJERTBUN0xnUW1Qa0RKZ0hZenQ0Snl2M3FVa3NReGhZT000d1ZwaURPZk9tSXhiWXZCVFREa09JcHgwTGg0S05EeVkyUTE5dm9iVDV4Tmp1RExMY1J3Wkw3THpMZ1REQ0Q1RTRiUC1YbUNn?oc=5" target="_blank" rel="noopener">NVIDIA Vera Rubin Records A Massive 30x Increase In Throughput Per Watt Than Blackwell While Offering a 35x Token Cost Reduction Across Agentic AI Workloads - Wccftech</a> <span style="color:var(--muted)">— Google News: agentic AI</span></li>
+    
+    <li><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTVpza2JqTmk2VWxTZU01OXdwQ0lzWTRwYzc1N1ZtOWttU1lkUktmZXR2ZFRmWndleUJCTjB6cVJpWmlOaUJwbFdvMU9IMUtma0tIc2p3bWxiYnpNdkhGTDFOTU1ldmpwak4wVVZQSlJ3WkhndnlIUEZiRGxlaUNCQ09YUzVtZl9LcE5jdVpqZ3ZueG56S29DSGg4WjhhbEJraVFuZzBoWExuUFnSAbABQVVfeXFMTVY1WHRCMTQybGlYUkpCdFZUUXltSDBWUkpQdkdtVEdqUWZxblhjYzFGYlM3MEtzVGlUSUtrQnJ6MV9iZ1pvZlloNHdWXzhLU3RwaU5Sc0FrbmZuU2hLbDJYdWx6UndPQWwwYmplbm1nX1JKVmhlVlJSUzFIX2lUTTJCUEx0LVJmVktYN3BMdVNyR2FDbzVFY2tlT2laNVFSenVvUzdMaHdJbFdkQ3MzNjg?oc=5" target="_blank" rel="noopener">Intel Crescent Island GPUs Pack Up To 32 Xe3P Cores, Optimized For Agentic AI With Low-Cost LPDDR5X That Reaches Up To 480 GB Capacity - Wccftech</a> <span style="color:var(--muted)">— Google News: agentic AI</span></li>
+    
+    <li><a href="https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/" target="_blank" rel="noopener">How to encourage smarter AI use in the classroom</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
+    
+    <li><a href="https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/" target="_blank" rel="noopener">The Download: kids outlearning AI, and space travel agents</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
+    
+    <li><a href="https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/" target="_blank" rel="noopener">Kids outlearn AI—and we still don’t know why</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.jaktojagare.se/kategorier/nyheter/dronare-kan-bli-nytt-verktyg-for-att-rakna-alg-men-vadret-avgor/" target="_blank" rel="noopener">Drönare kan bli nytt verktyg för att räkna älg – men vädret avgör</a>
-      </div>
-      
-      <div class="news-card-why">Tämä voi suoraan muuttaa sitä, miten hirvilaskentoja ja riistaseurantaa kannattaa tehdä Suomessa, koska lämpökameradroneilla saadaan uusi menetelmä eläintiheyksien arviointiin mutta toimivuus riippuu olosuhteista.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        Jakt & Jägare · tänään ·
-        <a href="era-seikkailu/2026-08-25.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-  </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-
-
+</details>
 
 
   </main>

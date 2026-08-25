@@ -1,0 +1,86 @@
+{
+  "date": "2026-08-25",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään esiteltiin dronien mahdollisuuksia hirvien laskennassa, mutta sääolosuhteet asettavat rajoitteita. Lisäksi julkaistiin arvio vuoden 2026 parhaita metsästystähtäimiä sekä paljastettiin metsästyksen taktiikoita eri artikkeleissa. Jännitystä herättää myös valkoposkihanhen suojametsästyksen alkaminen ja siihen liittyvä webinaari.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Dronet voivat olla uusi apuväline hirvien laskennassa – mutta sää on ratkaiseva tekijä</h3>\n<p>Ruotsissa on tutkittu dronien käyttöä hirvikannan arvioinnissa, ja alustavat tulokset vaikuttavat lupaavilta. Dronet voivat mahdollistaa aiempaa tarkemman ja kustannustehokkaamman laskennan. Haasteena on kuitenkin sääolosuhteet, jotka voivat rajoittaa dronien käyttöä, sillä esimerkiksi voimakkaat tuulet ja sateet vaikeuttavat tarkkaa kuvaamista ja havainnointia. Tässä vaiheessa kokeiluja jatketaan ja niiden tuloksia seurataan kiinnostuneesti. <strong><a href=\"https://www.jaktojagare.se/kategorier/nyheter/dronare-kan-bli-nytt-verktyg-for-att-rakna-alg-men-vadret-avgor/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Outdoor Life testasi laajasti 25 metsästystähtäintä, jotka hinnaltaan vaihtelivat 100 dollarista yli 2000 dollariin. <a href=\"https://www.outdoorlife.com/gear/best-rifle-scopes-for-hunting/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life julkaisi artikkelin, jossa paljastettiin 10 taktiikkaa, joilla voit hyödyntää hirvien tekemää kuoren raapimista metsästyksessä. <a href=\"https://www.outdoorlife.com/hunting/how-to-hunt-buck-rub-lines/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ruotsin Jakt &amp; Jägare käsittelee artikkelissaan vaalivuoden merkitystä metsästäjille ja kannustaa heitä vaikuttamaan metsästysoikeuksiin poliittisesti. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/kvalet-infor-valet/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Jakt &amp; Jägaren haastattelussa poliitikko Erik Ottoson korostaa metsästyksen merkitystä ja sen olevan lähtökohta monille keskusteluille, kuten rovdjur- ja EU-kysymyksille sekä hirvikannan hallinnalle. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/friheten-att-jaga-ar-utgangspunkten/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life jakaa tietoa siitä, miksi yhä useampi valkohäntäpeuran metsästäjä käyttää köysiä hyödykseen luonnollisilla tai tekaistuilla kaapimamerkeillä. <a href=\"https://www.outdoorlife.com/hunting/rope-scrapes-deer/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Valkoposkihanhen suojametsästys käynnistyy pian, ja asiaa käsitellään tarkemmin webinaarissa, johon Metsästäjäliitto kutsuu osallistumaan. <a href=\"https://metsastajaliitto.fi/uutiset/valkoposkihanhen-suojametsastys-alkaa\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 7,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 3097,
+  "output_tokens": 771,
+  "sources": [
+    {
+      "title": "The Best Rifle Scopes for Hunting of 2026, Tested and Reviewed",
+      "url": "https://www.outdoorlife.com/gear/best-rifle-scopes-for-hunting/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "‘I Was Off by Over 300 Pounds.’ This Giant Blue Marlin Is Nearly a World Record",
+      "url": "https://www.outdoorlife.com/fishing/near-world-record-atlantic-blue-marlin/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "10 Secrets for Hunting Buck Rub Lines, from the Deer Hunter Who First Revealed Them",
+      "url": "https://www.outdoorlife.com/hunting/how-to-hunt-buck-rub-lines/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Some Kids Just Aren’t Meant to Be Hunters. All Kids Should Still Get the Chance",
+      "url": "https://www.outdoorlife.com/opinion/not-all-kids-will-like-hunting/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Kvalet inför valet",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/kvalet-infor-valet/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Friheten att jaga är utgångspunkten",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/friheten-att-jaga-ar-utgangspunkten/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "The Truth About Rope Scrapes, One of the Most Useful Tactics in Whitetail Hunting",
+      "url": "https://www.outdoorlife.com/hunting/rope-scrapes-deer/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How the Legend Col. Tom Kelly Taught His Daughter to Shoot Doves",
+      "url": "https://www.outdoorlife.com/hunting/col-tom-kelly-dove-shoot/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Drönare kan bli nytt verktyg för att räkna älg – men vädret avgör",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/dronare-kan-bli-nytt-verktyg-for-att-rakna-alg-men-vadret-avgor/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "The War in Ukraine Has Cost 100,000 People Their Limbs. Now They’re Learning to Climb",
+      "url": "https://explorersweb.com/the-war-in-ukraine-has-cost-100000-people-their-limbs-now-theyre-learning-to-climb/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Valkoposkihanhen suojametsästys alkaa – osallistu webinaariin",
+      "url": "https://metsastajaliitto.fi/uutiset/valkoposkihanhen-suojametsastys-alkaa",
+      "source_name": "Metsästäjäliitto"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Drönare kan bli nytt verktyg för att räkna älg – men vädret avgör",
+      "source_name": "Jakt & Jägare",
+      "source_url": "https://www.jaktojagare.se/kategorier/nyheter/dronare-kan-bli-nytt-verktyg-for-att-rakna-alg-men-vadret-avgor/",
+      "published_at": "2026-08-24T13:24:52+00:00",
+      "summary": "Drönare med värmekamera kan hitta i princip alla älgar i ett område – om förhållandena är de rätta. Det visar den första svenska utvärderingen av metoden. Men sol, vind och tät skog kan ställa till problem och ännu är tekniken inte redo att bli en kvalitetssäkrad inventeringsmetod inom älgförvaltnin",
+      "why_relevant": "Tämä voi suoraan muuttaa sitä, miten hirvilaskentoja ja riistaseurantaa kannattaa tehdä Suomessa, koska lämpökameradroneilla saadaan uusi menetelmä eläintiheyksien arviointiin mutta toimivuus riippuu olosuhteista.",
+      "homepage_eligible": true,
+      "homepage_score": 86,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 4,
+      "actionability": 5,
+      "novelty": 4,
+      "event_key": "drone-thermal-deer-counting-study",
+      "category": "tärkea"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-25",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään keskeisiä uutisia ovat NVIDIA:n ja Intelin kehitys agenttitason tekoälysovelluksissa. NVIDIA on esitellyt merkittävää tehostusta energiatehokkuudessa tekoälytehtävissä, kun taas Intel tuo uusia Crescent Island -GPU:ita, jotka on optimoitu agenttitason tekoälylle.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>NVIDIA:n Vera Rubin tarjoaa merkittävän 30-kertaisen parannuksen suorituskyvyssä wattia kohden verrattuna Blackwelliin ja 35-kertaisen token-kustannusten alenemisen agenttitason tekoälytehtävissä. <a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLXBXa3lFVkZoc2Z0UFowNU1Ec01BLVUxT2o1UkhhNGJXM1luejNTNHA1bUdwQ3hIY1BDdTNvTkFfNkIwc01WQ0NGYndCa1d0eEg3Q25iN21vdUpRZTdfcjFtRlRfQmgyX2Q5Tnc5Z0ZNTXBLR09UNnRtcVV5WFVUaGVrd2p0dzFHOE9YYlZRdlhfNDBvMU5aY0NWQjl2bmZOTUZGLUwtMzE4eTE1blRseUlrUFYwSzNMZm1mUjFweGNiUdIBxwFBVV95cUxPZEh5S3R6bktzcXlEOFpzZDJNb09BclM2NHpnOFFuYnZlVnhJaDhfUWdfcjdhd1FfQV82a1ZKUGxvQjhVS3VPb0pIbjR0YkFzdW5pMTZTS0NxclE1NXJERTBUN0xnUW1Qa0RKZ0hZenQ0Snl2M3FVa3NReGhZT000d1ZwaURPZk9tSXhiWXZCVFREa09JcHgwTGg0S05EeVkyUTE5dm9iVDV4Tmp1RExMY1J3Wkw3THpMZ1REQ0Q1RTRiUC1YbUNn?oc=5\">Lue lisää</a></p>\n</li>\n<li>\n<p>Intel esittelee Crescent Island GPU:t, joissa on jopa 32 Xe3P-ydintä. Nämä ovat optimoitu agenttitason tekoälylle ja hyödyntävät edullista LPDDR5X-muistia, jonka kapasiteetti on jopa 480 gigatavua. <a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTVpza2JqTmk2VWxTZU01OXdwQ0lzWTRwYzc1N1ZtOWttU1lkUktmZXR2ZFRmWndleUJCTjB6cVJpWmlOaUJwbFdvMU9IMUtma0tIc2p3bWxiYnpNdkhGTDFOTU1ldmpwak4wVVZQSlJ3WkhndnlIUEZiRGxlaUNCQ09YUzVtZl9LcE5jdVpqZ3ZueG56S29DSGg4WjhhbEJraVFuZzBoWExuUFnSAbABQVVfeXFMTVY1WHRCMTQybGlYUkpCdFZUUXltSDBWUkpQdkdtVEdqUWZxblhjYzFGYlM3MEtzVGlUSUtrQnJ6MV9iZ1pvZlloNHdWXzhLU3RwaU5Sc0FrbmZuU2hLbDJYdWx6UndPQWwwYmplbm1nX1JKVmhlVlJSUzFIX2lUTTJCUEx0LVJmVktYN3BMdVNyR2FDbzVFY2tlT2laNVFSenVvUzdMaHdJbFdkQ3MzNjg?oc=5\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1853,
+  "output_tokens": 944,
+  "sources": [
+    {
+      "title": "NVIDIA Vera Rubin Records A Massive 30x Increase In Throughput Per Watt Than Blackwell While Offering a 35x Token Cost Reduction Across Agentic AI Workloads - Wccftech",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLXBXa3lFVkZoc2Z0UFowNU1Ec01BLVUxT2o1UkhhNGJXM1luejNTNHA1bUdwQ3hIY1BDdTNvTkFfNkIwc01WQ0NGYndCa1d0eEg3Q25iN21vdUpRZTdfcjFtRlRfQmgyX2Q5Tnc5Z0ZNTXBLR09UNnRtcVV5WFVUaGVrd2p0dzFHOE9YYlZRdlhfNDBvMU5aY0NWQjl2bmZOTUZGLUwtMzE4eTE1blRseUlrUFYwSzNMZm1mUjFweGNiUdIBxwFBVV95cUxPZEh5S3R6bktzcXlEOFpzZDJNb09BclM2NHpnOFFuYnZlVnhJaDhfUWdfcjdhd1FfQV82a1ZKUGxvQjhVS3VPb0pIbjR0YkFzdW5pMTZTS0NxclE1NXJERTBUN0xnUW1Qa0RKZ0hZenQ0Snl2M3FVa3NReGhZT000d1ZwaURPZk9tSXhiWXZCVFREa09JcHgwTGg0S05EeVkyUTE5dm9iVDV4Tmp1RExMY1J3Wkw3THpMZ1REQ0Q1RTRiUC1YbUNn?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "Intel Crescent Island GPUs Pack Up To 32 Xe3P Cores, Optimized For Agentic AI With Low-Cost LPDDR5X That Reaches Up To 480 GB Capacity - Wccftech",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTVpza2JqTmk2VWxTZU01OXdwQ0lzWTRwYzc1N1ZtOWttU1lkUktmZXR2ZFRmWndleUJCTjB6cVJpWmlOaUJwbFdvMU9IMUtma0tIc2p3bWxiYnpNdkhGTDFOTU1ldmpwak4wVVZQSlJ3WkhndnlIUEZiRGxlaUNCQ09YUzVtZl9LcE5jdVpqZ3ZueG56S29DSGg4WjhhbEJraVFuZzBoWExuUFnSAbABQVVfeXFMTVY1WHRCMTQybGlYUkpCdFZUUXltSDBWUkpQdkdtVEdqUWZxblhjYzFGYlM3MEtzVGlUSUtrQnJ6MV9iZ1pvZlloNHdWXzhLU3RwaU5Sc0FrbmZuU2hLbDJYdWx6UndPQWwwYmplbm1nX1JKVmhlVlJSUzFIX2lUTTJCUEx0LVJmVktYN3BMdVNyR2FDbzVFY2tlT2laNVFSenVvUzdMaHdJbFdkQ3MzNjg?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "How to encourage smarter AI use in the classroom",
+      "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: kids outlearning AI, and space travel agents",
+      "url": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Kids outlearn AI—and we still don’t know why",
+      "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
