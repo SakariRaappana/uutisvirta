@@ -1,0 +1,91 @@
+{
+  "date": "2026-08-26",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään esiteltiin Metsästäjäliiton uudet suositukset valkoposkihanhen suojametsästykseen, jotka on suunnattu viljelijöille ja metsästäjille. Lisäksi mainittiin useita lyhytuutisia, kuten kanadalaisen retkikunnan eteneminen valtavassa 8000 km matkassa ja tuleva Nuku yö ulkona -tapahtuma Suomessa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Suositukset valkoposkihanhen suojametsästykseen</h3>\n<p>Metsästäjäliitto on julkaissut uusia suosituksia valkoposkihanhen suojametsästyksen järjestelyihin, joilla pyritään tasapainottamaan viljelijöiden ja metsästäjien tarpeita. Suojametsästys on yleistynyt tavoitteenaan vähentää lintujen aiheuttamaa tuhoa viljelyksille. Suositukset sisältävät toimintamalleja, joiden avulla viljelijät ja metsästäjät voivat yhdessä edistää kestävää ja vastuullista metsästystä. Artikkeli antaa lisäksi ohjeita metsästysten aikatauluttamiseen ja järjestämiseen, ja siinä on linkki Riistakeskuksen usein kysyttyihin kysymyksiin (UKK) sekä tulevaan webinaariin, joka käsittelee aihetta tarkemmin. <strong><a href=\"https://metsastajaliitto.fi/uutiset/suositukset-valkoposkihanhen-suojametsastykseen\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Ruotsalaisen Gilla jakt -ohjelman uusimmassa jaksossa haastatellaan Elin Nilssonia (L) Liberalerna-puolueesta. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/gilla-jakt-valspecial-med-liberalerna/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Off-duty seriffin apulainen Wisconsinista on saanut syytteet, kun hänen tyttärensä ampui vahingossa metsästäjiä luultuaan heitä kalkkunoiksi. <a href=\"https://www.outdoorlife.com/conservation/military-service-hunter-safety-exemption/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Allterra Armsin asetekniikkaa käsittelevässä haastattelussa keskustellaan, miten tarkkaruutiasejärjestelmä ja in-house-valmistus tuovat lisää itsevarmuutta metsästäjille. <a href=\"https://www.rokslide.com/allterra-arms-the-rifle-system-that-turns-one-shot-into-total-confidence/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kanadalainen retkikunta, jonka matka kattaa 8000 km Quebecistä Tyynellemerelle, on edennyt yli puolivälin. <a href=\"https://explorersweb.com/canada-coast-to-coast-team-over-halfway-through-crossing/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Tulevana lauantaina Suomen Ladun Nuku yö ulkona -kampanja tavoittelee 150 000 osallistujaa yli 50 tapahtumassa ympäri maata. <a href=\"https://www.suomenlatu.fi/nuku-yo-ulkona-tulevana-lauantaina-yli-50-tapahtumaa-ja-tavoitteena-150-000-osallistujaa/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 6,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2655,
+  "output_tokens": 731,
+  "sources": [
+    {
+      "title": "Gilla jakt 68 – Valspecial med Liberalerna",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/gilla-jakt-valspecial-med-liberalerna/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Minnesota Man Breaks His Own Record for the State’s Biggest Bowfin",
+      "url": "https://www.outdoorlife.com/fishing/minnesota-record-bowfin/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Should Military Service Exempt You From Passing a Hunter’s Safety Course?",
+      "url": "https://www.outdoorlife.com/conservation/military-service-hunter-safety-exemption/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Bowhunting Shot Placement 101: Where to Aim on a Deer",
+      "url": "https://www.outdoorlife.com/hunting/bowhunting-shot-placement/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Early Season Is Often Your Best Chance to Tag a Mature Buck. Here’s How to Make the Most of It",
+      "url": "https://www.outdoorlife.com/hunting/how-to-hunt-early-season-deer-whitetails/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "This Professor Teaches Bass Fishing at an Ivy League School. Here’s His Lesson Plan",
+      "url": "https://www.outdoorlife.com/fishing/how-to-teach-bass-fishing/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Allterra Arms: The Rifle System That Turns One Shot Into Total Confidence",
+      "url": "https://www.rokslide.com/allterra-arms-the-rifle-system-that-turns-one-shot-into-total-confidence/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Suositukset valkoposkihanhen suojametsästykseen",
+      "url": "https://metsastajaliitto.fi/uutiset/suositukset-valkoposkihanhen-suojametsastykseen",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "Canada Coast-to-Coast Team Over Halfway Through Crossing",
+      "url": "https://explorersweb.com/canada-coast-to-coast-team-over-halfway-through-crossing/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Nuku yö ulkona tulevana lauantaina – yli 50 tapahtumaa ja tavoitteena 150 000 osallistujaa",
+      "url": "https://www.suomenlatu.fi/nuku-yo-ulkona-tulevana-lauantaina-yli-50-tapahtumaa-ja-tavoitteena-150-000-osallistujaa/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Ensimmäiset avovesiuinnin ohjaajat jäsenyhdistyksiin",
+      "url": "https://www.suomenlatu.fi/ensimmaiset-avovesiuinnin-ohjaajat-jasenyhdistyksiin/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Jägarna är samhällets känselspröt",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/jagarna-ar-samhallets-kanselsprot/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Suositukset valkoposkihanhen suojametsästykseen",
+      "source_name": "Metsästäjäliitto",
+      "source_url": "https://metsastajaliitto.fi/uutiset/suositukset-valkoposkihanhen-suojametsastykseen",
+      "published_at": "2026-08-25T09:26:26+00:00",
+      "summary": "Suositukset valkoposkihanhen suojametsästykseen\n\n            Kyllä\n      tero.ylioja@me…\nTi, 25.08.2026 - 12:26\n\n\n              \n\n\n\n      \n            Mitä valkoposkihanhien suojametsästyksessä on otettava huomioon? Tästä artikkelista löydät listan suosituksista järjestelyitä varten. Listassa on esi",
+      "why_relevant": "Valkoposkihanhen suojametsästystä koskevat suositukset voivat vaikuttaa suoraan metsästystapoihin, lupakäytäntöihin ja siihen, miten voit hyödyntää lajin pyyntiä käytännössä.",
+      "homepage_eligible": true,
+      "homepage_score": 86,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 4,
+      "actionability": 5,
+      "novelty": 4,
+      "event_key": "valkoposkihanhi-suojametsastys-suositukset",
+      "category": "tärkea"
+    }
+  ]
+}
