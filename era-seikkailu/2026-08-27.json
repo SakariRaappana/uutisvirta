@@ -1,0 +1,68 @@
+{
+  "date": "2026-08-27",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään erämaailmassa puhuttaa erilaisia aiheita aina metsästyksestä ja varustevinkeistä karuun todellisuuteen vargangreppien kanssa. Tämän päivän uutisista löytyy vinkkejä metsästyssovelluksiin, uhkia kotieläimille susihyökkäysten myötä sekä keskustelua metsästyspolitiikasta ja varainjaosta.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Tarkentamalla kiikaritähtäimen okulaaria voi parantaa kuvaa entisestään tehokkaasti. Artikkelissa annetaan vinkkejä tähtäimen parantamiseksi. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/1-av-100-tips-sa-far-du-bra-skarpa-i-siktet/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Metsästäjä Dan Infalt jakaa strategioitaan, kuinka hän onnistuu saalistamaan kypsiä valkohäntäpeuroja julkisilta alueilta pääsemällä hyvin lähelle niiden makuupaikkoja. <a href=\"https://www.outdoorlife.com/hunting/dan-infalt-deer-hunting-tips/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Helena Lindahl (C) korostaa, että politiikka ei saa piiloutua tuomioistuimien taakse liittyen Ruotsin tunturimetsästyksestä käytävään keskusteluun. Kysymys vertautuu herkkään tilaan päästä irti hankalasta tilanteesta. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/politiken-far-inte-gomma-sig-bakom-domstolarna/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Tällä viikolla on raportoitu kolmesta susien hyökkäyksestä lampaita vastaan. Hyökkäykset tapahtuivat Kronobergin, Västmanlandin ja Jönköpingin läänissä, ja 12 lammasta on kuollut tai kadonnut. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/vargangrepp-pa-far-i-flera-lan/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Jägarnas Riksförbundin puheenjohtaja Solveig La muistuttaa metsästäjiä ottamaan huomioon heidän äänivaltansa ja oikeutensa, kun Ruotsin vaalit lähestyvät syyskuussa. <a href=\"https://www.jaktojagare.se/kategorier/opinion/ledare-valet-ar-latt-valet-ar-ditt/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ensi vuonna Naturvårdsverketin jakamat avustukset pienenevät Viltvårdsfondenista johtuen muiden toimialojen kasvaneista kustannuksista. Tästä saattaa olla vaikutuksia myös metsästysjärjestöille. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/mindre-pengar-till-jaktorganisationerna-samtidigt-okar-kostnaden-for-tjanster-dar-jagareforbundet-vunnit-upphandlingarna/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Bighorn-urheiluratsastus koki takaiskun, kun potentiaalinen maailmanennätyskokoinen täi putosi kalliolta. Täin pää katosi ja on yhä mysteeri, minne se päätyi. <a href=\"https://www.outdoorlife.com/hunting/record-bighorn-cliff/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Joutuin kiipeliin joututtuani helikopterin kyydissä tutkiessani julkisten maiden käyttöoikeusasioita Wyomingissa elätinpyynnin merkeissä, jonka jälkeen minut tuomittiin luvattomasta maastotunkeutumisesta. <a href=\"https://www.outdoorlife.com/conservation/wyoming-elk-hunt-trespassing/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 8,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2236,
+  "output_tokens": 843,
+  "sources": [
+    {
+      "title": "1 AV 100 TIPS: Så får du bra skärpa i siktet",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/1-av-100-tips-sa-far-du-bra-skarpa-i-siktet/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Inside the Mind of the Dan Infalt, the ‘Big Buck Serial Killer’",
+      "url": "https://www.outdoorlife.com/hunting/dan-infalt-deer-hunting-tips/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Politiken får inte gömma sig bakom domstolarna",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/politiken-far-inte-gomma-sig-bakom-domstolarna/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Vargangrepp på får i flera län",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/vargangrepp-pa-far-i-flera-lan/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "LEDARE: Valet är lätt, valet är ditt",
+      "url": "https://www.jaktojagare.se/kategorier/opinion/ledare-valet-ar-latt-valet-ar-ditt/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Mindre pengar till jaktorganisationerna – samtidigt ökar kostnaden för tjänster där Jägareförbundet vunnit upphandlingarna",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/mindre-pengar-till-jaktorganisationerna-samtidigt-okar-kostnaden-for-tjanster-dar-jagareforbundet-vunnit-upphandlingarna/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "I Dropped the Potential World Record Bighorn Ram Off a Cliff",
+      "url": "https://www.outdoorlife.com/hunting/record-bighorn-cliff/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Real Reason the Forest Service Is Killing the Roadless Rule",
+      "url": "https://www.outdoorlife.com/conservation/roadless-rule-deregulation/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Maine Tuna Fisherman Accidentally Catches Record-Setting Swordfish",
+      "url": "https://www.outdoorlife.com/fishing/maine-record-swordfish/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Climber Stuck Hanging From Dolomites Spire",
+      "url": "https://explorersweb.com/climber-stuck-hanging-from-dolomites-spire/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "I Was Convicted of Trespassing After Covering Public Land Access Issues on Our Controversial Wyoming Elk Hunt",
+      "url": "https://www.outdoorlife.com/conservation/wyoming-elk-hunt-trespassing/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
