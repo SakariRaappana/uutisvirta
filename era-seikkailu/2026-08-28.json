@@ -1,0 +1,63 @@
+{
+  "date": "2026-08-28",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisaiheina ovat muun muassa metsästyskorttien suosion kasvu Ruotsissa, keskustelu aseasioista ja erilaiset optiikkatuotteet metsästykseen. Lisäksi esillä on historiallinen metsästysmuisto Idahon Selway-erämaasta ja parhaat riistalinnut Pohjois-Amerikassa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>Ei tärkeitä uutisia tänään.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Idaho's Selway-erämaa tunnettiin aikoinaan hirvien paratiisina, kunnes susien uudelleensijoitus muutti tilannetta. Kirjailija Jack O'Connor metsästi siellä suurten tulipalojen jälkeen. <a href=\"https://www.outdoorlife.com/hunting/jack-oconnor-idaho-elk-hunt/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Artikkelissa käsitellään kahdeksaa parasta riistalintua, joita kirjoittaja on syönyt metsästysretkillään ympäri Pohjois-Amerikkaa. <a href=\"https://www.outdoorlife.com/hunting/best-tasting-game-birds/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ruotsissa metsästyskorttien lukumäärä on lisääntynyt useiden heikompien vuosien jälkeen, ja yli 11 000 enemmän korttia lunastettiin viimeisen metsästysvuoden aikana. Myös uusien metsästäjien määrä on kasvussa. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/fler-loser-jaktkort-samtidigt-okar-antalet-nya-jagare/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ruotsin Tidö-puolueet ovat aloittaneet työn helpottaakseen metsästäjien, ampujien ja keräilijöiden aseasioita, mutta työ on vielä kesken. <a href=\"https://www.jaktojagare.se/kategorier/opinion/debatt-vi-ar-inte-klara-med-vapenfragorna/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Bass Pro Shops tarjoaa Labor Day -alennusmyynnissään erilaisia tuotteita, mukaan lukien solukameran vain 50 dollariin sekä alennuksia tuotteista kuten Swaro-kiikarit ja box blindit. <a href=\"https://www.outdoorlife.com/gear/bass-pro-labor-day-sale-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Testeissä esillä on ollut monenlaisia kiikareita metsästykseen, perintökohteista uusimpiin kuvanvakautettuihin malleihin. <a href=\"https://www.outdoorlife.com/gear/best-binoculars-for-hunting-2026/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 6,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1952,
+  "output_tokens": 602,
+  "sources": [
+    {
+      "title": "Idaho’s Selway Wilderness was Once an Elk Paradise. This Legendary Writer Had a Classic Backcountry Hunt There",
+      "url": "https://www.outdoorlife.com/hunting/jack-oconnor-idaho-elk-hunt/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 8 Best Tasting Game Birds I’ve Ever Eaten",
+      "url": "https://www.outdoorlife.com/hunting/best-tasting-game-birds/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Fler löser jaktkort – samtidigt ökar antalet nya jägare",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/fler-loser-jaktkort-samtidigt-okar-antalet-nya-jagare/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "DEBATT: Vi är inte klara med vapenfrågorna",
+      "url": "https://www.jaktojagare.se/kategorier/opinion/debatt-vi-ar-inte-klara-med-vapenfragorna/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Watch: A Czech Trail Runner Searches For Missing Hikers in Taiwan",
+      "url": "https://explorersweb.com/watch-the-czech-trail-runner-searching-for-missing-hikers-in-taiwan/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The Backstory on Why the Mitch Rompola Buck Was Never Entered as a World Record",
+      "url": "https://www.outdoorlife.com/hunting/mitch-rompola-buck-mystery/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "“The Villagers Are Terrified.” I Joined a Traditional Tiger Hunt in India",
+      "url": "https://www.outdoorlife.com/hunting/traditional-tiger-hunt-india/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Bass Pro Shops Labor Day Sale: The 14 Best Deals on Optics and Hunting Gear",
+      "url": "https://www.outdoorlife.com/gear/bass-pro-labor-day-sale-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Watch Angler Land (and Measure) This Record-Breaking Lake Trout",
+      "url": "https://www.outdoorlife.com/fishing/idaho-record-lake-trout/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Binoculars for Hunting: Premium to Budget Optics Tested",
+      "url": "https://www.outdoorlife.com/gear/best-binoculars-for-hunting-2026/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}

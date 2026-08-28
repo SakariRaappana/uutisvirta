@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-28",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään tarkasteltiin agenttisen AI:n kysymyksiä toimitusketjussa sekä Postgres-tietokannan hallinta- ja ylläpitovaihtoehtojen etuja ja kompromisseja.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p><em>Ei tärkeimpiä uutisia tänään.</em></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>ARC Advisory julkaisi oppaan operatiivisille johtajille agenttisesta tekoälystä ja autonomisista toimitusketjuista. Opas käsittelee kysymyksiä, joita johtajat esittävät näiden järjestelmien käytöstä ja toteutuksesta tuotantolaitoksissa ja toimitusketjuissa. <a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOT0JHLVlrT3RIWTExWExzcGwtUE1WNXNKYWhMMVRtd0xVa3BpcUFfeXotTlBVS01RNUl4NUlaVUFwRXItWEdqUE1nQjN0MTNJT2gxRFQ4ajRYZHRKLVh0a0JUMGw4Zm9Sbmc0eldLRElySDMzNHZNZTRvd1NHQWVYRXdCejVmbVk4eXlub2c0ZGdHYjU4OEpzc1pDVm1NU3FxTmI5ajFPSnVjUXJWRm9jUXU0aWF4VkcxaVE?oc=5\">Lue lisää</a></p>\n</li>\n<li>\n<p>Azure Blogissa käsiteltiin hallinnoidun ja itse ylläpidetyn PostgreSQL-tietokannan etuja ja kompromisseja. Artikkelissa verrataan näitä vaihtoehtoja muun muassa kustannusten, hallinnan, tietoturvan, resilienssin, skaalautuvuuden ja operatiivisen työn osalta. <a href=\"https://azure.microsoft.com/en-us/blog/managed-postgresql-vs-self-hosted-postgresql-key-benefits-and-trade-offs/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1287,
+  "output_tokens": 442,
+  "sources": [
+    {
+      "title": "The Download: a secretive antiaging drug and joining virtual power plants",
+      "url": "https://www.technologyreview.com/2026/08/28/1143113/the-download-antiaging-drug-joining-virtual-power-plants/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The COO Field Guide to Agentic AI: 10 Questions Operations Leaders Are Asking About Autonomous Factory and Supply Chain Execution - ARC Advisory",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT0JHLVlrT3RIWTExWExzcGwtUE1WNXNKYWhMMVRtd0xVa3BpcUFfeXotTlBVS01RNUl4NUlaVUFwRXItWEdqUE1nQjN0MTNJT2gxRFQ4ajRYZHRKLVh0a0JUMGw4Zm9Sbmc0eldLRElySDMzNHZNZTRvd1NHQWVYRXdCejVmbVk4eXlub2c0ZGdHYjU4OEpzc1pDVm1NU3FxTmI5ajFPSnVjUXJWRm9jUXU0aWF4VkcxaVE?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "How to sign up for a virtual power plant—and decide whether you should",
+      "url": "https://www.technologyreview.com/2026/08/28/1142956/how-to-sign-up-for-a-virtual-power-plant-and-decide-whether-you-should/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "A startup claims it’s found a drug to make your blood young",
+      "url": "https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs",
+      "url": "https://azure.microsoft.com/en-us/blog/managed-postgresql-vs-self-hosted-postgresql-key-benefits-and-trade-offs/",
+      "source_name": "Azure Blog"
+    }
+  ],
+  "homepage_candidates": []
+}
