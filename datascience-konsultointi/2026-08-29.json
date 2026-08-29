@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-29",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään esillä on yksi merkittävä julkaisu, joka käsittelee agenttipohjaisen tekoälyn soveltamista vastatoimenpiteisiin liittyvässä kontranfaktuaalisessa validoinnissa ja uhkien ennakoinnissa.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Adaptatiivinen agenttipohjainen tekoälyn viitekehys on julkaistu, käsitellen kontranfaktuaalista validointia ja uhkakuvien ennakointia osana automatisoituja reagointitoimenpiteitä. <a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE92cUZfeGc3cmZ0bnV5QjlleU12ZUV0UF9ybXBUMTlLV2hWYVVYZ3B6SjJ4QjFlN2s5LWxyS1lhREZRdmJFQ3FaM014bndheldYYjBGOXpDRWM3bGJhV1RfX282TnV1eV9XOERmMg?oc=5\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1117,
+  "output_tokens": 243,
+  "sources": [
+    {
+      "title": "An adaptive agentic AI framework for counterfactual validation and adversarial lookahead in automated incident response - Springer Nature Link",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92cUZfeGc3cmZ0bnV5QjlleU12ZUV0UF9ybXBUMTlLV2hWYVVYZ3B6SjJ4QjFlN2s5LWxyS1lhREZRdmJFQ3FaM014bndheldYYjBGOXpDRWM3bGJhV1RfX282TnV1eV9XOERmMg?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "The Download: a secretive antiaging drug and joining virtual power plants",
+      "url": "https://www.technologyreview.com/2026/08/28/1143113/the-download-antiaging-drug-joining-virtual-power-plants/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}

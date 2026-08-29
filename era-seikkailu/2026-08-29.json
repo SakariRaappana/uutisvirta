@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-29",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään tarkastelimme uusia ja vanhoja metsästyskivääreitä, kuulimme legendaarisesta hirvijahdista Selwayn erämaassa sekä saimme tilastotietoa uusista metsästyskorttien lunastuksista ja kasvavasta metsästäjämäärästä.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Nykyisten metsästyskiväärien ergonomia ja lisävarusteet herättävät kysymyksiä niiden tehokkuudesta. Outdoor Life pohtii, ovatko tarkkuuskivääreistä tulevat ominaisuudet todella parantaneet modernia metsästystä vai haittaavatko ne enemmän. <a href=\"https://www.outdoorlife.com/guns/new-vs-old-hunting-rifles/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life kertoo legendaarisesta metsästyskirjailijasta Jack O'Connorista, joka jahtasi hirviä Idahon Selwayn erämaassa aikana, jolloin se oli vielä hirvien paratiisi. Tämä tapahtui suurten metsäpalojen jälkeen mutta ennen susien uudelleensijoitusta alueelle. <a href=\"https://www.outdoorlife.com/hunting/jack-oconnor-idaho-elk-hunt/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ruotsissa metsästyskorttien lunastaminen on lisääntynyt yli 11 000:lla viime metsästysvuoden aikana. Myös uudet metsästäjät ovat lisääntyneet, mikä korjaa aiempien vuosien laskusuuntausta. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/fler-loser-jaktkort-samtidigt-okar-antalet-nya-jagare/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1634,
+  "output_tokens": 387,
+  "sources": [
+    {
+      "title": "“I Thought It Was a Dog.” Yellowstone Tourists Capture Rare, Spooky Encounter With Wolf",
+      "url": "https://www.outdoorlife.com/conservation/i-thought-it-was-a-dog-yellowstone-tourists-capture-rare-spooky-encounter-with-wolf/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "What Do Deer Actually Eat? These Are a Whitetail’s All-Time Favorite Foods",
+      "url": "https://www.outdoorlife.com/hunting/what-deer-eat/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Are New Hunting Rifles Really Better Than the Old Ones?",
+      "url": "https://www.outdoorlife.com/guns/new-vs-old-hunting-rifles/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Idaho’s Selway Wilderness was Once an Elk Paradise. This Legendary Writer Had a Classic Backcountry Hunt There",
+      "url": "https://www.outdoorlife.com/hunting/jack-oconnor-idaho-elk-hunt/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 8 Best Tasting Game Birds I’ve Ever Eaten",
+      "url": "https://www.outdoorlife.com/hunting/best-tasting-game-birds/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Fler löser jaktkort – samtidigt ökar antalet nya jägare",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/fler-loser-jaktkort-samtidigt-okar-antalet-nya-jagare/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": []
+}
