@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-30",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään ei julkaistu suuria uutisia, mutta Metsästäjäliitossa on vireillä toimenpiteitä villisian metsästyksen tehostamiseksi ASF-tapauksen vuoksi Pyhtäällä.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p><em>Ei ilmoitettu tärkeitä uutisia tänään.</em></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Metsästäjäliitto on esittänyt useita toimia villisian metsästyksen tehostamiseksi. Tämä liittyy Pyhtäällä havaittuun afrikkalaisen sikaruton (ASF) tapaukseen, mikä on herättänyt tarpeen lisätoimille villisian kannan hallitsemiseksi. <a href=\"https://metsastajaliitto.fi/uutiset/metsastajaliitto-esittaa-useita-toimia-villisian-metsastyksen-tehostamiseksi\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1476,
+  "output_tokens": 196,
+  "sources": [
+    {
+      "title": "Old-School Squirrel Hunting Tricks That Still Work",
+      "url": "https://www.outdoorlife.com/hunting/traditional-squirrel-hunting-tips/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Metsästäjäliitto esittää useita toimia villisian metsästyksen tehostamiseksi",
+      "url": "https://metsastajaliitto.fi/uutiset/metsastajaliitto-esittaa-useita-toimia-villisian-metsastyksen-tehostamiseksi",
+      "source_name": "Metsästäjäliitto"
+    }
+  ],
+  "homepage_candidates": []
+}
