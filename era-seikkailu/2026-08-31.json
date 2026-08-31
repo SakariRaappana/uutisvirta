@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-31",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisista selviää, että Jägarnas Riksförbund on saanut tänä vuonna ennätysmäärän uusia jäseniä Ruotsissa, mutta metsäjäniksen saaliit ovat edelleen harvinaisia Suomessa. Lisäksi metsästysvinkkejä on tarjolla Mainen laajoille metsäalueille hirvien jahdissa.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Ruotsissa Jägarnas Riksförbund -järjestön jäsenmäärä on kasvanut tänä vuonna jo yli 28 650:een, mikä ylittää viime vuoden lukemat, vaikka vuotta on jäljellä vielä neljä kuukautta. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/fler-medlemmar-i-jagarnas-riksforbund/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Metsäjäniksen saaliit ovat harvinaistuneet menneiltä vuosikymmeniltä. Tämä entinen ykkössuosikki metsästäjien keskuudessa näkyy yhä harvemmin saaliina. <a href=\"https://metsastajaliitto.fi/uutiset/takavuosien-ykkossuosikki-metsajanis-yha-harvemmin-saaliina\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life tarjoaa vinkkejä Mainen suurille metsäalueille, joissa hirvien löytäminen voi olla haasteellista. Artikkeli antaa hyödyllisiä neuvoja suuren pukin onnistuneeseen jahtiin. <a href=\"https://www.outdoorlife.com/hunting/deer-hunting-bigwoods-hal-blood/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1694,
+  "output_tokens": 352,
+  "sources": [
+    {
+      "title": "Fler medlemmar i Jägarnas Riksförbund",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/fler-medlemmar-i-jagarnas-riksforbund/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Takavuosien ykkössuosikki metsäjänis yhä harvemmin saaliina",
+      "url": "https://metsastajaliitto.fi/uutiset/takavuosien-ykkossuosikki-metsajanis-yha-harvemmin-saaliina",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "Jakten ska förena – inte splittra",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/jakten-ska-forena-inte-splittra/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Gilla jakt gillar korv",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/gilla-jakt-gillar-korv/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Gilla jakt 71 – Valspecial med Miljöpartiet",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/gilla-jakt-69-valspecial-med-miljopartiet/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "The Mysterious Backstory of the Ahrens Buck — a World-Record Whitetail That Vanished",
+      "url": "https://www.outdoorlife.com/hunting/ahrens-buck-mystery/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Use Traditional Bug Baits to Catch More Bass This Fall",
+      "url": "https://www.outdoorlife.com/fishing/bug-baits-fall-bass/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "It’s Time to Give Barefoot Shoes a Try. Here’s Why",
+      "url": "https://www.outdoorlife.com/adventure/its-time-to-try-barefoot-shoes/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Where to Hunt Deer in the Big Woods — Tips from a Maine Whitetail Legend",
+      "url": "https://www.outdoorlife.com/hunting/deer-hunting-bigwoods-hal-blood/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
