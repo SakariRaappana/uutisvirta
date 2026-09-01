@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-01",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Ruotsissa alkaa hirvenmetsästyskausi, ja Jakt &amp; Jägare pohtii, miten metsästys vaikuttaa hirvien lisääntymiskäyttäytymiseen. Lisäksi Jägarnas Riksförbund kokee pitkästä aikaa jäsenmäärän kasvua. Uusia strategioita esitellään hirvieläinten metsästykseen ilman houkuttimia, ja tutkimuksia tehdään eläinten ikäarvioiden tarkentamiseksi hampaista.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Hirvenmetsästyskauden vaikutus hirvien lisääntymiskäyttäytymiseen</h3>\n<p>Ruotsissa on alkanut hirvenmetsästyskausi, mikä on saanut tutkijat tarkastelemaan metsästyksen vaikutuksia hirvien lisääntymiskäyttäytymiseen. Metsästyskausi osuu yhteen hirvien kiima-ajan kanssa, mikä voi vaikuttaa parittelujärjestykseen ja yksilöiden välisten kilpailujen intensiivisyyteen. Erityisesti vanhempien uroshirvien vähentyminen metsästyksen vuoksi saattaa muuttaa nuorempien hirvien parittelumahdollisuuksia, mikä voi heikentää geneettistä monimuotoisuutta. Lisäksi metsästyskausi voi häiritä hirvien normaalia päivittäistä liikkumista ja elinympäristöjen käyttöä, mikä saattaa vaikuttaa niiden hyvinvointiin ja lisääntymismenestykseen. <strong><a href=\"https://www.jaktojagare.se/kategorier/utrikes/i-dag-startar-algjakten-hur-paverkas-algens-sexliv-av-jakt/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Elin Nilsson (L) suunnittelee suorittavansa metsästäjätutkinnon, mikä voi vaikuttaa hänen rooliinsa Liberaleiden merkittävänä äänenä metsästyspolitiikassa. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/fungerande-system-ger-battre-jaktpolitik/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Joissain osavaltioissa, joissa syöttäminen on sallittua, metsästys ilman houkuttimia voi olla tehokasta hyödyntämällä luonnollisia hirviliikkeitä. <a href=\"https://www.outdoorlife.com/hunting/how-to-hunt-deer-without-baiting/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Alligaattorien populaation elpyminen Kaakkois-Yhdysvalloissa muistuttaa grislikarhujen suojelutarinaa ja aiheuttaa samankaltaisia konfliktipohdintoja alueella. <a href=\"https://www.outdoorlife.com/survival/american-alligator-conflicts/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Matson's Laboratoryssa Manhattanissa, Montanassa, tutkitaan eläinten hampaita niiden todellisen iän selvittämiseksi, mikä voi tarkentaa hirvieläinten ja karhujen ikäarvioita. <a href=\"https://www.rokslide.com/the-tooth-tells-the-truth-aging-deer-elk-and-bears/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Jägarnas Riksförbund on matkalla ensimmäiseen jäsenmäärän kasvuun pitkään aikaan, nykyisen jäsenmäärän ollessa yli 28 760. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/fler-medlemmar-i-jagarnas-riksforbund/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 6,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2931,
+  "output_tokens": 762,
+  "sources": [
+    {
+      "title": "I dag startar älgjakten – hur påverkas älgens sexliv av jakt?",
+      "url": "https://www.jaktojagare.se/kategorier/utrikes/i-dag-startar-algjakten-hur-paverkas-algens-sexliv-av-jakt/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Fungerande system ger bättre jaktpolitik",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/fungerande-system-ger-battre-jaktpolitik/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "He Was Just Trying to Hook a Small Catfish for His Son to Fight. He Ended Up Catching the New State Record",
+      "url": "https://www.outdoorlife.com/fishing/west-viriginia-record-blue-catfish/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "5 Home Depot Labor Day Deals on Gear We’ve Tested and Reviewed",
+      "url": "https://www.outdoorlife.com/gear/5-home-depot-labor-day-deals-on-gear-weve-tested-and-reviewed/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Weirdest Things Ever Found Inside a Shark’s Stomach",
+      "url": "https://www.outdoorlife.com/fishing/weirdest-things-found-inside-sharks-stomach/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Kill Big Bucks in States That Allow Baiting — Without Baiting",
+      "url": "https://www.outdoorlife.com/hunting/how-to-hunt-deer-without-baiting/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Before They Were Delisted, Gators Were the Original Grizzly Bears",
+      "url": "https://www.outdoorlife.com/survival/american-alligator-conflicts/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Tooth Tells the Truth: Aging Deer, Elk, and Bears",
+      "url": "https://www.rokslide.com/the-tooth-tells-the-truth-aging-deer-elk-and-bears/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Fler medlemmar i Jägarnas Riksförbund",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/fler-medlemmar-i-jagarnas-riksforbund/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": []
+}

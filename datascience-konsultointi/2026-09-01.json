@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-01",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään ei ollut merkittäviä uutisia, mutta kaksi lyhyttä mainintaa kiinnittää huomiota agenttien jäljitettävyyteen ja turvallisuushaasteisiin liittyvistä julkaisuista.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Agentic Traceability and Testing Handbook tarjoaa ohjeita agenttisen tekoälyn vaatimuksenmukaisuusjäljittämiseen ja sertifiointitodistusaineistoon. Tämä käsikirja esiteltiin Military Embedded Systems -julkaisussa. <a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSW1UZXNSUVFtSzdQSWNIVTBZRF9BcTJTdThlUFJ6aVNOWmNmXy0tLXBBX0h4aUYtSk9acWRndmhBQVh2REZqM0k0TERValVteXBycTVFYUg5LVB1OFRhMVNjT3NQdkJHdXRNNzBwRGhLcU9iNVBrc2FGOTM5UXJWV0UyMlpKLWwzZWw3U05GQVBmeHA3MmZSWk1lOWxFaHFtU0lzakMzYkZpR2IzOEdqdnRZY0dya1hKUGVKOXdocVlsbG9Md3ZVcXlRSVh1alc3enBoQWFOTmtJZWRuRm5GR0FqNVFjaktKZzZWVzVqbjNXaDg?oc=5\">Lue lisää</a></p>\n</li>\n<li>\n<p>OpenClaw 2.0 tekee suosittujen agenttien hallinnan asennuksesta helpompaa ja käyttöliittymästä houkuttelevamman, mutta jättää suurimman osan turvallisuusvastuusta käyttäjille. Tämä voi johtaa uusiin ongelmiin turvallisuusnäkökulmasta. <a href=\"https://www.theregister.com/ai-and-ml/2026/08/31/openclaw-20-pours-glitter-on-slow-burning-security-dumpster-fire/5293492\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1347,
+  "output_tokens": 478,
+  "sources": [
+    {
+      "title": "How engineered microbes could help feed the world’s crops",
+      "url": "https://www.technologyreview.com/2026/09/01/1143195/microbe-fertilizer-switch-bioworks/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Agentic Traceability and Testing Handbook: A Guide to Agentic AI Requirements Traceability and Certification Evidence - Military Embedded Systems",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSW1UZXNSUVFtSzdQSWNIVTBZRF9BcTJTdThlUFJ6aVNOWmNmXy0tLXBBX0h4aUYtSk9acWRndmhBQVh2REZqM0k0TERValVteXBycTVFYUg5LVB1OFRhMVNjT3NQdkJHdXRNNzBwRGhLcU9iNVBrc2FGOTM5UXJWV0UyMlpKLWwzZWw3U05GQVBmeHA3MmZSWk1lOWxFaHFtU0lzakMzYkZpR2IzOEdqdnRZY0dya1hKUGVKOXdocVlsbG9Md3ZVcXlRSVh1alc3enBoQWFOTmtJZWRuRm5GR0FqNVFjaktKZzZWVzVqbjNXaDg?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "OpenClaw 2.0 pours glitter on slow-burning security dumpster fire",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/31/openclaw-20-pours-glitter-on-slow-burning-security-dumpster-fire/5293492",
+      "source_name": "The Register — AI"
+    },
+    {
+      "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
+      "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
