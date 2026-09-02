@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-02",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Villisian metsästyksen kannustimiin liittyvät muutokset ovat saaneet Metsästäjäliitolta positiivisen vastaanoton, mutta samalla liitto vaatii muutoksia nykyiseen palkkiojärjestelmään ja nopeampia toimia tartunta-alueelle. Muissa uutisissa käsitellään mm. villieläinten hallintaa Japanissa ja metsästäjien varustevalintoja.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Kannustimet villisian metsästykseen tervetulleita – villisian metsästys saatava käyntiin tartuntavyöhykkeellä</h3>\n<p>Metsästäjäliitto on ilmaissut tukensa villisian metsästyksen kannustinten lisäämiselle, mutta suosittelee, että taloudelliset palkkiot maksettaisiin metsästysseuroille yksittäisten metsästäjien sijaan. Näin voitaisiin tehostaa villisikoihin kohdistuvaa metsästyspainetta. Villisikakannan hallinta on erityisen tärkeää tartunta-alueilla, ja liitto korostaa, että metsästystoimet tulisi käynnistää mahdollisimman pian myös viranomaisten johdolla. Tehokkaasti toteutettu metsästys auttaisi kontrolloimaan sekä villisikojen määrää että niiden levittämiä tauteja. <strong><a href=\"https://metsastajaliitto.fi/uutiset/kannustimet-villisian-metsastykseen-tervetulleita\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Emma Nohrén, ympäristöpuolueen kansanedustaja ja metsänomistaja, yhdistää poliittisen uransa ja riistanhoidon Ruotsissa. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/naturen-maste-ses-som-en-helhet/\">Lue lisää</a></li>\n<li>Kristdemokraattien puheenvuoro Gilla jakts -sarjassa tarjoaa näkökulmia maaseutuasioihin. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/gilla-jakt-70-valspecial-med-kristdemokraterna/\">Lue lisää</a></li>\n<li>Backlanz Precision Alpine Bipodin arvioi Roksiden artikkeli; kevyt bipodi tarjoaa varmuutta erämaassa. <a href=\"https://www.rokslide.com/backlanz-precision-alpine-bipod-review/\">Lue lisää</a></li>\n<li>Suurten tulvien jälkeen Nepalin matkailun kannalta monet alueet ovat yhä turvallisia ja avoinna vierailuille. <a href=\"https://explorersweb.com/where-is-it-safe-to-travel-in-nepal-right-now/\">Lue lisää</a></li>\n<li>Japanissa karhuhyökkäysten nousu on johtanut 14 000 karhun vähentämiseen vuoden aikana. <a href=\"https://explorersweb.com/japan-culls-14000-bears-after-sharp-rise-in-attacks/\">Lue lisää</a></li>\n<li>Outdoor Lifen toimittajat valitsevat parhaat metsästysreput, jotka sopivat niin passiin kuin eräretkille. <a href=\"https://www.outdoorlife.com/gear/best-hunting-backpacks-2026/\">Lue lisää</a></li>\n<li>Artikkeli seuraa loukkaantuneen kafferipuhvelin jäljitystä ja tarjoaa mukaansa tempaavan lukukokemuksen. <a href=\"https://www.outdoorlife.com/hunting/wounded-cape-buffalo/\">Lue lisää</a></li>\n<li>USA:n lintukantojen viimeisimmässä tutkimuksessa kyyhkysenhaukkojen lukumäärä on vähentynyt. <a href=\"https://www.outdoorlife.com/conservation/2026-duck-survey/\">Lue lisää</a></li>\n<li>Selviytymisvinkkejä erämaassa: välttämättömät virheet voivat johtaa vakaviin tilanteisiin. <a href=\"https://www.outdoorlife.com/survival/common-survival-mistakes/\">Lue lisää</a></li>\n<li>Ruotsissa hirven metsästys ei vaikuta haitallisesti lisääntymiseen hirven kiima-aikaan, kertoo uusi tutkimus. <a href=\"https://www.jaktojagare.se/kategorier/utrikes/i-dag-startar-algjakten-hur-paverkas-algens-sexliv-av-jakt/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 11,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 3116,
+  "output_tokens": 954,
+  "sources": [
+    {
+      "title": "Thomas Huber Clears Up Doubts About His Latest First Ascent in Pakistan",
+      "url": "https://explorersweb.com/thomas-huber-clears-up-doubts-about-his-latest-first-ascent-in-pakistan/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Naturen måste ses som en helhet",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/naturen-maste-ses-som-en-helhet/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Gilla jakt 73 – Valspecial med Kristdemokraterna",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/gilla-jakt-70-valspecial-med-kristdemokraterna/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Backlanz Precision Alpine Bipod Review",
+      "url": "https://www.rokslide.com/backlanz-precision-alpine-bipod-review/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Where Is It Safe to Travel in Nepal Right Now?",
+      "url": "https://explorersweb.com/where-is-it-safe-to-travel-in-nepal-right-now/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Japan Culls 14,000 Bears After Sharp Rise in Attacks",
+      "url": "https://explorersweb.com/japan-culls-14000-bears-after-sharp-rise-in-attacks/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The Best Hunting Backpacks, Chosen by the Editors",
+      "url": "https://www.outdoorlife.com/gear/best-hunting-backpacks-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "“A Slow-Motion Ballet of Death.” We Tracked a Wounded Cape Buffalo",
+      "url": "https://www.outdoorlife.com/hunting/wounded-cape-buffalo/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Mallard Numbers Continue to Decline, According to Latest USFWS Survey",
+      "url": "https://www.outdoorlife.com/conservation/2026-duck-survey/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Party Boat Fisherman Catches Record Cubera Snapper",
+      "url": "https://www.outdoorlife.com/fishing/north-carolina-record-cubera-snapper/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 11 Most Common Survival Mistakes That Will Get You Killed in the Backcountry",
+      "url": "https://www.outdoorlife.com/survival/common-survival-mistakes/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Kannustimet villisian metsästykseen tervetulleita – villisian metsästys saatava käyntiin tartuntavyöhykkeellä",
+      "url": "https://metsastajaliitto.fi/uutiset/kannustimet-villisian-metsastykseen-tervetulleita",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "I dag startar älgjakten – hur påverkas älgens sexliv av jakt?",
+      "url": "https://www.jaktojagare.se/kategorier/utrikes/i-dag-startar-algjakten-hur-paverkas-algens-sexliv-av-jakt/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": []
+}
