@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-04",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään raportoitiin sikaruton torjuntaan liittyvistä toimista, Jahti-lehden uudistuksesta ja uudesta paikannussovelluksesta Metsästäjäliiton toimesta. Lisäksi Metsästäjäliiton Eräkontti on tehnyt aiesopimuksen Loimu Labsin kanssa kehittääkseen kotimaisen paikannuspalvelun. Muita uutisia käsittelevät erilaiset metsästykseen ja seikkailuihin liittyvät tapahtumat ja innovaatiot.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Kauden katsaus: Sikaruton (ASF) torjunta, Jahti-lehden uudistus ja uusi paikannussovellus</h3>\n<p>Metsästäjäliitto on julkaissut kausikatsauksen, jossa käsitellään ajankohtaisia teemoja. Sikaruton torjunta on ollut keskiössä ja käsittää muun muassa villisikojen metsästyksen tehostamisen. Lisäksi Jahti-lehti on saanut uudistuksia, jotka tuovat lehteen uusia juttutyyppäjä ja laajempia sisältöjä. Uutena elementtinä Metsästäjäliitto esittelee paikannussovelluksen, joka helpottaa metsästyksen seurantaa. Näiden uudistusten odotetaan parantavan metsästäjien valmiuksia sekä helpottavan tiedonsaantia ja toimintaa kentällä. <strong><a href=\"https://metsastajaliitto.fi/uutiset/kauden-katsaus-sikaruton-asf-torjunta-jahti-lehden-uudistus-ja-uusi-paikannussovellus\">Lue alkuperäinen →</a></strong></p>\n<h3>Metsästäjäliiton Eräkontilla aiesopimus Loimu Labs -paikannusyhteistyöstä</h3>\n<p>Metsästäjäliiton Eräkontti ja Loimu Labs ovat allekirjoittaneet aiesopimuksen uuden paikannuspalvelun kehittämisestä. Palvelu perustuu avoimeen rajapintaan, ja pilottivaiheen onnistuessa Eräkontti saattaa hankkia enemmistöosakkuuden Loimu Labsista. Tämä varmistaisi jäsenille kotimaisen vaihtoehdon edulliseen hintaan. Tavoitteena on kehittää palvelu, joka tarjoaa merkittävän kuluttajaedun metsästäjille ja eränkävijöille. <strong><a href=\"https://metsastajaliitto.fi/uutiset/metsastajaliiton-erakontilla-aiesopimus-loimu-labs-paikannusyhteistyosta\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Hornady esittelee Night Guard -safensa, joka hyödyntää käden suonien biometrisiä tunnisteita nopean pääsyn mahdollistamiseksi. <a href=\"https://www.outdoorlife.com/guns/hornady-vexis-night-guard-safe/\">Lue lisää</a></li>\n<li>Wisconsinin sarjapyytäjä, jolla on 174 rikkomusta, on jäänyt kiinni pelkaksiinien toimesta, ja häntä kohtaan on annettu pidätysmääräykset. <a href=\"https://www.outdoorlife.com/conservation/wisconsin-serial-poacher/\">Lue lisää</a></li>\n<li>Alaskan erämaassa saarnamies selvisi grizzlykarhun hyökkäyksestä uskon ja ystävyyden avulla. <a href=\"https://www.outdoorlife.com/survival/preacher-mauled-by-grizzly/\">Lue lisää</a></li>\n<li>Annapurnan ennätyksellisessä pelastusoperaatiossa kolme miestä evakuoitiin 6,950 metristä, mutta yksi menehtyi altistumiseen. <a href=\"https://explorersweb.com/annapurna-2010-the-highest-longline-rescue-saves-three/\">Lue lisää</a></li>\n<li>Korkeus-sairauden ehkäisyyn ei auta hyvä kunto tai nesteytys; oleellisempaa on oikea sopeutuminen korkeuteen. <a href=\"https://www.outdoorlife.com/survival/altitude-sickness/\">Lue lisää</a></li>\n<li>Tuulen liikkeiden ymmärrys on olennainen osa hiipimisjahtia; se kulkee ja mutkittelee maaston mukaan. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/1-av-100-tips-hall-koll-pa-vinden/\">Lue lisää</a></li>\n<li>Puolalainen kolmikko yrittää kiivetä Gasherbrum VI -vuorelle toista, vähemmän vaarallista reittiä. <a href=\"https://explorersweb.com/polish-trio-tries-a-different-line-on-unclimbed-gasherbrum-vi/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 9,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 3674,
+  "output_tokens": 1035,
+  "sources": [
+    {
+      "title": "First AI Data Center Approved on Federal Public Land Hits a Major Roadblock",
+      "url": "https://www.outdoorlife.com/conservation/public-land-data-center-paused/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Hornady’s Night Guard Biometric Safe Unlocks Using the Veins in Your Hand",
+      "url": "https://www.outdoorlife.com/guns/hornady-vexis-night-guard-safe/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Watch: Serial Poacher with 174 Violations Is Confronted by Game Wardens. Now There Are Warrants Out for His Arrest",
+      "url": "https://www.outdoorlife.com/conservation/wisconsin-serial-poacher/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "“Pray for Strength.” Faith and Friendship Helped This Preacher Survive a Brutal Grizzly Bear Mauling",
+      "url": "https://www.outdoorlife.com/survival/preacher-mauled-by-grizzly/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Annapurna, 2010: The Highest Longline Rescue Saves Three",
+      "url": "https://explorersweb.com/annapurna-2010-the-highest-longline-rescue-saves-three/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "How to Prevent Altitude Sickness (and What to Do When It Strikes)",
+      "url": "https://www.outdoorlife.com/survival/altitude-sickness/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Liikunnallista elämäntapaa edistävät järjestötyhteistyöhön",
+      "url": "https://www.suomenlatu.fi/liikunnallista-elamantapaa-edistavat-jarjestotyhteistyohon/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Kauden katsaus: Sikaruton (ASF) torjunta, Jahti-lehden uudistus ja uusi paikannussovellus",
+      "url": "https://metsastajaliitto.fi/uutiset/kauden-katsaus-sikaruton-asf-torjunta-jahti-lehden-uudistus-ja-uusi-paikannussovellus",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "Metsästäjäliiton Eräkontilla aiesopimus Loimu Labs -paikannusyhteistyöstä",
+      "url": "https://metsastajaliitto.fi/uutiset/metsastajaliiton-erakontilla-aiesopimus-loimu-labs-paikannusyhteistyosta",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "The Best Images From Wildlife Photographer of the Year 2026",
+      "url": "https://explorersweb.com/the-best-images-from-wildlife-photographer-of-the-year-2026/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "1 AV 100 TIPS: Håll koll på vinden",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/1-av-100-tips-hall-koll-pa-vinden/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "After a Setback, Polish Trio Tries a Different Line on Unclimbed Gasherbrum VI",
+      "url": "https://explorersweb.com/polish-trio-tries-a-different-line-on-unclimbed-gasherbrum-vi/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Kauden katsaus: Sikaruton (ASF) torjunta, Jahti-lehden uudistus ja uusi paikannussovellus",
+      "source_name": "Metsästäjäliitto",
+      "source_url": "https://metsastajaliitto.fi/uutiset/kauden-katsaus-sikaruton-asf-torjunta-jahti-lehden-uudistus-ja-uusi-paikannussovellus",
+      "published_at": "2026-09-03T13:38:23+00:00",
+      "summary": "Kauden katsaus: Sikaruton (ASF) torjunta, Jahti-lehden uudistus ja uusi paikannussovellus\n\n            Kyllä\n      eriikka.kayhko…\nTo, 03.09.2026 - 16:38\n\n\n              \n\n\n\n      \n            Johdon katsaus on täällä taas!\n      \n      \n                \n          \n            Syksyn metsästyskausi ",
+      "why_relevant": "ASF-torjunnan, paikannussovelluksen ja Jahti-lehden uudistuksen kaltaiset muutokset voivat vaikuttaa suoraan metsästyskäytäntöihin, tiedonsaantiin ja siihen, millaisia digityökaluja sinun kannattaa seurata tai hyödyntää.",
+      "homepage_eligible": true,
+      "homepage_score": 82,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 4,
+      "actionability": 4,
+      "novelty": 4,
+      "event_key": "metsastajaliitto-kauden-katsaus-asf-jahti-paikannussovellus",
+      "category": "tärkea"
+    },
+    {
+      "title": "Metsästäjäliiton Eräkontilla aiesopimus Loimu Labs -paikannusyhteistyöstä",
+      "source_name": "Metsästäjäliitto",
+      "source_url": "https://metsastajaliitto.fi/uutiset/metsastajaliiton-erakontilla-aiesopimus-loimu-labs-paikannusyhteistyosta",
+      "published_at": "2026-09-03T12:35:44+00:00",
+      "summary": "Metsästäjäliiton Eräkontilla aiesopimus Loimu Labs -paikannusyhteistyöstä\n\n            Kyllä\n      tero.ylioja@me…\nTo, 03.09.2026 - 15:35\n\n\n              \n\n\n\n      \n            Metsästäjäliiton verkkokauppa Eräkontti ja Loimu Labs käynnistävät aiesopimuksen myötä uuden, avoimeen rajapintaan perustuv",
+      "why_relevant": "Eräkontin ja Loimu Labsin paikannusyhteistyö voi kertoa uudesta kenttäkelpoisesta sijainti- tai seurantaratkaisusta, joka on suoraan relevantti pitkien eräretkien ja metsästysreissujen suunnitteluun.",
+      "homepage_eligible": true,
+      "homepage_score": 76,
+      "keep_days": 3,
+      "personal_relevance": 4,
+      "strategic_importance": 4,
+      "actionability": 4,
+      "novelty": 4,
+      "event_key": "erakontti-loimu-labs-paikannusyhteistyo",
+      "category": "tärkea"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-04",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään huomio kohdistui agenttitekoälyyn, joka siirtyy koevaiheesta laajempaan yrityskäyttöön. Tärkeää on ymmärtää, miten agentit voivat toimia yhdessä, liittyä tarvittaviin järjestelmiin ja tietokantoihin sekä toimia turvallisesti.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>Ei tärkeitä uutisia tänään.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Agenttitekoäly on siirtymässä kokeiluista yritystasolle. Keskeisinä haasteina ovat agenttien yhteistyö, yhteydet järjestelmiin ja tietokantoihin sekä turvallinen toiminta. <a href=\"https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1029,
+  "output_tokens": 195,
+  "sources": [
+    {
+      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+      "url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: rethinking child safety and fossil-fueled farming",
+      "url": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Agriculture relies on fossil fuels. It’s costing us.",
+      "url": "https://www.technologyreview.com/2026/09/03/1143320/fertilizer-prices-fossil-fuels/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Scaling agentic AI pilots across the enterprise",
+      "url": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
