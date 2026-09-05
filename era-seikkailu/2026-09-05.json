@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-05",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään esillä on merkittäviä muutoksia Yhdysvaltojen ympäristölainsäädäntöön, mahdollista uutta jousiammuntamaailmanennätystä sekä hyökkäyksen taustalla oleva puolustautumistilanne Montanassa. Lisäksi optiikkatestit tarjoavat tietoa vuoden 2026 parhaista tähtäimistä.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>(Tänään ei ole tärkeitä uutisia.)</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>EPA saattaa uudelleenmääritellä Yhdysvaltojen vesistöjen suojelun rajat, mikä voisi jättää 80 prosenttia maan inventoiduista kosteikoista ilman suojaa. <a href=\"https://www.outdoorlife.com/conservation/epa-wotus-public-comment/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Vuoden 2026 parhaat matalaprofiiliset vaihto-optiikat (LPVOs) on testattu ja arvioitu, keskittyen optiseen laatuun ja ampumatehoon. <a href=\"https://www.outdoorlife.com/gear/best-lpvo-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Montanassa koiraa ulkoiluttaneen henkilön kimppuun hyökännyt naaraskarhu puolustautui, koska alueella oli talteen laitettu peura ja sillä oli pentu mukanaan. <a href=\"https://www.outdoorlife.com/survival/montana-grizzly-bear-attack-ruled-defensive/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Idahossa metsästävä jousiampuja saavutti mahdollisesti uuden maailmantittelin Shiras-hirven kaadosta, kun eläimen koko yllätti metsästäjät. <a href=\"https://www.outdoorlife.com/hunting/potential-archery-world-record-shiras-moose/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Idahossa kaadettu Shiras-hirvi voi olla uusi kaikkien aikojen maailmanennätys lajissaan, ja samalla suurin naispuolisen metsästäjän kaatama. <a href=\"https://www.outdoorlife.com/hunting/potential-world-record-shiras-moose/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1805,
+  "output_tokens": 471,
+  "sources": [
+    {
+      "title": "EPA to Reopen Comment on Clean Water Act Rewrite That Could Leave 80 Percent of U.S. Wetlands Unprotected",
+      "url": "https://www.outdoorlife.com/conservation/epa-wotus-public-comment/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best LPVOs of 2026, Tested and Reviewed",
+      "url": "https://www.outdoorlife.com/gear/best-lpvo-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Grizzly That Just Attacked a Montana Dog Walker Had a Deer Cached Nearby",
+      "url": "https://www.outdoorlife.com/survival/montana-grizzly-bear-attack-ruled-defensive/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Bowhunter Tags Likely New Archery World-Record Shiras Moose in Idaho",
+      "url": "https://www.outdoorlife.com/hunting/potential-archery-world-record-shiras-moose/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "‘Looked Like Something Out of Alaska.’ This Idaho Bull Could Be the New All-Time World-Record Shiras Moose",
+      "url": "https://www.outdoorlife.com/hunting/potential-world-record-shiras-moose/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "And the Piolets d'Or Awards Go To...",
+      "url": "https://explorersweb.com/and-the-piolets-dor-awards-go-to/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Yli 70 000 suomalaista nukkui yönsä ulkona – Metsähotelli Oittaa keräsi ennätysyleisön",
+      "url": "https://www.suomenlatu.fi/yli-70-000-suomalaista-nukkui-yonsa-ulkona-metsahotelli-oittaa-kerasi-ennatysyleison/",
+      "source_name": "Suomen Latu"
+    }
+  ],
+  "homepage_candidates": []
+}

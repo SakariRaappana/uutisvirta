@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-09-05 — Politiikka — Uutisvirta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #F0F1EB;
+      --surface: #E7E9E2;
+      --border: #C6CAC0;
+      --rule: #1B1D19;
+      --text: #191C18;
+      --muted: #6A6F65;
+      --accent: #3A6558;
+      --accent-pale: #C6D8D3;
+      --accent-border: #7AB0A4;
+      --stamp: #8A4C34;
+      --font-mono: "Courier Prime", "Courier New", Courier, monospace;
+      --font-serif: "Lora", Georgia, serif;
+      --font-display: "Playfair Display", Georgia, serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121519;
+        --surface: #1A1E22;
+        --border: #282D31;
+        --rule: #D8DDD8;
+        --text: #DCE1DC;
+        --muted: #787E78;
+        --accent: #78B8AB;
+        --accent-pale: #182824;
+        --accent-border: #3D7068;
+        --stamp: #C07A5A;
+      }
+    }
+
+    html { font-size: 18px; }
+    body {
+      font-family: var(--font-serif);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── MASTHEAD ───────────────────────────── */
+    .site-header {
+      border-top: 3px solid var(--rule);
+    }
+    .masthead-row {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0.6rem 1.5rem 0.55rem;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .logo {
+      font-family: var(--font-mono);
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .masthead-date {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+    .nav-strip {
+      border-top: 1px solid var(--border);
+      border-bottom: 2px solid var(--rule);
+      padding: 0.45rem 1.5rem;
+    }
+    .nav-strip nav {
+      max-width: 760px;
+      margin: 0 auto;
+      display: flex;
+      gap: 1.75rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .nav-strip a {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .nav-strip a:hover { color: var(--accent); }
+    .nav-strip a.active {
+      color: var(--text);
+      border-bottom: 1.5px solid var(--text);
+    }
+
+    /* ── PAGE ───────────────────────────────── */
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1.75rem 1.5rem 5rem;
+    }
+
+    /* ── TYPOGRAPHY ─────────────────────────── */
+    h1 {
+      font-family: var(--font-display);
+      font-size: 2.1rem;
+      font-weight: 400;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      margin-bottom: 0.2rem;
+      text-wrap: balance;
+    }
+    h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 2rem 0 0.65rem;
+      text-wrap: balance;
+    }
+    h3 {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 400;
+      margin: 1.5rem 0 0.4rem;
+    }
+    p { margin-bottom: 0.9rem; max-width: 68ch; }
+    p:last-child { margin-bottom: 0; }
+    ul, ol { padding-left: 1.4rem; margin-bottom: 0.85rem; }
+    li { margin-bottom: 0.25rem; }
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+    code {
+      font-family: var(--font-mono);
+      font-size: 0.83em;
+      background: var(--surface);
+      padding: 0.1em 0.35em;
+      border: 1px solid var(--border);
+    }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.75rem 0; }
+
+    /* ── META BAR ───────────────────────────── */
+    .meta {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .meta span + span::before { content: " · "; }
+
+    /* ── DIGEST BODY (Markdown-rendered content) ── */
+    .digest-body h2 {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: normal;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-top: 2px solid var(--text);
+      padding-top: 0.55rem;
+      margin: 2.2rem 0 1.2rem;
+    }
+    .digest-body h3 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 0 0 0.7rem;
+      text-wrap: balance;
+    }
+
+    /* ── DEEP DIVE (JS-injected wrapper around h3 blocks) ── */
+    .deep-dive {
+      background: var(--accent-pale);
+      border-left: 3px solid var(--accent-border);
+      padding: 1.1rem 1.4rem 1.1rem 1.2rem;
+      margin-bottom: 1.25rem;
+    }
+    .deep-dive p { font-size: 0.97rem; }
+    .deep-dive p:last-child { margin-bottom: 0; }
+
+    /* ── BRIEF LIST (JS-injected class on ul) ── */
+    .brief-list { list-style: none; padding: 0; }
+    .brief-list li {
+      padding: 0.72rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+      line-height: 1.56;
+      max-width: 68ch;
+    }
+    .brief-list li:last-child { border-bottom: none; }
+
+    /* ── DAY NAV ────────────────────────────── */
+    .day-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+    .day-nav a { color: var(--accent); text-decoration: none; }
+    .day-nav a:hover { text-decoration: underline; }
+
+    /* ── ARCHIVE LIST ───────────────────────── */
+    .archive-list { list-style: none; padding: 0; border-top: 2px solid var(--text); }
+    .archive-list li {
+      display: flex;
+      gap: 1.5rem;
+      align-items: baseline;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .archive-list li:last-child { border-bottom: none; }
+    .archive-list .date {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      min-width: 6rem;
+      flex-shrink: 0;
+      letter-spacing: 0.04em;
+    }
+    .archive-list a { color: var(--text); font-size: 0.93rem; text-decoration: none; }
+    .archive-list a:hover { color: var(--accent); }
+
+    /* ── STREAM CARDS ───────────────────────── */
+    .stream-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 0;
+      border-top: 2px solid var(--text);
+    }
+    .stream-card {
+      padding: 1.1rem 2rem 1.1rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .stream-card h2 {
+      font-size: 1rem;
+      margin-top: 0;
+      margin-bottom: 0.2rem;
+      font-weight: 400;
+    }
+    .stream-card h2 a { color: var(--text); text-decoration: none; }
+    .stream-card h2 a:hover { color: var(--accent); }
+    .stream-card .last-updated {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+    }
+    .stream-card .last-updated a { color: var(--accent); text-decoration: none; }
+
+    /* ── SOURCES ────────────────────────────── */
+    details {
+      margin-top: 2.5rem;
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
+    }
+    details summary {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      cursor: pointer;
+      list-style: none;
+    }
+    details[open] summary { margin-bottom: 0.6rem; }
+    .source-list { list-style: none; padding: 0; margin-top: 0.4rem; }
+    .source-list li {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+    .source-list a { color: var(--accent); text-decoration: none; }
+    .source-list a:hover { text-decoration: underline; }
+
+    /* ── DAY SECTION (collapsible per-day digest) ── */
+    .day-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .day-section > summary {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+      text-transform: none;
+      padding: 1.25rem 0 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+    .day-section > summary::-webkit-details-marker { display: none; }
+    .day-section > summary::after {
+      content: "▾";
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .day-section:not([open]) > summary::after { content: "▸"; }
+    .day-section-body { padding-bottom: 2.5rem; }
+
+    /* ── ARCHIVE SECTION ────────────────────── */
+    .archive-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .archive-section > summary {
+      padding: 0.9rem 0;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .archive-section > summary::-webkit-details-marker { display: none; }
+    .archive-list--plain { border-top: none; margin-top: 0.25rem; }
+
+    /* ── DAY SPACER ─────────────────────────── */
+    .day-spacer {
+      height: 0;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="masthead-row">
+      <a href="../index.html" class="logo">Uutisvirta</a>
+      <span class="masthead-date" id="site-date"></span>
+    </div>
+    <div class="nav-strip">
+      <nav>
+        
+        <a href="../datascience-konsultointi/index.html"
+           >
+          Datascience konsultointi
+        </a>
+        
+        <a href="../era-seikkailu/index.html"
+           >
+          Erä & seikkailu
+        </a>
+        
+        <a href="../politiikka/index.html"
+           class="active">
+          Politiikka
+        </a>
+        
+      </nav>
+    </div>
+  </header>
+  <main class="page">
+    
+<div class="day-nav">
+  <span><a href="2026-09-04.html">← 2026-09-04</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
+</div>
+
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Politiikka</div>
+<h1>2026-09-05</h1>
+<p class="meta">
+  <span>31 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>8673 tokenia</span>
+</p>
+
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Yhdysvaltain presidentti Trump on lähettänyt lähettiläänsä Moskovaan ja Kiovaan uuden rauhansuunnitelman kanssa pyrkien lopettamaan Ukrainan sodan. Euroopan komission digitaalisten markkinoiden sääntelytoimia kritisoidaan edistymisestä vastuullisuuden kustannuksella. Samaan aikaan Ranskassa on suuri kyberturvallisuusuhka.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>Trumpin uudet ponnistelut Ukrainan sodan lopettamiseksi</h3>
+<p>Yhdysvaltain presidentti Donald Trump on lähettänyt diplomaatit Steve Witkoffin ja Jared Kushnerin Moskovaan ja Kiovaan. Trumpin mukaan heillä on uusi ehdotus Ukrainan sodan lopettamiseksi. Vaikka Trump onkin toistuvasti luvannut ratkaista konfliktin, tähänastiset Washingtonin pyrkimykset ovat olleet tuloksettomia. Vierailut ovat osa Trumpin diplomatian sarjaa, jossa pyritään saamaan aikaan pysyvä rauha alueella. Tilanne korostaa Yhdysvaltojen ja Venäjän suhteiden merkitystä ja Yhdysvaltojen sitoutumista Euroopan turvallisuuteen. <strong><a href="https://www.france24.com/en/europe/20260905-trump-sends-envoys-to-moscow-and-kyiv-with-new-plan-to-end-the-war">Lue alkuperäinen →</a></strong></p>
+<h3>Euroopan komission digitaalinen markkinasääntely ja vastuullisuuden haasteet</h3>
+<p>Euroopan komission strategia Digitaalisten markkinoiden säädös (DMA) herättää huolta vastuullisuuden puutteesta, vaikka toimenpiteet edistävätkin markkinoiden kehitystä. Artikkeli arvioi, että komission lähestymistapa saattaa johtaa siihen, ettei vastuullisia toimia ja velvoitteita valvota riittävän tarkasti. Arvostelijat uskovat, että nykyisellä lähestymistavalla saatetaan vaarantaa sekä kuluttajien että markkinatoimijoiden oikeudet ja turva, kun huomio kiinnittyy liiaksi pelkästään edistykseen. Tämä kritiikki voi heijastua tuleviin sääntelytoimiin ja aiheuttaa tarpeen tarkistaa nykyisiä politiikkoja. <strong><a href="https://news.google.com/rss/articles/CBMi9wFBVV95cUxQZVBFdzNnZHVHMHJXbkhzb3VUNFhFOFJBVTVkSHBid1o2aEhOeTQxRVZ4R2hmNHpneEM1aGh3UDc0R1VLT3YxVGdFVlZSM0tuY1NLeENXZ3RzYm50eXRObFd1V25XSHlKYU1HZ2htM2xfR0tncTA5bDc4SzFsMFJvT1Zlb3g0VHV5eVMzaDdOREJhT3dsYi1hOU1zRGM0N1FLQXhLWGp2Z1gydzR0T0V5TWhVbGlfX19CU1RLRUVmdldkZU9wdW9odWpsTG5lQ0huU3gtbHo4TkVDcDBPN0hOUzc0cnlkZ2dJaFlRVnFXaUdZd3dJbUJn?oc=5">Lue alkuperäinen →</a></strong></p>
+<h3>Ranskan kyberturvallisuusuhat kasvussa</h3>
+<p>Ranskan heikko tietoturva yhdessä maan laajat tietojärjestelmät tekevät siitä houkuttelevan kohteen kyberhyökkäyksille. Ranskan poliittinen ja taloudellinen merkitys asetavat sen vaihtoehtonsa eturiviin esimerkiksi valtioiden tukemien hakkerointien ja kyberrikollisuuden kohteeksi. Kasvavat uhkat korostavat tietoturvan kehittämisen tärkeyttä kansallisella tasolla mutta myös kiireellisyyttä eurooppalaisessa yhteistyössä kyberturvallisuuden alalla. <strong><a href="https://www.rfi.fr/en/france/20260905-data-rich-systems-and-weak-security-why-france-is-a-target-for-cyberattacks">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>Saksa on muuttunut maahanmuuton kohteeksi, vaikka julkisessa keskustelussa pelätäänkin kontrolloimatonta maahanmuuttoa. <a href="https://www.dw.com/en/germany-from-emigration-to-immigration-destination/a-78805541?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Syyriassa Bashar Assadin kuolemantuomio ei riitä monen mielestä, vaikka hänet on tuomittu rikoksista omaa kansaansa vastaan. <a href="https://www.dw.com/en/why-many-syrians-feel-assad-s-death-sentence-isn-t-enough/a-78985915?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Saksa: Sahra Wagenknechtin puolueelle on paljon vaakalaudalla Sachsen-Anhaltin vaaleissa. <a href="https://www.politico.eu/podcast/berlin-playbook-podcast/ein-spaziergang-mit-sahra-wagenknecht/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää</a></li>
+<li>Ranska on yksi Euroopan suurimmista kyberhyökkäysten kohteista, johtuen maan poliittisesta ja taloudellisesta merkityksestä. <a href="https://www.rfi.fr/en/france/20260905-data-rich-systems-and-weak-security-why-france-is-a-target-for-cyberattacks">Lue lisää</a></li>
+<li>Donald Trump sivuuttaa väitteet Venäjän vakaudenkampanjoista NATO-liittolaisia vastaan. <a href="https://www.politico.com/news/2026/09/04/trump-russia-nato-espionage-allegations-01066120?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää</a></li>
+<li>Sachsen-Anhaltin osavaltion vaalien alla odotetaan tuhansia ihmisiä mielenosoituksiin ja loppukampanjoihin Magdeburgissa. <a href="https://www.dw.com/en/germany-news-thousands-expected-at-saxony-anhalt-rallies/live-79041302?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Kaksi Reform UK-puolueen johtohenkilöä on eronnut ulkomaisten lahjoitusten skandaalin vuoksi. <a href="https://www.france24.com/en/europe/20260905-two-senior-reform-uk-officials-resign-as-farage-faces-fresh-foreign-donations-scandal">Lue lisää</a></li>
+<li>AfD:n suunnitelmat Sachsen-Anhalt-vallankumoukseksi sisältävät esimerkiksi maahanmuuttajien pakkotyön. <a href="https://www.dw.com/en/what-would-an-afd-government-in-saxony-anhalt-really-mean/a-78869947?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Tunisiassa toimittaja Mohamed Yousfi on pidätetty ennen haastattelua, mikä herättää huolta sananvapaudesta. <a href="https://www.dw.com/en/tunisia-judge-orders-arrest-of-journalist-mohamed-yousfi/a-79040802?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Norjalainen Lise Klaveness korostaa FIFA:n uudistamisen tarvetta Gianni Infantinon jälkeen. <a href="https://www.politico.eu/article/lise-klaveness-gianni-infantino-donald-trump-lonely-crusader-fifa-world-cup/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää</a></li>
+</ul>
+
+</div>
+
+<details>
+  <summary>Lähteet (40)</summary>
+  <ul class="source-list">
+    
+    <li><a href="https://www.rfi.fr/en/sports/20260905-psg-boss-enrique-plays-down-slow-start-to-ligue-1-campaign-after-monaco-defeat" target="_blank" rel="noopener">PSG boss Enrique plays down slow start to Ligue 1 campaign after Monaco defeat</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.dw.com/en/germany-from-emigration-to-immigration-destination/a-78805541?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Germany: From emigration to immigration destination</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/why-many-syrians-feel-assad-s-death-sentence-isn-t-enough/a-78985915?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Why many Syrians feel Assad's death sentence isn't enough</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/berlin-playbook-podcast/ein-spaziergang-mit-sahra-wagenknecht/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Ein Spaziergang mit Sahra Wagenknecht</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20260905-data-rich-systems-and-weak-security-why-france-is-a-target-for-cyberattacks" target="_blank" rel="noopener">Data-rich systems and weak security: why France is a target for cyberattacks</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.politico.com/news/2026/09/04/trump-russia-nato-espionage-allegations-01066120?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Trump brushes off accusations of Russian sabotage against NATO allies</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/india-news-275-indians-still-missing-in-nepal-floods/live-79043198?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">India news: 275 Indians still missing in Nepal floods</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/germany-news-thousands-expected-at-saxony-anhalt-rallies/live-79041302?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Germany news: Thousands expected at Saxony-Anhalt rallies</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260905-two-senior-reform-uk-officials-resign-as-farage-faces-fresh-foreign-donations-scandal" target="_blank" rel="noopener">Two senior Reform UK officials resign as Farage faces fresh foreign donations scandal</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/what-would-an-afd-government-in-saxony-anhalt-really-mean/a-78869947?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">What would an AfD government in Saxony-Anhalt really mean?</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/tunisia-judge-orders-arrest-of-journalist-mohamed-yousfi/a-79040802?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Tunisia: Judge orders arrest of journalist Mohamed Yousfi</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260905-trump-sends-envoys-to-moscow-and-kyiv-with-new-plan-to-end-the-war" target="_blank" rel="noopener">Trump sends envoys to Moscow and Kyiv with new plan to 'end the war'</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.politico.eu/article/lise-klaveness-gianni-infantino-donald-trump-lonely-crusader-fifa-world-cup/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">The lonely crusader against Gianni Infantino</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/us-envoys-to-visit-russia-ukraine-with-plan-to-end-war/a-79040773?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">US envoys to visit Russia, Ukraine with plan 'to end war'</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/un-approves-world-map-reflecting-true-size-of-africa/a-79040629?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">UN approves world map reflecting true size of Africa</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.bbc.co.uk/news/articles/cvgypkzgy4wo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener">Germany's far-right AfD bids for first taste of power in eastern vote</a> <span style="color:var(--muted)">— BBC News — World</span></li>
+    
+    <li><a href="https://www.bbc.co.uk/news/articles/cpwlrj2je1po?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener">Mistrial declared in Lindsay Clancy murder case, after jury deadlocks</a> <span style="color:var(--muted)">— BBC News — World</span></li>
+    
+    <li><a href="https://www.theguardian.com/us-news/2026/sep/04/trump-argentina-falklands-uk" target="_blank" rel="noopener">Trump’s ‘retribution’ could now include Falklands as favor to Milei – and revenge on the UK</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.dw.com/en/outrage-as-maltese-tycoon-acquitted-in-journalist-s-murder/a-79027008?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Outrage as Maltese tycoon acquitted in journalist's murder</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/yemen-fighting-intensifies-amid-houthi-push-in-the-west/a-79039588?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Yemen: Fighting intensifies amid Houthi push in the west</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/saxony-anhalt-small-parties-will-be-the-kingmakers/a-78482460?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Saxony-Anhalt: Small parties will be the kingmakers</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260904-german-power-grid-sabotage-attack-linked-to-climate-extremism" target="_blank" rel="noopener">German power grid sabotage attack linked to ‘climate extremism’</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/germany-s-alliance-against-the-far-right/a-79009105?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Germany's alliance against the far right</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/tv-shows/the-world-this-week/20260904-germany-s-most-dangerous-man-pr-gift-for-the-afd" target="_blank" rel="noopener">Germany’s ‘Most Dangerous Man’: PR gift for the AfD?</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa" target="_blank" rel="noopener">UN votes to adopt new world map that shows Africa’s true scale</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260904-how-china-s-paracel-expansion-extends-its-military-reach-towards-vietnam-paracel-islands" target="_blank" rel="noopener">How China’s Paracel expansion extends its military reach towards Vietnam</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260904-france-drops-mercator-maps-as-africa-pushes-for-truer-world-view" target="_blank" rel="noopener">France drops Mercator maps as Africa pushes for truer world view</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/video/20260904-italian-opposition-fragmented-no-alternative-leader-no-other-possible-leader-than-giorgia-meloni-1" target="_blank" rel="noopener">'Italian opposition fragmented: No alternative leader, no other possible leader than Giorgia Meloni'</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/nigeria-suspected-oil-thieves-dead-after-inhaling-fumes/a-79001997?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Nigeria: Suspected oil thieves dead after inhaling fumes</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260904-germany-hans-thomas-tillschneider-the-ideologist-behind-the-afd-s-plans-in-saxony-anhalt" target="_blank" rel="noopener">Germany: Hans-Thomas Tillschneider, the ideologist behind the AFD’s plans in Saxony-Anhalt</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/video/20260904-france-announces-%E2%82%AC1-billion-aid-for-farmers-after-climate-hit-summer" target="_blank" rel="noopener">France announces €1 billion aid for farmers after climate-hit summer</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://news.google.com/rss/articles/CBMi9wFBVV95cUxQZVBFdzNnZHVHMHJXbkhzb3VUNFhFOFJBVTVkSHBid1o2aEhOeTQxRVZ4R2hmNHpneEM1aGh3UDc0R1VLT3YxVGdFVlZSM0tuY1NLeENXZ3RzYm50eXRObFd1V25XSHlKYU1HZ2htM2xfR0tncTA5bDc4SzFsMFJvT1Zlb3g0VHV5eVMzaDdOREJhT3dsYi1hOU1zRGM0N1FLQXhLWGp2Z1gydzR0T0V5TWhVbGlfX19CU1RLRUVmdldkZU9wdW9odWpsTG5lQ0huU3gtbHo4TkVDcDBPN0hOUzc0cnlkZ2dJaFlRVnFXaUdZd3dJbUJn?oc=5" target="_blank" rel="noopener">Progress at the Expense of Accountability: Why the European Commission’s Approach to DMA Compromise Falls Short - legalblogs.wolterskluwer.com</a> <span style="color:var(--muted)">— Google News: European Commission</span></li>
+    
+    <li><a href="https://www.france24.com/en/tv-shows/talking-europe/20260904-strengthening-africa-is-an-investment-in-europe-s-future-eu-commissioner-jozef-sikela" target="_blank" rel="noopener">Strengthening Africa is an investment in Europe's future: EU Commissioner Jozef Sikela</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260904-russian-drone-aimed-directly-at-ukraine-security-service-hq-zelensky-says" target="_blank" rel="noopener">Russian drone strikes Ukraine security service HQ</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/sep/04/colombia-president-posts-video-guerrillas-body-bags-abelardo-de-la-espriella" target="_blank" rel="noopener">Colombia president provokes disgust by posing with bodies of ‘terrorists’</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.france24.com/en/video/20260904-meloni-celebrates-milestone-as-italy-s-longest-lasting-government" target="_blank" rel="noopener">Meloni celebrates milestone as Italy's longest-lasting government</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/tv-shows/talking-europe/20260904-struggling-to-make-its-voice-heard-can-the-eu-forge-a-true-foreign-policy" target="_blank" rel="noopener">Struggling to make its voice heard: Can the EU forge a true foreign policy?</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/africa/20260904-drc-eyes-jerusalem-embassy-as-tshisekedi-seeks-israel-s-support" target="_blank" rel="noopener">DRC eyes Jerusalem embassy as Tshisekedi seeks Israel's support</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/strength-of-meloni-less-linked-to-policy-more-about-her-party-s-dominance-within-govt-coalition" target="_blank" rel="noopener">Strength of Meloni less linked to policy, more about her party's dominance within govt coalition</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/tv-shows/scoop/20260904-what-does-acquittal-in-the-daphne-caruana-galizia-case-mean-for-journalists" target="_blank" rel="noopener">What does acquittal in the Daphne Caruana Galizia case mean for journalists?</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+  </ul>
+</details>
+
+
+  </main>
+  <script>
+    (function() {
+      var d = new Date();
+      var days = ['Su','Ma','Ti','Ke','To','Pe','La'];
+      var months = ['tammik.','helmik.','maalisk.','huhtik.','toukok.','kesäk.','heinäk.','elok.','syysk.','lokak.','marrask.','jouluk.'];
+      var el = document.getElementById('site-date');
+      if (el) el.textContent = days[d.getDay()] + ' ' + d.getDate() + '. ' + months[d.getMonth()] + ' ' + d.getFullYear();
+
+      document.querySelectorAll('a[href]').forEach(function(a) {
+        var href = a.getAttribute('href');
+        if (href && href.startsWith('http')) {
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener');
+        }
+      });
+
+      document.querySelectorAll('.digest-body').forEach(function(body) {
+        body.querySelectorAll('h3').forEach(function(h3) {
+          var div = document.createElement('div');
+          div.className = 'deep-dive';
+          h3.parentNode.insertBefore(div, h3);
+          div.appendChild(h3);
+          var next = div.nextSibling;
+          while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+            var n = next.nextSibling;
+            div.appendChild(next);
+            next = n;
+          }
+        });
+        body.querySelectorAll('ul').forEach(function(ul) {
+          ul.classList.add('brief-list');
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

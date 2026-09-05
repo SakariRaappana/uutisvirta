@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-05",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Microsoft Agent Framework on ottanut käyttöön natiivin muistin Azure Cosmos DB:n kanssa, mikä mahdollistaa entistä tehokkaamman muistin hallinnan. Lisäksi MIT Technology Review käsittelee muisti- ja tallennusratkaisujen arkkitehtuuria tekoälyn aikakaudella.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Native memory for Microsoft Agent Framework with Azure Cosmos DB</h3>\n<p>Microsoft Agent Framework on integroinut natiivin muistin hallinnan Azure Cosmos DB:n kanssa. Tämä uusi ominaisuus parantaa agenttien kykyä tallentaa ja käyttää suuria tietomääriä tehokkaasti. Cosmos DB toimii skaalautuvana pilvitietokantana, joka mahdollistaa agenttien reaaliaikaisen tiedonsiirron ja muistin hallinnan. Kehittäjät voivat näiden parannusten myötä tehdä agenttien suunnittelusta entistä intuitiivisempaa ja suorituskykyisempää, mikä on erityisen merkittävää suurissa ja monimutkaisissa sovelluksissa. Yhteistyö Azure Cosmos DB:n kanssa tuo myös etuja vaatimustenmukaisuuden näkökulmasta, sillä se tarjoaa vahvasti hallittua datan käsittelyä ja säilyttämistä. <strong><a href=\"https://devblogs.microsoft.com/agent-framework/native-memory-for-microsoft-agent-framework-with-azure-cosmos-db/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>MIT Technology Review korostaa tekoälyn aikakaudelle suunniteltujen muisti- ja tallennusratkaisujen merkitystä. Tekoälysovellukset, kuten terveydenhuoltojärjestelmät, hyötyvät tehokkaammista arkkitehtuureista, jotka mahdollistavat reaaliaikaisen tiedon analysoinnin ja käsittelyn. <a href=\"https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1804,
+  "output_tokens": 436,
+  "sources": [
+    {
+      "title": "Architecting memory and storage in the AI era",
+      "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Native memory for Microsoft Agent Framework with Azure Cosmos DB",
+      "url": "https://devblogs.microsoft.com/agent-framework/native-memory-for-microsoft-agent-framework-with-azure-cosmos-db/",
+      "source_name": "Microsoft Agent Framework Blog"
+    },
+    {
+      "title": "The Download: selling battlefield drone data and AI reshaping language",
+      "url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+      "url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Native memory for Microsoft Agent Framework with Azure Cosmos DB",
+      "source_name": "Microsoft Agent Framework Blog",
+      "source_url": "https://devblogs.microsoft.com/agent-framework/native-memory-for-microsoft-agent-framework-with-azure-cosmos-db/",
+      "published_at": "2026-09-04T13:00:07+00:00",
+      "summary": "Agents are more useful when they can remember what matters beyond the current conversation. Today, we&#8217;re announcing a new preview integration that gives Microsoft Agent Framework agents durable, cross-session memory backed by Azure Cosmos DB. The new Python package, agent-framework-azure-cosmo",
+      "why_relevant": "Tämä vaikuttaa suoraan siihen, miten rakennat pitkäkestoista muistia Microsoft Agent Framework -agentteihin Azure Cosmos DB:n avulla, eli kyse on konkreettisesta arkkitehtuurimuutoksesta sinun työkalupakissasi.",
+      "homepage_eligible": true,
+      "homepage_score": 92,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "maf-native-memory-cosmos-db-preview",
+      "category": "tärkea"
+    }
+  ]
+}
