@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-07",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa keskustellaan ruotsalaisen Kalmarin läänin metsästyslaukausten lisäämisestä, eftersöksjägareiden arjesta ja houkuttelavista vesilintumetsästyskikoista. Lisäksi esitellään uutuuksia retkeilyvarusteista Seek Outisiden Brightwater 1P -majoitteen tiimoilta.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Ruotsin Kalmarin läänissä viranomaiset haluavat lisätä metsästyspainetta sekä saksanhirvien että muflonlampaiden osalta, sillä saksanhirvikannat ovat paikoitellen tiheät ja muflonia pidetään vieraslajina. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/uppmaningen-till-jagarna-skjut-fler-dovhjortar-och-mufflon/\">Lue lisää</a></p>\n</li>\n<li>\n<p>JRF:n Jimmy Låås kertoo, millaista on työskennellä eftersöksjägare-metsästäjänä Ruotsissa. Työ vaatii paljon, mukaan lukien vähäiset yöunet ja runsaan energian saannin. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/gilla-jakt-om-nationella-hjaltarna-eftersoksjagarna/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life jakaa kuusi tehokasta varhaiskauden siniteal-metsästystaktiikkaa, mukaan lukien mobiilit spinner-levitelmät, liikennesijoitukset ja kulkureittien hyödyntäminen. <a href=\"https://www.outdoorlife.com/hunting/6-sneaky-early-season-teal-hunting-tactics/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Rokslide julkaisee Seek Outisiden Brightwater 1P -suojan arvion, osana laajaa majoitearvostelusarjaa. Arvioissa keskitytään erilaisiin majoitteisiin, mukaan lukien täysin suljetut neljän vuodenajan teltat ja kevyet yksinmajoitteet. <a href=\"https://www.rokslide.com/seek-outside-brightwater-1p-shelter-review/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1767,
+  "output_tokens": 496,
+  "sources": [
+    {
+      "title": "Uppmaningen till jägarna: Skjut fler dovhjortar och mufflon",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/uppmaningen-till-jagarna-skjut-fler-dovhjortar-och-mufflon/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Gilla jakt om nationella hjältarna – eftersöksjägarna",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/gilla-jakt-om-nationella-hjaltarna-eftersoksjagarna/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "6 Sneaky Early-Season Teal Hunting Tactics",
+      "url": "https://www.outdoorlife.com/hunting/6-sneaky-early-season-teal-hunting-tactics/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Here’s Why Big-Bore Rifles Got So Popular in the Late 90s",
+      "url": "https://www.outdoorlife.com/guns/heres-why-big-bore-rifles-got-so-popular-in-the-late-90s/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Seek Outside Brightwater 1P Shelter Review",
+      "url": "https://www.rokslide.com/seek-outside-brightwater-1p-shelter-review/",
+      "source_name": "Rokslide"
+    }
+  ],
+  "homepage_candidates": []
+}
