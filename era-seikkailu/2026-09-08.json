@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-08",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään on julkaistu useita lyhyitä uutisia erä- ja metsästysaiheista. Suomen Ladun uusi Kiilopää-työryhmä on perustettu arvioimaan Kiilopään tilannetta, ja Kalmarin läänin viranomaiset Ruotsissa kehottavat metsästäjiä kaatamaan enemmän saksanhirviä ja mufloneja. Lisäksi käsitellään lintujen ruokavaliota, digiskopeja puhelimille ja kiistanalaisesti kaadettua valkohäntäpeuraa Mainessa.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>Mitä sorsat syövät? Tärkeää tietoa jokaiselle sorsanmetsästäjälle</strong><br />\nOutdoor Life käsittelee sorsien ravintoa ja sen merkitystä metsästykselle. Syventymällä sorsien luonnollisiin ruokailutottumuksiin voi parantaa saaliin saamista. <a href=\"https://www.outdoorlife.com/hunting/what-wild-ducks-eat/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Ammuin Mainen historian painavimman valkohäntäpeuran — kiista alkoi</strong><br />\nArtikkelissa Outdoor Life -sivustolla kerrotaan jättimäisen valkohäntäpeuran kaadosta, joka synnytti kiistaa painoennätyksestä ja sen hyväksyttävyydestä. <a href=\"https://www.outdoorlife.com/hunting/hinkley-buck-maine/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Suomen Latu perusti Kiilopää-työryhmän alueen tulevaisuuden arviointia varten</strong><br />\nSuomen Ladun hallitus on nimennyt työryhmän, joka kartoittaa Kiilopään nykytilan ja arvioi sen tulevaisuuden vaihtoehtoja. <a href=\"https://www.suomenlatu.fi/suomen-ladun-hallitus-nimesi-kiilopaa-tyoryhman/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Parhaat puhelin-adapterit digiskopaukseen metsästäjille kaudelle 2026</strong><br />\nRokslide esittelee erilaisia adaptereita, jotka mahdollistavat puhelimen liittämisen kiikaritähtäimiin, mikä parantaa metsästyksen tarkkuutta ja dokumentointia. <a href=\"https://www.rokslide.com/best-phone-digiscoping-adapters-for-hunters-for-the-2026-season/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Kehotus Ruotsin metsästäjille: Kaatakaa enemmän saksanhirviä ja mufloneja</strong><br />\nKalmarin läänin viltävastuuviranomaiset kehottavat lisättyyn saksanhirvi- ja muflonmetsästykseen tiheiden kantojen ja muflonien vieraslajiluonteen vuoksi. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/uppmaningen-till-jagarna-skjut-fler-dovhjortar-och-mufflon/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1866,
+  "output_tokens": 678,
+  "sources": [
+    {
+      "title": "What Do Ducks Eat? Here’s What All Waterfowlers Should Know",
+      "url": "https://www.outdoorlife.com/hunting/what-wild-ducks-eat/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Trailrunner Missing on Matterhorn As She Prepared For FKT Attempt",
+      "url": "https://explorersweb.com/trailrunner-missing-on-matterhorn-as-she-prepared-for-fkt-attempt/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "I Shot the Heaviest Buck Ever Taken in Maine. Then the Controversy Started",
+      "url": "https://www.outdoorlife.com/hunting/hinkley-buck-maine/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Massive Avalanche in Caucasus: 11 Dead, 6 Missing, 6 Injured",
+      "url": "https://explorersweb.com/massive-avalanche-in-caucasus-11-dead-6-missing-6-injured/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Suomen Ladun hallitus nimesi Kiilopää-työryhmän",
+      "url": "https://www.suomenlatu.fi/suomen-ladun-hallitus-nimesi-kiilopaa-tyoryhman/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Best Phone Digiscoping Adapters for Hunters for the 2026 Season",
+      "url": "https://www.rokslide.com/best-phone-digiscoping-adapters-for-hunters-for-the-2026-season/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Uppmaningen till jägarna: Skjut fler dovhjortar och mufflon",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/uppmaningen-till-jagarna-skjut-fler-dovhjortar-och-mufflon/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": []
+}
