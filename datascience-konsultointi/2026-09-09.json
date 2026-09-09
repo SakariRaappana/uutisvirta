@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-09",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään ainoa merkittävä uutinen koskee tekoäly-alan yrittäjää, joka kehittää agentteja, jotka pystyvät suunnittelemaan ennakoimattomia tilanteita varten.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<h3>This AI entrepreneur is developing agents that can plan ahead for the unexpected</h3>\n<p>Danijar Hafner kehittää San Franciscon SoMa-alueella startup-yrityksessään tekoälyagentteja, jotka kykenevät suunnittelemaan ennakoimattomia tilanteita varten. Yritys on vielä piilotilassa eikä sillä ole edes nimeä ovessa. <a href=\"https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/\">Lue lisää</a></p>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1048,
+  "output_tokens": 187,
+  "sources": [
+    {
+      "title": "Batteries just broke another record in the US",
+      "url": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Understanding the thermal ceiling in portable power",
+      "url": "https://www.technologyreview.com/2026/09/09/1143279/understanding-the-thermal-ceiling-in-portable-power/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: our 35 Innovators Under 35 this year",
+      "url": "https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "This founder is teaching chips how to recycle (their energy)",
+      "url": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "This founder is making cheaper, cleaner steel",
+      "url": "https://www.technologyreview.com/2026/09/08/1142094/laureen-meroueh-makes-cheaper-cleaner-steel/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "This geneticist’s age-reversal tech could help restore sight",
+      "url": "https://www.technologyreview.com/2026/09/08/1142074/yuancheng-ryan-lu-age-reversal-tech-restores-sight/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}

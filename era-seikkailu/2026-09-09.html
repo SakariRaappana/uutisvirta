@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-09-09 — Erä & seikkailu — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,23 +358,23 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
+        <a href="../datascience-konsultointi/index.html"
            >
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
-           >
+        <a href="../era-seikkailu/index.html"
+           class="active">
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
+        <a href="../politiikka/index.html"
            >
           Politiikka
         </a>
@@ -384,206 +384,76 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-09-09</p>
+<div class="day-nav">
+  <span><a href="2026-09-08.html">← 2026-09-08</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Erä & seikkailu</div>
+<h1>2026-09-09</h1>
+<p class="meta">
+  <span>7 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>2715 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Politiikka</div>
-  <h2 class="featured-title">
-    <a href="https://www.rfi.fr/en/international/20260908-france-among-twelve-nations-to-sanction-trade-with-israeli-settlements" target="_blank" rel="noopener">France among 12 nations to sanction trade with Israeli settlements</a>
-  </h2>
-  
-  <div class="featured-why">Ranskan ja muiden maiden päätös rajoittaa kauppaa Israelin siirtokuntien kanssa vaikuttaa EU:n ulkopoliittiseen linjaan, kauppapolitiikan johdonmukaisuuteen ja siihen, miten jäsenmaat käyttävät talouspainetta Lähi-idän kysymyksissä.</div>
-  
-  <div class="featured-meta">
-    <span class="badge-new">Uusi</span>
-    RFI English · tänään ·
-    <a href="politiikka/2026-09-09.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään uutisissa käsiteltiin metsänhoitoa ja metsästyksen kehitystä, kun metsästäjien talkootyö vaikuttaa metsäkanalintujen metsästyksen sääntöihin. Lisäksi kartoitettiin uusia alueita valkohäntäpeurametsästyksen kannalta ja tarkasteltiin uusien varusteiden vaikutusta eräharrastuksiin.</p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p>Metsästäjien ainutlaatuinen talkootyö auttaa säätelemään metsäkanalintujen metsästystä Suomessa, mikä saattaa vaikuttaa metsästyskauden aikatauluihin ja saaliin määriin. <a href="https://metsastajaliitto.fi/uutiset/talkootyo-auttaa-saatelemaan-metsakanalintujen-metsastysta">Lue lisää</a></p>
+</li>
+<li>
+<p>Uusi data viittaa siihen, että Etelä-Yhdysvallat voisi nousta uudeksi valkohäntäpeurojen metsästysalueeksi ohi Perinteisen Keskilännen. <a href="https://www.outdoorlife.com/hunting/is-the-south-the-new-king-of-whitetail-country/">Lue lisää</a></p>
+</li>
+<li>
+<p>Magnumsotilaskiväärien rekyylin vähentämiseen kehitetyistä laitteista tutkittiin äänenvaimentimien ja suujarrujen tehokkuutta metsästystilanteissa. <a href="https://www.outdoorlife.com/guns/muzzle-brakes-vs-suppressors-for-magnums/">Lue lisää</a></p>
+</li>
+<li>
+<p>Legendaarinen japanilainen metsästäjä ja Grönlannin vanhin Ikuo Oshima, joka muutti Grönlantiin yli 50 vuotta sitten, on kuollut 79-vuotiaana. <a href="https://explorersweb.com/legendary-japanese-man-who-became-a-greenland-hunter-and-elder-dies/">Lue lisää</a></p>
+</li>
+<li>
+<p>Deer Hunter Jim Collins onnistui välttämään vuorileijonan hyökkäyksen tarkalla laukauksellaan. <a href="https://www.outdoorlife.com/survival/six-steps-from-a-mountain-lion/">Lue lisää</a></p>
+</li>
+<li>
+<p>Manaslu-reitti Nepalissa on tulvinut, mikä on keskeyttänyt vaellukset ja pakottanut kiipeilijät lentämään base campiin helikoptereilla. <a href="https://explorersweb.com/manaslu-trail-flooded-halting-treks-and-forcing-climbers-fly-to-base-camp/">Lue lisää</a></p>
+</li>
+<li>
+<p>Spartan Precision Equipment on kehittänyt uudenlaisia metsästysbipodeja ja tripodeja, jotka kestävät arktiset olosuhteet ja ovat testattu vaativissa puolustusvoimien käyttöolosuhteissa. <a href="https://www.rokslide.com/how-spartan-reinvented-hunting-bipods-and-tripods-from-arctic-hunts-to-combat-tested-gear/">Lue lisää</a></p>
+</li>
+</ul>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (10)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.dw.com/en/von-der-leyen-in-greenland-with-eu-investments-amid-trump-pressure/a-79109197?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Von der Leyen in Greenland with EU investments amid Trump pressure</a>
-      </div>
-      
-      <div class="news-card-why">EU:n investointipaketti Grönlantiin ja tiiviimpi poliittinen sitoutuminen voivat muuttaa arktisen alueen geopoliittista asetelmaa ja EU:n suhteita Yhdysvaltoihin tavalla, joka vaikuttaa myös Suomen turvallisuus- ja talousympäristöön.</div>
-      
-      <div class="news-card-meta">
-        
-        Deutsche Welle · 2 pv sitten ·
-        <a href="politiikka/2026-09-07.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://metsastajaliitto.fi/uutiset/talkootyo-auttaa-saatelemaan-metsakanalintujen-metsastysta" target="_blank" rel="noopener">Metsästäjien ainutlaatuinen talkootyö auttaa säätelemään metsäkanalintujen metsästystä</a> <span style="color:var(--muted)">— Metsästäjäliitto</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxPbm1hSUJQaFBTYXp3Ty10ZWhOTzlTTkoyM2NNdkRxOEh5Yzhla19RVDRrdWFGOWNFXzRMQUpINW1XQi1HYmxrNWctS2NkaUZFYUktOVAyUnhQTFdXS2d2VjFnWmVkbHlvb2tZUFBqN1VQTW1vVlhlRTAtQTZrZnJrYXN4Qzl0eU1GZjREYnZnbElnc2FfVS0xYzdrVW5jeEUxM0k1c01tU2NRQm9IOEHSAbMBQVVfeXFMUEZScjJmcEpBU3ZocUtDS21IQUlibG1kUEtod0ZiWFNzY3ZlQWRQblpqemNYdnhHcTBIbUpPWWVoWGYyVDZwODBfcjZmTzFwLTl4MmxTZHF6LUhQQmhUU3YxMVhlWkpqalZXQlpYMElPY1JVMnJXZ2c0TVEyd3E3MExqNG9qSnF2TFJZM2lWR3JJT2RhM2lXNmM1TlY1M1VSSjd2OHZfWWU0TmpCVkoyN2xtakU?oc=5" target="_blank" rel="noopener">EU seeks to reassure a Trump-rattled Greenland with promise of a new partnership and investment - ABC News - Breaking News, Latest News and Videos</a>
-      </div>
-      
-      <div class="news-card-why">EU:n lupaus uudesta kumppanuudesta ja yli 200 miljoonan dollarin investoinneista Grönlantiin voi muuttaa arktisen alueen geopoliittista ja taloudellista asetelmaa tavalla, joka vaikuttaa myös EU:n pohjoisiin etuihin.</div>
-      
-      <div class="news-card-meta">
-        
-        Google News: European Commission · eilen ·
-        <a href="politiikka/2026-09-08.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/hunting/is-the-south-the-new-king-of-whitetail-country/" target="_blank" rel="noopener">Is the South the New King of Whitetail Country?</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.rfi.fr/en/international/20260907-merz-deeply-shocked-as-far-right-victory-tests-germany-s-political-firewall" target="_blank" rel="noopener">Merz ‘deeply shocked’ as far-right victory tests Germany’s political firewall</a>
-      </div>
-      
-      <div class="news-card-why">Jos AfD:n läpimurto alkaa murentaa Saksan niin sanottua palomuuria, se voi muuttaa hallituskoalitioiden toimintakykyä, Ukrainan-tukea ja koko EU:n poliittista tasapainoa.</div>
-      
-      <div class="news-card-meta">
-        
-        RFI English · eilen ·
-        <a href="politiikka/2026-09-08.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/fishing/are-alligator-gar-the-ultimate-gamefish-or-giant-trash-fish/" target="_blank" rel="noopener">Are Alligator Gar the Ultimate Gamefish or Giant Trash Fish?</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://explorersweb.com/what-its-like-to-experience-the-worlds-worst-sting-from-a-giant-venomous-centipede/" target="_blank" rel="noopener">What It's Like to Experience the World's Worst Sting, From a Giant Venomous Centipede</a> <span style="color:var(--muted)">— ExploresWeb</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/guns/muzzle-brakes-vs-suppressors-for-magnums/" target="_blank" rel="noopener">Muzzle Brakes vs. Suppressors: What’s Best for Taming Recoil of Your Magnum Rifle?</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://explorersweb.com/legendary-japanese-man-who-became-a-greenland-hunter-and-elder-dies/" target="_blank" rel="noopener">Legendary Japanese Man Who Became a Greenland Hunter and Elder Dies</a> <span style="color:var(--muted)">— ExploresWeb</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/survival/six-steps-from-a-mountain-lion/" target="_blank" rel="noopener">One Lucky Shot Saved This Deer Hunter from Being Mauled By a Mountain Lion</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://explorersweb.com/manaslu-trail-flooded-halting-treks-and-forcing-climbers-fly-to-base-camp/" target="_blank" rel="noopener">Manaslu Trail Flooded, Halting Treks and Forcing Climbers to Fly to Base Camp</a> <span style="color:var(--muted)">— ExploresWeb</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/hunting/persistence-hunt-pronghorn/" target="_blank" rel="noopener">This Ultra-Runner Was on a Quest to Chase Down a Pronghorn on the Open Prairie</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.rokslide.com/how-spartan-reinvented-hunting-bipods-and-tripods-from-arctic-hunts-to-combat-tested-gear/" target="_blank" rel="noopener">How Spartan Reinvented Hunting Bipods and Tripods: From Arctic Hunts to Combat-Tested Gear</a> <span style="color:var(--muted)">— Rokslide</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-
-
+</details>
 
 
   </main>

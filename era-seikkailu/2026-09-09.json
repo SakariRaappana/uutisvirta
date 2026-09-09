@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-09",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa käsiteltiin metsänhoitoa ja metsästyksen kehitystä, kun metsästäjien talkootyö vaikuttaa metsäkanalintujen metsästyksen sääntöihin. Lisäksi kartoitettiin uusia alueita valkohäntäpeurametsästyksen kannalta ja tarkasteltiin uusien varusteiden vaikutusta eräharrastuksiin.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Metsästäjien ainutlaatuinen talkootyö auttaa säätelemään metsäkanalintujen metsästystä Suomessa, mikä saattaa vaikuttaa metsästyskauden aikatauluihin ja saaliin määriin. <a href=\"https://metsastajaliitto.fi/uutiset/talkootyo-auttaa-saatelemaan-metsakanalintujen-metsastysta\">Lue lisää</a></p>\n</li>\n<li>\n<p>Uusi data viittaa siihen, että Etelä-Yhdysvallat voisi nousta uudeksi valkohäntäpeurojen metsästysalueeksi ohi Perinteisen Keskilännen. <a href=\"https://www.outdoorlife.com/hunting/is-the-south-the-new-king-of-whitetail-country/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Magnumsotilaskiväärien rekyylin vähentämiseen kehitetyistä laitteista tutkittiin äänenvaimentimien ja suujarrujen tehokkuutta metsästystilanteissa. <a href=\"https://www.outdoorlife.com/guns/muzzle-brakes-vs-suppressors-for-magnums/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Legendaarinen japanilainen metsästäjä ja Grönlannin vanhin Ikuo Oshima, joka muutti Grönlantiin yli 50 vuotta sitten, on kuollut 79-vuotiaana. <a href=\"https://explorersweb.com/legendary-japanese-man-who-became-a-greenland-hunter-and-elder-dies/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Deer Hunter Jim Collins onnistui välttämään vuorileijonan hyökkäyksen tarkalla laukauksellaan. <a href=\"https://www.outdoorlife.com/survival/six-steps-from-a-mountain-lion/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Manaslu-reitti Nepalissa on tulvinut, mikä on keskeyttänyt vaellukset ja pakottanut kiipeilijät lentämään base campiin helikoptereilla. <a href=\"https://explorersweb.com/manaslu-trail-flooded-halting-treks-and-forcing-climbers-fly-to-base-camp/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Spartan Precision Equipment on kehittänyt uudenlaisia metsästysbipodeja ja tripodeja, jotka kestävät arktiset olosuhteet ja ovat testattu vaativissa puolustusvoimien käyttöolosuhteissa. <a href=\"https://www.rokslide.com/how-spartan-reinvented-hunting-bipods-and-tripods-from-arctic-hunts-to-combat-tested-gear/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 7,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2064,
+  "output_tokens": 651,
+  "sources": [
+    {
+      "title": "Metsästäjien ainutlaatuinen talkootyö auttaa säätelemään metsäkanalintujen metsästystä",
+      "url": "https://metsastajaliitto.fi/uutiset/talkootyo-auttaa-saatelemaan-metsakanalintujen-metsastysta",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "Is the South the New King of Whitetail Country?",
+      "url": "https://www.outdoorlife.com/hunting/is-the-south-the-new-king-of-whitetail-country/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Are Alligator Gar the Ultimate Gamefish or Giant Trash Fish?",
+      "url": "https://www.outdoorlife.com/fishing/are-alligator-gar-the-ultimate-gamefish-or-giant-trash-fish/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "What It's Like to Experience the World's Worst Sting, From a Giant Venomous Centipede",
+      "url": "https://explorersweb.com/what-its-like-to-experience-the-worlds-worst-sting-from-a-giant-venomous-centipede/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Muzzle Brakes vs. Suppressors: What’s Best for Taming Recoil of Your Magnum Rifle?",
+      "url": "https://www.outdoorlife.com/guns/muzzle-brakes-vs-suppressors-for-magnums/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Legendary Japanese Man Who Became a Greenland Hunter and Elder Dies",
+      "url": "https://explorersweb.com/legendary-japanese-man-who-became-a-greenland-hunter-and-elder-dies/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "One Lucky Shot Saved This Deer Hunter from Being Mauled By a Mountain Lion",
+      "url": "https://www.outdoorlife.com/survival/six-steps-from-a-mountain-lion/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Manaslu Trail Flooded, Halting Treks and Forcing Climbers to Fly to Base Camp",
+      "url": "https://explorersweb.com/manaslu-trail-flooded-halting-treks-and-forcing-climbers-fly-to-base-camp/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "This Ultra-Runner Was on a Quest to Chase Down a Pronghorn on the Open Prairie",
+      "url": "https://www.outdoorlife.com/hunting/persistence-hunt-pronghorn/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How Spartan Reinvented Hunting Bipods and Tripods: From Arctic Hunts to Combat-Tested Gear",
+      "url": "https://www.rokslide.com/how-spartan-reinvented-hunting-bipods-and-tripods-from-arctic-hunts-to-combat-tested-gear/",
+      "source_name": "Rokslide"
+    }
+  ],
+  "homepage_candidates": []
+}
