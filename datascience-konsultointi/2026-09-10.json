@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-10",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään saimme päivityksiä Microsoft Foundry -alustaan, joka toi esille uusia ominaisuuksia ja parannuksia, kuten &quot;Hosted Agents&quot; ja &quot;Model Router&quot;. Lisäksi terveydenhuollon sektorilla tekoälyn integrointi on nousemassa keskeiseen asemaan, mikä avaa uusia mahdollisuuksia alan toimijoille.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Uutta Microsoft Foundryssa heinä- ja elokuussa 2026</h3>\n<p>Microsoft Foundry julkaisi päivityksiä heinä- ja elokuulta 2026. Mukana on uusi ominaisuus &quot;Hosted Agents&quot;, minkä ansiosta käyttäjät voivat nyt hallita agenttejaan suoraan pilvipalvelussa parantaen samalla skaalautuvuutta. Lisäksi &quot;Model Router&quot; on lanseerattu, mikä optimoi mallien käytön monimutkaisissa ympäristöissä. Foundryyn on lisätty uusia SDK- ja työkalupaketin päivityksiä, jotka laajentavat kehittäjien mahdollisuuksia luoda ja testata agenttipohjaisia ratkaisuja tehokkaammin. Nämä parannukset tekevät alustasta entistä joustavamman ja tukevat tekoälyratkaisujen kehitystä useilla eri toimialoilla. <strong><a href=\"https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Terveydenhuollon tekoälyn seuraava haaste on integrointi. Suuret tekoälyyritykset astuvat alalle, mikä nopeuttaa teknologian perustan kehitystä ja tarjoaa entistä kehittyneempiä malleja terveydenhuollon käyttöön. <a href=\"https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1921,
+  "output_tokens": 428,
+  "sources": [
+    {
+      "title": "God told them to sell crypto. Their investors lost everything.",
+      "url": "https://www.technologyreview.com/2026/09/10/1143588/indxcoin-god-regalados-sell-crypto-investors-lost-everything/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Healthcare AI’s next test is integration",
+      "url": "https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "What’s new in Microsoft Foundry: July and August 2026",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "The Download: OpenAI’s turning point for math and a battery record",
+      "url": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Batteries just broke another record in the US",
+      "url": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Understanding the thermal ceiling in portable power",
+      "url": "https://www.technologyreview.com/2026/09/09/1143279/understanding-the-thermal-ceiling-in-portable-power/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "What’s new in Microsoft Foundry: July and August 2026",
+      "source_name": "Microsoft Foundry Blog",
+      "source_url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/",
+      "published_at": "2026-09-09T23:00:39+00:00",
+      "summary": "Catch up on July and August in Microsoft Foundry: stable Hosted Agent and Toolbox SDK paths, Claude tools on Azure-hosted deployments, Model Router updates, local inference improvements, and the SDK migrations worth checking before you upgrade.\nThe post What&#8217;s new in Microsoft Foundry: July an",
+      "why_relevant": "Microsoft Foundryn stable Hosted Agent- ja Toolbox SDK -polkujen, Claude-tuen ja Model Router -päivitysten kaltaiset muutokset vaikuttavat suoraan siihen, millä arkkitehtuurilla voit rakentaa ja operoida agentteja asiakasprojekteissa.",
+      "homepage_eligible": true,
+      "homepage_score": 88,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 4,
+      "novelty": 5,
+      "event_key": "microsoft-foundry-july-august-2026",
+      "category": "tärkea"
+    }
+  ]
+}

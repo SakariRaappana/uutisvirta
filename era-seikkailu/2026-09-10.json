@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-10",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään keskiössä ovat uudet keinot parantaa koirien metsästys- ja jäljestystaitoja, sekä havaintojen kartuttaminen sairaita eläimiä koskevassa tutkimuksessa. Lisäksi mukana on selviytymistarina karhun hyökkäyksestä, uusi tekniikka riistakameroille ja kasvava huoli sorsien metsästyskulttuurin vaikutuksista väheneviin lintukantoihin.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Ruotsalainen jäljestysmetsästäjä Nicklas Johansson korostaa motivaation ja palkintojen merkitystä hyvien jäljestyskoirien koulutuksessa perinteisten viltin jäljestysharjoitusten sijaan. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/jakt-ar-ingen-lek-men-jaktlek-ar-jakt/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ruotsin eläinlääketieteellinen laitos SVA kerää havaintoja peuroista, joilla on ollut ripulia, osana projektia kartoittaa tätä osin tuntematonta ongelmaa. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/sva-efterlyser-observationer-av-radjur-med-diarre/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Gavin Haakenson koki hengenvaarallisen tilanteen, kun ruskea karhu yllätti hänet ja hänen ystävänsä metsästysretkellä. Hän pitää onnekkaana, että menetti tajuntansa ja onnistui näin välttämään vakavat vammat. <a href=\"https://www.outdoorlife.com/survival/moose-hunters-ambushed-by-brown-bear/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life esittelee uuden Tactacam REVEAL Pro 4.0 Solar -riistakameran, joka on saanut kehuja edullisena ja laadukkaana hankintana metsästäjille ja luontokuvaajille. <a href=\"https://www.outdoorlife.com/gear/tactacam-reveal-pro-4-0-solar-review/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ankanmetsästyksen kulttuuri voi olla vaarassa, sillä sorsapopulaatioiden, erityisesti sinisorsien, väheneminen pakottaa metsästäjät miettimään kulttuurin sopeuttamista muuttuvaan tilanteeseen. <a href=\"https://www.outdoorlife.com/hunting/greenhead-obsession/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1841,
+  "output_tokens": 552,
+  "sources": [
+    {
+      "title": "Jakt är ingen lek – men jaktlek är jakt",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/jakt-ar-ingen-lek-men-jaktlek-ar-jakt/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Talviuintikausi alkaa Perhepulahduksella – tule mukaan koko perheen voimin!",
+      "url": "https://www.suomenlatu.fi/talviuintikausi-alkaa-perhepulahduksella-tule-mukaan-koko-perheen-voimin/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "SVA efterlyser observationer av rådjur med diarré",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/sva-efterlyser-observationer-av-radjur-med-diarre/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "‘I’m Glad I Blacked Out.’ Moose Hunter Miraculously Escapes Brown Bear Attack",
+      "url": "https://www.outdoorlife.com/survival/moose-hunters-ambushed-by-brown-bear/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Here’s How Video Games Led This California Kid to Bass Fishing Superstardom",
+      "url": "https://www.outdoorlife.com/fishing/oliver-ngy-bass-star/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "A Summit Push Begins in the Garwhal Himalaya",
+      "url": "https://explorersweb.com/a-summit-push-begins-in-the-garwhal-himalaya/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "‘The Fish Was Too Big.’ Maine Fishermen Win $55K After Catching This Enormous Bluefin Tuna",
+      "url": "https://www.outdoorlife.com/fishing/giant-bluefin-tuna-maine/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "First Look at the New Tactacam REVEAL Pro 4.0 Solar",
+      "url": "https://www.outdoorlife.com/gear/tactacam-reveal-pro-4-0-solar-review/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Our Obsession With Greenheads Could Ruin Duck Hunting as We Know It",
+      "url": "https://www.outdoorlife.com/hunting/greenhead-obsession/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
