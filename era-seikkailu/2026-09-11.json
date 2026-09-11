@@ -1,0 +1,98 @@
+{
+  "date": "2026-09-11",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään monimuotoiset metsästys- ja retkeilyaiheiset lyhytmaininnat korostavat erityisesti riistaeläinten seurannan ja turvallisen teknologian merkitystä. Kronobergissä tapahtunut susihyökkäys vaikuttaa mahdolliseen suojametsästykseen, ja SVA päätyy tutkimaan kyselyllä sairaita kauriita. Retkeilyn saralla kerrotaan tuntemattomasta arktisesta saaristosta ja alppimaisen kiipeilytyylin soveltamisesta Makalulle.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>(N/A - Ei tärkeitä uutisia tänään.)</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Kronobergissä on tapahtunut uusi susihyökkäys, jossa kokonainen lammaslauma on kaatunut. Viranomaiset odottavat DNA-tuloksia, jotka voivat vaikuttaa päätökseen suojametsästyksestä. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/nytt-vargangrepp-i-kronoberg-kan-vara-genetiskt-viktig-varg/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Suuri arktinen saaristo, lähes Sveitsin kokoinen, pysyi tuntemattomana vuoteen 1913 asti, jolloin se löydettiin viimeisenä suurena tutkimattomana saaristona maailmassa. <a href=\"https://polarjournal.net/the-huge-arctic-archipelago-nobody-knew-existed/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Boss on lanseerannut uuden kuparipanoksen, joka lupaa ylittää bismutin suorituskyvyssä, kun pelleteissä käytettävät materiaalit ovat käyneet niukemmiksi ja kalliimmiksi. <a href=\"https://www.outdoorlife.com/guns/boss-copper-load-review/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life on arvioinut vuoden 2026 parhaat kiipeilytikut, jotka ovat kevyitä, helposti pakattavia ja sopivat hyvin liikkuvaan metsästykseen. <a href=\"https://www.outdoorlife.com/gear/best-climbing-sticks-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Metsästysradiot ovat hyödyllisiä välineitä, mutta niiden väärinkäyttö voi aiheuttaa ongelmia kommunikaatiossa ja tehottomuutta metsästyksessä. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/1-av-100-tips-slarva-inte-med-radiodisciplinen/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kaksi venäläistä kiipeilijää yrittää toistamiseen kiivetä Makalu alppityylillä, mikä on harvinaista. <a href=\"https://explorersweb.com/pair-launches-rare-alpine-style-attempt-on-makalu/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Hirvenmetsästäjien on syytä välttää tiettyjä jälkiä ja kaapimisia metsässä, sillä ne eivät välttämättä johda saaliiseen. <a href=\"https://www.outdoorlife.com/hunting/rubs-and-scrapes-to-avoid/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kentuckyssä metsästäjä onnistui kaatamaan yli 200 tuuman suuruisen hirven jousiaseella kauden avajaispäivänä. <a href=\"https://www.outdoorlife.com/hunting/kentucky-bowhunter-arrows-200-inch-velvet-whitetail/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Narvalein spiraalimuotoinen torahammas, joka voi kasvaa yli kahden metrin pituiseksi, kuuluu eläinmaailman erikoisimpien rakenteiden joukkoon. <a href=\"https://polarjournal.net/the-secret-of-the-narwhals-tusk-has-been-unravelled/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Metsästyskoirien koulutuksessa tulisi keskittyä motivaatioon ja palkitsemiseen perinteisen jäljitys- ja harjoittelutavan sijasta. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/jakt-ar-ingen-lek-men-jaktlek-ar-jakt/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Statens veterinärmedicinska anstalt (SVA) on julkaissut kutsun havainnoista liittyen kauriisiin, joilla on todettu ripulia, osana uutta tutkimusprojektia. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/sva-efterlyser-observationer-av-radjur-med-diarre/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 11,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2404,
+  "output_tokens": 987,
+  "sources": [
+    {
+      "title": "Tervetuloa Suomen Ladun ohjaajatapaamiseen Kokkolaan!",
+      "url": "https://www.suomenlatu.fi/tervetuloa-suomen-ladun-ohjaajatapaamiseen-kokkolaan/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Nytt vargangrepp i Kronoberg – kan vara genetiskt viktig varg",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/nytt-vargangrepp-i-kronoberg-kan-vara-genetiskt-viktig-varg/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "The huge Arctic archipelago nobody knew existed",
+      "url": "https://polarjournal.net/the-huge-arctic-archipelago-nobody-knew-existed/",
+      "source_name": "Polar Journal"
+    },
+    {
+      "title": "Boss Copper Shotshells Tested In Ballistic Gel: A New Top Duck Load or Marketing Gimmick?",
+      "url": "https://www.outdoorlife.com/guns/boss-copper-load-review/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Old-School Elk Hunting Tips from This Western Legend",
+      "url": "https://www.outdoorlife.com/hunting/old-school-elk-hunting-tips-zumbo/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "A 207 7/8-Inch Whitetail Rack Was Hiding in a Basement for Decades. Now It’s Officially the Second Biggest Buck of All Time",
+      "url": "https://www.outdoorlife.com/hunting/aiuppa-buck/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Climbing Sticks of 2026, Tested and Reviewed",
+      "url": "https://www.outdoorlife.com/gear/best-climbing-sticks-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "1 AV 100 TIPS: Slarva inte med radiodisciplinen",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/1-av-100-tips-slarva-inte-med-radiodisciplinen/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Pair Launches Rare Alpine-Style Attempt on Makalu",
+      "url": "https://explorersweb.com/pair-launches-rare-alpine-style-attempt-on-makalu/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Deer Hunters Should Avoid These 7 Types of Rubs and Scrapes",
+      "url": "https://www.outdoorlife.com/hunting/rubs-and-scrapes-to-avoid/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Final Summit Push on Gasherbrum VI",
+      "url": "https://explorersweb.com/final-summit-push-on-gasherbrum-vi/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "How a Kentucky Lineman Arrowed a 200-Inch Buck on Opening Day",
+      "url": "https://www.outdoorlife.com/hunting/kentucky-bowhunter-arrows-200-inch-velvet-whitetail/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The secret of the narwhal’s tusk has been unravelled",
+      "url": "https://polarjournal.net/the-secret-of-the-narwhals-tusk-has-been-unravelled/",
+      "source_name": "Polar Journal"
+    },
+    {
+      "title": "KRÖNIKA: Vinvärldens bästa sommelierer har fyra ben",
+      "url": "https://www.jaktojagare.se/kategorier/opinion/kronika-vinvarldens-basta-sommelierer-har-fyra-ben/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Jakt är ingen lek – men jaktlek är jakt",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/jakt-ar-ingen-lek-men-jaktlek-ar-jakt/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Talviuintikausi alkaa Perhepulahduksella – tule mukaan koko perheen voimin!",
+      "url": "https://www.suomenlatu.fi/talviuintikausi-alkaa-perhepulahduksella-tule-mukaan-koko-perheen-voimin/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "SVA efterlyser observationer av rådjur med diarré",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/sva-efterlyser-observationer-av-radjur-med-diarre/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": []
+}

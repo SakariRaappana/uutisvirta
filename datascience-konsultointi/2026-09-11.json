@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-11",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään julkaistiin uutisia Azure AI:n uudesta puheentunnistusmallista, joka parantaa monikielistä tunnistusta sekä helpottaa räätälöintiä. EU:n tasa-arvo- ja syrjimättömyyslainsäädäntöön liittyvät AI-haittakorvausmahdollisuudet nousivat esiin. Lisäksi tekoälyn integrointi terveydenhuoltoon ottaa seuraavia askeleita.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>(Tänään ei ollut syväanalyysi-uutisia)</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization</strong><br />\nAzure AI Speech LLM 2607 parantaa monikielistä ja monikielistä kielen tunnistusta, vähentää latenssia ja yksinkertaistaa alakohtaista räätälöintiä parannettujen lausekelistojen avulla. <a href=\"https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-2607/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Potential Avenues for Redress for AI-related Harms under EU Equality and Non-Discrimination law</strong><br />\nKeskustellaan mahdollisista korjauskeinoista AI:n aiheuttamille vahingoille EU:n tasa-arvo- ja syrjimättömyyslainsäädännön alla. <a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxOYmU2NTVxZHJCb19xWE9tN0E4eXVfa3VaaFN1dFB3d2JhSXB0R0ZBMVI3OGd2ci1TclRWclMwZ2JGd2FVNkM1YWV6ekRCRUlzMWxyMVh1aUEzeFh0bFI0dHVWdzlSRldwYzd0dVREN3hqZ0M1V3d0X0xGZUt4NkNxeFRGamRoNl9DVjVBejRLRWY2X09NU1RYSnlHN1JMSmJYOGU1d3VHd1M5T1VZbUFJbGkweVVQLUtVdWFzWUNkVTJBLWtScmhBNWVlMUZPLW5GQjZFLW9ueTdqZw?oc=5\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Healthcare AI’s next test is integration</strong><br />\nTekoälyalan suurten yritysten tulo terveydenhuoltoon on merkittävä kehitysaskel, joka nopeuttaa alan teknisten perustusten kehittymistä. <a href=\"https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1419,
+  "output_tokens": 629,
+  "sources": [
+    {
+      "title": "Meet the under-35s shaping the future of biotech",
+      "url": "https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization",
+      "url": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-2607/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "Potential Avenues for Redress for AI-related Harms under EU Equality and Non-Discrimination law: A Visual Explanation - - Center for Democracy and Technology",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOYmU2NTVxZHJCb19xWE9tN0E4eXVfa3VaaFN1dFB3d2JhSXB0R0ZBMVI3OGd2ci1TclRWclMwZ2JGd2FVNkM1YWV6ekRCRUlzMWxyMVh1aUEzeFh0bFI0dHVWdzlSRldwYzd0dVREN3hqZ0M1V3d0X0xGZUt4NkNxeFRGamRoNl9DVjVBejRLRWY2X09NU1RYSnlHN1JMSmJYOGU1d3VHd1M5T1VZbUFJbGkweVVQLUtVdWFzWUNkVTJBLWtScmhBNWVlMUZPLW5GQjZFLW9ueTdqZw?oc=5",
+      "source_name": "Google News: EU AI Act"
+    },
+    {
+      "title": "The Download: a “God-driven” cryptocurrency and a solar engineering roadmap",
+      "url": "https://www.technologyreview.com/2026/09/10/1143828/the-download-christian-cryptocurrency-scandal-solar-engineering-roadmap/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Powering AI is an architecture problem",
+      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "This road map could help us decide whether to deploy solar geoengineering",
+      "url": "https://www.technologyreview.com/2026/09/10/1143804/this-road-map-could-help-us-decide-whether-to-deploy-solar-geoengineering/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Can the US battery market untangle from China?",
+      "url": "https://www.technologyreview.com/2026/09/10/1143791/us-china-batteries/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "God told them to sell crypto. Their investors lost everything.",
+      "url": "https://www.technologyreview.com/2026/09/10/1143588/indxcoin-god-regalados-sell-crypto-investors-lost-everything/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Healthcare AI’s next test is integration",
+      "url": "https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
