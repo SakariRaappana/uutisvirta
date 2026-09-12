@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-12",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Rokslide arvioi Tentipi Safir -telttojen kankaan ja sil-nylonin käytännön erot, kun taas Norjassa tuomittiin kymmenen miestä laittomasta susijahdista. Lisäksi Tero Mauno siirtyi Metsästäjäliiton kumppanuuspäälliköksi, ja Kronobergissa susi aiheutti merkittävää vahinkoa lampaille.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Tentipi Safir 7P Canvas vs. Sil-Nylon Review</h3>\n<p>Roksliderin tuoreessa arviossa verrattiin Tentipi Safir -teltan canvas- ja sil-nylon-versioita. Arviossa keskityttiin telttojen vedenkestävyyteen, kondensaatioon, painoon ja tilavuuteen. Teltan erikoisuutena on mahdollisuus avotulen tekoon sisällä, mikä voi merkittävästi muuttaa telttailukokemusta eräretkillä. Sil-nylon-versio on kevyt ja helposti pakattava, kun taas canvas tarjoaa paremman kestävyyden kovissa olosuhteissa. <strong><a href=\"https://www.rokslide.com/tentipi-safir/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Parantamalla koirasi päivittäisiä rutiineja pienillä muutoksilla voit merkittävästi parantaa sen metsästyskykyjä ja elinikää, kertoo eläinlääkäri. <a href=\"https://www.outdoorlife.com/hunting/sporting-dog-tips-veterinarian/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life testasi ja arvioi vuoden 2026 parhaat puupuut. Mukavat ja monipuoliset satulat sopivat liikkuville metsästäjille. <a href=\"https://www.outdoorlife.com/gear/best-tree-saddles-of-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Redfield Vector 12 -haulikkokatsauksessa korostetaan sen edullisuutta ja luotettavuutta, mikä tekee siitä houkuttelevan vaihtoehdon markkinoilla. <a href=\"https://www.outdoorlife.com/guns/redfield-vector-12/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Norjassa kymmenen miestä tuomittiin laittomasta susijahdista, ja kahdelle miehelle määrättiin elinikäinen metsästyskielto. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/tio-man-doms-for-illegal-vargjakt-tva-far-livstids-jaktforbud/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Alaskalainen karhudata tarjoaa vihjeitä karhujen hyökkäysten syistä, osoittaen metsästäjien olevan suurimmassa vaarassa. <a href=\"https://www.outdoorlife.com/survival/why-do-bears-attack/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Yksinkertaisella prosessilla voit varmistaa, että jousesi laajat kärjet lentävät tarkasti ja luotettavasti. <a href=\"https://www.outdoorlife.com/gear/broadhead-tuning/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kaupan alan ammattilainen Tero Mauno on nimitetty Metsästäjäliiton kumppanuuspäälliköksi. <a href=\"https://metsastajaliitto.fi/uutiset/kaupan-ammattilainen-tero-mauno-metsastajaliiton-kumppanuuspaallikoksi\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kronobergissa susi hyökkäsi lammastilalle, ja DNA-testit voivat vaikuttaa suojametsästyksen arviointiin. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/nytt-vargangrepp-i-kronoberg-kan-vara-genetiskt-viktig-varg/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 9,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2345,
+  "output_tokens": 850,
+  "sources": [
+    {
+      "title": "8 Life Hacks That Will Make Your Dog Hunt Better and Live Longer, According to a Vet",
+      "url": "https://www.outdoorlife.com/hunting/sporting-dog-tips-veterinarian/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Tentipi Safir 7P Canvas vs. Sil-Nylon Review",
+      "url": "https://www.rokslide.com/tentipi-safir/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "This 11-Year-Old Shot a Giant Velvet Buck on Her Birthday",
+      "url": "https://www.outdoorlife.com/hunting/11-year-old-shot-giant-velvet-buck-on-her-birthday/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Tree Saddles of 2026, Tested and Reviewed",
+      "url": "https://www.outdoorlife.com/gear/best-tree-saddles-of-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Redfield Vector 12 Shotgun Review: This Might Be the Best Cheap Semi-Auto on the Market",
+      "url": "https://www.outdoorlife.com/guns/redfield-vector-12/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Record Number of Climbers Wait Out Bad Weather on Manaslu",
+      "url": "https://explorersweb.com/record-number-of-climbers-wait-out-bad-weather-on-manaslu/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Tio män döms för illegal vargjakt – två får livstids jaktförbud",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/tio-man-doms-for-illegal-vargjakt-tva-far-livstids-jaktforbud/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Why Do Bears Attack? This Decades Old Database from Alaska Offers Some Hints",
+      "url": "https://www.outdoorlife.com/survival/why-do-bears-attack/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Easiest Way to Tune Your Bow for Broadheads",
+      "url": "https://www.outdoorlife.com/gear/broadhead-tuning/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Kaupan ammattilainen Tero Mauno Metsästäjäliiton kumppanuuspäälliköksi",
+      "url": "https://metsastajaliitto.fi/uutiset/kaupan-ammattilainen-tero-mauno-metsastajaliiton-kumppanuuspaallikoksi",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "Tervetuloa Suomen Ladun ohjaajatapaamiseen Kokkolaan!",
+      "url": "https://www.suomenlatu.fi/tervetuloa-suomen-ladun-ohjaajatapaamiseen-kokkolaan/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Nytt vargangrepp i Kronoberg – kan vara genetiskt viktig varg",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/nytt-vargangrepp-i-kronoberg-kan-vara-genetiskt-viktig-varg/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": []
+}
