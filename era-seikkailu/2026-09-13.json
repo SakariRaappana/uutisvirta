@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-13",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään esillä on kaksi lyhyttä mainintaa ulkomaisista metsästykseen liittyvistä artikkeleista, jotka käsittelevät liikkuvan riistan metsästystä Puolassa sekä oppaan kokemuksia huonoista metsästäjäasiakkaista.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>Ei tärkeitä uutisia tänään.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Ulkomainen metsästysmatka johdattaa Puolaan, jossa opitaan unohdettua taitoa, liikkuvan riistan metsästystä, joka oli aikoinaan amerikkalaisten metsästäjien arkipäivää. <a href=\"https://www.outdoorlife.com/hunting/ethically-shooting-running-game/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Länsimainen metsästysopas kertoo kokemuksistaan huonoimmista asiakkaistaan, ja selittää, mikä erottaa loistavat metsästäjät niistä, joita hän ei haluaisi enää koskaan opastaa. <a href=\"https://www.outdoorlife.com/hunting/worst-hunters-ever-guided/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1487,
+  "output_tokens": 254,
+  "sources": [
+    {
+      "title": "The Lost Art of Shooting Running Game",
+      "url": "https://www.outdoorlife.com/hunting/ethically-shooting-running-game/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Worst Hunters I’ve Ever Guided",
+      "url": "https://www.outdoorlife.com/hunting/worst-hunters-ever-guided/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}

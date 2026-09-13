@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-13",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään päähuomion kohteena on Euroopan tekoälylainsäädännön muotoutuminen, erityisesti ihmisen roolin poissaolo AI-päätöksenteossa. Tämä voi mahdollistaa yrityksille järjestelmän ajamisen vain yhdellä operoijalla, pysyen silti säädösten mukaisena.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p><em>Tänään ei ole tärkeitä uutisia raportoitu.</em></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Euroopan AI-lainsäädännössä ei mainita termiä &quot;ihminen silmukassa&quot;, mikä oli keskeinen aiemmassa raportissa, joka vaati tappajarobottien kieltoa. Tämän puuttuminen mahdollistaa yrityksille järjestää vain yksi henkilö valvomaan järjestelmää, mikä täyttää säännösten vaatimukset. <a href=\"https://news.google.com/rss/articles/CBMiwAJBVV95cUxPajdUa2RRUkFNT0lzZFhJZXdNSEFTSGxUQXdFcUk3d0pjNkpCLVVMdFpEa01jV20tQWJsWFFJdnMzLUFsdENXOHVVMGFiV29oZms4RHBubWVRUl8yMk9NY1VUUjFWaURBdy1tLW9ZblZuWUZhYWdwNEVJXzhsT19hYnVENnQzclg2NkZmZUJhU1E1WnlBM3ctRHBUTlNTZ2xnaGo4Z2NaQTFwR01WSmlQZDMwTWFwaS1BX2w3b1p4N1h4YVZiVjh6bjA4aWJkQU1ZOXF2SEFYRUJDRlVpVXU2WUVvUDZpYy1BeG9jb1hhZFpsLXNRVUxSTTJaR1RwYVVtUlJuakw3anF2VUJfV1BXZ2YtSVAwRVE2Q3BEVWdCcXhYMXRqVTlZR2dOanViUmJobXFFbXV0STFaQU9nNnNFaQ?oc=5\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1369,
+  "output_tokens": 512,
+  "sources": [
+    {
+      "title": "The European AI Act never once uses the phrase human in the loop, which comes from a 2012 report calling for a ban on killer robots, and whose absence lets a company sit one person in front of a screen, let the system run, and still be compliant - Silicon Canals",
+      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPajdUa2RRUkFNT0lzZFhJZXdNSEFTSGxUQXdFcUk3d0pjNkpCLVVMdFpEa01jV20tQWJsWFFJdnMzLUFsdENXOHVVMGFiV29oZms4RHBubWVRUl8yMk9NY1VUUjFWaURBdy1tLW9ZblZuWUZhYWdwNEVJXzhsT19hYnVENnQzclg2NkZmZUJhU1E1WnlBM3ctRHBUTlNTZ2xnaGo4Z2NaQTFwR01WSmlQZDMwTWFwaS1BX2w3b1p4N1h4YVZiVjh6bjA4aWJkQU1ZOXF2SEFYRUJDRlVpVXU2WUVvUDZpYy1BeG9jb1hhZFpsLXNRVUxSTTJaR1RwYVVtUlJuakw3anF2VUJfV1BXZ2YtSVAwRVE2Q3BEVWdCcXhYMXRqVTlZR2dOanViUmJobXFFbXV0STFaQU9nNnNFaQ?oc=5",
+      "source_name": "Google News: EU AI Act"
+    },
+    {
+      "title": "40,000 Employees Today and 4 Million Agents Tomorrow: Nvidia CEO Jensen Huang Believes Agentic AI Will Soon Become the Norm in the Workplace - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMDhJVVVoWFdHOXVES0duZGJVaHVWY1RfVmhJcnFqY1RLeG5weG9mRWdhQXpRUTZCdWRiajhUZUZaYVUyWGJJZHdqYjR2ZnBtTk9Uel9Hc3RFRlZnZ0lPeEd1RnFxTVlXMW9pQmxhRkZMcWRoLWlrOUFNOGFUcldsTWNkd1JNVjNSTFNZNndiZFpDdw?oc=5",
+      "source_name": "Google News: agentic AI"
+    }
+  ],
+  "homepage_candidates": []
+}
