@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-15",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään korostuvat luonnonvaraisten alueiden säilyttäminen ja jakaminen sekä henkilökohtaiset kokemukset metsästyksestä ja vuorikiipeilystä. Uutiset kattavat uuden sopimuksen metsästysoikeuksista Montanan yksityisillä metsätalousmailla ja keskustelun metsästäjävaimentimista, unohtamatta harvinaista karhunmetsästystä Japanissa ja vastikään kuljettua reittiä Gasherbrum VI -vuorella.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>(Tänään ei ole syväanalyysia vaativia uutisia.)</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>20 000 hehtaarin laajuinen yksityinen metsätalousalue Montanassa on suojeltu 29 miljoonan dollarin sopimuksella, mikä takaa metsästyksen ja kalastuksen ympäri vuoden samalla, kun alueen kehittäminen estetään. <a href=\"https://www.outdoorlife.com/conservation/public-access-montana-timber-land/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ryan Avery keskustelee Jadenin kanssa metsästäjävaimentimista ja niiden valinnasta lännen metsästyskäyttöön. Ryanilla on laaja kokemus vaimentimista niiden omistamisen, siirtojen ja testauksen kautta. <a href=\"https://www.rokslide.com/the-no-bs-guide-to-hunting-suppressors-with-ryan-avery/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Hokkaidoon suuntautunut museoekspeditio pohjoiseen Japaniin tarjosi ainutlaatuisen näkökulman maan ruskeakarhuperinteestä, esitellen historian suurimpia karhunmetsästäjiä. <a href=\"https://www.outdoorlife.com/hunting/hunting-japanese-brown-bears/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Zumbo ja Carmichel esittelevät suosikkihirvikiväärinsä, perustellen valintojaan yksityiskohtaisesti kokemustensa kautta. <a href=\"https://www.outdoorlife.com/guns/zumbo-carmichel-favorite-deer-rifles/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Puolalainen ryhmä ei huiputtanut Gasherbrum VI:tä, mutta ilmoittaa kulkeneensa uutta reittiä vuorella. Tällä hetkellä ei ole selvää, miten reitti eroaa aikaisemmista yrityksistä. <a href=\"https://explorersweb.com/no-summit-on-gasherbrum-vi/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1771,
+  "output_tokens": 553,
+  "sources": [
+    {
+      "title": "Public Hunting Access Secured on 20,000 Acres of Private Timber Land in $29 Million Deal",
+      "url": "https://www.outdoorlife.com/conservation/public-access-montana-timber-land/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The No-BS Guide to Hunting Suppressors with Ryan Avery",
+      "url": "https://www.rokslide.com/the-no-bs-guide-to-hunting-suppressors-with-ryan-avery/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "I Hunted Japan’s Deadly Brown Bears, and Met the Greatest Bear Hunters in History",
+      "url": "https://www.outdoorlife.com/hunting/hunting-japanese-brown-bears/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Zumbo and Carmichel Each Make the Case for Their Favorite Deer Rifle",
+      "url": "https://www.outdoorlife.com/guns/zumbo-carmichel-favorite-deer-rifles/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Squirrel Recipes",
+      "url": "https://www.outdoorlife.com/hunting/the-best-squirrel-recipes/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Biggest Mistakes Parents Make When Trying to Raise a Diehard Angler",
+      "url": "https://www.outdoorlife.com/opinion/introducing-kids-to-fishing/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "No Summit on Gasherbrum VI",
+      "url": "https://explorersweb.com/no-summit-on-gasherbrum-vi/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}

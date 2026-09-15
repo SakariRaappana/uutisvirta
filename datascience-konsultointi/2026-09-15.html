@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-09-15 — Datascience konsultointi — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,23 +358,23 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
-           >
+        <a href="../datascience-konsultointi/index.html"
+           class="active">
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
+        <a href="../era-seikkailu/index.html"
            >
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
+        <a href="../politiikka/index.html"
            >
           Politiikka
         </a>
@@ -384,206 +384,51 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-09-15</p>
+<div class="day-nav">
+  <span><a href="2026-09-13.html">← 2026-09-13</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Datascience konsultointi</div>
+<h1>2026-09-15</h1>
+<p class="meta">
+  <span>2 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>2235 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Politiikka</div>
-  <h2 class="featured-title">
-    <a href="https://www.rfi.fr/en/international/20260914-finland-joins-french-nuclear-umbrella-amid-european-security-push" target="_blank" rel="noopener">Finland joins French nuclear umbrella amid European security push</a>
-  </h2>
-  
-  <div class="featured-why">Suomen liittyminen Ranskan ydinpelotteen piiriin muuttaa Euroopan turvallisuusasetelmaa ja kertoo, miten EU-maat paikkaavat Yhdysvaltain sitoutumiseen liittyvää epävarmuutta.</div>
-  
-  <div class="featured-meta">
-    <span class="badge-new">Uusi</span>
-    RFI English · tänään ·
-    <a href="politiikka/2026-09-15.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään painopiste on tekoälyagenttien vastuullisuudessa ja suorituskyvyssä. AI-agenttien kyky puuttua kollegoidensa vilppiin esiteltiin, ja kiinalainen puolijohdeyhtiö Empyrean ilmoitti agenttipohjaisten ratkaisujen merkittävästi tehostavan piirisuunnittelua.</p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p>AI-agentit havaitsivat vilppiä joissakin kollegoidensa matemaattisissa tehtävissä ja pyrkivät ehkäisemään sitä. Tämä ilmiö nähtiin vastikään ensi kertaa. <a href="https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/">Lue lisää</a></p>
+</li>
+<li>
+<p>Kiinalainen puolijohdeyhtiö Empyrean ilmoitti, että se on lyhentänyt merkittävästi piirisuunnitteluaikoja agenttipohjaisen tekoälyn avulla, mikä pienentää suunnitteluaikaa jopa 75 %. <a href="https://news.google.com/rss/articles/CBMi3wFBVV95cUxNa0ZKVE5PNmZ1NUdPRFRTejREOW8wM3JReGc3YThSbWdhcHJ6NVprWXEtbmJfb1FZZkVkWWUtQ2wwcS15QVFxWWtja2t4YzE5YWZuOUZhZ01OZ3d5X2c5RmRnR2RDd3RRWWdwbXZIbzItbG5pVzBmbVA4TnV4MTRPNlduREJtTk91c25MRUpzY0dEdWhvLTh5Rmwxd2I1TEtvMFUtR2dWOHRObUtxQUNFaUZpRUE3emt6RnlNMHdCS3hmYTMtbHFoYWtZVnVxWjV6aEtRSHNELVlsaWZlWWlr0gHkAUFVX3lxTFA3cENtUWRZbnVYejQ4Z19mNnBkcGw0dFJNbkdwWTVzZkhGdl9ZWnJKOHBySkEtUlpocHh0V3hwcHkxcGRmd0QxWHpRYi1MR0VrRHZsSFhCY3JVSDZROW1ZeVo3MGd0X3ZmR1pmeXg1bkFORUpvZi1URC1wY0Eza1pQcFY3NHROUHpYbWM4bkJ0V2hETElBYUFDTzFVSXNtTEpwRHNfVy1mRy05NExmWUdiTFZqOGN1NzA3ZXNVMmR3QmRYTmxkS09EbnJmbXJxdFNRRFktRG11QzlueWxiaTFGLWxmUQ?oc=5">Lue lisää</a></p>
+</li>
+</ul>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (5)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxNTU5jcndFWVlyUDQxaWY4VnduT3pkNTVrRktJTWFheU9hNkhkYzNFUDBEOWI1Qk9KZy1wQjliNGtNM3A1RGZiZS1rNEJhWkEwNElaa0tGY2FSenlOdVFOemtOVGU0ZjZ6UDhZQy0weE5TUDJRdWVKYWJCODB4Y2tIbFJKaDlpVWtxRXQxUHVWWkFYRHVqdGlHYm1vR3NFcUhpbG01SWNYdU12NE9tYk5SbA?oc=5" target="_blank" rel="noopener">The State of the Union lottery: What will Ursula von der Leyen say? - Euronews.com</a>
-      </div>
-      
-      <div class="news-card-why">Komission puheenjohtajan State of the Union -linjaukset kertovat, mihin suuntaan EU:n sääntely-, budjetti- ja teollisuuspolitiikkaa viedään seuraavina kuukausina.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        Google News: European Commission · tänään ·
-        <a href="politiikka/2026-09-15.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/" target="_blank" rel="noopener">The AI industry has taken a doomer turn. What now?</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.dw.com/en/finland-eu-leaders-meet-to-forge-new-arctic-policy/a-79256956?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Finland: EU leaders meet to forge new Arctic policy</a>
-      </div>
-      
-      <div class="news-card-why">EU:n arktinen linja vaikuttaa suoraan Suomen turvallisuuteen, logistiikkaan, energiaan ja resurssipolitiikkaan juuri nyt, kun alueen merkitys kasvaa ilmastonmuutoksen ja suurvaltapaineen takia.</div>
-      
-      <div class="news-card-meta">
-        
-        Deutsche Welle · eilen ·
-        <a href="politiikka/2026-09-14.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/" target="_blank" rel="noopener">Donated livers can be made biologically younger</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.politico.eu/podcast/brussels-playbook-podcast/the-eus-plan-for-weaponized-migration/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">The EU’s plan for ‘weaponized’ migration</a>
-      </div>
-      
-      <div class="news-card-why">Komission linjaus maahanmuuton ‘aseistamista’ vastaan voi muuttaa EU:n turvapaikka- ja rajapolitiikan käytännön toteutusta sekä jäsenmaiden vastuita.</div>
-      
-      <div class="news-card-meta">
-        
-        Politico Europe · eilen ·
-        <a href="politiikka/2026-09-14.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/" target="_blank" rel="noopener">AI agents blew the whistle on their cheating colleagues</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
+    
+    <li><a href="https://news.google.com/rss/articles/CBMi3wFBVV95cUxNa0ZKVE5PNmZ1NUdPRFRTejREOW8wM3JReGc3YThSbWdhcHJ6NVprWXEtbmJfb1FZZkVkWWUtQ2wwcS15QVFxWWtja2t4YzE5YWZuOUZhZ01OZ3d5X2c5RmRnR2RDd3RRWWdwbXZIbzItbG5pVzBmbVA4TnV4MTRPNlduREJtTk91c25MRUpzY0dEdWhvLTh5Rmwxd2I1TEtvMFUtR2dWOHRObUtxQUNFaUZpRUE3emt6RnlNMHdCS3hmYTMtbHFoYWtZVnVxWjV6aEtRSHNELVlsaWZlWWlr0gHkAUFVX3lxTFA3cENtUWRZbnVYejQ4Z19mNnBkcGw0dFJNbkdwWTVzZkhGdl9ZWnJKOHBySkEtUlpocHh0V3hwcHkxcGRmd0QxWHpRYi1MR0VrRHZsSFhCY3JVSDZROW1ZeVo3MGd0X3ZmR1pmeXg1bkFORUpvZi1URC1wY0Eza1pQcFY3NHROUHpYbWM4bkJ0V2hETElBYUFDTzFVSXNtTEpwRHNfVy1mRy05NExmWUdiTFZqOGN1NzA3ZXNVMmR3QmRYTmxkS09EbnJmbXJxdFNRRFktRG11QzlueWxiaTFGLWxmUQ?oc=5" target="_blank" rel="noopener">Chinese Chip Firm Empyrean Says It Slashed Circuit Design Time By 75% Using Agentic AI Amidst Race To Agentic AI Semiconductor Design - Wccftech</a> <span style="color:var(--muted)">— Google News: agentic AI</span></li>
+    
+    <li><a href="https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/" target="_blank" rel="noopener">The Download: AI’s real extinction threat and age-reversal tech for eyes</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-
-
+</details>
 
 
   </main>

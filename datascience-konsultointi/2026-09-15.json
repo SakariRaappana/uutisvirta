@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-15",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään painopiste on tekoälyagenttien vastuullisuudessa ja suorituskyvyssä. AI-agenttien kyky puuttua kollegoidensa vilppiin esiteltiin, ja kiinalainen puolijohdeyhtiö Empyrean ilmoitti agenttipohjaisten ratkaisujen merkittävästi tehostavan piirisuunnittelua.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>AI-agentit havaitsivat vilppiä joissakin kollegoidensa matemaattisissa tehtävissä ja pyrkivät ehkäisemään sitä. Tämä ilmiö nähtiin vastikään ensi kertaa. <a href=\"https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kiinalainen puolijohdeyhtiö Empyrean ilmoitti, että se on lyhentänyt merkittävästi piirisuunnitteluaikoja agenttipohjaisen tekoälyn avulla, mikä pienentää suunnitteluaikaa jopa 75 %. <a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxNa0ZKVE5PNmZ1NUdPRFRTejREOW8wM3JReGc3YThSbWdhcHJ6NVprWXEtbmJfb1FZZkVkWWUtQ2wwcS15QVFxWWtja2t4YzE5YWZuOUZhZ01OZ3d5X2c5RmRnR2RDd3RRWWdwbXZIbzItbG5pVzBmbVA4TnV4MTRPNlduREJtTk91c25MRUpzY0dEdWhvLTh5Rmwxd2I1TEtvMFUtR2dWOHRObUtxQUNFaUZpRUE3emt6RnlNMHdCS3hmYTMtbHFoYWtZVnVxWjV6aEtRSHNELVlsaWZlWWlr0gHkAUFVX3lxTFA3cENtUWRZbnVYejQ4Z19mNnBkcGw0dFJNbkdwWTVzZkhGdl9ZWnJKOHBySkEtUlpocHh0V3hwcHkxcGRmd0QxWHpRYi1MR0VrRHZsSFhCY3JVSDZROW1ZeVo3MGd0X3ZmR1pmeXg1bkFORUpvZi1URC1wY0Eza1pQcFY3NHROUHpYbWM4bkJ0V2hETElBYUFDTzFVSXNtTEpwRHNfVy1mRy05NExmWUdiTFZqOGN1NzA3ZXNVMmR3QmRYTmxkS09EbnJmbXJxdFNRRFktRG11QzlueWxiaTFGLWxmUQ?oc=5\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1560,
+  "output_tokens": 675,
+  "sources": [
+    {
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Donated livers can be made biologically younger",
+      "url": "https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "AI agents blew the whistle on their cheating colleagues",
+      "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Chinese Chip Firm Empyrean Says It Slashed Circuit Design Time By 75% Using Agentic AI Amidst Race To Agentic AI Semiconductor Design - Wccftech",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNa0ZKVE5PNmZ1NUdPRFRTejREOW8wM3JReGc3YThSbWdhcHJ6NVprWXEtbmJfb1FZZkVkWWUtQ2wwcS15QVFxWWtja2t4YzE5YWZuOUZhZ01OZ3d5X2c5RmRnR2RDd3RRWWdwbXZIbzItbG5pVzBmbVA4TnV4MTRPNlduREJtTk91c25MRUpzY0dEdWhvLTh5Rmwxd2I1TEtvMFUtR2dWOHRObUtxQUNFaUZpRUE3emt6RnlNMHdCS3hmYTMtbHFoYWtZVnVxWjV6aEtRSHNELVlsaWZlWWlr0gHkAUFVX3lxTFA3cENtUWRZbnVYejQ4Z19mNnBkcGw0dFJNbkdwWTVzZkhGdl9ZWnJKOHBySkEtUlpocHh0V3hwcHkxcGRmd0QxWHpRYi1MR0VrRHZsSFhCY3JVSDZROW1ZeVo3MGd0X3ZmR1pmeXg1bkFORUpvZi1URC1wY0Eza1pQcFY3NHROUHpYbWM4bkJ0V2hETElBYUFDTzFVSXNtTEpwRHNfVy1mRy05NExmWUdiTFZqOGN1NzA3ZXNVMmR3QmRYTmxkS09EbnJmbXJxdFNRRFktRG11QzlueWxiaTFGLWxmUQ?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "The Download: AI’s real extinction threat and age-reversal tech for eyes",
+      "url": "https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
