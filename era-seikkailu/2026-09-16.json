@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-16",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Valtioneuvoston uusin asetus laajentaa karhun kiintiömetsästyksen koko Suomeen, mikä tasapainottaa karhukantojen hallintaa valtakunnallisesti. Lyhytmaininnoissa esitetään uusimpia huippuluokan kaukoputkia sekä talvivaellusten veteraani Peter Heebinkin pohjoiset seikkailut. Lisäksi käsitellään Montanassa sattunutta karhun hyökkäystä jousimetsästäjään sekä ohjeita jännityksen voittamiseen hirvipeuran metsästyksessä jousella.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Karhun kiintiömetsästys laajenee koko maahan</h3>\n<p>Suomen valtioneuvosto on julkaissut uuden asetuksen, joka laajentaa karhun kiintiömetsästyksen koko maahan. Tähän asti kiintiömetsästys on koskenut vain poronhoitoaluetta. Tämä tarkoittaa, että ensi syksynä koko Suomessa voidaan toteuttaa karhun kannanhoidollista metsästystä kiintiöjahtina. Metsästäjäliitto pitää tätä merkittävänä muutoksena ja edellyttää, että metsästys toteutetaan hallitusti. Tavoitteena on parantaa karhukantojen hallintaa ja turvata niiden kestävä käyttö eri alueilla. <strong><a href=\"https://metsastajaliitto.fi/uutiset/karhun-kiintiometsastys-laajenee-koko-maahan\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Outdoor Life testasi vuoden 2026 parhaat kaukoputket, tarjoten laajan katsauksen eri hintaluokkiin, mukaan lukien huippuluokan ja budjettivaihtoehdot. <a href=\"https://www.outdoorlife.com/gear/best-spotting-scopes-2026/\">Lue lisää</a></li>\n<li>83-vuotias Peter Heebink on tehnyt vaikuttavan uran 70 pitkän matkan hiihtoseikkailun parissa Länsi-Arktiksella vuosina 1975–2020. <a href=\"https://explorersweb.com/slogging-north-of-60/\">Lue lisää</a></li>\n<li>Montanassa karhu hyökkäsi jousimetsästäjän kimppuun, mutta hän onnistui ajamaan itsensä kotiin merkittävistä vammoista huolimatta. Tutkinnassa ei ole vielä selvitetty, oliko kyseessä harmaakarhu vai mustakarhu. <a href=\"https://www.outdoorlife.com/survival/bear-attacks-montana-bowhunter/\">Lue lisää</a></li>\n<li>Outdoor Lifen artikkelissa käsitellään, kuinka voittaa jännitys ja onnistua vihdoin metsästämään kypsää valkohäntäpeuraa, tarjoten arvokkaita vinkkejä jousimetsästäjille. <a href=\"https://www.outdoorlife.com/hunting/beat-buck-fever-bowhunting/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2514,
+  "output_tokens": 670,
+  "sources": [
+    {
+      "title": "Solving the 65-Year Mystery of the Jordan Buck, the Second Biggest Whitetail Ever Killed in America",
+      "url": "https://www.outdoorlife.com/hunting/jordan-buck-record-whitetail/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "13 Gross Animals You Can Eat to Survive — If Absolutely Necessary",
+      "url": "https://www.outdoorlife.com/survival/gross-animals-safe-to-eat/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Spotting Scopes of 2026, Tested and Reviewed",
+      "url": "https://www.outdoorlife.com/gear/best-spotting-scopes-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Slogging North of 60: A Lifetime of Winter Expeditions in Northern Canada",
+      "url": "https://explorersweb.com/slogging-north-of-60/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The Golden Age of Big-Game Hunting in America",
+      "url": "https://www.outdoorlife.com/hunting/golden-age-big-game-hunting/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Bear Attacks Montana Bowhunter, Who Drove Himself Home Despite ‘Significant’ Injuries",
+      "url": "https://www.outdoorlife.com/survival/bear-attacks-montana-bowhunter/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How I Beat Bowhunting Buck Fever and Snapped My Big Buck Losing Streak",
+      "url": "https://www.outdoorlife.com/hunting/beat-buck-fever-bowhunting/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Karhun kiintiömetsästys laajenee koko maahan",
+      "url": "https://metsastajaliitto.fi/uutiset/karhun-kiintiometsastys-laajenee-koko-maahan",
+      "source_name": "Metsästäjäliitto"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Karhun kiintiömetsästys laajenee koko maahan",
+      "source_name": "Metsästäjäliitto",
+      "source_url": "https://metsastajaliitto.fi/uutiset/karhun-kiintiometsastys-laajenee-koko-maahan",
+      "published_at": "2026-09-15T10:45:37+00:00",
+      "summary": "Karhun kiintiömetsästys laajenee koko maahan\n\n            Kyllä\n      tero.ylioja@me…\nTi, 15.09.2026 - 13:45\n\n\n              \n\n\n\n      \n            Uusi valtioneuvoston asetus laajentaa karhun kiintiömetsästyksen poronhoitoalueelta koko maahan. Karhun kannanhoidollinen metsästys tulee toteuttaa koko",
+      "why_relevant": "Karhun kiintiömetsästyksen laajeneminen koko maahan muuttaa suoraan luvitusta ja metsästysmahdollisuuksia karhualueilla, joista sinulla voi olla käytännön retki- ja metsästysintressejä.",
+      "homepage_eligible": true,
+      "homepage_score": 88,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 4,
+      "actionability": 5,
+      "novelty": 4,
+      "event_key": "bear-quota-hunting-expanded-nationally",
+      "category": "tärkea"
+    }
+  ]
+}

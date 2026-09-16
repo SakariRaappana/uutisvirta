@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-16",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Microsoft julkaisi tänään Foundry Dev Packin, joka yksinkertaistaa kehitystä yhdellä komennolla. OpenAI investoi biologiseen tietoon tekoälymallien parantamiseksi. AI-infrastruktuurin taloudelliset riskit arvioitiin maailmanlaajuisessa tutkimuksessa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Introducing Foundry Dev Pack: One Command to Start Building</h3>\n<p>Microsoft Foundry julkaisi uuden työkalupaketin nimeltä Foundry Dev Pack, joka yksinkertaistaa kehitystyötä merkittävästi. Tämä uusi paketti mahdollistaa ohjelmistokehittäjille projektin aloituksen yhdellä komennolla, mikä tehostaa kehitysprosessia ja säästää aikaa. Dev Pack on suunniteltu tarjoamaan helppokäyttöisiä dev-työkaluja, jotka ovat tärkeä osa Microsoftin ekosysteemiä. Sen avulla voidaan nopeasti integroida uusia projekteja osaksi laajempaa kehitysympäristöä. Tämä julkaisu voi vaikuttaa merkittävästi kehittäjien arkipäivään, helpottaen ja nopeuttaen ohjelmistoprojektien käynnistämistä merkittävästi. <strong><a href=\"https://devblogs.microsoft.com/foundry/foundry-devpack-announcement/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>OpenAI sitoutui investoimaan biologisen tiedon hankintaan, jotta tekoälymallit kehittyisivät entistä paremmin. Tämä aloite sisältää aineistojen hankinnan epäonnistuneilta biotekniikkayrityksiltä, mikä voi auttaa parantamaan lääketieteellisiä AI-järjestelmiä. <a href=\"https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/\">Lue lisää</a></p>\n</li>\n<li>\n<p>AI-infrastruktuurin taloudellisia riskejä arvioitiin uusimmassa tutkimuksessa, joka tarkastelee tekoälyteknologian vaikutuksia talouteen. Tutkimus pyrkii ymmärtämään potentiaalisia kuplia ja investointien vaikutuksia tulevaisuuteen. <a href=\"https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1993,
+  "output_tokens": 519,
+  "sources": [
+    {
+      "title": "Satya Nadella Declared a \"New Paradigm\" for Agentic AI at Microsoft's Build Conference in 2026. Here's How That Vision Is Showing Up in Azure's Growth. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcDFmX2duNUJnMEFYeVhaZWV2SWNUaFVtYTFrWmtuYUx0Y2htUFVmWmxsT2N6cHI4Z3JQalhYeU5rWlVmSmJUbnoxNk02dUFxb1ZPUkFVWUQ1c2hndUFFbjZnY18wQUQxZXNaS0puWWloSmUzOG4zcWp3c2xTS1NlbktKQjl3UkpaOFlFVU54bFQ?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "Introducing Foundry Dev Pack: One Command to Start Building",
+      "url": "https://devblogs.microsoft.com/foundry/foundry-devpack-announcement/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "Roundtables: Could AI really kill us all?",
+      "url": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
+      "url": "https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "AI models need more data about biology, and OpenAI is paying to create it",
+      "url": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "What’s at stake in AI’s trillion-dollar gamble",
+      "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Introducing Foundry Dev Pack: One Command to Start Building",
+      "source_name": "Microsoft Foundry Blog",
+      "source_url": "https://devblogs.microsoft.com/foundry/foundry-devpack-announcement/",
+      "published_at": "2026-09-15T19:00:00+00:00",
+      "summary": "Foundry Dev Pack prepares your machine for Microsoft Foundry development with an all-in-one installer for the tools you need across the terminal, VS Code, and coding agents.\nThe post Introducing Foundry Dev Pack: One Command to Start Building appeared first on Microsoft Foundry Blog.",
+      "why_relevant": "Foundry Dev Pack vaikuttaa suoraan siihen, miten nopeasti saat Microsoft Foundryn kehitysympäristön pystyyn ja millä työkaluketjulla rakennat agentteja asiakasprojekteissa.",
+      "homepage_eligible": true,
+      "homepage_score": 93,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "microsoft-foundry-dev-pack",
+      "category": "tärkea"
+    }
+  ]
+}
