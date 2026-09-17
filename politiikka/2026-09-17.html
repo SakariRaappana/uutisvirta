@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-09-17 — Politiikka — Uutisvirta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #F0F1EB;
+      --surface: #E7E9E2;
+      --border: #C6CAC0;
+      --rule: #1B1D19;
+      --text: #191C18;
+      --muted: #6A6F65;
+      --accent: #3A6558;
+      --accent-pale: #C6D8D3;
+      --accent-border: #7AB0A4;
+      --stamp: #8A4C34;
+      --font-mono: "Courier Prime", "Courier New", Courier, monospace;
+      --font-serif: "Lora", Georgia, serif;
+      --font-display: "Playfair Display", Georgia, serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121519;
+        --surface: #1A1E22;
+        --border: #282D31;
+        --rule: #D8DDD8;
+        --text: #DCE1DC;
+        --muted: #787E78;
+        --accent: #78B8AB;
+        --accent-pale: #182824;
+        --accent-border: #3D7068;
+        --stamp: #C07A5A;
+      }
+    }
+
+    html { font-size: 18px; }
+    body {
+      font-family: var(--font-serif);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── MASTHEAD ───────────────────────────── */
+    .site-header {
+      border-top: 3px solid var(--rule);
+    }
+    .masthead-row {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0.6rem 1.5rem 0.55rem;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .logo {
+      font-family: var(--font-mono);
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .masthead-date {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+    .nav-strip {
+      border-top: 1px solid var(--border);
+      border-bottom: 2px solid var(--rule);
+      padding: 0.45rem 1.5rem;
+    }
+    .nav-strip nav {
+      max-width: 760px;
+      margin: 0 auto;
+      display: flex;
+      gap: 1.75rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .nav-strip a {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .nav-strip a:hover { color: var(--accent); }
+    .nav-strip a.active {
+      color: var(--text);
+      border-bottom: 1.5px solid var(--text);
+    }
+
+    /* ── PAGE ───────────────────────────────── */
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1.75rem 1.5rem 5rem;
+    }
+
+    /* ── TYPOGRAPHY ─────────────────────────── */
+    h1 {
+      font-family: var(--font-display);
+      font-size: 2.1rem;
+      font-weight: 400;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      margin-bottom: 0.2rem;
+      text-wrap: balance;
+    }
+    h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 2rem 0 0.65rem;
+      text-wrap: balance;
+    }
+    h3 {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 400;
+      margin: 1.5rem 0 0.4rem;
+    }
+    p { margin-bottom: 0.9rem; max-width: 68ch; }
+    p:last-child { margin-bottom: 0; }
+    ul, ol { padding-left: 1.4rem; margin-bottom: 0.85rem; }
+    li { margin-bottom: 0.25rem; }
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+    code {
+      font-family: var(--font-mono);
+      font-size: 0.83em;
+      background: var(--surface);
+      padding: 0.1em 0.35em;
+      border: 1px solid var(--border);
+    }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.75rem 0; }
+
+    /* ── META BAR ───────────────────────────── */
+    .meta {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .meta span + span::before { content: " · "; }
+
+    /* ── DIGEST BODY (Markdown-rendered content) ── */
+    .digest-body h2 {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: normal;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-top: 2px solid var(--text);
+      padding-top: 0.55rem;
+      margin: 2.2rem 0 1.2rem;
+    }
+    .digest-body h3 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 0 0 0.7rem;
+      text-wrap: balance;
+    }
+
+    /* ── DEEP DIVE (JS-injected wrapper around h3 blocks) ── */
+    .deep-dive {
+      background: var(--accent-pale);
+      border-left: 3px solid var(--accent-border);
+      padding: 1.1rem 1.4rem 1.1rem 1.2rem;
+      margin-bottom: 1.25rem;
+    }
+    .deep-dive p { font-size: 0.97rem; }
+    .deep-dive p:last-child { margin-bottom: 0; }
+
+    /* ── BRIEF LIST (JS-injected class on ul) ── */
+    .brief-list { list-style: none; padding: 0; }
+    .brief-list li {
+      padding: 0.72rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+      line-height: 1.56;
+      max-width: 68ch;
+    }
+    .brief-list li:last-child { border-bottom: none; }
+
+    /* ── DAY NAV ────────────────────────────── */
+    .day-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+    .day-nav a { color: var(--accent); text-decoration: none; }
+    .day-nav a:hover { text-decoration: underline; }
+
+    /* ── ARCHIVE LIST ───────────────────────── */
+    .archive-list { list-style: none; padding: 0; border-top: 2px solid var(--text); }
+    .archive-list li {
+      display: flex;
+      gap: 1.5rem;
+      align-items: baseline;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .archive-list li:last-child { border-bottom: none; }
+    .archive-list .date {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      min-width: 6rem;
+      flex-shrink: 0;
+      letter-spacing: 0.04em;
+    }
+    .archive-list a { color: var(--text); font-size: 0.93rem; text-decoration: none; }
+    .archive-list a:hover { color: var(--accent); }
+
+    /* ── STREAM CARDS ───────────────────────── */
+    .stream-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 0;
+      border-top: 2px solid var(--text);
+    }
+    .stream-card {
+      padding: 1.1rem 2rem 1.1rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .stream-card h2 {
+      font-size: 1rem;
+      margin-top: 0;
+      margin-bottom: 0.2rem;
+      font-weight: 400;
+    }
+    .stream-card h2 a { color: var(--text); text-decoration: none; }
+    .stream-card h2 a:hover { color: var(--accent); }
+    .stream-card .last-updated {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+    }
+    .stream-card .last-updated a { color: var(--accent); text-decoration: none; }
+
+    /* ── SOURCES ────────────────────────────── */
+    details {
+      margin-top: 2.5rem;
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
+    }
+    details summary {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      cursor: pointer;
+      list-style: none;
+    }
+    details[open] summary { margin-bottom: 0.6rem; }
+    .source-list { list-style: none; padding: 0; margin-top: 0.4rem; }
+    .source-list li {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+    .source-list a { color: var(--accent); text-decoration: none; }
+    .source-list a:hover { text-decoration: underline; }
+
+    /* ── DAY SECTION (collapsible per-day digest) ── */
+    .day-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .day-section > summary {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+      text-transform: none;
+      padding: 1.25rem 0 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+    .day-section > summary::-webkit-details-marker { display: none; }
+    .day-section > summary::after {
+      content: "▾";
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .day-section:not([open]) > summary::after { content: "▸"; }
+    .day-section-body { padding-bottom: 2.5rem; }
+
+    /* ── ARCHIVE SECTION ────────────────────── */
+    .archive-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .archive-section > summary {
+      padding: 0.9rem 0;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .archive-section > summary::-webkit-details-marker { display: none; }
+    .archive-list--plain { border-top: none; margin-top: 0.25rem; }
+
+    /* ── DAY SPACER ─────────────────────────── */
+    .day-spacer {
+      height: 0;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="masthead-row">
+      <a href="../index.html" class="logo">Uutisvirta</a>
+      <span class="masthead-date" id="site-date"></span>
+    </div>
+    <div class="nav-strip">
+      <nav>
+        
+        <a href="../datascience-konsultointi/index.html"
+           >
+          Datascience konsultointi
+        </a>
+        
+        <a href="../era-seikkailu/index.html"
+           >
+          Erä & seikkailu
+        </a>
+        
+        <a href="../politiikka/index.html"
+           class="active">
+          Politiikka
+        </a>
+        
+      </nav>
+    </div>
+  </header>
+  <main class="page">
+    
+<div class="day-nav">
+  <span><a href="2026-09-16.html">← 2026-09-16</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
+</div>
+
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Politiikka</div>
+<h1>2026-09-17</h1>
+<p class="meta">
+  <span>23 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>7579 tokenia</span>
+</p>
+
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään EU:n ja Kanadan suhteet nousivat keskusteluun useiden uutisten kautta. EU:n pyrkimys tiivistää siteitään Kanadaan kohtaa haasteita Donald Trumpin uhkaillessa tulleilla. Samaan aikaan Kanaadan mahdollisesta EU-yhteistyöjäsenyydestä on noussut laaja keskustelu ja skeptisyyttä, ja EU:n ja Kanadan välinen puheyhteys pyrkii tästä huolimatta säilymään vahvana.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>E.U.-Canada Ambitions Face Reality Check as Trump Bristles</h3>
+<p>Euroopan unionin ja Kanadan suhteet ovat kokeneet haasteita, kun entinen Yhdysvaltain presidentti Donald Trump on kritisoinut mahdollisia uusia liikkeitä EU:n ja Kanadan välillä. EU on harkinnut Kanadan ottamista läheiseksi yhteistyökumppaniksi, mutta Trumpin mukaan tämä voisi johtaa tulleihin Euroopan tuotteita kohtaan, mikä aiheuttaa epävarmuutta neuvotteluissa. Tämä osoittaa jännitteiden kasvavan kansainvälisessä kauppapolitiikassa, erityisesti EU:n ja Yhdysvaltojen välillä. <strong><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOM1FiRUhiS0NNTE9IbnNES0hFZ0VLUmFWTWs0X1ZuUkRWZHZqSVkyTXk2YklMalhYQ2FDdG5Iem9tWS1SaUtEWHRwVDB3dGtZc0hVQTNBWFdFUkNkWVd1UENyNjhnSlpQak9DYmFMT2syajJXdDVyT2JMWFV1aS1sUG1kc1NVQ05mQ3BDTVBn?oc=5">Lue alkuperäinen →</a></strong></p>
+<h3>The 'Canaduropean' Union: Canada an associate member of the EU?</h3>
+<p>Euroopan komission puheenjohtaja Ursula von der Leyen on ehdottanut Kanadan mahdollisuutta tulla EU:n assosioituneeksi jäseneksi. Ehdotus on herättänyt skeptisyyttä ja pohdintaa siitä, mitä tällainen jäsenyys käytännössä tarkoittaisi. Kanadan ja EU:n välinen tiiviimpi yhteistyö voisi tuoda uusia mahdollisuuksia, mutta se on myös poliittisesti haastava aihe molemmille osapuolille. <strong><a href="http://www.france24.com/en/tv-shows/press-review/20260917-the-canaduropean-union-canada-an-associate-member-of-the-eu">Lue alkuperäinen →</a></strong></p>
+<h3>Trump threatens EU with tariffs over 'laughable' Canada association plan</h3>
+<p>Donald Trump on uhannut EU:ta voimakkailla tulleilla, jos Kanada liittyy EU:n assosioituneeksi jäseneksi. Hän on kutsunut tätä oletettua liitosta &quot;vihamieliseksi teoksi&quot;. Kanadan pääministeri Mark Carney puolestaan pyrkii parantamaan suhteita EU:hun, kun taas Yhdysvaltojen kanssa on jännitteitä. Tilanne heijastaa globaalien kaupallisten liittoumien kompleksisuutta ja poliittista epävarmuutta. <strong><a href="http://www.france24.com/en/europe/20260917-trump-threatens-eu-with-tariffs-over-laughable-canada-association-plan">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>Ranskan kalastajat ovat aloittaneet protesteja polttoaineen hintojen nousua vastaan hallituksen lisätessä tukia. <a href="http://www.rfi.fr/en/france/20260917-french-fishermen-renew-protest-as-france-boosts-aid-over-soaring-fuel-prices">Lue lisää</a></li>
+<li>Pariisissa keskusteltiin Libanonin turvallisuudesta ja YK:n rauhanturvaoperaation korvaamisesta. <a href="http://www.rfi.fr/en/international/20260917-lebanon-security-talks-in-paris-focus-on-replacing-un-mission">Lue lisää</a></li>
+<li>Frankfurtissa koettiin jälleen mystisiä räjähdyksiä, mikä kiinnittää viranomaisten huomion. <a href="https://www.dw.com/en/germany-news-mysterious-explosions-reported-in-frankfurt/live-79300494?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Belgia harkitsee ehdollista vapauttamista yhdelle vuoden 2015 Pariisin hyökkäysten avainhenkilöistä. <a href="http://www.france24.com/en/belgium-to-rule-on-parole-for-key-figure-in-2015-paris-attacks">Lue lisää</a></li>
+<li>Intia aikoo turvata &quot;energiaturvallisuutensa&quot; Trumpin 100 % tullien uhasta huolimatta. <a href="https://www.dw.com/en/india-news-new-delhi-vows-to-ensure-energy-security-amid-trump-s-100-tariffs-threat/live-79300604?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Kanadan pääministeri Mark Carney kehui Euroopan parlamentille EU:n ja Kanadan yhteistyötä. <a href="http://www.france24.com/en/europe/20260917-live-carney-to-speak-after-trump-threatens-more-eu-tariffs-over-canada-s-associate-member-bid">Lue lisää</a></li>
+<li>Yhdysvallat jatkaa viisumikiellon voimassaoloa palestiinalaisviranomaisille YK kokouksen alla. <a href="https://www.dw.com/en/us-extends-visa-denial-for-palestinian-officials-ahead-of-unga/a-79300290?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>OpenAI:n uudet raportit paljastavat mallien olevan osin harhaanjohtavia, herättäen huolta tekoälyteknologian hallinnasta. <a href="https://www.dw.com/en/openai-discloses-new-concerning-behavior/a-79300180?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Ursula von der Leyenin ehdotus Kanadan mahdollisesta EU-jäsenyydestä yllätti monet EU-pääkaupungit. <a href="https://www.politico.eu/podcast/brussels-playbook-podcast/von-der-leyen-makes-it-awkward-with-canada/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää</a></li>
+<li>Saksan hallitus pyrkii torjumaan polttoainekriisin vaikutuksia elinkustannuksiin. <a href="https://www.politico.eu/podcast/berlin-playbook-podcast/kann-die-tanksaule-den-kanzler-aus-krise-retten/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää</a></li>
+<li>Ukraina syyttää Venäjää laivan pommittamisesta Mustallamerellä, kun räjähdyksiä kuultiin Kiovassa. <a href="http://www.france24.com/en/europe/20260917-live-explosions-kyiv-us-congress-sanctions-moscow">Lue lisää</a></li>
+<li>USA:n kongressissa hyväksyttiin uusi laajamittainen paketti Venäjän vastaista lainsäädäntöä. <a href="https://www.dw.com/en/us-congress-passes-russia-sanctions-bill/a-79299088?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Ruotsissa vasemmistoblokki voitti niukalla marginaalilla vaalit, ja se kohtaa nyt haastavat hallitusneuvottelut. <a href="https://www.dw.com/en/sweden-s-center-left-bloc-set-to-win-election-stv-reports/a-79299076?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Kaja Kallas korosti EU:n kiireellistä tarvetta tukea Ukrainaa Venäjän lisääntyvää aggressiota vastaan. <a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxOXzhfWlROWlFzbzJQcnlELTc0amtQSDVlaTRvZVg3V2FBRVd5Mko3LXNtRWxTVHhBZ3h1ZjQzNV9OMjlYLUh4a1hOUW00c21yREl1eWJUZ1ZVWVJVakR5VEtRVHlwU2EySTd2UTlpRDJXV2xHWDVIN05ycVRJZHEwODg1eU9MeXliTXRnTWE2UmFlYWRaYTlxM3RtdzBibGhuaWJaOGROb05mZjdMV3BDRVpCb1FXVjdUWVlIN29OTWRTVk14UUZLMk5BMHRxZw?oc=5">Lue lisää</a></li>
+<li>Putin rohkaisee venäläisiä äänestämään parlamenttivaaleissa Ukrainan sodan tukena. <a href="http://www.france24.com/en/europe/20260916-putin-urges-russians-to-vote-in-parliamentary-election-as-show-of-support-for-ukraine-war">Lue lisää</a></li>
+<li>Ruotsin vasemmistopuolueet voittivat vaalit SVT:n mukaan, vaikka ero oli minimaalinen. <a href="http://www.france24.com/en/sweden-s-centre-left-opposition-wins-election-svt-says">Lue lisää</a></li>
+<li>Yhdysvaltain keskuspankki nosti ohjauskorkoaan ensimmäistä kertaa kolmeen vuoteen, yrittäessään hillitä inflaatiota. <a href="https://www.dw.com/en/us-fed-raises-key-rate-for-first-time-in-3-years/a-79297295?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Kanada pyrkii lähentymään Euroopan unionia, mutta ei tavoitteena olla EU:n 28. jäsenvaltio. <a href="http://www.france24.com/en/tv-shows/the-debate/20260916-the-28th-state-carney-s-canada-draws-closer-to-european-union">Lue lisää</a></li>
+<li>Seitsemän seksuaaliväkivallan uhria esittää vaatimuksia paaville tämän Ranskan-matkalla. <a href="http://www.rfi.fr/en/france/20260916-abuse-survivors-set-out-demands-before-meeting-pope-leo-in-france">Lue lisää</a></li>
+<li>Kongon oppositio tuomitsi väkivallan mielenosoituksissa uusien perustuslain muutosten vuoksi. <a href="http://www.rfi.fr/en/africa/20260916-drc-opposition-condemns-violence-at-protests-over-constitutional-changes">Lue lisää</a></li>
+</ul>
+
+</div>
+
+<details>
+  <summary>Lähteet (40)</summary>
+  <ul class="source-list">
+    
+    <li><a href="http://www.rfi.fr/en/france/20260917-french-fishermen-renew-protest-as-france-boosts-aid-over-soaring-fuel-prices" target="_blank" rel="noopener">French fishermen renew protest as France boosts aid over soaring fuel prices</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.dw.com/en/jews-once-lived-lived-here-when-houses-tell-stories/a-79264813?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Jews once lived lived here: When houses tell stories</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOM1FiRUhiS0NNTE9IbnNES0hFZ0VLUmFWTWs0X1ZuUkRWZHZqSVkyTXk2YklMalhYQ2FDdG5Iem9tWS1SaUtEWHRwVDB3dGtZc0hVQTNBWFdFUkNkWVd1UENyNjhnSlpQak9DYmFMT2syajJXdDVyT2JMWFV1aS1sUG1kc1NVQ05mQ3BDTVBn?oc=5" target="_blank" rel="noopener">E.U.-Canada Ambitions Face Reality Check as Trump Bristles - The New York Times</a> <span style="color:var(--muted)">— Google News: European Commission</span></li>
+    
+    <li><a href="https://www.bbc.co.uk/sport/olympics/articles/cqvgy1m9z4k8o?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener">River home to 500 crocodiles chosen as Olympic rowing venue</a> <span style="color:var(--muted)">— BBC News — World</span></li>
+    
+    <li><a href="https://www.dw.com/en/fiji-declares-hiv-a-national-crisis-1-in-60-adults-carry-it/a-79300628?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Fiji declares HIV a national crisis, 1 in 60 adults carry it</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="http://www.france24.com/en/tv-shows/press-review/20260917-the-canaduropean-union-canada-an-associate-member-of-the-eu" target="_blank" rel="noopener">The 'Canaduropean' Union: Canada an associate member of the EU?</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="http://www.rfi.fr/en/international/20260917-lebanon-security-talks-in-paris-focus-on-replacing-un-mission" target="_blank" rel="noopener">Lebanon security talks in Paris focus on replacing UN mission</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.dw.com/en/jürgen-klopp-s-first-germany-squad-includes-44-players/a-79289254?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Jürgen Klopp's first Germany squad includes 44 players</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/germany-news-mysterious-explosions-reported-in-frankfurt/live-79300494?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Germany news: Mysterious explosions reported in Frankfurt</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="http://www.france24.com/en/video/20260917-mbapp%C3%A9-and-real-madrid-teammates-face-backlash-over-ceuta-message" target="_blank" rel="noopener">Mbappé and Real Madrid teammates face backlash over Ceuta message</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="http://www.france24.com/en/belgium-to-rule-on-parole-for-key-figure-in-2015-paris-attacks" target="_blank" rel="noopener">Belgium to rule on parole for key figure in 2015 Paris attacks</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/india-news-new-delhi-vows-to-ensure-energy-security-amid-trump-s-100-tariffs-threat/live-79300604?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">India news: New Delhi vows to ensure 'energy security' amid Trump's 100% tariffs threat</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="http://www.france24.com/en/europe/20260917-live-carney-to-speak-after-trump-threatens-more-eu-tariffs-over-canada-s-associate-member-bid" target="_blank" rel="noopener">Live: Europe and Canada are strong, even stronger together, Carney tells European Parliament</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/politics-at-sam-and-annes/what-does-a-party-of-former-pms-reveal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">What does a party of former PMs reveal?</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="http://www.france24.com/en/europe/20260917-trump-threatens-eu-with-tariffs-over-laughable-canada-association-plan" target="_blank" rel="noopener">Trump threatens EU with tariffs over 'laughable' Canada association plan</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/us-extends-visa-denial-for-palestinian-officials-ahead-of-unga/a-79300290?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">US extends visa denial for Palestinian officials ahead of UNGA</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="http://www.rfi.fr/en/france/20260917-depardieu-appeals-court-order-sending-him-to-trial-on-rape-charges" target="_blank" rel="noopener">Depardieu appeals court order sending him to trial on rape charges</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.dw.com/en/openai-discloses-new-concerning-behavior/a-79300180?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">OpenAI discloses new 'concerning' behavior</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/brussels-playbook-podcast/von-der-leyen-makes-it-awkward-with-canada/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Von der Leyen makes it awkward with Canada</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.theguardian.com/environment/2026/sep/17/wildlife-african-wild-dogs-longest-journey-zambia-conservation-aoe" target="_blank" rel="noopener">‘Like a Disney movie’: Three wild dog brothers make Africa’s longest journey</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/berlin-playbook-podcast/kann-die-tanksaule-den-kanzler-aus-krise-retten/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Kann die Tanksäule den Kanzler aus Krise retten?</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="http://www.france24.com/en/europe/20260917-live-explosions-kyiv-us-congress-sanctions-moscow" target="_blank" rel="noopener">Live: Ukraine accuses Russia of striking ship in Black Sea as explosions rock Kyiv</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/sep/17/fiji-declares-national-hiv-emergency-infections-surge-health" target="_blank" rel="noopener">Fiji declares national HIV emergency as Pacific nation grapples with surge in cases</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.dw.com/en/how-climate-change-worsened-nepal-s-deadly-mountain-collapse/a-79293578?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">How climate change worsened Nepal's deadly mountain collapse</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/us-congress-passes-russia-sanctions-bill/a-79299088?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">US Congress passes Russia sanctions bill</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/sweden-s-center-left-bloc-set-to-win-election-stv-reports/a-79299076?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Sweden's center-left bloc set to win election, STV reports</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxOXzhfWlROWlFzbzJQcnlELTc0amtQSDVlaTRvZVg3V2FBRVd5Mko3LXNtRWxTVHhBZ3h1ZjQzNV9OMjlYLUh4a1hOUW00c21yREl1eWJUZ1ZVWVJVakR5VEtRVHlwU2EySTd2UTlpRDJXV2xHWDVIN05ycVRJZHEwODg1eU9MeXliTXRnTWE2UmFlYWRaYTlxM3RtdzBibGhuaWJaOGROb05mZjdMV3BDRVpCb1FXVjdUWVlIN29OTWRTVk14UUZLMk5BMHRxZw?oc=5" target="_blank" rel="noopener">Statement by High Representative/Vice-President Kaja Kallas to the European Parliament on the urgent need for EU support to Ukraine against Russia’s escalation of its war of aggression. - EEAS</a> <span style="color:var(--muted)">— Google News: European Parliament</span></li>
+    
+    <li><a href="http://www.france24.com/en/europe/20260916-putin-urges-russians-to-vote-in-parliamentary-election-as-show-of-support-for-ukraine-war" target="_blank" rel="noopener">Putin urges Russians to vote in parliamentary election as show of support for Ukraine war</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="http://www.france24.com/en/lgbtq-a-threat-to-erdogan-s-ideal-of-a-strong-masculine-state-expert-says" target="_blank" rel="noopener">LGBTQ 'a threat to Erdogan's ideal of a strong, masculine state', expert says</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="http://www.france24.com/en/sweden-s-centre-left-opposition-wins-election-svt-says" target="_blank" rel="noopener">Sweden's centre-left opposition wins election, SVT says</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="http://www.rfi.fr/en/international/20260916-capture-of-mocha-marks-turning-point-in-yemen-war-with-ripples-across-red-sea" target="_blank" rel="noopener">Capture of Mocha marks turning point in Yemen war, with ripples across Red Sea</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.dw.com/en/us-fed-raises-key-rate-for-first-time-in-3-years/a-79297295?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">US Fed raises key rate for first time in 3 years</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="http://www.france24.com/en/tv-shows/the-debate/20260916-the-28th-state-carney-s-canada-draws-closer-to-european-union" target="_blank" rel="noopener">The 28th state? Carney's Canada draws closer to European Union</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="http://www.rfi.fr/en/sports/20260916-pride-and-joy-as-kenya-chosen-to-host-2029-world-athletics-championships" target="_blank" rel="noopener">Pride and joy as Kenya chosen to host 2029 World Athletics Championships</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="http://www.france24.com/en/europe/20260916-ivorian-footballer-malick-yalcouy%C3%A9-falsely-accused-of-lying-about-his-age" target="_blank" rel="noopener">Ivorian footballer Malick Yalcouyé falsely accused of lying about his age</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/sep/16/discovery-women-bodies-anger-femicide-south-africa" target="_blank" rel="noopener">‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="http://www.rfi.fr/en/africa/20260916-sudan-gold-mine-collapse-kills-dozens-as-search-for-missing-continues" target="_blank" rel="noopener">Sudan gold mine collapse kills dozens as search for missing continues</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="http://www.rfi.fr/en/france/20260916-abuse-survivors-set-out-demands-before-meeting-pope-leo-in-france" target="_blank" rel="noopener">Abuse survivors set out demands before meeting Pope Leo in France</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="http://www.rfi.fr/en/africa/20260916-drc-opposition-condemns-violence-at-protests-over-constitutional-changes" target="_blank" rel="noopener">DRC opposition condemns violence at protests over constitutional changes</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.theguardian.com/film/2026/sep/16/battle-of-chile-director-patricio-guzman-dies-aged-85" target="_blank" rel="noopener">Battle of Chile director Patricio Guzmán dies aged 85</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+  </ul>
+</details>
+
+
+  </main>
+  <script>
+    (function() {
+      var d = new Date();
+      var days = ['Su','Ma','Ti','Ke','To','Pe','La'];
+      var months = ['tammik.','helmik.','maalisk.','huhtik.','toukok.','kesäk.','heinäk.','elok.','syysk.','lokak.','marrask.','jouluk.'];
+      var el = document.getElementById('site-date');
+      if (el) el.textContent = days[d.getDay()] + ' ' + d.getDate() + '. ' + months[d.getMonth()] + ' ' + d.getFullYear();
+
+      document.querySelectorAll('a[href]').forEach(function(a) {
+        var href = a.getAttribute('href');
+        if (href && href.startsWith('http')) {
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener');
+        }
+      });
+
+      document.querySelectorAll('.digest-body').forEach(function(body) {
+        body.querySelectorAll('h3').forEach(function(h3) {
+          var div = document.createElement('div');
+          div.className = 'deep-dive';
+          h3.parentNode.insertBefore(div, h3);
+          div.appendChild(h3);
+          var next = div.nextSibling;
+          while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+            var n = next.nextSibling;
+            div.appendChild(next);
+            next = n;
+          }
+        });
+        body.querySelectorAll('ul').forEach(function(ul) {
+          ul.classList.add('brief-list');
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-17",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Microsoft Agent Framework on julkaissut uuden blogipostauksen, jossa keskitytään siirtymään erikoistuneista agenteista hajautettuihin taitoihin MCP:n kautta. Tämä muutos tuo mukanaan uusia mahdollisuuksia tekoälyagenttien arkkitehtuurille ja niiden väliselle kommunikoinnille.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>From Specialist Agents to Distributed Skills over MCP</h3>\n<p>Microsoft Agent Frameworkin blogipostaus käsittelee siirtymää erikoistuneista agenteista kohti hajautettuja taitoja MCP (Multi-Agent Communication Protocol) -arkkitehtuurin avulla. Tämä muutos korostaa hajautetun arkkitehtuurin merkitystä, jossa agentit voivat jakaa osaamistaan ja taitojaan tehokkaammin keskenään. Uusi lähestymistapa tarjoaa joustavampia ja skaalautuvampia ratkaisuja, mikä mahdollistaa paremman yhteistoiminnan ja kommunikaation agenttien välillä. Tämä kehitys on merkittävä askel kohti monimutkaisempia ja älykkäämpiä agenttijärjestelmiä, jotka voivat mukautua dynaamiseen ympäristöön ja uusiin vaatimuksiin. Aloite voi myös tehostaa agenttien yhteistyökykyä, mahdollistaen monimutkaisempien tehtävien suorittamisen kollektiivisesti. <strong><a href=\"https://devblogs.microsoft.com/agent-framework/from-specialist-agents-to-distributed-skills-over-mcp/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<p>Tänään ei ole lyhyitä uutisia mainittavaksi.</p>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1707,
+  "output_tokens": 367,
+  "sources": [
+    {
+      "title": "From Specialist Agents to Distributed Skills over MCP",
+      "url": "https://devblogs.microsoft.com/agent-framework/from-specialist-agents-to-distributed-skills-over-mcp/",
+      "source_name": "Microsoft Agent Framework Blog"
+    },
+    {
+      "title": "Meet a mouse whose brain cortex is made up of human cells",
+      "url": "https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Building the materials foundation for AI",
+      "url": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
+      "url": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
