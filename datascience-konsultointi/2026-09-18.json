@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-18",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänä päivänä Microsoft julkaisi uuden AI-käsikirjan yrityksille. Tämä opas hyödyntää yhtiön omia kokemuksia ja paljastaa yllättävän kilpailuedun, joka yrityksillä voi jo olla.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Microsoft on julkaissut uuden tekoälykäsikirjan yrityksille, jossa hyödynnetään yhtiön omia oppimiskokemuksia. Käsikirjassa paljastetaan yllättävä kilpailuetu, joka yrityksillä voi jo olla valmiina hyödyntää AI-strategioissaan. <a href=\"https://news.google.com/rss/articles/CBMigAJBVV95cUxORGdWaVVFWnlKSnNyYlFoMzBBX1BFS1JZNHJ3Nk1UNXprZWJ3MmN4WjI0aE5wR1NQdE9XUGZfZG50Z20zc3d2aE9HdkZNc0EzOThrMHZxeGVYMkRQcVp4QURCLVI0TGlmeDI2T0RmdzV3Q21NQjdaczVHMEVKd3J2dVFKb0ctdGxRbk1hZm9PclAydmR2N0xXTFlGOGxubXRuMGdOYzQ5OFZ0VDRXZS00Q08wUUo0TG96YUp1MkVIS0VTbnNSSFNfMWIwVW5OZl9YbzJMQzNhajhWZW9SWk1mWEwxdk5VUnZYUnItMXI3WjB0Q0YweUh1RmhfcWs3S1k1?oc=5\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1278,
+  "output_tokens": 396,
+  "sources": [
+    {
+      "title": "The specter of AI-enabled bioweapons is a wake-up call for biotech",
+      "url": "https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Microsoft releases new AI playbook for enterprises based on its own learnings, and it reveals a surprising 'moat' your biz may already have - VentureBeat",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxORGdWaVVFWnlKSnNyYlFoMzBBX1BFS1JZNHJ3Nk1UNXprZWJ3MmN4WjI0aE5wR1NQdE9XUGZfZG50Z20zc3d2aE9HdkZNc0EzOThrMHZxeGVYMkRQcVp4QURCLVI0TGlmeDI2T0RmdzV3Q21NQjdaczVHMEVKd3J2dVFKb0ctdGxRbk1hZm9PclAydmR2N0xXTFlGOGxubXRuMGdOYzQ5OFZ0VDRXZS00Q08wUUo0TG96YUp1MkVIS0VTbnNSSFNfMWIwVW5OZl9YbzJMQzNhajhWZW9SWk1mWEwxdk5VUnZYUnItMXI3WjB0Q0YweUh1RmhfcWs3S1k1?oc=5",
+      "source_name": "Google News: AI agents architecture"
+    },
+    {
+      "title": "The Download: mice with part-human brains and climate tech innovators",
+      "url": "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Meet the innovators under 35 shaping climate tech",
+      "url": "https://www.technologyreview.com/2026/09/17/1144251/innovators-shaping-climate-tech/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}

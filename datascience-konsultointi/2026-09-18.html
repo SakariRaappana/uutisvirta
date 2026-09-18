@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-09-18 — Datascience konsultointi — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,23 +358,23 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
-           >
+        <a href="../datascience-konsultointi/index.html"
+           class="active">
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
+        <a href="../era-seikkailu/index.html"
            >
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
+        <a href="../politiikka/index.html"
            >
           Politiikka
         </a>
@@ -384,266 +384,44 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-09-18</p>
+<div class="day-nav">
+  <span><a href="2026-09-17.html">← 2026-09-17</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Datascience konsultointi</div>
+<h1>2026-09-18</h1>
+<p class="meta">
+  <span>1 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>1674 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Erä & seikkailu</div>
-  <h2 class="featured-title">
-    <a href="https://metsastajaliitto.fi/uutiset/metsastajaliitolta-useita-ehdotuksia-sikaruttotilanteen-hoitamiseksi" target="_blank" rel="noopener">Metsästäjäliitolta useita ehdotuksia sikaruttotilanteen hoitamiseksi</a>
-  </h2>
-  
-  <div class="featured-why">Sikaruton torjunnan linjaukset voivat vaikuttaa suoraan hirvieläin- ja villisian metsästykseen, riistanhoitoon sekä siihen, millaisia käytännön toimia metsästäjiltä jatkossa odotetaan.</div>
-  
-  <div class="featured-meta">
-    <span class="badge-new">Uusi</span>
-    Metsästäjäliitto · tänään ·
-    <a href="era-seikkailu/2026-09-18.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänä päivänä Microsoft julkaisi uuden AI-käsikirjan yrityksille. Tämä opas hyödyntää yhtiön omia kokemuksia ja paljastaa yllättävän kilpailuedun, joka yrityksillä voi jo olla.</p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>Microsoft on julkaissut uuden tekoälykäsikirjan yrityksille, jossa hyödynnetään yhtiön omia oppimiskokemuksia. Käsikirjassa paljastetaan yllättävä kilpailuetu, joka yrityksillä voi jo olla valmiina hyödyntää AI-strategioissaan. <a href="https://news.google.com/rss/articles/CBMigAJBVV95cUxORGdWaVVFWnlKSnNyYlFoMzBBX1BFS1JZNHJ3Nk1UNXprZWJ3MmN4WjI0aE5wR1NQdE9XUGZfZG50Z20zc3d2aE9HdkZNc0EzOThrMHZxeGVYMkRQcVp4QURCLVI0TGlmeDI2T0RmdzV3Q21NQjdaczVHMEVKd3J2dVFKb0ctdGxRbk1hZm9PclAydmR2N0xXTFlGOGxubXRuMGdOYzQ5OFZ0VDRXZS00Q08wUUo0TG96YUp1MkVIS0VTbnNSSFNfMWIwVW5OZl9YbzJMQzNhajhWZW9SWk1mWEwxdk5VUnZYUnItMXI3WjB0Q0YweUh1RmhfcWs3S1k1?oc=5">Lue lisää</a></li>
+</ul>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (4)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.outdoorlife.com/conservation/executive-order-hunting-hertiage/" target="_blank" rel="noopener">Trump Issues Executive Order to Open 2 National Monuments to Hunting, Access More Public Land, Protect Lead Ammo</a>
-      </div>
-      
-      <div class="news-card-why">Yhdysvaltojen päätös avata metsästystä ja suojella lyijyammuksia koskettaa metsästyksen sääntelyä ja ammuspolitiikkaa, joista voi tulla vertailukohta myös eurooppalaiselle keskustelulle.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        Outdoor Life · tänään ·
-        <a href="era-seikkailu/2026-09-18.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/" target="_blank" rel="noopener">The specter of AI-enabled bioweapons is a wake-up call for biotech</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://metsastajaliitto.fi/uutiset/karhun-kiintiometsastys-laajenee-koko-maahan" target="_blank" rel="noopener">Karhun kiintiömetsästys laajenee koko maahan</a>
-      </div>
-      
-      <div class="news-card-why">Karhun kiintiömetsästyksen laajeneminen koko maahan muuttaa suoraan luvitusta ja metsästysmahdollisuuksia karhualueilla, joista sinulla voi olla käytännön retki- ja metsästysintressejä.</div>
-      
-      <div class="news-card-meta">
-        
-        Metsästäjäliitto · 2 pv sitten ·
-        <a href="era-seikkailu/2026-09-16.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://news.google.com/rss/articles/CBMigAJBVV95cUxORGdWaVVFWnlKSnNyYlFoMzBBX1BFS1JZNHJ3Nk1UNXprZWJ3MmN4WjI0aE5wR1NQdE9XUGZfZG50Z20zc3d2aE9HdkZNc0EzOThrMHZxeGVYMkRQcVp4QURCLVI0TGlmeDI2T0RmdzV3Q21NQjdaczVHMEVKd3J2dVFKb0ctdGxRbk1hZm9PclAydmR2N0xXTFlGOGxubXRuMGdOYzQ5OFZ0VDRXZS00Q08wUUo0TG96YUp1MkVIS0VTbnNSSFNfMWIwVW5OZl9YbzJMQzNhajhWZW9SWk1mWEwxdk5VUnZYUnItMXI3WjB0Q0YweUh1RmhfcWs3S1k1?oc=5" target="_blank" rel="noopener">Microsoft releases new AI playbook for enterprises based on its own learnings, and it reveals a surprising 'moat' your biz may already have - VentureBeat</a> <span style="color:var(--muted)">— Google News: AI agents architecture</span></li>
+    
+    <li><a href="https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/" target="_blank" rel="noopener">The Download: mice with part-human brains and climate tech innovators</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
+    
+    <li><a href="https://www.technologyreview.com/2026/09/17/1144251/innovators-shaping-climate-tech/" target="_blank" rel="noopener">Meet the innovators under 35 shaping climate tech</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://devblogs.microsoft.com/foundry/foundry-devpack-announcement/" target="_blank" rel="noopener">Introducing Foundry Dev Pack: One Command to Start Building</a>
-      </div>
-      
-      <div class="news-card-why">Foundry Dev Pack vaikuttaa suoraan siihen, miten nopeasti saat Microsoft Foundryn kehitysympäristön pystyyn ja millä työkaluketjulla rakennat agentteja asiakasprojekteissa.</div>
-      
-      <div class="news-card-meta">
-        
-        Microsoft Foundry Blog · 2 pv sitten ·
-        <a href="datascience-konsultointi/2026-09-16.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-  </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.politico.eu/article/germany-and-spain-go-head-to-head-in-eu-budget-fight/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Germany and Spain go head-to-head in EU budget fight</a>
-      </div>
-      
-      <div class="news-card-why">EU:n budjettineuvottelut määrittävät, kuinka paljon rahaa ohjataan turvallisuuteen, kilpailukykyyn ja jäsenmaiden nettoasemiin, mikä vaikuttaa suoraan myös Suomen neuvotteluympäristöön.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        Politico Europe · tänään ·
-        <a href="politiikka/2026-09-18.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOM1FiRUhiS0NNTE9IbnNES0hFZ0VLUmFWTWs0X1ZuUkRWZHZqSVkyTXk2YklMalhYQ2FDdG5Iem9tWS1SaUtEWHRwVDB3dGtZc0hVQTNBWFdFUkNkWVd1UENyNjhnSlpQak9DYmFMT2syajJXdDVyT2JMWFV1aS1sUG1kc1NVQ05mQ3BDTVBn?oc=5" target="_blank" rel="noopener">E.U.-Canada Ambitions Face Reality Check as Trump Bristles - The New York Times</a>
-      </div>
-      
-      <div class="news-card-why">EU:n ja Kanadan mahdollinen uusi assosiaatiokehys olisi konkreettinen muutos unionin ulkosuhteissa ja voisi vaikuttaa kauppaan, sääntely-yhteistyöhön ja siihen, miten EU asemoituu Yhdysvaltojen painostusta vastaan.</div>
-      
-      <div class="news-card-meta">
-        
-        Google News: European Commission · eilen ·
-        <a href="politiikka/2026-09-17.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="http://www.france24.com/en/europe/20260917-trump-threatens-eu-with-tariffs-over-laughable-canada-association-plan" target="_blank" rel="noopener">Trump threatens EU with tariffs over 'laughable' Canada association plan</a>
-      </div>
-      
-      <div class="news-card-why">Tämä voi suoraan muuttaa EU:n kauppapoliittista neuvotteluasemaa Yhdysvaltoihin nähden ja siten vaikuttaa myös Suomeen osana EU:n yhteistä tariffi- ja vastatoimilinjan muodostusta.</div>
-      
-      <div class="news-card-meta">
-        
-        France 24 — Europe · eilen ·
-        <a href="politiikka/2026-09-17.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.rfi.fr/en/international/20260914-finland-joins-french-nuclear-umbrella-amid-european-security-push" target="_blank" rel="noopener">Finland joins French nuclear umbrella amid European security push</a>
-      </div>
-      
-      <div class="news-card-why">Suomen liittyminen Ranskan ydinpelotteen piiriin muuttaa Euroopan turvallisuusasetelmaa ja kertoo, miten EU-maat paikkaavat Yhdysvaltain sitoutumiseen liittyvää epävarmuutta.</div>
-      
-      <div class="news-card-meta">
-        
-        RFI English · 3 pv sitten ·
-        <a href="politiikka/2026-09-15.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-  </ul>
-  
-</section>
-
-
-
+</details>
 
 
   </main>

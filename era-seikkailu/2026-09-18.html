@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-09-18 — Erä & seikkailu — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,23 +358,23 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
+        <a href="../datascience-konsultointi/index.html"
            >
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
-           >
+        <a href="../era-seikkailu/index.html"
+           class="active">
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
+        <a href="../politiikka/index.html"
            >
           Politiikka
         </a>
@@ -384,266 +384,93 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-09-18</p>
+<div class="day-nav">
+  <span><a href="2026-09-17.html">← 2026-09-17</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Erä & seikkailu</div>
+<h1>2026-09-18</h1>
+<p class="meta">
+  <span>10 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>5973 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Erä & seikkailu</div>
-  <h2 class="featured-title">
-    <a href="https://metsastajaliitto.fi/uutiset/metsastajaliitolta-useita-ehdotuksia-sikaruttotilanteen-hoitamiseksi" target="_blank" rel="noopener">Metsästäjäliitolta useita ehdotuksia sikaruttotilanteen hoitamiseksi</a>
-  </h2>
-  
-  <div class="featured-why">Sikaruton torjunnan linjaukset voivat vaikuttaa suoraan hirvieläin- ja villisian metsästykseen, riistanhoitoon sekä siihen, millaisia käytännön toimia metsästäjiltä jatkossa odotetaan.</div>
-  
-  <div class="featured-meta">
-    <span class="badge-new">Uusi</span>
-    Metsästäjäliitto · tänään ·
-    <a href="era-seikkailu/2026-09-18.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään kerrotaan Metsästäjäliiton ehdotuksista afrikkalaisen sikaruton torjumiseksi sekä Yhdysvaltain kansallispuistoja ja metsästystä koskevasta toimeenpanomääräyksestä. Sinneasiien liittyen julkaistu raportti skandinavisen sudenkannan tutkimuksesta antaa kattavan yhteenvedon 25 vuoden ajalta.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>Metsästäjäliitolta useita ehdotuksia sikaruttotilanteen hoitamiseksi</h3>
+<p>Metsästäjäliitto on antanut maa- ja metsätalousvaliokunnalle asiantuntijalausunnon afrikkalaisen sikaruton hallitsemiseksi Suomessa. Ehdotuksina ovat muun muassa villisian metsästyksen tehostaminen kantatavoitteen saavuttamiseksi, mahdollinen aitojen käyttö tautipaineen vähentämiseksi sekä villisikojen tarkempi seuranta tautihavaintojen nopeuttamiseksi. Lausunto korostaa myös tiedottamisen ja koulutuksen merkitystä tautiriskien ymmärtämisessä. Tavoitteena on estää taudin leviäminen kotieläimiin ja muihin eläinpopulaatioihin. <strong><a href="https://metsastajaliitto.fi/uutiset/metsastajaliitolta-useita-ehdotuksia-sikaruttotilanteen-hoitamiseksi">Lue alkuperäinen →</a></strong></p>
+<h3>Trump Issues Executive Order to Open 2 National Monuments to Hunting, Access More Public Land, Protect Lead Ammo</h3>
+<p>Yhdysvaltain entinen presidentti on antanut toimeenpanomääräyksen, joka avaa kaksi kansallismonumenttia metsästykselle ja mahdollistaa laajempaa pääsyä julkisille maille. Määräys pyrkii myös suojelemaan lyijyammunan käyttöä metsästyksessä. Tämä päätös herättää laajaa keskustelua liittyen luonnonsuojeluun ja sen vaikutuksiin alkuperäiskansoihin ja ympäristöön. Julkisten maiden käytön lisäämisellä pyritään tukemaan metsästäjien perinteitä ja oikeuksia. <strong><a href="https://www.outdoorlife.com/conservation/executive-order-hunting-hertiage/">Lue alkuperäinen →</a></strong></p>
+<h3>Ny rapport samlar 25 års forskning om skandinavisk varg</h3>
+<p>Jakt &amp; Jägare raportoi uudesta tutkimuskokoelmasta, joka kattaa 25 vuotta skandinaavisen suden tutkimusta. Raportti tarjoaa laajan katsauksen ja uusia näkökulmia suden käyttäytymiseen, ekologiaan ja kantapolitiikkaan. Tämän laaja-alaisen tutkimuksen tavoitteena on lisätä ymmärrystä ja tukea päätöksentekoa, erityisesti sudenhoitosuunnitelmien suhteen. Raportti on arvokas tietolähde sidosryhmille ja viranomaisille sekä antaa tukea geneettiselle monimuotoisuudelle ja kestäville kannanhoitostrategioille. <strong><a href="https://www.jaktojagare.se/kategorier/nyheter/ny-rapport-samlar-25-ars-forskning-om-skandinavisk-varg/">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p>Senaattori Mike Lee pyrkii tekemään pysyväksi presidentti Trumpin päätöksen pienentää Bears Earsin kansallismonumenttia. <a href="https://www.outdoorlife.com/conservation/mike-lee-bears-ears-permanent-rollback/">Lue lisää</a></p>
+</li>
+<li>
+<p>Trump tarjoaa susien suojelun purkamista vastauksena karjankasvattajien huoliin, mutta toimenpiteellä saattaa olla vain vähän käytännön vaikutuksia. <a href="https://www.outdoorlife.com/conservation/wolf-delisting-cattle-ranchers/">Lue lisää</a></p>
+</li>
+<li>
+<p>Jakt &amp; Jägare käsittelee artikkelissaan metsästyksen vallankäyttöä ja oppimista. <a href="https://www.jaktojagare.se/kategorier/nyheter/makten-i-jakten/">Lue lisää</a></p>
+</li>
+<li>
+<p>Jakt &amp; Jägare esittelee Henry Jonesin Screw Grip -mekanismin historiassa. <a href="https://www.jaktojagare.se/kategorier/nyheter/vapenklassiker-skruva-den-som-jones/">Lue lisää</a></p>
+</li>
+<li>
+<p>Outdoor Life esittelee Jim Carmichelin suosikkikiväärejä kauriiden metsästykseen. <a href="https://www.outdoorlife.com/guns/carmichels-favorite-deer-rifles/">Lue lisää</a></p>
+</li>
+<li>
+<p>Outdoor Life raportoi karhuiskusta Montanassa, jossa jousimetsästäjä loukkaantui mutta pääsi itse kotiin. <a href="https://www.outdoorlife.com/survival/bear-attacks-montana-bowhunter/">Lue lisää</a></p>
+</li>
+<li>
+<p>Ruotsin hallitus aikoo vähentää hyljepopulaatioita turvatakseen herkät kalakannat ja parantaakseen kalastuksen olosuhteita. <a href="https://www.jaktojagare.se/kategorier/nyheter/regeringen-vill-minska-salstammarna-oppnar-for-mer-bestandsreglerande-jakt/">Lue lisää</a></p>
+</li>
+</ul>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (15)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.outdoorlife.com/conservation/executive-order-hunting-hertiage/" target="_blank" rel="noopener">Trump Issues Executive Order to Open 2 National Monuments to Hunting, Access More Public Land, Protect Lead Ammo</a>
-      </div>
-      
-      <div class="news-card-why">Yhdysvaltojen päätös avata metsästystä ja suojella lyijyammuksia koskettaa metsästyksen sääntelyä ja ammuspolitiikkaa, joista voi tulla vertailukohta myös eurooppalaiselle keskustelulle.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        Outdoor Life · tänään ·
-        <a href="era-seikkailu/2026-09-18.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.luke.fi/fi/uutiset/viljaviennin-kasvu-taittui-kauran-elintarvikekaytto-on-kasvussa" target="_blank" rel="noopener">Viljaviennin kasvu taittui – kauran elintarvikekäyttö on kasvussa</a> <span style="color:var(--muted)">— Luonnonvarakeskus (Luke)</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://metsastajaliitto.fi/uutiset/karhun-kiintiometsastys-laajenee-koko-maahan" target="_blank" rel="noopener">Karhun kiintiömetsästys laajenee koko maahan</a>
-      </div>
-      
-      <div class="news-card-why">Karhun kiintiömetsästyksen laajeneminen koko maahan muuttaa suoraan luvitusta ja metsästysmahdollisuuksia karhualueilla, joista sinulla voi olla käytännön retki- ja metsästysintressejä.</div>
-      
-      <div class="news-card-meta">
-        
-        Metsästäjäliitto · 2 pv sitten ·
-        <a href="era-seikkailu/2026-09-16.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://metsastajaliitto.fi/uutiset/metsastajaliitolta-useita-ehdotuksia-sikaruttotilanteen-hoitamiseksi" target="_blank" rel="noopener">Metsästäjäliitolta useita ehdotuksia sikaruttotilanteen hoitamiseksi</a> <span style="color:var(--muted)">— Metsästäjäliitto</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/conservation/executive-order-hunting-hertiage/" target="_blank" rel="noopener">Trump Issues Executive Order to Open 2 National Monuments to Hunting, Access More Public Land, Protect Lead Ammo</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/conservation/mike-lee-bears-ears-permanent-rollback/" target="_blank" rel="noopener">Mike Lee Moves to Block Any Future Restoration of Bears Ears National Monument, Conservation Groups Warn</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/conservation/wolf-delisting-cattle-ranchers/" target="_blank" rel="noopener">After Riling Cattle Ranchers, Trump Offers Up Wolf Delisting. Here’s What It Means</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://explorersweb.com/the-long-walk-great-tale-big-lie/" target="_blank" rel="noopener">The Long Walk: Great Tale, Big Lie</a> <span style="color:var(--muted)">— ExploresWeb</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/hunting/kentucky-velvet-buck-couple-hunt/" target="_blank" rel="noopener">Compound Bowhunter Tags 22-Point Velvet Buck Before His Wife Could Get a Shot With Her Recurve</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.jaktojagare.se/kategorier/nyheter/makten-i-jakten/" target="_blank" rel="noopener">Makten i jakten</a> <span style="color:var(--muted)">— Jakt & Jägare</span></li>
+    
+    <li><a href="https://www.jaktojagare.se/kategorier/nyheter/vapenklassiker-skruva-den-som-jones/" target="_blank" rel="noopener">VAPENKLASSIKER: Skruva den som Jones</a> <span style="color:var(--muted)">— Jakt & Jägare</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/guns/carmichels-favorite-deer-rifles/" target="_blank" rel="noopener">Jim Carmichel’s ‘Favorite’ Deer Rifles</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/fishing/fall-trout-fishing-trips/" target="_blank" rel="noopener">How to Catch Giant Trout This Fall (With Spinning Gear)</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/survival/bear-attacks-montana-bowhunter/" target="_blank" rel="noopener">Grizzly Bear Attacks Montana Bowhunter, Who Drove Himself Home Despite ‘Significant’ Injuries</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/gear/kershaw-bel-air-deal-9-17-26/" target="_blank" rel="noopener">This S-Tier, USA-Made Knife Is Back Down to its Lowest Price</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.jaktojagare.se/kategorier/nyheter/ny-rapport-samlar-25-ars-forskning-om-skandinavisk-varg/" target="_blank" rel="noopener">Ny rapport samlar 25 års forskning om skandinavisk varg</a> <span style="color:var(--muted)">— Jakt & Jägare</span></li>
+    
+    <li><a href="https://www.jaktojagare.se/kategorier/nyheter/regeringen-vill-minska-salstammarna-oppnar-for-mer-bestandsreglerande-jakt/" target="_blank" rel="noopener">Regeringen vill minska sälstammarna – öppnar för mer beståndsreglerande jakt</a> <span style="color:var(--muted)">— Jakt & Jägare</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://devblogs.microsoft.com/foundry/foundry-devpack-announcement/" target="_blank" rel="noopener">Introducing Foundry Dev Pack: One Command to Start Building</a>
-      </div>
-      
-      <div class="news-card-why">Foundry Dev Pack vaikuttaa suoraan siihen, miten nopeasti saat Microsoft Foundryn kehitysympäristön pystyyn ja millä työkaluketjulla rakennat agentteja asiakasprojekteissa.</div>
-      
-      <div class="news-card-meta">
-        
-        Microsoft Foundry Blog · 2 pv sitten ·
-        <a href="datascience-konsultointi/2026-09-16.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-  </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.politico.eu/article/germany-and-spain-go-head-to-head-in-eu-budget-fight/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Germany and Spain go head-to-head in EU budget fight</a>
-      </div>
-      
-      <div class="news-card-why">EU:n budjettineuvottelut määrittävät, kuinka paljon rahaa ohjataan turvallisuuteen, kilpailukykyyn ja jäsenmaiden nettoasemiin, mikä vaikuttaa suoraan myös Suomen neuvotteluympäristöön.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        Politico Europe · tänään ·
-        <a href="politiikka/2026-09-18.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOM1FiRUhiS0NNTE9IbnNES0hFZ0VLUmFWTWs0X1ZuUkRWZHZqSVkyTXk2YklMalhYQ2FDdG5Iem9tWS1SaUtEWHRwVDB3dGtZc0hVQTNBWFdFUkNkWVd1UENyNjhnSlpQak9DYmFMT2syajJXdDVyT2JMWFV1aS1sUG1kc1NVQ05mQ3BDTVBn?oc=5" target="_blank" rel="noopener">E.U.-Canada Ambitions Face Reality Check as Trump Bristles - The New York Times</a>
-      </div>
-      
-      <div class="news-card-why">EU:n ja Kanadan mahdollinen uusi assosiaatiokehys olisi konkreettinen muutos unionin ulkosuhteissa ja voisi vaikuttaa kauppaan, sääntely-yhteistyöhön ja siihen, miten EU asemoituu Yhdysvaltojen painostusta vastaan.</div>
-      
-      <div class="news-card-meta">
-        
-        Google News: European Commission · eilen ·
-        <a href="politiikka/2026-09-17.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="http://www.france24.com/en/europe/20260917-trump-threatens-eu-with-tariffs-over-laughable-canada-association-plan" target="_blank" rel="noopener">Trump threatens EU with tariffs over 'laughable' Canada association plan</a>
-      </div>
-      
-      <div class="news-card-why">Tämä voi suoraan muuttaa EU:n kauppapoliittista neuvotteluasemaa Yhdysvaltoihin nähden ja siten vaikuttaa myös Suomeen osana EU:n yhteistä tariffi- ja vastatoimilinjan muodostusta.</div>
-      
-      <div class="news-card-meta">
-        
-        France 24 — Europe · eilen ·
-        <a href="politiikka/2026-09-17.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.rfi.fr/en/international/20260914-finland-joins-french-nuclear-umbrella-amid-european-security-push" target="_blank" rel="noopener">Finland joins French nuclear umbrella amid European security push</a>
-      </div>
-      
-      <div class="news-card-why">Suomen liittyminen Ranskan ydinpelotteen piiriin muuttaa Euroopan turvallisuusasetelmaa ja kertoo, miten EU-maat paikkaavat Yhdysvaltain sitoutumiseen liittyvää epävarmuutta.</div>
-      
-      <div class="news-card-meta">
-        
-        RFI English · 3 pv sitten ·
-        <a href="politiikka/2026-09-15.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-  </ul>
-  
-</section>
-
-
-
+</details>
 
 
   </main>
