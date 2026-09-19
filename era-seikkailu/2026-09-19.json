@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-19",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään metsästyksen ja eräilyn maailmassa uutisoitiin 6.5 Creedmoor Plus Peak -ammun uudesta soveltuvuudesta hirvenmetsästykseen sekä tapauksesta, jossa metsästäjää syytettiin lain rikkomisesta sen jälkeen, kun karhu oli syönyt hänen saaliinsa. Lisäksi esiteltiin vuoden 2026 parhaita jousien kärkiä ja kiikareita, sekä käsiteltiin kyselyä Jägarnas Riksförbundin jäsenille.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Uuden 6.5 Creedmoor Plus Peak -ammuksen kerrotaan olevan ihanteellinen valinta hirvenmetsästykseen, sillä se tarjoaa painavamman luodin ja korkeamman lähtönopeuden. <a href=\"https://www.outdoorlife.com/guns/first-elk-65-plus-peak/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Wyomingissa jousimetsästäjää syytettiin, kun hän jätti peuran ruhon karhun häirittyä saalista. Metsästäjä luuli toimineensa lain mukaisesti vetäytyessään tilanteesta. <a href=\"https://www.outdoorlife.com/hunting/hunter-charged-after-bear-fed-elk-carcass/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ennen peuranmetsästyskautta on testattu vuoden 2026 parhaat jousen kärjet tarkkuuden, kestävyyden ja tunkeutuvuuden osalta. <a href=\"https://www.outdoorlife.com/gear/best-broadheads-for-deer/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Syyskuun valtamerisoudun katsauksessa sää pakotti yhden soutumatkalaisen muuttamaan määränpäätään, ja rikkoutunut peräsin johti toisen miehistön pelastushälytykseen. <a href=\"https://explorersweb.com/ocean-rowing-roundup-for-september-4/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Vuoden 2026 parhaiden kiikareiden testissä mukana oli kompakteista malleista uusimpiin stabiloituihin optiikoihin. <a href=\"https://www.outdoorlife.com/gear/best-binoculars-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kokeneet jousimetsästäjät ovat tutkineet hidastettuja videoita valkohäntäkauriista, ja jakavat näkemyksiään siitä, hypääkö kauris jousen jänteen äänen pelottelemana. <a href=\"https://www.outdoorlife.com/hunting/deer-jumping-the-string/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Jägarnas Riksförbund kerää jäsentensä näkemyksiä suurella jäsenkyselyllä vuonna 2026 kehittääkseen toimintaansa. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/jrf-tar-reda-pa-vad-medlemmarna-tycker/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 7,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1985,
+  "output_tokens": 644,
+  "sources": [
+    {
+      "title": "I Shot the First Elk With the New 6.5 Creedmoor Plus Peak Ammo. It’s an Undeniable Elk Hunting Cartridge",
+      "url": "https://www.outdoorlife.com/guns/first-elk-65-plus-peak/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "This Bowhunter Reluctantly Abandoned His Elk Meat After a Grizzly Bear Fed on It. Then Game and Fish Charged Him",
+      "url": "https://www.outdoorlife.com/hunting/hunter-charged-after-bear-fed-elk-carcass/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Broadheads for Deer of 2026",
+      "url": "https://www.outdoorlife.com/gear/best-broadheads-for-deer/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Approaching Cyclone Triggers Rush to Summit on Manaslu",
+      "url": "https://explorersweb.com/approaching-cyclone-triggers-rush-to-summit-on-manaslu/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Ocean Rowing Roundup for September",
+      "url": "https://explorersweb.com/ocean-rowing-roundup-for-september-4/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The Best Binoculars of 2026, Tested and Reviewed",
+      "url": "https://www.outdoorlife.com/gear/best-binoculars-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Do Deer Really ‘Jump the String?’ Here’s What All Bowhunters Should Know",
+      "url": "https://www.outdoorlife.com/hunting/deer-jumping-the-string/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "JRF tar reda på vad medlemmarna tycker",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/jrf-tar-reda-pa-vad-medlemmarna-tycker/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": []
+}
