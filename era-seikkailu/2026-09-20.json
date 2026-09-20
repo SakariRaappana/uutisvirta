@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-20",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään tarjolla on kaksi lyhyttä mainintaa, jotka käsittelevät valkohäntäpeuran houkuttelutekniikoita tieteellisen tutkimuksen pohjalta sekä edullisia ja laadukkaita metsästyspuukkoja.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>Tänään ei ole käsiteltyjä syväanalyysiä vaativia uutisia.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Outdoor Life on julkaissut oppaan valkohäntäpeuran houkutteluun tieteellisen tutkimuksen pohjalta. Artikkeli tarjoaa strategioita, joiden avulla voi houkutella isompia peuroja metsästystilanteessa. <a href=\"https://www.outdoorlife.com/hunting/how-to-rattle-deer-hunting/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life esittelee edullisia metsästyspuukkoja, jotka maksavat alle sata dollaria. Monet näistä puukoista ovat valmistettu Yhdysvalloissa ja ovat asiantuntijoiden suosittelemia. <a href=\"https://www.outdoorlife.com/gear/best-budget-hunting-knives/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1496,
+  "output_tokens": 258,
+  "sources": [
+    {
+      "title": "How to Rattle in a Buck, Based on Whitetail Deer Research",
+      "url": "https://www.outdoorlife.com/hunting/how-to-rattle-deer-hunting/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Langtang Flood Update: 1,453 Dead, 6,664 Missing",
+      "url": "https://explorersweb.com/langtang-flood-update-1453-dead-6664-missing/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The Budget Hunting Knives We Actually Use and Recommend",
+      "url": "https://www.outdoorlife.com/gear/best-budget-hunting-knives/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
