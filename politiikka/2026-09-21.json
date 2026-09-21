@@ -1,0 +1,213 @@
+{
+  "date": "2026-09-21",
+  "stream_slug": "politiikka",
+  "stream_name": "Politiikka",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa on keskitytty poliittisiin muutoksiin Saksassa, joissa CDU kärsi tappion osavaltioiden vaaleissa, ja AfD puolestaan teki merkittäviä voittoja. Lisäksi keskusteluja pidetään kansainvälisistä suhteista, erityisesti Yhdysvaltojen, Ranskan ja Kanadan välillä, kun puolestaan Venäjän ja Ukrainan väliset konfliktit jatkuvat.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p><em>Ei tärkeäksi luokiteltuja uutisia tänään.</em></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Ivan Kanapathy, vahva Kiina-kriitikko, on saanut vaikutusvaltaa Trumpin hallinnon sovittelevan Kiinan-politiikan aikana. <a href=\"https://www.politico.com/news/2026/09/21/trumps-taiwan-retreat-tests-his-chief-china-hawks-influence-01085915?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication\">Lue lisää</a></p>\n</li>\n<li>\n<p>Saksalaiset autovalmistajat ehdottavat työviikon pidentämistä 40 tuntiin parantaakseen kilpailukykyä, mikä uhkaa nykyistä 35-tuntista työviikkoa ja kohtaa ammattiyhdistysten vastustuksen. <a href=\"https://www.dw.com/en/germany-s-car-crisis-can-the-35-hour-workweek-survive/a-79307488?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></p>\n</li>\n<li>\n<p>Yhdysvallat ehdotti tekoälyyn liittyvää turvamekanismia osana kaupankäyntiin ja AI:hin keskittyneitä onnistuneita keskusteluja Kiinan kanssa. <a href=\"https://www.dw.com/en/us-proposes-ai-safety-mechanism-in-talks-with-china/a-79350248?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kaksi saksalaista osavaltiota kärsi CDU:n tappion kanssa, jota liittokansleri Friedrich Merz kuvasi katastrofiksi. <a href=\"https://www.france24.com/en/europe/20260921-five-takeaways-from-germany-s-regional-elections-after-far-right-gains\">Lue lisää</a></p>\n</li>\n<li>\n<p>Macron tapaa Trumpin New Yorkissa YK:n yleiskokouksen yhteydessä. <a href=\"https://www.rfi.fr/en/international/20260921-macron-to-meet-trump-in-new-york-ahead-of-un-general-assembly\">Lue lisää</a></p>\n</li>\n<li>\n<p>Merzin asema Saksassa on vaakalaudalla, kun CDU kärsi tappion alueellisissa vaaleissa. <a href=\"https://www.politico.eu/podcast/brussels-playbook-podcast/merzs-election-nightmare-continues/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication\">Lue lisää</a></p>\n</li>\n<li>\n<p>Euroopan tekstiilit ovat osa kiertotalouden agendaa, ja EU:n tulee tarttua tilaisuuteen muuttaa tekstiilijätteet strategiseksi voimavaraksi. <a href=\"https://www.politico.eu/sponsored-content/from-waste-to-wealth-europes-textile-opportunity/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication\">Lue lisää</a></p>\n</li>\n<li>\n<p>Venäjä ilmoitti iskeneensä useisiin kohteisiin Ukrainassa, mukaan lukien Izmailin satama ja logistiikkakeskus. <a href=\"https://www.france24.com/en/europe/20260921-live-united-russia-dominates-in-elections-moscow-vows-revenge-after-massive-drone-attack\">Lue lisää</a></p>\n</li>\n<li>\n<p>Maahanmuuttopoliittinen keskustelu on käynnissä, sillä far-right AfD jatkaa voittojaan, mutta kohtaa hallitusvaihtoehtojen puutteen. <a href=\"https://www.dw.com/en/afd-makes-gains-in-state-elections-but-has-no-government-options/a-79348308?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></p>\n</li>\n<li>\n<p>Venäjän puolue voitti parlamenttivaaleissa ennätysmäärän paikkoja, mikä auttaa Putinia hallitsemaan edelleen Ukraina-konfliktia. <a href=\"https://www.france24.com/en/europe/20260920-putin-s-party-set-to-retain-power-after-russia-vote-hit-by-cyberattacks-drones\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ukrainan hyökkäys Moskovaan yli 1 000 dronella merkitsi suurinta iskua toistaiseksi. <a href=\"https://www.france24.com/en/ukraine-fires-over-1-000-drones-at-russia-in-largest-ever-attack-on-moscow\">Lue lisää</a></p>\n</li>\n<li>\n<p>Saksan EV-myyntien nousun myötä verotulojen laskua energia-alalla pyritään korvaamaan uusilla rahoitusmalleilla. <a href=\"https://www.dw.com/en/germany-faces-energy-tax-losses-as-ev-sales-rise/a-79320422?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ranska on aloittanut tutkinnan PSG:n presidentti Nasser Al-Khelaifista mahdollisesta eturistiriidasta. <a href=\"https://www.rfi.fr/en/sports/20260920-psg-boss-al-khelaifi-under-investigation-in-france-for-conflict-of-interest\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 24,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 3555,
+  "output_tokens": 1172,
+  "sources": [
+    {
+      "title": "Russia: Putin party retains majority in controlled parliamentary vote",
+      "url": "https://www.dw.com/en/russia-putin-party-retains-majority-in-controlled-parliamentary-vote/a-79353231?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Seven of Ethiopia's armed groups announce anti-government alliance",
+      "url": "https://www.rfi.fr/en/africa/20260921-seven-of-ethiopia-s-armed-groups-announce-anti-government-alliance-tigray",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "French cycling star Seixas claims bronze in world championships time-trial",
+      "url": "https://www.rfi.fr/en/sports/20260921-french-cycling-star-seixas-claims-bronze-in-world-championships-time-trial",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Weather tracker: Japanese islands brace for Dujuan to become a typhoon again",
+      "url": "https://www.theguardian.com/environment/2026/sep/21/weather-tracker-japan-typhoon-dujuan",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Germany news: Trial starts of ex-Transport Minister Scheuer",
+      "url": "https://www.dw.com/en/germany-news-trial-starts-of-ex-transport-minister-scheuer/live-79351160?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Trump’s Taiwan retreat tests his chief China hawk’s influence",
+      "url": "https://www.politico.com/news/2026/09/21/trumps-taiwan-retreat-tests-his-chief-china-hawks-influence-01085915?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Germany's car crisis: Can the 35-hour workweek survive?",
+      "url": "https://www.dw.com/en/germany-s-car-crisis-can-the-35-hour-workweek-survive/a-79307488?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "US proposes AI safety mechanism in talks with China",
+      "url": "https://www.dw.com/en/us-proposes-ai-safety-mechanism-in-talks-with-china/a-79350248?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "India news: India's medal tally at Asian games rises to six",
+      "url": "https://www.dw.com/en/india-news-india-s-medal-tally-at-asian-games-rises-to-six/live-79349941?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "How can leaders on the ropes bounce back?",
+      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/how-can-leaders-on-the-ropes-bounce-back/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Genesio rules out resignation after PSG add to Marseille's woes in Ligue 1",
+      "url": "https://www.rfi.fr/en/sports/20260921-genesio-rules-out-resignation-after-psg-add-to-marseille-s-woes-in-ligue-1",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Five takeaways from Germany's regional elections after far-right gains",
+      "url": "https://www.france24.com/en/europe/20260921-five-takeaways-from-germany-s-regional-elections-after-far-right-gains",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Macron to meet Trump in New York ahead of UN General Assembly",
+      "url": "https://www.rfi.fr/en/international/20260921-macron-to-meet-trump-in-new-york-ahead-of-un-general-assembly",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Japan: Typhoon Dujuan sparks flood, landslide warnings",
+      "url": "https://www.dw.com/en/japan-typhoon-dujuan-sparks-flood-landslide-warnings/a-79349957?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Forbidden Stories' Deportation Project: exiled to Africa by the US",
+      "url": "https://www.rfi.fr/en/africa/20260921-forbidden-stories-deportation-project-exiled-to-africa-by-the-us",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Banished to alien lands: Trump’s secret deportation deals",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Merz’s election nightmare continues",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/merzs-election-nightmare-continues/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "4,9 Prozent: Der Absturz von Merz’ CDU",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/49-prozent-der-absturz-von-merz-cdu/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "From waste to wealth: Europe’s textile opportunity",
+      "url": "https://www.politico.eu/sponsored-content/from-waste-to-wealth-europes-textile-opportunity/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Live: Russia says it hit Ukrainian cargo vessels, Izmail port and logistics centre",
+      "url": "https://www.france24.com/en/europe/20260921-live-united-russia-dominates-in-elections-moscow-vows-revenge-after-massive-drone-attack",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Why the far right lost: 11 lessons for Europe from Sweden’s election",
+      "url": "https://www.politico.eu/article/why-the-far-right-failed-11-lessons-for-europe-from-swedens-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Iran closes language center in Tehran, France vows response",
+      "url": "https://www.dw.com/en/iran-closes-language-center-in-tehran-france-vows-response/a-79348984?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Macron and Carney announce closer France-Canada ties amid Trump tensions",
+      "url": "https://www.theguardian.com/world/2026/sep/21/france-canada-relations-eu-europe-macron-carney",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Thousands march in France against 'licence to kill' draft law",
+      "url": "https://www.rfi.fr/en/france/20260921-thousands-march-in-france-against-licence-to-kill-draft-law",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Russia's elections had few surprises - but how the Kremlin uses the results will be crucial",
+      "url": "https://www.bbc.co.uk/news/articles/cx4gqv239043o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC News — World"
+    },
+    {
+      "title": "Canada, France agree to closer ties in defense, economy",
+      "url": "https://www.dw.com/en/canada-france-agree-to-closer-ties-in-defense-economy/a-79348843?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "German state elections deal a blow to Chancellor Friedrich Merz",
+      "url": "https://www.dw.com/en/german-state-elections-deal-a-blow-to-chancellor-friedrich-merz/a-79348585?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "More than a dozen arrested in connection with 2021 assassination of Haitian president",
+      "url": "https://www.theguardian.com/world/2026/sep/20/more-than-a-dozen-arrested-in-connection-with-assassination-of-haitian-president",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Russia's ruling party on track to win election after Ukraine's drone attacks on Moscow",
+      "url": "https://www.france24.com/en/europe/20260920-russia-s-ruling-party-on-track-to-win-election-after-ukraine-s-drone-attacks-on-moscow",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "AfD makes gains in state elections but has no government options",
+      "url": "https://www.dw.com/en/afd-makes-gains-in-state-elections-but-has-no-government-options/a-79348308?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Germany's Merz vows to press on with reforms despite state election defeat",
+      "url": "https://www.rfi.fr/en/international/20260920-germany-s-merz-vows-to-press-on-with-reforms-despite-state-election-defeat",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Exit polls show 'disaster' for Merz' CDU party in two state elections",
+      "url": "https://www.france24.com/en/exit-polls-show-disaster-for-merz-cdu-party-in-two-state-elections",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Germany’s Merz admits ‘disaster’ in state elections, vows to press ahead with reforms",
+      "url": "https://www.france24.com/en/europe/20260920-germany-s-far-right-afd-makes-strong-gains-in-two-state-elections",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "AfD threatens fresh blow to Merz: Two German states hold key vote",
+      "url": "https://www.france24.com/en/afd-threatens-fresh-blow-to-merz-two-german-states-hold-key-vote",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Putin party wins record number of parliament seats in first vote since 2022 invasion of Ukraine",
+      "url": "https://www.france24.com/en/europe/20260920-putin-s-party-set-to-retain-power-after-russia-vote-hit-by-cyberattacks-drones",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Ukraine fires over 1,000 drones at Russia in \"largest ever\" attack on Moscow",
+      "url": "https://www.france24.com/en/ukraine-fires-over-1-000-drones-at-russia-in-largest-ever-attack-on-moscow",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "‘It’s like losing a member of the family’: Bayeux bereft without its tapestry",
+      "url": "https://www.rfi.fr/en/france/20260920-its-like-losing-a-member-of-the-family-bayeux-bereft-without-its-tapestry",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Germany faces energy tax losses as EV sales rise",
+      "url": "https://www.dw.com/en/germany-faces-energy-tax-losses-as-ev-sales-rise/a-79320422?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Peter Thiel: Power, Palantir, and the antichrist",
+      "url": "https://www.dw.com/en/peter-thiel-power-palantir-and-the-antichrist/a-79313426?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "PSG boss Al-Khelaifi under investigation in France for conflict of interest",
+      "url": "https://www.rfi.fr/en/sports/20260920-psg-boss-al-khelaifi-under-investigation-in-france-for-conflict-of-interest",
+      "source_name": "RFI English"
+    }
+  ],
+  "homepage_candidates": []
+}

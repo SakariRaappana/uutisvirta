@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-21",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään erämaailmassa ei tullut esiin merkittäviä sääntömuutoksia tai teknologia-uutisia, mutta mielenkiintoinen selviytymistarina herätti huomiota, jossa metsästäjä puolustautui grizzly-karhua vastaan käyttäen veistä ja paljaita nyrkkejään.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>(Tänään ei ollut yhtään tärkeää uutista)</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Metsästäjä taisteli puolustautuakseen hyökkäävää grizzly-karhua vastaan. Kun kivääri ei ollut käsillä, veitsi ja paljaat nyrkit osoittautuivat hengenpelastajiksi. <a href=\"https://www.outdoorlife.com/survival/fought-off-grizzly-bear-knife/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1427,
+  "output_tokens": 189,
+  "sources": [
+    {
+      "title": "Old-School Fall Muskie Tactics. How to Catch Giants Without FFS",
+      "url": "https://www.outdoorlife.com/fishing/old-school-fall-muskie-tactics/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "I Fought Off a Grizzly Bear With My Knife and Knuckles",
+      "url": "https://www.outdoorlife.com/survival/fought-off-grizzly-bear-knife/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "11 Giant Whitetail Bucks That Still Have Mysterious Backstories",
+      "url": "https://www.outdoorlife.com/hunting/mystery-whitetail-bucks/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
