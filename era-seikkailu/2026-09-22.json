@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-22",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään on uutisoitu dramaattinen kertomus inuiittimetsästäjän selviytymisestä lumimyrskyssä Kanadan arktisilla alueilla. Lisäksi on esitelty uusimpia välineitä jousimetsästykseen sekä ehdotettu korotuksia vargien minimitasolle Ruotsissa.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Kanadassa Nunavutissa karibumetsästäjä kohtasi hengenvaarallisen lumimyrskyn, joka muutti hänen päiväretkensä hengenvaaralliseksi seikkailuksi. Viiden päivän selviytymistaistelun jälkeen hän onnistui palaamaan hengissä. <a href=\"https://www.outdoorlife.com/survival/caribou-hunter-caught-in-blizzard/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life on testannut uusimpia jousimetsästyksen varusteita, mukaan lukien optiikkaa ja jousia. Tämä voi kiinnostaa metsästäjiä, jotka haluavat päivittää kalustoaan ajankohtaisilla ratkaisuilla. <a href=\"https://www.outdoorlife.com/gear/best-bowhunting-gear/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ruotsin mellersta ja eteläiset rovdjursförvaltning-alueet ovat ehdottaneet uusien minimitasojen nostamista vargikannalle seuraamaan hallituksen päätöstä, joka nosti kansallista referenssiarvoa 170:stä 220:een. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/lansstyrelser-foreslar-hojda-miniminivaer-for-varg/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1679,
+  "output_tokens": 372,
+  "sources": [
+    {
+      "title": "He Died for 5 Days, Then Came Back. Here’s How This Caribou Hunter Escaped an Arctic Blizzard",
+      "url": "https://www.outdoorlife.com/survival/caribou-hunter-caught-in-blizzard/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Bowhunting Gear: We Tested the Latest Optics, Bows, Archery Gear, and Hunting Gear",
+      "url": "https://www.outdoorlife.com/gear/best-bowhunting-gear/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Revisiting the Buffalo Slaughter, One of the Darkest Chapters in America’s Hunting History",
+      "url": "https://www.outdoorlife.com/conservation/buffalo-slaughter-archive-feature/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "12-Year-Old Girl Sets Muskie Record in Wisconsin",
+      "url": "https://www.outdoorlife.com/fishing/igfa-junior-record-muskie/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Länsstyrelser föreslår höjda miniminivåer för varg",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/lansstyrelser-foreslar-hojda-miniminivaer-for-varg/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Maryland Crossbow Couple Doubles on Big Bucks the Same Evening",
+      "url": "https://www.outdoorlife.com/hunting/maryland-crossbow-couple-doubles-on-big-bucks-the-same-evening/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "‘Nets Are for Fishing.’ Here’s Why Many Hunters Don’t Want to Have Their Trophy Animals Officially Scored",
+      "url": "https://www.outdoorlife.com/hunting/scoring-big-game-animals/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
