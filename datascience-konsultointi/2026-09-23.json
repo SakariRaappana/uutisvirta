@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-23",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Microsoft Agent Framework julkaisi uuden ominaisuuden, joka keskittyy agenttien eristämiseen Foundry-alustalla. Smartstream ja Ammonix esittelivät myös uusia ratkaisujaan tarjoten edistyneitä tekoälypohjaisia sovelluksia finanssisektorille ja korkean panoksen erikoistuneille agenteille.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Foundry hosted agent isolation with Microsoft Agent Framework</h3>\n<p>Microsoft on ottanut merkittävän askeleen agenttien hallinnassa julkaisemalla uuden Foundry-hosted agenttien eristämisominaisuuden Microsoft Agent Framework -alustalla. Tämä parannus mahdollistaa agenttien eristämisen Foundry-hostatuissa ympäristöissä, mikä tarjoaa parantunutta tietoturvaa ja suorituskykyä. Agenttien eristäminen tehdään Agent Session Pooling -tekniikalla, joka lisää tehokkuutta ja vähentää ristiriitoja yhteisissä ympäristöissä. Tämä on erityisen tärkeää tiimeille, jotka hallinnoivat useita samanaikaisia agentteja saman alustan alle. Uudistuksen myötä kehittäjät voivat yksinkertaisesti määritellä eristyksen tason agenttien välillä, mikä auttaa ennakoimaan mahdollisia tietoturvaongelmia ja parantamaan kokonaisvaltaista toimivuutta. <strong><a href=\"https://devblogs.microsoft.com/agent-framework/foundry-hosted-agent-isolation-with-microsoft-agent-framework/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Smartstream on ilmoittanut uuden version Smart Reconciliations Premium -ohjelmistostaan, joka hyödyntää agenttista AI-teknologiaa. Uusi versio keskittyy GRIT-periaatteeseen, joka korostaa hallittavuutta, sijoitetun pääoman tuottoa, integraatiota ja luottamusta. <a href=\"https://news.google.com/rss/articles/CBMioAJBVV95cUxPa0huc2h6NEZTNGZyZTFJQ0d5NWN1RlMxdkZmLVVYNmQ1UVlveEFZYUNmS0Z1REMtTXVNV2h6OGFlSjREVGRUYzRWbVNoLU01RVM3eXItRm1oa0VhTk8yODdQRzBjWDI5M1V4MjRUUEVFWGNHaTNxSkRELURKTmVCTTFqc0xLMU9xbzdjTWI2czJKZnROcGwwb0VRei1BS2ZLc2pWZmo1NVpfTW9ZYTBhSmtoRGxZRTVWbVRva2o5amFJcmNGd3NsV3lIbkh3VjBlVnZKalNmVWNURG5UdjNSa3ladnpDU1d3Z1FNNDhSYjRqeHBrUDJvdmtmbnRXRGYwUWJ3Q0hiTVNWbEpGelVnOXJLVWhIR1ItWGtoWC1PRHE?oc=5\">Lue lisää</a></li>\n<li>Ammonix on lanseerannut uuden tekoälyarkkitehtuurin, joka on suunniteltu korkean panoksen erikoistuneille agenteille. Uudet mallit tarjoavat parempaa suorituskykyä ja ovat edullisempia kuin aiemmat huippumallit. <a href=\"https://news.google.com/rss/articles/CBMipwJBVV95cUxPMk5aNEU4SjB0WkkwdWtjUE1BclpFZ3hJS1U0aUNUMjl6QjRxaTRrVW51Zl9jQXJkWU1KR1pqa3I3bUJaN2ZXNEltTmphUDBoX2pTdEZzM2pydkNscHpZRm5HVHRsVk1vSzZUWlUtbDZxaVBtOFRUMG9oRVU2dTNuU0p2LW10d1AydlJ1ZDNRQzdiM1VNYmJiS3hMNEdldnd4Q21URUZvS3pyUUtmakVqaF9TMVNUSF9Cc1FISzJuVjdWbUxmSTVnZUg0eTNjeno4T2RGejNwWGt0SEtLQzJHalAzVkxFOS1FVHp2M2RTMWd6SUs5MmktTW5LUFNidTlfLU5fOXRUNTRyZEdTX1VleTNkVmFDRDJOS1JscDZ5b0VaMmtoeHVJ?oc=5\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2449,
+  "output_tokens": 1055,
+  "sources": [
+    {
+      "title": "Smart glasses are already causing havoc in India",
+      "url": "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Smartstream unveils new version of Smart Reconciliations Premium – agentic AI reconciliations with GRIT – Governance, ROI, Integration and Trust - businesswire.com",
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPa0huc2h6NEZTNGZyZTFJQ0d5NWN1RlMxdkZmLVVYNmQ1UVlveEFZYUNmS0Z1REMtTXVNV2h6OGFlSjREVGRUYzRWbVNoLU01RVM3eXItRm1oa0VhTk8yODdQRzBjWDI5M1V4MjRUUEVFWGNHaTNxSkRELURKTmVCTTFqc0xLMU9xbzdjTWI2czJKZnROcGwwb0VRei1BS2ZLc2pWZmo1NVpfTW9ZYTBhSmtoRGxZRTVWbVRva2o5amFJcmNGd3NsV3lIbkh3VjBlVnZKalNmVWNURG5UdjNSa3ladnpDU1d3Z1FNNDhSYjRqeHBrUDJvdmtmbnRXRGYwUWJ3Q0hiTVNWbEpGelVnOXJLVWhIR1ItWGtoWC1PRHE?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Ammonix Launches a New AI Architecture for High-Stakes Specialist Agents That Outperform Frontier Models at a Lower Cost | Corporate - EQS News",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPMk5aNEU4SjB0WkkwdWtjUE1BclpFZ3hJS1U0aUNUMjl6QjRxaTRrVW51Zl9jQXJkWU1KR1pqa3I3bUJaN2ZXNEltTmphUDBoX2pTdEZzM2pydkNscHpZRm5HVHRsVk1vSzZUWlUtbDZxaVBtOFRUMG9oRVU2dTNuU0p2LW10d1AydlJ1ZDNRQzdiM1VNYmJiS3hMNEdldnd4Q21URUZvS3pyUUtmakVqaF9TMVNUSF9Cc1FISzJuVjdWbUxmSTVnZUg0eTNjeno4T2RGejNwWGt0SEtLQzJHalAzVkxFOS1FVHp2M2RTMWd6SUs5MmktTW5LUFNidTlfLU5fOXRUNTRyZEdTX1VleTNkVmFDRDJOS1JscDZ5b0VaMmtoeHVJ?oc=5",
+      "source_name": "Google News: AI agents architecture"
+    },
+    {
+      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
+      "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Don’t be fooled by this summer of AI hype",
+      "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Foundry hosted agent isolation with Microsoft Agent Framework",
+      "url": "https://devblogs.microsoft.com/agent-framework/foundry-hosted-agent-isolation-with-microsoft-agent-framework/",
+      "source_name": "Microsoft Agent Framework Blog"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Foundry hosted agent isolation with Microsoft Agent Framework",
+      "source_name": "Microsoft Agent Framework Blog",
+      "source_url": "https://devblogs.microsoft.com/agent-framework/foundry-hosted-agent-isolation-with-microsoft-agent-framework/",
+      "published_at": "2026-09-22T10:14:52+00:00",
+      "summary": "Foundry hosted agent isolation exposes two independent controls. User isolation identifies whose data may be used. At the same time, Foundry hosted session isolation identifies where code and files continue to live. For each control, Foundry can resolve the value or the application can provide it. T",
+      "why_relevant": "Foundryn hosted agent isolation on suoraan arkkitehtuuritasoinen muutos, joka vaikuttaa siihen miten rakennat ja eristät yritysasiakkaiden agentteja turvallisesti Microsoftin ekosysteemissä.",
+      "homepage_eligible": true,
+      "homepage_score": 88,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "microsoft-agent-framework-foundry-hosted-agent-isolation",
+      "category": "tärkea"
+    }
+  ]
+}

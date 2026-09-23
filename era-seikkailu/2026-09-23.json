@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-23",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään on saatu tietoa vuoden 2026 neljännestä ulkoiluteosta, joka rohkaisee kansainvälisiä nuoria tutustumaan suomalaiseen luontoon. Lisäksi uutisoitiin Amerikan julkisen maan rahoituksen kriisistä, tarjouskampanjoista jousimetsästyksen varusteille ja metsästäjien avuksi kehitetyistä teknologioista. Myös ruotsalaisessa Jämtlandissa kohdatut rovdjurhyökkäykset jaktiikoirille nostavat tunteet pintaan.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Suomen Ladun jäsenyhdistys Adventure Time on nimetty vuoden 2026 neljänneksi ulkoiluteokseksi. Toiminta keskittyy madaltamaan kynnystä kansainvälisten nuorten pääsemiseksi Suomen luontoon. <a href=\"https://www.suomenlatu.fi/vuoden-2026-neljas-ulkoiluteko-myonnetty-adventure-time-rohkaisee-seikkailulle-suomalaiseen-luontoon/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Amerikan julkisen maan rahoitus on kriisissä, kun keskeisten virastojen budjetit ovat inflaation jälkeen pienemmät kuin vuonna 2002. Tilanne vaarantaa virastojen perustoimintojen toteuttamisen. <a href=\"https://www.outdoorlife.com/conservation/federal-public-land-staff-budget-cuts/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Jousimetsästystarvikkeiden, kuten Vortexin ja Zeissin optiikoiden sekä Darton jousen, hinnoissa on nyt uskomattomia tarjouksia. Erikoishinnat koskevat myös Moutlrie riistakameroita ja muita tarvikkeita. <a href=\"https://www.outdoorlife.com/gear/deals-on-bowhunting-essentials/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kaksi cowboyta kohtasivat vaarallisen silvertip-karhun, joka jahtasi heidän karjaansa. Tilanne johti yhteen vakaviin seurauksiin, sillä ainoastaan toinen heistä palasi metsästysretkeltä. <a href=\"https://www.outdoorlife.com/hunting/cowboys-track-grizzly-bear/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Pennsylvanialainen metsästäjä on mahdollisesti rikkonut osavaltion ennätyksen 428-tuumaisella hirvellä. Metsästäjän mukaan alueella on mahdollisesti vielä suurempia eläimiä. <a href=\"https://www.outdoorlife.com/hunting/pennsylvania-record-elk/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Amerikkalaisten klassikkodeer-rifleiden nostalginen charmio näkyy sekä tuoksuu menneiden aikojen leiritunnelmissa, kuten legendaarinen toimittaja Jim Carmichel kuvailee. <a href=\"https://www.outdoorlife.com/guns/classic-deer-rifles-carmichel/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Keinopesien lahjoitukset tukevat vesilintujen pesinnän onnistumista Uudessakaupungissa. Lahjoituksella pyritään parantamaan alueen lintukantojen elinolosuhteita. <a href=\"https://metsastajaliitto.fi/uutiset/keinopesalahjoitus-tukemaan-vesilintujen-pesinnan-onnistumista-uudessakaupungissa\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ruotsin Jämtlandissa kaksi jaktiikoiraa on joutunut rovdjurhyökkäyksen kohteeksi. Lääninhallitus epäilee syylliseksi sutta, ja tapaukset ovat saaneet metsästäjät huolestumaan. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/tva-jakthundar-angripna-av-rovdjur-i-jamtland/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Metsästäjät hyödyntävät kehittyvää teknologiaa, kuten AI-pohjaisia sovelluksia, mikä parantaa saaliiden arviointia ja metsästyskauden tehokkuutta. Kehitys tuo uusia mahdollisuuksia erityisesti vuoristossa metsästäville. <a href=\"https://www.rokslide.com/how-ai-is-helping-hunters-score-bucks-faster-and-smarter/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 9,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2339,
+  "output_tokens": 945,
+  "sources": [
+    {
+      "title": "Vuoden 2026 neljäs ulkoiluteko myönnetty: Adventure Time rohkaisee seikkailulle suomalaiseen luontoon",
+      "url": "https://www.suomenlatu.fi/vuoden-2026-neljas-ulkoiluteko-myonnetty-adventure-time-rohkaisee-seikkailulle-suomalaiseen-luontoon/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Inside the Long and Deliberate Collapse of America’s Public-Land Funding",
+      "url": "https://www.outdoorlife.com/conservation/federal-public-land-staff-budget-cuts/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "16 Incredible Deals on Bowhunting Essentials: Optics, Bows, Archery Gear, and Hunting Gear",
+      "url": "https://www.outdoorlife.com/gear/deals-on-bowhunting-essentials/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Two Cowboys Tracked Down a Silvertip Grizzly That Was Hunting Their Cattle — But Only One Returned",
+      "url": "https://www.outdoorlife.com/hunting/cowboys-track-grizzly-bear/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "‘This Bull Was Just Incredible.’ Pennsylvania Hunter’s 428-Inch Elk Is Likely the New State Record",
+      "url": "https://www.outdoorlife.com/hunting/pennsylvania-record-elk/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "This Is the Easiest Way to Tan a Deer Hide",
+      "url": "https://www.outdoorlife.com/hunting/this-is-the-easiest-way-to-tan-a-deer-hide/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "America’s Classic Deer Rifles, According to Jim Carmichel",
+      "url": "https://www.outdoorlife.com/guns/classic-deer-rifles-carmichel/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How AI Is Helping Hunters Score Bucks Faster and Smarter",
+      "url": "https://www.rokslide.com/how-ai-is-helping-hunters-score-bucks-faster-and-smarter/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Keinopesälahjoitus tukemaan vesilintujen pesinnän onnistumista Uudessakaupungissa",
+      "url": "https://metsastajaliitto.fi/uutiset/keinopesalahjoitus-tukemaan-vesilintujen-pesinnan-onnistumista-uudessakaupungissa",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "Två jakthundar angripna av rovdjur i Jämtland",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/tva-jakthundar-angripna-av-rovdjur-i-jamtland/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": []
+}
