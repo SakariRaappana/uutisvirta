@@ -1,0 +1,243 @@
+{
+  "date": "2026-09-24",
+  "stream_slug": "politiikka",
+  "stream_name": "Politiikka",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään EU on herättänyt huolen Brysselissä kiinalaisten hybridiautojen myyntimäärien nopeasta kasvusta alueella. Lisäksi EU on päättänyt poistaa kahden venäläisen miljardöörin nimet pakotelistaltaan, samalla kun se on uusinut muiden Venäjään liittyvien henkilöiden ja yritysten pakotteet seuraaviksi kolmeksi vuodeksi.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Kiinalaisten hybridiautojen myynti kasvaa EU:ssa, herättäen huolen Brysselissä</h3>\n<p>Brysselissä on ilmaistu huolta kiinalaisten hybridiautojen nopeasti nousevasta myynnistä EU:ssa. Tämä kehitys voi uhata Euroopan autonvalmistajien kilpailuasemaa, sillä kiinalaiset autovalmistajat hyödyntävät suuria tuotantomääriään ja alhaisempia kustannuksia hintakilpailussa. EU:n komissio pohtii mahdollisia toimia, joilla tasapuolisia kilpailuolosuhteita voisi ylläpitää, ehkä jopa harkiten protektionistisia toimenpiteitä. Tämän tilanteen kehittymistä seurataan tarkasti, sillä se saattaa vaikuttaa unionin ilmastotavoitteisiin ja taloudelliseen omavaraisuuteen. <strong><a href=\"https://www.theguardian.com/business/2026/sep/24/eu-sales-chinese-hybrid-cars-rocket\">Lue alkuperäinen →</a></strong></p>\n<h3>Eurooppa poistaa pakotteet kahdelta venäläismiljardööriltä</h3>\n<p>Euroopan unioni on päättänyt poistaa venäläiset miljardöörit Alisher Usmanovin ja Mikhail Fridmanin pakotelistalta, mutta samalla se on uusinut seuraaviksi kolmeksi vuodeksi lähes 3 000 muun Venäjään kytkeytyvän henkilön ja yrityksen rajoitukset liittyen Ukrainan sotaan. Päätös syntyi vaikeiden neuvottelujen jäljiltä, sillä EU:n sanktiot vaativat kaikkien 27 jäsenvaltion yksimielisen hyväksynnän. Tämä päätös herättää kysymyksiä siitä, millaisiin kompromisseihin unionin sisällä joudutaan kansainvälisessä diplomatiassa. <strong><a href=\"https://www.france24.com/en/europe-lifts-sanctions-against-two-russians\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>EU on kehottanut &quot;välittömään jännitteiden lievennykseen&quot; Tigrayn kapinallisten ja Etiopian joukkojen välisissä yhteenotoissa. <a href=\"https://www.rfi.fr/en/africa/20260924-eu-calls-for-de-escalation-as-tigray-rebels-clash-with-ethiopian-forces\">Lue lisää</a></li>\n<li>Saksan parlamentti keskustelee elinluovutussuunnitelmien muutoksesta ja tiedustelupalvelujen vallan laajentamisesta. <a href=\"https://www.dw.com/en/germany-news-bundestag-to-discuss-opt-out-organ-donation/live-79406294?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></li>\n<li>Saksan talousinstituutit ovat kaksinkertaistaneet kasvuarvionsa vuodeksi 2026, mutta energiamarkkinoiden epävarmuus herättää huolta. <a href=\"https://www.dw.com/en/germany-economic-institutes-double-growth-forecast-for-2026/a-78168080?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></li>\n<li>Venäjä iski Kyivyn ballistisin ohjuksin, ja Ukrainalaiset valmistautuvat ankaraan talveen. <a href=\"https://www.france24.com/en/europe/20260924-as-moscow-steps-up-attacks-kyiv-residents-brace-for-harsh-winter\">Lue lisää</a></li>\n<li>Trump ja Xi tapaavat korkean tason huippukokouksessa, keskustellen kauppasodan päättyvästä tulitauosta, tekoälystä ja Taiwanista. <a href=\"https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit\">Lue lisää</a></li>\n<li>Berliinin lentokentän lennot keskeytettiin hetkeksi, kun droni havaittiin kiitoradalla. <a href=\"https://www.dw.com/en/berlin-airport-briefly-suspends-flights-over-drone-sighting/a-79403865?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></li>\n<li>Ranskan hallitus laajentaa polttoainetukea vastauksena ammattiliittojen vaatimuksiin hinnankorotuksista. <a href=\"https://www.rfi.fr/en/france/20260923-france-widens-fuel-aid-as-unions-demand-more-action-on-record-prices\">Lue lisää</a></li>\n<li>Intialaisen miljardöörin maksuyritys tavoittelee 9 miljardin punnan listautumisantia Lontoon pörssissä. <a href=\"https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money\">Lue lisää</a></li>\n<li>Ranska esittelee 80 miljoonan euron suunnitelman tekoälytaitojen edistämiseksi työpaikoilla. <a href=\"https://www.rfi.fr/en/france/20260923-france-unveils-%E2%82%AC80m-drive-to-boost-ai-skills-in-the-workplace\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 23,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 4418,
+  "output_tokens": 1226,
+  "sources": [
+    {
+      "title": "EU calls for 'de-escalation' as Tigray rebels clash with Ethiopian forces",
+      "url": "https://www.rfi.fr/en/africa/20260924-eu-calls-for-de-escalation-as-tigray-rebels-clash-with-ethiopian-forces",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Morocco: Center-right PAM leads in parliamentary election",
+      "url": "https://www.dw.com/en/morocco-center-right-pam-leads-in-parliamentary-election/a-79407710?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Alarm bells sound in Brussels as EU sales of Chinese hybrid cars rocket",
+      "url": "https://www.theguardian.com/business/2026/sep/24/eu-sales-chinese-hybrid-cars-rocket",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Germany news: Bundestag to discuss opt-out organ donation",
+      "url": "https://www.dw.com/en/germany-news-bundestag-to-discuss-opt-out-organ-donation/live-79406294?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Germany: Economic institutes double growth forecast for 2026",
+      "url": "https://www.dw.com/en/germany-economic-institutes-double-growth-forecast-for-2026/a-78168080?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Revealed: Andy Burnham’s route to victory",
+      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/revealed-andy-burnhams-route-to-victory/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "India news: 9 killed after bus catches fire outside Delhi",
+      "url": "https://www.dw.com/en/india-news-9-killed-after-bus-catches-fire-outside-delhi/live-79405879?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "International court convicts CAR rebel commander of crimes against humanity",
+      "url": "https://www.rfi.fr/en/africa/20260924-icc-convicts-former-car-commander-of-crimes-against-humanity-ahamat-said-abdel-kani-seleka",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Russia slams Kyiv with ballistic missiles as Ukrainians brace for harsh winter",
+      "url": "https://www.france24.com/en/europe/20260924-as-moscow-steps-up-attacks-kyiv-residents-brace-for-harsh-winter",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Russia’s untouchable tycoons",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/russias-untouchable-tycoons/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Der Rivale im Weißen Haus: Gipfel zwischen Trump und Xi",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/der-rivale-im-weisen-haus-gipfel-zwischen-trump-und-xi/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "SONDAGE EXCLUSIF 2027. Face à Le Pen, Mélenchon et Philippe au duel, Glucksmann garde la tête hors de l’eau",
+      "url": "https://www.politico.eu/article/sondage-exclusif-2027-face-a-le-pen-melenchon-et-philippe-au-duel-glucksmann-garde-la-tete-hors-de-leau/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Accessibility: Europe’s hidden growth engine",
+      "url": "https://www.politico.eu/sponsored-content/accessibility-europes-hidden-growth-engine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Rebellion in a tiny English village reveals Burnham’s peril on migration",
+      "url": "https://www.politico.eu/article/rebellion-england-village-piddington-andy-burnham-migration/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Trump greets Xi Jinping on arrival in rare move as US-China trade truce extended",
+      "url": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Trump welcomes China's Xi for high-stakes summit",
+      "url": "https://www.dw.com/en/trump-welcomes-china-s-xi-for-high-stakes-summit/live-79404511?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "REPLAY: Ukrainian President Zelensky addresses the UN General Assembly",
+      "url": "https://www.france24.com/en/video/20260923-replay-ukrainian-president-zelensky-addresses-the-un-general-assembly",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Berlin Airport briefly suspends flights over drone sighting",
+      "url": "https://www.dw.com/en/berlin-airport-briefly-suspends-flights-over-drone-sighting/a-79403865?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "The global machinery built to carry out Trump’s mass deportation drive",
+      "url": "https://www.rfi.fr/en/international/20260923-the-global-machinery-built-to-carry-out-trump-s-mass-deportation-drive-forbidden-stories-deportation-project",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Zelensky accuses Putin of using nationals of 47 countries to fight Ukraine war",
+      "url": "https://www.france24.com/en/europe/20260923-putin-using-citizens-from-47-countries-to-fight-ukraine-zelensky-tells-un",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Milei threatens at UN that Argentina will take ‘matters into our own hands’ on Falklands",
+      "url": "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Harvey Weinstein resentenced to 15 years for sexual assault",
+      "url": "https://www.dw.com/en/harvey-weinstein-resentenced-to-15-years-for-sexual-assault/a-79403381?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "New fighting in Ethiopia's Tigray region raises fears of a return to the country's civil war",
+      "url": "https://www.dw.com/en/new-fighting-in-ethiopia-s-tigray-region-raises-fears-of-a-return-to-the-country-s-civil-war/a-79400869?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Belgium and Rwanda restore diplomatic ties after 18-month rupture",
+      "url": "https://www.rfi.fr/en/africa/20260923-belgium-and-rwanda-restore-diplomatic-ties-after-18-month-rupture",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Eviction of 87-year-old woman sparks housing protests in Madrid",
+      "url": "https://www.dw.com/en/eviction-of-87-year-old-woman-sparks-housing-protests-in-madrid/a-79399342?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Trump's Board of Peace proposes $2.45B for reconstruction in Gaza",
+      "url": "https://www.dw.com/en/trump-s-board-of-peace-proposes-2-45b-for-reconstruction-in-gaza/a-79401612?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Who is skipping the UN General Assembly — and why",
+      "url": "https://www.dw.com/en/who-is-skipping-the-un-general-assembly-and-why/a-79391652?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "France's Zidane leads roster of star managers in Nations League campaign",
+      "url": "https://www.rfi.fr/en/sports/20260923-france-s-zidane-leads-roster-of-star-managers-in-nations-league-campaign",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Putin's War of Aggression: A Journey Along the Dnipro in Wartime Ukraine",
+      "url": "https://www.spiegel.de/international/world/putins-war-of-aggression-a-journey-along-the-dnipro-in-wartime-ukraine-a-b943efc8-a374-4f78-a8e9-0d55e750a8dc#ref=rss",
+      "source_name": "Der Spiegel International"
+    },
+    {
+      "title": "Trump hosts China's Xi for high-stakes summit ahead of US midterm elections",
+      "url": "https://www.rfi.fr/en/international/20260923-trump-hosts-china-s-xi-for-high-stakes-summit-ahead-of-us-midterm-elections",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Could a Left Party government in Berlin expropriate large real estate companies?",
+      "url": "https://www.dw.com/en/could-a-left-party-government-in-berlin-expropriate-large-real-estate-companies/a-79399683?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Morocco’s PAM comes first in election marked by record-low voter turnout",
+      "url": "https://www.rfi.fr/en/africa/20260923-morocco-s-pam-comes-first-in-election-marked-by-record-low-voter-turnout",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Delcy Rodríguez poses with Trump in New York as Maduro languishes in jail nearby",
+      "url": "https://www.theguardian.com/world/2026/sep/23/venezuela-delcy-rodriguez-meeting-donald-trump-new-york",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "France widens fuel aid as unions demand more action on record prices",
+      "url": "https://www.rfi.fr/en/france/20260923-france-widens-fuel-aid-as-unions-demand-more-action-on-record-prices",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Pope’s visit puts tension between French secularism and Catholicism in spotlight",
+      "url": "https://www.rfi.fr/en/france/20260923-pope-s-visit-puts-tension-between-french-secularism-and-catholicism-in-spotlight",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Indian billionaire’s payments firm plots biggest London flotation in years",
+      "url": "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Top South African police officer charged with raping woman, 18, and grooming 16-year-old girl",
+      "url": "https://www.theguardian.com/world/2026/sep/23/south-africa-top-police-officer-shadrack-sibiya-charged-rape-grooming",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "France unveils €80m drive to boost AI skills in the workplace",
+      "url": "https://www.rfi.fr/en/france/20260923-france-unveils-%E2%82%AC80m-drive-to-boost-ai-skills-in-the-workplace",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Europe lifts sanctions against two Russians",
+      "url": "https://www.france24.com/en/europe-lifts-sanctions-against-two-russians",
+      "source_name": "France 24 — Europe"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Europe lifts sanctions against two Russians",
+      "source_name": "France 24 — Europe",
+      "source_url": "https://www.france24.com/en/europe-lifts-sanctions-against-two-russians",
+      "published_at": "2026-09-23T08:26:17+00:00",
+      "summary": "The EU has agreed to remove Russian billionaires Alisher Usmanov and Mikhail Fridman from its sanctions list, while extending restrictions on nearly 3,000 individuals and companies linked to Russia’s war in Ukraine for another three years. The decision came after difficult negotiations, as EU sancti",
+      "why_relevant": "EU:n pakotelistan kevennys osoittaa, että Venäjä-pakotteiden ylläpito on poliittisesti neuvoteltavaa eikä staattista, mikä voi vaikuttaa seuraaviin pakoteratkaisuihin ja niiden talousvaikutuksiin.",
+      "homepage_eligible": true,
+      "homepage_score": 86,
+      "keep_days": 4,
+      "personal_relevance": 4,
+      "strategic_importance": 5,
+      "actionability": 4,
+      "novelty": 4,
+      "event_key": "eu-lifts-sanctions-two-russians",
+      "category": "tärkea"
+    },
+    {
+      "title": "Alarm bells sound in Brussels as EU sales of Chinese hybrid cars rocket",
+      "source_name": "The Guardian — World",
+      "source_url": "https://www.theguardian.com/business/2026/sep/24/eu-sales-chinese-hybrid-cars-rocket",
+      "published_at": "2026-09-24T08:34:46+00:00",
+      "summary": "Explosive growth in imported vehicles omitted from EV tariffs fuels concern for future of European carmakersEU imports three times more from China than bloc exports thereBusiness news – live updatesSales of Chinese hybrid cars have rocketed in the EU in the past four and a half years, new data shows",
+      "why_relevant": "EU:n keskustelu Kiinasta tuotujen hybridiautojen rajusta kasvusta voi johtaa tullien, sääntelyn tai teollisuuspoliittisten toimien kiristymiseen, mikä vaikuttaa suoraan eurooppalaisen autoteollisuuden kilpailuasetelmaan ja hintatasoon.",
+      "homepage_eligible": true,
+      "homepage_score": 85,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 4,
+      "novelty": 4,
+      "event_key": "eu-chinese-hybrid-car-imports",
+      "category": "tärkea"
+    }
+  ]
+}

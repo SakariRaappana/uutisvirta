@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-24",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisotsikoissa korostuu villisikojen metsästyksen edistäminen uuden verkkopalvelun myötä Suomessa, kun taas Ruotsissa on päätetty laajasta suojelujahdista skarvuille. Lisäksi tutkitaan hirvien persoonallisuuksia ja raportoidaan Yellowstonen alueen ylikuormituksesta. Suurpedot nostavat keskustelua eläintuhojen myötä ja uutta reppuarvostelua on julkaistu.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Villisikahavaintojen uusi verkkopalvelu tukee sikaruton torjuntaa</h3>\n<p>Metsästäjäliitto on julkistanut uuden verkkopalvelun Villisikahavainnot.fi. Palvelu mahdollistaa sikahavaintojen nopeamman tiedonvälityksen metsästäjille, mikä tehostaa villisikakannan hallintaa ja metsästystä. Tämä on erityisen tärkeää afrikkalaisen sikaruton (ASF) levitessä Suomeen. Palvelu on avoin kaikille ja sen kehittämisessä ovat olleet mukana MTK, Suomen Sikayrittäjät ry, Suomen Metsästäjäliito ja Kymen piiri. Palvelun tavoitteena on tukea villisikakannan tehokasta hallintaa ja vähentää sikaruton leviämisriskiä Suomessa.</p>\n<p><strong><a href=\"https://metsastajaliitto.fi/uutiset/villisikahavaintojen-uusi-verkkopalvelu-tukee-sikaruton-torjuntaa\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Skånen lääninhallitus on päättänyt aloittaa suojelujahdin, jossa 2 000 merimetsoa ammutaan, koska skarvikanta on kaksinkertaistunut, heikentäen kalakantoja alueella merkittävästi. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/skyddsjakt-pa-2-000-skarvar-i-skane/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Uusi ruotsalaistutkimus paljastaa, että hirvillä on monenlaisia persoonallisuuksia, kuten dominoivia tai sosiaalisia piirteitä. Tämä voi vaikuttaa niiden liikkumiseen luonnossa. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/algar-har-olika-personligheter-nu-ska-vilda-algar-studeras/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Thorofare, joka on Yhdysvaltojen mantereisimmista saavutettavista erämaista, kärsii tungoksesta kalastuksen ja retkeilyn osalta, vaikka alue tunnetaan yksinäisyydestään. <a href=\"https://www.outdoorlife.com/fishing/thorofare-yellowstone-cutthroat-trout/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Rockies-alueella grizzlykarhut aiheuttavat enemmän tuhoja karjatiloille kuin sudet, mikä voi johtaa muutoksiin liittovaltion suojelusäännöksissä. <a href=\"https://www.outdoorlife.com/conservation/grizzly-bears-killing-livestock-management/\">Lue lisää</a></p>\n</li>\n<li>\n<p>KUIU Icon 6 3500 -reppua arvostellaan sen monikäyttöisyyden ja sopivuuden ansiosta erityisesti eräretkeilijöille, tarjoten säilytyspaikan monille välttämättömille tavaroille. <a href=\"https://www.rokslide.com/kuiu-icon-6-3500-backpack-review/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 6,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2678,
+  "output_tokens": 787,
+  "sources": [
+    {
+      "title": "KRÖNIKA: Adrenalin!",
+      "url": "https://www.jaktojagare.se/kategorier/opinion/kronika-adrenalin/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Skyddsjakt på 2 000 skarvar i Skåne",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/skyddsjakt-pa-2-000-skarvar-i-skane/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Älgar har olika personligheter – nu ska vilda älgar studeras",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/algar-har-olika-personligheter-nu-ska-vilda-algar-studeras/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Villisikahavaintojen uusi verkkopalvelu tukee sikaruton torjuntaa",
+      "url": "https://metsastajaliitto.fi/uutiset/villisikahavaintojen-uusi-verkkopalvelu-tukee-sikaruton-torjuntaa",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "Hunter Tags Famous Nontypical Buck in Wyoming. Could It Be a New State Record?",
+      "url": "https://www.outdoorlife.com/hunting/potential-wyoming-nontypical-record-mule-deer/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Most Remote Wilderness in the Lower 48 Has an Overcrowding Problem",
+      "url": "https://www.outdoorlife.com/fishing/thorofare-yellowstone-cutthroat-trout/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Grizzlies Are Killing Far More Livestock in the Rockies Than Wolves",
+      "url": "https://www.outdoorlife.com/conservation/grizzly-bears-killing-livestock-management/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Cash-Strapped Team Seeks Funding for New Route on Everest",
+      "url": "https://explorersweb.com/cash-strapped-team-seeks-funding-for-new-route-on-everest/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The Truth About Big Bucks and Bad-Tasting Venison",
+      "url": "https://www.outdoorlife.com/hunting/big-buck-venison/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "KUIU Icon 6 3500 Backpack Review",
+      "url": "https://www.rokslide.com/kuiu-icon-6-3500-backpack-review/",
+      "source_name": "Rokslide"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Villisikahavaintojen uusi verkkopalvelu tukee sikaruton torjuntaa",
+      "source_name": "Metsästäjäliitto",
+      "source_url": "https://metsastajaliitto.fi/uutiset/villisikahavaintojen-uusi-verkkopalvelu-tukee-sikaruton-torjuntaa",
+      "published_at": "2026-09-24T06:40:31+00:00",
+      "summary": "Villisikahavaintojen uusi verkkopalvelu tukee sikaruton torjuntaa\n\n            Kyllä\n      tero.ylioja@me…\nTo, 24.09.2026 - 09:40\n\n\n              \n\n\n\n      \n            Uusi villisikahavainnot.fi -verkkopalvelu välittää sikahavainnot metsästäjille entistä nopeammin. Kaikille avoimella karttapalvelul",
+      "why_relevant": "Uusi villisikahavaintojen verkkopalvelu voi vaikuttaa suoraan sikaruton torjuntaan, havaintojen ilmoittamiseen ja siihen, millaista käytännön riistanhoitoa sinun kannattaa seurata tai tukea.",
+      "homepage_eligible": true,
+      "homepage_score": 82,
+      "keep_days": 5,
+      "personal_relevance": 4,
+      "strategic_importance": 4,
+      "actionability": 4,
+      "novelty": 4,
+      "event_key": "villisika-havaintopalvelu-sikarutto",
+      "category": "tärkea"
+    }
+  ]
+}
