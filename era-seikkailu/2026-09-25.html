@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-09-25 — Erä & seikkailu — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,23 +358,23 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
+        <a href="../datascience-konsultointi/index.html"
            >
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
-           >
+        <a href="../era-seikkailu/index.html"
+           class="active">
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
+        <a href="../politiikka/index.html"
            >
           Politiikka
         </a>
@@ -384,280 +384,75 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-09-25</p>
+<div class="day-nav">
+  <span><a href="2026-09-24.html">← 2026-09-24</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Erä & seikkailu</div>
+<h1>2026-09-25</h1>
+<p class="meta">
+  <span>6 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>2658 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Datascience konsultointi</div>
-  <h2 class="featured-title">
-    <a href="https://devblogs.microsoft.com/foundry/from-chatbots-to-automated-assistants-routines-in-microsoft-foundry-are-now-generally-available/" target="_blank" rel="noopener">From Chatbots to Automated Agents: Routines in Microsoft Foundry Are Now Generally Available</a>
-  </h2>
-  
-  <div class="featured-why">Rutiinien GA-julkaisu Foundryssa muuttaa suoraan sitä, millaisiin event-driven ja autonomisiin agenttiratkaisuihin voit siirtyä asiakkailla ilman preview-riippuvuutta.</div>
-  
-  <div class="featured-meta">
-    <span class="badge-new">Uusi</span>
-    Microsoft Foundry Blog · tänään ·
-    <a href="datascience-konsultointi/2026-09-25.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään julkaistiin merkittäviä uutisia koskien Suomen satoennusteita, erityisesti ennätyksellistä hernesatoa. Myös metsästykseen liittyvistä aiheista saatiin uutisia, kuten vaikuttavasta peuranmetsästyskokemuksesta Floridassa ja Skånen alueen skarvien suojelumetsästyksestä.</p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p>Luonnonvarakeskuksen (Luke) vuoden 2026 toisen satoarvion mukaan Suomen viljasato on keskimääräinen, kun taas hernesadosta on tulossa kaikkien aikojen suurin. <a href="https://www.luke.fi/fi/uutiset/satoarvio-2026-ruissato-jaa-pieneksi-hernesato-ennatyksellinen">Lue lisää</a></p>
+</li>
+<li>
+<p>Floridalainen jousimetsästäjä saalisti poikkeuksellisen suuren, 17-pisteisen peuran. Hän käytti metsästykseen vain kiipeilytornia, ärinäputkea ja 15-vuotiasta jousipyssyään. <a href="https://www.outdoorlife.com/hunting/giant-florida-buck/">Lue lisää</a></p>
+</li>
+<li>
+<p>Outdoor Life esittelee vuoden 2026 parhaimmat metsästyslataukset valkohäntäpeuran metsästykseen, mukaan lukien uudet tulokkaat ja vanhat klassikot. <a href="https://www.outdoorlife.com/hunting/the-best-deer-hunting-cartridges-of-2026/">Lue lisää</a></p>
+</li>
+<li>
+<p>Jakt &amp; Jägaren pääkirjoituksessa käsitellään villisikojen metsästyksen taloudellisia ulottuvuuksia. Metsästäjien investoinnit ja maanomistajien tulojen merkitys nostetaan esiin villisikojen pyynnissä. <a href="https://www.jaktojagare.se/kategorier/opinion/ledare-att-bade-ha-vildsvinen-och-ata-upp-dem/">Lue lisää</a></p>
+</li>
+<li>
+<p>Suuria hirvisonnijahtimenestyksiä tavoittelevien tulee kiinnittää huomiota hirvikannan hyvään hoitoon ja sopivaan verotukseen, jotta riittävän suurikokoisia yksilöitä voidaan kasvattaa. <a href="https://www.jaktojagare.se/kategorier/nyheter/1-av-100-tips-sa-far-du-stora-algtjurar/">Lue lisää</a></p>
+</li>
+<li>
+<p>Länsstyrelsen Skåne on päättänyt suojelumetsästyksestä 2 000 storskarvin osalta, koska niiden määrä on kaksinkertaistunut kymmenessä vuodessa, ja kalakannat ovat heikentyneet. <a href="https://www.jaktojagare.se/kategorier/nyheter/skyddsjakt-pa-2-000-skarvar-i-skane/">Lue lisää</a></p>
+</li>
+</ul>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (11)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://devblogs.microsoft.com/agent-framework/interactive-experiences-memory-and-resilient-execution/" target="_blank" rel="noopener">What’s new in Microsoft Agent Framework: Interactive experiences, memory, and resilient execution</a>
-      </div>
-      
-      <div class="news-card-why">Uudet interaktiiviset kokemukset, muisti ja resilientti suoritus MAF:ssa vaikuttavat suoraan siihen, miten suunnittelet tuotantokelpoisia agentteja ja millä kypsyystasolla frameworkia kannattaa käyttää asiakasprojekteissa.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        Microsoft Agent Framework Blog · tänään ·
-        <a href="datascience-konsultointi/2026-09-25.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.luke.fi/fi/uutiset/satoarvio-2026-ruissato-jaa-pieneksi-hernesato-ennatyksellinen" target="_blank" rel="noopener">Satoarvio 2026: ruissato jää pieneksi, hernesato ennätyksellinen</a> <span style="color:var(--muted)">— Luonnonvarakeskus (Luke)</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://devblogs.microsoft.com/foundry/egress-controls-hosted-agent/" target="_blank" rel="noopener">Control where your hosted agent connects with network egress in Foundry Agent Service</a>
-      </div>
-      
-      <div class="news-card-why">Voit nyt rajata Foundry-hostattujen agenttien ulkoisen verkko­liikenteen eksplisiittisesti, mikä vaikuttaa suoraan siihen, miten rakennat ja auditoit finanssiasiakkaiden agenttien tietoturva- ja egress-arkkitehtuurin.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        Microsoft Foundry Blog · tänään ·
-        <a href="datascience-konsultointi/2026-09-25.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/hunting/giant-florida-buck/" target="_blank" rel="noopener">‘A Buck Like This One Is Special.’ Bowhunter’s 17-Point Florida Deer Is Actually a Giant</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://devblogs.microsoft.com/agent-framework/foundry-hosted-agent-isolation-with-microsoft-agent-framework/" target="_blank" rel="noopener">Foundry hosted agent isolation with Microsoft Agent Framework</a>
-      </div>
-      
-      <div class="news-card-why">Foundryn hosted agent isolation on suoraan arkkitehtuuritasoinen muutos, joka vaikuttaa siihen miten rakennat ja eristät yritysasiakkaiden agentteja turvallisesti Microsoftin ekosysteemissä.</div>
-      
-      <div class="news-card-meta">
-        
-        Microsoft Agent Framework Blog · 2 pv sitten ·
-        <a href="datascience-konsultointi/2026-09-23.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/hunting/how-long-do-whitetail-deer-live/" target="_blank" rel="noopener">How Long Do Whitetail Deer Live?</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://explorersweb.com/some-climbers-refuse-to-end-the-season-as-storm-pummels-nepal/" target="_blank" rel="noopener">Some Climbers Refuse to End the Season as Storm Pummels Nepal</a> <span style="color:var(--muted)">— ExploresWeb</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/hunting/the-best-deer-hunting-cartridges-of-2026/" target="_blank" rel="noopener">The Best Deer Hunting Cartridges of 2026</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.jaktojagare.se/kategorier/opinion/ledare-att-bade-ha-vildsvinen-och-ata-upp-dem/" target="_blank" rel="noopener">LEDARE: Att både ha vildsvinen och äta upp dem</a> <span style="color:var(--muted)">— Jakt & Jägare</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/hunting/how-deer-communicate-with-their-tale/" target="_blank" rel="noopener">8 Surprising Ways That Whitetail Deer Communicate With Their Tails</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.jaktojagare.se/kategorier/nyheter/1-av-100-tips-sa-far-du-stora-algtjurar/" target="_blank" rel="noopener">1 AV 100 TIPS: Så får du stora älgtjurar</a> <span style="color:var(--muted)">— Jakt & Jägare</span></li>
+    
+    <li><a href="https://www.jaktojagare.se/kategorier/opinion/kronika-adrenalin/" target="_blank" rel="noopener">KRÖNIKA: Adrenalin!</a> <span style="color:var(--muted)">— Jakt & Jägare</span></li>
+    
+    <li><a href="https://www.jaktojagare.se/kategorier/nyheter/skyddsjakt-pa-2-000-skarvar-i-skane/" target="_blank" rel="noopener">Skyddsjakt på 2 000 skarvar i Skåne</a> <span style="color:var(--muted)">— Jakt & Jägare</span></li>
+    
+    <li><a href="https://www.jaktojagare.se/kategorier/nyheter/algar-har-olika-personligheter-nu-ska-vilda-algar-studeras/" target="_blank" rel="noopener">Älgar har olika personligheter – nu ska vilda älgar studeras</a> <span style="color:var(--muted)">— Jakt & Jägare</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.politico.eu/podcast/brussels-playbook-podcast/the-pope-is-fretting-about-frontier-ai-whats-the-eus-answer/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">The Pope is fretting about frontier AI — what’s the EU’s answer?</a>
-      </div>
-      
-      <div class="news-card-why">EU:ssa ollaan kiristämässä keskustelua siitä, miten tekoälymallien riskivastuu ja EU-sääntelyn soveltaminen kohdistuvat amerikkalaisiin mallitoimittajiin, mikä voi vaikuttaa suoraan siihen, millaisia AI-ratkaisuja voit käyttää, ostaa tai tarjota asiakkaille.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        Politico Europe · tänään ·
-        <a href="politiikka/2026-09-25.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.france24.com/en/europe-lifts-sanctions-against-two-russians" target="_blank" rel="noopener">Europe lifts sanctions against two Russians</a>
-      </div>
-      
-      <div class="news-card-why">EU:n pakotelistan kevennys osoittaa, että Venäjä-pakotteiden ylläpito on poliittisesti neuvoteltavaa eikä staattista, mikä voi vaikuttaa seuraaviin pakoteratkaisuihin ja niiden talousvaikutuksiin.</div>
-      
-      <div class="news-card-meta">
-        
-        France 24 — Europe · eilen ·
-        <a href="politiikka/2026-09-24.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxPVGg1VkQtalU3TjFaa1IzcHhVREE5Y1Nyb2o3ZlBraFhTZWVpTnhHUkluUUYzeEtheFE4WWx3LUc0ZHBhU0h2bGd0UkxmMEdEREJYYnVXQktGVklzdHZTMEVhM1N1R2I2cm1yOVd0dnNrZWFCQmVhcHk4OHdUQWhyUU80eVQtenlUdmdod1dXTnR4bGRCOFhMU1pyandVV3Fsb2JyS9IBqgFBVV95cUxPNXliWVV6MXlvTmlOMjhmcmpQT1ZnTXpUdGJiODhQR05VQ1pPWTM5YmRCdFdGbko5N0F1clYtazBlbGpJVXY1ZmxxSEdfekYxOTZtSmNqWjBGNEd3elhjWWN3T1lhNjc4RGcxS19XRlB2VWcyZDA0bUpSSlNNLWhHSU03RVJKSU1QYTJGSFl1VUh5dlhkUktQeUFTeXFfN2J1Q1ZjbnRDalRzdw?oc=5" target="_blank" rel="noopener">Poland halted asylum claims at the Belarus border and now wants Europe to follow its example - ABC News - Breaking News, Latest News and Videos</a>
-      </div>
-      
-      <div class="news-card-why">Puolan päätös keskeyttää turvapaikkahakemukset Valko-Venäjän rajalla voi muuttaa EU:n koko rajapolitiikan painopistettä ja vaikuttaa suoraan siihen, miten siirtolaisuus- ja turvapaikkalinjaa kiristetään myös muualla EU:ssa.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        Google News: European Commission · tänään ·
-        <a href="politiikka/2026-09-25.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.theguardian.com/business/2026/sep/24/eu-sales-chinese-hybrid-cars-rocket" target="_blank" rel="noopener">Alarm bells sound in Brussels as EU sales of Chinese hybrid cars rocket</a>
-      </div>
-      
-      <div class="news-card-why">EU:n keskustelu Kiinasta tuotujen hybridiautojen rajusta kasvusta voi johtaa tullien, sääntelyn tai teollisuuspoliittisten toimien kiristymiseen, mikä vaikuttaa suoraan eurooppalaisen autoteollisuuden kilpailuasetelmaan ja hintatasoon.</div>
-      
-      <div class="news-card-meta">
-        
-        The Guardian — World · eilen ·
-        <a href="politiikka/2026-09-24.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-  </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://metsastajaliitto.fi/uutiset/villisikahavaintojen-uusi-verkkopalvelu-tukee-sikaruton-torjuntaa" target="_blank" rel="noopener">Villisikahavaintojen uusi verkkopalvelu tukee sikaruton torjuntaa</a>
-      </div>
-      
-      <div class="news-card-why">Uusi villisikahavaintojen verkkopalvelu voi vaikuttaa suoraan sikaruton torjuntaan, havaintojen ilmoittamiseen ja siihen, millaista käytännön riistanhoitoa sinun kannattaa seurata tai tukea.</div>
-      
-      <div class="news-card-meta">
-        
-        Metsästäjäliitto · eilen ·
-        <a href="era-seikkailu/2026-09-24.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-  </ul>
-  
-</section>
-
-
-
+</details>
 
 
   </main>

@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-25",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään julkaistiin merkittäviä uutisia koskien Suomen satoennusteita, erityisesti ennätyksellistä hernesatoa. Myös metsästykseen liittyvistä aiheista saatiin uutisia, kuten vaikuttavasta peuranmetsästyskokemuksesta Floridassa ja Skånen alueen skarvien suojelumetsästyksestä.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Luonnonvarakeskuksen (Luke) vuoden 2026 toisen satoarvion mukaan Suomen viljasato on keskimääräinen, kun taas hernesadosta on tulossa kaikkien aikojen suurin. <a href=\"https://www.luke.fi/fi/uutiset/satoarvio-2026-ruissato-jaa-pieneksi-hernesato-ennatyksellinen\">Lue lisää</a></p>\n</li>\n<li>\n<p>Floridalainen jousimetsästäjä saalisti poikkeuksellisen suuren, 17-pisteisen peuran. Hän käytti metsästykseen vain kiipeilytornia, ärinäputkea ja 15-vuotiasta jousipyssyään. <a href=\"https://www.outdoorlife.com/hunting/giant-florida-buck/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life esittelee vuoden 2026 parhaimmat metsästyslataukset valkohäntäpeuran metsästykseen, mukaan lukien uudet tulokkaat ja vanhat klassikot. <a href=\"https://www.outdoorlife.com/hunting/the-best-deer-hunting-cartridges-of-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Jakt &amp; Jägaren pääkirjoituksessa käsitellään villisikojen metsästyksen taloudellisia ulottuvuuksia. Metsästäjien investoinnit ja maanomistajien tulojen merkitys nostetaan esiin villisikojen pyynnissä. <a href=\"https://www.jaktojagare.se/kategorier/opinion/ledare-att-bade-ha-vildsvinen-och-ata-upp-dem/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Suuria hirvisonnijahtimenestyksiä tavoittelevien tulee kiinnittää huomiota hirvikannan hyvään hoitoon ja sopivaan verotukseen, jotta riittävän suurikokoisia yksilöitä voidaan kasvattaa. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/1-av-100-tips-sa-far-du-stora-algtjurar/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Länsstyrelsen Skåne on päättänyt suojelumetsästyksestä 2 000 storskarvin osalta, koska niiden määrä on kaksinkertaistunut kymmenessä vuodessa, ja kalakannat ovat heikentyneet. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/skyddsjakt-pa-2-000-skarvar-i-skane/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 6,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2024,
+  "output_tokens": 634,
+  "sources": [
+    {
+      "title": "Satoarvio 2026: ruissato jää pieneksi, hernesato ennätyksellinen",
+      "url": "https://www.luke.fi/fi/uutiset/satoarvio-2026-ruissato-jaa-pieneksi-hernesato-ennatyksellinen",
+      "source_name": "Luonnonvarakeskus (Luke)"
+    },
+    {
+      "title": "‘A Buck Like This One Is Special.’ Bowhunter’s 17-Point Florida Deer Is Actually a Giant",
+      "url": "https://www.outdoorlife.com/hunting/giant-florida-buck/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How Long Do Whitetail Deer Live?",
+      "url": "https://www.outdoorlife.com/hunting/how-long-do-whitetail-deer-live/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Some Climbers Refuse to End the Season as Storm Pummels Nepal",
+      "url": "https://explorersweb.com/some-climbers-refuse-to-end-the-season-as-storm-pummels-nepal/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The Best Deer Hunting Cartridges of 2026",
+      "url": "https://www.outdoorlife.com/hunting/the-best-deer-hunting-cartridges-of-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "LEDARE: Att både ha vildsvinen och äta upp dem",
+      "url": "https://www.jaktojagare.se/kategorier/opinion/ledare-att-bade-ha-vildsvinen-och-ata-upp-dem/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "8 Surprising Ways That Whitetail Deer Communicate With Their Tails",
+      "url": "https://www.outdoorlife.com/hunting/how-deer-communicate-with-their-tale/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "1 AV 100 TIPS: Så får du stora älgtjurar",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/1-av-100-tips-sa-far-du-stora-algtjurar/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "KRÖNIKA: Adrenalin!",
+      "url": "https://www.jaktojagare.se/kategorier/opinion/kronika-adrenalin/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Skyddsjakt på 2 000 skarvar i Skåne",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/skyddsjakt-pa-2-000-skarvar-i-skane/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Älgar har olika personligheter – nu ska vilda älgar studeras",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/algar-har-olika-personligheter-nu-ska-vilda-algar-studeras/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": []
+}

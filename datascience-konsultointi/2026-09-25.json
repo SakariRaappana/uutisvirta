@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-25",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Microsoft Foundry julkisti tärkeitä päivityksiä sekä Foundry Agent Servicelle että automatisoiduille agenteille. Microsoft Agent Framework sai päivityksiä, jotka parantavat käyttäjäkokemuksia ja suorituskykyä. Näiden parannusten tarkoituksena on tehostaa agenttien verkostoitumista ja kapasiteettia.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Control where your hosted agent connects with network egress in Foundry Agent Service</h3>\n<p>Microsoft Foundry on esitellyt uuden ominaisuuden, joka antaa käyttäjille enemmän hallintaa agenttien verkko-yhteyksistä Foundry Agent Service -palvelussa. Käyttäjät voivat nyt määrittää tarkemmin mihin verkko-osoitteisiin heidän isännöidyt agenttinsa saavat muodostaa yhteyksiä. Tämä parannus mahdollistaa turvallisemmat ja hallitummat tietoliikenteen suuntaukset, mikä on erityisen hyödyllistä finanssialan sovelluksissa, joissa tietoturva ja compliance-vaatimukset ovat keskeisiä. <strong><a href=\"https://devblogs.microsoft.com/foundry/egress-controls-hosted-agent/\">Lue alkuperäinen →</a></strong></p>\n<h3>From Chatbots to Automated Agents: Routines in Microsoft Foundry Are Now Generally Available</h3>\n<p>Microsoft Foundry on siirtynyt uuteen vaiheeseen julkaisemalla &quot;Routines&quot;-toiminnon yleisesti saataville. Tämä kehitys mahdollistaa chatbotien muuntamisen monimutkaisemmiksi, automatisoiduiksi agenteiksi, jotka voivat suorittaa laajemmat valikoimat tehtäviä itsenäisesti. Yleinen saatavuus tarkoittaa, että kehittäjät voivat nyt integroida nämä agentit laajemmin eri palveluihin ja järjestelmiin, mikä parantaa käytettävyyttä ja kustannustehokkuutta. <strong><a href=\"https://devblogs.microsoft.com/foundry/from-chatbots-to-automated-assistants-routines-in-microsoft-foundry-are-now-generally-available/\">Lue alkuperäinen →</a></strong></p>\n<h3>What’s new in Microsoft Agent Framework: Interactive experiences, memory, and resilient execution</h3>\n<p>Microsoft Agent Framework on esitellyt uusia ominaisuuksia, jotka parantavat agenttien interaktiivisia kokemuksia, muistinhallintaa ja kestävyyttä. Päivitykset keskittyvät parantamaan agenttien kykyä käsitellä keskeytyksettömiä vuorovaikutuksia sekä optimoimaan muistinkäyttöä, mikä lisää agenttien suorituskykyä ja luotettavuutta. Tämä tuo uusia mahdollisuuksia kehittäjille rakentaa tehokkaampia ja käyttäjäystävällisempiä sovelluksia. <strong><a href=\"https://devblogs.microsoft.com/agent-framework/interactive-experiences-memory-and-resilient-execution/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<p>Tänään ei ole lyhytmainintoja.</p>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 3325,
+  "output_tokens": 651,
+  "sources": [
+    {
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Young organs may not be a fountain of youth for recipients",
+      "url": "https://www.technologyreview.com/2026/09/25/1145083/young-organs-may-not-be-a-fountain-of-youth-for-recipients/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Control where your hosted agent connects with network egress in Foundry Agent Service",
+      "url": "https://devblogs.microsoft.com/foundry/egress-controls-hosted-agent/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "From Chatbots to Automated Agents: Routines in Microsoft Foundry Are Now Generally Available",
+      "url": "https://devblogs.microsoft.com/foundry/from-chatbots-to-automated-assistants-routines-in-microsoft-foundry-are-now-generally-available/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "What’s new in Microsoft Agent Framework: Interactive experiences, memory, and resilient execution",
+      "url": "https://devblogs.microsoft.com/agent-framework/interactive-experiences-memory-and-resilient-execution/",
+      "source_name": "Microsoft Agent Framework Blog"
+    },
+    {
+      "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
+      "url": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "AI is dominating the conversation at Climate Week",
+      "url": "https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Control where your hosted agent connects with network egress in Foundry Agent Service",
+      "source_name": "Microsoft Foundry Blog",
+      "source_url": "https://devblogs.microsoft.com/foundry/egress-controls-hosted-agent/",
+      "published_at": "2026-09-24T17:55:06+00:00",
+      "summary": "Define and attach an outbound policy to a hosted agent in Microsoft Foundry, observe calls in Audit, and verify allowed and denied destinations under Enforced mode.\nThe post Control where your hosted agent connects with network egress in Foundry Agent Service appeared first on Microsoft Foundry Blog",
+      "why_relevant": "Voit nyt rajata Foundry-hostattujen agenttien ulkoisen verkko­liikenteen eksplisiittisesti, mikä vaikuttaa suoraan siihen, miten rakennat ja auditoit finanssiasiakkaiden agenttien tietoturva- ja egress-arkkitehtuurin.",
+      "homepage_eligible": true,
+      "homepage_score": 88,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 4,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "foundry-agent-service-egress-policy",
+      "category": "tärkea"
+    },
+    {
+      "title": "From Chatbots to Automated Agents: Routines in Microsoft Foundry Are Now Generally Available",
+      "source_name": "Microsoft Foundry Blog",
+      "source_url": "https://devblogs.microsoft.com/foundry/from-chatbots-to-automated-assistants-routines-in-microsoft-foundry-are-now-generally-available/",
+      "published_at": "2026-09-24T15:00:57+00:00",
+      "summary": "Agents are rapidly evolving beyond chat. The first generation of agents waited for a person to send a message. Today, organizations want agents that can monitor work, respond to business events, and continue tasks over time. An agent might triage a newly opened GitHub issue, respond when a message a",
+      "why_relevant": "Rutiinien GA-julkaisu Foundryssa muuttaa suoraan sitä, millaisiin event-driven ja autonomisiin agenttiratkaisuihin voit siirtyä asiakkailla ilman preview-riippuvuutta.",
+      "homepage_eligible": true,
+      "homepage_score": 92,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "microsoft-foundry-routines-ga",
+      "category": "tärkea"
+    },
+    {
+      "title": "What’s new in Microsoft Agent Framework: Interactive experiences, memory, and resilient execution",
+      "source_name": "Microsoft Agent Framework Blog",
+      "source_url": "https://devblogs.microsoft.com/agent-framework/interactive-experiences-memory-and-resilient-execution/",
+      "published_at": "2026-09-24T15:00:14+00:00",
+      "summary": "An agent that answers a question is a starting point. An agent that completes useful work needs more: an interface users can interact with, memory beyond the current conversation, an appropriate environment for executing code, and a way to recover when work is interrupted. Recent Microsoft Agent Fra",
+      "why_relevant": "Uudet interaktiiviset kokemukset, muisti ja resilientti suoritus MAF:ssa vaikuttavat suoraan siihen, miten suunnittelet tuotantokelpoisia agentteja ja millä kypsyystasolla frameworkia kannattaa käyttää asiakasprojekteissa.",
+      "homepage_eligible": true,
+      "homepage_score": 90,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "microsoft-agent-framework-interactive-memory-resilient-execution",
+      "category": "tärkea"
+    }
+  ]
+}
