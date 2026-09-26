@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-26",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään käsiteltiin luvattomien aseiden äänenvaimentimien siirtämistä ilman Form 4 -lupia ja parhaita matkapuhelinsignaaliin perustuvia riistakameroita. Lisäksi esiteltiin monia eräaiheisia lyhytmainintoja, jotka käsittelevät sekä villin luonnon selviytymiskokemuksia että eksoottisia erämaaretkiä.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>The Best Cellular Trail Cameras: The Complete Guide to Cell Cams and Subscription Plans</h3>\n<p>Outdoor Life esittelee kattavan oppaan mobiiliverkkoa hyödyntävistä riistakameroista ja niiden tilaussuunnitelmista. Artikkeli kattaa laajan valikoiman kameramalleja, esitellen kunkin kameran ominaisuudet, kuten kuvanlaadun, akun keston ja datasiirron nopeuden. Opas myös vertailee eri tilaussuunnitelmien hintoja ja ominaisuuksia, mikä auttaa metsästäjiä valitsemaan tarpeisiinsa parhaiten sopivan vaihtoehdon. Artikkelin tavoitteena on helpottaa metsästäjiä ja luontokuvaajia valitsemaan parhaiten toimivat ja kustannustehokkaimmat riistakamerat. <strong><a href=\"https://www.outdoorlife.com/gear/best-cellular-trail-cameras-2026/\">Lue alkuperäinen →</a></strong></p>\n<h3>ATF Director Says Suppressor Transfers Without Form 4s Are Okay, More Guidance to Come</h3>\n<p>ATF:n johtaja Robert Cekada on ilmoittanut, että äänenvaimentimia voidaan siirtää ilman perinteistä Form 4 -lupaa. Tämä tuleva sääntöuudistus on herättänyt huolta ja epäselvyyttä aseliikkeiden keskuudessa Yhdysvalloissa. Vaikka tarkemmat ohjeet ovat vielä tulossa, päätös on osa laajempaa pyrkimystä selkeyttää ampuma-aseiden ja niiden lisävarusteiden myyntikäytäntöjä. Asiantuntijat odottavat, miten uusi linjaus vaikuttaa lailliseen äänenvaimentimien jakeluun ja käyttöön. <strong><a href=\"https://www.outdoorlife.com/guns/atf-suppressor-guidance/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Monissa osavaltioissa on laillistettu eläinten kerääminen teiltä. Outdoor Life tarjoaa ohjeita tielle jääneen riistan talteenottoon ja käyttöön. <a href=\"https://www.outdoorlife.com/conservation/salvaging-eating-roadkill/\">Lue lisää</a></li>\n<li>Videolla kalastetaan Ambler Road -koridorissa, joka on yksi maailman viimeisistä ehjistä erämaista. <a href=\"https://www.outdoorlife.com/conservation/video-fishing-ambler-road-corridor/\">Lue lisää</a></li>\n<li>Artikkeli käy läpi karhujen huippunopeudet Pohjois-Amerikassa ja tietoa maailman kahdeksasta karhulajista. <a href=\"https://www.outdoorlife.com/conservation/how-fast-do-bears-run/\">Lue lisää</a></li>\n<li>Stormin huipentuma iskee Nepaliin tänään ja huomenna. Dhaulagirin perusleirissä jäljelle jääneet ovat kuluttaneet päivänsä lapiointiin. <a href=\"https://explorersweb.com/climax-of-storm-hits-nepal/\">Lue lisää</a></li>\n<li>40 vuoden alaskalaisen opastuksen jälkeen eräs opas joutui karhun yllättämäksi ja joutui hoitamaan itsensä rommin avulla ennen neljän mailin kävelyä avun hakemiseksi. <a href=\"https://www.outdoorlife.com/survival/mauled-by-alaska-brown-bear/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 7,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 3565,
+  "output_tokens": 839,
+  "sources": [
+    {
+      "title": "The Ultimate Guide to Eating (and Donating) Roadkill",
+      "url": "https://www.outdoorlife.com/conservation/salvaging-eating-roadkill/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Video: I Fished Ground Zero for the Ambler Road",
+      "url": "https://www.outdoorlife.com/conservation/video-fishing-ambler-road-corridor/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Chinese Hiker Attempting 4,000km Walk From Sichuan to Xinjiang",
+      "url": "https://explorersweb.com/chinese-hiker-attempting-4000km-walk-from-sichuan-to-xinjiang/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "How Fast Can a Bear Run?",
+      "url": "https://www.outdoorlife.com/conservation/how-fast-do-bears-run/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Climax of Storm Hits Nepal",
+      "url": "https://explorersweb.com/climax-of-storm-hits-nepal/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The Best Cellular Trail Cameras: The Complete Guide to Cell Cams and Subscription Plans",
+      "url": "https://www.outdoorlife.com/gear/best-cellular-trail-cameras-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "ATF Director Says Suppressor Transfers Without Form 4s Are Okay, More Guidance to Come",
+      "url": "https://www.outdoorlife.com/guns/atf-suppressor-guidance/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "After 40 Years of Guiding in Alaska, I Made One Mistake and Got Scalped by a Brown Bear",
+      "url": "https://www.outdoorlife.com/survival/mauled-by-alaska-brown-bear/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "The Best Cellular Trail Cameras: The Complete Guide to Cell Cams and Subscription Plans",
+      "source_name": "Outdoor Life",
+      "source_url": "https://www.outdoorlife.com/gear/best-cellular-trail-cameras-2026/",
+      "published_at": "2026-09-25T17:01:16+00:00",
+      "summary": "We test the newest trail cameras and compare their subscription plan prices\nThe post The Best Cellular Trail Cameras: The Complete Guide to Cell Cams and Subscription Plans appeared first on Outdoor Life.",
+      "why_relevant": "Solukkokameravertailu ja liittymäsopimusten hinnat vaikuttavat suoraan siihen, mitä jäljitys- ja riistakameraratkaisuja kannattaa käyttää metsästyksen ja riistan seurannan dokumentointiin.",
+      "homepage_eligible": true,
+      "homepage_score": 85,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 4,
+      "actionability": 5,
+      "novelty": 4,
+      "event_key": "best-cellular-trail-cameras-guide",
+      "category": "tärkea"
+    },
+    {
+      "title": "ATF Director Says Suppressor Transfers Without Form 4s Are Okay, More Guidance to Come",
+      "source_name": "Outdoor Life",
+      "source_url": "https://www.outdoorlife.com/guns/atf-suppressor-guidance/",
+      "published_at": "2026-09-25T15:49:40+00:00",
+      "summary": "After nearly two months of uncertainty among gun shops and suppressor customers, the ATF offered insight into how it was treating suppressor transfers\nThe post ATF Director Says Suppressor Transfers Without Form 4s Are Okay, More Guidance to Come appeared first on Outdoor Life.",
+      "why_relevant": "ATF:n uusi ohjeistus voi muuttaa käytännön suppressor-siirtoja heti, mikä on suoraan relevanttia asehankintojen, metsästyskaluston ja asiakkaiden neuvonnan kannalta.",
+      "homepage_eligible": true,
+      "homepage_score": 88,
+      "keep_days": 5,
+      "personal_relevance": 4,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "atf-suppressor-transfer-guidance",
+      "category": "tärkea"
+    }
+  ]
+}
