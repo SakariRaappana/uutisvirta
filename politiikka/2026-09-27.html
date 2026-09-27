@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-09-27 — Politiikka — Uutisvirta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #F0F1EB;
+      --surface: #E7E9E2;
+      --border: #C6CAC0;
+      --rule: #1B1D19;
+      --text: #191C18;
+      --muted: #6A6F65;
+      --accent: #3A6558;
+      --accent-pale: #C6D8D3;
+      --accent-border: #7AB0A4;
+      --stamp: #8A4C34;
+      --font-mono: "Courier Prime", "Courier New", Courier, monospace;
+      --font-serif: "Lora", Georgia, serif;
+      --font-display: "Playfair Display", Georgia, serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121519;
+        --surface: #1A1E22;
+        --border: #282D31;
+        --rule: #D8DDD8;
+        --text: #DCE1DC;
+        --muted: #787E78;
+        --accent: #78B8AB;
+        --accent-pale: #182824;
+        --accent-border: #3D7068;
+        --stamp: #C07A5A;
+      }
+    }
+
+    html { font-size: 18px; }
+    body {
+      font-family: var(--font-serif);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── MASTHEAD ───────────────────────────── */
+    .site-header {
+      border-top: 3px solid var(--rule);
+    }
+    .masthead-row {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0.6rem 1.5rem 0.55rem;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .logo {
+      font-family: var(--font-mono);
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .masthead-date {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+    .nav-strip {
+      border-top: 1px solid var(--border);
+      border-bottom: 2px solid var(--rule);
+      padding: 0.45rem 1.5rem;
+    }
+    .nav-strip nav {
+      max-width: 760px;
+      margin: 0 auto;
+      display: flex;
+      gap: 1.75rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .nav-strip a {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .nav-strip a:hover { color: var(--accent); }
+    .nav-strip a.active {
+      color: var(--text);
+      border-bottom: 1.5px solid var(--text);
+    }
+
+    /* ── PAGE ───────────────────────────────── */
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1.75rem 1.5rem 5rem;
+    }
+
+    /* ── TYPOGRAPHY ─────────────────────────── */
+    h1 {
+      font-family: var(--font-display);
+      font-size: 2.1rem;
+      font-weight: 400;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      margin-bottom: 0.2rem;
+      text-wrap: balance;
+    }
+    h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 2rem 0 0.65rem;
+      text-wrap: balance;
+    }
+    h3 {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 400;
+      margin: 1.5rem 0 0.4rem;
+    }
+    p { margin-bottom: 0.9rem; max-width: 68ch; }
+    p:last-child { margin-bottom: 0; }
+    ul, ol { padding-left: 1.4rem; margin-bottom: 0.85rem; }
+    li { margin-bottom: 0.25rem; }
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+    code {
+      font-family: var(--font-mono);
+      font-size: 0.83em;
+      background: var(--surface);
+      padding: 0.1em 0.35em;
+      border: 1px solid var(--border);
+    }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.75rem 0; }
+
+    /* ── META BAR ───────────────────────────── */
+    .meta {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .meta span + span::before { content: " · "; }
+
+    /* ── DIGEST BODY (Markdown-rendered content) ── */
+    .digest-body h2 {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: normal;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-top: 2px solid var(--text);
+      padding-top: 0.55rem;
+      margin: 2.2rem 0 1.2rem;
+    }
+    .digest-body h3 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 0 0 0.7rem;
+      text-wrap: balance;
+    }
+
+    /* ── DEEP DIVE (JS-injected wrapper around h3 blocks) ── */
+    .deep-dive {
+      background: var(--accent-pale);
+      border-left: 3px solid var(--accent-border);
+      padding: 1.1rem 1.4rem 1.1rem 1.2rem;
+      margin-bottom: 1.25rem;
+    }
+    .deep-dive p { font-size: 0.97rem; }
+    .deep-dive p:last-child { margin-bottom: 0; }
+
+    /* ── BRIEF LIST (JS-injected class on ul) ── */
+    .brief-list { list-style: none; padding: 0; }
+    .brief-list li {
+      padding: 0.72rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+      line-height: 1.56;
+      max-width: 68ch;
+    }
+    .brief-list li:last-child { border-bottom: none; }
+
+    /* ── DAY NAV ────────────────────────────── */
+    .day-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+    .day-nav a { color: var(--accent); text-decoration: none; }
+    .day-nav a:hover { text-decoration: underline; }
+
+    /* ── ARCHIVE LIST ───────────────────────── */
+    .archive-list { list-style: none; padding: 0; border-top: 2px solid var(--text); }
+    .archive-list li {
+      display: flex;
+      gap: 1.5rem;
+      align-items: baseline;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .archive-list li:last-child { border-bottom: none; }
+    .archive-list .date {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      min-width: 6rem;
+      flex-shrink: 0;
+      letter-spacing: 0.04em;
+    }
+    .archive-list a { color: var(--text); font-size: 0.93rem; text-decoration: none; }
+    .archive-list a:hover { color: var(--accent); }
+
+    /* ── STREAM CARDS ───────────────────────── */
+    .stream-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 0;
+      border-top: 2px solid var(--text);
+    }
+    .stream-card {
+      padding: 1.1rem 2rem 1.1rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .stream-card h2 {
+      font-size: 1rem;
+      margin-top: 0;
+      margin-bottom: 0.2rem;
+      font-weight: 400;
+    }
+    .stream-card h2 a { color: var(--text); text-decoration: none; }
+    .stream-card h2 a:hover { color: var(--accent); }
+    .stream-card .last-updated {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+    }
+    .stream-card .last-updated a { color: var(--accent); text-decoration: none; }
+
+    /* ── SOURCES ────────────────────────────── */
+    details {
+      margin-top: 2.5rem;
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
+    }
+    details summary {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      cursor: pointer;
+      list-style: none;
+    }
+    details[open] summary { margin-bottom: 0.6rem; }
+    .source-list { list-style: none; padding: 0; margin-top: 0.4rem; }
+    .source-list li {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+    .source-list a { color: var(--accent); text-decoration: none; }
+    .source-list a:hover { text-decoration: underline; }
+
+    /* ── DAY SECTION (collapsible per-day digest) ── */
+    .day-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .day-section > summary {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+      text-transform: none;
+      padding: 1.25rem 0 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+    .day-section > summary::-webkit-details-marker { display: none; }
+    .day-section > summary::after {
+      content: "▾";
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .day-section:not([open]) > summary::after { content: "▸"; }
+    .day-section-body { padding-bottom: 2.5rem; }
+
+    /* ── ARCHIVE SECTION ────────────────────── */
+    .archive-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .archive-section > summary {
+      padding: 0.9rem 0;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .archive-section > summary::-webkit-details-marker { display: none; }
+    .archive-list--plain { border-top: none; margin-top: 0.25rem; }
+
+    /* ── DAY SPACER ─────────────────────────── */
+    .day-spacer {
+      height: 0;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="masthead-row">
+      <a href="../index.html" class="logo">Uutisvirta</a>
+      <span class="masthead-date" id="site-date"></span>
+    </div>
+    <div class="nav-strip">
+      <nav>
+        
+        <a href="../datascience-konsultointi/index.html"
+           >
+          Datascience konsultointi
+        </a>
+        
+        <a href="../era-seikkailu/index.html"
+           >
+          Erä & seikkailu
+        </a>
+        
+        <a href="../politiikka/index.html"
+           class="active">
+          Politiikka
+        </a>
+        
+      </nav>
+    </div>
+  </header>
+  <main class="page">
+    
+<div class="day-nav">
+  <span><a href="2026-09-26.html">← 2026-09-26</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
+</div>
+
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Politiikka</div>
+<h1>2026-09-27</h1>
+<p class="meta">
+  <span>21 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>5814 tokenia</span>
+</p>
+
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään Kiina ja Yhdysvallat ilmoittivat yhteisestä AI-turvallisuuden viestintäkanavasta sekä tulleista koskevista leikkauksista. Euroopan unioni puolestaan otti merkittävän askeleen asuntokriisin ratkaisemiseksi Affordable Housing Actilla.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>Kiina ja Yhdysvallat perustavat viestintäkanavan AI-turvallisuusongelmiin</h3>
+<p>Kiinan ja Yhdysvaltojen viranomaiset ovat sopineet perustavansa uuden viestintäkanavan AI-järjestelmiin liittyvien turvallisuusongelmien käsittelyyn. Tämä aloite syntyi Washingtonissa pidetyn huipputason tapaamisen jälkeen. Samalla päätettiin tullien alentamisesta 30 miljardin dollarin arvoisille tavaroille, mikä viittaa molempien maiden pyrkimykseen vähentää jännitteitä keskinäisessä kaupassa. Tämä viestintäkanava pyrkii lisäämään avoimuutta ja nopeuttamaan reagointia tekoälyteknologian uhkiin, mikä on tärkeää globaalin turvallisuuden kannalta. Askeleella voi olla pitkän aikavälin vaikutuksia, kun suurvallat yrittävät saada AI-kehityksen hallintaan. <strong><a href="https://www.dw.com/en/china-us-agree-to-set-up-channel-for-ai-safety-incidents/a-79443351?maca=en-rss-en-all-1573-rdf">Lue alkuperäinen →</a></strong></p>
+<h3>EU:n Affordable Housing Actin mahdollisuudet ratkaista asuntokriisi</h3>
+<p>Euroopan unioni on ottanut askeleen Euroopan laajuisen asuntokriisin ratkaisemiseksi Affordable Housing Actin kautta, jonka Euroopan komissio on julkistanut. Tämä laki antaa kaupungeille valtuudet rajoittaa asuinkustannusten nousua, mikä on tärkeää, kun monet EU-maat kamppailevat elämäntapaan liittyvien kustannusten nousun kanssa. Lainsäädännön tavoitteena on tehdä asumisesta kohtuuhintaista kaikille eurooppalaisille, ja sen mahdollisuudet vaikuttaa ovat suuret, jos se onnistuu toteutuksessa. Tämä voi parantaa kunnallista asuntotarjontaa ja vähentää eriarvoisuutta asuntomarkkinoilla pitkällä aikavälillä. <strong><a href="https://www.rfi.fr/en/international/20260926-homes-for-europe-can-the-eu-s-affordable-housing-act-deliver">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>Saksalaisten lihansyönti on vähenemässä, vaikka perinteisesti se on ollut olennainen osa heidän ruokavaliotaan. <a href="https://www.dw.com/en/germany-news-are-germans-giving-up-their-beloved-meat-and-sausages/live-79441034?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Ison-Britannian pääministeri kehotti rauhaan Pohjois-Irlannissa, kun kiistelty paraati herätti jännitteitä. <a href="https://www.rfi.fr/en/international/20260927-uk-s-pm-urges-calm-as-thousands-seek-to-thwart-flashpoint-n-ireland-parade">Lue lisää</a></li>
+<li>Pohjois-Irlannin oikeusistuin sallii Orange Orderin paraatin katolisen alueen läpi. <a href="https://www.france24.com/en/northern-ireland-court-allows-orange-order-march-through-catholic-area">Lue lisää</a></li>
+<li>Sveitsissä äänestetään maan puolueettomuuden kiristämisestä, kun muut neutraalit maat lisäävät puolustusmenojaan. <a href="https://www.france24.com/en/switzerland-votes-on-country-s-neutrality">Lue lisää</a></li>
+<li>Iran jatkaa Hormuzin salmeen liittyvää suunnitelmaa huolimatta Trumpin hylkäyksestä. <a href="https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Trump ja Xi eivät maininneet Taiwania Washingtonin huipputapaamisessa. <a href="https://www.dw.com/en/no-public-mentions-of-taiwan-at-official-xi-and-trump-meeting/a-79445378?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Saksan AfD-puolueen mahdollinen pääsy arkaluonteisiin tietoihin herättää huolta. <a href="https://www.france24.com/en/europe/20260927-russian-sleeper-cell-can-germany-far-right-afd-be-barred-from-sensitive-intelligence">Lue lisää</a></li>
+<li>EU vapauttaa 710 miljoonaa euroa apua kriisien koettelemille yhteisöille, erityisesti Afrikan alueelle. <a href="https://www.rfi.fr/en/africa/20260927-eu-unlocks-710-mn-euros-aid-for-crisis-hit-communities">Lue lisää</a></li>
+<li>Mielenosoitukset Madridissa asuntokriisiä vastaan keräsivät tuhansia. <a href="https://www.dw.com/en/spain-thousands-protest-in-madrid-against-housing-crisis/a-79446662?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Euroopan AI-tavoitteet kohtaavat vastarintaa, kun datakeskukset herättävät huolta. <a href="https://www.dw.com/en/backlash-over-data-centers-tests-europe-s-ai-ambitions/a-79419800?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>Madridissa tuhansia marssi vanhuksen häätämistä vastaan. <a href="https://www.france24.com/en/europe/20260926-thousands-march-in-madrid-to-protest-eviction-of-87-year-old-woman">Lue lisää</a></li>
+<li>Trump hylkäsi Iranin ehdotuksen Hormuzin salmen avaamisesta ja vihamielisyyksien lopettamisesta. <a href="https://www.dw.com/en/trump-rejects-iran-proposal-to-reopen-strait-of-hormuz/a-79444893?maca=en-rss-en-all-1573-rdf">Lue lisää</a></li>
+<li>München pyrkii isännöimään olympialaisia joko 2036, 2040 tai 2044. <a href="https://www.rfi.fr/en/sports/20260926-munich-picked-for-germany-s-bid-to-host-the-summer-olympics-in-2036-2040-or-2044">Lue lisää</a></li>
+<li>Irlannin jalkapallojoukkue pelaa Israelia vastaan pelaajien protesteista huolimatta. <a href="https://www.politico.eu/article/ireland-israel-football-match-players-vote-to-play/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää</a></li>
+<li>Vähintään 16 ihmistä kuoli Venäjän ja Ukrainan ilmaiskujen seurauksena. <a href="https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes">Lue lisää</a></li>
+<li>Kiina ja Yhdysvallat avaavat kommunikaatiokanavan AI-tapahtumille huipputapaamisen jälkeen. <a href="https://www.rfi.fr/en/international/20260926-china-us-to-open-ai-communication-channel-after-summit">Lue lisää</a></li>
+</ul>
+
+</div>
+
+<details>
+  <summary>Lähteet (31)</summary>
+  <ul class="source-list">
+    
+    <li><a href="https://www.dw.com/en/germany-news-are-germans-giving-up-their-beloved-meat-and-sausages/live-79441034?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Germany news: Are Germans giving up their beloved meat and sausages?</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260927-uk-s-pm-urges-calm-as-thousands-seek-to-thwart-flashpoint-n-ireland-parade" target="_blank" rel="noopener">UK's PM urges 'calm' as thousands seek to thwart flashpoint N.Ireland parade</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.dw.com/en/uk-reports-major-incident-arrests-near-fairford-air-base/a-79447992?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">UK reports 'major incident,' arrests near Fairford air base</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260927-uk-police-evacuate-homes-near-air-base-used-by-us-arrest-men-on-suspected-explosives-offenses" target="_blank" rel="noopener">UK police make arrests, evacuate homes in ‘major incident’ near air base used by US forces</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/northern-ireland-court-allows-orange-order-march-through-catholic-area" target="_blank" rel="noopener">Northern Ireland court allows Orange Order march through Catholic area</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/switzerland-votes-on-country-s-neutrality" target="_blank" rel="noopener">Switzerland votes on country's neutrality</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/northern-ireland-disputed-parade-set-for-flashpoint-after-nearly-30-years" target="_blank" rel="noopener">Northern Ireland: Disputed parade set for flashpoint after nearly 30 years</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town" target="_blank" rel="noopener">At least 27 dead after two mass shootings in South Africa, police say</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.dw.com/en/iran-sticks-to-hormuz-plan-after-trump-rejects-it/a-79447432?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Iran sticks to Hormuz plan after Trump rejects it</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/no-public-mentions-of-taiwan-at-official-xi-and-trump-meeting/a-79445378?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">No public mentions of Taiwan at official Xi and Trump meeting</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260927-russian-sleeper-cell-can-germany-far-right-afd-be-barred-from-sensitive-intelligence" target="_blank" rel="noopener">‘Russian sleeper cell’: Can Germany’s far-right AfD be barred from sensitive intel?</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/switzerland-referendum-to-decide-on-stricter-neutrality/a-79446996?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Switzerland: Referendum to decide on stricter neutrality</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/china-sends-two-giant-pandas-off-to-atlanta-zoo-after-xi-trump-summit/a-79447128?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">China sends two giant pandas off to Atlanta zoo after Xi-Trump summit</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/gunmen-kill-27-people-in-two-mass-shootings-in-south-africa/a-79447130?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Gunmen kill 27 people in two mass shootings in South Africa</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/africa/20260927-eu-unlocks-710-mn-euros-aid-for-crisis-hit-communities" target="_blank" rel="noopener">EU unlocks 710 mn euros' aid for crisis-hit communities</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20260927-paris-hospital-art-collection-challenges-the-myth-of-the-mad-genius-saint-anne" target="_blank" rel="noopener">Paris psychiatric hospital's art collection challenges myth of the ‘mad genius’</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.dw.com/en/powerful-storm-batters-northeast-us-hundreds-of-flights-canceled/a-79446676?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Powerful storm batters northeast US, hundreds of flights canceled</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/spain-thousands-protest-in-madrid-against-housing-crisis/a-79446662?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Spain: Thousands protest in Madrid against housing crisis</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/backlash-over-data-centers-tests-europe-s-ai-ambitions/a-79419800?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Backlash over data centers tests Europe's AI ambitions</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/tv-shows/spotlight/20260926-maricarmen-vs-the-vultures-a-social-tragedy-mobilising-spaniards" target="_blank" rel="noopener">Maricarmen Vs The ‘Vultures’: A “social tragedy” mobilising Spaniards</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260926-thousands-march-in-madrid-to-protest-eviction-of-87-year-old-woman" target="_blank" rel="noopener">Thousands march in Madrid to protest eviction of 87-year-old woman</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/china-us-agree-to-set-up-channel-for-ai-safety-incidents/a-79443351?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">China, US agree to set up channel for AI safety incidents</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/trump-rejects-iran-proposal-to-reopen-strait-of-hormuz/a-79444893?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Trump rejects Iran proposal to reopen Strait of Hormuz</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/sep/26/us-airstrikes-ecuador-fishers" target="_blank" rel="noopener">US strikes on Ecuadorian fishing boats raise humanitarian concerns but Trump admin not wavering</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/sports/20260926-munich-picked-for-germany-s-bid-to-host-the-summer-olympics-in-2036-2040-or-2044" target="_blank" rel="noopener">Munich picked for Germany's bid to host the Summer Olympics in 2036, 2040 or 2044</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.politico.eu/article/ireland-israel-football-match-players-vote-to-play/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">‘You can’t win’: Ireland’s football team to play Israel despite player protest</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes" target="_blank" rel="noopener">At least 16 people killed as Russia and Ukraine trade deadly air strikes</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20260926-paris-struggles-to-stamp-out-its-cigarette-butt-pollution-problem" target="_blank" rel="noopener">Volunteers step up to help Paris stamp out its cigarette butt problem</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260926-iran-proposes-hormuz-plan-trump-reportedly-refuses" target="_blank" rel="noopener">Trump says he rejects Iran proposal on Strait of Hormuz</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260926-homes-for-europe-can-the-eu-s-affordable-housing-act-deliver" target="_blank" rel="noopener">Homes for Europe: can the EU’s Affordable Housing Act deliver?</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20260926-china-us-to-open-ai-communication-channel-after-summit" target="_blank" rel="noopener">China, US to open AI 'communication channel' after summit</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+  </ul>
+</details>
+
+
+  </main>
+  <script>
+    (function() {
+      var d = new Date();
+      var days = ['Su','Ma','Ti','Ke','To','Pe','La'];
+      var months = ['tammik.','helmik.','maalisk.','huhtik.','toukok.','kesäk.','heinäk.','elok.','syysk.','lokak.','marrask.','jouluk.'];
+      var el = document.getElementById('site-date');
+      if (el) el.textContent = days[d.getDay()] + ' ' + d.getDate() + '. ' + months[d.getMonth()] + ' ' + d.getFullYear();
+
+      document.querySelectorAll('a[href]').forEach(function(a) {
+        var href = a.getAttribute('href');
+        if (href && href.startsWith('http')) {
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener');
+        }
+      });
+
+      document.querySelectorAll('.digest-body').forEach(function(body) {
+        body.querySelectorAll('h3').forEach(function(h3) {
+          var div = document.createElement('div');
+          div.className = 'deep-dive';
+          h3.parentNode.insertBefore(div, h3);
+          div.appendChild(h3);
+          var next = div.nextSibling;
+          while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+            var n = next.nextSibling;
+            div.appendChild(next);
+            next = n;
+          }
+        });
+        body.querySelectorAll('ul').forEach(function(ul) {
+          ul.classList.add('brief-list');
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
