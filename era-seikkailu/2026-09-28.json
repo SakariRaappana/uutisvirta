@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-28",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään keskustellaan yhdistysten jäsenmatkojen lainsäädännöstä ja tarkastellaan susien käyttäytymistä suhteessa ihmisiin Pohjois-Amerikassa. Molemmat aiheet liittyvät retkeilyn ja luonnossa liikkumisen sääntelyyn ja turvallisuuteen.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>Yhdistyksen retki vai valmismatka?</strong><br />\nLähde: Suomen Latu<br />\nYhdistyksen jäsenmatkoihin sovelletaan erilaista lainsäädäntöä kuin kaikille avoimiin matkoihin.<br />\n<a href=\"https://www.suomenlatu.fi/yhdistyksen-retki-vai-valmismatka/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Do Wolves Ever Attack Humans?</strong><br />\nLähde: Outdoor Life<br />\nPohjois-Amerikan kasvava susikanta lisää mahdollisuuksia kohdata susia. Artikkelissa kerrotaan tietoa susien hyökkäyksistä ihmisiä kohtaan.<br />\n<a href=\"https://www.outdoorlife.com/survival/wolves-attack-humans/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1512,
+  "output_tokens": 256,
+  "sources": [
+    {
+      "title": "Yhdistyksen retki vai valmismatka?",
+      "url": "https://www.suomenlatu.fi/yhdistyksen-retki-vai-valmismatka/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Do Wolves Ever Attack Humans?",
+      "url": "https://www.outdoorlife.com/survival/wolves-attack-humans/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "He Was 80 Years Old and Still Outshot Me on Texas Quail",
+      "url": "https://www.outdoorlife.com/hunting/farm-country-quail/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
