@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-29",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään keskitytään tekoälyn taloudellisiin vaikutuksiin ja tieteellisen löytämisen rajoihin sekä Microsoft Azuren ja MCP-työkalujen elinkaaren hallintaan ja agenttien käyttöön vakuutusalan prosesseissa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Tekoälyn kustannuskysymyksissä aloitus on usein token-hinnoista ja päättyy uusimman ja tehokkaimman pilvimallin saatavuuteen. Onko aina tarpeen käyttää tällaisia resursseja? <a href=\"https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Milloin tekoäly voi todella tehdä tieteellisen löydön? Tämä kysymys on esillä, kun keskustellaan siitä, mitä tarkoittaa, kun AI:n avulla saadaan uusia oivalluksia. <a href=\"https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Microsoft Azure parantaa virtuaalikoneiden elinkaarihallintaa, mikä tarjoaa asiakkaille läpinäkyvyyttä ja ennustettavuutta. Tämä auttaa käyttäjiä hallitsemaan siirtymiä tehokkaammin. <a href=\"https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Cognizant tuo Agentic AI:n ja MCP-työkalukirjaston vakuutusalan ydinprosesseihin TriZetto-alustalla, mikä parantaa työskentelytapoja ja prosessointia. <a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxPQzVKWHU1c3NCajNaZkFkaUtrQ3dNd05zT09HN3pIX0FGWW5Wb0hhOUk3R0pxME1JY1JRRFJSWWNGa3k0YVFKYlJVR0loZk1McGdJZkVEbVZaYTdMWFhTd3p2ZS1HdndnZFM2cEl5ZmI1X3NqRnNYelhxSUwybVFlQVcxa2l6TlV1VU5GNmZVRjVTN2VJcUJRTHVpQ2pRUkYwaV8zajFhN3U2eFRqaXlDdy1zckg2dVpEWmc5b3prdV9TeW5JVXBEbFQyeWN6cGxhRDNBS2czSGxKNzAxeWpOQ0V0OTFzQVN5Vm9BTzQzSQ?oc=5\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1531,
+  "output_tokens": 636,
+  "sources": [
+    {
+      "title": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
+      "url": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Making AI an asset, not an expense",
+      "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "url": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "When can we say AI made a scientific discovery?",
+      "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Enhancing Microsoft Azure Virtual Machine lifecycle",
+      "url": "https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/",
+      "source_name": "Azure Blog"
+    },
+    {
+      "title": "The Download: rogue agent liability and the AI Hype Index",
+      "url": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Cognizant Brings Agentic AI and MCP tool library to Core Claims Operations with Workflow Agentic Processing for TriZetto - Cognizant Technology Solutions",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPQzVKWHU1c3NCajNaZkFkaUtrQ3dNd05zT09HN3pIX0FGWW5Wb0hhOUk3R0pxME1JY1JRRFJSWWNGa3k0YVFKYlJVR0loZk1McGdJZkVEbVZaYTdMWFhTd3p2ZS1HdndnZFM2cEl5ZmI1X3NqRnNYelhxSUwybVFlQVcxa2l6TlV1VU5GNmZVRjVTN2VJcUJRTHVpQ2pRUkYwaV8zajFhN3U2eFRqaXlDdy1zckg2dVpEWmc5b3prdV9TeW5JVXBEbFQyeWN6cGxhRDNBS2czSGxKNzAxeWpOQ0V0OTFzQVN5Vm9BTzQzSQ?oc=5",
+      "source_name": "Google News: agentic AI"
+    }
+  ],
+  "homepage_candidates": []
+}

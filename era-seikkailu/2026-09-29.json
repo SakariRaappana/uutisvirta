@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-29",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa käsitellään Winchestersin pitkää historiaa täydellisen autoloading-haulikon kehityksessä, trofee-metsästyksen vaikutuksia Afrikan luontoon, ja DIY-vinkkejä kaurisrasvakynttilöiden valmistukseen. Lisäksi tutustumme yleisiin hirvitautisiin ja retkeilylainsäädäntöön liittyviin eroihin yhdistysten jäsenmatkoilla.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Winchesterin tavoite kehittää täydellinen itselataava haulikko on ollut pitkä ja mielenkiintoinen matka. <a href=\"https://www.outdoorlife.com/guns/winchester-autoloaders/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Trofeemetsästyksellä on useissa tapauksissa positiivinen vaikutus Afrikan luonnon- ja asutuksen suojeluun, sillä se edistää villieläinten, elinympäristöjen ja paikallisten yhteisöjen hyvinvointia. <a href=\"https://www.outdoorlife.com/conservation/trophy-hunting-benefits/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Opas kertoo, miten tehdä helposti kaurisrasvasta kynttilöitä, mikä mahdollistaa saaliin hyödyntämisen monipuolisesti. <a href=\"https://www.outdoorlife.com/hunting/diy-deer-tallow-candles/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Yleisimmät taudit, joille villit hirvieläimet altistuvat, ovat usein haastavia tunnistaa, mutta metsästäjillä on paljon opittavaa näistä yleisistä sairauksista. <a href=\"https://www.outdoorlife.com/conservation/common-deer-diseases/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Yhdistyksen jäsenmatkalle ja kaikille avointen matkojen välillä on eroja lainkäytössä, mikä voi vaikuttaa muun muassa kulujen ja vastuiden jakautumiseen. <a href=\"https://www.suomenlatu.fi/yhdistyksen-retki-vai-valmismatka/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1764,
+  "output_tokens": 445,
+  "sources": [
+    {
+      "title": "How Winchester Spent a Century Chasing the Perfect Autoloading Shotgun",
+      "url": "https://www.outdoorlife.com/guns/winchester-autoloaders/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Can You Blame Hunters for Wanting to Move to Montana? Locals Do",
+      "url": "https://www.outdoorlife.com/opinion/outdoorsmen-moving-montana/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "‘Trophy’ Hunting Boosts Habitat Conservation in Africa 92 Percent of the Time, Study Shows",
+      "url": "https://www.outdoorlife.com/conservation/trophy-hunting-benefits/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Marathon GSAR Anthracite Review: A Mechanical Watch Built for the Outdoors",
+      "url": "https://www.outdoorlife.com/gear/marathon-gsar-anthracite-review-a-mechanical-watch-built-for-the-outdoors/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Today’s Best Early Prime Day Deals on EDC Knives",
+      "url": "https://www.outdoorlife.com/gear/best-early-prime-day-deals-on-edc-knives/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Make Candles Out of Deer Tallow",
+      "url": "https://www.outdoorlife.com/hunting/diy-deer-tallow-candles/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "9 Deer Diseases Every Hunter Should Know About",
+      "url": "https://www.outdoorlife.com/conservation/common-deer-diseases/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "A Secret Lake, a Sheer Cliff, and 19-Inch Trout Nobody Could Identify",
+      "url": "https://www.outdoorlife.com/fishing/hidden-trout-lake/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Stories from Western Hunting Legend Jim Zumbo",
+      "url": "https://www.rokslide.com/stories-from-western-hunting-legend-jim-zumbo/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Yhdistyksen retki vai valmismatka?",
+      "url": "https://www.suomenlatu.fi/yhdistyksen-retki-vai-valmismatka/",
+      "source_name": "Suomen Latu"
+    }
+  ],
+  "homepage_candidates": []
+}

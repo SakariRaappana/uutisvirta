@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-09-29 — Datascience konsultointi — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,23 +358,23 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
-           >
+        <a href="../datascience-konsultointi/index.html"
+           class="active">
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
+        <a href="../era-seikkailu/index.html"
            >
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
+        <a href="../politiikka/index.html"
            >
           Politiikka
         </a>
@@ -384,238 +384,62 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-09-29</p>
+<div class="day-nav">
+  <span><a href="2026-09-25.html">← 2026-09-25</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Datascience konsultointi</div>
+<h1>2026-09-29</h1>
+<p class="meta">
+  <span>4 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>2167 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Politiikka</div>
-  <h2 class="featured-title">
-    <a href="https://www.politico.eu/podcast/brussels-playbook-podcast/a-new-era-for-european-defense/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">A new era for European defense?</a>
-  </h2>
-  
-  <div class="featured-why">EU-maiden puolustusministerien keskustelu EU:n omasta kriisitilanteiden turvallisuusmekanismista voisi muuttaa sitä, miten Eurooppa reagoi uhkiin ilman Naton johtorakennetta, mikä on Suomelle strategisesti olennainen kysymys.</div>
-  
-  <div class="featured-meta">
-    
-    Politico Europe · eilen ·
-    <a href="politiikka/2026-09-28.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään keskitytään tekoälyn taloudellisiin vaikutuksiin ja tieteellisen löytämisen rajoihin sekä Microsoft Azuren ja MCP-työkalujen elinkaaren hallintaan ja agenttien käyttöön vakuutusalan prosesseissa.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p>Tekoälyn kustannuskysymyksissä aloitus on usein token-hinnoista ja päättyy uusimman ja tehokkaimman pilvimallin saatavuuteen. Onko aina tarpeen käyttää tällaisia resursseja? <a href="https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/">Lue lisää</a></p>
+</li>
+<li>
+<p>Milloin tekoäly voi todella tehdä tieteellisen löydön? Tämä kysymys on esillä, kun keskustellaan siitä, mitä tarkoittaa, kun AI:n avulla saadaan uusia oivalluksia. <a href="https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/">Lue lisää</a></p>
+</li>
+<li>
+<p>Microsoft Azure parantaa virtuaalikoneiden elinkaarihallintaa, mikä tarjoaa asiakkaille läpinäkyvyyttä ja ennustettavuutta. Tämä auttaa käyttäjiä hallitsemaan siirtymiä tehokkaammin. <a href="https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/">Lue lisää</a></p>
+</li>
+<li>
+<p>Cognizant tuo Agentic AI:n ja MCP-työkalukirjaston vakuutusalan ydinprosesseihin TriZetto-alustalla, mikä parantaa työskentelytapoja ja prosessointia. <a href="https://news.google.com/rss/articles/CBMi7wFBVV95cUxPQzVKWHU1c3NCajNaZkFkaUtrQ3dNd05zT09HN3pIX0FGWW5Wb0hhOUk3R0pxME1JY1JRRFJSWWNGa3k0YVFKYlJVR0loZk1McGdJZkVEbVZaYTdMWFhTd3p2ZS1HdndnZFM2cEl5ZmI1X3NqRnNYelhxSUwybVFlQVcxa2l6TlV1VU5GNmZVRjVTN2VJcUJRTHVpQ2pRUkYwaV8zajFhN3U2eFRqaXlDdy1zckg2dVpEWmc5b3prdV9TeW5JVXBEbFQyeWN6cGxhRDNBS2czSGxKNzAxeWpOQ0V0OTFzQVN5Vm9BTzQzSQ?oc=5">Lue lisää</a></p>
+</li>
+</ul>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (7)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.rfi.fr/en/international/20260926-homes-for-europe-can-the-eu-s-affordable-housing-act-deliver" target="_blank" rel="noopener">Homes for Europe: can the EU’s Affordable Housing Act deliver?</a>
-      </div>
-      
-      <div class="news-card-why">EU:n suunnittelema Affordable Housing Act voi vaikuttaa suoraan asumisen hintasääntelyn suuntaan ja siihen, millaisia politiikkaratkaisuja Suomessakin aletaan pitää mahdollisina.</div>
-      
-      <div class="news-card-meta">
-        
-        RFI English · 2 pv sitten ·
-        <a href="politiikka/2026-09-27.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/" target="_blank" rel="noopener">Coming soon: Our 2026 list of Climate Tech Companies to Watch</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
+    
+    <li><a href="https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/" target="_blank" rel="noopener">Making AI an asset, not an expense</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
+    
+    <li><a href="https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/" target="_blank" rel="noopener">Roundtables: The Deadly Failures of The Virtual Border Wall</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
+    
+    <li><a href="https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/" target="_blank" rel="noopener">When can we say AI made a scientific discovery?</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
+    
+    <li><a href="https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/" target="_blank" rel="noopener">Enhancing Microsoft Azure Virtual Machine lifecycle</a> <span style="color:var(--muted)">— Azure Blog</span></li>
+    
+    <li><a href="https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/" target="_blank" rel="noopener">The Download: rogue agent liability and the AI Hype Index</a> <span style="color:var(--muted)">— MIT Technology Review — AI</span></li>
+    
+    <li><a href="https://news.google.com/rss/articles/CBMi7wFBVV95cUxPQzVKWHU1c3NCajNaZkFkaUtrQ3dNd05zT09HN3pIX0FGWW5Wb0hhOUk3R0pxME1JY1JRRFJSWWNGa3k0YVFKYlJVR0loZk1McGdJZkVEbVZaYTdMWFhTd3p2ZS1HdndnZFM2cEl5ZmI1X3NqRnNYelhxSUwybVFlQVcxa2l6TlV1VU5GNmZVRjVTN2VJcUJRTHVpQ2pRUkYwaV8zajFhN3U2eFRqaXlDdy1zckg2dVpEWmc5b3prdV9TeW5JVXBEbFQyeWN6cGxhRDNBS2czSGxKNzAxeWpOQ0V0OTFzQVN5Vm9BTzQzSQ?oc=5" target="_blank" rel="noopener">Cognizant Brings Agentic AI and MCP tool library to Core Claims Operations with Workflow Agentic Processing for TriZetto - Cognizant Technology Solutions</a> <span style="color:var(--muted)">— Google News: agentic AI</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://devblogs.microsoft.com/foundry/from-chatbots-to-automated-assistants-routines-in-microsoft-foundry-are-now-generally-available/" target="_blank" rel="noopener">From Chatbots to Automated Agents: Routines in Microsoft Foundry Are Now Generally Available</a>
-      </div>
-      
-      <div class="news-card-why">Rutiinien GA-julkaisu Foundryssa muuttaa suoraan sitä, millaisiin event-driven ja autonomisiin agenttiratkaisuihin voit siirtyä asiakkailla ilman preview-riippuvuutta.</div>
-      
-      <div class="news-card-meta">
-        
-        Microsoft Foundry Blog · 4 pv sitten ·
-        <a href="datascience-konsultointi/2026-09-25.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://devblogs.microsoft.com/agent-framework/interactive-experiences-memory-and-resilient-execution/" target="_blank" rel="noopener">What’s new in Microsoft Agent Framework: Interactive experiences, memory, and resilient execution</a>
-      </div>
-      
-      <div class="news-card-why">Uudet interaktiiviset kokemukset, muisti ja resilientti suoritus MAF:ssa vaikuttavat suoraan siihen, miten suunnittelet tuotantokelpoisia agentteja ja millä kypsyystasolla frameworkia kannattaa käyttää asiakasprojekteissa.</div>
-      
-      <div class="news-card-meta">
-        
-        Microsoft Agent Framework Blog · 4 pv sitten ·
-        <a href="datascience-konsultointi/2026-09-25.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-  </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.outdoorlife.com/guns/atf-suppressor-guidance/" target="_blank" rel="noopener">ATF Director Says Suppressor Transfers Without Form 4s Are Okay, More Guidance to Come</a>
-      </div>
-      
-      <div class="news-card-why">ATF:n uusi ohjeistus voi muuttaa käytännön suppressor-siirtoja heti, mikä on suoraan relevanttia asehankintojen, metsästyskaluston ja asiakkaiden neuvonnan kannalta.</div>
-      
-      <div class="news-card-meta">
-        
-        Outdoor Life · 3 pv sitten ·
-        <a href="era-seikkailu/2026-09-26.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.outdoorlife.com/gear/best-cellular-trail-cameras-2026/" target="_blank" rel="noopener">The Best Cellular Trail Cameras: The Complete Guide to Cell Cams and Subscription Plans</a>
-      </div>
-      
-      <div class="news-card-why">Solukkokameravertailu ja liittymäsopimusten hinnat vaikuttavat suoraan siihen, mitä jäljitys- ja riistakameraratkaisuja kannattaa käyttää metsästyksen ja riistan seurannan dokumentointiin.</div>
-      
-      <div class="news-card-meta">
-        
-        Outdoor Life · 3 pv sitten ·
-        <a href="era-seikkailu/2026-09-26.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-  </ul>
-  
-</section>
-
-
-
+</details>
 
 
   </main>
