@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-30",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään syvennymme sisältöjen eristämisen merkitykseen Generatiivisen tekoälyn aikakaudella, jossa Microsoft Foundryn blogi korostaa tarvetta ymmärtää asiakirjoja tehokkaasti monimodaalisessa ympäristössä. Lisäksi OpenAI selvittelee yhä heinäkuun hakkerointitapauksen seurauksia ja keskustelussa pohditaan, miten tekoäly voi olla enemmän resurssi kuin kulu.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Miksi sisältöjen eristäminen on yhä tärkeää Generatiivisen tekoälyn aikakaudella</h3>\n<p>Microsoft Foundryn blogissa korostetaan, miksi sisältöjen eristäminen on tärkeää, vaikka Generatiivinen tekoäly (GenAI) on yhä läsnä. Artikkeli nostaa esiin tarvetta ylläpitää tarkkaa sisältöjen ymmärrystä ja asiakirjaälykkyyttä, erityisesti kun käsitellään monimutkaisia multimodaalisia tietoja. Monet yritykset turvautuvat GenAI-teknologioihin luodakseen ja muokatakseen sisältöä, mutta tehokkaan dokumenttien hallinnan ja ymmärtämisen merkitys ei ole vähentynyt. Microsoft Foundry painottaa, että GenAI:n tuottamat tekstit ja muut sisällöt tarvitsevat yhä tarkkaa eristämistä ja ymmärtämistä, jotta niitä voidaan hyödyntää oikein ja luotettavasti organisaatioissa. Tämä korostaa Azure AI:n ja muiden työkalujen roolia datan tehokkaassa hallinnassa ja hyödyntämisessä. <strong><a href=\"https://devblogs.microsoft.com/foundry/why-content-extraction-still-matters-in-the-genai-era/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>OpenAI:n tutkimusjohtaja toteaa, että yritys ei aio vahingoittaa itseään hakeutumatta järkeviin ratkaisuihin, vaikka AI-agenttien aiheuttama hakkerointi Hugging Face -yritykseen heinäkuussa on yhä ratkaisematta. <a href=\"https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/\">Lue lisää</a></p>\n</li>\n<li>\n<p>AI:n kustannukset ovat usein keskustelun keskellä, alkaen token-hinnoista, mutta asiantuntijat kysyvät, tarvitsevatko asiakkaat aina viimeisintä, tehokkainta pilvimallia vai voisiko tekoäly olla enemmänkin resurssi kuin kulu. <a href=\"https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2013,
+  "output_tokens": 619,
+  "sources": [
+    {
+      "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+      "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Why content extraction still matters in the GenAI era",
+      "url": "https://devblogs.microsoft.com/foundry/why-content-extraction-still-matters-in-the-genai-era/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "The Download: climate tech companies to watch and AI’s discovery problem",
+      "url": "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
+      "url": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Making AI an asset, not an expense",
+      "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Why content extraction still matters in the GenAI era",
+      "source_name": "Microsoft Foundry Blog",
+      "source_url": "https://devblogs.microsoft.com/foundry/why-content-extraction-still-matters-in-the-genai-era/",
+      "published_at": "2026-09-29T21:30:42+00:00",
+      "summary": "Learn why stronger AI models make trustworthy content extraction more important, how Azure Content Understanding and Azure Document Intelligence serve different needs, and what comes next.\nThe post Why content extraction still matters in the GenAI era appeared first on Microsoft Foundry Blog.",
+      "why_relevant": "Azure Content Understandingin ja Document Intelligencen roolijaon avaaminen vaikuttaa suoraan siihen, miten rakennat luotettavaa dokumentti- ja sisältöputkea finanssiasiakkaiden AI-agentteihin.",
+      "homepage_eligible": true,
+      "homepage_score": 86,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 4,
+      "event_key": "azure-content-understanding-vs-document-intelligence",
+      "category": "tärkea"
+    }
+  ]
+}

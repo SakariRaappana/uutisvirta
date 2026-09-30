@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-30",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa keskusteltiin metsästyksen ja luonnon kohtaamisista, muun muassa suden ja hirvieläimen käyttäytymisestä. Lisäksi huomio kiinnittyy uusiin Everest-retkikuntiin, tehokkaisiin jousipyssyihin sekä perinteisiin metsästysmenetelmiin ja -tekniikoihin.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p><em>Tänään ei ole syväanalyysejä.</em></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Ruotsissa Törebodan kunnassa ammuttiin susi, joka oli kohdannut metsästyskoiran. Tilanne ei rauhoittunut pelkällä varoituslaukauksella, joten susi jouduttiin lopulta ampumaan. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/varg-skots-efter-mote-med-jakthund/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Valkohäntäpeuran mahtava hajuaisti määrittää sen elämän ja kuoleman. Artikkeli selventää, kuinka hyvin peura todella haistaa verrattuna ihmiseen. <a href=\"https://www.outdoorlife.com/conservation/heres-why-a-deers-sense-of-smell-is-so-much-better-than-yours/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Neljä venäläistä kiipeilijää yrittää tänä syksynä uutta reittiä Mount Everestille ilman lisähappea. He ovat alueella ainoina kiipeilijöinä, mikä eroaa vilkkaasta kevätkaudesta. <a href=\"https://explorersweb.com/there-will-be-an-everest-expedition-this-fall-off-the-normal-route/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Wisconsinin jousimetsästäjä Tim Potter luuli metsästyksensä epäonnistuneen naapurin melutessa mönkijällä, mutta onnistui lopulta kaatamaan valtavan 214-tuumaisen hirvieläimen. <a href=\"https://www.outdoorlife.com/hunting/crossbow-hunter-stalks-big-buck/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Artikkelissa kerrotaan metsästystarinoita Kalliovuorilta, joissa korostetaan vanhan koulukunnan oppia: päästä mahdollisimman lähelle ennen ampumista. <a href=\"https://www.outdoorlife.com/hunting/close-range-hunting/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Metsästystorni ei olekaan niin korkealla kuin oletat, ja tämä voi olla hyvä asia. Tornin korkeuden vaikutuksia ampumakulmaan ja laukauksen esillepanoon käsitellään tarkemmin. <a href=\"https://www.outdoorlife.com/hunting/best-treestand-height/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Testasimme alle 1200 dollarin jousipyssyjä ja ne osoittautuivat poikkeuksellisen hyviksi. Näillä jousipyssyillä ammutaan tarkkoja laukauksia ja ne ovat täynnä korkealuokkaisia ominaisuuksia. <a href=\"https://www.outdoorlife.com/gear/we-tested-crossbows-under-1200/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 7,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2014,
+  "output_tokens": 681,
+  "sources": [
+    {
+      "title": "Varg sköts efter möte med jakthund",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/varg-skots-efter-mote-med-jakthund/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Here’s Why a Deer’s Sense of Smell Is So Much Better Than Yours",
+      "url": "https://www.outdoorlife.com/conservation/heres-why-a-deers-sense-of-smell-is-so-much-better-than-yours/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "There Will Be An Everest Expedition This Fall, Off The Normal Route",
+      "url": "https://explorersweb.com/there-will-be-an-everest-expedition-this-fall-off-the-normal-route/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Longtime Alligator Guide Catches One of the Biggest Gators on Record",
+      "url": "https://www.outdoorlife.com/hunting/alligator-guide-catches-record-louisiana-gator/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Wisconsin Crossbow Hunter Stalked Into Range of This Monster 214-Inch Buck",
+      "url": "https://www.outdoorlife.com/hunting/crossbow-hunter-stalks-big-buck/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "“Get Close Before You Shoot!” Old-School Lessons from a Grizzly and Goat Hunting Adventure",
+      "url": "https://www.outdoorlife.com/hunting/close-range-hunting/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "What’s the Best Height to Hang Your Treestand? We Put It to the Test",
+      "url": "https://www.outdoorlife.com/hunting/best-treestand-height/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Today’s Best Early Prime Day Deals on EDC Knives",
+      "url": "https://www.outdoorlife.com/gear/best-early-prime-day-deals-on-edc-knives/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "We Tested Crossbows Under $1,200 and They’re Shockingly Good",
+      "url": "https://www.outdoorlife.com/gear/we-tested-crossbows-under-1200/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Why Were Local Crews Left in Base Camp During a Major Storm?",
+      "url": "https://explorersweb.com/why-were-local-crews-left-in-base-camp-during-a-major-storm/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "19 Early Prime Day Deals on Hunting Gear: Trail Cams, Ozone Generators, Optics, and More",
+      "url": "https://www.outdoorlife.com/gear/early-prime-day-deals-on-hunting-gear/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
