@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-01",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään saimme tietää Instagramin edistyneen tekoälypohjaisten käyttöliittymien kehityksessä Jetpack Composen avulla ja Microsoftin panostavan Azure-pilvi-infrastruktuurin elinkaaren hallintaan, tehdäkseen siitä ympäristöystävällisemmän ja tehokkaamman.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p><em>(Tänään ei ole tärkeimpiä uutisia)</em></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Instagram Directin insinöörit ovat kehittäneet tekoälypohjaisen käyttöliittymärakenteen Jetpack Composella, mikä on tuonut 33% säästöt agenttikohtaisten istuntojen token-kuluissa. <a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlRFMVd3eUM3eWhtVm5yNnVYbi1ZNFRkTzItNTM3R2UxTV9RWENMOVVEcHBkVXJ4Nnl4M0d5YWR3SUZQd0cyQTBkOU5tdktmamwybmlXOUE3NTBQQ1lyRkk0Z2QxMVBYLVhrQ3FSZXhEal9UR2dPeWZYUnlJVU9zNHE2Z0NRSWNHeDNBblBVMGtXdXlHRFRnQ1F1N2h6SUVIR3c?oc=5\">Lue lisää</a></p>\n</li>\n<li>\n<p>Microsoft kehittää Azure-pilvi-infrastruktuuriaan tehokkaammaksi ja ympäristöystävällisemmäksi hyödyntämällä Circular Centers -keskuksia, jotka pidentävät datakeskuslaitteiden käyttöikää. <a href=\"https://azure.microsoft.com/en-us/blog/responsible-infrastructure-at-hyperscale-managing-the-full-lifecycle-of-azure-hardware/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1265,
+  "output_tokens": 420,
+  "sources": [
+    {
+      "title": "An AI “mind-reading” tool can reconstruct what you’re looking at based on a brain scan",
+      "url": "https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "How smaller, distributed batteries could help the grid",
+      "url": "https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "How Instagram Direct engineers built AI-native UI architecture with Jetpack Compose and reduced token cost per agent session by 33% - blog.google",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlRFMVd3eUM3eWhtVm5yNnVYbi1ZNFRkTzItNTM3R2UxTV9RWENMOVVEcHBkVXJ4Nnl4M0d5YWR3SUZQd0cyQTBkOU5tdktmamwybmlXOUE3NTBQQ1lyRkk0Z2QxMVBYLVhrQ3FSZXhEal9UR2dPeWZYUnlJVU9zNHE2Z0NRSWNHeDNBblBVMGtXdXlHRFRnQ1F1N2h6SUVIR3c?oc=5",
+      "source_name": "Google News: AI agents architecture"
+    },
+    {
+      "title": "Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware",
+      "url": "https://azure.microsoft.com/en-us/blog/responsible-infrastructure-at-hyperscale-managing-the-full-lifecycle-of-azure-hardware/",
+      "source_name": "Azure Blog"
+    },
+    {
+      "title": "The Download: OpenAI’s chief research officer explains its hacking response",
+      "url": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+      "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
