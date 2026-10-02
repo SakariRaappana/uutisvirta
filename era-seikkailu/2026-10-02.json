@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-02",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään tarkastellaan Afrikkalaisen sikaruton laajaa vaikutusta Ruotsissa, jonka kustannukset ovat nousseet merkittävästi. Lisäksi lyhyissä maininnoissa käsitellään muun muassa villisian yhteisjahtien mallisopimuksia ja uusia vargien määrällisiä alarajoja Ruotsissa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Afrikkalainen sikarutto aiheutti vähintään 151 miljoonan kruunun kustannukset</h3>\n<p>Ruotsissa Västmanlandin alueella tapahtunut afrikkalaisen sikaruton purkaus on tullut kalliiksi. Sikaruton torjunta- ja hallintatoimenpiteet ovat tähän mennessä kustantaneet vähintään 151 miljoonaa kruunua. Kustannukset liittyvät suurelta osin sikojen hävittämiseen sekä saastuneiden alueiden puhdistamiseen. Paikallisilla maanomistajilla on ollut merkittävä rooli vastatoimenpiteiden toteuttamisessa. Sikaruton leviäminen on vaatinut myös suuriin alueisiin kohdistunutta tarkkailua ja karanteenitoimenpiteitä taudin leviämisen estämiseksi. <strong><a href=\"https://www.jaktojagare.se/kategorier/nyheter/svinpesten-kostade-minst-151-miljoner-kronor/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Metsästäjäliitto tarjoaa mallisopimuksen metsästysseuroille villisian yhteisjahteja varten tehostamaan yhteistoimintaa ja lupaprosessien hallintaa. <a href=\"https://metsastajaliitto.fi/uutiset/mallisopimus-metsastysseuroille-villisian-yhteisjahteihin\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ruotsin Naturvårdsverket on päättänyt uusista minimitasoista vargikannalle; keskisessä alueella tulee olla vähintään 160 yksilöä ja eteläisessä 60. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/nya-miniminivaer-for-varg-jrf-vill-se-verkstad/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Suppressoirin ostajille tarjotaan kattava opas oikean mallin valintaan ja hankintaan liittyen aseiden äänenvaimentimiin. <a href=\"https://www.outdoorlife.com/guns/heres-everything-you-need-to-know-before-buying-a-new-suppressor/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kronhjortin, aikaisemmin eksklusiivisen riistan, levinneisyys laajentuu nyt aina Västerbotteniin asti Ruotsissa. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/har-glider-kingen-in/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Veteraanimetsästäjät jakavat 18 ovelaa jousimetsästysvinkkiä saadakseen monnirit satimeen lokakuun aikana. <a href=\"https://www.outdoorlife.com/hunting/sneaky-bowhunting-tricks/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Tom Dokken, Labradorinnoutajien koulutuksen uranuurtaja Yhdysvalloissa, on auttanut tuhansia metsästäjiä kouluttamaan omia koiriaan. <a href=\"https://www.outdoorlife.com/hunting/tom-dokken-labrador-retriever/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ruotsissa eläinlääkäripalvelut koetaan ylelliseksi ja vaikeasti saavutettaviksi, mikä huolestuttaa erityisesti metsästäjiä. <a href=\"https://www.jaktojagare.se/kategorier/opinion/debatt-nar-blev-veterinarvard-en-lyxvara/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 8,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 3167,
+  "output_tokens": 838,
+  "sources": [
+    {
+      "title": "Mallisopimus metsästysseuroille villisian yhteisjahteihin",
+      "url": "https://metsastajaliitto.fi/uutiset/mallisopimus-metsastysseuroille-villisian-yhteisjahteihin",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "Kayaking Solo Around Great Britain",
+      "url": "https://explorersweb.com/kayaking-solo-around-great-britain/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Nya miniminivåer för varg – JRF: “Vill se verkstad”",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/nya-miniminivaer-for-varg-jrf-vill-se-verkstad/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Here’s Everything You Need to Know Before Buying a New Suppressor",
+      "url": "https://www.outdoorlife.com/guns/heres-everything-you-need-to-know-before-buying-a-new-suppressor/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Here’s How One of the World’s Greatest Animal Behaviorists Mastered the Art of Stalking Game",
+      "url": "https://www.outdoorlife.com/hunting/valerius-geist-stalking-wild-game/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Här glider kingen in",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/har-glider-kingen-in/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "En sörmländsk Mcnab",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/en-sormlandsk-mcnab/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Veteran Bowhunters Use These 18 Sneaky Tricks to Fool Big Bucks in October",
+      "url": "https://www.outdoorlife.com/hunting/sneaky-bowhunting-tricks/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Freerider Dies in Patagonian Avalanche",
+      "url": "https://explorersweb.com/freerider-dies-in-patagonian-avalanche/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Meet the Godfather of Labrador Retriever Training in America",
+      "url": "https://www.outdoorlife.com/hunting/tom-dokken-labrador-retriever/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "DEBATT: När blev veterinärvård en lyxvara?",
+      "url": "https://www.jaktojagare.se/kategorier/opinion/debatt-nar-blev-veterinarvard-en-lyxvara/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Yksin vai yhdessä? – Suomen Latu mukana keskuttelemassa hyvinvoinnin rakentamisesta",
+      "url": "https://www.suomenlatu.fi/yksin-vai-yhdessa-suomen-latu-mukana-keskuttelemassa-hyvinvoinnin-rakentamisesta/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Svinpesten kostade minst 151 miljoner kronor",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/svinpesten-kostade-minst-151-miljoner-kronor/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": []
+}
