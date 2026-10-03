@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-03",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään tarjolla on monipuolisia uutisia eränkäyntiin liittyen. Metsästäjän turvallisuus puhututtaa Norjassa tapahtuneen surullisen metsästysonnettomuuden vuoksi. Lisäksi on jaettu hyödyllisiä vinkkejä metsästykseen sekä katsaus varustetarjouksiin ennen Prime Day -alejaksoa. Retkeilyuutisena italialaiset kiipeilijät joutuivat vaihtamaan huipun Nepalissa maanvyöryjen vuoksi.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Varhainen siipiammunta voi olla haastavaa, ja tuore artikkeli listaa viisi yleistä virhettä, jotka tekevät siitä vielä vaikeampaa. <a href=\"https://www.outdoorlife.com/hunting/5-reasons-you-suck-at-shooting-ducks-and-doves/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kolme erilaista peuranvetokärryä testattiin monenlaisessa maastossa, ja artikkelissa vertaillaan niiden tehokkuutta vetämisen sijaan. <a href=\"https://www.outdoorlife.com/gear/stop-dragging-your-deer-use-one-of-these-instead/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Arkistoartikkeli kertoo jännittävästä kohtaamisesta, jossa metsästäjä puolustautui latinkoon ryntäävää harmaakarhua vastaan käyttäen jääkiipeilyhakkuja. <a href=\"https://www.outdoorlife.com/hunting/i-felt-it-sink-to-the-handle-this-hunter-used-an-ice-axe-to-fight-off-a-charging-grizzly-bear/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Prime Day - tarjoukset alkavat virallisesti 6.-7. lokakuuta, mutta Amazonilla on jo alennuksia optiikoista, riistakameroista ja muista välineistä. <a href=\"https://www.outdoorlife.com/gear/best-early-prime-day-deals-on-outdoor-gear/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Vanhan koulukunnan taktiikat peurojen jahtaamiseen joen ja rämeen ympärillä vaativat märkiä jalkoja, mutta voivat tuoda tulosta tällä metsästyskaudella. <a href=\"https://www.outdoorlife.com/hunting/old-school-tactics-for-hunting-swamp-bucks/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Min Jaktlagsplats -palvelu pyrkii yhdistämään metsästäjät ja metsästysseurat, mikä helpottaa uusien metsästysmahdollisuuksien löytämistä. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/har-ska-jagare-och-jaktlag-hitta-varandra/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Italialaiset kiipeilijät joutuivat muuttamaan kiipeilykohdettaan Nepalin lumivyöryjen vuoksi, ja yrittävät nyt tehdä ensihuiputuksen toiselle vuorelle. <a href=\"https://explorersweb.com/a-plan-b-first-ascent-nepal-landslides-force-veteran-italians-to-change-peaks/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Remington 1100 -haulikko oli aikoinaan paras kaasukäyttöinen puoliautomaatti ja on edelleen erinomainen valinta metsästäjille. <a href=\"https://www.outdoorlife.com/guns/remington-110-shotgun-review/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Norjassa on tapahtunut vakava metsästysonnettomuus, jossa yksi metsästäjä kuoli ja toinen on pidätetty epäiltynä kuoleman tuottamuksesta. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/jagare-dod-under-fageljakt-jaktkamrat-anhallen/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Metsästäjäliitto on julkaissut mallisopimuksen metsästysseuroille villisian yhteisjahteihin, mikä voi parantaa yhteistyötä ja turvallisuutta metsästyksessä. <a href=\"https://metsastajaliitto.fi/uutiset/mallisopimus-metsastysseuroille-villisian-yhteisjahteihin\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 10,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2418,
+  "output_tokens": 902,
+  "sources": [
+    {
+      "title": "The Top 5 Reasons You Suck at Shooting Ducks and Doves",
+      "url": "https://www.outdoorlife.com/hunting/5-reasons-you-suck-at-shooting-ducks-and-doves/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Stop Dragging Your Deer. Use One of These Instead",
+      "url": "https://www.outdoorlife.com/gear/stop-dragging-your-deer-use-one-of-these-instead/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "“I Felt It Sink to the Handle.” This Hunter Used an Ice Axe to Fight Off a Charging Grizzly Bear",
+      "url": "https://www.outdoorlife.com/hunting/i-felt-it-sink-to-the-handle-this-hunter-used-an-ice-axe-to-fight-off-a-charging-grizzly-bear/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Today’s Best Early Prime Day Deals on Outdoor Gear We’d Actually Buy",
+      "url": "https://www.outdoorlife.com/gear/best-early-prime-day-deals-on-outdoor-gear/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Old-School Tactics for Hunting Bucks Around Streams and Swamps",
+      "url": "https://www.outdoorlife.com/hunting/old-school-tactics-for-hunting-swamp-bucks/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Här ska jägare och jaktlag hitta varandra",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/har-ska-jagare-och-jaktlag-hitta-varandra/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "A Plan B First Ascent: Nepal Landslides Force Veteran Italians to Change Peaks",
+      "url": "https://explorersweb.com/a-plan-b-first-ascent-nepal-landslides-force-veteran-italians-to-change-peaks/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The Remington 1100 Was the Greatest Gas-Operated Semiauto of Its Time. And It’s Still an Excellent Shotgun Today",
+      "url": "https://www.outdoorlife.com/guns/remington-110-shotgun-review/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Unicycling Around the World",
+      "url": "https://explorersweb.com/unicycling-around-the-world/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Jägare död under fågeljakt – jaktkamrat anhållen",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/jagare-dod-under-fageljakt-jaktkamrat-anhallen/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Mallisopimus metsästysseuroille villisian yhteisjahteihin",
+      "url": "https://metsastajaliitto.fi/uutiset/mallisopimus-metsastysseuroille-villisian-yhteisjahteihin",
+      "source_name": "Metsästäjäliitto"
+    }
+  ],
+  "homepage_candidates": []
+}

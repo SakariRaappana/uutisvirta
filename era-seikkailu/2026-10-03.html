@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-10-03 — Erä & seikkailu — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,23 +358,23 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
+        <a href="../datascience-konsultointi/index.html"
            >
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
-           >
+        <a href="../era-seikkailu/index.html"
+           class="active">
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
+        <a href="../politiikka/index.html"
            >
           Politiikka
         </a>
@@ -384,222 +384,87 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-10-03</p>
+<div class="day-nav">
+  <span><a href="2026-10-02.html">← 2026-10-02</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Erä & seikkailu</div>
+<h1>2026-10-03</h1>
+<p class="meta">
+  <span>10 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>3320 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Politiikka</div>
-  <h2 class="featured-title">
-    <a href="https://www.rfi.fr/en/international/20261002-eu-approves-tougher-migration-rules-in-latest-push-to-tighten-borders" target="_blank" rel="noopener">EU approves tougher migration rules in latest push to tighten borders</a>
-  </h2>
-  
-  <div class="featured-why">EU:n tiukemmat paluu- ja rajavalvontasäännöt voivat muuttaa jäsenmaiden käytäntöjä nopeasti myös Suomessa, etenkin turvapaikka-, palautus- ja viranomaisyhteistyössä.</div>
-  
-  <div class="featured-meta">
-    <span class="badge-new">Uusi</span>
-    RFI English · tänään ·
-    <a href="politiikka/2026-10-03.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään tarjolla on monipuolisia uutisia eränkäyntiin liittyen. Metsästäjän turvallisuus puhututtaa Norjassa tapahtuneen surullisen metsästysonnettomuuden vuoksi. Lisäksi on jaettu hyödyllisiä vinkkejä metsästykseen sekä katsaus varustetarjouksiin ennen Prime Day -alejaksoa. Retkeilyuutisena italialaiset kiipeilijät joutuivat vaihtamaan huipun Nepalissa maanvyöryjen vuoksi.</p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p>Varhainen siipiammunta voi olla haastavaa, ja tuore artikkeli listaa viisi yleistä virhettä, jotka tekevät siitä vielä vaikeampaa. <a href="https://www.outdoorlife.com/hunting/5-reasons-you-suck-at-shooting-ducks-and-doves/">Lue lisää</a></p>
+</li>
+<li>
+<p>Kolme erilaista peuranvetokärryä testattiin monenlaisessa maastossa, ja artikkelissa vertaillaan niiden tehokkuutta vetämisen sijaan. <a href="https://www.outdoorlife.com/gear/stop-dragging-your-deer-use-one-of-these-instead/">Lue lisää</a></p>
+</li>
+<li>
+<p>Arkistoartikkeli kertoo jännittävästä kohtaamisesta, jossa metsästäjä puolustautui latinkoon ryntäävää harmaakarhua vastaan käyttäen jääkiipeilyhakkuja. <a href="https://www.outdoorlife.com/hunting/i-felt-it-sink-to-the-handle-this-hunter-used-an-ice-axe-to-fight-off-a-charging-grizzly-bear/">Lue lisää</a></p>
+</li>
+<li>
+<p>Prime Day - tarjoukset alkavat virallisesti 6.-7. lokakuuta, mutta Amazonilla on jo alennuksia optiikoista, riistakameroista ja muista välineistä. <a href="https://www.outdoorlife.com/gear/best-early-prime-day-deals-on-outdoor-gear/">Lue lisää</a></p>
+</li>
+<li>
+<p>Vanhan koulukunnan taktiikat peurojen jahtaamiseen joen ja rämeen ympärillä vaativat märkiä jalkoja, mutta voivat tuoda tulosta tällä metsästyskaudella. <a href="https://www.outdoorlife.com/hunting/old-school-tactics-for-hunting-swamp-bucks/">Lue lisää</a></p>
+</li>
+<li>
+<p>Min Jaktlagsplats -palvelu pyrkii yhdistämään metsästäjät ja metsästysseurat, mikä helpottaa uusien metsästysmahdollisuuksien löytämistä. <a href="https://www.jaktojagare.se/kategorier/nyheter/har-ska-jagare-och-jaktlag-hitta-varandra/">Lue lisää</a></p>
+</li>
+<li>
+<p>Italialaiset kiipeilijät joutuivat muuttamaan kiipeilykohdettaan Nepalin lumivyöryjen vuoksi, ja yrittävät nyt tehdä ensihuiputuksen toiselle vuorelle. <a href="https://explorersweb.com/a-plan-b-first-ascent-nepal-landslides-force-veteran-italians-to-change-peaks/">Lue lisää</a></p>
+</li>
+<li>
+<p>Remington 1100 -haulikko oli aikoinaan paras kaasukäyttöinen puoliautomaatti ja on edelleen erinomainen valinta metsästäjille. <a href="https://www.outdoorlife.com/guns/remington-110-shotgun-review/">Lue lisää</a></p>
+</li>
+<li>
+<p>Norjassa on tapahtunut vakava metsästysonnettomuus, jossa yksi metsästäjä kuoli ja toinen on pidätetty epäiltynä kuoleman tuottamuksesta. <a href="https://www.jaktojagare.se/kategorier/nyheter/jagare-dod-under-fageljakt-jaktkamrat-anhallen/">Lue lisää</a></p>
+</li>
+<li>
+<p>Metsästäjäliitto on julkaissut mallisopimuksen metsästysseuroille villisian yhteisjahteihin, mikä voi parantaa yhteistyötä ja turvallisuutta metsästyksessä. <a href="https://metsastajaliitto.fi/uutiset/mallisopimus-metsastysseuroille-villisian-yhteisjahteihin">Lue lisää</a></p>
+</li>
+</ul>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (11)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.france24.com/en/tv-shows/talking-europe/20261002-a-grim-winter-ahead-eu-states-asked-to-prepare-gas-and-electricity-savings" target="_blank" rel="noopener">A grim winter ahead? EU states asked to prepare gas and electricity savings</a>
-      </div>
-      
-      <div class="news-card-why">EU-mailta pyydetty energiansäästö kertoo suoraan talven hinta- ja toimitusriskeistä, joihin suomalaisen talous- ja politiikkaseurannan kannattaa varautua nyt.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        France 24 — Europe · tänään ·
-        <a href="politiikka/2026-10-03.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/hunting/5-reasons-you-suck-at-shooting-ducks-and-doves/" target="_blank" rel="noopener">The Top 5 Reasons You Suck at Shooting Ducks and Doves</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.rfi.fr/en/france/20260930-france-faces-%E2%82%AC340bn-borrowing-crunch-as-government-braces-for-2027-budget" target="_blank" rel="noopener">France faces record €340bn borrowing test as government braces for 2027 budget</a>
-      </div>
-      
-      <div class="news-card-why">Ranskan velkaantuminen ja ensi vuoden budjettitaisto vaikuttavat suoraan euroalueen korko-odotuksiin, finanssipolitiikan liikkumatilaan ja siihen, miten tiukasti EU:ssa suhtaudutaan alijäämiin.</div>
-      
-      <div class="news-card-meta">
-        
-        RFI English · 2 pv sitten ·
-        <a href="politiikka/2026-10-01.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/gear/stop-dragging-your-deer-use-one-of-these-instead/" target="_blank" rel="noopener">Stop Dragging Your Deer. Use One of These Instead</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://news.google.com/rss/articles/CBMiiwJBVV95cUxNWVBTU3JTZllsc1Z2ZjZYX2NjanpOejduZWhmRXBCN0Q4M2QwVDFIcVZ0ZG8tdUpkNWtoS2RVdjc3LV9sQ1pSTVp2ODJzaTN1azNsQzlmZnoyNmR1QnotUE5NMTNMbUJqRTZZalZ4azNRbFRxVkMteXRfa0VoSlg2VnhOdmlOU2pmb1YzNll2TWVXRnNzR2RpVXcxSFpacWU3ZlJZZDRpOU9aMFdZUV80T1RQbEp6WXJyZFF1NE9CLXZlSkZnSjBfdXBuMVRXWUV2SXBfWGFKY2p4NUlkLU5nbTFwSjdGYWx6RUwxcGo5NEVJSUNHVEZIeXZiWWRGQm93QjBoUUlna194ZTQ?oc=5" target="_blank" rel="noopener">Without Fear or Favour: The European Commission’s DMA Non-Compliance Decision Against Google’s Self-Preferencing (Case DMA.100193) - Wolters Kluwer</a>
-      </div>
-      
-      <div class="news-card-why">Komission DMA-päätös Googlea vastaan kertoo, miten tiukasti EU on valmis puuttumaan alustojen itsepreferointiin, mikä vaikuttaa suoraan digitaalisen markkinan pelisääntöihin ja yritysten näkyvyyteen Euroopassa.</div>
-      
-      <div class="news-card-meta">
-        
-        Google News: European Commission · 3 pv sitten ·
-        <a href="politiikka/2026-09-30.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/hunting/i-felt-it-sink-to-the-handle-this-hunter-used-an-ice-axe-to-fight-off-a-charging-grizzly-bear/" target="_blank" rel="noopener">“I Felt It Sink to the Handle.” This Hunter Used an Ice Axe to Fight Off a Charging Grizzly Bear</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/gear/best-early-prime-day-deals-on-outdoor-gear/" target="_blank" rel="noopener">Today’s Best Early Prime Day Deals on Outdoor Gear We’d Actually Buy</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/hunting/old-school-tactics-for-hunting-swamp-bucks/" target="_blank" rel="noopener">Old-School Tactics for Hunting Bucks Around Streams and Swamps</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.jaktojagare.se/kategorier/nyheter/har-ska-jagare-och-jaktlag-hitta-varandra/" target="_blank" rel="noopener">Här ska jägare och jaktlag hitta varandra</a> <span style="color:var(--muted)">— Jakt & Jägare</span></li>
+    
+    <li><a href="https://explorersweb.com/a-plan-b-first-ascent-nepal-landslides-force-veteran-italians-to-change-peaks/" target="_blank" rel="noopener">A Plan B First Ascent: Nepal Landslides Force Veteran Italians to Change Peaks</a> <span style="color:var(--muted)">— ExploresWeb</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/guns/remington-110-shotgun-review/" target="_blank" rel="noopener">The Remington 1100 Was the Greatest Gas-Operated Semiauto of Its Time. And It’s Still an Excellent Shotgun Today</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://explorersweb.com/unicycling-around-the-world/" target="_blank" rel="noopener">Unicycling Around the World</a> <span style="color:var(--muted)">— ExploresWeb</span></li>
+    
+    <li><a href="https://www.jaktojagare.se/kategorier/nyheter/jagare-dod-under-fageljakt-jaktkamrat-anhallen/" target="_blank" rel="noopener">Jägare död under fågeljakt – jaktkamrat anhållen</a> <span style="color:var(--muted)">— Jakt & Jägare</span></li>
+    
+    <li><a href="https://metsastajaliitto.fi/uutiset/mallisopimus-metsastysseuroille-villisian-yhteisjahteihin" target="_blank" rel="noopener">Mallisopimus metsästysseuroille villisian yhteisjahteihin</a> <span style="color:var(--muted)">— Metsästäjäliitto</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://devblogs.microsoft.com/foundry/why-content-extraction-still-matters-in-the-genai-era/" target="_blank" rel="noopener">Why content extraction still matters in the GenAI era</a>
-      </div>
-      
-      <div class="news-card-why">Azure Content Understandingin ja Document Intelligencen roolijaon avaaminen vaikuttaa suoraan siihen, miten rakennat luotettavaa dokumentti- ja sisältöputkea finanssiasiakkaiden AI-agentteihin.</div>
-      
-      <div class="news-card-meta">
-        
-        Microsoft Foundry Blog · 3 pv sitten ·
-        <a href="datascience-konsultointi/2026-09-30.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-  </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-
-
+</details>
 
 
   </main>
