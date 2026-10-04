@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-04",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään eräaiheisissa uutisissa käsiteltiin ampuma-aseiden oikeaa kohdistamismetodia, joka voi säästää aikaa, rahaa ja hermoja. Lisäksi Kalifornian vuorileijonien metsästyskiellon seurauksena on esiintynyt vaarallisia kohtaamisia suurpetojen kanssa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Outdoor Life esittelee uuden tavan kohdistaa kivääri, joka voi säästää aikaa, rahaa ja hermoja. 20 laukauksen metodi tarjoaa tarkemman ja luotettavamman tuloksen. <a href=\"https://www.outdoorlife.com/guns/sight-in-a-rifle-properly/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kalifornian vuorileijonien metsästyksen kiellon jälkeen on tapahtunut vaarallisia kohtaamisia. Eräs vuorileijona ei pelännyt ihmisiä, ja yritti jopa siepata pienen tytön. <a href=\"https://www.outdoorlife.com/survival/killer-cougar-in-california/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1530,
+  "output_tokens": 253,
+  "sources": [
+    {
+      "title": "You’ve Been Sighting In Your Rifle All Wrong. Use This Method Instead",
+      "url": "https://www.outdoorlife.com/guns/sight-in-a-rifle-properly/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Terrifying Story of a Killer Cougar in the Aftermath of California’s Mountain Lion Hunting Ban",
+      "url": "https://www.outdoorlife.com/survival/killer-cougar-in-california/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
