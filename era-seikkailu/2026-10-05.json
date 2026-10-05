@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-05",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään erä- ja metsästysuutiset käsittelevät popularien metsästysmyyttien murtamista, perinteisiä riistanmetsästystaktiikoita, huippupaikkoja pienisuisen basson kalastukseen sekä uutta elektro-optista teknologiaa erämaaseikkailuihin.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>&quot;Knockdown power&quot; -myytti on suuri väärinkäsitys suurriistan metsästyksessä. Usko siitä, että riittävästi tehoa omaava ase kaataa riistan heti, on perustelematon. <a href=\"https://www.outdoorlife.com/guns/rifle-knockdown-power/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kelluntametsästys, jossa käytetään kanoottia peurojen metsästykseen, antaa mahdollisuuden paeta muiden metsästäjien ruuhkia ja pysyä luonnossa yksin. <a href=\"https://www.outdoorlife.com/hunting/canoe-float-hunt-for-deer/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Löydä parhaat vesistöt suurisuiseen bassoon kalastukseen, mukaan lukien Lake Ontario ja Dale Hollow. Artikkeli tarjoaa avaintaktiikoita ja matkavinkkejä onnistuneeseen kalareissuun. <a href=\"https://www.outdoorlife.com/fishing/best-places-to-catch-smallmouth-bass/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Tract Toric LRF -etäisyysmittaavien kiikareiden arvostelu korostaa elektro-optisen teknologian kasvavaa tarjontaa länsimaisille metsästäjille. Yhdistetyt laitteet voivat korvata useita yksiköitä, tehden niistä houkuttelevan vaihtoehdon erämaassa. <a href=\"https://www.rokslide.com/tract-toric-lrf-rangefinding-binocular-review/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1697,
+  "output_tokens": 417,
+  "sources": [
+    {
+      "title": "“Knockdown Power” Is the Biggest Myth in Big Game Hunting",
+      "url": "https://www.outdoorlife.com/guns/rifle-knockdown-power/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "This Traditional Deer Hunting Tactic Is the Best Way to Get Away from Other Hunters This Season",
+      "url": "https://www.outdoorlife.com/hunting/canoe-float-hunt-for-deer/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Adventure Links of the Week",
+      "url": "https://explorersweb.com/adventure-links-of-the-week-165/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The 7 Best Lakes and Rivers for Catching Trophy Smallmouth Bass",
+      "url": "https://www.outdoorlife.com/fishing/best-places-to-catch-smallmouth-bass/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Tract Toric LRF Rangefinding Binocular Review",
+      "url": "https://www.rokslide.com/tract-toric-lrf-rangefinding-binocular-review/",
+      "source_name": "Rokslide"
+    }
+  ],
+  "homepage_candidates": []
+}

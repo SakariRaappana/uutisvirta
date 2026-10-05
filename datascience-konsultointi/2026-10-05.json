@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-05",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään esiteltiin uusi LEA AI Agent Authority Model, joka tuo hallinnoidun agenttipohjaisen tekoälyn varastojen operatiiviseen toimintaan.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p><em>Ei tärkeitä uutisia tänään.</em></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Logistics Reply on lanseerannut LEA AI Agent Authority Modelin, joka tuo hallinnoidun tekoälyagenttipohjaisen älykkyyden varastojen hallintaan LEA Dynamic Intelligencen avulla. <a href=\"https://news.google.com/rss/articles/CBMirgJBVV95cUxQZGQ5T2FLd29lZF96bnRjaC1VSmZLcUZSQU1iQWZhVHdfTm41R3Y4S2NPVGFqOHZrZWROSHdYcHZWcnhsaVgwUVJVb0haMm1qa3dDWmtuUkZRVUl3NDBNLXB2bWw1dlF3ZU1FcllXbzRZamRPQTVyWVdvQ19ObHQzS3JmSXJ3SUY2bWJyYUN1QnJ1VlJoc0V0QXNDb250aHJ3cUFLcUdKNWEtRU55c19hRm9OTjIxX1E2VHdMbG0tM0dDVlNFTVJYOG9lMzVRc1hUM0x3Q0xCUW9rWTBSRDc5MlJvTWpycFkydXJXX3hnOW8wUmtQckl5QlpSMmpfTzNhNllSTThFTTByQTNCRmllOFh4ZmQxMC1acWJjQTZSN25HbDhnd05WODZ4LWJuQQ?oc=5\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1311,
+  "output_tokens": 422,
+  "sources": [
+    {
+      "title": "People really hate AI, so why can’t they get enough?",
+      "url": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Logistics Reply Introduces the LEA AI Agent Authority Model - Bringing Governed Agentic AI Into Warehouse Execution With LEA Dynamic Intelligence - Morningstar",
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQZGQ5T2FLd29lZF96bnRjaC1VSmZLcUZSQU1iQWZhVHdfTm41R3Y4S2NPVGFqOHZrZWROSHdYcHZWcnhsaVgwUVJVb0haMm1qa3dDWmtuUkZRVUl3NDBNLXB2bWw1dlF3ZU1FcllXbzRZamRPQTVyWVdvQ19ObHQzS3JmSXJ3SUY2bWJyYUN1QnJ1VlJoc0V0QXNDb250aHJ3cUFLcUdKNWEtRU55c19hRm9OTjIxX1E2VHdMbG0tM0dDVlNFTVJYOG9lMzVRc1hUM0x3Q0xCUW9rWTBSRDc5MlJvTWpycFkydXJXX3hnOW8wUmtQckl5QlpSMmpfTzNhNllSTThFTTByQTNCRmllOFh4ZmQxMC1acWJjQTZSN25HbDhnd05WODZ4LWJuQQ?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "EmTech Future 2026: When AI Meets Everything",
+      "url": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
