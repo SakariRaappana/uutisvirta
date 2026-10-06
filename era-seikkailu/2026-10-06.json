@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-06",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään on merkittävä uutinen siitä, että Yhdysvaltain oikeusministeriö ei aio haastaa Texasin tuomarin päätöstä, joka sallii äänenvaimenninten myynnin ilman erityistä lupaa, mikä ilahduttaa asetta omistavia kansalaisia. Tämän lisäksi tarjolla on monipuolisia Prime Day -tarjouksia erävarusteista, ja uusia varustearvioita on julkaistu.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Oikeusministeriö ei aio haastaa Texsasin tuomarin päätöstä äänenvaimenninten myynnistä</h3>\n<p>Yhdysvaltain oikeusministeriö on ilmoittanut, ettei se aio valittaa Texasin elokuisesta päätöksestä, joka mahdollistaa äänenvaimenninten myynnin ilman erityisiä lupia. Päätöksen myötä kvalifioidut ostajat voivat hankkia äänenvaimentimet tiskiltä tavallisen taustatarkastuksen kautta. Tämä tapahtuma on merkittävä voitto aseenkäyttäjille, jotka ovat vastustaneet äänenvaimenninten tiukkaa säätelyä. Vaikka oikeusministeriö ei aio puuttua asiaan, vaikutukset voivat näkyä laajasti eri osavaltioissa ja aseenkäyttäjien keskuudessa. Tämä saattaa myös johtaa keskusteluun mahdollisten sääntelymuutosten tarpeellisuudesta tulevaisuudessa. <strong><a href=\"https://www.outdoorlife.com/guns/doj-wont-challenge-otc-suppressor-sales/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Tipsy Tuesday -jaksossa arvioidaan useita eräretkeilyvarusteita, kuten Lathrop Super Wides -kengät ja Patagonia Nano-Air -takki, tarjoten ajankohtaista tietoa niitä harkitseville käyttäjille. <a href=\"https://www.rokslide.com/gear-reviews-lathrop-super-wides-peak-refuel-kuiu-icon-6-and-patagonia-nano-air/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life listaa parhaat Prime Day -tarjoukset metsästysvarusteista, mukaan lukien riistakameroita, puumajoja ja jalustoja. <a href=\"https://www.outdoorlife.com/gear/best-prime-day-deals-on-hunting-gear-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Leathermanin monitoimityökalut ovat saaneet jopa 50 prosentin alennuksen Prime Day -tarjouksissa. <a href=\"https://www.outdoorlife.com/gear/best-prime-day-leatherman-deals-up-to-50-off-multitools/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Alennuksia on myös saatavilla lämpötähystimistä, kiikareista ja monokulareista Prime Day -kampanjassa. <a href=\"https://www.outdoorlife.com/gear/best-prime-day-deals-on-thermal-scopes-2026-oct/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life tarjoaa katsauksen testattuihin ja hyväksi havaittuihin metsästys-, kalastus- ja retkeilyvälineisiin Amazonin Prime Day -tarjouksissa. <a href=\"https://www.outdoorlife.com/gear/amazon-prime-day-deals-on-outdoor-gear-worth-buying-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Cabela's tarjoaa alennuksia monista metsästys- ja retkeilytuotteista heidän Deer Season Sale -myyntikampanjassaan. <a href=\"https://www.outdoorlife.com/gear/best-deals-cabelas-deer-season-sale/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life listaa 54 suosittelemaansa Prime Day -tarjousta, jotka kattavat laajan valikoiman retkeilyvarusteita ja optiikkaa. <a href=\"https://www.outdoorlife.com/gear/best-early-prime-day-deals/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Vaikka valurautapata ei ole kevyin, se on yhä pettämätön apuväline ulkoruoanlaitossa ja helppo tapa valmistaa maukkaita aterioita. <a href=\"https://www.outdoorlife.com/hunting/dutch-oven-cooking-outdoors/\">Lue lisää</a></p>\n</li>\n<li>\n<p>October Lull -metsästyskausi voi olla haastava, mutta on olemassa keinoja tehostaa ja parantaa saalismääriä näinä hiljaisempina ajanjaksoina. <a href=\"https://www.outdoorlife.com/hunting/october-lull-deer-hunting/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 11,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 3231,
+  "output_tokens": 1014,
+  "sources": [
+    {
+      "title": "Gear Reviews: Lathrop Super Wides, Peak Refuel, KUIU Icon 6, and Patagonia Nano-Air",
+      "url": "https://www.rokslide.com/gear-reviews-lathrop-super-wides-peak-refuel-kuiu-icon-6-and-patagonia-nano-air/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "The 21 Best Prime Day Deals on Hunting Gear We’d Actually Buy",
+      "url": "https://www.outdoorlife.com/gear/best-prime-day-deals-on-hunting-gear-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Prime Day Deals on Knives: EDC, Fixed Blade, and Hunting",
+      "url": "https://www.outdoorlife.com/gear/best-prime-day-deals-on-knives-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Prime Day Leatherman Deals: Up to 50% Off Multi-Tools",
+      "url": "https://www.outdoorlife.com/gear/best-prime-day-leatherman-deals-up-to-50-off-multitools/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Prime Day Deals on Thermal Scopes, Monoculars, and Binoculars",
+      "url": "https://www.outdoorlife.com/gear/best-prime-day-deals-on-thermal-scopes-2026-oct/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Amazon Prime Day Deals on Outdoor Gear Actually Worth Buying",
+      "url": "https://www.outdoorlife.com/gear/amazon-prime-day-deals-on-outdoor-gear-worth-buying-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Not Seeking ‘Revenge,’ DOJ Lets Current Over the Counter Suppressor Sales Go Unchallenged",
+      "url": "https://www.outdoorlife.com/guns/doj-wont-challenge-otc-suppressor-sales/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Fishing for Dinosaurs: This Ancient Species Is One of Our Most Underrated Gamefish",
+      "url": "https://www.outdoorlife.com/fishing/fishing-for-dinosaurs-this-ancient-species-is-one-of-our-most-underrated-gamefish/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 12 Best Deals from Cabela’s Deer Season Sale",
+      "url": "https://www.outdoorlife.com/gear/best-deals-cabelas-deer-season-sale/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 54 Best Prime Day Deals: Hunting Gear, Game Processing, Camping Gear, Optics, and Knives",
+      "url": "https://www.outdoorlife.com/gear/best-early-prime-day-deals/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Story of Earl Denman, Tenzing Norgay’s Forgotten Everest Partner",
+      "url": "https://explorersweb.com/earl-denman-the-story-of-tenzing-norgays-first-everest-partner/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Here’s Why the Dutch Oven Is Still the Single Greatest Tool in Outdoor Cooking",
+      "url": "https://www.outdoorlife.com/hunting/dutch-oven-cooking-outdoors/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Deer Hunt During the Dreaded ‘October Lull’",
+      "url": "https://www.outdoorlife.com/hunting/october-lull-deer-hunting/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Not Seeking ‘Revenge,’ DOJ Lets Current Over the Counter Suppressor Sales Go Unchallenged",
+      "source_name": "Outdoor Life",
+      "source_url": "https://www.outdoorlife.com/guns/doj-wont-challenge-otc-suppressor-sales/",
+      "published_at": "2026-10-05T20:36:06+00:00",
+      "summary": "As expected, the federal government has declined to challenge over-the-counter suppressor purchases. The ATF is promising to clarify what’s legal and what’s not this week\nThe post Not Seeking &#8216;Revenge,’ DOJ Lets Current Over the Counter Suppressor Sales Go Unchallenged appeared first on Outdoo",
+      "why_relevant": "Tämä vaikuttaa suoraan siihen, mitä vaimennin-/suppresserihankintoja tai -suosituksia voit metsästysyleisölle Suomessa käsitellä, koska ATF:n linjaus ja DOJ:n passiivisuus voivat heijastua sääntelykeskusteluun ja vertailuun.",
+      "homepage_eligible": true,
+      "homepage_score": 82,
+      "keep_days": 4,
+      "personal_relevance": 4,
+      "strategic_importance": 4,
+      "actionability": 4,
+      "novelty": 4,
+      "event_key": "doj-over-the-counter-suppressor-sales",
+      "category": "tärkea"
+    }
+  ]
+}

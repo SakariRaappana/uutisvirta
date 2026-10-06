@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uutisvirta — Päällimmäisenä</title>
+  <title>2026-10-06 — Erä & seikkailu — Uutisvirta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -358,23 +358,23 @@
 <body>
   <header class="site-header">
     <div class="masthead-row">
-      <a href="index.html" class="logo">Uutisvirta</a>
+      <a href="../index.html" class="logo">Uutisvirta</a>
       <span class="masthead-date" id="site-date"></span>
     </div>
     <div class="nav-strip">
       <nav>
         
-        <a href="datascience-konsultointi/index.html"
+        <a href="../datascience-konsultointi/index.html"
            >
           Datascience konsultointi
         </a>
         
-        <a href="era-seikkailu/index.html"
-           >
+        <a href="../era-seikkailu/index.html"
+           class="active">
           Erä & seikkailu
         </a>
         
-        <a href="politiikka/index.html"
+        <a href="../politiikka/index.html"
            >
           Politiikka
         </a>
@@ -384,222 +384,91 @@
   </header>
   <main class="page">
     
-<style>
-  .hp-header { margin-bottom: 2rem; border-bottom: 2px solid var(--rule); padding-bottom: 1.25rem; }
-  .hp-header h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
-  .hp-header .subtitle {
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em;
-    color: var(--muted); text-transform: uppercase; margin-bottom: 0;
-  }
-
-  /* ── FEATURED ─────────────────────────────── */
-  .featured {
-    border-top: 3px solid var(--accent);
-    padding: 1.4rem 0 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .featured-stream-label {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
-  }
-  .featured-title {
-    font-family: var(--font-display); font-size: 1.65rem; font-weight: 400;
-    letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 0.75rem; text-wrap: balance;
-  }
-  .featured-title a { color: var(--text); text-decoration: none; }
-  .featured-title a:hover { color: var(--accent); }
-  .featured-why {
-    font-size: 1rem; color: var(--text); line-height: 1.6;
-    margin-bottom: 0.85rem; max-width: 62ch;
-    font-style: italic;
-  }
-  .featured-meta {
-    font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .featured-meta .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.5em; font-size: 0.65rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.5rem; vertical-align: middle;
-  }
-  .featured-meta a { color: var(--accent); text-decoration: none; }
-  .featured-meta a:hover { text-decoration: underline; }
-
-  /* ── STREAM SECTIONS ─────────────────────── */
-  .stream-section {
-    border-top: 2px solid var(--rule);
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .stream-section-header {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 1rem; padding: 1rem 0 0.75rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 0;
-  }
-  .stream-section-name {
-    font-family: var(--font-mono); font-size: 0.72rem; font-weight: normal;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
-    margin: 0;
-  }
-  .stream-section-link {
-    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
-    color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
-  }
-  .stream-section-link:hover { text-decoration: underline; }
-
-  .stream-empty {
-    font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted);
-    letter-spacing: 0.04em; padding: 1rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* ── NEWS CARDS ──────────────────────────── */
-  .news-cards { list-style: none; padding: 0; }
-  .news-card {
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .news-card:last-child { border-bottom: none; }
-  .news-card-title {
-    font-family: var(--font-display); font-size: 1.05rem; font-weight: 400;
-    line-height: 1.3; margin-bottom: 0.35rem; text-wrap: balance;
-  }
-  .news-card-title a { color: var(--text); text-decoration: none; }
-  .news-card-title a:hover { color: var(--accent); }
-  .news-card-why {
-    font-size: 0.92rem; color: var(--text); line-height: 1.55;
-    margin-bottom: 0.4rem; max-width: 64ch; font-style: italic; opacity: 0.85;
-  }
-  .news-card-meta {
-    font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); letter-spacing: 0.04em;
-  }
-  .news-card-meta a { color: var(--accent); text-decoration: none; }
-  .news-card-meta a:hover { text-decoration: underline; }
-  .badge-new {
-    display: inline-block; background: var(--accent); color: var(--bg);
-    padding: 0.05em 0.4em; font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; margin-right: 0.3rem; vertical-align: middle;
-  }
-</style>
-
-<div class="hp-header">
-  <h1>Päällimmäisenä</h1>
-  <p class="subtitle">Viimeisen 7 vuorokauden tärkeimmät — 2026-10-06</p>
+<div class="day-nav">
+  <span><a href="2026-10-05.html">← 2026-10-05</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
 </div>
 
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Erä & seikkailu</div>
+<h1>2026-10-06</h1>
+<p class="meta">
+  <span>11 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>4245 tokenia</span>
+</p>
 
-<div class="featured">
-  <div class="featured-stream-label">Politiikka</div>
-  <h2 class="featured-title">
-    <a href="https://www.france24.com/en/europe/20261005-france-germany-seek-new-eu-rapid-response-tool-against-trade-threats" target="_blank" rel="noopener">France, Germany seek new EU rapid response tool against trade threats</a>
-  </h2>
-  
-  <div class="featured-why">EU:n uusi nopea vastatoimityökalu voi muuttaa sitä, miten unioni vastaa tullipaineeseen ja kauppasotiin, mikä on keskeistä vientivetoiselle Suomelle.</div>
-  
-  <div class="featured-meta">
-    <span class="badge-new">Uusi</span>
-    France 24 — Europe · tänään ·
-    <a href="politiikka/2026-10-06.html">Lue analyysi →</a>
-  </div>
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään on merkittävä uutinen siitä, että Yhdysvaltain oikeusministeriö ei aio haastaa Texasin tuomarin päätöstä, joka sallii äänenvaimenninten myynnin ilman erityistä lupaa, mikä ilahduttaa asetta omistavia kansalaisia. Tämän lisäksi tarjolla on monipuolisia Prime Day -tarjouksia erävarusteista, ja uusia varustearvioita on julkaistu.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>Oikeusministeriö ei aio haastaa Texsasin tuomarin päätöstä äänenvaimenninten myynnistä</h3>
+<p>Yhdysvaltain oikeusministeriö on ilmoittanut, ettei se aio valittaa Texasin elokuisesta päätöksestä, joka mahdollistaa äänenvaimenninten myynnin ilman erityisiä lupia. Päätöksen myötä kvalifioidut ostajat voivat hankkia äänenvaimentimet tiskiltä tavallisen taustatarkastuksen kautta. Tämä tapahtuma on merkittävä voitto aseenkäyttäjille, jotka ovat vastustaneet äänenvaimenninten tiukkaa säätelyä. Vaikka oikeusministeriö ei aio puuttua asiaan, vaikutukset voivat näkyä laajasti eri osavaltioissa ja aseenkäyttäjien keskuudessa. Tämä saattaa myös johtaa keskusteluun mahdollisten sääntelymuutosten tarpeellisuudesta tulevaisuudessa. <strong><a href="https://www.outdoorlife.com/guns/doj-wont-challenge-otc-suppressor-sales/">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p>Tipsy Tuesday -jaksossa arvioidaan useita eräretkeilyvarusteita, kuten Lathrop Super Wides -kengät ja Patagonia Nano-Air -takki, tarjoten ajankohtaista tietoa niitä harkitseville käyttäjille. <a href="https://www.rokslide.com/gear-reviews-lathrop-super-wides-peak-refuel-kuiu-icon-6-and-patagonia-nano-air/">Lue lisää</a></p>
+</li>
+<li>
+<p>Outdoor Life listaa parhaat Prime Day -tarjoukset metsästysvarusteista, mukaan lukien riistakameroita, puumajoja ja jalustoja. <a href="https://www.outdoorlife.com/gear/best-prime-day-deals-on-hunting-gear-2026/">Lue lisää</a></p>
+</li>
+<li>
+<p>Leathermanin monitoimityökalut ovat saaneet jopa 50 prosentin alennuksen Prime Day -tarjouksissa. <a href="https://www.outdoorlife.com/gear/best-prime-day-leatherman-deals-up-to-50-off-multitools/">Lue lisää</a></p>
+</li>
+<li>
+<p>Alennuksia on myös saatavilla lämpötähystimistä, kiikareista ja monokulareista Prime Day -kampanjassa. <a href="https://www.outdoorlife.com/gear/best-prime-day-deals-on-thermal-scopes-2026-oct/">Lue lisää</a></p>
+</li>
+<li>
+<p>Outdoor Life tarjoaa katsauksen testattuihin ja hyväksi havaittuihin metsästys-, kalastus- ja retkeilyvälineisiin Amazonin Prime Day -tarjouksissa. <a href="https://www.outdoorlife.com/gear/amazon-prime-day-deals-on-outdoor-gear-worth-buying-2026/">Lue lisää</a></p>
+</li>
+<li>
+<p>Cabela's tarjoaa alennuksia monista metsästys- ja retkeilytuotteista heidän Deer Season Sale -myyntikampanjassaan. <a href="https://www.outdoorlife.com/gear/best-deals-cabelas-deer-season-sale/">Lue lisää</a></p>
+</li>
+<li>
+<p>Outdoor Life listaa 54 suosittelemaansa Prime Day -tarjousta, jotka kattavat laajan valikoiman retkeilyvarusteita ja optiikkaa. <a href="https://www.outdoorlife.com/gear/best-early-prime-day-deals/">Lue lisää</a></p>
+</li>
+<li>
+<p>Vaikka valurautapata ei ole kevyin, se on yhä pettämätön apuväline ulkoruoanlaitossa ja helppo tapa valmistaa maukkaita aterioita. <a href="https://www.outdoorlife.com/hunting/dutch-oven-cooking-outdoors/">Lue lisää</a></p>
+</li>
+<li>
+<p>October Lull -metsästyskausi voi olla haastava, mutta on olemassa keinoja tehostaa ja parantaa saalismääriä näinä hiljaisempina ajanjaksoina. <a href="https://www.outdoorlife.com/hunting/october-lull-deer-hunting/">Lue lisää</a></p>
+</li>
+</ul>
+
 </div>
 
-
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Politiikka</div>
-    <a href="politiikka/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
+<details>
+  <summary>Lähteet (13)</summary>
+  <ul class="source-list">
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.rfi.fr/en/international/20261002-eu-approves-tougher-migration-rules-in-latest-push-to-tighten-borders" target="_blank" rel="noopener">EU approves tougher migration rules in latest push to tighten borders</a>
-      </div>
-      
-      <div class="news-card-why">EU:n tiukemmat paluu- ja rajavalvontasäännöt voivat muuttaa jäsenmaiden käytäntöjä nopeasti myös Suomessa, etenkin turvapaikka-, palautus- ja viranomaisyhteistyössä.</div>
-      
-      <div class="news-card-meta">
-        
-        RFI English · 3 pv sitten ·
-        <a href="politiikka/2026-10-03.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.rokslide.com/gear-reviews-lathrop-super-wides-peak-refuel-kuiu-icon-6-and-patagonia-nano-air/" target="_blank" rel="noopener">Gear Reviews: Lathrop Super Wides, Peak Refuel, KUIU Icon 6, and Patagonia Nano-Air</a> <span style="color:var(--muted)">— Rokslide</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.france24.com/en/tv-shows/talking-europe/20261002-a-grim-winter-ahead-eu-states-asked-to-prepare-gas-and-electricity-savings" target="_blank" rel="noopener">A grim winter ahead? EU states asked to prepare gas and electricity savings</a>
-      </div>
-      
-      <div class="news-card-why">EU-mailta pyydetty energiansäästö kertoo suoraan talven hinta- ja toimitusriskeistä, joihin suomalaisen talous- ja politiikkaseurannan kannattaa varautua nyt.</div>
-      
-      <div class="news-card-meta">
-        
-        France 24 — Europe · 3 pv sitten ·
-        <a href="politiikka/2026-10-03.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/gear/best-prime-day-deals-on-hunting-gear-2026/" target="_blank" rel="noopener">The 21 Best Prime Day Deals on Hunting Gear We’d Actually Buy</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
     
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.dw.com/en/germany-s-merz-visits-kyiv-as-russia-strikes-bridge/a-79534734?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Germany's Merz visits Kyiv as Russia strikes bridge</a>
-      </div>
-      
-      <div class="news-card-why">Saksan lupaus uusista tukitoimista Ukrainalle ja mahdollinen aseapu vaikuttavat suoraan EU:n turvallisuuslinjaan, puolustusmenoihin ja siihen, miten nopeasti Eurooppa paikkaa Yhdysvaltojen mahdollisia aukkoja.</div>
-      
-      <div class="news-card-meta">
-        
-        Deutsche Welle · 2 pv sitten ·
-        <a href="politiikka/2026-10-04.html">Lue analyysi</a>
-      </div>
-    </li>
+    <li><a href="https://www.outdoorlife.com/gear/best-prime-day-deals-on-knives-2026/" target="_blank" rel="noopener">The Best Prime Day Deals on Knives: EDC, Fixed Blade, and Hunting</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/gear/best-prime-day-leatherman-deals-up-to-50-off-multitools/" target="_blank" rel="noopener">The Best Prime Day Leatherman Deals: Up to 50% Off Multi-Tools</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/gear/best-prime-day-deals-on-thermal-scopes-2026-oct/" target="_blank" rel="noopener">The Best Prime Day Deals on Thermal Scopes, Monoculars, and Binoculars</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/gear/amazon-prime-day-deals-on-outdoor-gear-worth-buying-2026/" target="_blank" rel="noopener">Amazon Prime Day Deals on Outdoor Gear Actually Worth Buying</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/guns/doj-wont-challenge-otc-suppressor-sales/" target="_blank" rel="noopener">Not Seeking ‘Revenge,’ DOJ Lets Current Over the Counter Suppressor Sales Go Unchallenged</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/fishing/fishing-for-dinosaurs-this-ancient-species-is-one-of-our-most-underrated-gamefish/" target="_blank" rel="noopener">Fishing for Dinosaurs: This Ancient Species Is One of Our Most Underrated Gamefish</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/gear/best-deals-cabelas-deer-season-sale/" target="_blank" rel="noopener">The 12 Best Deals from Cabela’s Deer Season Sale</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/gear/best-early-prime-day-deals/" target="_blank" rel="noopener">The 54 Best Prime Day Deals: Hunting Gear, Game Processing, Camping Gear, Optics, and Knives</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://explorersweb.com/earl-denman-the-story-of-tenzing-norgays-first-everest-partner/" target="_blank" rel="noopener">The Story of Earl Denman, Tenzing Norgay’s Forgotten Everest Partner</a> <span style="color:var(--muted)">— ExploresWeb</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/hunting/dutch-oven-cooking-outdoors/" target="_blank" rel="noopener">Here’s Why the Dutch Oven Is Still the Single Greatest Tool in Outdoor Cooking</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
+    
+    <li><a href="https://www.outdoorlife.com/hunting/october-lull-deer-hunting/" target="_blank" rel="noopener">How to Deer Hunt During the Dreaded ‘October Lull’</a> <span style="color:var(--muted)">— Outdoor Life</span></li>
     
   </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Erä & seikkailu</div>
-    <a href="era-seikkailu/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <ul class="news-cards">
-    
-    <li class="news-card">
-      <div class="news-card-title">
-        <a href="https://www.outdoorlife.com/guns/doj-wont-challenge-otc-suppressor-sales/" target="_blank" rel="noopener">Not Seeking ‘Revenge,’ DOJ Lets Current Over the Counter Suppressor Sales Go Unchallenged</a>
-      </div>
-      
-      <div class="news-card-why">Tämä vaikuttaa suoraan siihen, mitä vaimennin-/suppresserihankintoja tai -suosituksia voit metsästysyleisölle Suomessa käsitellä, koska ATF:n linjaus ja DOJ:n passiivisuus voivat heijastua sääntelykeskusteluun ja vertailuun.</div>
-      
-      <div class="news-card-meta">
-        <span class="badge-new">Uusi</span>
-        Outdoor Life · tänään ·
-        <a href="era-seikkailu/2026-10-06.html">Lue analyysi</a>
-      </div>
-    </li>
-    
-  </ul>
-  
-</section>
-
-<section class="stream-section">
-  <div class="stream-section-header">
-    <div class="stream-section-name">Datascience konsultointi</div>
-    <a href="datascience-konsultointi/index.html" class="stream-section-link">Kaikki uutiset →</a>
-  </div>
-
-  
-  <div class="stream-empty">Viimeisen 7 vuorokauden aikana ei ole ollut poikkeuksellisen merkittäviä uutisia.</div>
-  
-</section>
-
-
-
+</details>
 
 
   </main>
