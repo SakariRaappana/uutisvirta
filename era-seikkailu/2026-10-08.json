@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-08",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa käsiteltiin sekä Ruotsin että Yhdysvaltojen sudenpyynnin kysymyksiä eläinten turvallisuuden takaamiseksi. Lisäksi Ruotsissa vinkattiin villieläinten havaitsemisesta ajoissa metsästyspassilla, ja Yhdysvalloissa pohdittiin Pennsylvanian ainutlaatuista peuranmetsästyskulttuuria.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Hallannissa, Ruotsissa on päätetty aloittaa suojametsästys yhdelle sudelle Falkenbergin ja Halmstadin kunnissa, viiden dokumentoidun kotieläinhyökkäyksen jälkeen kuluneen vuoden aikana. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/skyddsjakt-pa-varg-i-halland-efter-fem-angrepp-pa-tamdjur/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ruotsalainen metsästyslehti jakoi vinkin eläinten aikaisesta havaitsemisesta passilla. Vinkki painottaa aistien käyttöä ja matkapuhelimen syrjään laittamista. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/1-av-100-tips-lar-dig-upptacka-viltet-tidigt-pa-pass/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Wisconsinin viranomaiset poistivat yhdeksän harmaasutta ihmisten turvallisuuden uhkana. Poisto on herättänyt keskustelua julkisuuden läpinäkyvyydestä toimissa. <a href=\"https://www.outdoorlife.com/conservation/gray-wolves-removed-wisconsin/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Pennsylvaniassa peuranmetsästyskulttuuri on ainutlaatuista, ja perinteet painavat enemmän kuin sarvien koko. Kirjoittaja kuvaa tätä osavaltiota Yhdysvaltojen erikoisimpana metsästyskulttuurin kannalta. <a href=\"https://www.outdoorlife.com/opinion/pennsylvania-deer-hunting-culture/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1768,
+  "output_tokens": 463,
+  "sources": [
+    {
+      "title": "Skyddsjakt på varg i Halland – efter nästa angrepp",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/skyddsjakt-pa-varg-i-halland-efter-fem-angrepp-pa-tamdjur/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "1 AV 100 TIPS: Lär dig upptäcka viltet tidigt på pass",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/1-av-100-tips-lar-dig-upptacka-viltet-tidigt-pa-pass/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Officials Lethally Remove 9 Gray Wolves from Wisconsin After Threats to Human Safety",
+      "url": "https://www.outdoorlife.com/conservation/gray-wolves-removed-wisconsin/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Public Waters Rollback That ‘Should Be Avoided at All Costs’",
+      "url": "https://www.outdoorlife.com/conservation/clean-water-act-rule-change/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Pennsylvania Has the Best (and Oddest) Deer Hunting Culture in America",
+      "url": "https://www.outdoorlife.com/opinion/pennsylvania-deer-hunting-culture/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Dhaulagiri Summit Push; A Second Skier Appears",
+      "url": "https://explorersweb.com/dhaulagiri-summit-push-a-second-skier-appears/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}

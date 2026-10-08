@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-08",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään esiteltiin turvallisempi polku teollisuuden autonomiselle tekoälylle sekä käytännön opas Azure Document Intelligence- ja Azure Content Understanding -ratkaisujen vertailuun. Nämä uutiset tarjoavat näkökulmia tekoälyagenttien kehittyvään maailmaan ja käytännön ratkaisuihin.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>Ei tärkeitä uutisia tänään.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Uusi aikakausi teollisuuden autonomiselle tekoälylle on alkamassa. Edistykset perustavamalleissa, fyysisessä tekoälyssä ja agenttikelpoisessa tekoälyssä mahdollistavat itsenäisiä toimintoja. <a href=\"https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Microsoft Foundry Blog julkaisi käytännön oppaan, jossa vertaillaan Azure Document Intelligence- ja Azure Content Understanding -ratkaisuja perustuen erotteluarkkitehtuureihin, työnkuormien soveltuvuuteen, asettelukapasiteetteihin, implementointivaihtoehtoihin ja käytännön arviointikriteereihin. <a href=\"https://devblogs.microsoft.com/foundry/choosing-azure-document-intelligence-and-content-understanding/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1105,
+  "output_tokens": 308,
+  "sources": [
+    {
+      "title": "Why we’re watching these climate tech companies",
+      "url": "https://www.technologyreview.com/2026/10/08/1145920/climate-tech-companies-list/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "AI breakthroughs in robotics won’t change your life any time soon",
+      "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Building a safer path to autonomous industrial AI",
+      "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Azure Document Intelligence and Azure Content Understanding: a practical guide",
+      "url": "https://devblogs.microsoft.com/foundry/choosing-azure-document-intelligence-and-content-understanding/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "The Download: weight-loss drugs slowing aging and carbon dioxide batteries",
+      "url": "https://www.technologyreview.com/2026/10/07/1145895/the-download-weight-loss-drugs-slow-aging-carbon-dioxide-batteries/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
