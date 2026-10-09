@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-09",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Euroopan parlamentti on päättänyt ottaa käyttöön seitsemän vuoden siirtymäajan lyijyhaulien käytöstä osana EU:n laajuisia ympäristön suojelutoimenpiteitä. Lisäksi raportit kertovat epävakaista sääolosuhteista Dhaulagiri-vuorenvaelluksella ja jännittävästä metsästyskokemuksesta Yhdysvalloissa. Varustepuolella on testattu Bowie-veitsiä selviytymiseen ja ulkoiluun.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Lyijyhaulien siirtymäaika varmistui seitsemäksi vuodeksi</h3>\n<p>Euroopan parlamentti on saanut päätökseen käsittelyn koskien lyijyhaulien käyttörajoituksia EU:ssa. Päätöksen myötä lyijyhaulien käytölle myönnetään seitsemän vuoden siirtymäaika, jonka aikana metsästäjät voivat sopeutua uusiin säädöksiin. Tämä päätös on osa laajempia eurooppalaisia pyrkimyksiä vähentää ympäristöön kohdistuvia haittoja, jotka liittyvät lyijyn käyttöön metsästyksessä. Kuitenkin luotien ja haulikon täytteiden rajoitukset eivät sisälly tähän esitykseen, mikä antaa metsästäjille mahdollisuuden hyödyntää niitä jatkossakin. Tämä päätös voi vaikuttaa pitkällä aikavälillä metsästyksen käytäntöihin ja ammustarvikkeiden markkinoihin. <strong><a href=\"https://metsastajaliitto.fi/uutiset/lyijyhaulien-siirtymaaika-varmistui-seitsemaksi-vuodeksi\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Peruutettu kalastusopastus muuttui metsästysonneksi, kun opas päätyi kaatamaan 200-tuumaista isokaurista. Kokemus oli suuri ilonaihe jokaiselle jousimetsästäjälle. <a href=\"https://www.outdoorlife.com/hunting/indiana-buck-fishing-guide/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Dhaulagirin huiputuksen suunnitelmia on viivästyttänyt epävakaa sää, kun Camp 2:ssa odottavat kiipeilijät joutuivat kohtaamaan 30 cm uutta lunta ja ennusteet pysyvät epävarmoina. <a href=\"https://explorersweb.com/uncertain-weather-delays-dhaulagiri-summit-push/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Bowie-veitsiä on testattu monipuoliseen ulkoilukäyttöön, mukaan lukien selviytymis- ja leirikäyttö. Testi paljasti parhaat valinnat näihin eri tarpeisiin. <a href=\"https://www.outdoorlife.com/gear/best-bowie-knives-2026/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2443,
+  "output_tokens": 646,
+  "sources": [
+    {
+      "title": "Six Long Walks Across Australia in 2026",
+      "url": "https://explorersweb.com/six-long-walks-across-australia-in-2026/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Lyijyhaulien siirtymäaika varmistui seitsemäksi vuodeksi",
+      "url": "https://metsastajaliitto.fi/uutiset/lyijyhaulien-siirtymaaika-varmistui-seitsemaksi-vuodeksi",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "Vuoden 2026 viides ulkoiluteko myönnetty: Olavin Retkeilijöiden Swim Club teki uinnista ympärivuotisen luontoelämyksen",
+      "url": "https://www.suomenlatu.fi/vuoden-2026-viides-ulkoiluteko-myonnetty-olavin-retkeilijoiden-swim-club-teki-uinnista-ymparivuotisen-luontoelamyksen/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "This Fishing Guide’s Clients Canceled, So He Went Hunting Instead — and Arrowed a 200-Plus-Inch Buck",
+      "url": "https://www.outdoorlife.com/hunting/indiana-buck-fishing-guide/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "1,116-Pound Bluefin Tuna Caught Off New Hampshire Would Have Been a Record Except for This One Technicality",
+      "url": "https://www.outdoorlife.com/fishing/new-hampshire-near-record-tuna/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Bästa grillkorven utsedd",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/basta-grillkorven-utsedd/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Uncertain Weather Delays Dhaulagiri Summit Push",
+      "url": "https://explorersweb.com/uncertain-weather-delays-dhaulagiri-summit-push/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "We Tested the Best Bowie Knives for EDC, Survival, and the Outdoors",
+      "url": "https://www.outdoorlife.com/gear/best-bowie-knives-2026/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
