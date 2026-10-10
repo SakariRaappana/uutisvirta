@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-10",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään huomio kiinnittyy kokemuksista oppimiseen ja Superniño-sääilmiön vaikutuksiin. Esillä ovat metsästysvideo, joka käsittelee luottamusta omiin taitoihin, vuorikaurisjahdin opetukset tukkeutuneilta metsäteiltä sekä Aconcaguan kauden sääuhka.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Metsästäjän video onnistuneesta 70 jaardin laukauksesta valkohäntäpeuraan herättää kysymyksen taidon ja onnen suhteesta. Video opettaa väärän itsevarmuuden ja toiveajattelun riskeistä. <a href=\"https://www.outdoorlife.com/hunting/70-yard-shot-whitetail-video/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Lännen vuoristossa tukkitut metsäautotiet tarjoavat pääsyn trofeevalkohäntäpeuroille. Artikkelissa pohditaan, mitä oppeja voi saada kohtaamisista vuoristopeuran kanssa. <a href=\"https://www.outdoorlife.com/hunting/how-to-hunt-mountain-whitetails/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Tämän vuoden Superniño-sääilmiö uhkaa aiheuttaa epävakaita sääolosuhteita lähestyvälle Aconcaguan kiipeilykaudelle, mikä luo haasteita retkikuntien suunnittelulle. <a href=\"https://explorersweb.com/supernino-weather-threatens-aconcagua-season/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1603,
+  "output_tokens": 333,
+  "sources": [
+    {
+      "title": "Here’s Why This Giant Missouri Buck Was Still in Velvet in Late September",
+      "url": "https://www.outdoorlife.com/hunting/missouri-buck-velvet/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "You’re Not That Good at Shooting a Bow: This Video Teaches Lessons in False Confidence and Shooting with Hope",
+      "url": "https://www.outdoorlife.com/hunting/70-yard-shot-whitetail-video/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Should You Switch to a 20-Gauge for Duck Hunting? We Field Tested the 12 vs 20 Gauge for Lethality",
+      "url": "https://www.outdoorlife.com/guns/12-gauge-vs-20-gauge-for-ducks/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Sorry, But Elk Aren’t Really That Tough",
+      "url": "https://www.outdoorlife.com/hunting/how-tough-are-elk/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Mountain Buck I Missed Still Haunts Me. Here’s What It Taught Me",
+      "url": "https://www.outdoorlife.com/hunting/how-to-hunt-mountain-whitetails/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Superniño Weather Threatens Aconcagua Season",
+      "url": "https://explorersweb.com/supernino-weather-threatens-aconcagua-season/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}
