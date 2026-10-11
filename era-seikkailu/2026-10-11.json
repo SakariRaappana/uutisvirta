@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-11",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänä päivänä eränkävijöille tärkeitä uutisia ovat ohjeet riistalihatuotteiden säilyvyydestä pakastimessa sekä arvostelu uusista monikäyttöisistä kiikarilaitteista, jotka sopivat erityisesti lännen metsästäjille.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Riistaliha voi säilyä syömäkelpoisena pakastimessa kauemmin kuin uskoisi, vaikka tummentunut pinta saattaa viitata muuhun. Tärkeää on tunnistaa säilytykseen vaikuttavat tekijät. <a href=\"https://www.outdoorlife.com/hunting/how-long-does-game-meat-last-freezer/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Tract Toric LRF -kiikarit yhdistävät etäisyysmittauksen ja kiikareiden ominaisuudet, tuoden markkinoille kätevän vaihtoehdon, joka voi korvata kaksi laitetta yhdellä. Tämä kehitys auttaa erityisesti lännen metsästäjiä. <a href=\"https://www.rokslide.com/tract-toric-lrf-rangefinding-binocular-review/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1510,
+  "output_tokens": 267,
+  "sources": [
+    {
+      "title": "The Texas Frontiersman Who Killed 182 Bears in Two Seasons",
+      "url": "https://www.outdoorlife.com/survival/texas-frontiersman-who-hunted-black-bears/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How Long Does Game Meat Last in the Freezer?",
+      "url": "https://www.outdoorlife.com/hunting/how-long-does-game-meat-last-freezer/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Tract Toric LRF Rangefinding Binocular Review",
+      "url": "https://www.rokslide.com/tract-toric-lrf-rangefinding-binocular-review/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Squirrel Hunts Aren’t Just for Kids",
+      "url": "https://www.outdoorlife.com/hunting/foundational-squirrel-hunts/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
