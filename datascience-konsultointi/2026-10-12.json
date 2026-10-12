@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-12",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään esillä on NTT DATA Business Solutionsin julkaisema &quot;Elevate&quot;, joka on Agentic AI:lla tehostettu toimituskehys. Tämä uusi malli lupaa jouduttaa SAP-muutoksia yrityksissä.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p><em>(Ei tärkeitä uutisia tänään)</em></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>NTT DATA Business Solutions on lanseerannut &quot;Elevate&quot;, Agentic AI:lla tehostetun toimituskehyksen, joka auttaa nopeuttamaan SAP-muutosprosesseja yrityksissä. <a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOemZrcXlEV25GWmR5NWhrWU9wTWVhMXFoWENKek1yMjBFaU0tNW1TRV9WSDV5SXJ1TW85bVFCeWZjRXNkaDk4ZHBLLVR1QTFIZE1yaTJ2ODEzQ0IxUXUyZGF6X1picWRGTXFwRDQtUFBUZGNGT19tYjRvX2k1S2hZMlFLd0IzM2plbXpFMURNem85VDU4UUN3d2dWT2hmc0JST2c?oc=5\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1172,
+  "output_tokens": 299,
+  "sources": [
+    {
+      "title": "AMD debuts Helion reference design for agentic AI servers with up to 32,768 Zen 6 ‘Venice’ cores — rack design ships next year in CPU-only and all-in-one configurations - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOZEFjVERHODhlSlFSa2tPdUFzeWJ2Ylk1Y2lhcTMyU1pyZUM3Q184TmRXRjhhSThUN0ZTczZzRkprMGg5SUFNaWRuR0taMGNOdmFValVLZHVvZEVxZGJCQjNQZlBCTzlteUpRZV9WU2QxRE9mM0hVZHdxWU1iNWstN2NDajJpbEVwS1JOLU5qVWZ0eVpnV1JKSjRXV28zY3lTbEl2cmw4dHFkNUhJQ0Iwc18tdnJycmFUY0JmTXdKYlR2T2FoT1FaalFmUTlSVzhCMlJ0VVh0VmduWjdTeEJKZjZaOGhBbV9mc09BRV9nMWZzdjdfU3UySnpmdkRQVnZFZWZoWGluTnQxSmY1aFV6dGp3ZUF5aVZiVnktOWUtRmozTVBiUXRBVXJiX29TVmZhU2hnbEVkQQ?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "The Download: moon city problems and drone traffic controllers",
+      "url": "https://www.technologyreview.com/2026/10/12/1146376/the-download-moon-city-drone-air-traffic-controllers/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Mars may be a hellhole, but the moon is not far behind",
+      "url": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "NTT DATA Business Solutions launches \"Elevate\", its Agentic AI-powered delivery framework, to help accelerate SAP transformations - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOemZrcXlEV25GWmR5NWhrWU9wTWVhMXFoWENKek1yMjBFaU0tNW1TRV9WSDV5SXJ1TW85bVFCeWZjRXNkaDk4ZHBLLVR1QTFIZE1yaTJ2ODEzQ0IxUXUyZGF6X1picWRGTXFwRDQtUFBUZGNGT19tYjRvX2k1S2hZMlFLd0IzM2plbXpFMURNem85VDU4UUN3d2dWT2hmc0JST2c?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "The ecologist revealing the invisible networks that revive rainforests",
+      "url": "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}

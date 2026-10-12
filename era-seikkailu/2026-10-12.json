@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-12",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään saatiin päätökseen tärkeä päätös lyijyhaulirajoituksesta, joka tuo mukanaan seitsemän vuoden siirtymäajan ja rajoitetun poikkeuksen ampumaradoille. Lisäksi metsästysaiheiset keskustelut korostavat erityisesti hirvieläinten metsästystä sekä tekniikoita ja strategioita ankanmetsästyksessä Tennesseen alueella.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Lyijyhaulirajoituksen käsittely päätökseen: seitsemän vuoden siirtymäaika ja rajattu poikkeus ampumaradoille</h3>\n<p>Lyijyhaulirajoituksen käsittely on saatu päätökseen, ja sen mukana tulee seitsemän vuoden siirtymäaika. Tämä antaa metsästäjille, ampumaurheilijoille, ampumaradoille ja patruunavalmistajille aikaa sopeutua muutokseen ja kehittää lyijyä korvaavia ratkaisuja. Siirtymäajan aikana on mahdollista valmistautua muutokseen ja ottaa käyttöön ympäristöystävällisiä vaihtoehtoja. Ampumaradoille on myönnetty rajattu poikkeus, mikä tarkoittaa, että tietyt ampumaradat voivat jatkaa lyijyhaulien käyttöä tietyissä olosuhteissa siirtymäajan aikana. Tämä päätös on tärkeä askel kohti kestävää ammuntaa ja ympäristön suojelua metsästyksen yhteydessä. <strong><a href=\"https://metsastajaliitto.fi/uutiset/lyijyhaulirajoituksen-kasittely-paatokseen-seitseman-vuoden-siirtymaaika-ja-rajattu\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<h3>Rifle Elk Hunting 201: Finding Bulls Everyone Else Misses with Cody Rich</h3>\n<p>Cody Rich keskustelee Jaden Balesin kanssa tekniikoista ja strategioista, joilla löytää ja metsästää hirviä loka- ja marraskuussa, kun haasteet eroavat syyskuun buglen metsästyksestä. <a href=\"https://www.rokslide.com/rifle-elk-hunting-201-finding-bulls-everyone-else-misses-with-cody-rich/\">Lue lisää</a></p>\n<h3>I Gave Up My Duck Blind to Hunt Where the Mallards Actually Are</h3>\n<p>Reelfoot Lake -lojalisti siirtyy metsästämään Tennesseen tulvivan Obion-joen pohjamaille, jossa tuhannet sorsat kokoontuvat hänen ympärillään. <a href=\"https://www.outdoorlife.com/hunting/duck-hunting-tennessee-timber/\">Lue lisää</a></p>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2381,
+  "output_tokens": 584,
+  "sources": [
+    {
+      "title": "Rifle Elk Hunting 201: Finding Bulls Everyone Else Misses with Cody Rich",
+      "url": "https://www.rokslide.com/rifle-elk-hunting-201-finding-bulls-everyone-else-misses-with-cody-rich/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Lyijyhaulirajoituksen käsittely päätökseen: seitsemän vuoden siirtymäaika ja rajattu poikkeus ampumaradoille",
+      "url": "https://metsastajaliitto.fi/uutiset/lyijyhaulirajoituksen-kasittely-paatokseen-seitseman-vuoden-siirtymaaika-ja-rajattu",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "Adventure Links of the Week",
+      "url": "https://explorersweb.com/adventure-links-of-the-week-166/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Kyrgyz Climb 'Eternal Flame' Route on Nameless Tower",
+      "url": "https://explorersweb.com/first-kyrgyz-ascent-of-eternal-flame-route-on-nameless-tower/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "I Gave Up My Duck Blind to Hunt Where the Mallards Actually Are",
+      "url": "https://www.outdoorlife.com/hunting/duck-hunting-tennessee-timber/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Lyijyhaulirajoituksen käsittely päätökseen: seitsemän vuoden siirtymäaika ja rajattu poikkeus ampumaradoille",
+      "source_name": "Metsästäjäliitto",
+      "source_url": "https://metsastajaliitto.fi/uutiset/lyijyhaulirajoituksen-kasittely-paatokseen-seitseman-vuoden-siirtymaaika-ja-rajattu",
+      "published_at": "2026-10-12T11:54:28+00:00",
+      "summary": "Lyijyhaulirajoituksen käsittely päätökseen: seitsemän vuoden siirtymäaika ja rajattu poikkeus ampumaradoille\n\n            Ei\n      eriikka.kayhko…\nMa, 12.10.2026 - 14:54\n\n\n              \n\n\n\n      \n            Pitkä seitsemän vuoden siirtymäaika antaa metsästäjille, ampumaurheilijoille, ampumaradoill",
+      "why_relevant": "Lyijyhaulirajoituksella on suora vaikutus siihen, millaisia patruunoita voit käyttää metsästyksessä ja ampumaradalla, joten tämä muuttaa välittömästi kalusto- ja koulutusvalintojasi.",
+      "homepage_eligible": true,
+      "homepage_score": 95,
+      "keep_days": 7,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 4,
+      "event_key": "lyijyhaulirajoitus-seitseman-vuoden-siirtyma",
+      "category": "tärkea"
+    }
+  ]
+}
