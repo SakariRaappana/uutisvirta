@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-13",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään keskiössä ovat merkittävät muutokset säännöksissä: ATF:n päätös olla valvomatta äänenvaimenninten federalismia koskevia hyväksyntöjä käytännössä dereguloiden ne, sekä lyijyhaulirajoitukseen liittyvä päätös, joka esittää pitkän siirtymäajan ja poikkeuksia ampumaradoille. Lisäksi lyhyet maininnat kansainvälisistä retkeilyyn liittyvistä haasteista ja metsästyskertomuksista täydentävät päivän uutissaldoa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>ATF: &quot;Ei valvontaa&quot; äänenvaimenninten hyväksymisissä, käytännössä deregulointi</h3>\n<p>ATF on ilmoittanut, ettei se valvo enää kansallisia äänenvaimenninten hyväksyntiä koskevia säädöksiä, mikä käytännössä tarkoittaa niiden deregulaatiota. Tämä merkittävä muutos saattaa helpottaa äänenvaimenninten saatavuutta ja käyttöä metsästäjille ja ammuntaurheilijoille, poistamalla byrokraattisia esteitä. Päätöksen seurauksena myös osavaltioilla on vapaampi käsi säätää omaa lainsäädäntöään tällä saralla. Tämä saattaa vaikuttaa merkittävästi moniin metsästäjiin ja ammuntaurheilijoihin, erityisesti niissä osavaltioissa, joissa säännöstely on ollut aiemmin tiukempaa. <a href=\"https://www.outdoorlife.com/guns/atf-deregulates-suppressors/\">Lue alkuperäinen →</a></p>\n<h3>Lyijyhaulirajoituksen käsittely päätökseen: seitsemän vuoden siirtymäaika ja rajattu poikkeus ampumaradoille</h3>\n<p>Lyijyhaulirajoituksen käsittely on saatu päätökseen, ja metsästäjille on luvassa seitsemän vuoden siirtymäaika sopeutua uusiin rajoituksiin. Tämä pitkä siirtymäaika antaa metsästäjille, ampumaurheilijoille, ampumaradoille ja patruunanvalmistajille mahdollisuuden kehittää lyijyhauleja korvaavia vaihtoehtoja. Rajoituksen piiriin kuuluu myös rajattu poikkeus, joka koskee ampumaratoja, antaen heille lisäaikaa siirtyä lyijyttömiin vaihtoehtoihin. Tämä päätös vaikuttaa laajasti metsästysharrastukseen ja ampumaurheiluun Suomessa, ja se tulee vaikuttamaan erityisesti patruunanvalmistajien ja ampumaratojen toimintaan tulevina vuosina. <a href=\"https://metsastajaliitto.fi/uutiset/lyijyhaulirajoituksen-kasittely-paatokseen-seitseman-vuoden-siirtymaaika-ja-rajattu\">Lue alkuperäinen →</a></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Salamavyöryt Katkaisevat Nepalin Vaellusreittejä: Uusi salamavyöry on katkaissut osia Manaslu-kierroksesta, vahingoittaen taas Nepalin matkailuteollisuutta. <a href=\"https://explorersweb.com/new-flash-floods-disrupt-trekking-routes-in-nepal/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Parhaat Retkikirveet: Outdoor Life esittelee kirveet, joilla voi tehdä kaikkea sytykkeiden valmistuksesta tukin rakentamiseen. <a href=\"https://www.outdoorlife.com/gear/best-camp-axes-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Perinteinen Muulipeurajahti Kunnianosoituksena Isille: Kaksi poikaa metsästää Montanan peuroja vanhoilla kivääreillä isänsä kunniaksi. <a href=\"https://www.outdoorlife.com/hunting/mule-deer-hunt-honor-dads/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Paras Apuväline Peurakaudelle: Yksi iltapäivä metsässä reppuimurin kanssa auttaa metsästämään hiljaisemmin ja fiksummin. <a href=\"https://www.outdoorlife.com/hunting/quiet-access-deer-stand/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Seitsemän Vuotta Säästöjä Alaskan Unelmametsästykseen: Yksi epäonnistunut stalkkaus, yhdeksän karhua päivässä ja ikimuistoinen jahti. <a href=\"https://www.outdoorlife.com/hunting/saving-up-alaska-bear-hunt/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kiväärihirvijahti 201 Cody Richin Kanssa: Etsi ja tapa sonneja loka- ja marraskuun kiväärikaudella, kun Cody Rich ohjeistaa. <a href=\"https://www.rokslide.com/rifle-elk-hunting-201-finding-bulls-everyone-else-misses-with-cody-rich/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 8,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 4392,
+  "output_tokens": 1077,
+  "sources": [
+    {
+      "title": "Animal Attack Roundup",
+      "url": "https://explorersweb.com/animal-attack-roundup/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "New Flash Floods Disrupt Trekking Routes in Nepal",
+      "url": "https://explorersweb.com/new-flash-floods-disrupt-trekking-routes-in-nepal/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "DEBATT: God djursjukvård kräver både tillgänglighet och rätt kompetens",
+      "url": "https://www.jaktojagare.se/kategorier/opinion/debatt-god-djursjukvard-kraver-bade-tillganglighet-och-ratt-kompetens/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "The Best Camp Axes for Splitting, Chopping, Limbing, and Felling",
+      "url": "https://www.outdoorlife.com/gear/best-camp-axes-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "ATF ‘Will Not Enforce’ Federal Suppressor Approvals, Effectively Deregulating Silencers",
+      "url": "https://www.outdoorlife.com/guns/atf-deregulates-suppressors/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Conserving My People’s Subsistence Culture Means Retracing It",
+      "url": "https://www.outdoorlife.com/opinion/tlingit-fishing-subsistence-culture/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "An Old-School Western Mule Deer Hunt in Memory of Two Midwestern Dads",
+      "url": "https://www.outdoorlife.com/hunting/mule-deer-hunt-honor-dads/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Access Tool for Deer Season Is Already in Your Garage",
+      "url": "https://www.outdoorlife.com/hunting/quiet-access-deer-stand/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "I Saved for 7 Years to Go on My Alaska Dream Hunt. It Was Worth Every Penny",
+      "url": "https://www.outdoorlife.com/hunting/saving-up-alaska-bear-hunt/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Rifle Elk Hunting 201: Finding Bulls Everyone Else Misses with Cody Rich",
+      "url": "https://www.rokslide.com/rifle-elk-hunting-201-finding-bulls-everyone-else-misses-with-cody-rich/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Lyijyhaulirajoituksen käsittely päätökseen: seitsemän vuoden siirtymäaika ja rajattu poikkeus ampumaradoille",
+      "url": "https://metsastajaliitto.fi/uutiset/lyijyhaulirajoituksen-kasittely-paatokseen-seitseman-vuoden-siirtymaaika-ja-rajattu",
+      "source_name": "Metsästäjäliitto"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Lyijyhaulirajoituksen käsittely päätökseen: seitsemän vuoden siirtymäaika ja rajattu poikkeus ampumaradoille",
+      "source_name": "Metsästäjäliitto",
+      "source_url": "https://metsastajaliitto.fi/uutiset/lyijyhaulirajoituksen-kasittely-paatokseen-seitseman-vuoden-siirtymaaika-ja-rajattu",
+      "published_at": "2026-10-12T11:54:28+00:00",
+      "summary": "Lyijyhaulirajoituksen käsittely päätökseen: seitsemän vuoden siirtymäaika ja rajattu poikkeus ampumaradoille\n\n            Ei\n      eriikka.kayhko…\nMa, 12.10.2026 - 14:54\n\n\n              \n\n\n\n      \n            Pitkä seitsemän vuoden siirtymäaika antaa metsästäjille, ampumaurheilijoille, ampumaradoill",
+      "why_relevant": "Lyijyhaulirajoitus vaikuttaa suoraan metsästysammuntaan, haulivalintoihin ja ampumarataharjoitteluun, joten sinun kannattaa arvioida omat patruuna- ja harjoittelukäytännöt heti siirtymäajan ja poikkeusten perusteella.",
+      "homepage_eligible": true,
+      "homepage_score": 92,
+      "keep_days": 6,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "lyijyhaulirajoitus-siirtymaaika-ampumaradat",
+      "category": "tärkea"
+    },
+    {
+      "title": "ATF ‘Will Not Enforce’ Federal Suppressor Approvals, Effectively Deregulating Silencers",
+      "source_name": "Outdoor Life",
+      "source_url": "https://www.outdoorlife.com/guns/atf-deregulates-suppressors/",
+      "published_at": "2026-10-12T20:37:39+00:00",
+      "summary": "The agency will still process Form 4s in consideration of residents who live in the 15 states that continue to require federal approval\nThe post ATF &#8216;Will Not Enforce&#8217; Federal Suppressor Approvals, Effectively Deregulating Silencers appeared first on Outdoor Life.",
+      "why_relevant": "Suppressorien liittotasoinen käytännön de facto -vapautus vaikuttaa suoraan siihen, millaisia äänenvaimenninratkaisuja metsästys- ja ampumasisällössäsi kannattaa seurata ja suositella jatkossa.",
+      "homepage_eligible": true,
+      "homepage_score": 88,
+      "keep_days": 4,
+      "personal_relevance": 4,
+      "strategic_importance": 4,
+      "actionability": 4,
+      "novelty": 5,
+      "event_key": "atf-will-not-enforce-suppressor-approvals",
+      "category": "tärkea"
+    }
+  ]
+}

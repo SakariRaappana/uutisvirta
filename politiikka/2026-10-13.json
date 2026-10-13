@@ -1,0 +1,248 @@
+{
+  "date": "2026-10-13",
+  "stream_slug": "politiikka",
+  "stream_name": "Politiikka",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään EU-alueella nousi esiin kaksi merkittävää aihetta: Saksa ja Ranska ovat lähellä sopimusta autojen ja &quot;Made in Europe&quot; -aloitteen suhteen, ja EU on päättänyt rajoittaa kiinalaisten hybridiajoneuvojen tuontia 350,000 kappaleeseen vuodessa. Nämä päätökset vaikuttavat Euroopan talouteen ja kilpailupolitiikkaan.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Saksan ja Ranskan välinen autoteollisuussopimus lähellä valmistumista</h3>\n<p>Saksan ja Ranskan odotetaan solmivan uuden sopimuksen, joka koskee autojen teollisuutta ja &quot;Made in Europe&quot; -kampanjaa. EU:n teollisuuskomissaari Stéphane Séjourné on kertonut, että sopimus on vain &quot;tuntien tai päivien&quot; päässä. Sopimus voisi vahvistaa Euroopan kilpailukykyä suhteessa globaaleihin markkinoihin lisäämällä eurooppalaista tuotantoa ja vähentämällä riippuvuutta tuonnista. Näin pyritään kehittämään kestävää teollisuutta ja yhteistyötä EU:ssa. Sopimuksen myötä parannettaisiin myös EU-maiden sisäistä talouskasvua ja työllisyysastetta. <strong><a href=\"https://www.politico.eu/article/franco-german-deal-on-cars-and-made-in-europe-is-hours-or-days-away-says-eu-industry-boss-stephane-sejourne/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication\">Lue alkuperäinen →</a></strong></p>\n<h3>EU rajoittaa kiinalaisten hybridiajoneuvojen tuontia</h3>\n<p>Euroopan unioni on päättänyt rajoittaa kiinalaisten hybridiajoneuvojen maahantuontia 350,000 kappaleeseen vuodessa. Tämä päätös on seurausta EU:n pyrkimyksistä suojella omaa teollisuuttaan ja kannustaa paikallista tuotantoa. Rajoitus tulee vaikuttamaan kiinalaisten autonvalmistajien läsnäoloon Euroopan markkinoilla, mutta sen taustalla on myös laajempia geopoliittisia jännitteitä ja tasapainoilua vienti- ja tuontisuuntien välillä. Päätös kuvastaa EU:n tarvetta hallita strategisesti tärkeitä teollisuudenaloja ja parantaa kilpailukykyään. <strong><a href=\"https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Ukrainalaismies joutui oikeuteen Saksassa Nord Stream -putkiston iskujen yhteydessä, mikä nostaa esiin kysymyksiä mahdollisesta Kiovan roolista. <a href=\"https://www.dw.com/en/nord-stream-trial-of-ukrainian-attack-suspect-begins-in-germany/a-79647617?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></li>\n<li>Slovakia palauttaa sotilaallisen diplomaattisen edustuksen Venäjälle, mikä herättää pelkoa vakoilusta ja luottamuksen heikkenemisestä Natossa. <a href=\"https://www.dw.com/en/critics-warn-of-espionage-risks-loss-of-trust-within-nato-as-slovakia-restores-military-diplomatic-representation-with-russia/a-79649641?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></li>\n<li>Kongon demokraattisen tasavallan entinen presidentti Kabila johtaa uutta poliittis-sotilaallista liittoumaa M23-kapinallisten kanssa. <a href=\"https://www.rfi.fr/en/africa/20261013-ex-drc-president-kabila-to-lead-new-politico-military-alliance-with-m23-rebels\">Lue lisää</a></li>\n<li>Britannia on pyytänyt Interpolia hylkäämään Argentiinan vaatimukset Falklandin öljyprojektin pidätyksistä. <a href=\"https://www.theguardian.com/uk-news/2026/oct/13/britain-interpol-reject-argentina-falkland-islands-arrests\">Lue lisää</a></li>\n<li>Edouard Philippe kampanjoi investoinneista digitaalisiin yrityksiin eurooppalaisten kilpailukyvyn parantamiseksi. <a href=\"https://www.politico.eu/article/il-faut-quon-se-reveille-pour-edouard-philippe-le-retard-europeen-dans-lia-nest-pas-une-fatalite/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 29,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 6014,
+  "output_tokens": 1046,
+  "sources": [
+    {
+      "title": "Nord Stream: Trial of Ukrainian attack suspect begins in Germany",
+      "url": "https://www.dw.com/en/nord-stream-trial-of-ukrainian-attack-suspect-begins-in-germany/a-79647617?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Critics warn of espionage risks, loss of trust within NATO as Slovakia restores military-diplomatic representation with Russia",
+      "url": "https://www.dw.com/en/critics-warn-of-espionage-risks-loss-of-trust-within-nato-as-slovakia-restores-military-diplomatic-representation-with-russia/a-79649641?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Houthis and Saudis strike each other in latest escalation",
+      "url": "https://www.dw.com/en/houthis-and-saudis-strike-each-other-in-latest-escalation/a-79649973?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Formula 1: Rwanda to bring sport back to Africa",
+      "url": "https://www.dw.com/en/formula-1-rwanda-to-bring-sport-back-to-africa/a-79649217?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Ex-DRC president Kabila to lead new 'politico-military' alliance with M23 rebels",
+      "url": "https://www.rfi.fr/en/africa/20261013-ex-drc-president-kabila-to-lead-new-politico-military-alliance-with-m23-rebels",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "UK asks Interpol to reject Argentina’s ‘politically motivated’ requests for Falklands oil arrests",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/13/britain-interpol-reject-argentina-falkland-islands-arrests",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "“Il faut qu’on se réveille” : pour Edouard Philippe, le retard européen dans l’IA n’est pas une fatalité",
+      "url": "https://www.politico.eu/article/il-faut-quon-se-reveille-pour-edouard-philippe-le-retard-europeen-dans-lia-nest-pas-une-fatalite/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Energie : face “au risque” lié au nucléaire, Edouard Philippe juge les renouvelables utiles",
+      "url": "https://www.politico.eu/article/energie-face-au-risque-lie-au-nucleaire-edouard-philippe-juge-les-renouvelables-utiles/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Bulgaria condemns Black Sea drone attacks as Russia's war in Ukraine spills over into Eastern Europe",
+      "url": "https://www.dw.com/en/bulgaria-condemns-black-sea-drone-attacks-as-russia-s-war-in-ukraine-spills-over-into-eastern-europe/a-79648001?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Le projet de Marine Le Pen risque de faire “péter l’Europe”, juge Edouard Philippe",
+      "url": "https://www.politico.eu/article/le-projet-de-marine-le-pen-risque-de-faire-peter-leurope-juge-edouard-philippe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "How a scandal engulfing Brazil’s top court could return the Bolsonaros to power",
+      "url": "https://www.theguardian.com/world/2026/oct/13/scandal-brazil-court-jair-flavio-bolsonaro-power-election-moraes-lula",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Franco–German deal on cars and ‘Made in Europe’ is ‘hours or days’ away, says EU industry boss",
+      "url": "https://www.politico.eu/article/franco-german-deal-on-cars-and-made-in-europe-is-hours-or-days-away-says-eu-industry-boss-stephane-sejourne/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Spain’s king visits Ceuta amid tensions with Morocco",
+      "url": "https://www.france24.com/en/spain-s-king-visits-ceuta-amid-tensions-with-morocco",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Pope Leo XIV admitted to hospital for lung surgery",
+      "url": "https://www.france24.com/en/pope-leo-xiv-admitted-to-hospital-for-lung-surgery",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Germany's China calculation shifts as import pressures eclipse export benefits",
+      "url": "https://www.dw.com/en/germany-s-china-calculation-shifts-as-import-pressures-eclipse-export-benefits/a-79571852?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "125 years of Thomas Mann's 'Buddenbrooks'",
+      "url": "https://www.dw.com/en/125-years-of-thomas-mann-s-buddenbrooks/a-44107236?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "EU cautious over Trump’s ‘energy ceasefire’ as Russia continues Ukraine attacks",
+      "url": "https://www.rfi.fr/en/international/20261013-eu-cautious-over-trump-s-energy-ceasefire-as-russia-continues-ukraine-attacks",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Latin American organised crime ‘may operate in 16 European countries’",
+      "url": "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Live: Greta Thunberg joins French students on new day of nationwide protests",
+      "url": "https://www.france24.com/en/europe/20261013-live-france-braces-for-fresh-nationwide-protests-over-school-conditions",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Germany news: Economy set for stronger growth, wine harvest hit by drought",
+      "url": "https://www.dw.com/en/germany-news-economy-set-for-stronger-growth-wine-harvest-hit-by-drought/live-79647092?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "What is holding back Cyprus's Schengen ambitions?",
+      "url": "https://www.dw.com/en/what-is-holding-back-cyprus-s-schengen-ambitions/a-79641488?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "India opposition to huddle over tea after thousands march in their Delhi protest",
+      "url": "https://www.dw.com/en/india-opposition-to-huddle-over-tea-after-thousands-march-in-their-delhi-protest/live-79646819?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "France braces for fresh school protests as student movement tests momentum",
+      "url": "https://www.rfi.fr/en/france/20261013-france-braces-for-fresh-school-protests-as-student-movement-tests-momentum",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "'A positive step': Hungary removes anti-LGBTQ provisions from Orban-era law",
+      "url": "https://www.france24.com/en/europe/20261013-a-positive-step-hungary-removes-anti-lgbtq-provisions-from-orban-era-law",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
+      "url": "https://www.theguardian.com/world/2026/oct/13/mexico-hurricane-simon-tropical-storm-rachel-kill-five-pacific-coast",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Russia says Europe bought $320 billion in hydrocarbons since 2022",
+      "url": "https://www.france24.com/en/europe/20261013-russia-says-europe-bought-320-billion-in-hydrocarbons-since-2022",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Argentina temporarily closes Iguazu Falls after El Niño-fuelled surge in water levels",
+      "url": "https://www.theguardian.com/world/2026/oct/13/argentina-iguazu-falls-temporarily-closed-el-nino-water-levels",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Pope Leo arrives at hospital for lung nodule surgery",
+      "url": "https://www.france24.com/en/europe/20261012-what-we-know-about-pope-leo-xiv-planned-lung-operation-this-week",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "'It's clear that Moscow is just playing with Washington,' analyst says",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20261012-it-s-clear-that-moscow-is-just-playing-with-washington-analyst-says",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Tehran denies involvement in UK Fairford air base incident as Britain summons Iranian ambassador",
+      "url": "https://www.france24.com/en/europe/20261012-tehran-denies-involvement-in-uk-fairford-air-base-incident-as-britain-summons-iranian-ambassador",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "'Increasingly evident' Russia won't accept 'energy ceasefire': Zelensky",
+      "url": "https://www.france24.com/en/increasingly-evident-russia-won-t-accept-energy-ceasefire-zelensky",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "'A lot of Ukrainians are feeling extremely betrayed' by Trump's Russian diesel deal",
+      "url": "https://www.france24.com/en/a-lot-of-ukrainians-are-feeling-extremely-betrayed-by-trump-s-russian-diesel-deal",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "NATO Details Plan to Shield Ukraine’s European Allies From Russia - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQczFSVDhqcTgwTUliMlo0OFhGcHFOWHd2T19MM1l3VjU5VFM1SmZmaDB5ek00Q1Z6WEI3RTExUTlzREt5YzYteWVOVTUxWnRZb3VlTTRRU1Rrd0t4ek1nWnptc3BQdFNXVGVyR2ZkMk03SW1VRFh2YTRDcU9kUFg0S1lXZTJVbU0?oc=5",
+      "source_name": "Google News: NATO Europe"
+    },
+    {
+      "title": "How has the European Union’s major recovery plan benefited the 27 member states?",
+      "url": "https://www.france24.com/en/europe/20261012-how-has-the-more-than-%E2%82%AC600-billion-recovery-plan-revitalised-europe",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "EU warns online platforms over livestreaming US execution planned by Pentagon",
+      "url": "https://www.france24.com/en/europe/20261012-eu-warns-online-platforms-over-livestreaming-us-execution-planned-by-pentagon",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "NATO's top US commander warns Russia that any 'foolish' attack on allies would be 'futile'",
+      "url": "https://www.france24.com/en/europe/20261012-nato-s-top-us-commander-warns-russia-that-any-foolish-attack-on-allies-would-be-futile",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "REPLAY: NATO's top military commander warns Russia over alleged sabotage",
+      "url": "https://www.france24.com/en/replay-nato-s-top-military-commander-warns-russia-over-alleged-sabotage",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Nikol Pashinyan says Armenia’s relations with Russia ‘can no longer be the same’",
+      "url": "https://www.rfi.fr/en/international/20261012-nikol-pashinyan-says-armenia-s-relations-with-russia-can-no-longer-be-the-same",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Activists urge Senegal to halt LGBT crackdown as Youth Olympic Games near",
+      "url": "https://www.rfi.fr/en/sports/20261012-activists-urge-senegal-to-halt-lgbt-crackdown-as-youth-olympic-games-near",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
+      "url": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles",
+      "source_name": "The Guardian — World"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Franco–German deal on cars and ‘Made in Europe’ is ‘hours or days’ away, says EU industry boss",
+      "source_name": "Politico Europe",
+      "source_url": "https://www.politico.eu/article/franco-german-deal-on-cars-and-made-in-europe-is-hours-or-days-away-says-eu-industry-boss-stephane-sejourne/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published_at": "2026-10-13T09:26:24+00:00",
+      "summary": "Speaking at POLITICO’s Competitiveness Summit in Paris, Stéphane Séjourné said he hoped the agreement would help “break the deadlock, particularly in the European Parliament” on the IAA.",
+      "why_relevant": "EU:n auto- ja teollisuuspolitiikan suunta voi muuttua nopeasti, mikä vaikuttaa suoraan siihen, millaisia sääntöjä ja tukia Euroopan teollisuudessa on odotettavissa.",
+      "homepage_eligible": true,
+      "homepage_score": 84,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 4,
+      "novelty": 4,
+      "event_key": "franco-german-eu-cars-made-in-europe-deal",
+      "category": "tärkea"
+    },
+    {
+      "title": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
+      "source_name": "The Guardian — World",
+      "source_url": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles",
+      "published_at": "2026-10-12T11:23:55+00:00",
+      "summary": "Brussels uses WTO rules to quickly impose quota, which will halve Chinese market share to 3%Business live – latest updatesVW boss backs EU plan to bolster domestic industryThe EU is to limit the number of hybrid electric vehicles imported from China to 350,000 cars a year, the European Commission ha",
+      "why_relevant": "EU:n päätös rajoittaa kiinalaisten hybridiautojen tuontia vaikuttaa suoraan Euroopan autoteollisuuden kilpailuasetelmaan, kauppapolitiikkaan ja mahdollisiin vastatoimiin.",
+      "homepage_eligible": true,
+      "homepage_score": 82,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 4,
+      "actionability": 4,
+      "novelty": 4,
+      "event_key": "eu-limits-chinese-hybrid-vehicle-imports",
+      "category": "tärkea"
+    }
+  ]
+}

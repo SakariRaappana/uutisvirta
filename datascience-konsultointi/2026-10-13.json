@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-13",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään tarkastelemme Azure Maia 300 -arkkitehtuurin syvällistä analyysiä, mikä tuo uusimpia edistyksiä pilvipohjaiseen agentti-inferenssiin. Lisäksi AI-laboratoriot hankkivat dataa lakkautetuista startup-yrityksistä ja AMD esittelee Helion-ratkaisunsa, joka keskittyy agenttipohjaiseen laskentaan rack-mittakaavassa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Deep dive into Azure Maia 300 architecture</h3>\n<p>Azure Maia 300 on suunniteltu toimimaan yhtenäisenä alustana, joka pystyy vastaamaan pilvilaajuisen agentti-inferenssin vaatimuksiin. Tämä uusi arkkitehtuuri yhdistää laskennan, tietovarastot ja analytiikan yhdeksi saumattomaksi ekosysteemiksi, mikä helpottaa skaalautuvien agenttiratkaisujen käyttöönottoa. Chakra Engine, Maia 300: n taustalla oleva ylpeyden aihe, mahdollistaa tietovirtojen käsittelyn ja datan hallinnan samanaikaisesti, mikä optimoi suorituskyvyn dynaamisissa työkuormissa. Arkkitehtuurissa hyödynnetään modulaarisia komponentteja, jotka tukevat automaattisia päivityksiä ja mukautuvaa resurssienhallintaa, mikä tekee siitä sekä kustannustehokkaan että luotettavan ratkaisun. Tämä uusi alusta tarjoaa laajennettavuutta, jota organisaatiot tarvitsevat tekoälyratkaisujensa innovointiin ja kehittämiseen suurilla skaaloilla. <strong><a href=\"https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>AI-laboratoriot hankkivat tietoa lakkautetuista startup-yrityksistä kouluttaakseen mallejaan, mikä viittaa siihen, että yritysten vanha data voi olla arvokasta tekoälyn kehitystyössä. <a href=\"https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/\">Lue lisää</a></p>\n</li>\n<li>\n<p>AMD esitteli Helionin, agenttipohjaiseen AI-laskentaan suunnitellun rack-mittakaavan ratkaisun, joka on suunnattu hyperskaalautuviin keskuksiin ja yrityksille. <a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1FNTRYSTktWnBZYmVSRXhSSE5UWGxsOEZ6YXQzTHQweDhlVzd1TlFzWVVMa3RFZkpheGJZWFlnNzdxcVhZUjdWb01YenZWTlpVN1hUNUVFOU5kdThWb2Z3ajYzLWt5bXBNaldoMEpVYnpJMFExeGc?oc=5\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1348,
+  "output_tokens": 681,
+  "sources": [
+    {
+      "title": "The Download: open model trade-offs and geothermal power’s promise",
+      "url": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Open models have real benefits. Do they outweigh the risks?",
+      "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "AI labs are buying data from dead startups to train their models",
+      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Introducing AMD Helion, Agentic AI Compute at Rack Scale - AMD",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1FNTRYSTktWnBZYmVSRXhSSE5UWGxsOEZ6YXQzTHQweDhlVzd1TlFzWVVMa3RFZkpheGJZWFlnNzdxcVhZUjdWb01YenZWTlpVN1hUNUVFOU5kdThWb2Z3ajYzLWt5bXBNaldoMEpVYnpJMFExeGc?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "Deep dive into Azure Maia 300 architecture",
+      "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+      "source_name": "Azure Blog"
+    },
+    {
+      "title": "The Download: moon city problems and drone traffic controllers",
+      "url": "https://www.technologyreview.com/2026/10/12/1146376/the-download-moon-city-drone-air-traffic-controllers/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Deep dive into Azure Maia 300 architecture",
+      "source_name": "Azure Blog",
+      "source_url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+      "published_at": "2026-10-12T13:00:00+00:00",
+      "summary": "Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference.\nThe post Deep dive into Azure Maia 300 architecture appeared first on Microsoft Azure Blog.",
+      "why_relevant": "Azure Maia 300 -arkkitehtuurin avaaminen on suoraan hyödyllistä, koska se vaikuttaa siihen, millä inferenssialustalla agenttiratkaisuja kannattaa suunnitella ja optimoida Azure-ympäristössä.",
+      "homepage_eligible": true,
+      "homepage_score": 92,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 4,
+      "novelty": 5,
+      "event_key": "azure-maia-300-architecture",
+      "category": "tärkea"
+    }
+  ]
+}
