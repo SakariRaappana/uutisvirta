@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-14",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään nousi esiin kiinnostavia näkökulmia dokumentti-AI:n alalta ja tiedonhankinnasta tekoälymallien koulutukseen. Microsoft on kehittänyt uusia työkaluja dokumenttianalyysiä varten Azure-ympäristölle, ja tekoälylaboratoriot hyödyntävät startupien dataa kehittääkseen mallejaan.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Azure Content Understanding -projekti pukee toimialakohtaista tietämystä dokumentti-AI:n prebuilt analysaattoreiksi, jotka tarjoavat vahvan pohjan jatkojalostukselle ja kehittyneille kontekstualisointityökaluille. Asianmukaiset mittaristot osoittavat parantunutta laatua ja mallinnuskustannuksia. <a href=\"https://devblogs.microsoft.com/foundry/more-than-a-schema-content-understanding-prebuilt-analyzers/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Tekoälylaboratoriot hankkivat datan lähteitä kuolleista startupeista mallien kouluttamiseen. Esimerkiksi Keelan Miskellin alasajettu kryptostartupiin liittyvä anonymisoitu käyttäjädara osoittautui arvokkaammaksi kuin hän oletti, mikä tarjoaa mielenkiintoisen näkökulman datan uudelleenjako- ja hyödyntämismahdollisuuksiin. <a href=\"https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1131,
+  "output_tokens": 347,
+  "sources": [
+    {
+      "title": "The US military’s race to make fake blood",
+      "url": "https://www.technologyreview.com/2026/10/14/1145807/us-military-race-to-make-fake-blood/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Azure Content Understanding Prebuilt Analyzers: packaging domain knowledge for document AI",
+      "url": "https://devblogs.microsoft.com/foundry/more-than-a-schema-content-understanding-prebuilt-analyzers/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "The Download: open model trade-offs and geothermal power’s promise",
+      "url": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Open models have real benefits. Do they outweigh the risks?",
+      "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "AI labs are buying data from dead startups to train their models",
+      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-14",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään korostui niin luonnon vahinkotapauksia kuin metsästysharrastuksen välinevertailuja koskevia uutisia. Marylandin ikonisessa joessa kalakuolemat juontavat juurensa maatilan lannoitealtaaseen ja uusi salamanteri aiheuttaa suuria haasteita Nepalin patikointireiteillä. Lisäksi esiteltiin metsästystarvikkeiden vertailutuloksia ja saavutuksia henkilökohtaisissa metsästyksissä.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Marylandin tunnetussa joessa kuoli 11 000 kalaa, mukaan lukien bassit ja taimenet, maatilan lannoitealtaasta ylivuotaneen lannan vuoksi. <a href=\"https://www.outdoorlife.com/conservation/manure-blamed-maryland-fishkill/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Viittä edullista perinteistä jousta testattiin, ja ne suoriutuivat yllättävän hyvin verrattuna 2 500 dollarin mittatilausjouseen. <a href=\"https://www.outdoorlife.com/gear/best-budget-trad-bows/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Georgialainen metsästäjä saattaa olla ampumassa uutta osavaltion ennätystä ensimmäisellä nuolisarvensa. <a href=\"https://www.outdoorlife.com/hunting/georgia-archery-buck-possible-record/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Entinen ampumaeditori joutui absurdin selviytymiskokemuksen keskelle Wrangell-vuorilla sairastuttuaan kesken matkan. <a href=\"https://www.outdoorlife.com/hunting/sick-backcountry-hunt/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Nepalin Manaslu-kiertoreitti on osittain suljettu uuden salamanterin aiheuttamien vesitulvien vuoksi, mikä koettelee edelleen maan matkailualaa. <a href=\"https://explorersweb.com/new-flash-floods-disrupt-trekking-routes-in-nepal/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ruotsalaisessa mielipidekirjoituksessa painotetaan, että eläinten hyvä hoito vaatii sekä saatavuutta että oikeanlaista osaamista. <a href=\"https://www.jaktojagare.se/kategorier/opinion/debatt-god-djursjukvard-kraver-bade-tillganglighet-och-ratt-kompetens/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 6,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1943,
+  "output_tokens": 531,
+  "sources": [
+    {
+      "title": "Jordanian Man Trekking 23,000Km From South Africa to Siberia",
+      "url": "https://explorersweb.com/jordanian-man-trekking-23000km-from-south-africa-to-siberia/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Cow Manure from Serial Polluter Blamed for Killing 11,000 Bass, Trout in Iconic Maryland Stream",
+      "url": "https://www.outdoorlife.com/conservation/manure-blamed-maryland-fishkill/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "We Tested the Best Budget Trad Bows: These 5 Affordable Bows Shot Surprisingly Well Against a Custom Recurve",
+      "url": "https://www.outdoorlife.com/gear/best-budget-trad-bows/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "‘I Was Shaking.’ Georgia Hunter’s First Archery Buck Could Be the New State Record",
+      "url": "https://www.outdoorlife.com/hunting/georgia-archery-buck-possible-record/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "‘Is This How It Feels to Die?’ I Was Sick and Stranded in the Backcountry",
+      "url": "https://www.outdoorlife.com/hunting/sick-backcountry-hunt/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Animal Attack Roundup",
+      "url": "https://explorersweb.com/animal-attack-roundup/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "New Flash Floods Disrupt Trekking Routes in Nepal",
+      "url": "https://explorersweb.com/new-flash-floods-disrupt-trekking-routes-in-nepal/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "DEBATT: God djursjukvård kräver både tillgänglighet och rätt kompetens",
+      "url": "https://www.jaktojagare.se/kategorier/opinion/debatt-god-djursjukvard-kraver-bade-tillganglighet-och-ratt-kompetens/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": []
+}
