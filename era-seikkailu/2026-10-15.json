@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-15",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa kerrotaan muun muassa siitä, että saksanhirvilihaa saa jälleen syödä Ruotsissa, vaikka varoitukset villisian lihasta jatkuvat. Suomessa Metsästäjäliitto rohkaisee yhteistyöhön villisikajahdissa kasvavan saaliin ja ASF-taudin leviämisen estämiseksi.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Saksanhirven liha takaisin lautaselle Ruotsissa, villisian lihaa varotaan yhä</h3>\n<p>Ruotsissa saksanhirven lihan kulutukselle on annettu jälleen vihreää valoa, ja se voidaan nyt jälleen nauttia ilman aiempia rajoituksia. Tämä muutos on merkittävä ravintokäytön kannalta, sillä saksanhirven liha on tärkeä osa paikallista ruokakulttuuria. Samaan aikaan kuitenkin varoitukset villisian lihan mahdollisista riskeistä jatkuvat yhä. Villisian liha ei ole suositeltavaa syötäväksi niiden tautiriskien vuoksi, ja kuluttajia kehotetaan noudattamaan varovaisuutta yhä villisikojen osalta. <strong><a href=\"https://www.jaktojagare.se/kategorier/nyheter/radjurskott-far-atas-igen-fortsatt-varning-for-vildsvin/\">Lue alkuperäinen →</a></strong></p>\n<h3>Villisikasaaliit kasvavat Suomessa – Metsästäjäliitto kannustaa yhteistyöhön</h3>\n<p>Suomessa villisikojen saalismäärät ovat nousussa, ja Suomen Metsästäjäliitto kehottaa metsästysseuroja aktiiviseen yhteistyöhön afrikkalaisen sikaruton (ASF) torjumiseksi. Metsästäjäliitto painottaa, että villisikojen näytepalkkiot tulee maksaa seuroille, jotta saalistieto pysyy keskitetysti hoidettuna ja taloudellinen hyöty kanavoituu seuroille itselleen. Tämä yhteistoiminta on tärkeää sekä taudin leviämisriskin hallitsemiseksi että metsästysseurojen taloudellisen kestävyyden ylläpitämiseksi. <strong><a href=\"https://metsastajaliitto.fi/uutiset/villisikasaalis-kasvaa-metsastajaliitto-kannustaa-yhteistyohon-ja-aktiiviseen-sikajahtiin\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Ensi vuoden lisenssijahdissa Ruotsissa saa kaataa 72 sutta, linjasi lääninhallitukset uusien suden vähimmäistasojen pohjalta. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/72-vargar-far-skjutas-under-licensjakten-2027/\">Lue lisää</a></li>\n<li>Metsästäjille suositellaan kiinnittämään huomiota metsästystilanteissa ammuksen törmäysnopeuteen energiamäärän sijaan – uusi tieto voi parantaa metsästyksen tehokkuutta pitkän matkan päässä. <a href=\"https://www.outdoorlife.com/guns/impact-velocity-not-energy-matters/\">Lue lisää</a></li>\n<li>Syksyn EHD-tautiepidemiat tappavat peuroja Etelä-Dakotassa, Wisconsinissa ja Wyomingissa, ja Etelä-Dakota tarjoaa metsästyslupien hyvityksiä. <a href=\"https://www.outdoorlife.com/conservation/fall-ehd-outbreak/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 3567,
+  "output_tokens": 779,
+  "sources": [
+    {
+      "title": "72 vargar får skjutas under licensjakten 2027",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/72-vargar-far-skjutas-under-licensjakten-2027/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Rådjurskött får ätas igen – fortsatt varning för vildsvin",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/radjurskott-far-atas-igen-fortsatt-varning-for-vildsvin/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "‘I Was on the Clock.’ Ohio Bowhunter Gets Permission for Just 30 Days, Tags Giant on the Opener",
+      "url": "https://www.outdoorlife.com/hunting/ohio-archery-buck-time-crunch/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "23 Hunters, 46 Deer, and a Record-Book Buck: Inside a Classic Mule Deer Camp",
+      "url": "https://www.outdoorlife.com/hunting/classic-mule-deer-camp-utah/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Impact Velocity, Not Energy, Is What Hunters Should Pay Attention To",
+      "url": "https://www.outdoorlife.com/guns/impact-velocity-not-energy-matters/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "EHD Outbreaks Are Killing Deer in Three States. Here’s What to Know",
+      "url": "https://www.outdoorlife.com/conservation/fall-ehd-outbreak/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Villisikasaalis kasvaa – Metsästäjäliitto kannustaa yhteistyöhön ja aktiiviseen sikajahtiin taudin leviämisriskiä vastaan",
+      "url": "https://metsastajaliitto.fi/uutiset/villisikasaalis-kasvaa-metsastajaliitto-kannustaa-yhteistyohon-ja-aktiiviseen-sikajahtiin",
+      "source_name": "Metsästäjäliitto"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Rådjurskött får ätas igen – fortsatt varning för vildsvin",
+      "source_name": "Jakt & Jägare",
+      "source_url": "https://www.jaktojagare.se/kategorier/nyheter/radjurskott-far-atas-igen-fortsatt-varning-for-vildsvin/",
+      "published_at": "2026-10-15T09:00:00+00:00",
+      "summary": "Länsstyrelsen i Västra Götaland ändrar sina kostrekommendationer för vilt från området kring Landvetter flygplats. Nya prover visar att PFAS-halterna i rådjurskött ligger under gränsvärdet. Däremot avråder myndigheten fortfarande från att äta vildsvinskött och lever från både rådjur och vildsvin.",
+      "why_relevant": "PFAS-tilanteen muutos vaikuttaa suoraan siihen, mitä riistaa Landvetterin seudulla voi syödä ja miten viltin käyttökelpoisuutta pitää arvioida metsästysalueilla.",
+      "homepage_eligible": true,
+      "homepage_score": 80,
+      "keep_days": 4,
+      "personal_relevance": 4,
+      "strategic_importance": 4,
+      "actionability": 4,
+      "novelty": 4,
+      "event_key": "landvetter-pfas-radjur-utton",
+      "category": "tärkea"
+    },
+    {
+      "title": "Villisikasaalis kasvaa – Metsästäjäliitto kannustaa yhteistyöhön ja aktiiviseen sikajahtiin taudin leviämisriskiä vastaan",
+      "source_name": "Metsästäjäliitto",
+      "source_url": "https://metsastajaliitto.fi/uutiset/villisikasaalis-kasvaa-metsastajaliitto-kannustaa-yhteistyohon-ja-aktiiviseen-sikajahtiin",
+      "published_at": "2026-10-14T12:11:50+00:00",
+      "summary": "Villisikasaalis kasvaa – Metsästäjäliitto kannustaa yhteistyöhön ja aktiiviseen sikajahtiin taudin leviämisriskiä vastaan\n\n            Kyllä\n      eriikka.kayhko…\nKe, 14.10.2026 - 15:11\n\n\n              \n\n\n\n      \n            Afrikkalaisen sikaruton (ASF) torjunnassa ratkaisevin työ tehdään metsästys",
+      "why_relevant": "Kasvava villisikasaalis ja Metsästäjäliiton selvä kannustus tehostettuun sikajahtiin vaikuttavat suoraan riistanhoitoon, tautiriskin hallintaan ja metsästysyhteistyöhön Suomessa.",
+      "homepage_eligible": true,
+      "homepage_score": 85,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 4,
+      "actionability": 5,
+      "novelty": 4,
+      "event_key": "metsastajaliitto-villisika-sikajahti-tautiriski",
+      "category": "tärkea"
+    }
+  ]
+}
