@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-16",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään keskusteltiin Ruotsin varojenkäytöstä, sillä Jägarnas Riksförbund (JRF) kritisoi annettuja lupia, ja vaikka 72 varaan saa metsästää, popuaatiota ei odoteta vähenevän. Lisäksi länsstyksestä Västra Götalanissa ilmoitettiin uudesta että toimenpiteistä koskien villien ruokia.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>JRF kritiserar tilldelningen – vargarna blir fler</h3>\n<p>Jägarnas Riksförbund (JRF) on ilmaissut tyytymättömyytensä Ruotsin lääninhallitusten päätökseen, joka koskee varojen määrä. He ovat huolissaan siitä, että myönnetyt metsästysluvat eivät riitä vähentämään varojen määrää, joka kasvaa edelleen. JRF:n mukaan tämä voi aiheuttaa haittaa sekä eläimistölle että maaseutuelinkeinoille. Järjestön mielestä lupien myöntämisessä tulisi keskittyä ensisijaisesti eläinpopulaation sääntelyyn niin, että se pysyy hallinnassa. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/jrf-kritiserar-tilldelningen-vargarna-blir-fler/\">Lue alkuperäinen →</a></p>\n<h3>72 vargar får skjutas – men stammen väntas inte minska</h3>\n<p>Ruotsin lääninhallitukset ovat myöntäneet luvat 72 vargalle metsästyskaudella 2027. Kuitenkin valtaa populoinnin kootta ei odoteta vähenevän näiden toimien myötä, mikä on huolena luonnon tasapainon ja maaseudun asukkaiden kannalta. Päätös on herättänyt paljon keskustelua eri sidosryhmien välillä, jotka pohtivat käytännön keinoja hallita varhaispopulaatiota kestävästi, säilyttäen samalla paitsi ympäristön myös yleisen sosiaalisen hyväksyttävyyden. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/72-vargar-far-skjutas-men-stammen-vantas-inte-minska/\">Lue alkuperäinen →</a></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Outdoor Life haastatteli asiantuntijoita parhaista hirvien kutsupilleistä ja äänistä, jotka vaihtelevat kustomoiduista budjettimallisiin kutsuihin. <a href=\"https://www.outdoorlife.com/gear/best-deer-calls-2026/\">Lue lisää</a></li>\n<li>Metsästyksessä maasta käsin voi saavuttaa menestystä, vaikka puuhun kiipeäminen ei aina ole mahdollista tai haluttua. <a href=\"https://www.outdoorlife.com/hunting/ground-hunting-tips-whitetails/\">Lue lisää</a></li>\n<li>Dennisin mukaan villisikakoiran kouluttaminen alkaa eläinten kanssa aikaisessa vaiheessa ja tärkein on herkkyys koiran kehityksen suhteen. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/jaga-in-vildsvinshunden-som-dennis/\">Lue lisää</a></li>\n<li>Ruotsissa ensi vuonna 72 vargalle myönnettiin metsästysluvat uusien varhaiskantojen minimitasojen mukaan. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/72-vargar-far-skjutas-under-licensjakten-2027/\">Lue lisää</a></li>\n<li>Västra Götalandin läänissä PFAS-tasoista saatiin uudet näytteet, joiden mukaan peuranlihaa voi taas syödä, mutta villisikojen varoitus pysyy voimassa. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/radjurskott-far-atas-igen-fortsatt-varning-for-vildsvin/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 7,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 4033,
+  "output_tokens": 868,
+  "sources": [
+    {
+      "title": "Giant Crabs Complicate New Amelia Earhart Search",
+      "url": "https://explorersweb.com/giant-crabs-complicate-new-amelia-earhart-search/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The Best Deer Calls: Experts Pick the Most Realistic Grunt Tubes, Doe Bleats, and Rattling Antlers",
+      "url": "https://www.outdoorlife.com/gear/best-deer-calls-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "‘Overboard!’ We Went Hunting in a Hurricane, and Barely Survived a Night at Sea",
+      "url": "https://www.outdoorlife.com/survival/hunters-flipped-overboard-hurricane/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "5 Essential Rules for Hunting Mature Bucks from the Ground",
+      "url": "https://www.outdoorlife.com/hunting/ground-hunting-tips-whitetails/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Why a Hunter Is Leading the Fight Against Colorado’s Right-to-Hunt Amendment",
+      "url": "https://www.outdoorlife.com/conservation/colorado-hunters-right-to-hunt-ballot-measure/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "I Spent 5 Years Bowhunting One of the Biggest Nontypical Bucks Ever. Then My Buddy Killed Him",
+      "url": "https://www.outdoorlife.com/hunting/del-austin-buck-nebraska/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "JRF kritiserar tilldelningen – vargarna blir fler",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/jrf-kritiserar-tilldelningen-vargarna-blir-fler/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "What It Took to Kill the Biggest Buck of My Life",
+      "url": "https://www.outdoorlife.com/hunting/biggest-buck-my-life/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Jaga in vildsvinshunden som Dennis",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/jaga-in-vildsvinshunden-som-dennis/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "72 vargar får skjutas – men stammen väntas inte minska",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/72-vargar-far-skjutas-men-stammen-vantas-inte-minska/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Wildfires Force Closure of Carstenz Pyramid for the Season",
+      "url": "https://explorersweb.com/wildfires-force-closure-of-carstenz-pyramid-for-the-season/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "KRÖNIKA: Brölet från vildmarken",
+      "url": "https://www.jaktojagare.se/kategorier/opinion/kronika-brolet-fran-vildmarken/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "72 vargar får skjutas under licensjakten 2027",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/72-vargar-far-skjutas-under-licensjakten-2027/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Rådjurskött får ätas igen – fortsatt varning för vildsvin",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/radjurskott-far-atas-igen-fortsatt-varning-for-vildsvin/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": []
+}

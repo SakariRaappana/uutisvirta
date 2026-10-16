@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-16",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään keskitytään Microsoft ekosysteemin uusiin päivityksiin. Microsoft Foundry ja Agent Framework ovat tuoneet uusia ominaisuuksia, jotka parantavat tekoälyagenttien kehitystä ja tehokkuutta.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>Mitä uutta Microsoft Foundryssa: Syyskuu 2026</strong><br />\nSyyskuun päivityksissä Microsoft Foundryssa esiteltiin uudet mallit, toiminnot, työkaluhaku, mallien reititin ja näkemykset, jotka yhdistyvät kaksivaiheisessa agenttityönkulussa julkisten julkaisujen kautta. <a href=\"https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Vektorikaupat Agent Frameworkissa Pythonille: tutut perustat, virtaviivaistettu agenteille</strong><br />\nVektorikaupat ovat olleet osa Pythonin Semantic Kernel -kokemusta jo pitkään. Microsoft Agent Framework on siirtänyt tämän työn eteenpäin uudelleenaloituksen sijaan, keskittyen agenttien suoraviivaistamiseen. <a href=\"https://devblogs.microsoft.com/agent-framework/vector-stores-in-python-agent-framework-familiar-foundations-streamlined-for-agents/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1123,
+  "output_tokens": 293,
+  "sources": [
+    {
+      "title": "This implant can restore sight for patients with macular degeneration",
+      "url": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Love is infrastructure",
+      "url": "https://www.technologyreview.com/2026/10/16/1145845/love-is-infrastructure-fiction-charlie-jane-anders/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Can’t bear to say goodbye to your pet? Biotech’s got you covered.",
+      "url": "https://www.technologyreview.com/2026/10/16/1146766/pet-biotech-longevity-cloning-cryonics/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Kids are outsmarting social media bans. That’s not a problem we need to solve.",
+      "url": "https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "What’s new in Microsoft Foundry | September 2026",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "Vector stores in Agent Framework for Python: familiar foundations, streamlined for agents",
+      "url": "https://devblogs.microsoft.com/agent-framework/vector-stores-in-python-agent-framework-familiar-foundations-streamlined-for-agents/",
+      "source_name": "Microsoft Agent Framework Blog"
+    },
+    {
+      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
+      "url": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "How much more can nuclear power plants give?",
+      "url": "https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Six wild ideas for perpetuating your mind",
+      "url": "https://www.technologyreview.com/2026/10/15/1145819/six-wild-ideas-perpetuating-your-mind-cognitive-immortality/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Pig kidneys that were “frozen” for a year have been brought back to life",
+      "url": "https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
