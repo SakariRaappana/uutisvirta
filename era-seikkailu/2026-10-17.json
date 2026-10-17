@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-17",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään keskitytään metsästysvälineisiin ja -tapoihin, joihin kuuluvat etäisyysmittarilla varustetut kiikarit, hirvieläinten houkuttelupillit, sekä jousimetsästyksen edut asekaudella. Lisäksi käsitellään kovissa olosuhteissa tapahtunutta antilooppijahtia ja kilpa-ammunnan vaikutusta metsästystaitojen parantamiseen.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Outdoor Life testasi markkinoiden parhaat etäisyysmittarilla varustetut kiikarit metsästykseen ja ampumiseen pitkiltä etäisyyksiltä. Kilpailu ballistiikan ratkaisujen kehittämisessä korostuu näissä huippulaitteissa. <a href=\"https://www.outdoorlife.com/gear/best-rangefinder-binoculars-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Hirven- ja peuranmetsästäjät voivat lisätä saaliinsa määrää käyttämällä houkuttelupilliä oikeissa tilanteissa. Artikkeli tarjoaa vinkkejä siihen, milloin ja miten kutsupilliä kannattaa käyttää. <a href=\"https://www.outdoorlife.com/hunting/when-how-to-use-a-grunt-call/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Jousimetsästäjä selittää, miksi hän suosii jousella metsästämistä myös asekaudella. Hänen mukaansa jousimetsästys tarjoaa haastetta ja ainutlaatuisen kokemuksen. <a href=\"https://www.outdoorlife.com/opinion/why-i-bowhunt-during-gun-season/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Antilooppeja metsästettiin lumimyrskyssä hevosten selässä jättäen autot taakse. Kolme jalkaa syvät kinokset ja jäätävä viima tekivät metsästyksestä haastavan, mutta antoivat ainutlaatuisen kokemuksen. <a href=\"https://www.outdoorlife.com/hunting/horseback-pronghorn-hunt/\">Lue lisää</a></p>\n</li>\n<li>\n<p>National Rifle League (NRL) ja Precision Rifle Series (PRS) -kilpailut voivat opettaa vanhanaikaisen metsästyskiväärin käyttäjille uusia ammunnan tekniikoita. Kilpa-ammunnasta voi löytyä keinoja parantaa omia metsästystaitoja. <a href=\"https://www.outdoorlife.com/guns/how-competition-style-shooting-helps-hunters/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1789,
+  "output_tokens": 554,
+  "sources": [
+    {
+      "title": "Summits Begin on Ama Dablam, Late Fall's Most Popular Peak",
+      "url": "https://explorersweb.com/first-summits-on-ama-dablam-late-falls-most-popular-peak/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "We Tested the Best Rangefinder Binoculars for Hunting and Long Range Shooting",
+      "url": "https://www.outdoorlife.com/gear/best-rangefinder-binoculars-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "When and How to Use a Grunt Tube to Call Deer",
+      "url": "https://www.outdoorlife.com/hunting/when-how-to-use-a-grunt-call/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Why I Bowhunt During Gun Season",
+      "url": "https://www.outdoorlife.com/opinion/why-i-bowhunt-during-gun-season/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Can You Really Eat Tree Bark as a Survival Food?",
+      "url": "https://www.outdoorlife.com/survival/edible-tree-bark/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "To Hunt Pronghorns in a Howling Blizzard, We Left the Jeep Behind and Saddled Up",
+      "url": "https://www.outdoorlife.com/hunting/horseback-pronghorn-hunt/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Think NRL and PRS Can’t Help You Shoot Your Classic Hunting Rifle Better? Think Again",
+      "url": "https://www.outdoorlife.com/guns/how-competition-style-shooting-helps-hunters/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Giant Crabs Complicate New Amelia Earhart Search",
+      "url": "https://explorersweb.com/giant-crabs-complicate-new-amelia-earhart-search/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}
