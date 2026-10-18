@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-18",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään tarkastellaan lyhyesti .280 Remington -patruunan historiaa ja syitä sen alkuperäiseen epäonnistumiseen markkinoilla.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>.280 Remington oli alun perin kaupallinen floppi, mutta se oli lähellä tehdä paluun eri nimellä. <a href=\"https://www.outdoorlife.com/guns/280-remington/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1432,
+  "output_tokens": 99,
+  "sources": [
+    {
+      "title": "How the Worst Hunt I’ve Ever Been on Turned into the Best of My Life",
+      "url": "https://www.outdoorlife.com/hunting/chaotic-big-game-horseback-hunt/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The .280 Remington Should’ve Been a Success. Here’s Why It Wasn’t",
+      "url": "https://www.outdoorlife.com/guns/280-remington/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Summits Begin on Ama Dablam, Late Fall's Most Popular Peak",
+      "url": "https://explorersweb.com/first-summits-on-ama-dablam-late-falls-most-popular-peak/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}
