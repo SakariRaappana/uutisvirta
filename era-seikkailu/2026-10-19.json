@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-19",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään on huomion arvoista erityisesti vesilinnustuksesta kiinnostuneille metsästäjille, sillä tarjolla on tarina loputtomasta ankkametsästyskaudesta. Lisäksi uutta optiikkaa esittelevä arvio kertoo Leican kiikariputken suorituskyvystä.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Artikkeli kertoo miehestä, joka on omistanut elämänsä syksyn lintujen muuttoaallon seuraamiseen ja jatkuvaan ankkametsästykseen. Tällaiseen elämäntapaan sisältyy muun muassa matkustus ja seikkailu mitä erilaisimmissa ympäristöissä. <a href=\"https://www.outdoorlife.com/hunting/endless-duck-season/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Rokslide esittelee Leican APO-Televid 82 kiikariputken, joka säväyttää suorituskyvyllään. Leica tunnetaan optisten laitteiden ystävien keskuudessa korkeasta laadustaan, mikä houkuttelee sekä lintubongareita että metsästäjiä. <a href=\"https://www.rokslide.com/leica-apo-televid-82-spotting-scope-review/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1499,
+  "output_tokens": 274,
+  "sources": [
+    {
+      "title": "Forgotten 7,000'ers: Changtse",
+      "url": "https://explorersweb.com/forgotten-7000ers-changtse/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The Grouse Hunt That Cured a North Woods Kid of Road Hunting — for Good",
+      "url": "https://www.outdoorlife.com/hunting/gunflint-grouse-hunt/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Only Way to Truly Hunt the Fall Migration Is to Follow It",
+      "url": "https://www.outdoorlife.com/hunting/endless-duck-season/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Leica APO-Televid 82 Spotting Scope Review",
+      "url": "https://www.rokslide.com/leica-apo-televid-82-spotting-scope-review/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Adventure Links of the Week",
+      "url": "https://explorersweb.com/adventure-links-of-the-week-167/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}

@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-10-19 — Politiikka — Uutisvirta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #F0F1EB;
+      --surface: #E7E9E2;
+      --border: #C6CAC0;
+      --rule: #1B1D19;
+      --text: #191C18;
+      --muted: #6A6F65;
+      --accent: #3A6558;
+      --accent-pale: #C6D8D3;
+      --accent-border: #7AB0A4;
+      --stamp: #8A4C34;
+      --font-mono: "Courier Prime", "Courier New", Courier, monospace;
+      --font-serif: "Lora", Georgia, serif;
+      --font-display: "Playfair Display", Georgia, serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121519;
+        --surface: #1A1E22;
+        --border: #282D31;
+        --rule: #D8DDD8;
+        --text: #DCE1DC;
+        --muted: #787E78;
+        --accent: #78B8AB;
+        --accent-pale: #182824;
+        --accent-border: #3D7068;
+        --stamp: #C07A5A;
+      }
+    }
+
+    html { font-size: 18px; }
+    body {
+      font-family: var(--font-serif);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── MASTHEAD ───────────────────────────── */
+    .site-header {
+      border-top: 3px solid var(--rule);
+    }
+    .masthead-row {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0.6rem 1.5rem 0.55rem;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .logo {
+      font-family: var(--font-mono);
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .masthead-date {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+    .nav-strip {
+      border-top: 1px solid var(--border);
+      border-bottom: 2px solid var(--rule);
+      padding: 0.45rem 1.5rem;
+    }
+    .nav-strip nav {
+      max-width: 760px;
+      margin: 0 auto;
+      display: flex;
+      gap: 1.75rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .nav-strip a {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .nav-strip a:hover { color: var(--accent); }
+    .nav-strip a.active {
+      color: var(--text);
+      border-bottom: 1.5px solid var(--text);
+    }
+
+    /* ── PAGE ───────────────────────────────── */
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1.75rem 1.5rem 5rem;
+    }
+
+    /* ── TYPOGRAPHY ─────────────────────────── */
+    h1 {
+      font-family: var(--font-display);
+      font-size: 2.1rem;
+      font-weight: 400;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      margin-bottom: 0.2rem;
+      text-wrap: balance;
+    }
+    h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 2rem 0 0.65rem;
+      text-wrap: balance;
+    }
+    h3 {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 400;
+      margin: 1.5rem 0 0.4rem;
+    }
+    p { margin-bottom: 0.9rem; max-width: 68ch; }
+    p:last-child { margin-bottom: 0; }
+    ul, ol { padding-left: 1.4rem; margin-bottom: 0.85rem; }
+    li { margin-bottom: 0.25rem; }
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+    code {
+      font-family: var(--font-mono);
+      font-size: 0.83em;
+      background: var(--surface);
+      padding: 0.1em 0.35em;
+      border: 1px solid var(--border);
+    }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.75rem 0; }
+
+    /* ── META BAR ───────────────────────────── */
+    .meta {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .meta span + span::before { content: " · "; }
+
+    /* ── DIGEST BODY (Markdown-rendered content) ── */
+    .digest-body h2 {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: normal;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-top: 2px solid var(--text);
+      padding-top: 0.55rem;
+      margin: 2.2rem 0 1.2rem;
+    }
+    .digest-body h3 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 0 0 0.7rem;
+      text-wrap: balance;
+    }
+
+    /* ── DEEP DIVE (JS-injected wrapper around h3 blocks) ── */
+    .deep-dive {
+      background: var(--accent-pale);
+      border-left: 3px solid var(--accent-border);
+      padding: 1.1rem 1.4rem 1.1rem 1.2rem;
+      margin-bottom: 1.25rem;
+    }
+    .deep-dive p { font-size: 0.97rem; }
+    .deep-dive p:last-child { margin-bottom: 0; }
+
+    /* ── BRIEF LIST (JS-injected class on ul) ── */
+    .brief-list { list-style: none; padding: 0; }
+    .brief-list li {
+      padding: 0.72rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+      line-height: 1.56;
+      max-width: 68ch;
+    }
+    .brief-list li:last-child { border-bottom: none; }
+
+    /* ── DAY NAV ────────────────────────────── */
+    .day-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+    .day-nav a { color: var(--accent); text-decoration: none; }
+    .day-nav a:hover { text-decoration: underline; }
+
+    /* ── ARCHIVE LIST ───────────────────────── */
+    .archive-list { list-style: none; padding: 0; border-top: 2px solid var(--text); }
+    .archive-list li {
+      display: flex;
+      gap: 1.5rem;
+      align-items: baseline;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .archive-list li:last-child { border-bottom: none; }
+    .archive-list .date {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      min-width: 6rem;
+      flex-shrink: 0;
+      letter-spacing: 0.04em;
+    }
+    .archive-list a { color: var(--text); font-size: 0.93rem; text-decoration: none; }
+    .archive-list a:hover { color: var(--accent); }
+
+    /* ── STREAM CARDS ───────────────────────── */
+    .stream-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 0;
+      border-top: 2px solid var(--text);
+    }
+    .stream-card {
+      padding: 1.1rem 2rem 1.1rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .stream-card h2 {
+      font-size: 1rem;
+      margin-top: 0;
+      margin-bottom: 0.2rem;
+      font-weight: 400;
+    }
+    .stream-card h2 a { color: var(--text); text-decoration: none; }
+    .stream-card h2 a:hover { color: var(--accent); }
+    .stream-card .last-updated {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+    }
+    .stream-card .last-updated a { color: var(--accent); text-decoration: none; }
+
+    /* ── SOURCES ────────────────────────────── */
+    details {
+      margin-top: 2.5rem;
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
+    }
+    details summary {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      cursor: pointer;
+      list-style: none;
+    }
+    details[open] summary { margin-bottom: 0.6rem; }
+    .source-list { list-style: none; padding: 0; margin-top: 0.4rem; }
+    .source-list li {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+    .source-list a { color: var(--accent); text-decoration: none; }
+    .source-list a:hover { text-decoration: underline; }
+
+    /* ── DAY SECTION (collapsible per-day digest) ── */
+    .day-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .day-section > summary {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+      text-transform: none;
+      padding: 1.25rem 0 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+    .day-section > summary::-webkit-details-marker { display: none; }
+    .day-section > summary::after {
+      content: "▾";
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .day-section:not([open]) > summary::after { content: "▸"; }
+    .day-section-body { padding-bottom: 2.5rem; }
+
+    /* ── ARCHIVE SECTION ────────────────────── */
+    .archive-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .archive-section > summary {
+      padding: 0.9rem 0;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .archive-section > summary::-webkit-details-marker { display: none; }
+    .archive-list--plain { border-top: none; margin-top: 0.25rem; }
+
+    /* ── DAY SPACER ─────────────────────────── */
+    .day-spacer {
+      height: 0;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="masthead-row">
+      <a href="../index.html" class="logo">Uutisvirta</a>
+      <span class="masthead-date" id="site-date"></span>
+    </div>
+    <div class="nav-strip">
+      <nav>
+        
+        <a href="../datascience-konsultointi/index.html"
+           >
+          Datascience konsultointi
+        </a>
+        
+        <a href="../era-seikkailu/index.html"
+           >
+          Erä & seikkailu
+        </a>
+        
+        <a href="../politiikka/index.html"
+           class="active">
+          Politiikka
+        </a>
+        
+      </nav>
+    </div>
+  </header>
+  <main class="page">
+    
+<div class="day-nav">
+  <span><a href="2026-10-18.html">← 2026-10-18</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
+</div>
+
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Politiikka</div>
+<h1>2026-10-19</h1>
+<p class="meta">
+  <span>26 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>6765 tokenia</span>
+</p>
+
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Tänään uutisia hallitsevat joukko kansainvälisiä tapahtumia Ranskassa, Ukrainassa ja Kiinassa. Ranskassa koetaan laajamittaisia protesteja kustannuskriisin vuoksi, Ukrainassa jännitteet jatkuvat Venäjän kanssa ja Kiinan talous kasvaa ennakoitua voimakkaammin. Näiden tapahtumien geopoliittiset vaikutukset tuntuvat laajalla skaalalla eri puolilla maailmaa.</p>
+<h2>Tärkeimmät uutiset</h2>
+<p>Tänään ei ole raportoitavia syväanalyysejä tärkeimmistä uutisista.</p>
+<h2>Lyhytmaininnat</h2>
+<h3>Swedish PM's friend guilty of 'negligence with classified information'</h3>
+<p>Ruotsin pääministerin lapsuudenystävä ja kansallisen turvallisuuden neuvonantaja Henrik Landerholm on tuomittu syylliseksi salassa pidettävien tietojen huolimattomaan käsittelyyn. <a href="https://www.thelocal.se/20261019/swedish-pms-friend-guilty-of-negligence-with-classified-information">Lue lisää ›</a></p>
+<h3>Serbian prosecutor probing Trump Tower in Belgrade targeted with spyware</h3>
+<p>Serbialainen syyttäjä, joka tutkii Trump Tower -hanketta Belgradissa, on joutunut vakoiluohjelman kohteeksi, lisääntyneen kiistan keskellä suunnitelmista muuntaa entinen Jugoslavian sotilaskeskus luksuskiinteistöksi. <a href="https://www.politico.eu/article/serbian-prosecutor-targeted-with-spyware-after-trump-tower-project-probe/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää ›</a></p>
+<h3>Greece: At least 12 die in migrant drownings overnight</h3>
+<p>Kreikan vesillä on yöllä hukkunut ainakin 12 ihmistä, mukaan lukien vauva, kahdessa erillisessä tapauksessa. Pelastustyöt ovat käynnissä, ja yhteensä 22 henkilöä on pelastettu. <a href="https://www.dw.com/en/greece-at-least-12-die-in-migrant-drownings-overnight/a-79697504?maca=en-rss-en-all-1573-rdf">Lue lisää ›</a></p>
+<h3>Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods</h3>
+<p>Myrsky Trudy on heikentynyt trooppiseksi myrskyksi Meksikon Tyynenmeren rannikolla, samalla kun Kreikassa tulviminen on vaatinut yhden kuolonuhrin. <a href="https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods">Lue lisää ›</a></p>
+<h3>Foreign SSAB workers released as Dutch lawyer slams Swedish site raid</h3>
+<p>Kaksikymmentä filippiiniläistä SSAB:n sähköinsinööriä, jotka pidätettiin Ruotsissa, on vapautettu. Yhtiön lakimies arvostelee Ruotsin poliisin toimintaa. <a href="https://www.thelocal.se/20261019/foreign-ssab-workers-released-as-dutch-lawyer-slams-swedish-site-raid">Lue lisää ›</a></p>
+<h3>China’s economy grows faster than forecast after AI boom boosts exports</h3>
+<p>Kiinan talous kasvoi ennakoitua nopeammin kolmannella vuosineljänneksellä, osin tekoälybuumin vauhdittamina vientinä, mikä nosti BKT:n kasvua 4,5 prosenttia viime vuodesta. <a href="https://www.theguardian.com/world/2026/oct/19/china-economy-grows-faster-than-forecast-after-ai-boom-boosted-exports">Lue lisää ›</a></p>
+<h3>Malian army and rebels committing abuses against civilians, rights group says</h3>
+<p>Malian armeija ja sen venäläiset paramilitaariset liittolaiset ovat oikeusryhmän mukaan tappaneet siviilejä kansainvälisten lakien vastaisesti. <a href="https://www.rfi.fr/en/africa/20261019-malian-army-and-rebels-committing-abuses-against-civilians-rights-group-hrw-says">Lue lisää ›</a></p>
+<h3>Louvre blocked as France grapples with unrest</h3>
+<p>Ranskan levottomuuksien keskellä mielenosoittajat estivät Louvren museon sisäänkäynnin Pariisissa, kun viranomaiset yrittävät hillitä kustannuskriisin aiheuttamaa tyytymättömyyttä. <a href="https://www.rfi.fr/en/france/20261019-louvre-blocked-as-france-grapples-with-unrest">Lue lisää ›</a></p>
+<h3>France’s interior minister admits police lost control during violent protests</h3>
+<p>Ranskan sisäministeri Laurent Nunez myönsi, että turvallisuusjoukot menettivät hallinnan suurissa kaupungeissa, kun väkivaltaiset protestit leimahtivat viikonlopun aikana. <a href="https://www.rfi.fr/en/france/20261019-france-s-interior-minister-admits-police-lost-control-during-violent-protests">Lue lisää ›</a></p>
+<h3>Where’s Burnham really on welfare reform?</h3>
+<p>Britannian pääministerin mukaan yli miljoonan nuoren syrjäytyminen koulutuksesta ja työelämästä on taloudellinen katastrofi, mutta hallituksen toimenpiteet jäävät epäselviksi. <a href="https://www.politico.eu/podcast/politics-at-sam-and-annes/wheres-burnham-really-on-welfare-reform/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää ›</a></p>
+<h3>'Quite horrifying': Afghan economic crisis leaves EU deportees with 'very little' to return to</h3>
+<p>EU:n käytännön mukainen yhteistyö Afganistanin Taleban-hallinnon kanssa paljastaa ristiriidan diplomaattisen tunnustamattomuuden ja poliittisten tarpeiden välillä. <a href="https://www.france24.com/en/video/20261019-quite-horrifying-afghan-economic-crisis-leaves-eu-deportees-with-very-little-to-return-to-1">Lue lisää ›</a></p>
+<h3>Russia pounds Kyiv as Rubio urges Ukraine's Zelensky to 'focus' on ending the war</h3>
+<p>Venäjä ilmoitti maanantaina tehneensä massiivisia iskuja Kiovaan, samalla kun Yhdysvaltain ulkoministeri Marco Rubio kehotti Ukraina Presidentti Zelenskyä keskittymään sodan lopettamiseen. <a href="https://www.france24.com/en/europe/20261019-live-russian-strikes-pound-kyiv-as-rubio-denies-us-paused-intel-sharing-with-ukraine">Lue lisää ›</a></p>
+<h3>Emmanuel Macron slams 'failures' over protest unrest in France but refuses his interior minister's resignation</h3>
+<p>Ranskan presidentti kieltäytyi sisäministerinsä eropyynnöstä massiivisten protestien jälkeen, jotka johtivat väkivaltaan viikonloppuna. <a href="https://www.dw.com/en/emmanuel-macron-slams-failures-over-protest-unrest-in-france-but-refuses-his-interior-minister-s-resignation/a-79695496?maca=en-rss-en-all-1573-rdf">Lue lisää ›</a></p>
+<h3>Sweden Democrat leader invites Centre Party to 'no-strings-attached' talks</h3>
+<p>Ruotsidemokraattien johtaja Jimmie Åkesson on kutsunut keskustapuolueen Elisabeth Thand Ringqvistin keskusteluun parlamentaarisesta tilanteesta ilman ennakkoehtoja. <a href="https://www.thelocal.se/20261019/sweden-democrat-leader-invites-centre-party-to-no-strings-attached-talks">Lue lisää ›</a></p>
+<h3>What Earth's sixth mass extinction event means for humans</h3>
+<p>Ihmisen toiminta ajaa kasvi- ja eläinlajeja ennennäkemättömän nopeaan sukupuuttoon. Maiden edustajat kokoontuvat Armeniassa keskustelemaan luonnontappioiden korjaamisesta. <a href="https://www.dw.com/en/what-earth-s-sixth-mass-extinction-event-means-for-humans/a-79680410?maca=en-rss-en-all-1573-rdf">Lue lisää ›</a></p>
+<h3>Live: French PM Lecornu calls for 'partial curfews' in cities hit by riots and looting</h3>
+<p>Ranskan keltaliiviliike on kutsunut koolle uuden protestikierroksen lauantaina, kun maa toipuu kahden päivän mellakoista ja ryöstelyistä. <a href="https://www.france24.com/en/europe/20261019-live-france-macron-slams-unbridled-violence-protests-weekend-unrest">Lue lisää ›</a></p>
+<h3>Cop17 biodiversity summit to confront funding gap for wildlife conservation</h3>
+<p>Armeniassa pidettävään YK:n COP17 biodiversiteettikokoukseen osallistuu lähes 200 maata, ja se keskittyy rahoitusvajeeseen luonnonvarojen suojelussa. <a href="https://www.rfi.fr/en/environment/20261019-nature-summit-confronts-the-money-still-driving-wildlife-destruction-cop17-yerevan">Lue lisää ›</a></p>
+<h3>Trump’s Russia rethink — and Europe’s response</h3>
+<p>Donald Trumpin viimeisimmät kannanotot Venäjää ja Ukrainaa kohtaan ovat herättäneet huolta Ukrainassa ja Euroopan pääkaupungeissa, mutta EU:n johtajat vaikuttavat ottavan tilanteen rauhallisesti. <a href="https://www.politico.eu/podcast/brussels-playbook-podcast/trumps-russia-rethink-and-europes-response/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää ›</a></p>
+<h3>Wie die Hauptstadt für die Bundesregierung zur Belastungsprobe wird</h3>
+<p>Mahdollinen punavihreä koalitio Berliinissä herättää suurta keskustelua Saksan liittovaltiotasolla, ja vihreiden johtaja Felix Banaszak varoittaa radikaaleista voimista. <a href="https://www.politico.eu/podcast/berlin-playbook-podcast/wie-die-hauptstadt-fur-die-bundesregierung-zur-belastungsprobe-wird/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää ›</a></p>
+<h3>Deutschland braucht wieder mehr Spielraum für Wachstum</h3>
+<p>Saksan talous on paineen alla, ja tarvitaan lisää tilaa yritystoimintaan ja investointeihin kasvun aikaansaamiseksi. <a href="https://www.politico.eu/sponsored-content/deutschland-braucht-wieder-mehr-spielraum-fuer-wachstum/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää ›</a></p>
+<h3>Cyberattack on French supermarkets tells us more about food security than AI safety</h3>
+<p>Kyberhyökkäys ranskalaisiin supermarketteihin on nostanut esiin kysymyksiä ruokaturvallisuudesta ja vähemmän tekoälyn turvallisuudesta. <a href="https://www.politico.eu/article/cyberattack-french-supermarkets-food-security-ai-safety/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää ›</a></p>
+<h3>Trump defends Russia sanctions waivers, accuses Zelenskyy of 'prolonging war'</h3>
+<p>Yhdysvaltain presidentti Donald Trump puolusti Venäjän pakotteiden lieventämistä ja syytti Ukrainan presidenttiä Zelenskyä sodan pitkittämisestä. <a href="https://www.dw.com/en/trump-defends-russia-sanctions-waivers-accuses-zelenskyy-of-prolonging-war/a-79694674?maca=en-rss-en-all-1573-rdf">Lue lisää ›</a></p>
+<h3>Zelensky holds US talks as Trump accuses him of not wanting peace</h3>
+<p>Ukrainan presidentti Volodymyr Zelensky keskusteli Yhdysvaltain lähettiläiden kanssa, kun Trump syytti Ukrainaa rauhanhankkeiden vastustamisesta Venäjän kanssa. <a href="https://www.france24.com/en/europe/20261018-ukraine-zelensky-war-trump-peace-russia-sanctions">Lue lisää ›</a></p>
+<h3>Macron begins Gulf tour focused on fuel supplies and strategic ties</h3>
+<p>Ranskan presidentti Emmanuel Macron aloittaa kolmipäiväisen Persianlahden vierailun tavoitteenaan turvata lisäpolttoainetoimituksia Ranskalle ja vahvistaa taloudellisia, puolustus- ja turvallisuussuhteita. <a href="https://www.rfi.fr/en/france/20261018-macron-begins-four-state-gulf-tour-focused-on-fuel-supplies-and-strategic-ties">Lue lisää ›</a></p>
+<h3>Macron promises tough punishments for rioters during nationwide day of action</h3>
+<p>Ranskan presidentti Macron lupasi sunnuntaina ankaria rangaistuksia mellakoitsijoille, jotka aiheuttivat tuhoa ympäri maata mielenosoitusten aikana. <a href="https://www.rfi.fr/en/france/20261018-macron-promises-tough-punishments-for-rioters-during-nationwide-day-of-action">Lue lisää ›</a></p>
+<h3>Ukrainian drone attack on Saint Petersburg kills one, sets refinery ablaze</h3>
+<p>Ukrainan suuri drooni-isku Venäjän Pietariin aiheutti ainakin yhden kuolonuhrin ja sytytti palamaan öljynjalostamon. <a href="https://www.france24.com/en/europe/20261018-ukraine-sets-saint-petersburg-refinery-ablaze-in-large-scale-drone-attack">Lue lisää ›</a></p>
+
+</div>
+
+<details>
+  <summary>Lähteet (40)</summary>
+  <ul class="source-list">
+    
+    <li><a href="https://www.dw.com/en/from-delivery-driver-to-global-fame-a-korean-writer-s-journey/a-79672757?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">From delivery driver to global fame: A Korean writer's journey</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/how-a-homeless-man-lives-in-front-of-a-london-mega-mansion/a-79400925?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">How a homeless man lives in front of a London mega-mansion</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.thelocal.se/20261019/swedish-pms-friend-guilty-of-negligence-with-classified-information" target="_blank" rel="noopener">Swedish PM's friend guilty of 'negligence with classified information'</a> <span style="color:var(--muted)">— The Local Sweden</span></li>
+    
+    <li><a href="https://www.politico.eu/article/serbian-prosecutor-targeted-with-spyware-after-trump-tower-project-probe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Serbian prosecutor probing Trump Tower in Belgrade targeted with spyware</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/greece-at-least-12-die-in-migrant-drownings-overnight/a-79697504?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Greece: At least 12 die in migrant drownings overnight</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods" target="_blank" rel="noopener">Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.thelocal.se/20261019/foreign-ssab-workers-released-as-dutch-lawyer-slams-swedish-site-raid" target="_blank" rel="noopener">Foreign SSAB workers released as Dutch lawyer slams Swedish site raid</a> <span style="color:var(--muted)">— The Local Sweden</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/oct/19/china-economy-grows-faster-than-forecast-after-ai-boom-boosted-exports" target="_blank" rel="noopener">China’s economy grows faster than forecast after AI boom boosts exports</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/africa/20261019-malian-army-and-rebels-committing-abuses-against-civilians-rights-group-hrw-says" target="_blank" rel="noopener">Malian army and rebels committing abuses against civilians, rights group says</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.bbc.co.uk/news/articles/cmq5n8x106jdo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener">Possible wreckage of Amelia Earhart's plane likely to be trees, say researchers</a> <span style="color:var(--muted)">— BBC News — World</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/oct/19/safety-concerns-japan-traditional-festivals-fatal-accidents" target="_blank" rel="noopener">Three deaths from float crushes raise safety concerns over Japanese festivals</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.dw.com/en/west-bank-israel-arrests-10-suspects-over-settler-attacks-on-us-journalist-european-diplomats/a-79696514?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">West Bank: Israel arrests 10 suspects over settler attacks on US journalist, European diplomats</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20261019-louvre-blocked-as-france-grapples-with-unrest" target="_blank" rel="noopener">Louvre blocked as France grapples with unrest</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20261019-france-s-interior-minister-admits-police-lost-control-during-violent-protests" target="_blank" rel="noopener">France’s interior minister admits police lost control during violent protests</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/politics-at-sam-and-annes/wheres-burnham-really-on-welfare-reform/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Where’s Burnham really on welfare reform?</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.france24.com/en/video/20261019-quite-horrifying-afghan-economic-crisis-leaves-eu-deportees-with-very-little-to-return-to-1" target="_blank" rel="noopener">'Quite horrifying': Afghan economic crisis leaves EU deportees with 'very little' to return to</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/india-news-cjp-alleges-deliberate-delay-in-leaders-release/live-79695410?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">India news: CJP alleges 'deliberate' delay in leaders' release</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/brazil-lula-bolsonaro-clash-in-heated-presidential-debate/a-79695420?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Brazil: Lula, Bolsonaro clash in heated presidential debate</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20261019-live-russian-strikes-pound-kyiv-as-rubio-denies-us-paused-intel-sharing-with-ukraine" target="_blank" rel="noopener">Russia pounds Kyiv as Rubio urges Ukraine's Zelensky to 'focus' on ending the war</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/emmanuel-macron-slams-failures-over-protest-unrest-in-france-but-refuses-his-interior-minister-s-resignation/a-79695496?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Emmanuel Macron slams 'failures' over protest unrest in France but refuses his interior minister's resignation</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.thelocal.se/20261019/sweden-democrat-leader-invites-centre-party-to-no-strings-attached-talks" target="_blank" rel="noopener">Sweden Democrat leader invites Centre Party to 'no-strings-attached' talks</a> <span style="color:var(--muted)">— The Local Sweden</span></li>
+    
+    <li><a href="https://www.dw.com/en/what-earth-s-sixth-mass-extinction-event-means-for-humans/a-79680410?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">What Earth's sixth mass extinction event means for humans</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.thelocal.se/20261019/today-in-sweden-a-roundup-of-the-latest-news-on-monday-266" target="_blank" rel="noopener">Today in Sweden: A roundup of the latest news on Monday</a> <span style="color:var(--muted)">— The Local Sweden</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20261019-live-france-macron-slams-unbridled-violence-protests-weekend-unrest" target="_blank" rel="noopener">Live: French PM Lecornu calls for 'partial curfews' in cities hit by riots and looting</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/environment/20261019-nature-summit-confronts-the-money-still-driving-wildlife-destruction-cop17-yerevan" target="_blank" rel="noopener">Cop17 biodiversity summit to confront funding gap for wildlife conservation</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada" target="_blank" rel="noopener">‘This is not poker’: Alberta goes to polls in referendum that has exposed divisions, not least among separatists</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.theguardian.com/us-news/2026/oct/19/amelia-earhart-purdue-expedition-clump-of-trees-nikumaroro-kiribati" target="_blank" rel="noopener">Amelia Earhart researchers leave remote atoll empty-handed after ‘plane debris’ found to be a clump of trees</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/brussels-playbook-podcast/trumps-russia-rethink-and-europes-response/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Trump’s Russia rethink — and Europe’s response</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/berlin-playbook-podcast/wie-die-hauptstadt-fur-die-bundesregierung-zur-belastungsprobe-wird/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Wie die Hauptstadt für die Bundesregierung zur Belastungsprobe wird</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/austrian-airlines-flight-from-tel-aviv-makes-emergency-landing-after-bomb-threat/a-79695070?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Austrian Airlines flight from Tel Aviv makes emergency landing after bomb threat</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.politico.eu/sponsored-content/deutschland-braucht-wieder-mehr-spielraum-fuer-wachstum/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Deutschland braucht wieder mehr Spielraum für Wachstum</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.politico.eu/article/cyberattack-french-supermarkets-food-security-ai-safety/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Cyberattack on French supermarkets tells us more about food security than AI safety</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/trump-defends-russia-sanctions-waivers-accuses-zelenskyy-of-prolonging-war/a-79694674?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Trump defends Russia sanctions waivers, accuses Zelenskyy of 'prolonging war'</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright" target="_blank" rel="noopener">Four people killed in ‘violent, fast-moving’ fire at Canadian military base</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.dw.com/en/canada-fire-at-alberta-military-base-kills-four-leaves-19-in-critical-condition/a-79690515?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Canada: Fire at Alberta military Base kills four, leaves 19 in critical condition</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20261018-ukraine-zelensky-war-trump-peace-russia-sanctions" target="_blank" rel="noopener">Zelensky holds US talks as Trump accuses him of not wanting peace</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20261018-macron-begins-four-state-gulf-tour-focused-on-fuel-supplies-and-strategic-ties" target="_blank" rel="noopener">Macron begins Gulf tour focused on fuel supplies and strategic ties</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20261018-macron-promises-tough-punishments-for-rioters-during-nationwide-day-of-action" target="_blank" rel="noopener">Macron promises tough punishments for rioters during nationwide day of action</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/africa/20261018-shakahola-families-still-searching-for-their-dead-as-judgment-nears" target="_blank" rel="noopener">Three years on from Kenya's Shakahola cult murders, families still seek closure</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20261018-ukraine-sets-saint-petersburg-refinery-ablaze-in-large-scale-drone-attack" target="_blank" rel="noopener">Ukrainian drone attack on Saint Petersburg kills one, sets refinery ablaze</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+  </ul>
+</details>
+
+
+  </main>
+  <script>
+    (function() {
+      var d = new Date();
+      var days = ['Su','Ma','Ti','Ke','To','Pe','La'];
+      var months = ['tammik.','helmik.','maalisk.','huhtik.','toukok.','kesäk.','heinäk.','elok.','syysk.','lokak.','marrask.','jouluk.'];
+      var el = document.getElementById('site-date');
+      if (el) el.textContent = days[d.getDay()] + ' ' + d.getDate() + '. ' + months[d.getMonth()] + ' ' + d.getFullYear();
+
+      document.querySelectorAll('a[href]').forEach(function(a) {
+        var href = a.getAttribute('href');
+        if (href && href.startsWith('http')) {
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener');
+        }
+      });
+
+      document.querySelectorAll('.digest-body').forEach(function(body) {
+        body.querySelectorAll('h3').forEach(function(h3) {
+          var div = document.createElement('div');
+          div.className = 'deep-dive';
+          h3.parentNode.insertBefore(div, h3);
+          div.appendChild(h3);
+          var next = div.nextSibling;
+          while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+            var n = next.nextSibling;
+            div.appendChild(next);
+            next = n;
+          }
+        });
+        body.querySelectorAll('ul').forEach(function(ul) {
+          ul.classList.add('brief-list');
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

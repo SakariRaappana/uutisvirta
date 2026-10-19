@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-19",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Microsoft Foundry julkaisi tärkeän päivityksen selaimen automaatiotyökaluun, joka on nyt saatavilla yleisesti (GA-vaiheessa). Lisäksi tekoälytutkijat ovat tehneet mielenkiintoisia kokeita tekoälyjen käyttäytymisestä ilman ohjeita, ja NVIDIA:n suunnittelutiimi pohtii prosessoriarkkitehtuurien muutoksia AI:n vaatimusten mukaan.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Selaimen automaatiotyökalu Microsoft Foundryssa on nyt GA-tilassa</h3>\n<p>Microsoft Foundry ilmoitti, että sen selaimen automaatiotyökalu on siirtynyt yleisesti saatavilla olevaan tilaan (GA, General Availability). Tämä työkalu on suunniteltu tehostamaan selainpohjaisten sovellusten interaktioiden automatisointia, mikä mahdollistaa tehokkaamman käyttöönottomenettelyn esimerkiksi testauksessa ja prosessiautomaatioprojekteissa. Työkalu hyödyntää muun muassa Playwright Workspaces -ympäristöä ja voi hyödyntää MCP-käytäntöjä, mikä helpottaa integrointia laajempaan agenttiekosysteemiin. Tämä vapautus seuraa huomiota herättäneitä esivaiheita, jotka ovat jo antaneet lupaavia tuloksia kokeilukäytössä ja pilotoidussa käytössä eri aloilla. Tämä kehitys on merkittävä askel eteenpäin Microsoft Foundryn työnkulkujen modernisoinnissa ja automatisoinnissa. <strong><a href=\"https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>MIT Technology Reviewin mukaan tekoälytutkijoiden kokeessa tekoälyagentti Claude jätettiin ilman ohjeita virtuaalille autiosaarelle, missä se alkoi itsenäisesti &quot;leikkiä&quot;. <a href=\"https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/\">Lue lisää</a></p>\n</li>\n<li>\n<p>NVIDIA:n Vera-tiimi paljastaa, että prosessorien chiplet-suunnittelut ovat heikentäneet yksittäisen säikeen suorituskykyä ydinmäärien kasvattamisen vuoksi, mutta agenttitekoäly pakottaa nyt harkitsemaan uudelleen suunnitteluita. <a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxNVlA2RVA3clNBZnp3N1plRXhaQXREdWhxbE9YSDNPa0tHMHBBelFNN2pfOFNSVkJ0MEoyMTAzUmhwNWk1TTBUalZMeHJmQUpLSGEzNlZ1VmhYMC1qeVIwNWRGOXhOalhwckdobjVtM3Zpd2lwamZKRjlvcmMtMGsxYmZyN2cwbG9sczdqMnotcHJJT2NWaUpGMXNPdDNMYVN2RDlvNXh1N184Mi1qWTNxQzQ4cWladVdtd2pZMVlSdk9KbUx1MWhza3VXU2E2dndQSFJYaHk1UjloYzk4RGl1ZjQ4TW04RXpuVzNRNkR5QUFQTVdyYlY1MdIB_gFBVV95cUxQWVJjTmZvUmZ4Z1FkY3ZGZGRmUDEzdDJqVDY1bzF4bUE5UUxlbVhBTjI4MGNnYlhVQVJueW1MZHhyNjNPNkVwTjBFa3RJLU0zMjBFUG1wczRXSFlWNng5NjNnT2dWVWw4bjBZanU4a0dkYXpIaFZSc2k1RFNXaHZpZ29LdXhabDVqWEFCOEQyemFUU0dUc1d0WFRiLXhqMmRQbzFlVW1yLVI0cVFJVE1rOXJuWEV3RXFpaTR4TDJnYi1sTmFZaDBtWW5GQ0pFdEdTUXlEXzViblItVHhGZ09lWnhucC0xNVpyb1hvSjVpNlpBWjRrcTFfanpQVklTQQ?oc=5\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2445,
+  "output_tokens": 1005,
+  "sources": [
+    {
+      "title": "Browser automation tool in Microsoft Foundry is now GA",
+      "url": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "Inside the quest to combat Arctic fires and save the planet’s frozen carbon",
+      "url": "https://www.technologyreview.com/2026/10/19/1146832/inside-the-quest-to-combat-arctic-fires-and-save-the-planets-frozen-carbon/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "How far can we push computing?",
+      "url": "https://www.technologyreview.com/2026/10/19/1145904/tr-explains-how-far-can-we-push-computing/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Exclusive: NVIDIA’s Vera Team Says Chiplet Designs Sacrificed Single-Threaded Performance For Core Counts, And Agentic AI Is Now Forcing A Reversal - Wccftech",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNVlA2RVA3clNBZnp3N1plRXhaQXREdWhxbE9YSDNPa0tHMHBBelFNN2pfOFNSVkJ0MEoyMTAzUmhwNWk1TTBUalZMeHJmQUpLSGEzNlZ1VmhYMC1qeVIwNWRGOXhOalhwckdobjVtM3Zpd2lwamZKRjlvcmMtMGsxYmZyN2cwbG9sczdqMnotcHJJT2NWaUpGMXNPdDNMYVN2RDlvNXh1N184Mi1qWTNxQzQ4cWladVdtd2pZMVlSdk9KbUx1MWhza3VXU2E2dndQSFJYaHk1UjloYzk4RGl1ZjQ4TW04RXpuVzNRNkR5QUFQTVdyYlY1MdIB_gFBVV95cUxQWVJjTmZvUmZ4Z1FkY3ZGZGRmUDEzdDJqVDY1bzF4bUE5UUxlbVhBTjI4MGNnYlhVQVJueW1MZHhyNjNPNkVwTjBFa3RJLU0zMjBFUG1wczRXSFlWNng5NjNnT2dWVWw4bjBZanU4a0dkYXpIaFZSc2k1RFNXaHZpZ29LdXhabDVqWEFCOEQyemFUU0dUc1d0WFRiLXhqMmRQbzFlVW1yLVI0cVFJVE1rOXJuWEV3RXFpaTR4TDJnYi1sTmFZaDBtWW5GQ0pFdEdTUXlEXzViblItVHhGZ09lWnhucC0xNVpyb1hvSjVpNlpBWjRrcTFfanpQVklTQQ?oc=5",
+      "source_name": "Google News: agentic AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Browser automation tool in Microsoft Foundry is now GA",
+      "source_name": "Microsoft Foundry Blog",
+      "source_url": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/",
+      "published_at": "2026-10-19T10:32:13+00:00",
+      "summary": "Build agents that automate tasks across public and private websites with managed browsers, native toolbox integration, Live View, and human control.\nThe post Browser automation tool in Microsoft Foundry is now GA appeared first on Microsoft Foundry Blog.",
+      "why_relevant": "Microsoft Foundryn browser automation -työkalu on nyt GA, joten se voi muuttaa suoraan sitä, miten rakennat tuotantovalmiita agentteja, jotka toimivat verkkosovelluksissa ja tarvitsevat ihmisen ohjausta.",
+      "homepage_eligible": true,
+      "homepage_score": 93,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "microsoft-foundry-browser-automation-ga",
+      "category": "tärkea"
+    }
+  ]
+}
