@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-20",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään käsitellään nuorten metsästystietouden edistämistä Suomessa, jaksetaan eroa metsästysmyyttien ja faktojen välillä, sekä paneudutaan uusimpiin eräkameroihin. Kosteikkolintujen metsästyspaikkoja ja valkohäntäpeuran jäljittämisvinkkejä esitellään myös.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Outdoor Life testasi ja arvioi vuoden 2026 parhaimpia eräkameroita, joihin kuuluvat sekä mobiiliyhteydelliset että -yhteydettömät mallit ja turvakamerat. <a href=\"https://www.outdoorlife.com/gear/best-trail-cameras-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life -lehden John B. Snow käsittelee yleisimpiä myyttejä liittyen metsästyskivääreihin, patruunoihin ja ampumiseen. <a href=\"https://www.outdoorlife.com/hunting/biggest-deer-rifle-myths/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Artikkelissa annetaan ohjeita valkohäntäpeuran verijälkien seuraamiseen. Jäljittäminen voi olla suoraviivaista, mutta joskus tarvitaan apuun verijälkikoira. <a href=\"https://www.outdoorlife.com/hunting/blood-trail-deer/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life esittelee neljä aliarvostettua osavaltiota Yhdysvalloissa, joissa julkisilla mailla voi harrastaa sorsien metsästystä. <a href=\"https://www.outdoorlife.com/hunting/where-to-hunt-ducks-public-land/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Wihurin rahasto tukee Metsästäjäliiton hanketta, jonka tavoitteena on lisätä nuorten metsästystietoutta. <a href=\"https://metsastajaliitto.fi/uutiset/tavoitteena-lisata-nuorten-metsastystietoutta\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1836,
+  "output_tokens": 441,
+  "sources": [
+    {
+      "title": "The Best Trail Cameras of 2026, Tested and Reviewed",
+      "url": "https://www.outdoorlife.com/gear/best-trail-cameras-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Biggest Myths About Deer Rifles, Cartridges, and Shooting",
+      "url": "https://www.outdoorlife.com/hunting/biggest-deer-rifle-myths/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "I’ve Hunted All Around the World, But This Was the Single Most Difficult Hunt of My Life",
+      "url": "https://www.outdoorlife.com/hunting/toughest-moose-hunt-ever/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Blood Trail a Deer Properly: The Ultimate Guide to Recovering Your Buck",
+      "url": "https://www.outdoorlife.com/hunting/blood-trail-deer/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "This Is the Secret to Calling in a Fall Gobbler, According to a Turkey Hunting Legend",
+      "url": "https://www.outdoorlife.com/hunting/how-to-call-fall-turkey/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Where to Hunt Ducks on Public Land: 4 Underrated States for Freelance Waterfowlers",
+      "url": "https://www.outdoorlife.com/hunting/where-to-hunt-ducks-public-land/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Tavoitteena lisätä nuorten metsästystietoutta – Wihurin rahastolta tukea Metsästäjäliiton hankkeelle",
+      "url": "https://metsastajaliitto.fi/uutiset/tavoitteena-lisata-nuorten-metsastystietoutta",
+      "source_name": "Metsästäjäliitto"
+    }
+  ],
+  "homepage_candidates": []
+}

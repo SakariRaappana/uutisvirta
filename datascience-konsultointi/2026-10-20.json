@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-20",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Microsoft Foundry toi selainautomaatiotyökalunsa yleiseen saatavuuteen (GA), merkittävä päivitys, joka vaikuttaa kivasti selainpohjaisten sovellusten kehitykseen. Lisäksi esillä on suunnittelu suvereenille tekoälylle, internetin parantaminen tekoälyagenteille, kiistanalaisia väitteitä neuroverkkojen luonteesta sekä tekoälyagenttien käyttäytyminen virtuaalisella saarella.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Microsoft Foundryn selainautomaatiotyökalu nyt yleisesti saatavilla</h3>\n<p>Microsoft Foundry on julkaissut selainautomaatiotyökalunsa yleiseen saatavuuteen (GA). Tämä työkalu perustuu Microsoftin playframe-työpajoihin ja sitä voidaan hyödyntää erilaisiin selainpohjaisiin tehtäviin kuten testaukseen ja työnkulkuautomaation kehittämiseen. Selainautomaatiotyökalun käyttöönotto GA-tilassa mahdollistaa laajemman pääsyn työkalun ominaisuuksiin, mikä tekee siitä käyttökelpoisen eri kokoisille yrityksille, jotka haluavat digitalisoida ja automatisoida prosessejaan. Microsoftin viimeisimmät parannukset tähän työkaluun sisältävät parempaa tukea yhteyksille ja mahdollisuuden hallita verkostoituneita toimintaympäristöjä tehokkaasti. Tämä edistää erityisesti finanssisektorille suunnattuja ratkaisuja, joille luotettavuus ja skaalautuvuus ovat ensisijaisen tärkeitä. <strong><a href=\"https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Azure-blogissa keskustellaan suvereenin tekoälyn suunnittelusta, jossa joustava arkkitehtuuri mahdollistaa työkuorman sijoittamisen oikeaan ympäristöön sekä vaaditun valvonnan toteuttamisen. <a href=\"https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/\">Lue lisää</a></p>\n</li>\n<li>\n<p>MIT Technology Reviewin artikkeli pohtii internetin parantamisen vaikutuksia tekoälyagenteille, mikä saattaa samalla heikentää sen toimintaa muille käyttäjille. <a href=\"https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Nick Cammarata, Goodfiren tutkimusyrityksestä, esittää yllättävän väitteen neuroverkkojen luonteesta, joka voi mullistaa alan käsityksen tekoälystä. <a href=\"https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/\">Lue lisää</a></p>\n</li>\n<li>\n<p>MIT Technology Review raportoi kokeesta, jossa AI-agentti Claude jätettiin virtuaaliseen eroon saarelle, ja kokeen tulokset osoittivat agentin käyttäytyvän kuin se leikkisi, herättäen kysymyksiä tekoälyagenttien spontaanista käyttäytymisestä. <a href=\"https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2196,
+  "output_tokens": 762,
+  "sources": [
+    {
+      "title": "A visit to Samsung’s massive new semiconductor hub",
+      "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "These startups hope “blended” food will cut our appetite for red meat",
+      "url": "https://www.technologyreview.com/2026/10/20/1145927/blended-meat-food-startups-building-bridge-to-ditch-red-meat/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
+      "url": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
+      "source_name": "Azure Blog"
+    },
+    {
+      "title": "Making the internet better for AI agents might make it worse for everyone else",
+      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+      "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: preserving the Arctic permafrost, and playful AI agents",
+      "url": "https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Browser automation tool in Microsoft Foundry is now GA",
+      "url": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "Inside the quest to combat Arctic fires and save the planet’s frozen carbon",
+      "url": "https://www.technologyreview.com/2026/10/19/1146832/inside-the-quest-to-combat-arctic-fires-and-save-the-planets-frozen-carbon/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "How far can we push computing?",
+      "url": "https://www.technologyreview.com/2026/10/19/1145904/tr-explains-how-far-can-we-push-computing/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Browser automation tool in Microsoft Foundry is now GA",
+      "source_name": "Microsoft Foundry Blog",
+      "source_url": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/",
+      "published_at": "2026-10-19T10:32:13+00:00",
+      "summary": "Build agents that automate tasks across public and private websites with managed browsers, native toolbox integration, Live View, and human control.\nThe post Browser automation tool in Microsoft Foundry is now GA appeared first on Microsoft Foundry Blog.",
+      "why_relevant": "Browser automation -työkalun GA-julkaisu Microsoft Foundryssa vaikuttaa suoraan siihen, miten voit rakentaa tuotantokelpoisia agentteja, jotka asioivat webissä hallitusti ja ihmisen valvonnalla.",
+      "homepage_eligible": true,
+      "homepage_score": 93,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "microsoft-foundry-browser-automation-ga",
+      "category": "tärkea"
+    }
+  ]
+}
