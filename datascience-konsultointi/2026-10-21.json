@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-21",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään on ilmoitettu ALEETH:in menestyksekkäästä testistä, joka liittyy institutionaaliseen kontrolliarkkitehtuuriin. Lisäksi Azure-blogissa käsitellään digitaalista suvereniteettia, jossa pyritään tarjoamaan enemmän kontrollia ja valinnan mahdollisuuksia teknologian käytössä.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>ALEETH-yritys on onnistuneesti testannut institutionaalisen kontrolliarkkitehtuurinsa, joka estää tekoälyagenttien luvattomat toimet ennen niiden suorittamista. <a href=\"https://news.google.com/rss/articles/CBMijgJBVV95cUxQWm5KUXBGdlVNVTlIQlh1bzdyekdhenBGM1dmZDRENm15UGRfSGFZSktNbkFyeE1ENm9qV0lQQ2g1UWdGQlBoMy13N243N2dsSG9rWUtmcU5xNXRCeUxpektBTm1uR1JOR0FSajBYdll1dUlrek84MEwycjk3X18tSDRZQk9xUEdGMm02eDdTU1hxNzBSMEpyQXNFUFpnMEVZUnJ0QW0zZUxtOXhudkEyaU9MY01ObmJ1NmItd18wc1FUamY2V2EtalRnMjFwMFE1ZzhuOHRTSlJOY1ZtdHBQZm9zbVdTMXB4eE5VR3JJRlVHTEVDV21TT2F3dThWcEIwWHhpS19jdUJybjgxRmc?oc=5\">Lue lisää</a></p>\n</li>\n<li>\n<p>Azure-blogissa keskustellaan digitaalisesta suvereniteetista ja siitä, kuinka teknologiaa voidaan hyödyntää kriittisissä järjestelmissä samalla tarjoten yksilöille enemmän kontrollia ja valinnanmahdollisuuksia. <a href=\"https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1335,
+  "output_tokens": 471,
+  "sources": [
+    {
+      "title": "ALEETH Announces Successful Test of Institutional Control Architecture: AI Agent's Unauthorized Actions Stopped Before They Ran - StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQWm5KUXBGdlVNVTlIQlh1bzdyekdhenBGM1dmZDRENm15UGRfSGFZSktNbkFyeE1ENm9qV0lQQ2g1UWdGQlBoMy13N243N2dsSG9rWUtmcU5xNXRCeUxpektBTm1uR1JOR0FSajBYdll1dUlrek84MEwycjk3X18tSDRZQk9xUEdGMm02eDdTU1hxNzBSMEpyQXNFUFpnMEVZUnJ0QW0zZUxtOXhudkEyaU9MY01ObmJ1NmItd18wc1FUamY2V2EtalRnMjFwMFE1ZzhuOHRTSlJOY1ZtdHBQZm9zbVdTMXB4eE5VR3JJRlVHTEVDV21TT2F3dThWcEIwWHhpS19jdUJybjgxRmc?oc=5",
+      "source_name": "Google News: AI agents architecture"
+    },
+    {
+      "title": "We can do impossible things",
+      "url": "https://www.technologyreview.com/2026/10/21/1146053/editor-letter-we-can-do-impossible-things/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Nuclear-powered spaceships",
+      "url": "https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Exercise in a pill",
+      "url": "https://www.technologyreview.com/2026/10/21/1146121/exercise-in-a-pill-impossible-issue/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Interspecies communication",
+      "url": "https://www.technologyreview.com/2026/10/21/1146124/interspecies-communication-impossible-issue/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Cleaning up PFAS",
+      "url": "https://www.technologyreview.com/2026/10/21/1146128/cleaning-up-pfas-impossible-issue/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Solid-state batteries",
+      "url": "https://www.technologyreview.com/2026/10/21/1146137/solid-state-batteries-impossible-issue/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Eliminating traffic deaths",
+      "url": "https://www.technologyreview.com/2026/10/21/1146141/eliminating-traffic-deaths-impossible-issue/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "It’s a bird, it’s a plane … it’s a robo-puffin?",
+      "url": "https://www.technologyreview.com/2026/10/20/1145205/its-a-bird-its-a-plane-its-a-robo-puffin/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Here’s the tea",
+      "url": "https://www.technologyreview.com/2026/10/20/1145274/heres-the-tea/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Melt it, spin it, use it again",
+      "url": "https://www.technologyreview.com/2026/10/20/1145276/melt-it-spin-it-use-it-again/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Advancing digital sovereignty with greater control and choice",
+      "url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
+      "source_name": "Azure Blog"
+    }
+  ],
+  "homepage_candidates": []
+}
