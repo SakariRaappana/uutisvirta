@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-22",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Päivän uutisissa kerrotaan kahden japanilaisen kiipeilijän katoamisesta Nepalissa sijaitsevalle Gangapurna West -vuorelle. Lisäksi käsitellään hirvijahdissa käytettävien patruunoiden uutuuksia ja tehokkuutta.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>Kaksi kiipeilijää kadoksissa Gangapurna Westillä</strong><br />\nJapanilaiset Hidesuke Taneishi ja Tetsu Hashimoto ovat kateissa Nepalin Annapurnan alueella sijaitsevalla, ennen kiipeämättömällä Gangapurna West -huipulla. He lähtivät 7 140 metrin korkeudella sijaitsevaan kohteeseen syyskuussa, eikä heistä ole kuultu sen jälkeen. <a href=\"https://explorersweb.com/two-climbers-missing-on-gangapurna-west/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Vuoden 2026 parhaat hirvipatruunat</strong><br />\nOutdoor Life julkaisi listauksen parhaista hirvijahdissa käytettävistä patruunoista vuonna 2026, jossa on mukana sekä perinteisiä että moderneja vaihtoehtoja. <a href=\"https://www.outdoorlife.com/hunting/best-elk-hunting-cartridges/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Hirvijahti käyttäen 6mm Creedmoor -patruunaa</strong><br />\nArtikkelissa pohditaan 6mm Creedmoor -patruunoiden käyttöä hirvijahdissa ja tarkastellaan niiden tehokkuutta 93 graniin painavien luotien kanssa. <a href=\"https://www.outdoorlife.com/hunting/elk-hunting-6mm-creedmoor/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1608,
+  "output_tokens": 376,
+  "sources": [
+    {
+      "title": "Two Climbers Missing on Gangapurna West",
+      "url": "https://explorersweb.com/two-climbers-missing-on-gangapurna-west/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The Best Elk Hunting Cartridges in 2026",
+      "url": "https://www.outdoorlife.com/hunting/best-elk-hunting-cartridges/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Elk Hunting with a 6mm Creedmoor and 93-Grain Bullets",
+      "url": "https://www.outdoorlife.com/hunting/elk-hunting-6mm-creedmoor/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Jack O’Connor Dodged Hungry Lions to Take His First Leopard",
+      "url": "https://www.outdoorlife.com/hunting/jack-oconnor-first-leopard/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Amelia Earhart Search Find Trees, Not Plane. Mystery Remains",
+      "url": "https://explorersweb.com/amelia-earhart-search-find-trees-not-plane-mystery-remains/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "A 76-Year-Old Kazakh Blacksmith Is Walking Around the World",
+      "url": "https://explorersweb.com/76-year-old-kazakh-man-walking-around-the-world/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}
