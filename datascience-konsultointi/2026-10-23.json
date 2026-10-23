@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-23",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään esillä ovat yritysmaailmaan liittyvät tekoälyratkaisut ja niiden pitkäikäiset suunnittelumallit, skaalattavan AI:n perustat, kontekstuaalinen AI sekä tekoälyn piilokulut tallennusratkaisujen osalta.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>Designing an AI serving harness built to last</strong><br />\nYritysten tekoälyratkaisujen kilpailuvaltti riippuu yhä vähemmän käytetystä mallista ja enemmän sen ympärille rakennetuista ratkaisuista, mikä merkitsee suurta muutosta alalla. <a href=\"https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>The Foundations of Scalable AI</strong><br />\nSkaalautuva tekoälyjärjestelmä vaatii vahvan perustan, jossa data, tekniset ratkaisut, alustat, toimintamallit ja hallinta yhdistyvät saumattomasti. <a href=\"https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Making the case for context-aware AI</strong><br />\nYritysten tekoäly voi suositella, automatisoida tehtäviä ja tukea päätöksentekoa, mutta liiketoiminnan todellisten toimintatapojen ymmärtämisen puute voi johtaa virheisiin mallien käytössä. <a href=\"https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>AI’s hidden storage bill: What inference leaves behind</strong><br />\nMonet johtajat mieltävät tekoälyn kulut GPU- ja muun laitteiston kustannuksiksi, mutta usein unohdetaan datan tallennuksesta aiheutuvat piilokustannukset. <a href=\"https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1304,
+  "output_tokens": 457,
+  "sources": [
+    {
+      "title": "In the biotech world, you can’t see everything",
+      "url": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Designing an AI serving harness built to last",
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Foundations of Scalable AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: computing’s next leap and permafrost’s climate threat",
+      "url": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Making the case for context-aware AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Three things you should know about permafrost",
+      "url": "https://www.technologyreview.com/2026/10/22/1147591/permafrost-primer/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "AI’s hidden storage bill: What inference leaves behind",
+      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}

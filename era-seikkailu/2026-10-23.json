@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-23",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään keskustelun ytimessä ovat sisävesikalastuksen merkittävä saaliin väheneminen, villisian runsas metsästys Ruotsissa ja metsästysoptiikan tarjoukset. Myös villieläinten aiheuttamat liikenneonnettomuudet ja luonnollisten metsästysmenetelmien soveltaminen saivat huomiota.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Sisävesiltä saatiin vuonna 2025 yhteensä neljä miljoonaa kiloa kaupallisesti kalastettua kalaa, mikä on miljoona kiloa vähemmän kuin edellisvuonna. Saalis väheni viidenneksellä. <a href=\"https://www.luke.fi/fi/uutiset/sisavesien-kaupallinen-kalansaalis-vaheni-miljoonalla-kilolla-vuonna-2025\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life käsittelee perinteisiä metsästysmenetelmiä isojen sorkkaeläinten metsästämiseen myrskyissä. Ukkoskelit voivat tarjota metsästäjille hyviä hetkiä napata saalis. <a href=\"https://www.outdoorlife.com/hunting/hunt-whitetail-bucks-during-storms/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Sam Kezar pelastui karhun hyökkäykseltä ampuma-aseharjoittelunsa ansiosta. 10mm Glock ja onnistuneet laukaukset olivat ratkaisevassa asemassa. <a href=\"https://www.outdoorlife.com/survival/a-10mm-glock-and-serious-practice-saved-my-life-during-this-grizzly-charge/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Alpha-gal on punaisen lihan allergia, joka leviää punkkien kautta. Outdoor Life pohtii, jatkaisivatko metsästäjät metsästystä, jos he kehittäisivät tällaisen allergian. <a href=\"https://www.outdoorlife.com/hunting/alpha-gal-hunters/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life raportoi, että vedenlämpimien premium-panosten markkinat ovat romahtaneet, koska volframista ja vismutista on tullut liian kallista. Teräshaulit ovat nyt valmistajien suosiossa. <a href=\"https://www.outdoorlife.com/guns/premium-shotshell-ammo-market-crash/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Vortexin ja Leupoldin optiikasta on nyt huomattavia tarjouksia saatavilla. Näitä löytöjä kannattaa hyödyntää, jos kaipaat edullisia kiikareita tai tähtäimiä. <a href=\"https://www.outdoorlife.com/gear/best-deals-on-vortex-and-leupold-optics/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Yli 164 000 villisikaa kaadettiin Ruotsissa metsästysvuonna 2025/2026. Tämä on yksi korkeimmista saalismääristä tähän mennessä, ja se ylittää edelliset vuodet. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/over-164-000-vildsvin-fallda-under-senaste-jaktaret/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Jakt &amp; Jägaren esittelee haulikoiden ja kaksipiippuisten kiväärien perusmekanismin, jossa piiput avataan ja suljetaan yksinkertaisesti kääntämällä. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/vapenklassiker-oppna-upp-och-klappa-ihop/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Metsästyksen perusasioita ovat riistasta, luonnosta ja menetelmistä saatu tieto. Etäisyysmittari voi kuitenkin helpottaa ja turvallistaa metsästystä. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/1-av-100-tips-att-lasa-avstand-ar-klokt/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 9,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2362,
+  "output_tokens": 859,
+  "sources": [
+    {
+      "title": "Sisävesien kaupallinen kalansaalis väheni miljoonalla kilolla vuonna 2025",
+      "url": "https://www.luke.fi/fi/uutiset/sisavesien-kaupallinen-kalansaalis-vaheni-miljoonalla-kilolla-vuonna-2025",
+      "source_name": "Luonnonvarakeskus (Luke)"
+    },
+    {
+      "title": "Old School Tactics for Hunting Big Bucks During Big Storms",
+      "url": "https://www.outdoorlife.com/hunting/hunt-whitetail-bucks-during-storms/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "A 10mm Glock and Serious Practice Saved My Life During This Grizzly Charge",
+      "url": "https://www.outdoorlife.com/survival/a-10mm-glock-and-serious-practice-saved-my-life-during-this-grizzly-charge/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Tick Disease Nightmare: If You Became Allergic to Venison Would You Still Go Hunting?",
+      "url": "https://www.outdoorlife.com/hunting/alpha-gal-hunters/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "‘Season of Steel.’ Here’s Why the Premium Waterfowl Ammo Market Crashed",
+      "url": "https://www.outdoorlife.com/guns/premium-shotshell-ammo-market-crash/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "8 Great Deals on Vortex and Leupold Optics: Scopes, Binos, Rangefinders, and Spotting Scopes on Sale",
+      "url": "https://www.outdoorlife.com/gear/best-deals-on-vortex-and-leupold-optics/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "A Mysterious Sea Monster Was Vexing Fishermen. We Set Out to Catch It",
+      "url": "https://www.outdoorlife.com/fishing/catching-giant-grouper/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Över 164 000 vildsvin fällda under senaste jaktåret",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/over-164-000-vildsvin-fallda-under-senaste-jaktaret/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "VAPENKLASSIKER: Öppna upp och klappa ihop",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/vapenklassiker-oppna-upp-och-klappa-ihop/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "This Insane Photo Series Shows a Rutting Bull Attacking a Cow Elk",
+      "url": "https://www.outdoorlife.com/hunting/bull-elk-attacks-cow-photo-series/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Suomen Ladun kunniapuheenjohtaja Jaakko Paavela on kuollut",
+      "url": "https://www.suomenlatu.fi/suomen-ladun-kunniapuheenjohtaja-jaakko-paavela-on-kuollut/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "1 AV 100 TIPS: Var smart – läs avstånd",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/1-av-100-tips-att-lasa-avstand-ar-klokt/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Two Climbers Missing on Gangapurna West",
+      "url": "https://explorersweb.com/two-climbers-missing-on-gangapurna-west/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}
