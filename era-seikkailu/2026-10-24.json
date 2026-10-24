@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-24",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään raportoidaan metsästykseen liittyvistä tapahtumista ja vinkkejä. Idaho Outfitter -yritykselle on annettu metsästyskielto laittoman metsästyksen vuoksi, ja klassisia sekä moderneja haulikoita käsitellään erillisessä artikkelissa. Lisäksi keskustellaan kiväärin tähtäinkuvioiden merkityksestä ja kerrotaan grizzly-karhujen poikkeuksellisen aktiivisesta kaudesta Alaskassa.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>Parhaat haulikon mallit lintumetsästykseen kautta aikojen</strong>: Outdoor Life esittelee suosikkihaukkonsa niin klassisista kuin moderneista vaihtoehdoista linnustukseen. <a href=\"https://www.outdoorlife.com/guns/best-shotguns-for-bird-hunting-all-time/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Idaho Outfitter päätyi metsästyskieltoon laittoman metsästyksen vuoksi</strong>: Ulkopuolinen metsästäjä ampuu luvattomasti Utahissa ja joutuu maksamaan yli 12 000 dollaria korvauksia. <a href=\"https://www.outdoorlife.com/conservation/idaho-man-tags-utah-bull-resident-license/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Syitä, miksi metsästäjiltä jää suuret saaliit osumatta</strong>: Artikkeli paneutuu tähtäinkuvion ymmärtämisen merkitykseen suurriistan metsästyksessä. <a href=\"https://www.outdoorlife.com/gear/hunters-need-to-know-riflescope-reticle/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Grizzlykarhujen poikkeuksellinen kausi Alaskassa</strong>: Pitkäaikainen metsästäjä kertoo, kuinka tämä kausi poikkesi aiemmista karhujen käytöksen osalta. <a href=\"https://www.outdoorlife.com/survival/season-the-grizzlies-went-crazy/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1687,
+  "output_tokens": 442,
+  "sources": [
+    {
+      "title": "The Best Shotguns for Bird Hunting of All Time",
+      "url": "https://www.outdoorlife.com/guns/best-shotguns-for-bird-hunting-all-time/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Idaho Outfitter Gets Hunting Ban After Illegally Shooting a Trophy Bull in Utah",
+      "url": "https://www.outdoorlife.com/conservation/idaho-man-tags-utah-bull-resident-license/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Mountain That Looked Impossible: Muztagh Tower, 1956",
+      "url": "https://explorersweb.com/the-mountain-that-looked-impossible-muztagh-tower-1956/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The Sneaky Reason Hunters Sometimes Miss Easy Shots on Big Game",
+      "url": "https://www.outdoorlife.com/gear/hunters-need-to-know-riflescope-reticle/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "“I Was Sure I Was Going to Be Mauled.” The Season the Grizzlies Went Crazy",
+      "url": "https://www.outdoorlife.com/survival/season-the-grizzlies-went-crazy/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Here’s Why the Tomahawk Will Never Die",
+      "url": "https://www.outdoorlife.com/gear/heres-why-the-tomahawk-will-never-die/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Suomen Ladun syyspäivät ja järjestön kokous lähestyvät",
+      "url": "https://www.suomenlatu.fi/suomen-ladun-syyspaivat-ja-jarjeston-kokous-lahestyvat/",
+      "source_name": "Suomen Latu"
+    }
+  ],
+  "homepage_candidates": []
+}
