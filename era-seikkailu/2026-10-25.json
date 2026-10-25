@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-25",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään saatiin hyödyllisiä vinkkejä metsästykseen liittyen: perinteistä peuranajamista sekä eettistä ja tarkkaa riistan ampumista käsiteltiin kahdessa lyhyessä oppaassa. Nämä tiedot voivat olla avuksi sekä metsästäjille että erätaitoja kehittäville.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Lyhyessä oppaassa käsitellään perinteistä peuranajamista, joka vaatii taitavaa metsän tuntemusta, koordinaatiota ja kärsivällisyyttä. Tällaiseen ajoon osallistuminen voi olla antoisaa, jos sitä ei ole aiemmin kokeillut. <a href=\"https://www.outdoorlife.com/hunting/deer-drive-the-traditional-way/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Toisessa oppaassa annetaan vinkkejä peuran ampumiseen eettisesti ja tarkasti. Opas käsittelee eri ampumatilanteita, kuten sivuttais- ja kulma-asennot sekä jousen ja kiväärin käytön. <a href=\"https://www.outdoorlife.com/hunting/where-to-shoot-a-deer-shot-placement/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1511,
+  "output_tokens": 264,
+  "sources": [
+    {
+      "title": "These Are the 4 Best Big Cities for Fishing",
+      "url": "https://www.outdoorlife.com/fishing/these-are-the-4-best-big-cities-for-fishing/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Ditch the Treestand and Run a Deer Drive the Traditional Way",
+      "url": "https://www.outdoorlife.com/hunting/deer-drive-the-traditional-way/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Where to Shoot a Deer: Everything Hunters Need to Know About Shot Placement",
+      "url": "https://www.outdoorlife.com/hunting/where-to-shoot-a-deer-shot-placement/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
