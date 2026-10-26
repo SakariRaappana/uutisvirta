@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-26",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutiset keskittyivät erämaasurvivalismin haastavaan puoleen, kun tapahtumat Järvi-Suomessa saivat dramaattisia käänteitä. Kalastusreissu jäällä johti valitettavasti tragediaan, kun sääolosuhteet muuttuivat nopeasti.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Eränkävijät Lake Superiorilla joutuivat äkillisesti lumimyrskyn yllättämiksi pilkkireissullaan. Vaikka paikalle osuneet kalastajat auttoivat hätääntyneitä, yksi retkeläisistä menehtyi. <a href=\"https://www.outdoorlife.com/fishing/ice-fishing-survival-tale/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1431,
+  "output_tokens": 177,
+  "sources": [
+    {
+      "title": "My Ice Fishing Buddies and I Got Trapped on the Water. One of Us Didn’t Make It",
+      "url": "https://www.outdoorlife.com/fishing/ice-fishing-survival-tale/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 101 Best Tips for Hunting the Whitetail Rut",
+      "url": "https://www.outdoorlife.com/hunting/the-101-best-tips-for-hunting-the-whitetail-rut/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
