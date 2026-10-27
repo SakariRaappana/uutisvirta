@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-27",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa käsiteltiin uusia teknologisia ratkaisuja metsästyksessä ja sääilmiöitä Aasiassa. Erityisesti mielenkiinto kohdistui uusiin varusteisiin ja niiden käytännön testaukseen sekä vaellusolosuhteisiin Nepalissa saapuvan myrskyn myötä.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>ATN Thor 6 First Look: The One and Done Thermal Scope?</strong><br />\nOutdoor Life testasi laajan valikoiman ATN Thor 6 -lämpökatselukiikareita ja vertaili niiden 13 eri mallia. Tämä monipuolinen lämpökatselukiikari voi olla metsästystarpeiden &quot;kaikki yhdessä&quot; -ratkaisu. <a href=\"https://www.outdoorlife.com/gear/atn-thor-6-review/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>New Cyclone Approaches Nepal</strong><br />\nJo toinen syksyinen myrsky lähestyy Nepalia, ja sen odotetaan tuovan mukanaan valtavan määrän lunta maan vuoristoalueille. Tämä vaikuttaa pahimpaan vaellussesonkiin ja kiipeilijöihin alueella. <a href=\"https://explorersweb.com/new-cyclone-approaches-nepal/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Does This Advanced Method of Scent Control Actually Work for Deer Hunting? Here’s What 5 Independent Testers Had to Say</strong><br />\nOutdoor Life antoi viidelle riippumattomalle peuranmetsästäjälle Ozonics-tuoksunhallintayksiköt koko kauden kestävään kenttätestaukseen. Metsästäjät jakavat testituloksensa ja kokemuksensa. <a href=\"https://www.outdoorlife.com/gear/ozonics-scent-control/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>An Old-School Snowshoe Hare Hunt With Hounds Is the Most Underrated Winter Adventure</strong><br />\nTalven saapuessa ei ole syytä pistää haulikkoa talviteloille; perinteinen metsäjäniksen metsästys koirien kanssa pakkasessa tarjoaa aitoa talviseikkailua. <a href=\"https://www.outdoorlife.com/hunting/old-school-snowshoe-hare-hunt/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>What the Top 10% of Hunters Do Differently with Kelvin Eldridge</strong><br />\nRokslide-artikkelissa Jaden Bales keskustelee Kelvin Eldridgen kanssa siitä, mikä erottaa menestyneimmät metsästäjät muista. Onko kyseessä vain kentällä käytetty aika, kalliit varusteet vai jokin aivan muu? <a href=\"https://www.rokslide.com/what-the-top-10-of-hunters-do-differently-with-kelvin-eldridge/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1786,
+  "output_tokens": 610,
+  "sources": [
+    {
+      "title": "ATN Thor 6 First Look: The One and Done Thermal Scope?",
+      "url": "https://www.outdoorlife.com/gear/atn-thor-6-review/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "This Bowhunter Took World Record Bull Elk in Back-to-Back Seasons",
+      "url": "https://www.outdoorlife.com/hunting/this-bowhunter-took-world-record-bull-elk-in-back-to-back-seasons/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "New Cyclone Approaches Nepal",
+      "url": "https://explorersweb.com/new-cyclone-approaches-nepal/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Does This Advanced Method of Scent Control Actually Work for Deer Hunting? Here’s What 5 Independent Testers Had to Say",
+      "url": "https://www.outdoorlife.com/gear/ozonics-scent-control/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "An Old-School Snowshoe Hare Hunt With Hounds Is the Most Underrated Winter Adventure",
+      "url": "https://www.outdoorlife.com/hunting/old-school-snowshoe-hare-hunt/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Climber Falls to Death on Ama Dablam",
+      "url": "https://explorersweb.com/climber-falls-to-death-on-ama-dablam/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "How to Skin a Deer Like a Pro",
+      "url": "https://www.outdoorlife.com/hunting/how-to-skin-deer-like-a-pro/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "What the Top 10% of Hunters Do Differently with Kelvin Eldridge",
+      "url": "https://www.rokslide.com/what-the-top-10-of-hunters-do-differently-with-kelvin-eldridge/",
+      "source_name": "Rokslide"
+    }
+  ],
+  "homepage_candidates": []
+}

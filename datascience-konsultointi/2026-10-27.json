@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-27",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään huomio keskittyy Azure AI Speech LLM 09-2026:n uuteen julkaisuun, joka tuo parannuksia usean kielen ja lokaalin tuen laadussa ja viiveajassa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Azure AI Speech LLM 09-2026 tuo parannuksia monikieliseen ja lokaalin tukeen, mikä parantaa sekä laadullisesti että pienentää viiveaikoja. <a href=\"https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1041,
+  "output_tokens": 145,
+  "sources": [
+    {
+      "title": "How solid-state transformers could help power the AI boom",
+      "url": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Will the real Anthropic please stand up",
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
+      "url": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
+      "url": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
+      "source_name": "Azure Blog"
+    },
+    {
+      "title": "The Download: everyday AI harms and the race to nuclear spaceflight",
+      "url": "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The focus on AI safety disasters ignores everyday harms",
+      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
