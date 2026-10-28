@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-28",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään ei julkaistu uusia syväanalyysejä, mutta yksi lyhytmaininta käsittelee teollisen älykkyyden kehitystä valmistuksessa, mikä voi tuoda uusia kasvumahdollisuuksia tälle alalle.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li><strong>Industrial Intelligence: The next growth opportunity for manufacturing</strong> — Jokaisella valmistajalla on oma teollinen älykkyytensä, mikä voi olla joko dokumentoitua tai kokeneiden työntekijöiden tietoihin perustuvaa. Tämä tieto on keskeistä esimerkiksi kokeneen työntekijän valmistautuessa käynnistämään tuotantolinjaa uudelleen. <a href=\"https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1027,
+  "output_tokens": 195,
+  "sources": [
+    {
+      "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
+      "url": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+      "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}

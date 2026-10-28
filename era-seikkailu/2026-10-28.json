@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-28",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisia hallitsevat eränkäynnin ja metsästyksen monipuoliset aiheet: hirvenmetsästys maastoajoneuvoilla, vanhojen pukkien erikoispiirteet ja luovuutta vaativat strategiat ankkojen metsästyksessä. Lisäksi tarkastellaan vuoden 2026 suosituimpia vipulukkokiväärejä sekä veitsen teroittamisen parhaita tekniikoita.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>Elk Hunting from ATVs Has Gotten Out of Hand</strong><br />\nMaastoajoneuvojen käyttö hirvenmetsästyksessä on lisääntynyt hallitsemattomasti, ja tätä kehitystä arvioidaan kriittisesti. Lue lisää, kuinka tämä vaikuttaa hirvenmetsästysalueisiin. <a href=\"https://www.outdoorlife.com/opinion/elk-hunting-from-atvs-out-of-hand/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>The 9 Ways That Mature Bucks Are Different Than Other Deer</strong><br />\nDoituksenmukaiset hirvet eroavat fyysisesti ja käyttäytymiseltään nuoremmista sukulaisistaan ja varovaisimmistakin naarashirvistä. Tunnista näiden vanhojen pukkien erityispiirteet. <a href=\"https://www.outdoorlife.com/hunting/the-9-ways-that-mature-bucks-are-different-than-other-deer/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>An Old-School Perspective on Finding Better Duck Hunting: Get Creative and Target the Hardest Places</strong><br />\nParhaan ankkametsästyksen löytäminen vaatii luovuutta ja pitäisi kohdistaa alueille, joita usein vältellään, kuten avoimet pellot ja suuret vesialueet. <a href=\"https://www.outdoorlife.com/hunting/an-old-school-perspective-on-finding-better-duck-hunting/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Best Lever Action Rifles of 2026</strong><br />\nVipulukkokiväärejä pidetään yhä arvostettuina, ja artikkelissa listataan vuoden 2026 parhaat mallit. <a href=\"https://www.outdoorlife.com/guns/best-lever-action-rifles-of-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>How to Sharpen a Knife: The Ultimate Step-By-Step Guide to a Sharp Blade</strong><br />\nVeitsen teroittaminen on taito, joka vaatii oikean tekniikan. Tässä artikkelissa esitellään parhaat menetelmät terävän veitsen saamiseksi. <a href=\"https://www.outdoorlife.com/gear/how-to-sharpen-a-knife-step-by-step/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1789,
+  "output_tokens": 586,
+  "sources": [
+    {
+      "title": "Elk Hunting from ATVs Has Gotten Out of Hand",
+      "url": "https://www.outdoorlife.com/opinion/elk-hunting-from-atvs-out-of-hand/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Animal Attack Roundup, Oct. 27",
+      "url": "https://explorersweb.com/animal-attack-roundup-oct-27/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The 9 Ways That Mature Bucks Are Different Than Other Deer",
+      "url": "https://www.outdoorlife.com/hunting/the-9-ways-that-mature-bucks-are-different-than-other-deer/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "An Old-School Perspective on Finding Better Duck Hunting: Get Creative and Target the Hardest Places",
+      "url": "https://www.outdoorlife.com/hunting/an-old-school-perspective-on-finding-better-duck-hunting/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Best Lever Action Rifles of 2026",
+      "url": "https://www.outdoorlife.com/guns/best-lever-action-rifles-of-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Sharpen a Knife: The Ultimate Step-By-Step Guide to a Sharp Blade",
+      "url": "https://www.outdoorlife.com/gear/how-to-sharpen-a-knife-step-by-step/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
