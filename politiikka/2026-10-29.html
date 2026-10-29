@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-10-29 — Politiikka — Uutisvirta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #F0F1EB;
+      --surface: #E7E9E2;
+      --border: #C6CAC0;
+      --rule: #1B1D19;
+      --text: #191C18;
+      --muted: #6A6F65;
+      --accent: #3A6558;
+      --accent-pale: #C6D8D3;
+      --accent-border: #7AB0A4;
+      --stamp: #8A4C34;
+      --font-mono: "Courier Prime", "Courier New", Courier, monospace;
+      --font-serif: "Lora", Georgia, serif;
+      --font-display: "Playfair Display", Georgia, serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121519;
+        --surface: #1A1E22;
+        --border: #282D31;
+        --rule: #D8DDD8;
+        --text: #DCE1DC;
+        --muted: #787E78;
+        --accent: #78B8AB;
+        --accent-pale: #182824;
+        --accent-border: #3D7068;
+        --stamp: #C07A5A;
+      }
+    }
+
+    html { font-size: 18px; }
+    body {
+      font-family: var(--font-serif);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── MASTHEAD ───────────────────────────── */
+    .site-header {
+      border-top: 3px solid var(--rule);
+    }
+    .masthead-row {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0.6rem 1.5rem 0.55rem;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .logo {
+      font-family: var(--font-mono);
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .masthead-date {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+    .nav-strip {
+      border-top: 1px solid var(--border);
+      border-bottom: 2px solid var(--rule);
+      padding: 0.45rem 1.5rem;
+    }
+    .nav-strip nav {
+      max-width: 760px;
+      margin: 0 auto;
+      display: flex;
+      gap: 1.75rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .nav-strip a {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .nav-strip a:hover { color: var(--accent); }
+    .nav-strip a.active {
+      color: var(--text);
+      border-bottom: 1.5px solid var(--text);
+    }
+
+    /* ── PAGE ───────────────────────────────── */
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1.75rem 1.5rem 5rem;
+    }
+
+    /* ── TYPOGRAPHY ─────────────────────────── */
+    h1 {
+      font-family: var(--font-display);
+      font-size: 2.1rem;
+      font-weight: 400;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      margin-bottom: 0.2rem;
+      text-wrap: balance;
+    }
+    h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 2rem 0 0.65rem;
+      text-wrap: balance;
+    }
+    h3 {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 400;
+      margin: 1.5rem 0 0.4rem;
+    }
+    p { margin-bottom: 0.9rem; max-width: 68ch; }
+    p:last-child { margin-bottom: 0; }
+    ul, ol { padding-left: 1.4rem; margin-bottom: 0.85rem; }
+    li { margin-bottom: 0.25rem; }
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+    code {
+      font-family: var(--font-mono);
+      font-size: 0.83em;
+      background: var(--surface);
+      padding: 0.1em 0.35em;
+      border: 1px solid var(--border);
+    }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.75rem 0; }
+
+    /* ── META BAR ───────────────────────────── */
+    .meta {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .meta span + span::before { content: " · "; }
+
+    /* ── DIGEST BODY (Markdown-rendered content) ── */
+    .digest-body h2 {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: normal;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-top: 2px solid var(--text);
+      padding-top: 0.55rem;
+      margin: 2.2rem 0 1.2rem;
+    }
+    .digest-body h3 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.32;
+      margin: 0 0 0.7rem;
+      text-wrap: balance;
+    }
+
+    /* ── DEEP DIVE (JS-injected wrapper around h3 blocks) ── */
+    .deep-dive {
+      background: var(--accent-pale);
+      border-left: 3px solid var(--accent-border);
+      padding: 1.1rem 1.4rem 1.1rem 1.2rem;
+      margin-bottom: 1.25rem;
+    }
+    .deep-dive p { font-size: 0.97rem; }
+    .deep-dive p:last-child { margin-bottom: 0; }
+
+    /* ── BRIEF LIST (JS-injected class on ul) ── */
+    .brief-list { list-style: none; padding: 0; }
+    .brief-list li {
+      padding: 0.72rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+      line-height: 1.56;
+      max-width: 68ch;
+    }
+    .brief-list li:last-child { border-bottom: none; }
+
+    /* ── DAY NAV ────────────────────────────── */
+    .day-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+    .day-nav a { color: var(--accent); text-decoration: none; }
+    .day-nav a:hover { text-decoration: underline; }
+
+    /* ── ARCHIVE LIST ───────────────────────── */
+    .archive-list { list-style: none; padding: 0; border-top: 2px solid var(--text); }
+    .archive-list li {
+      display: flex;
+      gap: 1.5rem;
+      align-items: baseline;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .archive-list li:last-child { border-bottom: none; }
+    .archive-list .date {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      min-width: 6rem;
+      flex-shrink: 0;
+      letter-spacing: 0.04em;
+    }
+    .archive-list a { color: var(--text); font-size: 0.93rem; text-decoration: none; }
+    .archive-list a:hover { color: var(--accent); }
+
+    /* ── STREAM CARDS ───────────────────────── */
+    .stream-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 0;
+      border-top: 2px solid var(--text);
+    }
+    .stream-card {
+      padding: 1.1rem 2rem 1.1rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .stream-card h2 {
+      font-size: 1rem;
+      margin-top: 0;
+      margin-bottom: 0.2rem;
+      font-weight: 400;
+    }
+    .stream-card h2 a { color: var(--text); text-decoration: none; }
+    .stream-card h2 a:hover { color: var(--accent); }
+    .stream-card .last-updated {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+    }
+    .stream-card .last-updated a { color: var(--accent); text-decoration: none; }
+
+    /* ── SOURCES ────────────────────────────── */
+    details {
+      margin-top: 2.5rem;
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
+    }
+    details summary {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      cursor: pointer;
+      list-style: none;
+    }
+    details[open] summary { margin-bottom: 0.6rem; }
+    .source-list { list-style: none; padding: 0; margin-top: 0.4rem; }
+    .source-list li {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+    .source-list a { color: var(--accent); text-decoration: none; }
+    .source-list a:hover { text-decoration: underline; }
+
+    /* ── DAY SECTION (collapsible per-day digest) ── */
+    .day-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .day-section > summary {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text);
+      text-transform: none;
+      padding: 1.25rem 0 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+    .day-section > summary::-webkit-details-marker { display: none; }
+    .day-section > summary::after {
+      content: "▾";
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .day-section:not([open]) > summary::after { content: "▸"; }
+    .day-section-body { padding-bottom: 2.5rem; }
+
+    /* ── ARCHIVE SECTION ────────────────────── */
+    .archive-section {
+      margin-top: 0;
+      border-top: 2px solid var(--rule);
+      padding-top: 0;
+    }
+    .archive-section > summary {
+      padding: 0.9rem 0;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .archive-section > summary::-webkit-details-marker { display: none; }
+    .archive-list--plain { border-top: none; margin-top: 0.25rem; }
+
+    /* ── DAY SPACER ─────────────────────────── */
+    .day-spacer {
+      height: 0;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="masthead-row">
+      <a href="../index.html" class="logo">Uutisvirta</a>
+      <span class="masthead-date" id="site-date"></span>
+    </div>
+    <div class="nav-strip">
+      <nav>
+        
+        <a href="../datascience-konsultointi/index.html"
+           >
+          Datascience konsultointi
+        </a>
+        
+        <a href="../era-seikkailu/index.html"
+           >
+          Erä & seikkailu
+        </a>
+        
+        <a href="../politiikka/index.html"
+           class="active">
+          Politiikka
+        </a>
+        
+      </nav>
+    </div>
+  </header>
+  <main class="page">
+    
+<div class="day-nav">
+  <span><a href="2026-10-28.html">← 2026-10-28</a></span>
+  <a href="index.html">↑ Arkisto</a>
+  <span>&nbsp;</span>
+</div>
+
+<div class="meta" style="font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;color:var(--stamp);text-transform:uppercase;border-bottom:none;margin-bottom:0.3rem;padding-bottom:0;">Politiikka</div>
+<h1>2026-10-29</h1>
+<p class="meta">
+  <span>22 uutista</span>
+  <span>gpt-4o-2024-08-06</span>
+  <span>6698 tokenia</span>
+</p>
+
+<div class="digest-body">
+<h2>Päivän yhteenveto</h2>
+<p>Christine Lagarde ilmoitti eroavansa Euroopan keskuspankin (EKP) pääjohtajapaikalta helmikuussa 2027, mikä tuo mukanaan spekulaatioita hänen seuraajastaan ja EKP:n tulevasta suunnasta. Samaan aikaan EU ja Kanada ovat päättäneet luopua ehdotuksesta Kanadan &quot;assosioituneeksi jäseneksi&quot;. Ruotsin poliittisessa kentässä maltilliset lähestyvät sosiaalidemokraattien kannatusta uuden mielipidemittauksen mukaan.</p>
+<h2>Tärkeimmät uutiset</h2>
+<h3>Christine Lagarde eroaa Euroopan keskuspankin (EKP) pääjohtajan tehtävästä helmikuussa</h3>
+<p>Christine Lagarde, Euroopan keskuspankin nykyinen pääjohtaja, on ilmoittanut, että hän eroaa tehtävästään helmikuussa 2027, yhdeksän kuukautta ennen hänen virallisen kautensa päättymistä. Lagarde on toiminut EKP:n johdossa vuodesta 2019, ja hänen kautensa aikana on jouduttu navigoimaan historiallisia taloudellisia haasteita kuten COVID-19-pandemia ja inflaatiokriisi. Lagarden eron myötä Eurooppa-neuvostolle jää tehtäväksi valita hänen seuraajansa EU:n sääntöjen mukaisesti, mikä voi vaikuttaa EKP:n rahapoliittisen linjan jatkuvuuteen. Lagarden eron syitä ei ole kerrottu julkisuudessa, mutta päätös tuo mukanaan epävarmuutta EKP:n tulevasta suunnasta erityisesti korkeiden korkojen ja inflaation hallinnan kannalta. <strong><a href="https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-all-1573-rdf">Lue alkuperäinen →</a></strong></p>
+<h2>Lyhytmaininnat</h2>
+<ul>
+<li>
+<p>Ruotsissa Sosialidemokraatit ovat menettämässä johtoasemaansa, kun Moderaterna kirii heitä mielipidemittauksessa. <a href="https://www.thelocal.se/20261029/new-poll-shows-swedens-moderate-party-just-behind-social-democrats">Lue lisää</a></p>
+</li>
+<li>
+<p>Volkswagen raportoi kolmannen vuosineljänneksen tappiota lähes 6 miljardia euroa Kiinan kilpailun kiristyessä. <a href="https://www.dw.com/en/germany-news-volkswagen-posts-3rd-quarter-losses-of-nearly-%E2%82%AC6-billion-amid-competition-from-china/live-79792915?maca=en-rss-en-all-1573-rdf">Lue lisää</a></p>
+</li>
+<li>
+<p>Quebec'n pääministeri boikotoi Mark Carney’n EU-huippukokousta vastalauseena Quebec’n etuja vastaan sotiville sopimuksille. <a href="https://www.politico.eu/article/quebec-premier-paul-st-pierre-plamondon-boycotts-mark-carney-eu-canada-summit/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Lue lisää</a></p>
+</li>
+<li>
+<p>Ranskan presidentti Emmanuel Macron jatkaa kunnianloukkauskannettaan amerikkalaista podcast-tuottajaa vastaan Yhdysvaltain tuomioistuimen päätöksen jälkeen. <a href="https://www.rfi.fr/en/france/20261029-us-judge-narrows-macrons-defamation-lawsuit-against-american-podcaster">Lue lisää</a></p>
+</li>
+<li>
+<p>EU maat ovat estäneet tarjouksen Kanadan &quot;assosioidusta jäsenyydestä&quot; Euroopan unionissa. <a href="https://www.dw.com/en/eu-countries-block-canada-s-associate-membership-plan/a-79791601?maca=en-rss-en-all-1573-rdf">Lue lisää</a></p>
+</li>
+<li>
+<p>Espanjan junaturma, joka vaati kymmeniä ihmisuhreja, johtui virheellisestä ohjeesta teknisen vian aikana. <a href="https://www.france24.com/en/spain-rail-crash-came-after-train-ordered-to-go-in-error-minister">Lue lisää</a></p>
+</li>
+<li>
+<p>Kanadan ja EU:n väliset assosioitumiskeskustelut ovat päättyneet ilman konkreettisia tuloksia, kun osapuolet luopuvat suunnitelmista. <a href="https://www.france24.com/en/europe/20261029-canada-and-eu-drop-associate-membership-plan-in-bid-to-deepen-ties">Lue lisää</a></p>
+</li>
+<li>
+<p>Ukrainan veteraaniasioiden ministeri Vitalii Kim painottaa, että maa jatkaa taisteluaan äitimaansa puolesta EU-avun epävarmuudesta huolimatta. <a href="https://www.france24.com/en/tv-shows/spotlight/20261028-amid-uncertainty-over-eu-aid-vitalii-kim-insists-ukraine-has-no-choice-but-to-fight-for-motherland">Lue lisää</a></p>
+</li>
+</ul>
+
+</div>
+
+<details>
+  <summary>Lähteet (40)</summary>
+  <ul class="source-list">
+    
+    <li><a href="https://www.dw.com/en/ukraine-13-killed-in-russian-drone-strike-on-crowded-dnipro-train-station/a-79795076?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Ukraine: 13 killed in Russian drone strike on crowded Dnipro train station</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.thelocal.se/20261029/new-poll-shows-swedens-moderate-party-just-behind-social-democrats" target="_blank" rel="noopener">New poll shows Sweden's Moderate Party just behind Social Democrats</a> <span style="color:var(--muted)">— The Local Sweden</span></li>
+    
+    <li><a href="https://www.rapporteur.com/opinion/fix-the-blocks-cut-the-bills-europes-housing-crisis-is-unfolding-in-our-apartment-buildings/" target="_blank" rel="noopener">Fix the Blocks, Cut the Bills: Europe’s Housing Crisis Is Unfolding in Our Apartment Buildings [Promoted Content]</a> <span style="color:var(--muted)">— EURACTIV</span></li>
+    
+    <li><a href="https://www.france24.com/en/video/20261029-replay-french-anti-terrorism-prosecutor-gives-press-conference-on-racist-attack" target="_blank" rel="noopener">REPLAY: French anti-terrorism prosecutor gives press conference on racist attack</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/germany-news-volkswagen-posts-3rd-quarter-losses-of-nearly-€6-billion-amid-competition-from-china/live-79792915?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Germany news: Volkswagen posts 3rd quarter losses of nearly €6 billion amid competition from China</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20261029-ecb-president-christine-lagarde-to-step-down-in-february-2027-nine-months-before-term-ends" target="_blank" rel="noopener">ECB President Christine Lagarde to step down in February 2027, nine months before term ends</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.politico.eu/article/christine-lagarde-quittera-ses-fonctions-de-presidente-de-la-bce-en-fevrier/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Christine Lagarde quittera ses fonctions de présidente de la BCE en février</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.thelocal.se/20261029/hes-the-reason-im-here-british-dad-fights-to-stay-in-sweden-with-baby-son" target="_blank" rel="noopener">'He's the reason I'm here': Dad fights to stay in Sweden with baby son</a> <span style="color:var(--muted)">— The Local Sweden</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/sports/20261029-real-madrid-says-mbapp%C3%A9-was-wrong-over-zedong" target="_blank" rel="noopener">Real Madrid says Mbappé was wrong over Mao Zedong as China fallout continues</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.dw.com/en/ship-reported-on-fire-off-oman-as-iran-escalation-fears-mount/a-79792733?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Ship reported on fire off Oman as Iran escalation fears mount</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.politico.eu/article/quebec-premier-paul-st-pierre-plamondon-boycotts-mark-carney-eu-canada-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Quebec premier boycotts Mark Carney’s EU summit</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxNVVBCeDRuUEpKSDlydklEc0dISkFaeWhmVlRGWXBDLTRXWFJ0Y1hYMG9leThYeTFGMVFrUk5CSnN2WnZwdVdjT2VYVmdWdDd4OVp2Yl9ja3dnaEtoT3N4cEVWN3EyQkFOdmFSai1McllUUjU0a3Y3cWFFdkdtOHJVaWpMLVRLUXprNFFHSmdCWFNwazZtMW5TdEhHMGVxU25lUEFlNVF3RnVSQno4MktB?oc=5" target="_blank" rel="noopener">Quebec premier boycotts Mark Carney’s EU summit - POLITICO.eu</a> <span style="color:var(--muted)">— Google News: EU summit</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/france/20261029-us-judge-narrows-macrons-defamation-lawsuit-against-american-podcaster" target="_blank" rel="noopener">US judge narrows Macrons' defamation lawsuit against American podcaster</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/politics-at-sam-and-annes/budget-2026-we-answer-your-questions/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">Budget 2026: We answer your questions</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/international/20261029-spain-starts-three-days-of-national-mourning-after-train-crash-kills-at-least-68" target="_blank" rel="noopener">Spain begins three days of national mourning after train crash kills at least 68</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/oct/29/hello-kitty-japanese-spy-show-vivant-china-outcry" target="_blank" rel="noopener">Hello Kitty company cuts ties with Japanese spy show after China outcry</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.dw.com/en/bayern-munich-head-coach-vincent-kompany-s-health-scare-highlights-the-need-for-better-support-for-elite-coaches/a-79764661?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Bayern Munich head coach Vincent Kompany's health scare highlights the need for better support for elite coaches</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rapporteur.com/video/live-now-energy-efficiency-how-can-it-shape-europes-post-2030-energy-and-climate-framework/" target="_blank" rel="noopener">LIVE NOW – Energy efficiency – How can it shape Europe’s post-2030 energy and climate framework?</a> <span style="color:var(--muted)">— EURACTIV</span></li>
+    
+    <li><a href="https://www.dw.com/en/india-news-cockroaches-back-gandhi-s-rally-against-election-chief/live-79791890?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">India news: 'Cockroaches' back Gandhi's rally against election chief</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.dw.com/en/spain-train-crash-pm-sanchez-calls-for-investigation-as-3-days-of-mourning-begins/a-79792085?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.rfi.fr/en/africa/20261029-russia-africa-summit-to-test-moscow-s-ambitions-for-broader-influence" target="_blank" rel="noopener">Russia-Africa summit tests Moscow's ambitions for broader influence</a> <span style="color:var(--muted)">— RFI English</span></li>
+    
+    <li><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ0kzYlZfX1MzdjB5QmZJVlZ3bjkzYU45aE12LTJNbTlLTEVBcFJvUmhQWEROSVRFdmJrcERBQjZzS1I0NF8wYW4zUVRKNk5ZT1IyUXAwdTBTa29uMUx3V3NWTWxuNEJTQXRSTGhOcHpycTFUSldmLVlla1F5SExQOEQ3dzBCOHRRQW1ubGphTEVCZkVFMmpFTjlXanA0Slc10gGmAUFVX3lxTE9FdFZrczNmNFUtaEs0UmNXSTVQVVdqZzM4czRyaS1wbWpNdlZmZGloeUpKQVR1TEZmWWJMR212NlZRcHJ3OHVWbDlQbmE0YnlvNlhnVzAtMlJuandZdUxCMjE0NHlpd0lJOTg0NTFiYUZabEwxVHBwbHdZdWlFZHVqdjZpVlJmLVNrV05lajB1N2FxYWtmY0l0ay1nWUNkMEc4TmFJZ3c?oc=5" target="_blank" rel="noopener">Carney hosts EU leaders as Trump pushes Canada toward Europe, but membership label faces resistance - ABC News - Breaking News, Latest News and Videos</a> <span style="color:var(--muted)">— Google News: European Commission</span></li>
+    
+    <li><a href="https://www.dw.com/en/israel-election-netanyahu-led-bloc-holds-lead-with-nearly-90-of-votes-counted/live-79713839?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Israel election: Netanyahu-led bloc holds lead with nearly 90% of votes counted</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20261029-desolation-despair-spain-begins-three-days-of-mourning-after-deadly-train-crash" target="_blank" rel="noopener">'Desolation, despair': Spain begins three days of mourning after deadly train crash</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/oct/29/cambodian-police-scam-compounds-amnesty-international" target="_blank" rel="noopener">Cambodian police and soldiers helped guard abusive scam compounds, Amnesty alleges</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.politico.eu/podcast/brussels-playbook-podcast/the-great-eu-canada-lovefest/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication" target="_blank" rel="noopener">The great EU-Canada lovefest</a> <span style="color:var(--muted)">— Politico Europe</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/oct/29/call-of-duty-seoul-crowd-crush-video-footage" target="_blank" rel="noopener">Outcry after Call of Duty maker uses real footage of deadly Seoul crowd crush in new video game</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.dw.com/en/us-department-of-homeland-security-data-leak-exposes-details-of-more-than-40-000-employees/a-79791765?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">US: Department of Homeland Security data leak exposes details of more than 40,000 employees</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss" target="_blank" rel="noopener">Flávio Bolsonaro denies fleeing Brazil after landing in Miami</a> <span style="color:var(--muted)">— BBC News — World</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20261029-canada-and-eu-drop-associate-membership-plan-in-bid-to-deepen-ties" target="_blank" rel="noopener">Canada and EU drop associate membership plan in bid to deepen ties</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/eu-countries-block-canada-s-associate-membership-plan/a-79791601?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">EU countries block Canada's 'associate membership' plan</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/spain-rail-crash-came-after-train-ordered-to-go-in-error-minister" target="_blank" rel="noopener">Spain rail crash came after train ordered to go in error: minister</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-leader-of-brazil/a-79788659?maca=en-rss-en-all-1573-rdf" target="_blank" rel="noopener">Flavio Bolsonaro lands in US, declares himself 'leader' of Brazil</a> <span style="color:var(--muted)">— Deutsche Welle</span></li>
+    
+    <li><a href="https://www.france24.com/en/europe/20261028-rail-safety-questioned-after-spain-suffers-second-fatal-high-speed-train-crash-in-a-year" target="_blank" rel="noopener">Rail safety questioned after Spain suffers second fatal high-speed train crash in a year</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat" target="_blank" rel="noopener">Flávio Bolsonaro calls himself the ‘leader of Brazil’ after fleeing to Miami</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/oct/28/european-union-canada" target="_blank" rel="noopener">EU backs away from offer to Canada to start ‘associate member’ talks</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBUeTBkZlVFTHZMZ05IdEpNVUdCdUlla1hVaU4ybnliYzNZV3d6UVFreGdUamdpUVN1U3M4NFRpSjFRcGlhd0FJME01aTJiVkdlWHBzbE1GSWxMaTJoUzZHRjlJcER1bGpMRTZvZHkwUzdCTkNiUFE?oc=5" target="_blank" rel="noopener">EU backs away from offer to Canada to start ‘associate member’ talks - The Guardian</a> <span style="color:var(--muted)">— Google News: European Commission</span></li>
+    
+    <li><a href="https://www.theguardian.com/world/2026/oct/28/canada-ambassador-republicans-midterms" target="_blank" rel="noopener">US ambassador suggests Trump could blame Canada if midterms don’t go his way</a> <span style="color:var(--muted)">— The Guardian — World</span></li>
+    
+    <li><a href="https://www.france24.com/en/tv-shows/spotlight/20261028-amid-uncertainty-over-eu-aid-vitalii-kim-insists-ukraine-has-no-choice-but-to-fight-for-motherland" target="_blank" rel="noopener">Amid uncertainty over EU aid, Vitalii Kim insists Ukraine has no choice but to fight for motherland</a> <span style="color:var(--muted)">— France 24 — Europe</span></li>
+    
+  </ul>
+</details>
+
+
+  </main>
+  <script>
+    (function() {
+      var d = new Date();
+      var days = ['Su','Ma','Ti','Ke','To','Pe','La'];
+      var months = ['tammik.','helmik.','maalisk.','huhtik.','toukok.','kesäk.','heinäk.','elok.','syysk.','lokak.','marrask.','jouluk.'];
+      var el = document.getElementById('site-date');
+      if (el) el.textContent = days[d.getDay()] + ' ' + d.getDate() + '. ' + months[d.getMonth()] + ' ' + d.getFullYear();
+
+      document.querySelectorAll('a[href]').forEach(function(a) {
+        var href = a.getAttribute('href');
+        if (href && href.startsWith('http')) {
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener');
+        }
+      });
+
+      document.querySelectorAll('.digest-body').forEach(function(body) {
+        body.querySelectorAll('h3').forEach(function(h3) {
+          var div = document.createElement('div');
+          div.className = 'deep-dive';
+          h3.parentNode.insertBefore(div, h3);
+          div.appendChild(h3);
+          var next = div.nextSibling;
+          while (next && next.nodeName !== 'H2' && next.nodeName !== 'H3') {
+            var n = next.nextSibling;
+            div.appendChild(next);
+            next = n;
+          }
+        });
+        body.querySelectorAll('ul').forEach(function(ul) {
+          ul.classList.add('brief-list');
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

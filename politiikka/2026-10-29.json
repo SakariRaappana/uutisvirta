@@ -1,0 +1,213 @@
+{
+  "date": "2026-10-29",
+  "stream_slug": "politiikka",
+  "stream_name": "Politiikka",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Christine Lagarde ilmoitti eroavansa Euroopan keskuspankin (EKP) pääjohtajapaikalta helmikuussa 2027, mikä tuo mukanaan spekulaatioita hänen seuraajastaan ja EKP:n tulevasta suunnasta. Samaan aikaan EU ja Kanada ovat päättäneet luopua ehdotuksesta Kanadan &quot;assosioituneeksi jäseneksi&quot;. Ruotsin poliittisessa kentässä maltilliset lähestyvät sosiaalidemokraattien kannatusta uuden mielipidemittauksen mukaan.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Christine Lagarde eroaa Euroopan keskuspankin (EKP) pääjohtajan tehtävästä helmikuussa</h3>\n<p>Christine Lagarde, Euroopan keskuspankin nykyinen pääjohtaja, on ilmoittanut, että hän eroaa tehtävästään helmikuussa 2027, yhdeksän kuukautta ennen hänen virallisen kautensa päättymistä. Lagarde on toiminut EKP:n johdossa vuodesta 2019, ja hänen kautensa aikana on jouduttu navigoimaan historiallisia taloudellisia haasteita kuten COVID-19-pandemia ja inflaatiokriisi. Lagarden eron myötä Eurooppa-neuvostolle jää tehtäväksi valita hänen seuraajansa EU:n sääntöjen mukaisesti, mikä voi vaikuttaa EKP:n rahapoliittisen linjan jatkuvuuteen. Lagarden eron syitä ei ole kerrottu julkisuudessa, mutta päätös tuo mukanaan epävarmuutta EKP:n tulevasta suunnasta erityisesti korkeiden korkojen ja inflaation hallinnan kannalta. <strong><a href=\"https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-all-1573-rdf\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Ruotsissa Sosialidemokraatit ovat menettämässä johtoasemaansa, kun Moderaterna kirii heitä mielipidemittauksessa. <a href=\"https://www.thelocal.se/20261029/new-poll-shows-swedens-moderate-party-just-behind-social-democrats\">Lue lisää</a></p>\n</li>\n<li>\n<p>Volkswagen raportoi kolmannen vuosineljänneksen tappiota lähes 6 miljardia euroa Kiinan kilpailun kiristyessä. <a href=\"https://www.dw.com/en/germany-news-volkswagen-posts-3rd-quarter-losses-of-nearly-%E2%82%AC6-billion-amid-competition-from-china/live-79792915?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></p>\n</li>\n<li>\n<p>Quebec'n pääministeri boikotoi Mark Carney’n EU-huippukokousta vastalauseena Quebec’n etuja vastaan sotiville sopimuksille. <a href=\"https://www.politico.eu/article/quebec-premier-paul-st-pierre-plamondon-boycotts-mark-carney-eu-canada-summit/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ranskan presidentti Emmanuel Macron jatkaa kunnianloukkauskannettaan amerikkalaista podcast-tuottajaa vastaan Yhdysvaltain tuomioistuimen päätöksen jälkeen. <a href=\"https://www.rfi.fr/en/france/20261029-us-judge-narrows-macrons-defamation-lawsuit-against-american-podcaster\">Lue lisää</a></p>\n</li>\n<li>\n<p>EU maat ovat estäneet tarjouksen Kanadan &quot;assosioidusta jäsenyydestä&quot; Euroopan unionissa. <a href=\"https://www.dw.com/en/eu-countries-block-canada-s-associate-membership-plan/a-79791601?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></p>\n</li>\n<li>\n<p>Espanjan junaturma, joka vaati kymmeniä ihmisuhreja, johtui virheellisestä ohjeesta teknisen vian aikana. <a href=\"https://www.france24.com/en/spain-rail-crash-came-after-train-ordered-to-go-in-error-minister\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kanadan ja EU:n väliset assosioitumiskeskustelut ovat päättyneet ilman konkreettisia tuloksia, kun osapuolet luopuvat suunnitelmista. <a href=\"https://www.france24.com/en/europe/20261029-canada-and-eu-drop-associate-membership-plan-in-bid-to-deepen-ties\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ukrainan veteraaniasioiden ministeri Vitalii Kim painottaa, että maa jatkaa taisteluaan äitimaansa puolesta EU-avun epävarmuudesta huolimatta. <a href=\"https://www.france24.com/en/tv-shows/spotlight/20261028-amid-uncertainty-over-eu-aid-vitalii-kim-insists-ukraine-has-no-choice-but-to-fight-for-motherland\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 22,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 5606,
+  "output_tokens": 1092,
+  "sources": [
+    {
+      "title": "Ukraine: 13 killed in Russian drone strike on crowded Dnipro train station",
+      "url": "https://www.dw.com/en/ukraine-13-killed-in-russian-drone-strike-on-crowded-dnipro-train-station/a-79795076?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "New poll shows Sweden's Moderate Party just behind Social Democrats",
+      "url": "https://www.thelocal.se/20261029/new-poll-shows-swedens-moderate-party-just-behind-social-democrats",
+      "source_name": "The Local Sweden"
+    },
+    {
+      "title": "Fix the Blocks, Cut the Bills: Europe’s Housing Crisis Is Unfolding in Our Apartment Buildings [Promoted Content]",
+      "url": "https://www.rapporteur.com/opinion/fix-the-blocks-cut-the-bills-europes-housing-crisis-is-unfolding-in-our-apartment-buildings/",
+      "source_name": "EURACTIV"
+    },
+    {
+      "title": "REPLAY: French anti-terrorism prosecutor gives press conference on racist attack",
+      "url": "https://www.france24.com/en/video/20261029-replay-french-anti-terrorism-prosecutor-gives-press-conference-on-racist-attack",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Germany news: Volkswagen posts 3rd quarter losses of nearly €6 billion amid competition from China",
+      "url": "https://www.dw.com/en/germany-news-volkswagen-posts-3rd-quarter-losses-of-nearly-€6-billion-amid-competition-from-china/live-79792915?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
+      "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "ECB President Christine Lagarde to step down in February 2027, nine months before term ends",
+      "url": "https://www.france24.com/en/europe/20261029-ecb-president-christine-lagarde-to-step-down-in-february-2027-nine-months-before-term-ends",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Christine Lagarde quittera ses fonctions de présidente de la BCE en février",
+      "url": "https://www.politico.eu/article/christine-lagarde-quittera-ses-fonctions-de-presidente-de-la-bce-en-fevrier/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "'He's the reason I'm here': Dad fights to stay in Sweden with baby son",
+      "url": "https://www.thelocal.se/20261029/hes-the-reason-im-here-british-dad-fights-to-stay-in-sweden-with-baby-son",
+      "source_name": "The Local Sweden"
+    },
+    {
+      "title": "Real Madrid says Mbappé was wrong over Mao Zedong as China fallout continues",
+      "url": "https://www.rfi.fr/en/sports/20261029-real-madrid-says-mbapp%C3%A9-was-wrong-over-zedong",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Ship reported on fire off Oman as Iran escalation fears mount",
+      "url": "https://www.dw.com/en/ship-reported-on-fire-off-oman-as-iran-escalation-fears-mount/a-79792733?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Quebec premier boycotts Mark Carney’s EU summit",
+      "url": "https://www.politico.eu/article/quebec-premier-paul-st-pierre-plamondon-boycotts-mark-carney-eu-canada-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Quebec premier boycotts Mark Carney’s EU summit - POLITICO.eu",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVVBCeDRuUEpKSDlydklEc0dISkFaeWhmVlRGWXBDLTRXWFJ0Y1hYMG9leThYeTFGMVFrUk5CSnN2WnZwdVdjT2VYVmdWdDd4OVp2Yl9ja3dnaEtoT3N4cEVWN3EyQkFOdmFSai1McllUUjU0a3Y3cWFFdkdtOHJVaWpMLVRLUXprNFFHSmdCWFNwazZtMW5TdEhHMGVxU25lUEFlNVF3RnVSQno4MktB?oc=5",
+      "source_name": "Google News: EU summit"
+    },
+    {
+      "title": "US judge narrows Macrons' defamation lawsuit against American podcaster",
+      "url": "https://www.rfi.fr/en/france/20261029-us-judge-narrows-macrons-defamation-lawsuit-against-american-podcaster",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Budget 2026: We answer your questions",
+      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/budget-2026-we-answer-your-questions/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Spain begins three days of national mourning after train crash kills at least 68",
+      "url": "https://www.rfi.fr/en/international/20261029-spain-starts-three-days-of-national-mourning-after-train-crash-kills-at-least-68",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Hello Kitty company cuts ties with Japanese spy show after China outcry",
+      "url": "https://www.theguardian.com/world/2026/oct/29/hello-kitty-japanese-spy-show-vivant-china-outcry",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Bayern Munich head coach Vincent Kompany's health scare highlights the need for better support for elite coaches",
+      "url": "https://www.dw.com/en/bayern-munich-head-coach-vincent-kompany-s-health-scare-highlights-the-need-for-better-support-for-elite-coaches/a-79764661?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "LIVE NOW – Energy efficiency – How can it shape Europe’s post-2030 energy and climate framework?",
+      "url": "https://www.rapporteur.com/video/live-now-energy-efficiency-how-can-it-shape-europes-post-2030-energy-and-climate-framework/",
+      "source_name": "EURACTIV"
+    },
+    {
+      "title": "India news: 'Cockroaches' back Gandhi's rally against election chief",
+      "url": "https://www.dw.com/en/india-news-cockroaches-back-gandhi-s-rally-against-election-chief/live-79791890?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins",
+      "url": "https://www.dw.com/en/spain-train-crash-pm-sanchez-calls-for-investigation-as-3-days-of-mourning-begins/a-79792085?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Russia-Africa summit tests Moscow's ambitions for broader influence",
+      "url": "https://www.rfi.fr/en/africa/20261029-russia-africa-summit-to-test-moscow-s-ambitions-for-broader-influence",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Carney hosts EU leaders as Trump pushes Canada toward Europe, but membership label faces resistance - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ0kzYlZfX1MzdjB5QmZJVlZ3bjkzYU45aE12LTJNbTlLTEVBcFJvUmhQWEROSVRFdmJrcERBQjZzS1I0NF8wYW4zUVRKNk5ZT1IyUXAwdTBTa29uMUx3V3NWTWxuNEJTQXRSTGhOcHpycTFUSldmLVlla1F5SExQOEQ3dzBCOHRRQW1ubGphTEVCZkVFMmpFTjlXanA0Slc10gGmAUFVX3lxTE9FdFZrczNmNFUtaEs0UmNXSTVQVVdqZzM4czRyaS1wbWpNdlZmZGloeUpKQVR1TEZmWWJMR212NlZRcHJ3OHVWbDlQbmE0YnlvNlhnVzAtMlJuandZdUxCMjE0NHlpd0lJOTg0NTFiYUZabEwxVHBwbHdZdWlFZHVqdjZpVlJmLVNrV05lajB1N2FxYWtmY0l0ay1nWUNkMEc4TmFJZ3c?oc=5",
+      "source_name": "Google News: European Commission"
+    },
+    {
+      "title": "Israel election: Netanyahu-led bloc holds lead with nearly 90% of votes counted",
+      "url": "https://www.dw.com/en/israel-election-netanyahu-led-bloc-holds-lead-with-nearly-90-of-votes-counted/live-79713839?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "'Desolation, despair': Spain begins three days of mourning after deadly train crash",
+      "url": "https://www.france24.com/en/europe/20261029-desolation-despair-spain-begins-three-days-of-mourning-after-deadly-train-crash",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Cambodian police and soldiers helped guard abusive scam compounds, Amnesty alleges",
+      "url": "https://www.theguardian.com/world/2026/oct/29/cambodian-police-scam-compounds-amnesty-international",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "The great EU-Canada lovefest",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-great-eu-canada-lovefest/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Outcry after Call of Duty maker uses real footage of deadly Seoul crowd crush in new video game",
+      "url": "https://www.theguardian.com/world/2026/oct/29/call-of-duty-seoul-crowd-crush-video-footage",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "US: Department of Homeland Security data leak exposes details of more than 40,000 employees",
+      "url": "https://www.dw.com/en/us-department-of-homeland-security-data-leak-exposes-details-of-more-than-40-000-employees/a-79791765?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC News — World"
+    },
+    {
+      "title": "Canada and EU drop associate membership plan in bid to deepen ties",
+      "url": "https://www.france24.com/en/europe/20261029-canada-and-eu-drop-associate-membership-plan-in-bid-to-deepen-ties",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "EU countries block Canada's 'associate membership' plan",
+      "url": "https://www.dw.com/en/eu-countries-block-canada-s-associate-membership-plan/a-79791601?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Spain rail crash came after train ordered to go in error: minister",
+      "url": "https://www.france24.com/en/spain-rail-crash-came-after-train-ordered-to-go-in-error-minister",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Flavio Bolsonaro lands in US, declares himself 'leader' of Brazil",
+      "url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-leader-of-brazil/a-79788659?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Rail safety questioned after Spain suffers second fatal high-speed train crash in a year",
+      "url": "https://www.france24.com/en/europe/20261028-rail-safety-questioned-after-spain-suffers-second-fatal-high-speed-train-crash-in-a-year",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Flávio Bolsonaro calls himself the ‘leader of Brazil’ after fleeing to Miami",
+      "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "EU backs away from offer to Canada to start ‘associate member’ talks",
+      "url": "https://www.theguardian.com/world/2026/oct/28/european-union-canada",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "EU backs away from offer to Canada to start ‘associate member’ talks - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUeTBkZlVFTHZMZ05IdEpNVUdCdUlla1hVaU4ybnliYzNZV3d6UVFreGdUamdpUVN1U3M4NFRpSjFRcGlhd0FJME01aTJiVkdlWHBzbE1GSWxMaTJoUzZHRjlJcER1bGpMRTZvZHkwUzdCTkNiUFE?oc=5",
+      "source_name": "Google News: European Commission"
+    },
+    {
+      "title": "US ambassador suggests Trump could blame Canada if midterms don’t go his way",
+      "url": "https://www.theguardian.com/world/2026/oct/28/canada-ambassador-republicans-midterms",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Amid uncertainty over EU aid, Vitalii Kim insists Ukraine has no choice but to fight for motherland",
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20261028-amid-uncertainty-over-eu-aid-vitalii-kim-insists-ukraine-has-no-choice-but-to-fight-for-motherland",
+      "source_name": "France 24 — Europe"
+    }
+  ],
+  "homepage_candidates": []
+}

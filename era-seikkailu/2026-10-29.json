@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-29",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään erä- ja metsästysvälineistöön liittyviä lyhyitä uutisia tarjotaan kahdelta aihealueelta: paras metsästysoptiikka valkohäntäpeuran metsästykseen sekä vinkit teränkärkien teroittamiseen.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Outdoor Life on julkaissut testatun ja arvioidun listan edullisista ja toimivista kiikaritähtäimistä, jotka soveltuvat erityisesti valkohäntäpeuran metsästykseen. <a href=\"https://www.outdoorlife.com/gear/the-best-rifle-scopes-for-deer-hunting-tested-reviewed/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life tarjoaa vinkkejä, kuinka helposti teränkärkiä voi teroittaa. Artikkelissa esitellään tehokkaita tekniikoita ja tarvittavat välineet. <a href=\"https://www.outdoorlife.com/gear/how-to-sharpen-broadheads-2026/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1508,
+  "output_tokens": 231,
+  "sources": [
+    {
+      "title": "Om kriget kommer",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/om-kriget-kommer/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "“I Was in Disbelief.” Crossbow Hunter Takes Massive 250-Class, 290-Pound Nontypical Buck",
+      "url": "https://www.outdoorlife.com/hunting/ohio-buck-weighs-290/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Rifle Scopes for Deer Hunting, Tested & Reviewed",
+      "url": "https://www.outdoorlife.com/gear/the-best-rifle-scopes-for-deer-hunting-tested-reviewed/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Freddy Krueger Deer: These Are the Monster Bucks That Still Haunt Our Nightmares",
+      "url": "https://www.outdoorlife.com/hunting/freddy-krueger-deer-these-are-the-monster-bucks-that-still-haunt-our-nightmares/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Sharpen Broadheads: The Techniques and Gear You Need to Know",
+      "url": "https://www.outdoorlife.com/gear/how-to-sharpen-broadheads-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "I Caught the World-Record Striped Bass During the Eclipse of a Full Moon",
+      "url": "https://www.outdoorlife.com/fishing/i-caught-the-world-record-striped-bass-during-the-eclipse-of-a-full-moon/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
