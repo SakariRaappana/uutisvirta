@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-30",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään käsiteltiin useita mielenkiintoisia aiheita eränkäynnin ja metsästyksen parissa. Montanan hybridilammas aiheuttaa päänvaivaa paikallisille villilaumoille. Lisäksi tarjolla on tarkkuutta ja nopeutta käsitteleviä jousiammuntavinkkejä sekä uuden kevyen Xpedition NexLite 35 -jousen testi. Pohdittiin myös hirviajan sääolosuhteita ja niiden vaikutusta peurojen liikkeisiin.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Montanassa on havaittu harhaileva hybridisarvilammas, joka saattaa aiheuttaa haittaa paikallisille villilampaille. <strong>) <a href=\"https://www.outdoorlife.com/hunting/hybrid-bighorn-sheep-escapes-in-montana/\">Lue lisää</a></strong></p>\n</li>\n<li>\n<p>Monet tekevät jousiammunnassa virheitä, jotka saattavat vaikuttaa metsästyskokemuksen laatuun. Outdoor Life tarjoaa vinkkejä näiden virheiden korjaamiseksi. <a href=\"https://www.outdoorlife.com/gear/5-archery-mistakes/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Xpedition NexLite 35 -jousi on testattu sen keveyden, tarkkuuden ja nopeuden osalta. Tämä uusi jousi lupaa parannuksia metsästäjille. <a href=\"https://www.outdoorlife.com/gear/xpedition-nexlite-35-review/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Dr. Grant Woodsin mukaan peuranmetsästäjien tulisi huomioida sääolosuhteet kuunvaiheiden sijaan saadakseen etua metsällä. <a href=\"https://www.outdoorlife.com/hunting/grant-woods-deer-hunting-tips/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kuuden ihmisen ja traktorin voimin kyettiin kantamaan valtava mustakarhu pois vuorelta Kentuckyssä. Se saattaa olla osavaltion suurin tänä vuonna. <a href=\"https://www.outdoorlife.com/hunting/massive-kentucky-black-bear/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Jakt &amp; Jägare -lehdessä korostetaan metsästäjien hyödyllisyyttä yhteiskunnallisissa kriiseissä erätaitojensa vuoksi. <a href=\"https://www.jaktojagare.se/kategorier/opinion/ledare-var-beredskap-ar-god/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ruotsin metsästäjät ovat valmiina sotatilanteisiin, kiitos heidän laajojen taitojensa ja tietämyksensä metsistä, teistä ja aseiden käsittelystä. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/om-kriget-kommer/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 7,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2004,
+  "output_tokens": 608,
+  "sources": [
+    {
+      "title": "‘It’s Trailer Park Chemistry.’ A Hybrid Bighorn Sheep Is on the Lam and That Could Be Bad News for Wild Herds",
+      "url": "https://www.outdoorlife.com/hunting/hybrid-bighorn-sheep-escapes-in-montana/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Biggest Archery Mistakes You’re Making This Bow Season",
+      "url": "https://www.outdoorlife.com/gear/5-archery-mistakes/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Xpedition NexLite 35 Bow Review: Accuracy and Speed Test",
+      "url": "https://www.outdoorlife.com/gear/xpedition-nexlite-35-review/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Here’s What All Hunters Should Know About the Rut, Weather, and Deer Movement, According to One of the Top Experts In the Country",
+      "url": "https://www.outdoorlife.com/hunting/grant-woods-deer-hunting-tips/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "It Took Six People and a Tractor to Haul This Massive Black Bear Off the Mountain",
+      "url": "https://www.outdoorlife.com/hunting/massive-kentucky-black-bear/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "LEDARE: Vår beredskap är god",
+      "url": "https://www.jaktojagare.se/kategorier/opinion/ledare-var-beredskap-ar-god/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Om kriget kommer",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/om-kriget-kommer/",
+      "source_name": "Jakt & Jägare"
+    }
+  ],
+  "homepage_candidates": []
+}
