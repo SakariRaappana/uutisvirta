@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-31",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Everlaw paljasti vuosittaisessa huippukokouksessaan uuden tekoälysivustonsa, Omni. Tärkeämpänä pidettiin kuitenkin alustan avaamista muille tekoälytyökaluille.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Everlaw julkisti vuosittaisessa kokouksessaan uuden Omni-teköälysivuston. Tätä tärkeämmäksi nähtiin, että alusta avataan muiden tekoälytyökalujen käytettäväksi. <a href=\"https://news.google.com/rss/articles/CBMimAJBVV95cUxQZkVFWWtfaFM1VFMtVDhRNkI2SW5lUHRPaW1ybGlXTl9CUWxxMnV1QVZHQU9ueVVyUGpBazJkbVlVNVZscnE5d1I2MVhzZFo2dThBdFJtMklUWHF5Q0c4S0tqTEE4Z3IwcThqcVlROXRuQnZjMmY4U2d2R2pNd2RLVUctN3pTdlppUjlTT3Q3SVJoY0FjVVY5bWRkVjA1S3NLaU5XUGxvOHhPQ0FDTTN3UloybmdsZDg1RHlIM3NXWmVrUmx2RDROeHVMbGNia2tfS1RiY21zMXF5a3NyVTEtZi1ta19hcFJMSjlWeUZ5M0o4Nm1lYWJnNDdjWHh6SjYtc1IxZmdLUTF5SmFPNlBieUNvM0xld216?oc=5\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1323,
+  "output_tokens": 407,
+  "sources": [
+    {
+      "title": "At Its Annual Summit, Everlaw Unveils Omni, Its Agentic AI Suite, But CEO Says Customers Are Even More Excited About Opening Its Platform to Other AI Tools - LawSites | by Robert Ambrogi",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQZkVFWWtfaFM1VFMtVDhRNkI2SW5lUHRPaW1ybGlXTl9CUWxxMnV1QVZHQU9ueVVyUGpBazJkbVlVNVZscnE5d1I2MVhzZFo2dThBdFJtMklUWHF5Q0c4S0tqTEE4Z3IwcThqcVlROXRuQnZjMmY4U2d2R2pNd2RLVUctN3pTdlppUjlTT3Q3SVJoY0FjVVY5bWRkVjA1S3NLaU5XUGxvOHhPQ0FDTTN3UloybmdsZDg1RHlIM3NXWmVrUmx2RDROeHVMbGNia2tfS1RiY21zMXF5a3NyVTEtZi1ta19hcFJMSjlWeUZ5M0o4Nm1lYWJnNDdjWHh6SjYtc1IxZmdLUTF5SmFPNlBieUNvM0xld216?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals",
+      "url": "https://www.technologyreview.com/2026/10/30/1147843/the-download-glp-1s-eating-disorders-forever-chemicals/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Eating disorders are on the rise. GLP-1s could make things worse.",
+      "url": "https://www.technologyreview.com/2026/10/30/1147838/eating-disorders-rise-glp-1s-weight-loss-drugs/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
