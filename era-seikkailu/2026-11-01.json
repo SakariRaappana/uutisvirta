@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-01",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa kerrotaan parhaista paikoista metsästää valkohäntäpeuraa kiima-aikana. Tämä voi olla hyödyllistä tietoa niille, jotka haluavat parantaa metsästysonneaan tähän aikaan vuodesta.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Outdoor Life tarjoaa vinkkejä parhaista paikoista metsästää valkohäntäpeuraa kiima-aikaan. Kiima-aika voi olla haastava hetki tavoitella suurikokoisia peuroja, mutta oikeilla paikoilla se voi onnistua helpommin. <a href=\"https://www.outdoorlife.com/hunting/the-15-best-spots-to-hunt-during-the-peak-of-the-w\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1442,
+  "output_tokens": 177,
+  "sources": [
+    {
+      "title": "Matt Robertson Just Won $1.25 Million In the Champions Tournament. It’s The Largest First Place Payout in Professional Bass Fishing History",
+      "url": "https://www.outdoorlife.com/fishing/largest-first-place-payout-in-professional-bass-fishing-history/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 15 Best Spots to Hunt During the Peak of the Whitetail Rut",
+      "url": "https://www.outdoorlife.com/hunting/the-15-best-spots-to-hunt-during-the-peak-of-the-whitetail-rut/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "“I Wanted to Throw Up.” I Missed 7 Bucks In a Row Before Finally Learning a Hard Lesson",
+      "url": "https://www.outdoorlife.com/hunting/i-wanted-to-throw-up-i-missed-7-bucks-in-a-row-before-finally-learning-a-hard-lesson/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
