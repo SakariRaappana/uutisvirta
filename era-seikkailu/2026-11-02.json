@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-02",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään ei julkaistu merkittäviä erä- tai vaellusuutisia, mutta metsästyskentältä saatiin kiinnostava näkökulma valkohäntäpeuroihin liittyen, joka voi tarjota uutta mietittävää metsästyksen ja riistanhoidon parissa toimiville.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>Ei tärkeitä uutisia tänään.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Valkohäntäpeura-asiantuntija Jeff Sturgis jakaa näkemyksiään siitä, mitä metsästäjät usein tekevät väärin valkohäntäpeuroihin liittyen. Hänen mukaansa monien &quot;metsästysviisauksien&quot; uudelleen arviointi voisi parantaa metsästystuloksia ja riistanhoitoa. <a href=\"https://www.outdoorlife.com/hunting/what-hunters-get-wrong-about-deer/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1436,
+  "output_tokens": 208,
+  "sources": [
+    {
+      "title": "Aivosumu tai joulustressi? Nollaa tilanne kylmässä vedessä",
+      "url": "https://www.suomenlatu.fi/aivosumu-tai-joulustressi-nollaa-tilanne-kylmassa-vedessa/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Suomen Latu palkitsi jäsenyhdistysten vastuullisia tekoja",
+      "url": "https://www.suomenlatu.fi/suomen-latu-palkitsi-jasenyhdistysten-vastuullisia-tekoja/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Here’s What Most Hunters Get Wrong About Whitetails, According to a Top Deer Expert",
+      "url": "https://www.outdoorlife.com/hunting/what-hunters-get-wrong-about-deer/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Syyspäivät toivat Suomen Ladun vapaaehtoiset yhteen Ouluun",
+      "url": "https://www.suomenlatu.fi/syyspaivat-toivat-suomen-ladun-vapaaehtoiset-yhteen-ouluun/",
+      "source_name": "Suomen Latu"
+    }
+  ],
+  "homepage_candidates": []
+}
