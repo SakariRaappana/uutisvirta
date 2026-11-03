@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-03",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään selvisivät yksityiskohdat laittomasta hirviporostosta Montanassa, kun metsästäjä sai 20 vuoden metsästyskiellon. Lisäksi käydään läpi miekkailijoiden drone-uhkaa, ampumisen vinkkejä ja ennätyksellisen hirven metsästystä Montanassa.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Montanassa mies on saanut 20 vuoden metsästyskiellon, koska hänet havaittiin ampumassa laittomasti hirveä jousimetsästyksen sesongin aikana. Metsästäjät, jotka näkivät tapauksen, ilmoittivat sen heti viranomaisille. <a href=\"https://www.outdoorlife.com/conservation/father-son-poaching-elk/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Hirvenmetsästykseen liittymätön drone-tekniikka on herättänyt huolta maanomistajien keskuudessa, jotka taistelevat suojellakseen tonttejaan ei-toivotulta toiminnalta. Jack Huston keskustelee dronejen eettisestä käytöstä villieläinten hallinnassa. <a href=\"https://www.outdoorlife.com/hunting/drone-defense-systems-deer-hunting/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Jousiammunnan ammattilainen ja kokenut hirvenmetsästäjä John Dudley jakaa neuvoja, kuinka pysyä rauhallisena ja ampua tarkasti paineen alla. <a href=\"https://www.outdoorlife.com/hunting/buck-fever-archery/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Las Vegasista kotoisin oleva palomies ampui maailmanennätyshärän jousipyssyllä metsästäessään Montanan Belt-vuorilla, jatkaen 1980-luvun ennätystahtia. <a href=\"https://www.outdoorlife.com/hunting/world-record-archery-bull-while-hunting-in-montanas-belt-mountains/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1700,
+  "output_tokens": 437,
+  "sources": [
+    {
+      "title": "One Dead, Two Injured as Two Helicopters Crash Near Everest Base Camp",
+      "url": "https://explorersweb.com/one-dead-two-injured-as-two-helicopters-crash-near-everest-base-camp/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Montana Man Banned From Hunting for 20 Years After Bowhunters Watch Him Poach a Trophy Bull",
+      "url": "https://www.outdoorlife.com/conservation/father-son-poaching-elk/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Counter Drone Technology Has Come to Deer Hunting and Landowners Are Starting to Fight Back",
+      "url": "https://www.outdoorlife.com/hunting/drone-defense-systems-deer-hunting/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Everest and Ama Dablam Climbs Resume Despite Cyclone",
+      "url": "https://explorersweb.com/everest-and-ama-dablam-climbs-resume-despite-cyclone/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "‘There Was No Controlling that Fish.’ Two Buddies Land One of the Largest Blue Marlin Ever Caught in Southern California",
+      "url": "https://www.outdoorlife.com/fishing/blue-marlin-california/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Beat the Worst Case of Buck Fever, According to This Archery Pro",
+      "url": "https://www.outdoorlife.com/hunting/buck-fever-archery/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "I Shot the World Record Archery Elk While Hunting in Montana’s Belt Mountains",
+      "url": "https://www.outdoorlife.com/hunting/world-record-archery-bull-while-hunting-in-montanas-belt-mountains/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Aivosumu tai joulustressi? Nollaa tilanne kylmässä vedessä",
+      "url": "https://www.suomenlatu.fi/aivosumu-tai-joulustressi-nollaa-tilanne-kylmassa-vedessa/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Suomen Latu palkitsi jäsenyhdistysten vastuullisia tekoja",
+      "url": "https://www.suomenlatu.fi/suomen-latu-palkitsi-jasenyhdistysten-vastuullisia-tekoja/",
+      "source_name": "Suomen Latu"
+    }
+  ],
+  "homepage_candidates": []
+}

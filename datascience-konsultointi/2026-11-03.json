@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-03",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään käsitellään uusia lähestymistapoja tekoälyagenttien hallintaan ja toimivuutta, huolenaiheita agenttien nopeaan toimintaan liittyen ja agenttianalytiikan kehitystä. Lisäksi tarkastellaan ohjelmistokehityksen käytäntöjä ja tekoälyn roolia Windows 11:n kehityksessä.</p>\n<h2>Lyhytmaininnat</h2>\n<h3>How “reverse game theory” could keep AI agents in check</h3>\n<p>Uusi lähestymistapa nimeltä &quot;reverse game theory&quot; pyrkii hallitsemaan tehokkaita tekoälymalleja suunnittelemalla järjestelmiä, jotka kannustavat noudattamaan sääntöjä. Tämä pyritään saavuttamaan motivoimalla AI-malleja toimimaan eettisesti sekä turvallisesti. <a href=\"https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/\">Lue lisää</a></p>\n<h3>“My biggest concern is that organizations will give agents the ability to act faster and only then develop the ability to govern those actions” - CTech</h3>\n<p>CTech ilmaisee huolen siitä, että organisaatiot saattavat sallia agenttien toimia nopeasti, mutta kehittävät hallintamekanismit vasta jälkikäteen. Tämä voisi johtaa hallitsemattomiin riskeihin, jos valvonta ei ole riittävää. <a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qSV9VWEVEQkMzdnhHTjU1WC1IS3hYUTNiWDVCU1A5TFhMd18yZVpyQ2h4eDF2a1FuYTlGQWxzOWlhLThsbXBzUE5sZzdGa04yMlhCS3VwNGpvVTFQTWJYLUR1VkM3Nnc?oc=5\">Lue lisää</a></p>\n<h3>Raising the quality of insights in agentic analytics</h3>\n<p>Agenttianalytiikan kehitys on muuttanut yritysanalytiikkaa, erityisesti generatiivisen AI:n kautta, ja agenttien odotetaan automatisoivan analyysien suorittamisen entistä tehokkaammin. Tavoitteena on parantaa analyysien laatua ja saatavuutta. <a href=\"https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/\">Lue lisää</a></p>\n<h3>Stop counting tokens, start counting what ships</h3>\n<p>Kehittäjät kohtaavat tilanteita, joissa tekoälyagentit suorittavat monimutkaisia tehtäviä, kuten koodin kirjoittamista, missä yksittäinen tehtävä voi vaatia useita iteraatioita. Tehtävien moninaisuus korostaa tarvetta keskittyä enemmän lopputuloksiin kuin niihin käytettyjen resurssien määrään. <a href=\"https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/\">Lue lisää</a></p>\n<h3>The Download: the agentic web arrives and the drive for safer roads</h3>\n<p>Päivän Download-uutiskirjeessä tarkastellaan agenttiverkon kehitystä ja sen vaikutuksia. Lisäksi käsitellään turvallisuuden lisäämistä liikenteessä. <a href=\"https://www.technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths/\">Lue lisää</a></p>\n<h3>'AI is pervasive, it is everywhere': Microsoft boasts about AI turbocharging Windows 11 development, and users aren't surprised — but they're worried about bugs - TechRadar</h3>\n<p>Microsoft hehkuttaa tekoälyn vaikuttaneen merkittävästi Windows 11:n kehitykseen, mutta käyttäjät ovat huolissaan mahdollisista bugeista. Tämä osoittaa AI:n laajamittaista käyttöä tuotteiden kehityksessä, mikä voi samalla tuoda mukanaan teknisiä haasteita. <a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMXBlMWpZVXNpT3kweUE4TTk5VFlPZm9XMzNvak9VbnJkcTRIbVhpU3BOQzEzODI4OEZLRHFrX0hVUmpxQWtweFJxbEtYZnpTNEJSRUdzVVlZUVBOX0hoZFpyc2pucWVsaFNkVmg2Ul9hWFQ1N1hCdDRLVnZjYWZ3LUpPdnVFOWpoYmxwSmVfNlQwcjljUmFuVzE1TjRyMDdrcUN0TEdxMlMtMDduYmVBZnplRm9rakZMOHh4Z0RlVGhHajJndC1hVU5zdE9tTlQxR3lxRHlZMmwxaTlKa19lRHlJdXB5M3M?oc=5\">Lue lisää</a></p>\n",
+  "item_count": 6,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1841,
+  "output_tokens": 1106,
+  "sources": [
+    {
+      "title": "How “reverse game theory” could keep AI agents in check",
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "“My biggest concern is that organizations will give agents the ability to act faster and only then develop the ability to govern those actions” - CTech",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qSV9VWEVEQkMzdnhHTjU1WC1IS3hYUTNiWDVCU1A5TFhMd18yZVpyQ2h4eDF2a1FuYTlGQWxzOWlhLThsbXBzUE5sZzdGa04yMlhCS3VwNGpvVTFQTWJYLUR1VkM3Nnc?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Raising the quality of insights in agentic analytics",
+      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Stop counting tokens, start counting what ships",
+      "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: the agentic web arrives and the drive for safer roads",
+      "url": "https://www.technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "'AI is pervasive, it is everywhere': Microsoft boasts about AI turbocharging Windows 11 development, and users aren't surprised — but they're worried about bugs - TechRadar",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMXBlMWpZVXNpT3kweUE4TTk5VFlPZm9XMzNvak9VbnJkcTRIbVhpU3BOQzEzODI4OEZLRHFrX0hVUmpxQWtweFJxbEtYZnpTNEJSRUdzVVlZUVBOX0hoZFpyc2pucWVsaFNkVmg2Ul9hWFQ1N1hCdDRLVnZjYWZ3LUpPdnVFOWpoYmxwSmVfNlQwcjljUmFuVzE1TjRyMDdrcUN0TEdxMlMtMDduYmVBZnplRm9rakZMOHh4Z0RlVGhHajJndC1hVU5zdE9tTlQxR3lxRHlZMmwxaTlKa19lRHlJdXB5M3M?oc=5",
+      "source_name": "Google News: agentic AI"
+    }
+  ],
+  "homepage_candidates": []
+}
