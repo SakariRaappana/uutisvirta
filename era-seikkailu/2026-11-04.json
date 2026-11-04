@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-04",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään ei ole merkittäviä uutisia, mutta on tarjolla kolme lyhytmainintaa, jotka käsittelevät metsästysvarusteita ja -tekniikoita. Ne koskevat uuden ulkoilutakin etuja, oikeanlaista kiikaritähtäimen kiinnitystä sekä hirvieläinten metsästysmenetelmiä suurissa metsissä.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>First Lite Uncompahgre Foundry Jacket tarjoaa erinomaisen suojan kylmältä, tuulelta ja sateelta metsästyskaudelle. Outdoor Life -artikkeli esittelee takin testitulokset ja arvion. <a href=\"https://www.outdoorlife.com/gear/first-lite-uncompahgre-foundry-jacket/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life julkaisi oppaan, joka auttaa välttämään yleisiä virheitä kiikaritähtäimen kiinnityksessä kivääriin. Opas sisältää vaiheittaiset ohjeet tähtäimen oikeaan asentamiseen. <a href=\"https://www.outdoorlife.com/gear/how-to-mount-a-riflescope-properly/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Suurissa metsissä hirvieläinten metsästys vaatii sekä perinteisiä että moderneja metsästystaktiikoita. North Country -asiantuntija jakaa salaisuuksiaan Outdoor Life -artikkelissa. <a href=\"https://www.outdoorlife.com/hunting/secrets-for-deer-hunting-the-big-woods-according-to-a-north-country-expert/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1615,
+  "output_tokens": 349,
+  "sources": [
+    {
+      "title": "First Lite Uncompahgre Foundry Jacket, Tested and Reviewed",
+      "url": "https://www.outdoorlife.com/gear/first-lite-uncompahgre-foundry-jacket/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Mount a Riflescope Like a Pro. Follow This Step-By-Step Guide",
+      "url": "https://www.outdoorlife.com/gear/how-to-mount-a-riflescope-properly/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "A Veteran Bowhunter Finds Two Bucks Locked Together Deep Into Public Land. Should He Shoot Them?",
+      "url": "https://www.outdoorlife.com/hunting/locked-bucks-oklahoma/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The FN Mauser Is the Best Deer Rifle that History Forgot",
+      "url": "https://www.outdoorlife.com/guns/vintage-fn-mauser-review/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Secrets for Deer Hunting the Big Woods, According to a North Country Expert",
+      "url": "https://www.outdoorlife.com/hunting/secrets-for-deer-hunting-the-big-woods-according-to-a-north-country-expert/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Book review: The Last Horizon",
+      "url": "https://polarjournal.net/book-review-the-last-horizon/",
+      "source_name": "Polar Journal"
+    },
+    {
+      "title": "One Dead, Two Injured as Two Helicopters Crash Near Everest Base Camp",
+      "url": "https://explorersweb.com/one-dead-two-injured-as-two-helicopters-crash-near-everest-base-camp/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}
