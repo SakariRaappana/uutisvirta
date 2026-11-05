@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-05",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Microsoft Foundry esitteli uusimpia päivityksiä, joissa parannettiin agenttipalveluja ja selaimen automatisointiominaisuuksia. Lisäksi Microsoft Agent Framework julkaisi uusia taitoja .NET- ja Python-kehittäjille, mikä lupaa lisätehokkuutta koodaavaan agenttipohjaiseen työhön. Näiden lisäksi keskusteltiin myös datan hallinnan tärkeydestä agenttipohjaisissa yrityksissä.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>What’s new in Microsoft Foundry | October 2026</h3>\n<p>Microsoft Foundryn lokakuun päivityksissä on useita uusia parannuksia, jotka on suunniteltu tehostamaan agenttipalveluita. Uudet ominaisuudet sisältävät parantuneen Foundry Local -toiminnallisuuden, joka mahdollistaa kehittäjille paremmin hallittavat paikalliset agentit. Selainautomatisointi on saanut päivityksiä, jotka näennäisesti nopeuttavat selaimen toimintaa agenttien käytössä. Päivitykset sisältävät myös laajennuksia päätöksenteko-API:hin ja kehittäjäympäristöihin liittyen, mikä lupaa entistä saumattomampaa integroitumista Microsoftin ekosysteemiin. Kaikki nämä uudistukset osoittavat Microsoft Foundryn sitoutumista agenttiteknologian jatkuvaan kehittämiseen. <a href=\"https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-october-2026\">Lue alkuperäinen →</a></p>\n<h3>Give your coding agent a head start with Microsoft Agent Framework skills for .NET and Python</h3>\n<p>Microsoft Agent Framework julkaisi uusia kehittäjätyökaluja, jotka on suunnattu erityisesti .NET- ja Python-ohjelmoijille. Nämä uudet työkalut mahdollistavat ohjelmoijille tehokkaan tavan luoda agenttitaitoja, jotka yksinkertaistavat ja nopeuttavat ohjelmointityötä. Taitojen avulla voi helposti integroita Semantic Kernel -toimintoja, ja siten laajentaa tekoälyagenttien kyvykkyyksiä. Tämä tarjoaa kehittäjille kilpailuetua, kun koodaustyö voidaan automatisoida tehokkaasti uusien framework-ominaisuuksien myötä. <a href=\"https://devblogs.microsoft.com/agent-framework/give-your-coding-agent-a-head-start-with-microsoft-agent-framework-skills-for-net-and-python\">Lue alkuperäinen →</a></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Artikkelissa &quot;Securing the agentic enterprise with data lineage&quot; käsitellään datan jäljitettävyyttä ja sen merkitystä agenttipohjaisissa yrityksissä, missä tiedon lähteet voivat vaihdella rajoitettujen hinnoittelujärjestelmien ja arkistoidun viestinnän välillä. <a href=\"https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2696,
+  "output_tokens": 665,
+  "sources": [
+    {
+      "title": "What’s new in Microsoft Foundry | October 2026",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-october-2026/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "A new bill could change how the US builds energy infrastructure",
+      "url": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Roundtables: Inside the Quest for Cognitive Immortality",
+      "url": "https://www.technologyreview.com/2026/11/04/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "What’s next for US energy policy after the midterm elections?",
+      "url": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Give your coding agent a head start with Microsoft Agent Framework skills for .NET and Python",
+      "url": "https://devblogs.microsoft.com/agent-framework/give-your-coding-agent-a-head-start-with-microsoft-agent-framework-skills-for-net-and-python/",
+      "source_name": "Microsoft Agent Framework Blog"
+    },
+    {
+      "title": "The Download: blended meat, restored sight, and the agentic web",
+      "url": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Securing the agentic enterprise with data lineage",
+      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Give your coding agent a head start with Microsoft Agent Framework skills for .NET and Python",
+      "source_name": "Microsoft Agent Framework Blog",
+      "source_url": "https://devblogs.microsoft.com/agent-framework/give-your-coding-agent-a-head-start-with-microsoft-agent-framework-skills-for-net-and-python/",
+      "published_at": "2026-11-04T15:35:49+00:00",
+      "summary": "We have added installable Microsoft Agent Framework builder skills for .NET and Python. They give coding agents Microsoft-maintained guidance for building and modifying Agent Framework applications, from choosing the right pattern to wiring tools, sessions, workflows, and hosting. These are developm",
+      "why_relevant": "Agent Frameworkin builder skills -paketit .NET:lle ja Pythonille vaikuttavat suoraan siihen, miten voit nopeuttaa agenttien kehitystä ja standardoida asiakkaalle toimitettavaa koodia.",
+      "homepage_eligible": true,
+      "homepage_score": 88,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "microsoft-agent-framework-builder-skills-dotnet-python",
+      "category": "tärkea"
+    }
+  ]
+}

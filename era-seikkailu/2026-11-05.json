@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-05",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään keskiössä on käytetyn metsästysvälineistön kasvava suosio erityisesti GPS-laitteiden ja kiikareiden osalta. Lisäksi käsitellään valkohäntäpeuran metsästystaktiikoita, eteläisen Dakotan fasaanijahtiperinteiden hiipumista ja metsästykseen soveltuvien lasermittareiden testituloksia.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Alati lisääntynyt kiinnostus käytettyihin metsästysvälineisiin näkyy erityisesti GPS-laitteiden ja kiikareiden kaupan vilkastumisena. Tradera-sivustolla näiden tuotteiden myyntiarvo on noussut 20 prosenttia viime vuoden syksyyn verrattuna. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/begagnad-jaktutrustning-allt-hetare-gps-och-kikarsikten-okar-kraftigt/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Yhdysvalloissa alan huippuvalkohäntäpeuran metsästäjät jakavat menestysreseptinsä, paljastaen 13 taktiikkaa, joita he käyttävät täplätäkseen aikuisia uroksia. <a href=\"https://www.outdoorlife.com/hunting/tactics-expert-whitetail-hunters-actually-use/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Etelä-Dakotassa paikalliset ovat huolestuneita, kun fasaanimetsästyksen perinteet uhkaavat hiipua ulkopaikkakuntalaisten vyöryessä alueelle ja valtion keskittyessä matkailutuloihin. <a href=\"https://www.outdoorlife.com/hunting/south-dakota-pheasant-hunting-traditions/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Laatuun ja edullisuuteen panostavat lasermittarit ovat saaneet kiitosta metsästykseen ja ammuntaan soveltuvien optiikkatestien parissa. Vaihtoehtoja löytyi sekä ballistiikkalaskutoiminnoilla varustetuista lippulaivamalleista budjettiin sopiviin työjuhdiksi. <a href=\"https://www.outdoorlife.com/gear/best-laser-rangefinders-for-hunting-2026/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1761,
+  "output_tokens": 514,
+  "sources": [
+    {
+      "title": "Ehkä ongelma ei olekaan marraskuu – vaan meidän suhtautumisemme siihen",
+      "url": "https://www.suomenlatu.fi/ehka-ongelma-ei-olekaan-marraskuu-vaan-meidan-suhtautumisemme-siihen/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Begagnad jaktutrustning allt hetare – GPS och kikarsikten ökar kraftigt",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/begagnad-jaktutrustning-allt-hetare-gps-och-kikarsikten-okar-kraftigt/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Animal Attack Roundup, Nov. 4",
+      "url": "https://explorersweb.com/animal-attack-roundup-nov-4/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "These Are the 13 Tactics Expert Whitetail Hunters Actually Use to Tag Mature Bucks",
+      "url": "https://www.outdoorlife.com/hunting/tactics-expert-whitetail-hunters-actually-use/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "“We Used FFS and Were Targeting Big Bass.” Angler Breaks 76-Year-Old Smallmouth Bass Record",
+      "url": "https://www.outdoorlife.com/fishing/we-used-ffs-and-were-targeting-big-bass-angler-breaks-76-year-old-smallmouth-bass-record/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "South Dakota Is Losing Its Hometown Pheasant Hunters. Meanwhile, the Nonresident Business Is Booming",
+      "url": "https://www.outdoorlife.com/hunting/south-dakota-pheasant-hunting-traditions/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Laser Rangefinders for Hunting and Shooting, Tested and Reviewed",
+      "url": "https://www.outdoorlife.com/gear/best-laser-rangefinders-for-hunting-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "His Bow Exploded When He Tried to Arrow His Target Buck — But He Still Got the Deer",
+      "url": "https://www.outdoorlife.com/hunting/his-bow-exploded-when-he-tried-to-arrow-his-target-buck-but-he-still-got-the-deer/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
