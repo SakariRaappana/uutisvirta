@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-06",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Microsoft julkaisi Foundry-laajennuksen Azure Developer CLI:lle yleiseen saatavuuteen, parantaen kehittäjien työkaluja ja integraatioita. Uutena Microsoft Foundry -lokakuun 2026 päivityksessä esiteltiin mm. uusia agenttimalleja ja selaimen automaatiotyökaluja.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Microsoft Foundry extension for Azure Developer CLI is generally available</h3>\n<p>Microsoft on ilmoittanut Foundry-laajennuksen julkaisusta yleiseen saatavuuteen Azure Developer CLI:lle. Tämä laajennus parantaa kehittäjien mahdollisuuksia rakentaa, testata ja ottaa käyttöön sovelluksia Azure-ympäristössä sujuvammin. Alusta tukee CI/CD-prosesseja ja laajentaa Microsoft Foundryn Hosted Agents -toiminnallisuuksia. Laajennuksen kerrotaan tehostavan sovelluskehityksen elinkaarta ja olevan erityisen hyödyllinen tiimeille, jotka pyrkivät nopeuttamaan DevOps-käytäntöjään. <a href=\"https://devblogs.microsoft.com/foundry/microsoft-foundry-azure-developer-cli-ga/\">Lue alkuperäinen →</a></p>\n<h3>What’s new in Microsoft Foundry | October 2026</h3>\n<p>Lokakuussa 2026 Microsoft Foundry esitteli useita uusia ominaisuuksia, jotka tukevat tekoälyagenttien kehittämistä ja keskitettyjen päätöksentekomallien käyttöönottoa. Mukana on parannuksia Foundry Agent Serviceen sekä selaimen automaatiotyökaluihin. Lisäksi päivitykset tuovat parannettua tukea mallien integrointiin erilaisissa kehitysympäristöissä, mikä lupaa sujuvampia agentti- ja automaatioratkaisuja. Uudet agenttimoottorit ja SDK-parannukset auttavat kehittäjiä luomaan tehokkaampia palveluita. <a href=\"https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-october-2026/\">Lue alkuperäinen →</a></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Foundry Local tuo agentipohjaisen koodauksen kehittäjän laitteistolle, helpottaen paikallista kehitystä ja testausta. <a href=\"https://devblogs.microsoft.com/foundry/foundry-local-agentic-coding-qwen3-8-27b/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2716,
+  "output_tokens": 539,
+  "sources": [
+    {
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Microsoft Foundry extension for Azure Developer CLI is generally available",
+      "url": "https://devblogs.microsoft.com/foundry/microsoft-foundry-azure-developer-cli-ga/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "Bring Agentic Coding On-Device with Foundry Local",
+      "url": "https://devblogs.microsoft.com/foundry/foundry-local-agentic-coding-qwen3-8-27b/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+      "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "What’s new in Microsoft Foundry | October 2026",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-october-2026/",
+      "source_name": "Microsoft Foundry Blog"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Microsoft Foundry extension for Azure Developer CLI is generally available",
+      "source_name": "Microsoft Foundry Blog",
+      "source_url": "https://devblogs.microsoft.com/foundry/microsoft-foundry-azure-developer-cli-ga/",
+      "published_at": "2026-11-05T20:55:45+00:00",
+      "summary": "Set up, test, evaluate, and deploy hosted agents with the generally available Microsoft Foundry extension for Azure Developer CLI, keeping agent and deployment configuration alongside your code.\nThe post Microsoft Foundry extension for Azure Developer CLI is generally available appeared first on Mic",
+      "why_relevant": "Foundryn Azure Developer CLI -laajennuksen GA-julkaisu muuttaa suoraan sitä, miten voit rakentaa, testata ja deployata hosted-agentteja koodin ja infrakonfiguraation rinnalla, mikä on sinulle välitön työkalumuutos Azure-agenttiarkkitehtuureissa.",
+      "homepage_eligible": true,
+      "homepage_score": 92,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "microsoft-foundry-azure-dev-cli-extension-ga",
+      "category": "tärkea"
+    }
+  ]
+}

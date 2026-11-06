@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-06",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään esillä on vaikuttava Baffin Islandin kiertomatka yhdistellen hiihtoa, patikointia ja packraftingiä, sekä käytännön metsästysvälineisiin, kuten kiipeilytikkaille annettuihin turvallisuusmuistutuksiin liittyviä aiheita. Mukana on myös suosituksia hirvijahtiin sopivista patruunoista sekä jäniskevyiden kiikaritähtäinten arviointeja.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Caleb McDaniels ja Henry Penfold ovat saaneet päätökseen vaikuttavan retkensä Baffin Islandilla, joka yhdisti hiihtämistä, patikointia ja packrafingia. <a href=\"https://explorersweb.com/duo-completes-baffin-island-circuit-by-skiing-hiking-and-packrafting/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kolme parasta tapaa valmistaa peuran ulkofileetä, jotka nostavat riistan valmistuksen uudelle tasolle, ovat esillä Outdoor Life -lehdessä. <a href=\"https://www.outdoorlife.com/hunting/the-3-best-ways-to-cook-a-venison-backstrap/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life on testannut kuusi erilaista valkohäntäpeuran metsästykseen tarkoitettua patruunaa tarkkuuden, yhdenmukaisuuden ja kustannustehokkuuden mittaamiseksi. <a href=\"https://www.outdoorlife.com/guns/best-deer-hunting-ammo/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Vuoden 2026 parhaat rimfire-kiikaritähtäimet on testattu, ja mukana on sekä kevyitä pienriistaoptisia vaihtoehtoja että tarkkuusmalleja. <a href=\"https://www.outdoorlife.com/gear/best-rimfire-scopes-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Latitude Outdoors ja Hunt Arsenal ovat kehottaneet metsästäjiä lopettamaan osan varusteista käytön, koska joissakin kiipeilytikasmalleissa on havaittu askelmien liukumista ja kiinnitysnarujen kulumista. <a href=\"https://www.outdoorlife.com/hunting/climbing-stick-recall/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ennen GPS:n yleistymistä käytettyjä taitoja ja välineitä suunnistamiseen erämaassa esitellään perinteisen eräretkeilyn juttusarjassa. <a href=\"https://www.outdoorlife.com/survival/the-old-school-guide-to-not-getting-lost-in-the-woods/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 6,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1883,
+  "output_tokens": 565,
+  "sources": [
+    {
+      "title": "Duo Completes Baffin Island Circuit By Skiing, Hiking, and Packrafting",
+      "url": "https://explorersweb.com/duo-completes-baffin-island-circuit-by-skiing-hiking-and-packrafting/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Talviuinnin SM-kisojen ilmoittautuminen on nyt auki – viisi vinkkiä onnistuneeseen kisasuoritukseen",
+      "url": "https://www.suomenlatu.fi/talviuinnin-sm-kisojen-ilmoittautuminen-on-nyt-auki-viisi-vinkkia-onnistuneeseen-kisasuoritukseen/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Trevlig Svenska dagen från oss på Suomen Latu – En svenskspråkig diskussionsträff som är öppen för alla, ordnas i november",
+      "url": "https://www.suomenlatu.fi/trevlig-svenska-dagen-fran-oss-pa-suomen-latu-hyvaa-ruotsalaisuuden-paivaa-suomen-ladulta-en-svensksprakig-diskussionstraff-som-ar-oppen-for-alla-ordnas-i-november/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "The 3 Best Ways to Cook a Venison Backstrap",
+      "url": "https://www.outdoorlife.com/hunting/the-3-best-ways-to-cook-a-venison-backstrap/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "We Tested the Viral ‘Slither Rig’ So You Don’t Have To",
+      "url": "https://www.outdoorlife.com/gear/slither-rig/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Best Ammo for Deer Hunting, Tested for Accuracy",
+      "url": "https://www.outdoorlife.com/guns/best-deer-hunting-ammo/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 10 Best Rimfire Scopes of 2026: Budget to Precision Optics Tested",
+      "url": "https://www.outdoorlife.com/gear/best-rimfire-scopes-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Just as the Rut Kicks Off, 2 Popular Climbing Stick Companies Issued Recalls",
+      "url": "https://www.outdoorlife.com/hunting/climbing-stick-recall/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Hur kunde hundens bäste vän bli världens dyraste?",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/hur-kunde-hundens-baste-van-bli-varldens-dyraste/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "The Old-School Guide to Not Getting Lost in the Woods (Before We Had GPS)",
+      "url": "https://www.outdoorlife.com/survival/the-old-school-guide-to-not-getting-lost-in-the-woods/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Ehkä ongelma ei olekaan marraskuu – vaan meidän suhtautumisemme siihen",
+      "url": "https://www.suomenlatu.fi/ehka-ongelma-ei-olekaan-marraskuu-vaan-meidan-suhtautumisemme-siihen/",
+      "source_name": "Suomen Latu"
+    }
+  ],
+  "homepage_candidates": []
+}
