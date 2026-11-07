@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-07",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään esiteltiin useita mielenkiintoisia retkeily- ja metsästysuutisia. Merkittäviä aiheita ovat muun muassa julkisten metsästysmaiden käytölle omistautuneen metsästäjän saavutukset, jäävuoren liikkeet Eteläisellä valtamerellä, sekä innovatiivinen Baffin Islandin kiertomatka.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>(Tänään ei ole syväanalyysiä vaativia uutisia)</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Virginiaan julkiseen metsästysmaahan suuntautunut metsästäjä Nick Dean metsästi samaa hirvasta neljä vuotta. Hän kulki julkisilla mailla sijaitsevan vuoristoisen alueen halki, mikä teki metsästyksestä erityisen vaativaa. <a href=\"https://www.outdoorlife.com/hunting/this-public-land-virginia-hunter-massive-buck/\">Lue lisää →</a></p>\n</li>\n<li>\n<p>DNA-todisteet ja matkapuhelinvalokuvat auttoivat tuomitsemaan sarjapyytäjän Wyomingissa. Hän menetti kaksi ajoneuvoaan ja metsästysoikeutensa koko elämänsä ajaksi. <a href=\"https://www.outdoorlife.com/conservation/wyoming-serial-poacher-forfeits-vehicles/\">Lue lisää →</a></p>\n</li>\n<li>\n<p>Vuoden parhaat testatut kiikarit julkistettiin. Mukana oli metsästyskiikareita, LPVO-kiikareita, lämpökiikareita ja tarkkuuskiikareita. <a href=\"https://www.outdoorlife.com/gear/best-riflescopes-2026/\">Lue lisää →</a></p>\n</li>\n<li>\n<p>Yhdysvaltain kala- ja villieläinpalvelu esitteli suunnitelman kansallisten villieläinten suojelualueiden uudistamiseksi. Tarkoituksena on lisätä elinympäristötyötä ja metsästysoikeuksia, mikä on haaste rahoituksen ja työvoiman vähennyksistä johtuen. <a href=\"https://www.outdoorlife.com/conservation/national-wildlife-refuge-overhaul/\">Lue lisää →</a></p>\n</li>\n<li>\n<p>Jousimetsästäjä merkitsi valtavan 191-tuumaisen hirven, jolla oli silti samettia sarvissaan, vaikka sen olisi pitänyt jo karista pois kuukautta aiemmin. <a href=\"https://www.outdoorlife.com/hunting/bowhunter-tags-massive-191-inch-buck-thats-somehow-still-in-velvet/\">Lue lisää →</a></p>\n</li>\n<li>\n<p>Jättiläismäinen jäävuori A-81 on saavuttanut Etelä-Georgian vesialueet kolmen vuoden ajautumisen jälkeen Eteläisellä valtamerellä. Satelliittikuvat osoittavat sen liikkeiden merkittävän hidastumisen. <a href=\"https://polarjournal.net/giant-iceberg-a-81-reaches-south-georgia/\">Lue lisää →</a></p>\n</li>\n<li>\n<p>Caleb McDaniels ja Henry Penfold ovat onnistuneesti suorittaneet vaikuttavan Baffin Island -kierroksen, johon sisältyi hiihtoa, vaellusta ja packraft-melontaa. <a href=\"https://explorersweb.com/duo-completes-baffin-island-circuit-by-skiing-hiking-and-packrafting/\">Lue lisää →</a></p>\n</li>\n</ul>\n",
+  "item_count": 7,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2013,
+  "output_tokens": 752,
+  "sources": [
+    {
+      "title": "This Public-Land Virginia Hunter Chased the Same Massive Buck for 4 Years",
+      "url": "https://www.outdoorlife.com/hunting/this-public-land-virginia-hunter-massive-buck/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "DNA Evidence Helps Convict Serial Poacher, Who Forfeited 2 Vehicles and Hunting Privileges for Life",
+      "url": "https://www.outdoorlife.com/conservation/wyoming-serial-poacher-forfeits-vehicles/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 12 Best Riflescopes We Tested this Year: All Our Optics Test Winners",
+      "url": "https://www.outdoorlife.com/gear/best-riflescopes-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Gifts for Hunters: Get Them What They Actually Want",
+      "url": "https://www.outdoorlife.com/gear/best-gifts-for-hunters-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Feds Unveil Plan to Overhaul National Wildlife Refuges, Get More ‘Boots on the Ground’",
+      "url": "https://www.outdoorlife.com/conservation/national-wildlife-refuge-overhaul/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Here’s Why the Classic Buck Knife Is the Only Deer Gutting Blade I’ll Ever Need",
+      "url": "https://www.outdoorlife.com/gear/classic-buck-knife/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Bowhunter Tags Massive 191-Inch Buck That’s Somehow Still in Velvet",
+      "url": "https://www.outdoorlife.com/hunting/bowhunter-tags-massive-191-inch-buck-thats-somehow-still-in-velvet/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Giant iceberg A-81 reaches South Georgia",
+      "url": "https://polarjournal.net/giant-iceberg-a-81-reaches-south-georgia/",
+      "source_name": "Polar Journal"
+    },
+    {
+      "title": "Duo Completes Baffin Island Circuit By Skiing, Hiking, and Packrafting",
+      "url": "https://explorersweb.com/duo-completes-baffin-island-circuit-by-skiing-hiking-and-packrafting/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Talviuinnin SM-kisojen ilmoittautuminen on nyt auki – viisi vinkkiä onnistuneeseen kisasuoritukseen",
+      "url": "https://www.suomenlatu.fi/talviuinnin-sm-kisojen-ilmoittautuminen-on-nyt-auki-viisi-vinkkia-onnistuneeseen-kisasuoritukseen/",
+      "source_name": "Suomen Latu"
+    }
+  ],
+  "homepage_candidates": []
+}

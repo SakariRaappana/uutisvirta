@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-07",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään OCC julkaisi uuden valvontakehyksen pankkien &quot;superintelligence&quot;-tekoälyn käytölle. Tämä uusi lähestymistapa keskittyy riskienhallintaan luovassa ja agentti-tekoälyssä. Mitä tämä merkitsee finanssialalle ja pankkien valvonnalle, selviää tarkemmin alla.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>OCC julkaisee valvontakehyksen pankkien &quot;superintelligence&quot;-tekoälyn käytölle: Riskilähtöinen lähestymistapa luovaan ja agentti-tekoälyyn</h3>\n<p>Office of the Comptroller of the Currency (OCC) on julkaissut uuden valvontakehyksen, joka keskittyy pankkien &quot;superintelligence&quot;-tekoälyn käyttöön. Tämä kehys on suunniteltu riskilähtöisenä oppaana, erityisesti luovan ja agentti-tekoälyn hallintaan. Finanssilaitoksille tarjotaan ohjeistusta uusien teknologioiden vastuulliseen käyttöön ja hallintaan, mikä on avainasemassa näiden innovaatioiden käyttöönotossa.</p>\n<p>Uudessa kehyksessä korostetaan erityisesti riskien arviointia ja hallintaa, minkä on määrä auttaa pankkeja navigoimaan monimutkaisten AI-mallien eettisiä ja sääntelyyn liittyviä haasteita. Tämä voi olla merkittävä etu finanssilaitoksille, jotka alati tekevät uusia investointeja tekoälyyn. Kehyksen tarkoitus on myös auttaa instituutioita noudattamaan sääntelyvaatimuksia ja varmistamaan, että AI-järjestelmät toimivat eettisesti ja vastuullisesti.</p>\n<p>OCC pyrkii ennakoimaan mahdollisia riskejä ja varmistamaan, että tekoälyteknologioita hyödynnetään tavalla, joka ei uhkaa finanssialan sääntelyä tai taloudellista vakautta. Tämä valvontakehys saattaa merkitä laajempaa AI-sovellusten hyväksyntää ja standardointia koko alalla. <strong><a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPd0N1Vjk2b3dYaThlRkZ6V2JDcW1rUEplWDRwR3RzRkh0UHo0OU9PTkhlSHlieEhUY0RYUnRMTG5sTEhMd3diVi1HXzVoaUgxU3A4QTZCYVRFTllmOFQyWXJZN09BRnBfdmFUOXg3RXExbTgwZ3VXTDctMldOanJLYm9ELVZ1Qm5YX013WF9keW5OUWJzQl9md2Y0OGtlYlpwSTZGZFBuZVJEekFyY2k0d19WeHLSAboBQVVfeXFMTi1TSW5GVVBmQjM5VGZwNG9NTE9mUWp1S2VIWWVFcWRHUWFrZTVHWkdHQU5MSG9YZ21ibVZfRnlZTFlPejI0bmZtZ2U0RjZKMDJxX2dSYUFqellFTVdDVHl2NmVoaWl6Rm5mS3ZqaTFNUDVFVXhvNVpEczdVb29WZVJTeVZpX3JpMVBuWm9sYjUySWFULTdwTmd6UmxkaDg1S21jZkYyR3ltd3ZyQnQ0a1NEN2NnYlEydThn?oc=5\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<p>Tänään ei ole lyhyitä mainintoja.</p>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2673,
+  "output_tokens": 861,
+  "sources": [
+    {
+      "title": "OCC Issues Supervisory Framework for Banks’ Use of “Super Intelligence”: A Risk-Based Approach to Generative and Agentic AI - The National Law Review",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd0N1Vjk2b3dYaThlRkZ6V2JDcW1rUEplWDRwR3RzRkh0UHo0OU9PTkhlSHlieEhUY0RYUnRMTG5sTEhMd3diVi1HXzVoaUgxU3A4QTZCYVRFTllmOFQyWXJZN09BRnBfdmFUOXg3RXExbTgwZ3VXTDctMldOanJLYm9ELVZ1Qm5YX013WF9keW5OUWJzQl9md2Y0OGtlYlpwSTZGZFBuZVJEekFyY2k0d19WeHLSAboBQVVfeXFMTi1TSW5GVVBmQjM5VGZwNG9NTE9mUWp1S2VIWWVFcWRHUWFrZTVHWkdHQU5MSG9YZ21ibVZfRnlZTFlPejI0bmZtZ2U0RjZKMDJxX2dSYUFqellFTVdDVHl2NmVoaWl6Rm5mS3ZqaTFNUDVFVXhvNVpEczdVb29WZVJTeVZpX3JpMVBuWm9sYjUySWFULTdwTmd6UmxkaDg1S21jZkYyR3ltd3ZyQnQ0a1NEN2NnYlEydThn?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+      "url": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "OCC Issues Supervisory Framework for Banks’ Use of “Super Intelligence”: A Risk-Based Approach to Generative and Agentic AI - The National Law Review",
+      "source_name": "Google News: agentic AI",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd0N1Vjk2b3dYaThlRkZ6V2JDcW1rUEplWDRwR3RzRkh0UHo0OU9PTkhlSHlieEhUY0RYUnRMTG5sTEhMd3diVi1HXzVoaUgxU3A4QTZCYVRFTllmOFQyWXJZN09BRnBfdmFUOXg3RXExbTgwZ3VXTDctMldOanJLYm9ELVZ1Qm5YX013WF9keW5OUWJzQl9md2Y0OGtlYlpwSTZGZFBuZVJEekFyY2k0d19WeHLSAboBQVVfeXFMTi1TSW5GVVBmQjM5VGZwNG9NTE9mUWp1S2VIWWVFcWRHUWFrZTVHWkdHQU5MSG9YZ21ibVZfRnlZTFlPejI0bmZtZ2U0RjZKMDJxX2dSYUFqellFTVdDVHl2NmVoaWl6Rm5mS3ZqaTFNUDVFVXhvNVpEczdVb29WZVJTeVZpX3JpMVBuWm9sYjUySWFULTdwTmd6UmxkaDg1S21jZkYyR3ltd3ZyQnQ0a1NEN2NnYlEydThn?oc=5",
+      "published_at": "2026-11-06T21:21:54+00:00",
+      "summary": "OCC Issues Supervisory Framework for Banks’ Use of “Super Intelligence”: A Risk-Based Approach to Generative and Agentic AI&nbsp;&nbsp;The National Law Review",
+      "why_relevant": "OCC:n riskiperusteinen ohjeistus pankkien generatiivisen ja agenttisen AI:n käytöstä vaikuttaa suoraan finanssialan AI-governanceen ja siihen, millaisia kontrollitason vaatimuksia asiakkaillesi kannattaa rakentaa.",
+      "homepage_eligible": true,
+      "homepage_score": 88,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 4,
+      "novelty": 4,
+      "event_key": "occ-supervision-framework-generative-agentic-ai-banks",
+      "category": "tärkea"
+    }
+  ]
+}
