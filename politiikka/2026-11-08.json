@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-08",
+  "stream_slug": "politiikka",
+  "stream_name": "Politiikka",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Saksan armeija vahvistaa läsnäoloaan Liettuassa, kun taas keskustelu tekoälyn vaikutuksesta uutismediaan kiivastuu. Samalla Ranska kohtaa lakkojen jatkoa, ja Puolassa tapahtunut joukkoampuminen johtaa terroritutkintaan. Ukrainassa Venäjän hyökkäys voimistuu ja aiheuttaa loukkaantumisia.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Saksan armeijan läsnäolon vahvistaminen Liettuassa</h3>\n<p>Saksa on päättänyt lisätä sotilaallista läsnäoloaan Liettuassa osana pyrkimyksiä vahvistaa NATOn itärajan puolustusta. Uusi tukikohta Liettuassa on vastine Venäjän sotilaalliselle aggressiolle alueella. Saksan ja Liettuan välinen yhteistyö on kasvanut, ja Saksa on ollut erityisesti merkittävä tukija Baltian alueella turvallisuushaasteisiin vastaamisessa. Tämä toimenpide lisää painetta suhteille Venäjään ja vahvistaa samalla NATO-maiden keskinäisiä puolustusvelvoitteita. <strong><a href=\"https://www.politico.eu/podcast/berlin-playbook-podcast/security-sunday-die-neue-front-der-bundeswehr-in-litauen-mit-robertas-kaunas/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication\">Lue alkuperäinen →</a></strong></p>\n<h3>Tekoäly ja journalismi: Kuka omistaa uutiset?</h3>\n<p>Tekoälyteollisuuden ja uutismedian kesken on syntynyt kiistaa siitä, tulisiko tekoälyä kehittävien yritysten maksaa käyttämästään journalistisesta sisällöstä. Erityisesti tekoälyn oppimateriaalina käytettävän uutisoinnin oikeudenmukainen korvaus on noussut keskusteluun. Journalistiset sisällöt ovat merkittävä osa tekoälyn tuottamien vastausten pohjaa, mutta tällä hetkellä media ei saa tästä riittävää kompensaatiota. Tämä tilanne herättää kysymyksiä median kestävyydestä ja oikeudenmukaisesta liiketoimintamallista tekoälyn aikana. <strong><a href=\"https://www.dw.com/en/journalism-and-ai-who-owns-the-news/a-79884854?maca=en-rss-en-all-1573-rdf\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Ranskan ammattiliitot päättivät jatkaa painostusta hallitusta vastaan uuden lakkoaallon merkeissä. <a href=\"https://www.rfi.fr/en/france/20261108-unions-vow-to-keep-pressure-on-french-government-after-fourth-wave-of-protests\">Lue lisää</a></li>\n<li>Holokaustimuistaminen kokee paineita, kun uudet sukupolvet kyseenalaistavat sen merkityksen. <a href=\"https://www.dw.com/en/never-again-holocaust-remembrance-under-pressure/a-79840894?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></li>\n<li>Puola aloittaa kaksipäiväiset suruajat Krakovan ammuskelun jälkeen, jonka seurauksena avattiin terroritutkinta. <a href=\"https://www.dw.com/en/poland-begins-two-days-of-mourning-over-krakow-shooting/a-79889400?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></li>\n<li>Ruotsissa 19-vuotias mies sai syytteen koulun suunnitellusta terrori-iskusta Islamilaisen valtion nimissä. <a href=\"https://www.thelocal.se/20261108/sweden-charges-man-with-planning-is-terror-attack-on-school\">Lue lisää</a></li>\n<li>Armenian valikoiva syytteiden nostaminen voi uhata EU-suhteita, vaikka Bryssel onkin ollut varovainen kritiikissään. <a href=\"https://www.dw.com/en/armenia-s-selective-prosecution-a-threat-to-eu-relations/a-79878159?maca=en-rss-en-all-1573-rdf\">Lue lisää</a></li>\n<li>Nigeria suunnittelee osavaltiotason poliisivoimien perustamista, mikä herättää toiveita mutta myös huolen vallan väärinkäytöstä. <a href=\"https://www.rfi.fr/en/africa/20261107-nigeria-plan-for-state-police-raises-hopes-for-security-and-fears-of-abuse\">Lue lisää</a></li>\n<li>Venäjän massiivinen isku Kiovaan sattuu juuri ennen Ukrainan, Venäjän ja Yhdysvaltojen neuvotteluita. <a href=\"https://www.france24.com/en/video/20261107-russia-launches-massive-strike-on-kyiv-1\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 11,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 3824,
+  "output_tokens": 1049,
+  "sources": [
+    {
+      "title": "Love story: literary speed dating in an age of declining readership",
+      "url": "https://www.rfi.fr/en/culture/20261108-love-story-literary-speed-dating-in-an-age-of-declining-readership",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "Unions vow to keep pressure on French government after fourth wave of protests",
+      "url": "https://www.rfi.fr/en/france/20261108-unions-vow-to-keep-pressure-on-french-government-after-fourth-wave-of-protests",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "'Never Again!': Holocaust remembrance under pressure",
+      "url": "https://www.dw.com/en/never-again-holocaust-remembrance-under-pressure/a-79840894?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Poland begins two days of mourning over Krakow shooting",
+      "url": "https://www.dw.com/en/poland-begins-two-days-of-mourning-over-krakow-shooting/a-79889400?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Security Sunday: Die neue Front der Bundeswehr in Litauen – mit Robertas Kaunas",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-sunday-die-neue-front-der-bundeswehr-in-litauen-mit-robertas-kaunas/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source_name": "Politico Europe"
+    },
+    {
+      "title": "Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei",
+      "url": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Poland launches terrorism probe into mass shooting in Krakow",
+      "url": "https://www.france24.com/en/europe/20261108-poland-launches-terrorism-probe-into-krakow-mass-shooting",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Sweden charges man with planning IS terror attack on school",
+      "url": "https://www.thelocal.se/20261108/sweden-charges-man-with-planning-is-terror-attack-on-school",
+      "source_name": "The Local Sweden"
+    },
+    {
+      "title": "Southern African farmers prepare for powerful El Nino with agroecology",
+      "url": "https://www.rfi.fr/en/africa/20261108-southern-african-farmers-prepare-their-fields-for-a-powerful-el-nino",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "India: Delhi chokes on most polluted Diwali eve in 10 years",
+      "url": "https://www.dw.com/en/india-delhi-chokes-on-most-polluted-diwali-eve-in-10-years/live-79883248?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Banana producers in Latin America want better pay to cope with effects of climate crisis",
+      "url": "https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "As COP31 Antalya kicks off, can world move beyond big promises?",
+      "url": "https://www.dw.com/en/as-cop31-antalya-kicks-off-can-world-move-beyond-big-promises/a-79661366?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Uyghurs facing deportation by Thailand say they will be ‘like slaves’ in China",
+      "url": "https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "NZ election 2026: New Zealand faces weeks of uncertainty with results ‘too close to call’",
+      "url": "https://www.theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Gunman kills six in Krakow, three more bodies found at his house",
+      "url": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Poland: Gunman kills 6 in Krakow main square, police say",
+      "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square-police-say/a-79886489?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Ebola: Why is there still no vaccine?",
+      "url": "https://www.dw.com/en/ebola-why-is-there-still-no-vaccine/a-79888134?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Israeli president tasks Gadi Eisenkot with forming government",
+      "url": "https://www.dw.com/en/israeli-president-tasks-gadi-eisenkot-with-forming-government/a-79888288?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Trump offers White House press secretary role to Dana White",
+      "url": "https://www.dw.com/en/trump-offers-white-house-press-secretary-role-to-dana-white/a-79888119?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Armenia's selective prosecution: A threat to EU relations?",
+      "url": "https://www.dw.com/en/armenia-s-selective-prosecution-a-threat-to-eu-relations/a-79878159?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "South Africa's ANC facing worst-ever performance in local elections",
+      "url": "https://www.dw.com/en/south-africa-s-anc-facing-worst-ever-performance-in-local-elections/a-79887482?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Mbappé returns to France duty as Zidane drafts Pagis into Nations League squad",
+      "url": "https://www.rfi.fr/en/sports/20261107-mbapp%C3%A9-returns-to-france-duty-as-zidane-drafts-pagis-into-nations-league-squad",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "More than 40,000 gather as Pope Leo XIV celebrates Mass in Uruguay",
+      "url": "https://www.dw.com/en/more-than-40-000-gather-as-pope-leo-xiv-celebrates-mass-in-uruguay/a-79886543?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Gunman who killed at least six in Krakow ‘fascinated’ by far-right ideologies, government says",
+      "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Journalism and AI: Who owns the news?",
+      "url": "https://www.dw.com/en/journalism-and-ai-who-owns-the-news/a-79884854?maca=en-rss-en-all-1573-rdf",
+      "source_name": "Deutsche Welle"
+    },
+    {
+      "title": "Nigeria's plan for state police raises hopes for security and fears of abuse",
+      "url": "https://www.rfi.fr/en/africa/20261107-nigeria-plan-for-state-police-raises-hopes-for-security-and-fears-of-abuse",
+      "source_name": "RFI English"
+    },
+    {
+      "title": "New Zealand election coalition talks will likely take weeks – as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/nov/07/nz-general-election-2026-live-updates-results-new-zealand-polls",
+      "source_name": "The Guardian — World"
+    },
+    {
+      "title": "Russia launches massive strike on Kyiv",
+      "url": "https://www.france24.com/en/video/20261107-russia-launches-massive-strike-on-kyiv-1",
+      "source_name": "France 24 — Europe"
+    },
+    {
+      "title": "Inside Sweden: After all that, a very nice Swedish Halloween",
+      "url": "https://www.thelocal.se/20261107/inside-sweden-after-all-that-a-very-nice-swedish-halloween",
+      "source_name": "The Local Sweden"
+    },
+    {
+      "title": "Poor facilities held back Senegal's medal-free Youth Olympics team, parents say",
+      "url": "https://www.rfi.fr/en/africa/20261107-poor-facilities-held-back-senegal-s-medal-free-youth-olympics-team-parents-say",
+      "source_name": "RFI English"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Security Sunday: Die neue Front der Bundeswehr in Litauen – mit Robertas Kaunas",
+      "source_name": "Politico Europe",
+      "source_url": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-sunday-die-neue-front-der-bundeswehr-in-litauen-mit-robertas-kaunas/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published_at": "2026-11-08T09:30:58+00:00",
+      "summary": "Eingeklemmt zwischen Kaliningrad und Belarus liegt die verwundbarste Stelle der NATO. Genau hier entsteht mit der Panzerbrigade 45 das wohl wichtigste Projekt der deutschen Zeitenwende. Bis 2027 sollen fast 5.000 deutsche Soldaten dauerhaft in Litauen stationiert werden. Doch die Bedrohung durch Rus",
+      "why_relevant": "Saksan panssariprikaatin rakentaminen Liettuaan on konkreettinen muutos Euroopan turvallisuusarkkitehtuurissa ja kertoo, miten Nato:n itäinen pelote vahvistuu käytännössä.",
+      "homepage_eligible": true,
+      "homepage_score": 84,
+      "keep_days": 5,
+      "personal_relevance": 4,
+      "strategic_importance": 5,
+      "actionability": 4,
+      "novelty": 4,
+      "event_key": "bundeswehr-brigade-lithuania",
+      "category": "tärkea"
+    }
+  ]
+}

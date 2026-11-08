@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-08",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa käsiteltiin metsästystarinoita ja -vinkkejä: eräs metsästäjä kohtasi odottamattomia haasteita metsästäessään suurta villisikaa, vinkkejä riistakameroiden vikojen välttämiseksi ja asiantuntijoiden neuvoja, miksi naarashirven kaataminen kiima-aikana voi olla hyödyllistä.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Eräs metsästäjä koki ylimääräisiä jännityksen hetkiä yrittäessään kaataa isoa mustaa villisikaa, joka karkotti muutamat sikaemot aidan läpi. <a href=\"https://www.outdoorlife.com/hunting/hunting-the-old-ripper-was-almost-more-adventure-than-i-bargained-for/\">Lue lisää →</a></p>\n</li>\n<li>\n<p>Riistakameroilla on taipumus kohdata vikoja maastossa. Artikkelissa kerrotaan, kuinka välttää tavallisimmat ongelmat näiden kameroiden käytössä. <a href=\"https://www.outdoorlife.com/hunting/this-is-why-your-trail-cameras-arent-working-properly/\">Lue lisää →</a></p>\n</li>\n<li>\n<p>Asiantuntijat suosittelevat, ettei naarashirven kaatamista kiima-aikana tarvitse pelätä. Tämä voi houkutella uroshirviä ja edistää riistanhoidon tavoitteita. <a href=\"https://www.outdoorlife.com/hunting/heres-why-you-shouldnt-be-afraid-to-harvest-does-during-the-rut/\">Lue lisää →</a></p>\n</li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1643,
+  "output_tokens": 356,
+  "sources": [
+    {
+      "title": "Hunting the ‘Old Ripper’ Was Almost More Adventure Than I Bargained For",
+      "url": "https://www.outdoorlife.com/hunting/hunting-the-old-ripper-was-almost-more-adventure-than-i-bargained-for/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "This Is Why Your Trail Cameras Aren’t Working Properly",
+      "url": "https://www.outdoorlife.com/hunting/this-is-why-your-trail-cameras-arent-working-properly/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Here’s Why You Shouldn’t Be Afraid to Harvest Does During the Rut",
+      "url": "https://www.outdoorlife.com/hunting/heres-why-you-shouldnt-be-afraid-to-harvest-does-during-the-rut/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Weekend Warm-Up: Assynt",
+      "url": "https://explorersweb.com/weekend-warm-up-assynt/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}
