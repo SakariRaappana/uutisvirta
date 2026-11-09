@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-09",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään tarkastelussa ovat muun muassa 22 Creedmoor -patruunan tehokkuus peurametsästyksessä, tulevan Etelämantereen retkikauden suunnitelmat ja uusi kenkäarvostelu Sitka Geariltä. Lisäksi uutisista löytyy tietoa venäläisen tutkimusaluksen tilanteesta Barentsburgissa ja uusimmista tutkimustuloksista koskien Etelämantereen kaloja.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>‘Not Your Daddy’s 22.’ Tämä on paras 22 Creedmoor -patruuna peurametsästykseen</strong><br />\n22 Creedmoor on osoittautunut erittäin tehokkaaksi peurapatruunaksi, mutta ammusten valinnassa kannattaa olla harkitsevainen. <a href=\"https://www.outdoorlife.com/guns/best-22-creedmoor-deer-ammo/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Etelämanner 2026–2027: Retkikuntien yhteenveto</strong><br />\nEtelämantereen kausi alkaa myöhemmin tässä kuussa, ja esittelyssä ovat eri retkikunnat, jotka aikovat kokeilla lukuisia reittejä tänä vuonna mantereella. <a href=\"https://explorersweb.com/antarctica-2026-2027-expedition-roundup/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Professor Molchanov pysyy Barentsburgissa, kun Moskova uusii protestinsa</strong></p>\n</li>\n</ul>\n<ol start=\"3\">\n<li>marraskuuta Venäjän ulkoministeriö kutsui Norjan Moskova-lähetystön edustajan keskustelemaan Professor Molchanovin pidätyksestä. <a href=\"https://polarjournal.net/professor-molchanov-remains-in-barentsburg-as-moscow-renews-protest/\">Lue lisää</a></li>\n</ol>\n<ul>\n<li>\n<p><strong>Sitka Gear Ascent Trail -kengät: arvostelu</strong><br />\nSitka Gearin uuden kenkämalliston Ascent-malli pääsi käyttötestiin. Kenkiä kokeiltiin erityisesti polkuolosuhteissa. <a href=\"https://www.rokslide.com/sitka-gear-ascent-trail-shoes-review/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Etelämantereen kalat paljastavat selviytymisen salaisuutensa</strong><br />\nTutkijat ovat ensi kertaa onnistuneet tarkastelemaan elävien Etelämantereen kalojen soluja korkealla resoluutioilla lähes jäätymisasteen lämpötiloissa. <a href=\"https://polarjournal.net/antarctic-fish-reveal-their-secret-to-survival/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1767,
+  "output_tokens": 560,
+  "sources": [
+    {
+      "title": "‘Not Your Daddy’s 22.’ This Is The Best 22 Creedmoor Ammo for Deer Hunting",
+      "url": "https://www.outdoorlife.com/guns/best-22-creedmoor-deer-ammo/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Antarctica 2026-2027: Expedition Roundup",
+      "url": "https://explorersweb.com/antarctica-2026-2027-expedition-roundup/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Professor Molchanov remains in Barentsburg as Moscow renews protest",
+      "url": "https://polarjournal.net/professor-molchanov-remains-in-barentsburg-as-moscow-renews-protest/",
+      "source_name": "Polar Journal"
+    },
+    {
+      "title": "Sitka Gear Ascent Trail Shoes Review",
+      "url": "https://www.rokslide.com/sitka-gear-ascent-trail-shoes-review/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Hunters Can’t Really Improve Wild Whitetail Genetics. Here’s Why",
+      "url": "https://www.outdoorlife.com/hunting/wild-whitetail-genetics-hunting/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Are Tree Saddles Really Better Than Treestands for Hunting Whitetails?",
+      "url": "https://www.outdoorlife.com/gear/tree-saddles-vs-tree-stands/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Adventure Links of the Week",
+      "url": "https://explorersweb.com/adventure-links-of-the-week-169/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "This South Dakota Hunter Borrowed a Bow and Tagged a 197-Class Deer — His First Archery Buck",
+      "url": "https://www.outdoorlife.com/hunting/south-dakota-hunter-borrows-bow-tags-nontypical-buck/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Antarctic fish reveal their secret to survival",
+      "url": "https://polarjournal.net/antarctic-fish-reveal-their-secret-to-survival/",
+      "source_name": "Polar Journal"
+    }
+  ],
+  "homepage_candidates": []
+}

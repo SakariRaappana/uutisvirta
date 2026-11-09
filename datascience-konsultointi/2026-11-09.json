@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-09",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään päähuomio on tekoälyn roolissa erikoiskemikaaliteollisuudessa, missä yritykset pyrkivät yhdistämään uusia teknologioita luotettavaan dataan ja tieteelliseen asiantuntemukseen innovoinnin edistämiseksi.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p><em>Ei tärkeimpiä uutisia tänään.</em></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Yritykset etsivät tapoja nopeuttaa innovointia tekoälyn, pilvilaskennan ja edistyneen mallinnuksen avulla erikoiskemikaaliteollisuudessa. Suurin haaste on liittää nämä uudet teknologiat luotettavaan dataan ja tieteelliseen asiantuntemukseen. <a href=\"https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1025,
+  "output_tokens": 206,
+  "sources": [
+    {
+      "title": "The Download: empty AI climate claims, and an Nvidia investigation",
+      "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Innovating with AI in the special chemicals industry",
+      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The climate case for AI has not been made",
+      "url": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
