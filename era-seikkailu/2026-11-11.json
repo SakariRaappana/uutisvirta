@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-11",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa kerrotaan, että Alaskan Dalton Highway -alueella jousimetsästys on haastavaa, Federalin uusi 6.5 Creedmoor -ammus aiheuttaa jakautumisen asealalla, ja Inuvikissa Pohjois-Kanadassa on tapettu joukoittain karhuja niiden ruokatottumusten vuoksi.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Dalton Highwayn alue Alaskassa tarjoaa jousimetsästykseen suunnatun ympäristön, mutta metsästäjät kohtaavat siellä silti suuria haasteita. <a href=\"https://www.outdoorlife.com/hunting/bowhunting-dalton-highway-caribou/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Federalin uudet 6.5 Creedmoor Plus Peak -korkeapainepatruunat jakavat asealan mielipiteitä. Vaikka jotkut aseyhtiöt ovat ottaneet ne innolla vastaan, toiset ovat varovaisia niiden käytöstä nykyisissä kivääreissä. <a href=\"https://www.outdoorlife.com/guns/high-pressure-ammo-controversy/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Inuvikissa Pohjois-Kanadassa on jouduttu tappamaan kymmeniä grizzly-karhuja, jotka olivat tottuneet syömään kaupungin kaatopaikalla. Uuden sähköaidan rakentaminen esti karhuja pääsemästä ruokalähteelleen, mihin ne eivät pystyneet sopeutumaan. <a href=\"https://explorersweb.com/arctic-town-kills-dozens-of-grizzlies-feeding-on-dump/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 3,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1628,
+  "output_tokens": 367,
+  "sources": [
+    {
+      "title": "Leonard Clark: Explorer, Spy, Liar",
+      "url": "https://explorersweb.com/leonard-clark-explorer-spy-fabulist/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "‘The Safety Was On!’ I Nearly Missed My Chance at a Big Adirondack Buck",
+      "url": "https://www.outdoorlife.com/hunting/the-safety-was-on-i-nearly-missed-my-chance-at-a-big-adirondack-buck/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How emperor penguins master their extreme dives",
+      "url": "https://polarjournal.net/how-emperor-penguins-master-their-extreme-dives/",
+      "source_name": "Polar Journal"
+    },
+    {
+      "title": "How to Use a Stalker Decoy for Taking Bucks at Close Range",
+      "url": "https://www.outdoorlife.com/hunting/decoying-whitetail-deer-tactics/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "A Bowhunt for Caribou Along Alaska’s Famed Haul Road Is Even Tougher Than It Sounds",
+      "url": "https://www.outdoorlife.com/hunting/bowhunting-dalton-highway-caribou/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Gun Industry Is Divided Over Federal’s New High-Pressure 6.5 Creedmoor Ammo. Here’s Why",
+      "url": "https://www.outdoorlife.com/guns/high-pressure-ammo-controversy/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Arctic Town Kills Dozens of Grizzlies Feeding on Dump",
+      "url": "https://explorersweb.com/arctic-town-kills-dozens-of-grizzlies-feeding-on-dump/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "‘8 Different Hunters Had Been After It.’ Giant Nontypical Buck Taken in Indiana",
+      "url": "https://www.outdoorlife.com/hunting/8-different-hunters-had-been-after-it-giant-nontypical-buck-taken-in-indiana/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Suomen Latu ja Tanhuvaara aloittavat yhteistyön luontoliikunnan edistämiseksi",
+      "url": "https://www.suomenlatu.fi/suomen-latu-ja-tanhuvaara-aloittavat-yhteistyon-luontoliikunnan-edistamiseksi/",
+      "source_name": "Suomen Latu"
+    }
+  ],
+  "homepage_candidates": []
+}

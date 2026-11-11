@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-11",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään finanssialan uutisissa keskittyy Euroopan unionin AI-sääntelyn edistymiseen ja datakeskusten energiankulutukseen liittyvät haasteet ovat nousseet esille erään teknologia-alan johtajan taholta.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Nancy Pelosin seuraaja on valmis sääntelemään tekoälyä, ja datakeskukset kohtaavat ongelmia energiansaannissa. Nämä aiheet nousivat esille MIT Technology Review'n The Download -uutiskirjeessä. <a href=\"https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1044,
+  "output_tokens": 174,
+  "sources": [
+    {
+      "title": "AMD VP and chief Zen architect rebuke claims that Nvidia and Arm made CPUs for agentic AI — ‘We didn’t magically know four years ago that agentic was going to be a thing’ - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNMG9SYmFOcU9NUldMbS1YTEkzc3JBdzllalkyZ0VaTGpma2ZSNEo4bGVaaUk3cHlZYVE1WTdvUF9BWFZybVVBM3JVa24xbVY4QmhyUHNJX29vRDVFdGViVlV0Q3NDbm5udkM3Q2p6MUVFb214cGZQU25VVzhCT0hjRXgtd1k1UGtYNkd4UmRKalBSXy1Vbzh2MVFIVlo0dWNOYVd3RWVhYTd4MTQ5QWlCVWJOMDVqTURGcUxMbTl2ajJjUDlWNDlZVkNRVUF0WkQ5dkx3ZFlVMDhRZGhoUmI5WkZOY0F3cWMtUHJYQU9fMmxpdXEzTFRFSzBrMlNBbVlOekl0RU5GZFVxXzRlaVJRank5dFNidHp3ajlBZk1STHEyWEhGaURyMmVaTHdmQlptTFJ5alJRbUM?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "The Download: Pelosi’s successor targets AI and data centers face power woes",
+      "url": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Evolving metal extraction processes",
+      "url": "https://www.technologyreview.com/2026/11/10/1147726/evolving-metal-extraction-processes/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
