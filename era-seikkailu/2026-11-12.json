@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-12",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa käsiteltiin koirien käyttöä metsästyksessä Ruotsissa, vaikeuksia vuorikiipeilyssä Karakoramissa, hirvijahtia Alaskassa sekä nuorten osallistumista Suomen Ladun strategian kehittämiseen.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>Så jagar du in stöthunden</strong><br />\nSvenska Kennelklubben järjestää ensimmäistä kertaa virallisen testin stöhundille, ja kaikki koiratyypit ovat tervetulleita osallistumaan. Tämä tuo stöhundit esiin metsästyskoirina. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/sa-jagar-du-in-stothunden/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>The Dane Steadman Interview: Hard Going and High Stakes in the Karakoram</strong><br />\nYhdysvaltalainen kiipeilijä Dane Steadman kertoo haastattelussa Karakoram-vuoriston haasteista. Hän ja hänen kumppaninsa saavuttivat Piolet d'Or -palkinnon vuonna 2024 Yashkuk Sariin noususta, mutta Sosbum Brakk osoittautui paljon vaikeammaksi. <a href=\"https://explorersweb.com/dane-steadman-interview-sosbum-brakk-karakoram/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>We Decoyed Big Bull Moose in the Alaska High Country</strong><br />\nKaksi metsästäjää kohtasi hirviä, karhuja ja vaativat sääolosuhteet 12 päivän omatoimisella metsästysmatkalla Alaskassa. He käyttivät houkuttimia suurten hirvien saamiseksi. <a href=\"https://www.outdoorlife.com/hunting/alaska-moose-hunt-decoys/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Nuoret ottivat kantaa Suomen Ladun strategiauudistuksen ensimmäiseen luonnokseen</strong><br />\nSuomen Latu keräsi nuorten mielipiteitä strategiansa uudistuksen ensimmäiseen luonnokseen tämän viikon palaverissa. Kokoukseen osallistuivat nuorisopaneelin kuusi jäsentä ja Suomen Ladun toimintajohtaja. <a href=\"https://www.suomenlatu.fi/nuoret-ottivat-kantaa-suomen-ladun-strategiauudistuksen-ensimmaiseen-luonnokseen-tavoite-kehittaa-toimintaa-nuorille-ja-nuorille-aikuisille/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1785,
+  "output_tokens": 541,
+  "sources": [
+    {
+      "title": "Natural Wonders: Crowley Lake Columns",
+      "url": "https://explorersweb.com/natural-wonders-crowley-lake-columns/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Så jagar du in stöthunden",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/sa-jagar-du-in-stothunden/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Two Hikers Were Killed by a Sow Grizzly With Cubs In ‘Very Rare’ Predatory Attack",
+      "url": "https://www.outdoorlife.com/survival/grizzly-predatory-attack-bc/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "‘Pillaging Our Public Lands for AI Data Centers.’ Interior Lays Out New Plan to Sell Public Lands, Shrink Federal Workforce, and Ramp Up Development",
+      "url": "https://www.outdoorlife.com/conservation/interior-strategic-plan-public-land-sales/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How Two WWII Fighter Pilots Hacked Through the New Guinea Jungle for the Best Duck Hunt of Their Lives",
+      "url": "https://www.outdoorlife.com/hunting/wwii-veterans-duck-hunt-new-guinea/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Dane Steadman Interview: Hard Going and High Stakes in the Karakoram",
+      "url": "https://explorersweb.com/dane-steadman-interview-sosbum-brakk-karakoram/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "We Decoyed Big Bull Moose in the Alaska High Country",
+      "url": "https://www.outdoorlife.com/hunting/alaska-moose-hunt-decoys/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Nuoret ottivat kantaa Suomen Ladun strategiauudistuksen ensimmäiseen luonnokseen – tavoite kehittää toimintaa nuorille ja nuorille aikuisille",
+      "url": "https://www.suomenlatu.fi/nuoret-ottivat-kantaa-suomen-ladun-strategiauudistuksen-ensimmaiseen-luonnokseen-tavoite-kehittaa-toimintaa-nuorille-ja-nuorille-aikuisille/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Leonard Clark: Explorer, Spy, Liar",
+      "url": "https://explorersweb.com/leonard-clark-explorer-spy-fabulist/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}

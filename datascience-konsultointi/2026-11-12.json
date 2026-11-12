@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-12",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Azure Content Understanding julkisti tukensa uusille GPT-5.6, GPT-6, ja GPT-6.1 malleille, mikä lisää valinnanvaraa erilaisille työkuormille. Lisäksi Supermicro aloitti kuudennen sukupolven AMD EPYC™ 9006 -prosessorilla varustettujen seuraavan sukupolven palvelimien toimitukset.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Azure Content Understanding tukee nyt GPT-5.6, GPT-6, ja GPT-6.1 malliperheitä, mikä tarjoaa enemmän valinnanvaraa dokumentti-, teksti-, puhe- ja videotöihin. <a href=\"https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Supermicro toimittaa seuraavan sukupolven palvelimia, jotka on varustettu kuudennen sukupolven AMD EPYC™ 9006 -sarjan prosessoreilla pilvi-, HPC- ja tekoälyagenttisovelluksiin. <a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNSWk3WHZxVVpoUFYycExNd3JhdmtwbXZzTnhYbWV6YjZ2dlVVV0VIZS1NUlYxWGRuaVlKNU5pSnc3SUtEcmY2WERndnB5cG1mYzBJOExqYU9zdXRyX0Utd2t0RE5qSjc5UGp1UDJRSHU0eVctTk1nMXNhNG1lUmZqSlA3MGRkNGVQeERUMFltVmFqZ2NFbXl5Nk1YM21FcGoySzhua1RR?oc=5\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1336,
+  "output_tokens": 439,
+  "sources": [
+    {
+      "title": "The Download: COP31’s climate challenge and the quest for immortality",
+      "url": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Content Understanding adds GPT-5.6, GPT-6, and GPT-6.1: Choose the right model for your workload",
+      "url": "https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/",
+      "source_name": "Microsoft Foundry Blog"
+    },
+    {
+      "title": "What to know about this year’s UN climate talks",
+      "url": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Supermicro Now Shipping Next-Generation Servers Powered by 6th Gen AMD EPYC™ 9006 Series CPUs for Cloud, HPC, and Agentic AI Workloads - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSWk3WHZxVVpoUFYycExNd3JhdmtwbXZzTnhYbWV6YjZ2dlVVV0VIZS1NUlYxWGRuaVlKNU5pSnc3SUtEcmY2WERndnB5cG1mYzBJOExqYU9zdXRyX0Utd2t0RE5qSjc5UGp1UDJRSHU0eVctTk1nMXNhNG1lUmZqSlA3MGRkNGVQeERUMFltVmFqZ2NFbXl5Nk1YM21FcGoySzhua1RR?oc=5",
+      "source_name": "Google News: agentic AI"
+    },
+    {
+      "title": "The Download: preserving minds and weighing open AI risks",
+      "url": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}
