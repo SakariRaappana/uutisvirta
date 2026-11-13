@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-13",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Outdoor Life julkaisi kokoelman lyhyitä artikkeleita, jotka käsittelevät muun muassa muulipeuran metsästyksen viehätystä, vuoden 2026 parhaita keskihintaisia metsästyskiväärejä, Bass Pro Shopsin ennakkoalennusmyyntiä sekä erikoislaatuista metsästystilannetta Missourissa.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>Miksi muulipeura on Pohjois-Amerikan paras riistaeläin</strong><br />\nMuutama kausi muulipeuran metsästystä lännessä on muuntanut ainakin yhden suuren metsän valkohäntäpeurametsästäjän pysyväksi muulipeuramieheksi. <a href=\"https://www.outdoorlife.com/hunting/why-mule-deer-not-whitetails-are-north-americas-greatest-game-animal/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Vuoden 2026 parhaat keskihintaiset metsästyskiväärit</strong><br />\nTestasimme lukuisia 700–1 500 dollarin hintaisia kiväärejä ja kokosimme yhteen löytämämme parhaat mallit. <a href=\"https://www.outdoorlife.com/guns/best-mid-priced-rifles-of-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Bass Pro Shopsin Pre-Black Friday -alennusmyynti</strong><br />\nHanki merkittäviä säästöjä testaamastamme ja suosittelemastamme varustuksesta, kuten optiikoista, Garmin-kelloista ja metsästysvälineistä. <a href=\"https://www.outdoorlife.com/gear/bass-pro-pre-black-friday-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Jousimetsästäjä houkutteli jättipeuran 10 yardin päähän Missourissa</strong><br />\n“Osuin peuran täydelliseen kiima-aikaan, oikeaan aikaan ja paikkaan.” <a href=\"https://www.outdoorlife.com/hunting/missouri-bowhunter-rattles-in-giant-buck/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 4,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1740,
+  "output_tokens": 457,
+  "sources": [
+    {
+      "title": "Puikot heilumaan – neulo itsellesi Suomen Ladun omat villasukat",
+      "url": "https://www.suomenlatu.fi/puikot-heilumaan-neulo-itsellesi-suomen-ladun-omat-villasukat/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Why Mule Deer (Not Whitetails) Are North America’s Greatest Game Animal",
+      "url": "https://www.outdoorlife.com/hunting/why-mule-deer-not-whitetails-are-north-americas-greatest-game-animal/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 11 Best Mid-Priced Hunting Rifles of 2026",
+      "url": "https://www.outdoorlife.com/guns/best-mid-priced-rifles-of-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "No Cameras, No Bait. Old-School Tactics Pay Off for Ohio Bowhunter with 190-Class Buck",
+      "url": "https://www.outdoorlife.com/hunting/old-school-tactics-ohio-buck/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Bass Pro Shops Pre-Black Friday Sale: Optics, Garmin Watches, and Hunting Gear",
+      "url": "https://www.outdoorlife.com/gear/bass-pro-pre-black-friday-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Welcome to the Outdoor Life Shop: Your New Destination for the Best Hunting, Fishing, and Camping Gear",
+      "url": "https://www.outdoorlife.com/gear/outdoor-life-shop-launches/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "‘He Looked Like a Moose.’ Missouri Bowhunter Rattled This 221-Inch Buck in to 10 Yards",
+      "url": "https://www.outdoorlife.com/hunting/missouri-bowhunter-rattles-in-giant-buck/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "A Deer for My Dad: It Was the Biggest Buck of My Life — But Would It Mean Anything to My Fading Father?",
+      "url": "https://www.outdoorlife.com/hunting/deer-for-my-dad/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Natural Wonders: Crowley Lake Columns",
+      "url": "https://explorersweb.com/natural-wonders-crowley-lake-columns/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}
