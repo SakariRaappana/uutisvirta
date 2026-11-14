@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-14",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa käsitellään muun muassa hirvikoirien metsästysperinteitä etelässä, Sons of Liberty Gunworks Mk 1 -kiväärin kenttätestausta sekä valkohäntäpeurojen metsästäminen kiima-ajan jälkeen. Lisäksi JRF kommentoi Ruotsin hallituksen saamia ehdotuksia suojella koiria ja muita kotieläimiä petohyökkäyksiltä.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p><strong>Are Deer Dogs Really the Problem with Deer Hunting in the South?</strong><br />\nOutdoor Life osallistui Limestone Creekin hirvikoirametsästykseen tutustuakseen perinteeseen sekä siihen, miten tornimetsästäjät voivat mukautua tähän taktiikkaan. <a href=\"https://www.outdoorlife.com/hunting/are-deer-dogs-really-the-problem-with-deer-hunting-in-the-south/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Range Testing the Sons of Liberty Gunworks Mk 1: Here’s Why Tier-One SOCOM Operators Chose This Carbine</strong><br />\nOutdoor Life -lehden ampumatoimittaja testasi Sons of Liberty Gunworks Mk 1 -karbiinia, joka on tällä hetkellä markkinoiden kuumimpia AR-alustaisia aseita. <a href=\"https://www.outdoorlife.com/guns/range-testing-the-sons-of-liberty-gunworks-mk-1-heres-why-tier-one-socom-operators-chose-this-carbine/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>Why the Post-Rut Is Actually the Best Time to Hunt Whitetails</strong><br />\nOutdoor Life tarjoaa viisi vinkkiä täyttää kaatolupasi myöhäiskaudella, kun suurin osa metsästäjistä on jo poistunut metsistä. <a href=\"https://www.outdoorlife.com/hunting/why-the-post-rut-is-actually-the-best-time-to-hunt-whitetails/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>JRF välkomnar förenklingar i paragraf 28</strong><br />\nTällä viikolla Ruotsin hallitus vastaanotti valtion mietinnön muiden muassa koirien ja kotieläinten suojelusta petohyökkäyksiltä, ja JRF on tervehtinyt ehdotuksia ilolla. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/jrf-valkomnar-forenklingar-i-paragraf-28/\">Lue lisää</a></p>\n</li>\n<li>\n<p><strong>These 9 Gun Writers Pick Their Single Favorite Shotgun of All Time</strong><br />\nYhdeksän asetoimittajaa Outdoor Lifesta valitsi luotettavia katkeavia haulikoita ja tukevia pumppuja, joista osa on kohtuuhintaisia ja osa luksusta. <a href=\"https://www.outdoorlife.com/guns/these-9-gun-writers-pick-their-single-favorite-shotgun-of-all-time/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 5,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1866,
+  "output_tokens": 640,
+  "sources": [
+    {
+      "title": "Are Deer Dogs Really the Problem with Deer Hunting in the South?",
+      "url": "https://www.outdoorlife.com/hunting/are-deer-dogs-really-the-problem-with-deer-hunting-in-the-south/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Range Testing the Sons of Liberty Gunworks Mk 1: Here’s Why Tier-One SOCOM Operators Chose This Carbine",
+      "url": "https://www.outdoorlife.com/guns/range-testing-the-sons-of-liberty-gunworks-mk-1-heres-why-tier-one-socom-operators-chose-this-carbine/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Why the Post-Rut Is Actually the Best Time to Hunt Whitetails",
+      "url": "https://www.outdoorlife.com/hunting/why-the-post-rut-is-actually-the-best-time-to-hunt-whitetails/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Evolution Hill Country II Shotgun Case Review: The Perfect Case for a Diehard Bird Hunter",
+      "url": "https://www.outdoorlife.com/gear/evolution-hill-country-ii-shotgun-case-review-the-perfect-case-for-a-diehard-bird-hunter/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "This Is How the Boomer Generation Shaped Hunting Culture, For Better and Worse",
+      "url": "https://www.outdoorlife.com/hunting/how-boomer-generation-impacted-hunting-culture/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "JRF välkomnar förenklingar i paragraf 28",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/jrf-valkomnar-forenklingar-i-paragraf-28/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "The Best Gifts for Dads: A Stress-Free Shopping List for Outdoorsy Fathers",
+      "url": "https://www.outdoorlife.com/gear/best-gifts-for-dads-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "These 9 Gun Writers Pick Their Single Favorite Shotgun of All Time",
+      "url": "https://www.outdoorlife.com/guns/these-9-gun-writers-pick-their-single-favorite-shotgun-of-all-time/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Puikot heilumaan – neulo itsellesi Suomen Ladun omat villasukat",
+      "url": "https://www.suomenlatu.fi/puikot-heilumaan-neulo-itsellesi-suomen-ladun-omat-villasukat/",
+      "source_name": "Suomen Latu"
+    }
+  ],
+  "homepage_candidates": []
+}
