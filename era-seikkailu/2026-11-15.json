@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-15",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tämän päivän uutiset keskittyvät metsästämiseen liittyviin vinkkeihin ja varusteisiin, erityisesti haulikon käytön tekniikoihin sekä suurriistan metsästämiseen ilmakivääreillä. Nämä asiat voivat tarjota hyödyllisiä näkökulmia ja työkaluja kokeneille metsästäjille.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Eräperinteet kunniaan: Artikkelissa kerrotaan, miten voit osua jokaiseen lintuun haulikon kanssa käyttämällä vanhan ajan tekniikoita, kuten lyijyn säilyttäminen ja läpivienti. Näillä perinteisillä menetelmillä voit parantaa osumatarkkuuttasi merkittävästi. <a href=\"https://www.outdoorlife.com/hunting/how-to-shoot-a-shotgun-and-hit-every-bird/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ilmakiväärit ovat edelleen aliarvostettuja suurriistan metsästyksessä, mutta niissä on merkittäviä etuja. Kirjoittaja on metsästänyt menestyksekkäästi suurriistaa ilmakivääreillä vuosikymmenten ajan ja jakaa kokemuksiaan aseista, ammuksista ja paineastioista sekä eettisestä metsästämisestä niiden avulla. <a href=\"https://www.outdoorlife.com/guns/air-rifles-are-still-underrated-for-big-game-hunting-heres-why-they-shouldnt-be-overlooked/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1560,
+  "output_tokens": 337,
+  "sources": [
+    {
+      "title": "How to Shoot a Shotgun (and Hit Every Bird) Like Your Granddaddy Did",
+      "url": "https://www.outdoorlife.com/hunting/how-to-shoot-a-shotgun-and-hit-every-bird/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Air Rifles Are Still Underrated for Big Game Hunting. Here’s Why They Shouldn’t Be Overlooked",
+      "url": "https://www.outdoorlife.com/guns/air-rifles-are-still-underrated-for-big-game-hunting-heres-why-they-shouldnt-be-overlooked/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
