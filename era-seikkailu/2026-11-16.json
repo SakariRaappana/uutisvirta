@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-16",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisoitiin kahdesta eri aiheesta: ensinnäkin, Alankomaiden vargonsuojelujärjestön valitukset susien kaatoluvista on hylätty Ruotsissa. Toiseksi, Pennsylvaniasta kotoisin oleva metsästäjä odotti täydellistä hetkeä hirvenmetsästykseen, kunnes viimeinen karhu hyökkäsi.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Alankomaalainen susien suojeluun keskittynyt järjestö, Stichting Wolven Belangen, ei saa valittaa Ruotsissa myönnetyistä susien kaatoluvista vuodelle 2027. Luleån hallinto-oikeus katsoo, että järjestö ei täytä valitusoikeuden vaatimuksia. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/nederlandsk-vargorganisation-far-inte-overklaga-licensjakten/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Pennsylvanialainen metsästäjä, joka oli kieltäytynyt ampumasta 40 ruskeakarhua, koki jännittävän tilanteen, kun 41. karhu hyökkäsi hänen kimppuunsa tämän odottaessa täydellistä saalistusta. Tämä ainutlaatuinen kokemus korostaa metsästyksen odottamattomia vaaroja. <a href=\"https://www.outdoorlife.com/hunting/kodiak-bear-hunt/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 2,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1543,
+  "output_tokens": 340,
+  "sources": [
+    {
+      "title": "No-Oxygen Team Will Try Again on Everest",
+      "url": "https://explorersweb.com/no-oxygen-climbers-will-try-again-on-everest/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Nederländsk vargorganisation får inte överklaga licensjakten",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/nederlandsk-vargorganisation-far-inte-overklaga-licensjakten/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "A Desk Jockey Passed on 40 Brown Bears. The 41st Charged",
+      "url": "https://www.outdoorlife.com/hunting/kodiak-bear-hunt/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
