@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-17",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisoitiin EU:n lyijyhaulirajoituksen voimaantulosta, mikä vaikuttaa metsästyksen käytäntöihin Euroopassa, ja Alaskan suunnittelemasta kiellosta metsästykseen ja ansastukseen julkisilla mailla Ambler Roadin varrella. Lisäksi useita varuste- ja metsästystarjouksia on esillä Black Friday -aletapahtumassa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>EU:n lyijyhaulirajoitus voimaan – seitsemän vuoden siirtymäaika alkaa joulukuussa</h3>\n<p>EU:n viimeisin lyijyä koskeva ympäristösääntely tulee voimaan 7. joulukuuta 2026. Tämä päätös merkitsee lyijyhaulien käytön loppumista metsästyksessä siirtymäajan jälkeen, joka päättyy vuonna 2033. Tärkeää on huomata, että lyijyluoteihin ei kohdistu rajoituksia, ja lyijyhaulien käyttö ampumaurheilussa voi jatkua tiukoin edellytyksin. Tämä sääntely vaatii metsästäjiä sopeutumaan uusiin vaatimuksiin metsästyskäytännöissä. <strong><a href=\"https://metsastajaliitto.fi/uutiset/eun-lyijyhaulirajoitus-voimaan\">Lue alkuperäinen →</a></strong></p>\n<h3>Alaska Consider ‘Unprecedented’ Closure of Public Land to Hunting, Trapping Along Controversial Ambler Road</h3>\n<p>Alaska harkitsee julkisten maa-alueiden sulkemista metsästykseltä ja ansastukselta kiistanalaisen Ambler Roadin varrella. Ehdotettu sulkeminen on herättänyt voimakasta vastustusta sekä metsästäjien että kiertotalousaktivistien keskuudessa, ja sitä pidetään ainutlaatuisena ratkaisuna. Keskustelu jatkuu siitä, kuinka sulkeminen vaikuttaisi paikalliseen väestöön ja ekologiseen tasapainoon alueella. <strong><a href=\"https://www.outdoorlife.com/conservation/alaska-considers-hunting-closure-ambler-road/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Lancaster Archery Supply tarjoaa merkittäviä alennuksia Mathews-, Bowtech- ja Bear-jousista ennakko-Black Friday -alessa. <a href=\"https://www.outdoorlife.com/gear/pre-black-friday-deals-compound-bows/\">Lue lisää</a></li>\n<li>Bass Pro Shops järjestää Pre-Black Friday -myynnin, jossa on tarjolla merkittäviä säästöjä muun muassa varsijousista ja ankkureista. <a href=\"https://www.outdoorlife.com/gear/best-black-friday-deals-bass-pro/\">Lue lisää</a></li>\n<li>Korkea peuraeläinkanta, pitkät metsästyskaudet ja uudet teknologiat tekevät peuranmetsästyksestä helpompaa kuin koskaan aiemmin. <a href=\"https://www.outdoorlife.com/opinion/deer-hunting-has-never-been-easier/\">Lue lisää</a></li>\n<li>Jakt &amp; Jägaren kolumni muistelee tilanteita, joissa eläinlääkärit ovat osoittaneet ammattiylpeyttä ja antaumusta liiketoimintakieltojen ulkopuolella. <a href=\"https://www.jaktojagare.se/kategorier/opinion/kronika-nar-veterinaren-ar-veterinar-och-inte-del-av-en-koncern/\">Lue lisää</a></li>\n<li>Kolme venäläistä kiipeilijää aikoo yrittää uudelleen Mount Everestin huipulle ilman lisähappea, kun tuulet heikkenevät. <a href=\"https://explorersweb.com/no-oxygen-climbers-will-try-again-on-everest/\">Lue lisää</a></li>\n<li>Kun kylmyys koittaa, klassinen valkohäntäpeurametsästyksen viisaus tarjoaa edelleen tehokkaita menetelmiä. <a href=\"https://www.outdoorlife.com/hunting/old-school-whitetail-deer-hunting-in-the-cold/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 8,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 4416,
+  "output_tokens": 907,
+  "sources": [
+    {
+      "title": "Lessons I Learned from Deer Hunting with My Kids",
+      "url": "https://www.outdoorlife.com/hunting/lessons-i-learned-hunting-with-my-kids/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Arizona Hunting, Conservation & Bow Fishing with John Stallone",
+      "url": "https://www.rokslide.com/john-stallone-arizona-hunting-conservation-bow-fishing/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Ministeri Poutalalta kiitoksia liikunnallisen elämäntavan edistämisen kumppanuustyölle",
+      "url": "https://www.suomenlatu.fi/ministeri-poutalalta-kiitoksia-kumppanuustyolle/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "EU:n lyijyhaulirajoitus voimaan – seitsemän vuoden siirtymäaika alkaa joulukuussa",
+      "url": "https://metsastajaliitto.fi/uutiset/eun-lyijyhaulirajoitus-voimaan",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "The Incredible Hunt for the C.W. Shelton Buck, One of the Widest Bucks in the World",
+      "url": "https://www.outdoorlife.com/hunting/cw-shelton-buck-kentucky-giant/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Save Hundreds on Compound Bows with Lancaster Archery Supply’s Pre-Black Friday Deals",
+      "url": "https://www.outdoorlife.com/gear/pre-black-friday-deals-compound-bows/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Alaska Considers ‘Unprecedented’ Closure of Public Land to Hunting, Trapping Along Controversial Ambler Road",
+      "url": "https://www.outdoorlife.com/conservation/alaska-considers-hunting-closure-ambler-road/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "‘Full Panic Mode.’ Bowhunter Tags the 205-Inch Louisiana Buck His Family Followed for 3 Seasons",
+      "url": "https://www.outdoorlife.com/hunting/giant-louisiana-nontypical/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Bass Pro Shops Pre-Black Friday Sale: 25 of the Best Deals on Crossbows, Duck Decoys, and More",
+      "url": "https://www.outdoorlife.com/gear/best-black-friday-deals-bass-pro/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Deer Hunting Has Never Been Easier Than Right Now",
+      "url": "https://www.outdoorlife.com/opinion/deer-hunting-has-never-been-easier/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "KRÖNIKA: När veterinären är veterinär – och inte del av en koncern",
+      "url": "https://www.jaktojagare.se/kategorier/opinion/kronika-nar-veterinaren-ar-veterinar-och-inte-del-av-en-koncern/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "No-Oxygen Team Will Try Again on Everest",
+      "url": "https://explorersweb.com/no-oxygen-climbers-will-try-again-on-everest/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Old-School Whitetail Wisdom for Deer Hunting When the Weather Finally Turns Cold",
+      "url": "https://www.outdoorlife.com/hunting/old-school-whitetail-deer-hunting-in-the-cold/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "EU:n lyijyhaulirajoitus voimaan – seitsemän vuoden siirtymäaika alkaa joulukuussa",
+      "source_name": "Metsästäjäliitto",
+      "source_url": "https://metsastajaliitto.fi/uutiset/eun-lyijyhaulirajoitus-voimaan",
+      "published_at": "2026-11-17T08:28:06+00:00",
+      "summary": "EU:n lyijyhaulirajoitus voimaan – seitsemän vuoden siirtymäaika alkaa joulukuussa\n\n            Kyllä\n      tero.ylioja@me…\nTi, 17.11.2026 - 10:28\n\n\n              \n\n\n\n      \n            EU:n lyijyhaulirajoitus tulee voimaan seitsemän vuoden siirtymäajan jälkeen 7.12.2033. Lyijyhaulien käyttö metsästy",
+      "why_relevant": "EU:n lyijyhaulirajoitus muuttaa suoraan metsästyksessä käytettävät patruunat ja haulikot, joten sinun pitää arvioida kalusto, varastot ja sisältösi uudelleen heti siirtymäajan alkaessa.",
+      "homepage_eligible": true,
+      "homepage_score": 96,
+      "keep_days": 7,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 5,
+      "event_key": "eu-lyijyhaulirajoitus-voimaan-2026",
+      "category": "tärkea"
+    }
+  ]
+}
