@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-18",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissamme käsitellään laajasti metsästykseen liittyviä aiheita, kuten muulipeurojen metsästyksen haasteita ja sääolosuhteisiin sopeutuvan valkohäntäpeuranmetsästyksen viisautta. Lisäksi Optics Planetin ja Palmetto State Armoryn Black Friday -ennakkomyynti tarjoaa hyviä tarjouksia metsästystarvikkeista. Myös Idaho Wildlife Commissioner on tehnyt syyllisyysmyönnyksen luvattomasta hirvenmetsästyksestä.</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Utahissa muulipeura onnistui livahtamaan metsästäjiltä kahdesti kahden päivän aikana, mutta metsästäjät onnistuivat lopulta saamaan sen kiinni. <a href=\"https://www.outdoorlife.com/hunting/mule-deer-at-long-range/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Valmistautuminen vaihteleviin sääolosuhteisiin on avainasemassa valkohäntäpeurojen tehokkaassa metsästyksessä. Sopeutuminen muuttuviin olosuhteisiin voi kääntää mahdollisuudet metsästäjän eduksi. <a href=\"https://www.outdoorlife.com/hunting/old-school-whitetail-wisdom-bad-weather/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Optics Planetin Black Friday -ennakkomyynnistä löytyy erinomaisia tarjouksia metsästystarvikkeista, kuten kiikareista, kaukoputkista ja archery -varusteista. <a href=\"https://www.outdoorlife.com/gear/optics-planets-pre-black-friday-deals/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Valkohäntäpeurojen ja niiden elinympäristöjen asiantuntija Jeff Sturgis jakaa vuosikymmenten aikana kartuttamaansa menestyksen avaimia isojen valkohäntäpeurojen metsästykseen. <a href=\"https://www.outdoorlife.com/hunting/jeff-sturgis-secrets-hunting-big-whitetail-bucks/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Palmetto State Armoryn Black Friday tarjoaa säästöjä loistavista kiikareista ja muista optisista laitteista, mukaan lukien lämpökamerat. <a href=\"https://www.outdoorlife.com/gear/palmetto-state-armory-black-friday-optics-deals/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Idaho Wildlife Commissioner on tehnyt syyllisyysmyönnyksen luvattomasta hirvenmetsästyksestä ja luvattomasta kulkemisesta. Hän ei ole kuitenkaan vielä eronnut komissiosta, joka asettaa syntymäpaikan metsästyssääntöjä. <a href=\"https://www.outdoorlife.com/conservation/idaho-wildlife-commissioner-guilty-plea-poached-elk/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Senaatti valmistautuu äänestämään Bipartisan American Affordability and Jobs Actista, mikä herättää huolta metsästäjissä ja kalastajissa julkisten maiden suojelukäytännöistä luopumisen mahdollisuutena. <a href=\"https://www.outdoorlife.com/conservation/baaja-public-lands-vs-affordability/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 7,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2019,
+  "output_tokens": 717,
+  "sources": [
+    {
+      "title": "Why You Should Never Underestimate Mule Deer",
+      "url": "https://www.outdoorlife.com/hunting/mule-deer-at-long-range/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Old-School Whitetail Wisdom for Good Deer Hunting in Bad Weather",
+      "url": "https://www.outdoorlife.com/hunting/old-school-whitetail-wisdom-bad-weather/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 39 Best Optics Planet’s Pre-Black Friday Deals on Scopes, Binos, Tree Stands, and More",
+      "url": "https://www.outdoorlife.com/gear/optics-planets-pre-black-friday-deals/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Jeff Sturgis’ Secrets for Hunting Big Whitetail Bucks",
+      "url": "https://www.outdoorlife.com/hunting/jeff-sturgis-secrets-hunting-big-whitetail-bucks/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 25 Best Optics Deals of Palmetto State Armory’s Early Black Friday Sale",
+      "url": "https://www.outdoorlife.com/gear/palmetto-state-armory-black-friday-optics-deals/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Idaho Wildlife Commissioner Takes Plea Deal After Poaching 6×6 Bull Elk, Trespassing",
+      "url": "https://www.outdoorlife.com/conservation/idaho-wildlife-commissioner-guilty-plea-poached-elk/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Senate Poised to Vote on Affordability Package that Hunters, Anglers Worry Is a Trojan Horse for Public-Land Rollbacks",
+      "url": "https://www.outdoorlife.com/conservation/baaja-public-lands-vs-affordability/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "We Tested the Shimano Sustain FK Spinning Reel in Fresh and Salt Water",
+      "url": "https://www.outdoorlife.com/gear/shimano-sustain-fk-review/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Never-Say-Die Climbers Will Try Everest Again This Weekend",
+      "url": "https://explorersweb.com/never-say-die-climbers-will-try-everest-again-this-weekend/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Lessons I Learned from Deer Hunting with My Kids",
+      "url": "https://www.outdoorlife.com/hunting/lessons-i-learned-hunting-with-my-kids/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
