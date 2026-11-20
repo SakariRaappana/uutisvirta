@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-20",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Luonnonvarakeskus julkaisi vuoden 2026 satotilastot, joissa herne saavutti ennätyssadon. Myöhemmin Black Friday -tarjoukset Kenetrek-saappaista ja muista retkeilyvarusteista saavat huomionarvoa. Lisäksi Idaho Wildlife Commissioner erosi hirven salametsästyskandaalin seurauksena.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p><em>Ei tärkeitä uutisia tänään.</em></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Luonnonvarakeskuksen mukaan vuoden 2026 viljasato oli tavanomainen, mutta herne saavutti ennätyssadon. Öljykasvien tuotanto oli myös nousussa. <a href=\"https://www.luke.fi/fi/uutiset/satotilasto-2026-viljasato-tavanomainen-herneesta-ennatyssato-ja-oljykasvit-nousussa\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kenetrek-saappaat ovat saatavilla houkuttelevin alennuksin Black Fridayn ennakkotarjouksissa. Tarjoukset kattavat sekä miesten että naisten saappaat. <a href=\"https://www.outdoorlife.com/gear/black-friday-kenetrek-boot-deals/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Perinteinen peuran hiipimisjahti vaatii taitoa, ja Outdoor Life tarjoaa vinkkejä, miten onnistua hiipimisjahdissa kuten vanhan ajan metsämies. <a href=\"https://www.outdoorlife.com/hunting/old-school-whitetail-wisdom-still-hunting/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life tarjoaa isoja alennuksia varusteista, kuten kehävavoista, etäisyysmittareista ja lämpökameroista, Black Friday -myynnissä. <a href=\"https://www.outdoorlife.com/gear/outdoor-life-black-friday-deals/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Idahossa riistakomissaari erosi tehtävästään hirven salametsästykseen liittyvän skandaalin takia, mikä aiheutti laajaa närkästystä metsästäjäyhteisössä. <a href=\"https://www.outdoorlife.com/conservation/idaho-commissioner-resigns-poaching-scandal/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life kehuu Oregonia Yhdysvaltojen parhaana metsästys- ja kalastusvaltiona, tarjoten kokemuksia maailman matkoilta sekä kotiinpaluun Oregoniin. <a href=\"https://www.outdoorlife.com/hunting/oregon-best-hunting-fishing-state-in-america/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Jakt &amp; Jägare -lehdessä ruotsalainen kirjoittaja jakaa tarinansa epäonnistuneesta riekkojahdista syrjäisillä seuduilla, mikä tuo esiin seikkailun hengessä elämisen. <a href=\"https://www.jaktojagare.se/kategorier/opinion/kronika-noll-ripa-i-isbjornens-rike-med-varldens-basta-systembolag/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 7,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2111,
+  "output_tokens": 671,
+  "sources": [
+    {
+      "title": "How I Went Duck Hunting During the Infamous Armistice Day Storm, and Lived to Tell About It",
+      "url": "https://www.outdoorlife.com/survival/surviving-armistice-day-storm/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Satotilasto 2026: Viljasato tavanomainen, herneestä ennätyssato ja öljykasvit nousussa",
+      "url": "https://www.luke.fi/fi/uutiset/satotilasto-2026-viljasato-tavanomainen-herneesta-ennatyssato-ja-oljykasvit-nousussa",
+      "source_name": "Luonnonvarakeskus (Luke)"
+    },
+    {
+      "title": "Älä pelasta lasta tylsyydeltä",
+      "url": "https://www.suomenlatu.fi/ala-pelasta-lasta-tylsyydelta/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "‘Complete Shock.’ Long-Haul Trucker Hunter Tags 227-Inch Nontypical During State Park Hunt",
+      "url": "https://www.outdoorlife.com/hunting/227-inch-indiana-buck-park-hunt/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Pentagon Wants Public Lands ‘Offered Up’ for a New Army Base. Wyoming Is Interested",
+      "url": "https://www.outdoorlife.com/conservation/pentagon-wants-public-lands-military-base/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "20 Early Black Friday Deals on Kenetrek Hunting Boots That Are Too Good to Pass Up",
+      "url": "https://www.outdoorlife.com/gear/black-friday-kenetrek-boot-deals/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Old-School Whitetail Wisdom for Stalking Deer Like a Real Woodsman",
+      "url": "https://www.outdoorlife.com/hunting/old-school-whitetail-wisdom-still-hunting/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Outdoor Life’s Early Black Friday Deals: Save Big on Spinning Reels, Rangefinders, Thermals, and More",
+      "url": "https://www.outdoorlife.com/gear/outdoor-life-black-friday-deals/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Idaho Wildlife Commissioner Finally Resigns as Plea Deal in Elk Poaching Scandal Draws Hunter Outrage",
+      "url": "https://www.outdoorlife.com/conservation/idaho-commissioner-resigns-poaching-scandal/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Oregon (Yes, Oregon) Is the Best Hunting and Fishing State in America",
+      "url": "https://www.outdoorlife.com/hunting/oregon-best-hunting-fishing-state-in-america/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "KRÖNIKA: Noll ripa i isbjörnens rike med världens bästa systembolag",
+      "url": "https://www.jaktojagare.se/kategorier/opinion/kronika-noll-ripa-i-isbjornens-rike-med-varldens-basta-systembolag/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Family Offers $75,000 Reward to Save Climber Missing on Mount Fuji",
+      "url": "https://explorersweb.com/family-offers-75000-reward-to-save-climber-missing-on-mount-fuji/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "The Burris Buck: How I Tagged the Biggest Mule Deer of All Time",
+      "url": "https://www.outdoorlife.com/hunting/burris-buck-world-record-mule-deer/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Selvitys osoittaa koordinaation tarpeen – Liikunnallisen elämäntavan järjestöt esittävät Liikuntaverkoston perustamista",
+      "url": "https://www.suomenlatu.fi/selvitys-osoittaa-koordinaation-tarpeen/",
+      "source_name": "Suomen Latu"
+    }
+  ],
+  "homepage_candidates": []
+}
