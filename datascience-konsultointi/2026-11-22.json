@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-22",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään keskiössä oli Microsoft Foundryn blogikirjoitus, joka käsitteli virtuaaliverkossa isännöityjen agenttien ajautumista aikakatkaisuun. Artikkelissa tarjottiin viisi tarkistusta, jotka voivat auttaa ratkaisemaan ongelman ja palauttamaan palvelun toiminnan.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Hosted agents in your own virtual network: five checks when the Agents page times out</h3>\n<p>Microsoft Foundryn blogissa käsiteltiin tilannetta, jossa isännöidyt agentit virtuaaliverkossa jäävät aikakatkaisuun. Artikkelissa annettiin viisi tarkastusta, jotka voivat auttaa paikantamaan ja ratkaisemaan ongelmatilanteen. Ensimmäinen ehdotus oli tarkistaa verkkoyhteydet ja varmistaa, että DNS-asetukset ovat kunnossa. Toinen tarkistus liittyy TLS-inspektioon, joka voi vaikuttaa liikenteeseen. Kolmantena kehotettiin varmistamaan, että reititys ja aliverkon liikenne ovat oikein määritetyt.</p>\n<p>Neljäs tarkastus koski itse isännöityjen agenttipalveluiden tilaa ja varmistusta, että ne ovat toiminnassa ja oikein asetettu. Viides tarkistus liittyi lokitietoihin, joiden analysointi voi paljastaa palvelukatkoksen syitä. Näiden tarkastusten avulla pyritään nopeuttamaan ongelmien ratkaisua ja varmistamaan palvelun luotettavuus.</p>\n<p>Nämä ohjeet ovat erityisen hyödyllisiä, kun ylläpidetään suuria ja monimutkaisia agentti-infrastruktuureja omassa virtuaaliverkossa. <a href=\"https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/\">Lue alkuperäinen →</a></p>\n<h2>Lyhytmaininnat</h2>\n<p>Tänään ei ollut muita lyhyitä mainintoja.</p>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1745,
+  "output_tokens": 420,
+  "sources": [
+    {
+      "title": "AI agents design an entirely new CPU architecture from scratch, startup claims — Frostbite posts 4.59x the performance per watt of an in-order core in pre-silicon tests - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNWWJFNWVqemZoM0VmWnp2ZEVzb1FybXpvaWNOcHhzV3E5dlJSdGlWdk1Gang3TC1HQTRTLU1WYVN2ZzRiZmxoajJUTnRvUldrRG56XzNMMTFmS25nMXo5S0RSQVZUb05jSmJnYnVSdGpheTRrUktoTGdWVG50N3laSkN6Y2FZQ28wZG5UYWM3QmpqQ0RaMEg1R19UVmY3QnBIczdnUlZJbVdjb296cnlaWmR1bHF1ekM0NUhERTR3TEU2dnl4WDQ2T1Z1dW53aVE4T2NCbHZyNzBuUE9xWHV0RkVORzR1MjNpcEs5Z2xYNFVYNVFUTG1oNm4zbnFfU0dvcHhNREkwVndRTmdLX2pMdWZtdVYzbnNlSVZ0SHdKSkhhRHo3V2lGZHNLLWR2bGxZZDdNeG0wcmpWQVRkRTZ1ekcydXJoZw?oc=5",
+      "source_name": "Google News: AI agents architecture"
+    },
+    {
+      "title": "Hosted agents in your own virtual network: five checks when the Agents page times out",
+      "url": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/",
+      "source_name": "Microsoft Foundry Blog"
+    }
+  ],
+  "homepage_candidates": []
+}

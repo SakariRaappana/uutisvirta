@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-22",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään uutisissa esiteltiin edullinen mutta toimiva metsästysmaja, joka tarjoaa hyvän näkösuojan ja suuret ikkunat peura- ja hirvijahdissa.</p>\n<h2>Tärkeimmät uutiset</h2>\n<p>(Ei tärkeitä uutisia tänään.)</p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Edullinen peuran metsästyskoppi tarjoaa suuren näkösuojan ja ikkunat edullisesti. <a href=\"https://www.outdoorlife.com/gear/maverick-xlv-hunting-blind-review/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1431,
+  "output_tokens": 132,
+  "sources": [
+    {
+      "title": "‘I Tried Not Looking at the Rack.’ Indiana Hunter Tags 199-Inch Buck on State Park Land",
+      "url": "https://www.outdoorlife.com/hunting/indiana-parks-buck/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Hunt for the Jameson Buck, a 250-Inch Kansas Legend That Lived in an Old Strip Mine",
+      "url": "https://www.outdoorlife.com/hunting/jameson-buck-kansas-nontypical/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Here’s Proof That You Don’t Need to Break the Bank for a Hardside Deer Hunting Blind",
+      "url": "https://www.outdoorlife.com/gear/maverick-xlv-hunting-blind-review/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Weekend Warm-Up: Hurricane Chase",
+      "url": "https://explorersweb.com/weekend-warm-up-hurricane-chase/",
+      "source_name": "ExploresWeb"
+    }
+  ],
+  "homepage_candidates": []
+}
