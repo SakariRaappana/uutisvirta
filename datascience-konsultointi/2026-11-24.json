@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-24",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään julkaistiin uutinen, joka korostaa uudenlaisten tekoälyteknologioiden nopeaa yleistymistä yritysverkostoissa ja siihen liittyviä haasteita. Teknologian kysyntä kasvaa nopeasti, mikä kuormittaa merkittävästi verkkoinfrastruktuuria.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Yritysten verkot ovat kovilla uuden tekoälyteknologian vuoksi. Yritykset käyttävät yhä enemmän tekoälyä, mikä asettaa valtavaa paineita verkkojen kapasiteetille. <a href=\"https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1032,
+  "output_tokens": 178,
+  "sources": [
+    {
+      "title": "Raising the stakes for enterprise networks with AI modernization",
+      "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "The Download: AI’s gas power boom and a consciousness reality check",
+      "url": "https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "Data centers are getting their own natural gas power plants",
+      "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "source_name": "MIT Technology Review — AI"
+    }
+  ],
+  "homepage_candidates": []
+}

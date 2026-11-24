@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-24",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään kuullaan mielenkiintoisia uutisia varusteiden alennusmyynneistä ja metsästykseen liittyvistä kokemuksista sekä uusista kiipeilyreiteistä. Useat merkit, kuten LaCrosse ja Cabela's, tarjoavat Black Friday -alennuksia varusteille. Lisäksi Ukrainalainen kiipeilijä on onnistunut yksinään uuden reitin luomisessa Himalajalla.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>\n<p>Outdoor Life on julkaissut kattavan oppaan, kuinka teroittaa kirves ammattilaisen tavoin. <a href=\"https://www.outdoorlife.com/survival/how-to-sharpen-an-axe-like-a-pro/\">Lue lisää</a></p>\n</li>\n<li>\n<p>LaCrosse tarjoaa Black Friday -alennuksia metsästysjalkineista, joiden avulla voit säästää rahaa ja pitää jalat lämpiminä. <a href=\"https://www.outdoorlife.com/gear/lacrosse-footwear-black-friday-hunting-boot-sale/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Latitude Outdoors myy Black Fridayn kunniaksi metsästysvaljaita ja kiipeilyvälineitä alennettuun hintaan. <a href=\"https://www.outdoorlife.com/gear/latitude-outdoors-black-friday-deals/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Cabela's on aloittanut Black Friday -alennukset etuajassa, ja nyt voi säästää satoja euroja kalastus-, metsästys- ja retkeilyvarusteista. <a href=\"https://www.outdoorlife.com/gear/cabelas-black-friday-deals-on-fishing-hunting-camping-gear-trail-cameras/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Outdoor Life esittelee Townsend Whelenin suosikkipatruunoita suurriistan metsästykseen, mukana monia klassikkoja ja yksi merkittävä poikkeus. <a href=\"https://www.outdoorlife.com/guns/whelen-rifle-cartridges/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Ukrainalainen Mykyta Balabanov kiipesi yksin uuden reitin Gokyo Valleyssa, Himalajan Phari Lapchassa. <a href=\"https://explorersweb.com/ukrainian-solos-new-route-in-gokyo-valley-near-everest/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Merimies Michiganissa kohtasi valtaisan mustakarhun kiitospäivänä, mikä osoittautui osavaltion suurimmaksi koskaan kirjatuksi saaliiksi. <a href=\"https://www.outdoorlife.com/hunting/record-michigan-bear-thanksgiving/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Simms tarjoaa Black Friday -alennuksia 165 tuotteelle. Nyt saat 25% alennuksen käyttämällä tiettyä alennuskoodia. <a href=\"https://www.outdoorlife.com/gear/simms-black-friday-2026/\">Lue lisää</a></p>\n</li>\n<li>\n<p>OL:n legendaarinen ammuntaeditori vieraili Reelfoot Laken alueella sen paluun aikaan 70-luvun puolivälissä metsästäen ankkoja ja hanhia. <a href=\"https://www.outdoorlife.com/hunting/i-hunted-ducks-and-geese-reelfoot-lake/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Puolalaiset kiipeilijät Michal Makowski, Robert Paluch ja Rafal Zajac kiipesivät uuden 850 metrin reitin Free Korea -huipulle Tien Shanilla, Kirgisiassa. <a href=\"https://explorersweb.com/new-polish-route-on-classic-tien-shan-peak/\">Lue lisää</a></p>\n</li>\n<li>\n<p>Kaupunkilaismetsästäjien hirvijahti keskeytyi, kun poliisi yllätti heidät metsässä kiväärin kanssa komentaen heitä alas puusta. <a href=\"https://www.outdoorlife.com/hunting/police-raided-our-deer-hunt/\">Lue lisää</a></p>\n</li>\n</ul>\n",
+  "item_count": 11,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2387,
+  "output_tokens": 850,
+  "sources": [
+    {
+      "title": "This Massive Swordfish Smashed the State Record, But It Was Disqualified Over a Technicality",
+      "url": "https://www.outdoorlife.com/fishing/this-massive-swordfish-smashed-the-state-record-but-it-was-disqualified-over-a-technicality/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Sharpen an Axe Like a Pro. Follow This Step-By-Step Guide",
+      "url": "https://www.outdoorlife.com/survival/how-to-sharpen-an-axe-like-a-pro/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "LaCrosse’s Black Friday Hunting Boot Sale Will Keep Your Wallet And Feet Happy",
+      "url": "https://www.outdoorlife.com/gear/lacrosse-footwear-black-friday-hunting-boot-sale/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Latitude Outdoors Black Friday Deals: Tree Saddles, Climbing Sticks, and Saddle Hunting Accessories",
+      "url": "https://www.outdoorlife.com/gear/latitude-outdoors-black-friday-deals/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Cabela’s Black Friday Deals: Save Hundreds On Fishing, Hunting, And Camping Gear Now",
+      "url": "https://www.outdoorlife.com/gear/cabelas-black-friday-deals-on-fishing-hunting-camping-gear-trail-cameras/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Townsend Whelen’s Favorite Big Game Hunting Cartridges",
+      "url": "https://www.outdoorlife.com/guns/whelen-rifle-cartridges/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Ukrainian Solos New Route in Gokyo Valley, Near Everest",
+      "url": "https://explorersweb.com/ukrainian-solos-new-route-in-gokyo-valley-near-everest/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "A Bear to Be Thankful For: I Hunted a Record Black Bear on Thanksgiving Day",
+      "url": "https://www.outdoorlife.com/hunting/record-michigan-bear-thanksgiving/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Simms Black Friday Deals: Save on Apparel, Gifts, and Gear",
+      "url": "https://www.outdoorlife.com/gear/simms-black-friday-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "I Hunted Ducks and Geese During the Glory Days of Earthquake Lake",
+      "url": "https://www.outdoorlife.com/hunting/i-hunted-ducks-and-geese-reelfoot-lake/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "New Route on Classic Tien Shan Peak",
+      "url": "https://explorersweb.com/new-polish-route-on-classic-tien-shan-peak/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "‘Get Out of the F—ing Tree!’ The Police Raided Our Deer Hunt",
+      "url": "https://www.outdoorlife.com/hunting/police-raided-our-deer-hunt/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Black Friday Sale: Axcel Slider Bow Sights at Their Lowest Prices",
+      "url": "https://www.outdoorlife.com/gear/black-friday-sale-axcel-slider-bow-sights/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Budget Compound Bow We’ve Shot Is on Sale for Black Friday",
+      "url": "https://www.outdoorlife.com/gear/top-budget-compound-bow-on-sale-for-black-friday/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": []
+}
