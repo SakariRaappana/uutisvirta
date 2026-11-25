@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-25",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään Ruotsissa on havaittu viides CWD-tapaus hirvessä, mikä herättää huolta taudin leviämisestä. Lisäksi lyhyissä maininnoissa käydään läpi myskihirvien jahtia, uuden reppumallin testausta, leijonanlihan valmistusta, uusien saappaiden arviointia sekä kirveen teroitusohjeita.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Uusi CWD-tapaus hirvessä – viides Ruotsissa</h3>\n<p>Ruotsissa on havaittu uusi tapauksia CWD-taudista (Chronic Wasting Disease) hirvessä, mikä on viides havainto maassa. Taudin leviämistä pyritään torjumaan ja tilanteen kehittymistä seurataan tiiviisti. CWD on tarttuva aivorappeumatauti, joka voi olla kohtalokas hirvieläimille, eikä sille ole tällä hetkellä tunnettua parannuskeinoa. Viranomaiset ovat kehottaneet metsästäjiä ja kansalaisia tarkkailemaan eläinten käytöstä ja raportoimaan epäillyistä tapauksista. <strong><a href=\"https://www.jaktojagare.se/kategorier/nyheter/nytt-fall-av-cwd-hos-alg-det-femte-i-sverige/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Kiitospäivän lumimyrsky ajoi isot myskihirvet alas vuorilta, mikä tarjosi otollisia jahtimahdollisuuksia. <a href=\"https://www.outdoorlife.com/hunting/thanksgiving-blizzard-mule-deer-hunt/\">Lue lisää</a></li>\n<li>Seek Outside Unaweep 4800 2.0 -repun arviointi keskittyy sen kykyyn kantaa suuria määriä varusteita mukavasti. <a href=\"https://www.rokslide.com/seek-outside-unaweep-4800-2-0-review/\">Lue lisää</a></li>\n<li>Metsästyksen aliarvostetuksi lihavalinnaksi kutsuttu vuoristoleijonan liha on mainio vaihtoehto ruoanlaittoon, kunhan valmistus tapahtuu oikein. <a href=\"https://www.outdoorlife.com/hunting/mountain-lion-is-the-ultimate-underrated-game-meat-heres-how-to-prepare-it/\">Lue lisää</a></li>\n<li>LaCrosse Alphaburly Aero 2000 -saappaita testattiin Kanadan valkohäntäpeurajahdissa, ja ne saivat kiitosta lämpimyydestään. <a href=\"https://www.outdoorlife.com/gear/lacrosse-alphaburly-aero-2000-boot-review-the-warmest-boot-lacrosse-has-ever-made/\">Lue lisää</a></li>\n<li>Kirveen terotus voidaan tehdä ammattilaisen tarkkuudella tämän askel-askeleelta oppaan avulla. <a href=\"https://www.outdoorlife.com/survival/how-to-sharpen-an-axe-like-a-pro/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 6,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2925,
+  "output_tokens": 658,
+  "sources": [
+    {
+      "title": "A Thanksgiving Blizzard Pushed Big Mule Deer Off the Mountain — and Down to Us",
+      "url": "https://www.outdoorlife.com/hunting/thanksgiving-blizzard-mule-deer-hunt/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Black Friday Deals on EDC Gear: Knives, Multi-Tools, and Flashlights",
+      "url": "https://www.outdoorlife.com/gear/best-black-friday-deals-edc-gear-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Seek Outside Unaweep 4800 2.0 Review",
+      "url": "https://www.rokslide.com/seek-outside-unaweep-4800-2-0-review/",
+      "source_name": "Rokslide"
+    },
+    {
+      "title": "Nytt fall av CWD hos älg – det femte i Sverige",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/nytt-fall-av-cwd-hos-alg-det-femte-i-sverige/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Black Friday Deals On Kifaru Backpacks Will Save You Hundreds",
+      "url": "https://www.outdoorlife.com/gear/black-friday-deals-on-kifaru-backpacks-will-save-you-hundreds/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 6 Best Survival Movies of All Time, Plus 2 We Hate",
+      "url": "https://www.outdoorlife.com/survival/the-6-best-survival-movies-of-all-time-plus-2-we-hate/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "‘My Knees Got Weak.’ Bowhunter Arrows 222-Inch Buck After Almost Leaving His Stand Twice",
+      "url": "https://www.outdoorlife.com/hunting/ohio-bowhunter-tags-massive-buck-despite-noise/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 30 Best Black Friday Gun Deals: Handguns, Rifles, Rimfires, and Shotguns",
+      "url": "https://www.outdoorlife.com/guns/best-black-friday-gun-deals-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Savage Model 99 Is Still One of the Greatest Lever Action Rifles of All Time",
+      "url": "https://www.outdoorlife.com/guns/the-savage-model-99-is-still-one-of-the-greatest-lever-action-rifles-of-all-time/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Save Up To 50% During Kuiu’s Black Friday Hunting Apparel Sale",
+      "url": "https://www.outdoorlife.com/hunting/save-up-to-50-during-kuius-black-friday-hunting-apparel-sale/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Mountain Lion Is the Ultimate Underrated Game Meat. Here’s How to Prepare It",
+      "url": "https://www.outdoorlife.com/hunting/mountain-lion-is-the-ultimate-underrated-game-meat-heres-how-to-prepare-it/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "LaCrosse Alphaburly Aero 2000 Boot Review: The Warmest Boot LaCrosse Has Ever Made",
+      "url": "https://www.outdoorlife.com/gear/lacrosse-alphaburly-aero-2000-boot-review-the-warmest-boot-lacrosse-has-ever-made/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "This Massive Swordfish Smashed the State Record, But It Was Disqualified Over a Technicality",
+      "url": "https://www.outdoorlife.com/fishing/this-massive-swordfish-smashed-the-state-record-but-it-was-disqualified-over-a-technicality/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "How to Sharpen an Axe Like a Pro. Follow This Step-By-Step Guide",
+      "url": "https://www.outdoorlife.com/survival/how-to-sharpen-an-axe-like-a-pro/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Nytt fall av CWD hos älg – det femte i Sverige",
+      "source_name": "Jakt & Jägare",
+      "source_url": "https://www.jaktojagare.se/kategorier/nyheter/nytt-fall-av-cwd-hos-alg-det-femte-i-sverige/",
+      "published_at": "2026-11-25T11:33:25+00:00",
+      "summary": "Statens veterinärmedicinska anstalt (SVA) har konstaterat ett fall av avmagringssjuka, CWD, hos en älg i Dalarna. Det är det femte bekräftade fallet i Sverige. Enligt SVA rör det sig sannolikt om den spontant uppkomna varianten av sjukdomen och inte den smittsamma form som drabbat norska vildrenar.",
+      "why_relevant": "CWD-tapauksen vahvistuminen Suomessa vaikuttaa suoraan hirvieläinten metsästykseen, saalisnäytteisiin ja tautiseurannan käytäntöihin erityisesti Pohjois-Karjalassa ja koko hirvijahdissa.",
+      "homepage_eligible": true,
+      "homepage_score": 85,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 4,
+      "novelty": 4,
+      "event_key": "cwd-cervid-case-sweden-finland-region",
+      "category": "tärkea"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-25",
+  "stream_slug": "datascience-konsultointi",
+  "stream_name": "Datascience konsultointi",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Microsoft Foundry on julkaissut useita uusia ominaisuuksia Ignite 2026 -tapahtumassa. Päivityksiin sisältyy uusi Agent Optimizer, evaluointityökalut, Foundry Agent Service ja parannettu Model Router. Lisäksi hallituille agenteille sekä AI-datagovernanceen suunnatuille työkaluille on esitelty päivityksiä.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>What's new in Microsoft Foundry | Ignite 2026</h3>\n<p>Microsoft Foundry ilmoitti Ignite 2026 -tapahtumassa uusista päivityksistä tekoälyalustalleen. Uusien ominaisuuksien joukossa on Agent Optimizer, joka parantaa agenttien suorituskykyä. Foundry on myös lisännyt parannuksia evaluointityökaluihin ja lanseerannut Foundry Agent Servicen, joka tehostaa agenttien hallintaa suuremmissa ympäristöissä.</p>\n<p>Yksi merkittävä päivitys on myös Model Routerin parannus, joka optimoi mallien valintaa ja reititystä erilaisissa käyttötilanteissa. Tämä päivitys on erityisen hyödyllinen käyttäjille, jotka operoivat laajamittaisissa tekoälyjärjestelmissä, missä agenttien hallinta ja mallien reititys ovat kriittisiä.</p>\n<p>Lisäksi hallitut agentit ovat saaneet uutta tukea, ja ilmoitettiin työkaluista, jotka parantavat AI-datagovernancea Microsoft Foundryn ympäristössä. Tärkeänä tavoitteena on varmistaa, että datan ja mallien käyttö on turvallista ja säännösten mukaista erityisesti aloilla, joissa compliance-vaatimukset ovat tiukkoja.</p>\n<p><a href=\"https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/\">Lue alkuperäinen →</a></p>\n<h2>Lyhytmaininnat</h2>\n<p>Tänään ei ollut lyhytmainintoja.</p>\n",
+  "item_count": 1,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 1792,
+  "output_tokens": 434,
+  "sources": [
+    {
+      "title": "The Download: AI swamping open records, and firefighting for permafrost",
+      "url": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "AI is straining America’s open records systems",
+      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "source_name": "MIT Technology Review — AI"
+    },
+    {
+      "title": "What’s new in Microsoft Foundry | Ignite 2026",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/",
+      "source_name": "Microsoft Foundry Blog"
+    }
+  ],
+  "homepage_candidates": []
+}
