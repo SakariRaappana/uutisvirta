@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-26",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään on paljastunut tietoturva-aukko suositussa WeHunt-sovelluksessa, jonka seurauksena monien käyttäjien aseiden lisenssit ovat saattaneet joutua alttiiksi ulkopuolisille. Lisäksi esille nousee useita Black Friday -tarjouksia metsästysvarusteista, mukaan lukien kiikarit, veitset ja monitoimityökalut.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>WeHunt-sovelluksen tietoturva-aukko vaaransi aseiden lisenssit</h3>\n<p>Suositussa metsästyssovellus WeHuntissa havaittiin vakava tietoturva-aukko, joka mahdollisesti altisti käyttäjien vapenlicenserit eli aseiden hallussapitoluvat ulkopuolisille. Tietomurto tai muu laiton pääsy näihin tietoihin voi vaarantaa käyttäjien yksityisyyden ja turvallisuuden merkittävästi. Tapauksesta tehdään parhaillaan tarkempia tutkimuksia, ja käyttäjiä kehotetaan seuraamaan tilannetta tarkasti. WeHunt on yksi suosituimmista sovelluksista metsästäjien keskuudessa, ja sen käyttöönottavia voi olla merkittävä määrä erityisesti Pohjoismaissa. <strong><a href=\"https://www.jaktojagare.se/kategorier/nyheter/sakerhetsbrist-i-wehunt-vapenlicenser-kan-ha-varit-atkomliga/\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>Late-season buck -metsästykseen on tarjolla asiantuntijoiden neuvoja, jotka auttavat saalistuksessa kauden lopulla. <a href=\"https://www.outdoorlife.com/hunting/expert-tips-for-patterning-and-hunting-a-late-season-buck/\">Lue lisää</a></li>\n<li>Mustan perjantain metsästysvarustetarjoukset esittelevät huippuostoksia veitsistä ja optisista laitteista. <a href=\"https://www.outdoorlife.com/gear/best-black-friday-hunting-gear-deals-2026/\">Lue lisää</a></li>\n<li>Kaksi Tennessee-sorsastajaa ajautui hengenvaaralliseen tilanteeseen Arkansasin tulvapuiden joukossa, menettäen veneensä ja eksyen pahasti. <a href=\"https://www.outdoorlife.com/survival/arkansas-duck-hunt-gone-wrong/\">Lue lisää</a></li>\n<li>OpticsPlanetilla tarjoaa Pelicanin ja Evolutionin kivääri- ja jousikoteloita erikoishinnoin Black Friday -kampanjoissa. <a href=\"https://www.outdoorlife.com/gear/pelican-rifle-bow-hardcase-black-friday-sale-deals-optics-planet/\">Lue lisää</a></li>\n<li>Sig Sauerin Zulu6 -stabiloituja kiikareita voi nyt ostaa huomattavasti alennettuun hintaan Bass Pro Shopsin Black Friday -myynnistä. <a href=\"https://www.outdoorlife.com/gear/the-best-sig-sauer-stablized-binocular-deals-on-the-internet-zulu6/\">Lue lisää</a></li>\n<li>WE ja Civivi -veitsien parhaat hankinnat Black Friday -aleissa voivat säästää ostajille jopa 50 %. <a href=\"https://www.outdoorlife.com/gear/best-civivi-and-we-knife-black-friday-deals/\">Lue lisää</a></li>\n<li>Aluksi vähätellyt peuranmetsästystaktiikat ovat nyt yleinen osa metsästysstrategiaa. <a href=\"https://www.outdoorlife.com/hunting/reliable-deer-tactics/\">Lue lisää</a></li>\n<li>Illinoisin farmille, jota suurin osa metsästäjistä voi vain unelmoida, palaa varustetoimittaja vuosi aiemmin tapahtuneen epäonnistumisen jälkeen metsästämään paineettomia peuroja. <a href=\"https://www.outdoorlife.com/hunting/hunting-unpressured-bucks/\">Lue lisää</a></li>\n<li>Kiitospäivän lumimyrsky sai isot muulipeurat laskeutumaan vuorilta, tarjoten metsästäjille tilaisuuden kiivaimmassa kauden vaiheessa. <a href=\"https://www.outdoorlife.com/hunting/thanksgiving-blizzard-mule-deer-hunt/\">Lue lisää</a></li>\n<li>Leathermanin, Civivin ja muiden suosittujen EDC-tuotteiden mustan perjantain tarvikkeita ovat nyt saatavilla huomattaviin alennettuihin hintoihin. <a href=\"https://www.outdoorlife.com/gear/best-black-friday-deals-edc-gear-2026/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 11,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 3380,
+  "output_tokens": 1011,
+  "sources": [
+    {
+      "title": "Expert Tips for Patterning and Hunting a Late-Season Buck",
+      "url": "https://www.outdoorlife.com/hunting/expert-tips-for-patterning-and-hunting-a-late-season-buck/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Black Friday Hunting Gear Deals: Our Favorite Knives, Rangefinders, Binos, Archery Gear, and More",
+      "url": "https://www.outdoorlife.com/gear/best-black-friday-hunting-gear-deals-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Sick, Tired Climbers Bail on Everest",
+      "url": "https://explorersweb.com/sick-tired-climbers-bail-on-everest/",
+      "source_name": "ExploresWeb"
+    },
+    {
+      "title": "Säkerhetsbrist i WeHunt – vapenlicenser kan ha varit åtkomliga",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/sakerhetsbrist-i-wehunt-vapenlicenser-kan-ha-varit-atkomliga/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Miten puhua lapselle luonnosta innostavasti?",
+      "url": "https://www.suomenlatu.fi/lapsen-luontoyhteys-miten-puhua-lapselle-luonnosta/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "It Would’ve Been the Best Duck Hunt of Our Lives. Instead, We Almost Died",
+      "url": "https://www.outdoorlife.com/survival/arkansas-duck-hunt-gone-wrong/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Black Friday Deals on Rifle and Bow Cases: Pelican, Evolution, and More",
+      "url": "https://www.outdoorlife.com/gear/pelican-rifle-bow-hardcase-black-friday-sale-deals-optics-planet/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "These Are The Best Sig Sauer Stabilized Binocular Deals On The Internet",
+      "url": "https://www.outdoorlife.com/gear/the-best-sig-sauer-stablized-binocular-deals-on-the-internet-zulu6/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Civivi and WE Knife Black Friday Deals",
+      "url": "https://www.outdoorlife.com/gear/best-civivi-and-we-knife-black-friday-deals/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "8 Wild Fish and Game Recipes to Recreate the First Thanksgiving Dinner",
+      "url": "https://www.outdoorlife.com/hunting/wild-game-thanksgiving-recipes/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "3 Totally Normal Deer Hunting Tactics We Used to Think Were Utter Nonsense",
+      "url": "https://www.outdoorlife.com/hunting/reliable-deer-tactics/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Hunting Unpressured Bucks on One of the Best Properties in the Country",
+      "url": "https://www.outdoorlife.com/hunting/hunting-unpressured-bucks/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "A Thanksgiving Blizzard Pushed Big Mule Deer Off the Mountain — and Down to Us",
+      "url": "https://www.outdoorlife.com/hunting/thanksgiving-blizzard-mule-deer-hunt/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Black Friday Deals on EDC Gear: Knives, Multi-Tools, and Flashlights",
+      "url": "https://www.outdoorlife.com/gear/best-black-friday-deals-edc-gear-2026/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Säkerhetsbrist i WeHunt – vapenlicenser kan ha varit åtkomliga",
+      "source_name": "Jakt & Jägare",
+      "source_url": "https://www.jaktojagare.se/kategorier/nyheter/sakerhetsbrist-i-wehunt-vapenlicenser-kan-ha-varit-atkomliga/",
+      "published_at": "2026-11-26T11:46:45+00:00",
+      "summary": "En säkerhetsbrist i jaktappen WeHunt gjorde det möjligt för obehöriga att komma åt material som delats inom jaktlag. Bland dokumenten som kan ha berörts finns jaktkort och vapenlicenser. Företaget bakom appen, Natlink, har polisanmält den obehöriga åtkomsten.",
+      "why_relevant": "WeHuntin tietoturva-aukko ja mahdollinen vapaiden vapaiden dokumenttien, kuten vapaiden lupien tai vapenlicenssin, näkyvyys koskee suoraan metsästysryhmien viestintää, lupadokumentteja ja tietoturvakäytäntöjä.",
+      "homepage_eligible": true,
+      "homepage_score": 92,
+      "keep_days": 5,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 5,
+      "novelty": 4,
+      "event_key": "wehunt-security-breach-licenses",
+      "category": "tärkea"
+    }
+  ]
+}
