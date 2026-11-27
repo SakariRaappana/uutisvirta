@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-27",
+  "stream_slug": "era-seikkailu",
+  "stream_name": "Erä & seikkailu",
+  "body_html": "<h2>Päivän yhteenveto</h2>\n<p>Tänään merkittävänä uutisena on sudenmetsästyksen kiintiön nousu 116 suteen, mikä perustuu tarkentuneisiin tietoihin susikannoista. Muita mainintoja ovat uusia Black Friday -tarjouksia metsästys- ja retkeilyvälineistä sekä metsästyskärjistettyjä vinkkejä.</p>\n<h2>Tärkeimmät uutiset</h2>\n<h3>Sudenmetsästyksen kiintiö nousi 116 suteen</h3>\n<p>Maa- ja metsätalousministeriö on päivittänyt tämän talven sudenmetsästyksen kiintiön nousemaan 116 suteen. Tämä päätös perustuu tarkentuneisiin tietoihin alueiden susimääristä, jotka Metsästäjäliitto oli huomioinut ehdotuksessaan. Alun perin esitetty kiintiö oli 109 sutta, mutta uusien tietojen valossa lukemaa korotettiin. Liiton mukaan päätös tukee susikantojen hallintaa samalla kun huomioidaan asiantuntijalausunnot. <strong><a href=\"https://metsastajaliitto.fi/uutiset/sudenmetsastyksen-kiintio-nousi-116-suteen\">Lue alkuperäinen →</a></strong></p>\n<h2>Lyhytmaininnat</h2>\n<ul>\n<li>EU-komissio haluaa tietää, miksi Ruotsi pitää 220 sutta riittävänä kantaarviona ja pyytää tieteellistä tukea tälle luvulle. <a href=\"https://www.jaktojagare.se/kategorier/nyheter/eu-kommissionen-vill-veta-varfor-220-vargar-racker/\">Lue lisää</a></li>\n<li>Suomen Latu muistuttaa, että retkien paras turvallisuusväline on ennakointi, vaikka ensiapulaukku ja 112-sovellus ovatkin mukana. <a href=\"https://www.suomenlatu.fi/retkeilyn-turvallisuus-ennakointi/\">Lue lisää</a></li>\n<li>Tidewen Black Friday -tarjoukset houkuttelevat metsästyksestä kiinnostuneita edullisilla varustetarjouksilla. <a href=\"https://www.outdoorlife.com/gear/the-21-best-tidewe-black-friday-deals/\">Lue lisää</a></li>\n<li>Scheelsin Black Friday -myynnissä on laaja valikoima metsästysvarusteita, saappaista jousipyssyihin. <a href=\"https://www.outdoorlife.com/gear/scheels-black-friday-hunting-sale-has-everything-from-boots-to-crossbows/\">Lue lisää</a></li>\n<li>Leathermanin monitoimityökalut ovat Black Friday -alennuksessa, tarjoten hyviä diilejä niin itselle kuin lahjaksi hankittavaksi. <a href=\"https://www.outdoorlife.com/gear/black-friday-leatherman-deals-2026/\">Lue lisää</a></li>\n<li>Perinteiset vinkit peuranmetsästykseen lumisateessa pitävät pintansa ja hyödyttävät metsästäjiä erilaisissa sääolosuhteissa. <a href=\"https://www.outdoorlife.com/hunting/old-school-wisdom-deer-hunting-snow/\">Lue lisää</a></li>\n<li>Black Friday -veitsitarjouksissa on nähtävissä loistavia löytöjä testatuista EDC-, selviytymis-, bushcraft- ja metsästyspuukoista. <a href=\"https://www.outdoorlife.com/gear/black-friday-knife-deals-2026/\">Lue lisää</a></li>\n<li>Asiantuntijavinkkejä myöhäisen kauden peurojen metsästykseen tarjoavat hyviä mahdollisuuksia edelleen kauden loppumetreille. <a href=\"https://www.outdoorlife.com/hunting/expert-tips-for-patterning-and-hunting-a-late-season-buck/\">Lue lisää</a></li>\n</ul>\n",
+  "item_count": 9,
+  "model": "gpt-4o-2024-08-06",
+  "input_tokens": 2918,
+  "output_tokens": 828,
+  "sources": [
+    {
+      "title": "The Story of the Mickey Buck, Michigan’s State-Record Nontypical Swamp Buck",
+      "url": "https://www.outdoorlife.com/hunting/old-school-whitetail-wisdom-hunting-swamp-bucks/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "EU-kommissionen vill veta varför 220 vargar räcker",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/eu-kommissionen-vill-veta-varfor-220-vargar-racker/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "This Handgun Is Responsible for the .22 LR Shortage, and It’s On Sale for Black Friday",
+      "url": "https://www.outdoorlife.com/guns/tx-22-black-friday-deal/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Save 30% on Tackle Bags and Gun Cases at Evolution Outdoor",
+      "url": "https://www.outdoorlife.com/gear/tackle-bags-and-gun-cases-evolution-outdoor-black-friday/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "10 Bass Pro Shops Black Friday Deals on Gear We’ve Actually Tested and Recommend",
+      "url": "https://www.outdoorlife.com/gear/bass-pro-shops-black-friday-deals-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Sudenmetsästyksen kiintiö nousi 116 suteen",
+      "url": "https://metsastajaliitto.fi/uutiset/sudenmetsastyksen-kiintio-nousi-116-suteen",
+      "source_name": "Metsästäjäliitto"
+    },
+    {
+      "title": "Black Friday Deals on Thermal Scopes: These Sale Prices Will Save you Thousands",
+      "url": "https://www.outdoorlife.com/gear/black-friday-deals-thermal-scopes-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The 20 Best Black Friday Deals on Rifle Scopes",
+      "url": "https://www.outdoorlife.com/gear/best-black-friday-deals-on-rifle-scopes-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "My Favorite EDC Knife and 16 Others Are on Sale for Black Friday",
+      "url": "https://www.outdoorlife.com/gear/edc-knives-black-friday-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "The Best Kuiu Black Friday Deals: Rain Gear, Merino, Jackets, and Pants on Sale",
+      "url": "https://www.outdoorlife.com/gear/best-kuiu-black-friday-deals-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Retkillä paras turvallisuusväline on ennakointi",
+      "url": "https://www.suomenlatu.fi/retkeilyn-turvallisuus-ennakointi/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "The 21 Best Tidewe Black Friday Deals",
+      "url": "https://www.outdoorlife.com/gear/the-21-best-tidewe-black-friday-deals/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Scheels’ Black Friday Hunting Sale has Everything from Boots to Crossbows",
+      "url": "https://www.outdoorlife.com/gear/scheels-black-friday-hunting-sale-has-everything-from-boots-to-crossbows/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Jäsenyhdistyksillä on monta tapaa vaikuttaa",
+      "url": "https://www.suomenlatu.fi/jasenyhdistyksilla-on-monta-tapaa-vaikuttaa-2/",
+      "source_name": "Suomen Latu"
+    },
+    {
+      "title": "Jaktfluencers – vår tids stora berättare",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/jaktfluencers-var-tids-stora-berattare/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Jaktfluencern Jenny Hedman vill inspirera",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/jaktfluencern-jenny-hedman-vill-inspirera/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "Alla kan bli influencers",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/alla-kan-bli-influencers/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "En liten historia om svenska jaktberättelser",
+      "url": "https://www.jaktojagare.se/kategorier/nyheter/en-liten-historia-om-svenska-jaktberattelser/",
+      "source_name": "Jakt & Jägare"
+    },
+    {
+      "title": "The Boyhood Deer Hunt That Turned Jim Carmichel Into a Gun Guy",
+      "url": "https://www.outdoorlife.com/hunting/deer-hunting-stories-carmichel/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Black Friday Leatherman Deals: Great Prices on Multi-Tools, Bit Kits, and Customization",
+      "url": "https://www.outdoorlife.com/gear/black-friday-leatherman-deals-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Old-School Wisdom for Deer Hunting During Snowstorms",
+      "url": "https://www.outdoorlife.com/hunting/old-school-wisdom-deer-hunting-snow/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Black Friday Knife Deals: EDC, Survival, Bushcraft, and Hunting Knives",
+      "url": "https://www.outdoorlife.com/gear/black-friday-knife-deals-2026/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "We Forgot the Thanksgiving Turkey. So We Went Striper Fishing Instead",
+      "url": "https://www.outdoorlife.com/fishing/thanksgiving-fishing-trip-stripers/",
+      "source_name": "Outdoor Life"
+    },
+    {
+      "title": "Expert Tips for Patterning and Hunting a Late-Season Buck",
+      "url": "https://www.outdoorlife.com/hunting/expert-tips-for-patterning-and-hunting-a-late-season-buck/",
+      "source_name": "Outdoor Life"
+    }
+  ],
+  "homepage_candidates": [
+    {
+      "title": "Sudenmetsästyksen kiintiö nousi 116 suteen",
+      "source_name": "Metsästäjäliitto",
+      "source_url": "https://metsastajaliitto.fi/uutiset/sudenmetsastyksen-kiintio-nousi-116-suteen",
+      "published_at": "2026-11-27T12:09:17+00:00",
+      "summary": "Sudenmetsästyksen kiintiö nousi 116 suteen\n\n            Kyllä\n      tero.ylioja@me…\nPe, 27.11.2026 - 14:09\n\n\n              \n\n\n\n      \n            Metsästäjäliitto on tyytyväinen siihen, että myönnetyssä susikiintiössä on hyödynnetty tuoreimpia tietoja alueiden susimäärästä, kuten liitto asiantuntija",
+      "why_relevant": "Sudenkannan ja metsästyskiintiön muutos vaikuttaa suoraan petopolitiikkaan, metsästyksen käytäntöihin ja siihen, miten susiasia kannattaa huomioida omassa sisällössäsi ja metsästysnäkökulmassa.",
+      "homepage_eligible": true,
+      "homepage_score": 86,
+      "keep_days": 4,
+      "personal_relevance": 5,
+      "strategic_importance": 5,
+      "actionability": 4,
+      "novelty": 4,
+      "event_key": "sudenmetsastys-kiintio-116",
+      "category": "tärkea"
+    }
+  ]
+}
